@@ -1,0 +1,75 @@
+name: update-pig-data
+
+on:
+  schedule:
+    - cron: '30 8 * * *'        # 每日 UTC 08:30 = 北京 16:30（收盘后）
+    - cron: '0 1 10 * *'        # 每月10日 09:00 北京：月报/周报
+    - cron: '0 1 15 * *'        # 每月15日 09:00 北京：能繁母猪
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pig-pages
+  cancel-in-progress: true
+
+jobs:
+  daily:
+    if: github.event.schedule == '30 8 * * *' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -r requirements.txt
+      - run: python scripts/fetch_daily.py
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+      - run: python scripts/signals.py
+
+  monthly_sow:
+    if: github.event.schedule == '0 1 15 * *'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -r requirements.txt
+      - run: python scripts/fetch_monthly.py
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+      - run: python scripts/signals.py
+
+  monthly_reports:
+    if: github.event.schedule == '0 1 10 * *'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -r requirements.txt
+      - run: python scripts/fetch_reports.py
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+
+  deploy:
+    # 任一数据 job 成功后，把最新 data/*.json 打包进 site/ 并发布 Pages
+    if: always() && (needs.daily.result == 'success' || needs.monthly_sow.result == 'success' || needs.monthly_reports.result == 'success')
+    needs: [daily, monthly_sow, monthly_reports]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Copy data into site
+        run: |
+          mkdir -p site/data
+          cp data/*.json site/data/
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - uses: actions/deploy-pages@v4

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "sow_culling",
+    "name": "能繁母猪去化",
+    "desc": "存栏环比降幅≥1% 且连续3个月",
+    "field": "sow_mom",
+    "op": "<=",
+    "threshold": -1.0
+  },
+  {
+    "id": "holding_green",
+    "name": "产能进绿色区下沿",
+    "desc": "占正常保有量 ≤ 96%",
+    "field": "sow_holding_pct",
+    "op": "<=",
+    "threshold": 96.0
+  },
+  {
+    "id": "price_floor",
+    "name": "价格站稳成本线",
+    "desc": "现货猪价 ≥ 14 元/公斤",
+    "field": "spot_pig",
+    "op": ">=",
+    "threshold": 14.0
+  },
+  {
+    "id": "profit_turn",
+    "name": "脱离深亏区",
+    "desc": "猪粮比 ≥ 6",
+    "field": "pig_grain_ratio",
+    "op": ">=",
+    "threshold": 6.0
+  },
+  {
+    "id": "futures_contango",
+    "name": "期货远月升水",
+    "desc": "LH远月合约收盘价 > 近月",
+    "field": "lh_far_near_spread",
+    "op": ">",
+    "threshold": 0
+  },
+  {
+    "id": "frozen_ok",
+    "name": "冻品库容消化",
+    "desc": "库容率 ≤ 60%",
+    "field": "frozen_capacity_pct",
+    "op": "<=",
+    "threshold": 60.0
+  }
+]

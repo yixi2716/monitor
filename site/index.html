@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>猪周期监测 · 拐点信号台</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%2316211C' stroke='%23E8934A' stroke-width='4'/%3E%3Cpath d='M12 38 Q22 20 32 34 T52 28' fill='none' stroke='%23E8934A' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://miaoda.feishu.cn">
+<link href="https://miaoda.feishu.cn/fonts/css2?family=Noto+Sans+SC:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0F1613;
+    --surface: #16211C;
+    --surface-2: #1B2822;
+    --border: #24342C;
+    --text: #E8EDE9;
+    --muted: #8FA39A;
+    --accent: #E8934A;
+    --green: #3FBF7F;
+    --yellow: #E0B341;
+    --red: #D96A5C;
+    --gray: #9AA8A0;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Noto Sans SC", "Microsoft YaHei", "PingFang SC", sans-serif;
+    line-height: 1.55;
+    padding: 24px clamp(16px, 4vw, 48px) 48px;
+  }
+  .wrap { max-width: 1240px; margin: 0 auto; }
+
+  /* ---------- 顶栏 ---------- */
+  header.top {
+    display: flex; flex-wrap: wrap; align-items: center; gap: 16px 24px;
+    padding-bottom: 20px; margin-bottom: 24px;
+    border-bottom: 1px solid var(--border);
+  }
+  .brand { display: flex; align-items: center; gap: 12px; }
+  .brand svg { width: 40px; height: 40px; flex: none; }
+  .brand h1 { font-size: 20px; font-weight: 900; letter-spacing: 0.02em; }
+  .brand p { color: var(--muted); font-size: 12px; }
+  .statusbar {
+    margin-left: auto; display: flex; align-items: center; gap: 14px;
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 12px; padding: 10px 16px;
+  }
+  .verdict { font-size: 18px; font-weight: 700; }
+  .verdict.watch { color: var(--yellow); }
+  .verdict.peak { color: var(--green); }
+  .verdict.down { color: var(--muted); }
+  .score { font-size: 26px; font-weight: 900; color: var(--accent); font-variant-numeric: tabular-nums; }
+  .score small { font-size: 12px; color: var(--muted); font-weight: 500; display: block; text-align: center; }
+  .meta { color: var(--muted); font-size: 12px; }
+  button#btn-refresh {
+    background: transparent; color: var(--muted); border: 1px solid var(--border);
+    border-radius: 8px; padding: 6px 12px; cursor: pointer; font-size: 12px;
+  }
+  button#btn-refresh:hover { color: var(--text); border-color: var(--gray); }
+
+  /* ---------- 区块 ---------- */
+  .block {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 12px; padding: 18px 20px; margin-bottom: 20px;
+  }
+  .block h2 {
+    font-size: 14px; font-weight: 700; color: var(--muted);
+    letter-spacing: 0.08em; margin-bottom: 14px;
+    display: flex; align-items: center; gap: 8px;
+  }
+  .block h2 .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--accent); flex: none; }
+
+  /* ---------- 信号灯卡片 ---------- */
+  .sig-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px;
+  }
+  .sig-card {
+    display: flex; gap: 12px; align-items: flex-start;
+    background: var(--surface-2); border: 1px solid var(--border);
+    border-left-width: 3px; border-radius: 10px; padding: 12px 14px;
+  }
+  .sig-card.green { border-left-color: var(--green); }
+  .sig-card.yellow { border-left-color: var(--yellow); }
+  .sig-card.gray { border-left-color: var(--gray); }
+  .lamp {
+    width: 10px; height: 10px; border-radius: 50%; flex: none; margin-top: 5px;
+    background: var(--gray); box-shadow: 0 0 6px rgba(154,168,160,0.5);
+  }
+  .sig-card.green .lamp { background: var(--green); box-shadow: 0 0 8px rgba(63,191,127,0.7); }
+  .sig-card.yellow .lamp { background: var(--yellow); box-shadow: 0 0 8px rgba(224,179,65,0.7); }
+  .sig-name { font-weight: 700; font-size: 14px; }
+  .sig-value { font-size: 13px; color: var(--accent); font-variant-numeric: tabular-nums; margin: 2px 0; }
+  .sig-desc { font-size: 12px; color: var(--muted); }
+
+  /* ---------- 待复核 ---------- */
+  .pending-item {
+    display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap;
+    font-size: 13px; padding: 8px 10px; border-radius: 8px;
+    background: var(--surface-2); margin-bottom: 8px; color: var(--muted);
+  }
+  .pending-item code {
+    background: rgba(224,179,65,0.12); color: var(--yellow);
+    padding: 2px 8px; border-radius: 6px; font-size: 12px;
+  }
+  .empty { color: var(--muted); font-size: 13px; }
+
+  /* ---------- 图表 ---------- */
+  .charts { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  .chart-box { height: 300px; width: 100%; }
+  .chart-box.tall { height: 340px; }
+
+  /* ---------- 页脚 ---------- */
+  footer {
+    color: var(--muted); font-size: 12px; border-top: 1px solid var(--border);
+    padding-top: 16px; margin-top: 8px; line-height: 1.8;
+  }
+  footer b { color: var(--text); font-weight: 500; }
+
+  @media (max-width: 900px) {
+    .sig-grid { grid-template-columns: repeat(2, 1fr); }
+    .charts { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 560px) {
+    .sig-grid { grid-template-columns: 1fr; }
+    .statusbar { width: 100%; }
+    .sig-value, .sig-desc { font-size: 14px; }
+    button#btn-refresh { min-height: 40px; min-width: 48px; }
+    .brand p { font-size: 13px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="top">
+    <div class="brand">
+      <svg viewBox="0 0 64 64" aria-hidden="true">
+        <circle cx="32" cy="32" r="30" fill="#16211C" stroke="#E8934A" stroke-width="4"/>
+        <path d="M12 38 Q22 20 32 34 T52 28" fill="none" stroke="#E8934A" stroke-width="4" stroke-linecap="round"/>
+      </svg>
+      <div>
+        <h1>猪周期监测 · 拐点信号台</h1>
+        <p>生猪价格 / 产能 / 期货期限结构 · 规则驱动信号灯</p>
+      </div>
+    </div>
+    <div class="statusbar">
+      <div class="verdict" id="verdict">加载中</div>
+      <div class="score"><span id="score">—</span><small>信号通过数</small></div>
+      <div class="meta" id="date"></div>
+      <button id="btn-refresh" type="button">刷新</button>
+    </div>
+  </header>
+
+  <section class="block">
+    <h2><span class="dot"></span>拐点信号灯</h2>
+    <div class="sig-grid" id="signals"></div>
+  </section>
+
+  <section class="block">
+    <h2><span class="dot"></span>待人工复核 <span id="pending-count" style="color:var(--yellow)"></span></h2>
+    <div id="pending-list"></div>
+    <p class="empty" style="margin-top:8px">LLM 提取结果一律不直接进入信号计算；核对原始公告后把 manual.json 中对应记录的 need_review 改为 false 并推送，产能类信号才会点亮。</p>
+  </section>
+
+  <div class="charts">
+    <section class="block">
+      <h2><span class="dot"></span>价格走势 · 现货 / 期货</h2>
+      <div class="chart-box" id="chart-price"></div>
+    </section>
+    <section class="block">
+      <h2><span class="dot"></span>猪粮比 · 盈亏参考带</h2>
+      <div class="chart-box" id="chart-ratio"></div>
+    </section>
+  </div>
+
+  <section class="block">
+    <h2><span class="dot"></span>LH 期货期限结构</h2>
+    <div class="chart-box tall" id="chart-curve"></div>
+    <p class="empty" style="margin-top:8px">绿色柱表示该合约价格高于最近月合约（远月升水 / contango），红色柱为贴水。</p>
+  </section>
+
+  <footer>
+    <b>数据链路</b>：期货主力与全合约（akshare·新浪）→ 现货猪价（生意社）→ 能繁母猪（农业农村部公告，正则优先、DeepSeek 兜底）→ 猪企月报/周报（巨潮 + DeepSeek 提取，人工复核后入库）。<br>
+    <b>信号规则</b>：阈值集中在 config/rules.json，可自行调整；LLM 只做提取不做判断，信号灯由代码确定性执行。<br>
+    <b>风险提示</b>：本仪表盘仅作周期研究与参考，不构成任何投资建议。
+  </footer>
+
+</div>
+
+<script>
+  /* 本地 file:// 预览备用数据。GitHub Pages 部署时自动使用 fetch 读取 data/*.json，
+     此对象为空时不生效；本地预览可将各 JSON 内容填入后直接打开本文件。 */
+  window.__PIG_DATA__ = null;
+</script>
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
