@@ -1,22 +1,22 @@
 {
   "date": "2026-09-23",
-  "score": "1/6",
-  "verdict": "下行/出清阶段",
+  "score": "3/6",
+  "verdict": "磨底观察中",
   "signals": [
     {
       "id": "sow_culling",
       "name": "能繁母猪去化",
       "desc": "存栏环比降幅≥1% 且连续3个月",
-      "status": "gray",
-      "value": null,
+      "status": "green",
+      "value": -3.2,
       "threshold": -1.0
     },
     {
       "id": "holding_green",
       "name": "产能进绿色区下沿",
       "desc": "占正常保有量 ≤ 96%",
-      "status": "gray",
-      "value": null,
+      "status": "yellow",
+      "value": 100.8,
       "threshold": 96.0
     },
     {
@@ -47,12 +47,10 @@
       "id": "frozen_ok",
       "name": "冻品库容消化",
       "desc": "库容率 ≤ 60%",
-      "status": "gray",
-      "value": null,
+      "status": "green",
+      "value": 32.28,
       "threshold": 60.0
     }
   ],
-  "pending_review": [
-    "sow"
-  ]
+  "pending_review": []
 }
