@@ -8,7 +8,8 @@
     latest: null,
     history: null,
     signals: null,
-    manual: null
+    manual: null,
+    sow_history: null
   };
 
   function el(id) { return document.getElementById(id); }
@@ -26,7 +27,8 @@
       { key: "latest", url: "data/latest.json" },
       { key: "history", url: "data/history.json" },
       { key: "signals", url: "data/signals.json" },
-      { key: "manual", url: "data/manual.json" }
+      { key: "manual", url: "data/manual.json" },
+      { key: "sow_history", url: "data/sow_history.json" }
     ];
     return Promise.all(jobs.map(function (j) {
       return fetch(j.url)
@@ -260,6 +262,61 @@
     }, true);
   }
 
+  /* 能繁母猪存栏（季度）：柱状 + 正常保有量参考线 */
+  function renderSowChart() {
+    var c = chart("chart-sow");
+    if (!c) return;
+    var list = DATA.sow_history || [];
+    if (!list.length) {
+      c.setOption({
+        backgroundColor: "transparent",
+        title: { text: "暂无能繁母猪数据", textStyle: { color: "#8FA39A", fontSize: 13 } }
+      }, true);
+      return;
+    }
+    var dates = list.map(function (r) { return r.date; });
+    var vals = list.map(function (r) { return r.sow_wan; });
+    c.setOption({
+      backgroundColor: "transparent",
+      tooltip: {
+        trigger: "axis",
+        formatter: function (ps) {
+          var i = ps[0].dataIndex;
+          var r = list[i];
+          var s = ps[0].axisValue + "<br/>能繁母猪: " + r.sow_wan + " 万头";
+          if (r.mom_pct !== null && r.mom_pct !== undefined) s += "<br/>环比: " + r.mom_pct + "%";
+          if (r.yoy_pct !== null && r.yoy_pct !== undefined) s += " / 同比: " + r.yoy_pct + "%";
+          if (r.holding_pct !== null && r.holding_pct !== undefined) s += "<br/>占正常保有量: " + r.holding_pct + "%";
+          s += "<br/><span style='color:#8FA39A'>" + (r.note || r.source || "") + "</span>";
+          return s;
+        }
+      },
+      grid: { left: 60, right: 24, top: 24, bottom: 28 },
+      xAxis: {
+        type: "category", data: dates,
+        axisLine: { lineStyle: { color: AXIS.line } },
+        axisLabel: { color: AXIS.text }
+      },
+      yAxis: {
+        type: "value", name: "万头", nameTextStyle: { color: AXIS.text },
+        min: function (v) { return Math.floor(v.min / 100) * 100; },
+        splitLine: { lineStyle: { color: AXIS.split } },
+        axisLabel: { color: AXIS.text }
+      },
+      series: [{
+        type: "bar", data: vals, barWidth: "45%",
+        itemStyle: { color: "#E8934A" },
+        label: { show: true, position: "top", color: "#C9D4CE", fontSize: 11 },
+        markLine: {
+          silent: true, symbol: "none",
+          label: { color: "#8FA39A", fontSize: 11, position: "insideEndTop" },
+          lineStyle: { type: "dashed", color: "#5FA8D9" },
+          data: [{ yAxis: 3750, label: { formatter: "3750 正常保有量" } }]
+        }
+      }]
+    }, true);
+  }
+
   /* ---------- 主入口 ---------- */
   function renderAll() {
     renderHeader();
@@ -268,6 +325,7 @@
     if (window.echarts) {
       renderPriceChart();
       renderRatioChart();
+      renderSowChart();
       renderCurveChart();
     } else {
       el("chart-price").innerHTML = '<p class="empty">ECharts 加载失败，请检查网络后刷新。</p>';

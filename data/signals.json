@@ -52,5 +52,7 @@
       "threshold": 60.0
     }
   ],
-  "pending_review": []
+  "pending_review": [
+    "sow"
+  ]
 }
