@@ -30,7 +30,7 @@
     "op": ">=",
     "threshold": 14.0,
     "source": [
-      {"text": "生意社·生猪现货价格（每日）", "url": "https://www.100ppi.com/"}
+      {"text": "生意社·生猪现货基准价（每日更新）", "url": "https://www.100ppi.com/"}
     ]
   },
   {
@@ -41,7 +41,7 @@
     "op": ">=",
     "threshold": 6.0,
     "source": [
-      {"text": "猪粮比 = 生意社现货 ÷ 大连玉米期货", "url": "https://finance.sina.com.cn/futures/quotes/C0.shtml"}
+      {"text": "猪粮比 = 生意社现货 ÷ 大商所玉米期货（每日更新）", "url": "https://finance.sina.com.cn/futures/quotes/C0.shtml"}
     ]
   },
   {
@@ -52,7 +52,7 @@
     "op": ">",
     "threshold": 0,
     "source": [
-      {"text": "大连商品交易所生猪期货（新浪行情）", "url": "https://finance.sina.com.cn/futures/quotes/LH0.shtml"}
+      {"text": "大商所生猪期货 LH（新浪行情，每日更新）", "url": "https://finance.sina.com.cn/futures/quotes/LH0.shtml"}
     ]
   },
   {

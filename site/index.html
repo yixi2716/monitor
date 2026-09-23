@@ -110,6 +110,8 @@
     padding: 2px 8px; border-radius: 6px; font-size: 12px;
   }
   .empty { color: var(--muted); font-size: 13px; }
+  .empty a { color: #7FB5E8; text-decoration: none; word-break: break-all; }
+  .empty a:hover { text-decoration: underline; }
 
   /* ---------- 图表 ---------- */
   .charts { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
@@ -173,10 +175,12 @@
     <section class="block">
       <h2><span class="dot"></span>价格走势 · 现货 / 期货</h2>
       <div class="chart-box" id="chart-price"></div>
+      <p class="empty" style="margin-top:8px">数据源：现货猪价（<a href="https://www.100ppi.com/" target="_blank" rel="noopener noreferrer">生意社·生猪基准价</a>，每日收盘后更新）；LH 期货收盘价（大连商品交易所，经<a href="https://finance.sina.com.cn/futures/quotes/LH0.shtml" target="_blank" rel="noopener noreferrer">新浪行情</a>）。</p>
     </section>
     <section class="block">
       <h2><span class="dot"></span>猪粮比 · 盈亏参考带</h2>
       <div class="chart-box" id="chart-ratio"></div>
+      <p class="empty" style="margin-top:8px">数据源：<a href="https://www.100ppi.com/" target="_blank" rel="noopener noreferrer">生意社</a>现货猪价 ÷ 大连商品交易所玉米期货收盘（经<a href="https://finance.sina.com.cn/futures/quotes/C0.shtml" target="_blank" rel="noopener noreferrer">新浪行情</a>），每日更新。</p>
     </section>
   </div>
 
