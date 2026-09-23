@@ -6,6 +6,8 @@ on:
     - cron: '0 1 10 * *'        # 每月10日 09:00 北京：月报/周报
     - cron: '0 1 15 * *'        # 每月15日 09:00 北京：能繁母猪
   workflow_dispatch:
+  push:
+    branches: [main]            # 数据脚本每日提交后自动触发部署（daily job 会跳过）
 
 permissions:
   contents: write
@@ -59,8 +61,8 @@ jobs:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
 
   deploy:
-    # 任一数据 job 成功后，把最新 data/*.json 打包进 site/ 并发布 Pages
-    if: always() && (needs.daily.result == 'success' || needs.monthly_sow.result == 'success' || needs.monthly_reports.result == 'success')
+    # push（daily 自动提交的数据）或任一数据 job 成功后部署 Pages
+    if: always() && (github.event_name == 'push' || needs.daily.result == 'success' || needs.monthly_sow.result == 'success' || needs.monthly_reports.result == 'success')
     needs: [daily, monthly_sow, monthly_reports]
     runs-on: ubuntu-latest
     steps:

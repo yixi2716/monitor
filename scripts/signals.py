@@ -74,7 +74,8 @@ def main():
             green += 1
         signals.append({"id": r["id"], "name": r["name"], "desc": r["desc"],
                         "status": status,
-                        "value": values.get(r["field"]), "threshold": r["threshold"]})
+                        "value": values.get(r["field"]), "threshold": r["threshold"],
+                        "source": r.get("source") or []})
 
     n = len(signals)
     verdict = ("拐点确认区" if green >= n - 1 else

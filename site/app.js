@@ -87,6 +87,26 @@
       body.appendChild(name);
       body.appendChild(val);
       body.appendChild(desc);
+      var src = sig.source || [];
+      if (src.length) {
+        var srcRow = document.createElement("div");
+        srcRow.className = "sig-src";
+        srcRow.appendChild(document.createTextNode("来源 "));
+        src.forEach(function (s, i) {
+          if (i > 0) srcRow.appendChild(document.createTextNode(" · "));
+          if (s.url) {
+            var a = document.createElement("a");
+            a.href = s.url;
+            a.target = "_blank";
+            a.rel = "noopener noreferrer";
+            a.textContent = s.text;
+            srcRow.appendChild(a);
+          } else {
+            srcRow.appendChild(document.createTextNode(s.text));
+          }
+        });
+        body.appendChild(srcRow);
+      }
       card.appendChild(body);
       box.appendChild(card);
     });
@@ -137,6 +157,26 @@
     split: "#1E2C25"
   };
 
+  /* dataZoom：默认显示最近 60 个交易日，可拖动/滚轮回看全历史 */
+  function zoomRange(dates) {
+    var start = Math.max(0, dates.length - 60);
+    return { startValue: start, endValue: dates.length - 1 };
+  }
+
+  function makeZoom(dates) {
+    var r = zoomRange(dates);
+    return [
+      { type: "inside", startValue: r.startValue, endValue: r.endValue,
+        zoomOnMouseWheel: true, moveOnMouseMove: true },
+      { type: "slider", startValue: r.startValue, endValue: r.endValue,
+        height: 18, bottom: 4, borderColor: "transparent",
+        backgroundColor: "#16211C", fillerColor: "rgba(232,147,74,0.16)",
+        handleStyle: { color: "#E8934A", borderColor: "#E8934A" },
+        dataBackground: { lineStyle: { color: "#3A4D43" }, areaStyle: { color: "rgba(90,120,105,0.2)" } },
+        textStyle: { color: "#8FA39A" } }
+    ];
+  }
+
   /* 价格走势：现货猪价(左轴) + LH期货收盘(右轴) */
   function renderPriceChart() {
     var c = chart("chart-price");
@@ -149,7 +189,8 @@
       backgroundColor: "transparent",
       tooltip: { trigger: "axis" },
       legend: { data: ["现货猪价(元/公斤)", "LH期货(元/吨)"], textStyle: { color: "#8FA39A" }, top: 0 },
-      grid: { left: 56, right: 56, top: 36, bottom: 28 },
+      grid: { left: 56, right: 56, top: 36, bottom: 60 },
+      dataZoom: makeZoom(dates),
       xAxis: {
         type: "category", data: dates, boundaryGap: false,
         axisLine: { lineStyle: { color: AXIS.line } },
@@ -191,7 +232,8 @@
     c.setOption({
       backgroundColor: "transparent",
       tooltip: { trigger: "axis" },
-      grid: { left: 48, right: 24, top: 24, bottom: 28 },
+      grid: { left: 48, right: 24, top: 24, bottom: 60 },
+      dataZoom: makeZoom(dates),
       xAxis: {
         type: "category", data: dates, boundaryGap: false,
         axisLine: { lineStyle: { color: AXIS.line } },

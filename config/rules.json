@@ -5,7 +5,11 @@
     "desc": "存栏环比降幅≥1% 且连续3个月",
     "field": "sow_mom",
     "op": "<=",
-    "threshold": -1.0
+    "threshold": -1.0,
+    "source": [
+      {"text": "农业农村部国新办发布会 2026-07-24", "url": "https://wap.chinanews.com/wap/detail/chs/zw/10665821.shtml"},
+      {"text": "国家统计局（2025年末3961万头）", "url": "http://m.ce.cn/village/202604/t20260430_2940294.shtml"}
+    ]
   },
   {
     "id": "holding_green",
@@ -13,7 +17,10 @@
     "desc": "占正常保有量 ≤ 96%",
     "field": "sow_holding_pct",
     "op": "<=",
-    "threshold": 96.0
+    "threshold": 96.0,
+    "source": [
+      {"text": "农业农村部国新办发布会 2026-07-24", "url": "https://wap.chinanews.com/wap/detail/chs/zw/10665821.shtml"}
+    ]
   },
   {
     "id": "price_floor",
@@ -21,7 +28,10 @@
     "desc": "现货猪价 ≥ 14 元/公斤",
     "field": "spot_pig",
     "op": ">=",
-    "threshold": 14.0
+    "threshold": 14.0,
+    "source": [
+      {"text": "生意社·生猪现货价格（每日）", "url": "https://www.100ppi.com/"}
+    ]
   },
   {
     "id": "profit_turn",
@@ -29,7 +39,10 @@
     "desc": "猪粮比 ≥ 6",
     "field": "pig_grain_ratio",
     "op": ">=",
-    "threshold": 6.0
+    "threshold": 6.0,
+    "source": [
+      {"text": "猪粮比 = 生意社现货 ÷ 大连玉米期货", "url": "https://finance.sina.com.cn/futures/quotes/C0.shtml"}
+    ]
   },
   {
     "id": "futures_contango",
@@ -37,7 +50,10 @@
     "desc": "LH远月合约收盘价 > 近月",
     "field": "lh_far_near_spread",
     "op": ">",
-    "threshold": 0
+    "threshold": 0,
+    "source": [
+      {"text": "大连商品交易所生猪期货（新浪行情）", "url": "https://finance.sina.com.cn/futures/quotes/LH0.shtml"}
+    ]
   },
   {
     "id": "frozen_ok",
@@ -45,6 +61,9 @@
     "desc": "库容率 ≤ 60%",
     "field": "frozen_capacity_pct",
     "op": "<=",
-    "threshold": 60.0
+    "threshold": 60.0,
+    "source": [
+      {"text": "华金期货生猪周报 2026-09-14（8月库容率32.28%）", "url": "https://www.huajinqh.com/UserFiles/upload/file/20260916/%E7%94%9F%E7%8C%AA%E5%91%A8%E6%8A%A5_20260914.pdf"}
+    ]
   }
 ]

@@ -92,6 +92,12 @@
   .sig-name { font-weight: 700; font-size: 14px; }
   .sig-value { font-size: 13px; color: var(--accent); font-variant-numeric: tabular-nums; margin: 2px 0; }
   .sig-desc { font-size: 12px; color: var(--muted); }
+  .sig-src {
+    margin-top: 6px; font-size: 11px; color: var(--muted); line-height: 1.5;
+    border-top: 1px dashed var(--border); padding-top: 6px;
+  }
+  .sig-src a { color: #7FB5E8; text-decoration: none; word-break: break-all; }
+  .sig-src a:hover { text-decoration: underline; }
 
   /* ---------- 待复核 ---------- */
   .pending-item {
@@ -200,6 +206,12 @@
   window.__PIG_DATA__ = null;
 </script>
 <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
+<script>
+  /* jsDelivr 不可达时自动切换到 cdnjs 备用镜像（字节一致） */
+  if (!window.echarts) {
+    document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.5.1/echarts.min.js"><\/script>');
+  }
+</script>
 <script src="app.js"></script>
 </body>
 </html>
