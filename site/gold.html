@@ -341,7 +341,7 @@ function renderCharts(H) {
     series: [
       {name: '黄金', type: 'line', data: norm('gold'), smooth: true, symbol: 'none', lineStyle: {color: '#E8B84A', width: 2}},
       {name: 'DXY 美元', type: 'line', data: norm('dxy'), smooth: true, symbol: 'none', lineStyle: {color: '#7FB5E8', width: 1.5}},
-      {name: 'VIX 恐慌', type: 'line', data: norm('vix'), smooth: true, symbol: 'none', lineStyle: {color: '#D96A5C', width: 1.5}},
+      {name: 'VIX 恐慌', type: 'line', data: norm('vix'), smooth: true, symbol: 'none', lineStyle: {color: '#FF9F43', width: 1.5}},
       {name: 'TIP 实际利率', type: 'line', data: norm('tip'), smooth: true, symbol: 'none', lineStyle: {color: '#3FBF7F', width: 1.5}},
     ]
   });
@@ -358,7 +358,7 @@ function renderCharts(H) {
     series: [
       {name: '黄金-DXY', type: 'line', data: H.map(r => r.corr_dxy), smooth: true, symbol: 'none', lineStyle: {color: '#7FB5E8', width: 1.5}},
       {name: '黄金-TIP', type: 'line', data: H.map(r => r.corr_tip), smooth: true, symbol: 'none', lineStyle: {color: '#3FBF7F', width: 1.5}},
-      {name: '黄金-VIX', type: 'line', data: H.map(r => r.corr_vix), smooth: true, symbol: 'none', lineStyle: {color: '#D96A5C', width: 1.5}},
+      {name: '黄金-VIX', type: 'line', data: H.map(r => r.corr_vix), smooth: true, symbol: 'none', lineStyle: {color: '#FF9F43', width: 1.5}},
       {name: '0 轴', type: 'line', data: dates.map(() => 0), symbol: 'none', lineStyle: {color: '#24342C', width: 1, type: 'dashed'}},
     ]
   });
