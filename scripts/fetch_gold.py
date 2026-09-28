@@ -199,6 +199,62 @@ def build_signals(df: pd.DataFrame):
     return signals, score, summary
 
 
+def call_deepseek(data: dict) -> str:
+    """把看板数据喂给 DeepSeek，返回综合分析文本。失败返回空字符串。"""
+    api_key = os.environ.get("DEEPSEEK_API_KEY", "").strip()
+    if not api_key:
+        print("    [skip] 未配置 DEEPSEEK_API_KEY，跳过 AI 分析")
+        return ""
+    m = data.get("macro", {})
+    g = data.get("geopolitics", {})
+    sig_lines = "\n".join(f"  - {s['name']}（{s['dir']}）：{s['text']}" for s in data.get("signals", []))
+    prompt = f"""你是黄金宏观分析师。基于以下今日看板数据，用中文给出 200-300 字的综合判断。
+要求：
+1. 先一句话定调（当前多空格局）
+2. 指出当前最主导的 1-2 个驱动因素
+3. 提示 1-2 个未来一周需要盯的风险点
+4. 不要套话，不要"投资需谨慎"这种免责声明，直接说观点
+5. 用普通人能懂的话，不要堆砌术语
+
+今日数据：
+- 金价：${data['gold']}（{data['gold_chg']:+.2f}%），MA20={data['ma20']}，MA50={data['ma50']}
+- 定价模式：{data['mode_name']}（置信度 {data['confidence']}）
+- VIX={data['vix']}，DXY={data['dxy']}，10Y美债={data['tnx']}%
+- 5条每日信号：
+{sig_lines}
+- 综合评分：{data['score']}
+- 美联储：当前利率 {m.get('funds_range','')}，距下次FOMC还有 {m.get('days_to_next','?')} 天，{m.get('market_expectation','')}
+- 美伊局势：紧张度 {g.get('level','')}，WTI原油 ${g.get('wti_price','?')}（{g.get('wti_chg',0):+.2f}%）
+"""
+    body = json.dumps({
+        "model": "deepseek-chat",
+        "messages": [
+            {"role": "system", "content": "你是严谨的黄金宏观分析师，擅长把复杂数据翻译成通俗判断。"},
+            {"role": "user", "content": prompt},
+        ],
+        "temperature": 0.3,
+        "max_tokens": 500,
+    }).encode("utf-8")
+    req = urllib.request.Request(
+        "https://api.deepseek.com/v1/chat/completions",
+        data=body,
+        headers={
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json",
+        },
+        method="POST",
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            resp = json.loads(r.read().decode("utf-8"))
+        text = resp["choices"][0]["message"]["content"].strip()
+        print(f"    AI 分析生成成功（{len(text)} 字）")
+        return text
+    except Exception as e:
+        print(f"    [warn] DeepSeek API 调用失败: {e}")
+        return ""
+
+
 def fetch_iran_news(limit=6):
     """从 Google News RSS 拉最近 7 天美伊相关新闻。返回 [{date, text, url, src}]，失败返回 []。"""
     url = ("https://news.google.com/rss/search?q=Iran+US+nuclear+when:7d"
@@ -391,6 +447,12 @@ def main():
         })
 
     print("[4/4] 写 JSON...")
+
+    # AI 综合分析（在写文件前调用，把最新数据喂给 DeepSeek）
+    print("    调用 DeepSeek 生成综合分析...")
+    analysis = call_deepseek(latest)
+    latest["ai_analysis"] = analysis
+    latest["ai_date"] = latest["date"]
     os.makedirs(SITE_DATA_DIR, exist_ok=True)
     with open(os.path.join(DATA_DIR, "gold_latest.json"), "w", encoding="utf-8") as f:
         json.dump(latest, f, ensure_ascii=False, indent=2)
