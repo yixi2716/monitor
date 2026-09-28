@@ -135,5 +135,29 @@
       "vix": 14.87,
       "tip": 104.54
     }
-  ]
+  ],
+  "macro": {
+    "funds_range": "3.75% – 4.00%",
+    "last_change": "2026-09-16 加息 25bp",
+    "next_label": "10/27–28 议息会议",
+    "next_date": "2026-10-28",
+    "days_to_next": 33,
+    "upcoming": [
+      {
+        "date": "2026-10-28",
+        "label": "10/27–28 FOMC",
+        "dot_plot": false
+      },
+      {
+        "date": "2026-12-09",
+        "label": "12/8–9 FOMC（点阵图+经济预测）",
+        "dot_plot": true
+      }
+    ],
+    "zq_price": 96.25,
+    "zq_implied_rate": 3.75,
+    "market_bp_vs_current": -25.0,
+    "market_expectation": "市场预期降息 25bp",
+    "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+  }
 }

@@ -28,6 +28,7 @@ TICKERS = {
     "VIX": "^VIX",       # 恐慌指数
     "TIP": "TIP",        # iShares TIPS ETF（实际利率反向代理）
     "TNX": "^TNX",       # 10 年美债收益率（%）
+    "ZQ": "ZQ=F",        # 30 天联邦基金期货（隐含政策利率预期）
 }
 
 
@@ -208,6 +209,48 @@ def main():
     mode, conf, evid = detect_mode(df)
     signals, score, summary = build_signals(df)
 
+    # === 美联储宏观信息 ===
+    cfg_path = os.path.join(ROOT, "config", "gold_macro.json")
+    macro = {}
+    if os.path.exists(cfg_path):
+        try:
+            with open(cfg_path, encoding="utf-8") as f:
+                macro = json.load(f)
+        except Exception:
+            macro = {}
+    # ZQ 隐含利率
+    zq_price = float(px["ZQ"].iloc[-1])
+    zq_implied = round(100.0 - zq_price, 2)  # ZQ 期货价格 = 100 - 隐含联邦基金利率
+    fed_upper = float(macro.get("fed_funds_upper", 4.0))
+    fed_bp_diff = round((zq_implied - fed_upper) * 100, 0)  # 与当前政策利率上限差多少 bp
+    # 距离下次 FOMC 天数
+    next_fomc_str = macro.get("next_fomc", "")
+    days_to_fomc = None
+    if next_fomc_str:
+        try:
+            nxt = datetime.datetime.strptime(next_fomc_str, "%Y-%m-%d").date()
+            today = df.index[-1].date()
+            days_to_fomc = (nxt - today).days
+        except Exception:
+            pass
+    macro_block = {
+        "funds_range": macro.get("fed_funds_range", ""),
+        "last_change": macro.get("last_change", ""),
+        "next_label": macro.get("next_fomc_label", ""),
+        "next_date": next_fomc_str,
+        "days_to_next": days_to_fomc,
+        "upcoming": macro.get("upcoming_fomc", []),
+        "zq_price": round(zq_price, 2),
+        "zq_implied_rate": zq_implied,
+        "market_bp_vs_current": fed_bp_diff,
+        "market_expectation": (
+            f"市场预期下次会议维持不变" if abs(fed_bp_diff) < 10
+            else (f"市场预期加息 {int(abs(fed_bp_diff))}bp" if fed_bp_diff > 0
+                  else f"市场预期降息 {int(abs(fed_bp_diff))}bp")
+        ),
+        "source_url": macro.get("source", ""),
+    }
+
     last = df.iloc[-1]
     prev = df.iloc[-2]
     gold_chg = (last["gold"] / prev["gold"] - 1) * 100
@@ -246,6 +289,7 @@ def main():
         "score": score,
         "score_summary": summary,
         "recent10": [],
+        "macro": macro_block,
     }
 
     # 最近 10 天表

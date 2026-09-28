@@ -104,6 +104,22 @@
   .src-note a { color: #7FB5E8; text-decoration: none; }
   .src-note a:hover { text-decoration: underline; }
 
+  /* 美联储板块 */
+  .fed-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+  .fed-card { background: var(--surface-2); border-radius: 10px; padding: 14px 16px; border-left: 3px solid var(--accent); }
+  .fed-card .lbl { color: var(--muted); font-size: 12px; }
+  .fed-card .val { font-size: 22px; font-weight: 900; margin: 4px 0 2px; font-variant-numeric: tabular-nums; }
+  .fed-card .sub { font-size: 12px; color: var(--muted); line-height: 1.5; }
+  .fed-card.cyan { border-left-color: #7FB5E8; }
+  .fed-card.cyan .val { color: #7FB5E8; }
+  .fed-card.orange { border-left-color: #FF9F43; }
+  .fed-card.orange .val { color: #FF9F43; }
+  .fed-card.green { border-left-color: var(--green); }
+  .fed-card.green .val { color: var(--green); }
+  .fed-card ul { list-style: none; margin-top: 6px; }
+  .fed-card ul li { font-size: 12px; color: var(--text); padding: 3px 0; border-bottom: 1px dashed var(--border); }
+  .fed-card ul li:last-child { border-bottom: none; }
+
   footer {
     color: var(--muted); font-size: 12px; border-top: 1px solid var(--border);
     padding-top: 16px; margin-top: 8px; line-height: 1.8;
@@ -148,6 +164,13 @@
     <a href="https://finance.yahoo.com/quote/%5ETNX" target="_blank" rel="noopener noreferrer" style="color:#7FB5E8;text-decoration:none">10 年期美债收益率 ^TNX</a>
     <span style="margin-left:8px">（均来自 Yahoo Finance，每日美股收盘后自动更新）</span>
   </div>
+
+  <!-- 美联储与利率预期 -->
+  <section class="block" style="margin-bottom:20px">
+    <h2><span class="dot"></span>美联储 · 利率路径预期</h2>
+    <div class="fed-grid" id="fed-grid"></div>
+    <p class="src-note">利率区间与 FOMC 日期来自 <a href="https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm" target="_blank" rel="noopener">美联储官网</a>；市场预期由 30 天联邦基金期货（ZQ=F）反推，每日更新。</p>
+  </section>
 
   <!-- 信号 + 模式证据 -->
   <div class="charts" style="margin-bottom:20px">
@@ -275,6 +298,35 @@ function renderEvidence(L) {
     <ol>${L.evidence.map(e => `<li>${e}</li>`).join('')}</ol>`;
 }
 
+function renderFed(L) {
+  const m = L.macro;
+  if (!m) return;
+  const expectColor = m.market_bp_vs_current > 5 ? 'orange' : (m.market_bp_vs_current < -5 ? 'green' : 'cyan');
+  const upcoming = (m.upcoming || []).map(u =>
+    `<li>${u.date} · ${u.label}${u.dot_plot ? ' <span style="color:var(--accent)">★</span>' : ''}</li>`
+  ).join('');
+  document.getElementById('fed-grid').innerHTML = `
+    <div class="fed-card">
+      <div class="lbl">当前联邦基金利率</div>
+      <div class="val">${m.funds_range}</div>
+      <div class="sub">${m.last_change || ''}</div>
+    </div>
+    <div class="fed-card cyan">
+      <div class="lbl">距下次 FOMC</div>
+      <div class="val">${m.days_to_next != null ? m.days_to_next + ' 天' : '—'}</div>
+      <div class="sub">${m.next_label || ''}<br>${m.next_date || ''}</div>
+    </div>
+    <div class="fed-card ${expectColor}">
+      <div class="lbl">市场预期下次会议</div>
+      <div class="val">${m.market_expectation}</div>
+      <div class="sub">期货隐含利率 ${m.zq_implied_rate.toFixed(2)}%<br>当前上限 ${m.fed_upper || 4.0}% · 差 ${m.market_bp_vs_current > 0 ? '+' : ''}${m.market_bp_vs_current}bp</div>
+    </div>
+    <div class="fed-card">
+      <div class="lbl">未来会议日程（★=点阵图）</div>
+      <ul>${upcoming}</ul>
+    </div>`;
+}
+
 function renderTable(L) {
   const rows = L.recent10.map(r => {
     const cls = r.gold_chg >= 0 ? 'chg-pos' : 'chg-neg';
@@ -380,6 +432,7 @@ function renderCharts(H) {
 
 load().then(({L, H, SH}) => {
   renderKPI(L);
+  renderFed(L);
   renderSignals(L);
   renderEvidence(L);
   renderTable(L);

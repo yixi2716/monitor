@@ -1,0 +1,12 @@
+{
+  "fed_funds_range": "3.75% – 4.00%",
+  "fed_funds_upper": 4.00,
+  "last_change": "2026-09-16 加息 25bp",
+  "next_fomc": "2026-10-28",
+  "next_fomc_label": "10/27–28 议息会议",
+  "upcoming_fomc": [
+    {"date": "2026-10-28", "label": "10/27–28 FOMC", "dot_plot": false},
+    {"date": "2026-12-09", "label": "12/8–9 FOMC（点阵图+经济预测）", "dot_plot": true}
+  ],
+  "source": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+}
