@@ -168,32 +168,45 @@
     "updated": "2026-09-28",
     "events": [
       {
-        "date": "2026-09-28",
-        "text": "特朗普称预计美伊几天内重启谈判，最早28日举行间接对话",
-        "url": "http://www.xinhuanet.com/world/20260928/b281534c03fc4a6885933397414c4946/c.html",
-        "src": "新华网"
-      },
-      {
         "date": "2026-09-26",
-        "text": "特朗普拒绝伊朗最新停火提案，称'他们提了方案，我拒绝了'",
-        "url": "https://www.aa.com.tr/en/americas/trump-says-he-rejected-iran-s-latest-proposal-from-indirect-talks-in-new-york/4070274",
-        "src": "Anadolu"
+        "text": "Exclusive | Trump Rejects Iran Ceasefire, Expects Renewed Bombing After Midterms",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbGVxM0NSSkVPVjdHTGNlUHBLbTdGTmh3OWZsTFRXVGVReHZGWmxEM2xjdUt4Y25KMVVyYlJ6WkdKZFVWdEFSVzFmcGx1X2lKTjd0MmxLak01UzgwYU5Iek1zazA1RzlhRXE0cGdhQzNtNFpUTVdhTWQ1Vk5DMWFxbHNEVTFLMTJRUFBFZjRNNU1UaHFoaDZqLWotX1RvUEhCVVotMElmMDdCRHB2RWFQVjMxNGs?oc=5",
+        "src": "WSJ"
       },
       {
         "date": "2026-09-25",
-        "text": "伊朗提出7天计划：停火+重开霍尔木兹海峡+开始核谈；称未满足条件前海峡保持关闭",
-        "url": "https://english.alarabiya.net/News/middle-east/2026/09/25/iran-will-make-no-nuclear-concessions-iranian-official-says",
-        "src": "Al Arabiya"
+        "text": "Iran rules out nuclear concessions even if US accepts Hormuz proposal",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1xYzYyR0NpT0VDaGp4d1RDOTYydmhUQVJxa1NRVHZ1azRwdGtpQTYyRzlPcGVNRXNDM0JKQmdQSFNoR3dUMHAzUVQ0dmlOTF9VSmc?oc=5",
+        "src": "Iran International"
       },
       {
-        "date": "2026-09-22",
-        "text": "联合国大会期间美特使威特科夫、库什纳与伊朗外长在纽约举行间接会晤",
-        "url": "http://www.xinhuanet.com/world/20260928/424a9ccf9a5142a3bf7e1f90bf2a48f6/c.html",
-        "src": "新华网"
+        "date": "2026-09-27",
+        "text": "Iran Is Pressed to Make Nuclear Concessions to Revive Peace Talks With U.S.",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeXp0VDVwMkZGQUR0OVFaQ0F6UHY3eDRsYmVadXFSWkRLQUhWVEZCVkFkdmZqd3FnMHBLQ05nWWZLV2p6MzVFWlVRYzZ5MDJURDczQ0FaMmdEOUNPTENwN3RRU01oOHpIdUNKenN6dnJWRzNWeVZwZFpuQ2RLakc0SE1qVTVLNDVsWTBIbm1Tc2N6V2N6aWNPN05wUmx1dkJLRE9Md0Vxd3ZVWTBhUDJoOWFOeGYydXRVRUE?oc=5",
+        "src": "WSJ"
+      },
+      {
+        "date": "2026-09-25",
+        "text": "Iran will make no nuclear concessions, Iranian official says",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORVpYNWQxeFFCcXEzQTZQdkM1LTJpVWc2RHpwOWtxbzV0OHg2aE12UGV1Y2VOQUN4WHdvOVB4YzBGT0ltckk5d0hDZGZUVXk3YWs0WnA5R2xjNmNBbkhHRzNra2pIQVlLa1pNQ29OV1QxQVdSTWJnaWZEYkVaaXJXa3d4cHVvV1o5VGlpWFRjUG9HVTFoMWw4TFZwNlI4aHJwQjU0UVRuZzJISFp0ZU9YQUw4VQ?oc=5",
+        "src": "Reuters"
+      },
+      {
+        "date": "2026-09-25",
+        "text": "Iran has suggested a deal to reopen the Strait of Hormuz in 7 days",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOczZkNFNvZkpweENjLTZ5eHpEbVdZcWpKSWE3bGtBanVfamo4ZTNfazZreldrM3NULU1aOVAwSU0ySlk1eUNsb1BJaU5CdlhWZnpxQ0w2VWszbUw0U3l6b0pGbFJHTVFISmFnUXVUZkdOLUlCTmIxM2dmQzJQVllad3gyQmtwSi1XSWh3NnZKRzRfUEd5MEEydTlseVItcTdxNkxr0gGoAUFVX3lxTE9PR1VBVVRhOTVURUs3alR4STFac2RGV09YQ2x2OFlOTU9salFTT21neWpVSGNXSU43Z3VGdHFwaHdwLTNCOG04ZGo1amtKUFFKaS1INFRqRk9sMjU3SDZydWZPb01WOU91UzJxdEFSSjlvTE51WENtMWZobjJmVnFBbkFHNW5zSmJkM0NSVUMxYUdxR29ZTk9aRTBBVUttZ3pQaXI4VU5pNg?oc=5",
+        "src": "PBS"
+      },
+      {
+        "date": "2026-09-25",
+        "text": "Iran offers to reopen Strait of Hormuz within 7 days and restart nuclear talks",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5aZ0hqeDJKZlFWZTE2eWwxei1Cd21MaFNkZFZPRWxzNllJdmUzUXVGMFZ6THlXempxQmo1NzhRV1FuNG1sd3hTSW9NT1hvSVdEMVhfVDI5bFBlYWk0T3pvTGd3ZXpjcDJIbEHSAW9BVV95cUxQbGRDUzktQ3JVU3VVcnpXSk5LN20tZEVPbEZ1d3NjSDJKa0xleWt4V054NFNtYU54WElPeWE5ZXk4VnlDVUg4TUIxaExtbGZBS2xkZEdXeVpPd0Z4VFk1cWo1QnRQSFBOUXNUUE5nbW8?oc=5",
+        "src": "CNBC"
       }
     ],
     "gold_impact": "双重作用：局势升级→避险买盘利多黄金；但同时油价飙升→通胀预期→美联储更难降息→利空黄金。当前谈判窗口期，油价波动会直接传导到金价。",
     "wti_price": 92.41,
-    "wti_chg": -2.33
+    "wti_chg": -2.33,
+    "news_auto": true
   }
 }

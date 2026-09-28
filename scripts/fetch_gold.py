@@ -7,6 +7,8 @@ import os
 import sys
 import json
 import datetime
+import urllib.request
+import xml.etree.ElementTree as ET
 
 # 本地开发走代理；GitHub Actions runner 在美国直连即可
 if os.environ.get("HTTP_PROXY") is None and sys.platform == "win32":
@@ -197,6 +199,40 @@ def build_signals(df: pd.DataFrame):
     return signals, score, summary
 
 
+def fetch_iran_news(limit=6):
+    """从 Google News RSS 拉最近 7 天美伊相关新闻。返回 [{date, text, url, src}]，失败返回 []。"""
+    url = ("https://news.google.com/rss/search?q=Iran+US+nuclear+when:7d"
+           "&hl=en-US&gl=US&ceid=US:en")
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+    try:
+        with urllib.request.urlopen(req, timeout=15) as r:
+            raw = r.read()
+        root = ET.fromstring(raw)
+        items = root.findall(".//item")[:limit]
+        out = []
+        for it in items:
+            title = (it.findtext("title") or "").strip()
+            link = (it.findtext("link") or "").strip()
+            pub = (it.findtext("pubDate") or "").strip()
+            # Google News 标题格式 "主标题 - 来源名"
+            src = ""
+            if " - " in title:
+                title, src = title.rsplit(" - ", 1)
+            # pubDate: "Mon, 28 Sep 2026 10:00:00 GMT"
+            date_str = ""
+            if pub:
+                try:
+                    dt = datetime.datetime.strptime(pub[:25], "%a, %d %b %Y %H:%M:%S")
+                    date_str = dt.strftime("%Y-%m-%d")
+                except Exception:
+                    date_str = pub[:16]
+            out.append({"date": date_str, "text": title, "url": link, "src": src or "Google News"})
+        return out
+    except Exception as e:
+        print(f"    [warn] Google News RSS 拉取失败: {e}")
+        return []
+
+
 def main():
     print("[1/4] 拉取 Yahoo Finance 数据...")
     px = fetch_all(period="1y")
@@ -263,16 +299,21 @@ def main():
             geo = {}
     cl_price = float(px["CL"].iloc[-1])
     cl_chg = (cl_price / float(px["CL"].iloc[-2]) - 1) * 100 if len(px) >= 2 else 0
+    # 自动爬 Google News RSS 美伊新闻，失败则用 config 里的静态事件
+    auto_events = fetch_iran_news(limit=6)
+    events = auto_events if auto_events else geo.get("events", [])
+    print(f"    地缘新闻: {len(auto_events)} 条自动抓取" if auto_events else "    地缘新闻: 使用 config 静态事件")
     geo_block = {
         "level": geo.get("level", ""),
         "level_color": geo.get("level_color", "orange"),
         "headline": geo.get("headline", ""),
         "summary": geo.get("summary", ""),
         "updated": geo.get("updated", ""),
-        "events": geo.get("events", []),
+        "events": events,
         "gold_impact": geo.get("gold_impact", ""),
         "wti_price": round(cl_price, 2),
         "wti_chg": round(cl_chg, 2),
+        "news_auto": bool(auto_events),
     }
 
     last = df.iloc[-1]
