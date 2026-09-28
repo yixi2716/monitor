@@ -305,25 +305,27 @@ function renderFed(L) {
   const upcoming = (m.upcoming || []).map(u =>
     `<li>${u.date} · ${u.label}${u.dot_plot ? ' <span style="color:var(--accent)">★</span>' : ''}</li>`
   ).join('');
+  const a = (href, txt) => `<a href="${href}" target="_blank" rel="noopener" style="color:#7FB5E8;text-decoration:none">${txt}</a>`;
   document.getElementById('fed-grid').innerHTML = `
     <div class="fed-card">
       <div class="lbl">当前联邦基金利率</div>
       <div class="val">${m.funds_range}</div>
-      <div class="sub">${m.last_change || ''}</div>
+      <div class="sub">${m.last_change || ''}<br>${a('https://www.federalreserve.gov/newsevents/pressreleases.htm', '来源：FOMC 声明 ↗')}</div>
     </div>
     <div class="fed-card cyan">
       <div class="lbl">距下次 FOMC</div>
       <div class="val">${m.days_to_next != null ? m.days_to_next + ' 天' : '—'}</div>
-      <div class="sub">${m.next_label || ''}<br>${m.next_date || ''}</div>
+      <div class="sub">${m.next_label || ''} · ${m.next_date || ''}<br>${a('https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm', '来源：美联储日历 ↗')}</div>
     </div>
     <div class="fed-card ${expectColor}">
       <div class="lbl">市场预期下次会议</div>
       <div class="val">${m.market_expectation}</div>
-      <div class="sub">期货隐含利率 ${m.zq_implied_rate.toFixed(2)}%<br>当前上限 ${m.fed_upper || 4.0}% · 差 ${m.market_bp_vs_current > 0 ? '+' : ''}${m.market_bp_vs_current}bp</div>
+      <div class="sub">期货隐含利率 ${m.zq_implied_rate.toFixed(2)}%<br>当前上限 ${m.fed_upper || 4.0}% · 差 ${m.market_bp_vs_current > 0 ? '+' : ''}${m.market_bp_vs_current}bp<br>${a('https://finance.yahoo.com/quote/ZQ%3DF', '来源：Yahoo ZQ=F 期货 ↗')}</div>
     </div>
     <div class="fed-card">
       <div class="lbl">未来会议日程（★=点阵图）</div>
       <ul>${upcoming}</ul>
+      <div class="sub" style="margin-top:6px">${a('https://www.chicagofed.org/utilities/about-us/federal-reserve-calendars', '来源：Chicago Fed 日历 ↗')}</div>
     </div>`;
 }
 
