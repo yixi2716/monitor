@@ -120,6 +120,19 @@
   .fed-card ul li { font-size: 12px; color: var(--text); padding: 3px 0; border-bottom: 1px dashed var(--border); }
   .fed-card ul li:last-child { border-bottom: none; }
 
+  /* 地缘风险 */
+  .geo-wrap { display: grid; grid-template-columns: 1fr 2fr; gap: 16px; }
+  .geo-left { background: var(--surface-2); border-radius: 10px; padding: 16px; border-left: 3px solid #FF9F43; }
+  .geo-left .lvl { font-size: 28px; font-weight: 900; color: #FF9F43; }
+  .geo-left .wti { margin-top: 10px; padding-top: 10px; border-top: 1px dashed var(--border); font-size: 13px; }
+  .geo-left .wti b { font-size: 18px; }
+  .geo-right .ev { padding: 8px 0; border-bottom: 1px dashed var(--border); font-size: 13px; line-height: 1.6; }
+  .geo-right .ev:last-child { border-bottom: none; }
+  .geo-right .ev .d { color: var(--muted); font-size: 12px; margin-right: 8px; }
+  .geo-right .ev a { color: #7FB5E8; text-decoration: none; }
+  .geo-impact { margin-top: 12px; padding: 10px 12px; background: rgba(232,147,74,0.08); border-radius: 8px; font-size: 12px; color: var(--text); line-height: 1.7; }
+  @media (max-width: 900px) { .geo-wrap { grid-template-columns: 1fr; } }
+
   footer {
     color: var(--muted); font-size: 12px; border-top: 1px solid var(--border);
     padding-top: 16px; margin-top: 8px; line-height: 1.8;
@@ -170,6 +183,12 @@
     <h2><span class="dot"></span>美联储 · 利率路径预期</h2>
     <div class="fed-grid" id="fed-grid"></div>
     <p class="src-note">利率区间与 FOMC 日期来自 <a href="https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm" target="_blank" rel="noopener">美联储官网</a>；市场预期由 30 天联邦基金期货（ZQ=F）反推，每日更新。</p>
+  </section>
+
+  <!-- 地缘风险：美伊局势 -->
+  <section class="block" style="margin-bottom:20px">
+    <h2><span class="dot"></span>地缘风险 · 美伊局势</h2>
+    <div class="geo-wrap" id="geo-wrap"></div>
   </section>
 
   <!-- 信号 + 模式证据 -->
@@ -329,6 +348,33 @@ function renderFed(L) {
     </div>`;
 }
 
+function renderGeo(L) {
+  const g = L.geopolitics;
+  if (!g) return;
+  const wtiCls = g.wti_chg >= 0 ? 'var(--red)' : 'var(--green)';
+  const events = (g.events || []).map(e =>
+    `<div class="ev"><span class="d">${e.date}</span><a href="${e.url}" target="_blank" rel="noopener">${e.text}（${e.src}）↗</a></div>`
+  ).join('');
+  document.getElementById('geo-wrap').innerHTML = `
+    <div class="geo-left">
+      <div style="color:var(--muted);font-size:12px">当前紧张度</div>
+      <div class="lvl">${g.level}</div>
+      <div style="font-size:13px;margin-top:4px">${g.headline}</div>
+      <div class="wti">
+        <div style="color:var(--muted);font-size:12px">WTI 原油（地缘风险代理）</div>
+        <b style="color:${wtiCls}">$${g.wti_price}</b>
+        <span style="color:${wtiCls};font-size:12px;margin-left:6px">${g.wti_chg >= 0 ? '+' : ''}${g.wti_chg}%</span>
+        <div style="margin-top:4px"><a href="https://finance.yahoo.com/quote/CL=F" target="_blank" rel="noopener" style="color:#7FB5E8;font-size:12px;text-decoration:none">来源：Yahoo CL=F ↗</a></div>
+      </div>
+      <div style="font-size:11px;color:var(--muted);margin-top:10px">更新：${g.updated}</div>
+    </div>
+    <div class="geo-right">
+      <div style="font-size:13px;line-height:1.7;margin-bottom:6px">${g.summary}</div>
+      ${events}
+      <div class="geo-impact"><b style="color:var(--accent)">对黄金影响：</b>${g.gold_impact}</div>
+    </div>`;
+}
+
 function renderTable(L) {
   const rows = L.recent10.map(r => {
     const cls = r.gold_chg >= 0 ? 'chg-pos' : 'chg-neg';
@@ -435,6 +481,7 @@ function renderCharts(H) {
 load().then(({L, H, SH}) => {
   renderKPI(L);
   renderFed(L);
+  renderGeo(L);
   renderSignals(L);
   renderEvidence(L);
   renderTable(L);

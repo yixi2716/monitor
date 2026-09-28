@@ -29,6 +29,7 @@ TICKERS = {
     "TIP": "TIP",        # iShares TIPS ETF（实际利率反向代理）
     "TNX": "^TNX",       # 10 年美债收益率（%）
     "ZQ": "ZQ=F",        # 30 天联邦基金期货（隐含政策利率预期）
+    "CL": "CL=F",        # WTI 原油（美元/桶，地缘风险代理）
 }
 
 
@@ -251,6 +252,29 @@ def main():
         "source_url": macro.get("source", ""),
     }
 
+    # === 地缘风险（美伊局势）===
+    geo_path = os.path.join(ROOT, "config", "gold_geopolitics.json")
+    geo = {}
+    if os.path.exists(geo_path):
+        try:
+            with open(geo_path, encoding="utf-8") as f:
+                geo = json.load(f)
+        except Exception:
+            geo = {}
+    cl_price = float(px["CL"].iloc[-1])
+    cl_chg = (cl_price / float(px["CL"].iloc[-2]) - 1) * 100 if len(px) >= 2 else 0
+    geo_block = {
+        "level": geo.get("level", ""),
+        "level_color": geo.get("level_color", "orange"),
+        "headline": geo.get("headline", ""),
+        "summary": geo.get("summary", ""),
+        "updated": geo.get("updated", ""),
+        "events": geo.get("events", []),
+        "gold_impact": geo.get("gold_impact", ""),
+        "wti_price": round(cl_price, 2),
+        "wti_chg": round(cl_chg, 2),
+    }
+
     last = df.iloc[-1]
     prev = df.iloc[-2]
     gold_chg = (last["gold"] / prev["gold"] - 1) * 100
@@ -290,6 +314,7 @@ def main():
         "score_summary": summary,
         "recent10": [],
         "macro": macro_block,
+        "geopolitics": geo_block,
     }
 
     # 最近 10 天表

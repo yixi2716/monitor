@@ -1,0 +1,14 @@
+{
+  "level": "中高",
+  "level_color": "orange",
+  "headline": "美伊间接谈判进行中，霍尔木兹海峡仍关闭",
+  "summary": "卡塔尔斡旋下双方通过间接渠道沟通，特朗普9/26拒绝伊朗最新停火提案，但预计数日内重启对话。伊朗要求先解除海上封锁再重开海峡；美方要求伊朗在核问题上让步。短期谈判破裂风险与突破缓和并存。",
+  "updated": "2026-09-28",
+  "events": [
+    {"date": "2026-09-28", "text": "特朗普称预计美伊几天内重启谈判，最早28日举行间接对话", "url": "http://www.xinhuanet.com/world/20260928/b281534c03fc4a6885933397414c4946/c.html", "src": "新华网"},
+    {"date": "2026-09-26", "text": "特朗普拒绝伊朗最新停火提案，称'他们提了方案，我拒绝了'", "url": "https://www.aa.com.tr/en/americas/trump-says-he-rejected-iran-s-latest-proposal-from-indirect-talks-in-new-york/4070274", "src": "Anadolu"},
+    {"date": "2026-09-25", "text": "伊朗提出7天计划：停火+重开霍尔木兹海峡+开始核谈；称未满足条件前海峡保持关闭", "url": "https://english.alarabiya.net/News/middle-east/2026/09/25/iran-will-make-no-nuclear-concessions-iranian-official-says", "src": "Al Arabiya"},
+    {"date": "2026-09-22", "text": "联合国大会期间美特使威特科夫、库什纳与伊朗外长在纽约举行间接会晤", "url": "http://www.xinhuanet.com/world/20260928/424a9ccf9a5142a3bf7e1f90bf2a48f6/c.html", "src": "新华网"}
+  ],
+  "gold_impact": "双重作用：局势升级→避险买盘利多黄金；但同时油价飙升→通胀预期→美联储更难降息→利空黄金。当前谈判窗口期，油价波动会直接传导到金价。"
+}
