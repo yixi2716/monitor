@@ -120,7 +120,7 @@
 
   <p class="intro">选择一个品种进入监测：每张仪表盘通过一组规则信号灯判断当前所处周期位置（底部 / 磨底 / 反转确认）。<b>生猪</b>已上线，其余品种规划中。</p>
 
-  <div class="grid">
+    <div class="grid">
 
     <!-- 生猪：已上线 -->
     <a class="card" href="./pig.html">
@@ -135,6 +135,25 @@
       </h2>
       <p class="desc">现货猪价 / 能繁母猪存栏 / 猪粮比 / LH 期货期限结构 · 六盏拐点信号灯</p>
       <div class="status-line" id="pig-status">
+        <span class="verdict">加载中…</span>
+      </div>
+      <div class="enter">进入监测 →</div>
+    </a>
+
+    <!-- 黄金：已上线 -->
+    <a class="card" href="./gold.html">
+      <span class="tag">已上线</span>
+      <h2>
+        <span class="ico">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#E8B84A" stroke-width="2" stroke-linecap="round">
+            <circle cx="12" cy="12" r="8"/>
+            <path d="M1 7 L8 13 L12 12 L13 17 L16 11 L12 12 L11 7 Z" fill="#E8B84A" stroke="none"/>
+          </svg>
+        </span>
+        黄金追踪
+      </h2>
+      <p class="desc">COMEX 金价 / 美元指数 / VIX / TIPS 实际利率 · 定价模式识别（利率/避险/央行购金）</p>
+      <div class="status-line" id="gold-status">
         <span class="verdict">加载中…</span>
       </div>
       <div class="enter">进入监测 →</div>
@@ -167,24 +186,7 @@
             <path d="M12 8v4l2.5 2.5"/>
           </svg>
         </span>
-        玉米
-      </h2>
-      <p class="desc">种植面积 / 深加工库存 / 港口平舱价 · 待接入数据源</p>
-      <div class="status-line">
-        <span class="verdict down">数据链路搭建中</span>
-      </div>
-    </div>
-
-    <div class="card placeholder">
-      <span class="tag">规划中</span>
-      <h2>
-        <span class="ico">
-          <svg viewBox="0 0 24 24" fill="none" stroke="#9AA8A0" stroke-width="2" stroke-linecap="round">
-            <circle cx="12" cy="12" r="9"/>
-            <path d="M12 8v4l2.5 2.5"/>
-          </svg>
-        </span>
-        牛肉 / 更多品种
+        玉米 / 更多品种
       </h2>
       <p class="desc">等待添加 — 后续可按同一信号灯框架接入任意品种</p>
       <div class="status-line">
@@ -202,25 +204,43 @@
 </div>
 
 <script>
-  /* 读取生猪当前信号状态，渲染到卡片上 */
-  (async () => {
-    const el = document.getElementById('pig-status');
+  /* 读取各品种当前状态，渲染到卡片上 */
+  async function loadCardStatus(url, elId, nameField) {
+    const el = document.getElementById(elId);
     try {
-      const res = await fetch('data/signals.json', { cache: 'no-store' });
+      const res = await fetch(url, { cache: 'no-store' });
       if (!res.ok) throw new Error(res.status);
       const d = await res.json();
-      const pass = d.passed ?? d.score ?? d.signals.filter(s => s.level === 'green').length;
-      const total = d.signals ? d.signals.length : 6;
-      const verdict = d.verdict || d.stage || '—';
-      const date = d.date || '';
+      return d;
+    } catch (e) {
+      el.innerHTML = '<span class="verdict down">数据加载失败</span>';
+      return null;
+    }
+  }
+
+  (async () => {
+    // 生猪
+    const pig = await loadCardStatus('data/signals.json', 'pig-status');
+    if (pig) {
+      const pass = pig.passed ?? pig.score ?? pig.signals.filter(s => s.level === 'green').length;
+      const total = pig.signals ? pig.signals.length : 6;
+      const verdict = pig.verdict || pig.stage || '—';
+      const date = pig.date || '';
       const cls = (verdict.includes('确认') || verdict.includes('反转')) ? 'peak' :
                   (verdict.includes('磨底') ? '' : 'down');
-      el.innerHTML =
+      document.getElementById('pig-status').innerHTML =
         '<span class="verdict ' + cls + '">' + verdict + '</span>' +
         '<span class="score-big">' + pass + '<small style="font-size:11px;color:var(--muted);font-weight:500">/' + total + '</small></span>' +
         '<span class="date">更新至 ' + date + '</span>';
-    } catch (e) {
-      el.innerHTML = '<span class="verdict down">数据加载失败，请刷新</span>';
+    }
+    // 黄金
+    const g = await loadCardStatus('data/gold/latest.json', 'gold-status');
+    if (g) {
+      const scoreCls = g.score > 0 ? 'peak' : (g.score < 0 ? 'down' : '');
+      document.getElementById('gold-status').innerHTML =
+        '<span class="verdict ' + scoreCls + '">' + g.mode_name + '</span>' +
+        '<span class="score-big">' + g.gold.toLocaleString('en-US', {maximumFractionDigits: 0}) + '<small style="font-size:11px;color:var(--muted);font-weight:500"> $/oz</small></span>' +
+        '<span class="date">' + g.date + '</span>';
     }
   })();
 </script>

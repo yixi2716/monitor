@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>黄金追踪 · 商品周期监测台</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%2316211C' stroke='%23E8934A' stroke-width='4'/%3E%3Cpath d='M20 42 L26 22 L34 38 L40 18' fill='none' stroke='%23E8934A' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://miaoda.feishu.cn">
+<link href="https://miaoda.feishu.cn/fonts/css2?family=Noto+Sans+SC:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0F1613; --surface: #16211C; --surface-2: #1B2822; --border: #24342C;
+    --text: #E8EDE9; --muted: #8FA39A; --accent: #E8934A;
+    --gold: #E8B84A; --green: #3FBF7F; --yellow: #E0B341; --red: #D96A5C; --gray: #9AA8A0;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg); color: var(--text);
+    font-family: "Noto Sans SC", "Microsoft YaHei", "PingFang SC", sans-serif;
+    line-height: 1.55; padding: 24px clamp(16px, 4vw, 48px) 48px;
+  }
+  .wrap { max-width: 1240px; margin: 0 auto; }
+
+  header.top {
+    display: flex; flex-wrap: wrap; align-items: center; gap: 16px 24px;
+    padding-bottom: 20px; margin-bottom: 24px; border-bottom: 1px solid var(--border);
+  }
+  .brand { display: flex; align-items: center; gap: 12px; }
+  .brand svg { width: 40px; height: 40px; flex: none; }
+  .brand h1 { font-size: 20px; font-weight: 900; }
+  .brand p { color: var(--muted); font-size: 12px; }
+  a.back-link {
+    color: var(--muted); text-decoration: none; font-size: 13px;
+    border: 1px solid var(--border); border-radius: 8px; padding: 6px 12px; white-space: nowrap;
+  }
+  a.back-link:hover { color: var(--text); border-color: var(--gray); }
+  .meta { margin-left: auto; color: var(--muted); font-size: 12px; }
+
+  /* KPI 4 卡 */
+  .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 20px; }
+  .kpi {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
+    padding: 16px 18px; border-top: 3px solid var(--border);
+  }
+  .kpi .label { color: var(--muted); font-size: 12px; letter-spacing: 0.05em; }
+  .kpi .value { font-size: 26px; font-weight: 900; margin: 6px 0 2px; font-variant-numeric: tabular-nums; }
+  .kpi .sub { font-size: 12px; color: var(--muted); }
+  .kpi.gold { border-top-color: var(--gold); }
+  .kpi.gold .value { color: var(--gold); }
+  .kpi.up .value { color: var(--green); }
+  .kpi.down .value { color: var(--red); }
+  .kpi.mode .value { color: var(--accent); font-size: 20px; padding-top: 6px; }
+
+  .block {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 12px; padding: 18px 20px; margin-bottom: 20px;
+  }
+  .block h2 {
+    font-size: 14px; font-weight: 700; color: var(--muted);
+    letter-spacing: 0.08em; margin-bottom: 14px; display: flex; align-items: center; gap: 8px;
+  }
+  .block h2 .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--gold); flex: none; }
+
+  .charts { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  .chart-box { height: 320px; width: 100%; }
+
+  /* 信号 + 证据 */
+  .sig-row {
+    display: flex; align-items: flex-start; gap: 10px;
+    padding: 10px 12px; border-radius: 8px; background: var(--surface-2);
+    margin-bottom: 8px; font-size: 13px;
+  }
+  .sig-row .badge {
+    flex: none; font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 6px; margin-top: 1px;
+  }
+  .sig-row.bull .badge { background: rgba(63,191,127,0.15); color: var(--green); }
+  .sig-row.bear .badge { background: rgba(217,106,92,0.15); color: var(--red); }
+  .sig-row.neutral .badge { background: rgba(154,168,160,0.15); color: var(--gray); }
+  .sig-row .name { font-weight: 700; flex: none; min-width: 70px; }
+  .sig-row.bull .name { color: var(--green); }
+  .sig-row.bear .name { color: var(--red); }
+  .sig-row.neutral .name { color: var(--muted); }
+  .sig-row .text { color: var(--text); }
+
+  .evidence { background: var(--surface-2); border-radius: 8px; padding: 12px 14px; font-size: 13px; line-height: 1.9; }
+  .evidence b { color: var(--accent); }
+  .evidence ol { margin-left: 20px; color: var(--text); }
+  .score-line {
+    display: flex; align-items: center; gap: 12px; margin-top: 12px;
+    padding: 10px 14px; background: var(--surface-2); border-radius: 8px; font-size: 14px;
+  }
+  .score-line .big { font-size: 22px; font-weight: 900; color: var(--accent); }
+
+  /* 表格 */
+  table { width: 100%; border-collapse: collapse; font-size: 13px; font-variant-numeric: tabular-nums; }
+  th, td { padding: 8px 10px; text-align: right; border-bottom: 1px solid var(--border); }
+  th:first-child, td:first-child { text-align: left; }
+  th { color: var(--muted); font-weight: 500; font-size: 12px; }
+  tr:hover td { background: var(--surface-2); }
+  .chg-pos { color: var(--green); }
+  .chg-neg { color: var(--red); }
+
+  .src-note { color: var(--muted); font-size: 12px; margin-top: 10px; line-height: 1.7; }
+  .src-note a { color: #7FB5E8; text-decoration: none; }
+  .src-note a:hover { text-decoration: underline; }
+
+  footer {
+    color: var(--muted); font-size: 12px; border-top: 1px solid var(--border);
+    padding-top: 16px; margin-top: 8px; line-height: 1.8;
+  }
+  footer b { color: var(--text); font-weight: 500; }
+
+  @media (max-width: 900px) {
+    .kpi-grid { grid-template-columns: repeat(2, 1fr); }
+    .charts { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="top">
+    <div class="brand">
+      <a class="back-link" href="./index.html">← 商品总览</a>
+      <svg viewBox="0 0 64 64" aria-hidden="true">
+        <circle cx="32" cy="32" r="30" fill="#16211C" stroke="#E8B84A" stroke-width="4"/>
+        <path d="M20 42 L26 22 L34 38 L40 18" fill="none" stroke="#E8B84A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <div>
+        <h1>黄金追踪 · 定价模式识别</h1>
+        <p>COMEX 黄金 / 美元指数 / VIX / TIPS · 规则驱动信号</p>
+      </div>
+    </div>
+    <div class="meta" id="date-meta">加载中…</div>
+  </header>
+
+  <!-- KPI 4 卡 -->
+  <div class="kpi-grid" id="kpi"></div>
+
+  <!-- 信号 + 模式证据 -->
+  <div class="charts" style="margin-bottom:20px">
+    <section class="block" style="margin-bottom:0">
+      <h2><span class="dot"></span>每日信号</h2>
+      <div id="signals"></div>
+      <div class="score-line">
+        <span style="color:var(--muted);font-size:13px">综合评分</span>
+        <span class="big" id="score">—</span>
+        <span id="score-text" style="color:var(--muted);font-size:13px"></span>
+      </div>
+    </section>
+    <section class="block" style="margin-bottom:0">
+      <h2><span class="dot"></span>定价模式判断</h2>
+      <div class="evidence" id="evidence">加载中…</div>
+    </section>
+  </div>
+
+  <!-- 2x2 图表 -->
+  <div class="charts">
+    <section class="block">
+      <h2><span class="dot"></span>金价走势 · MA20 / MA50</h2>
+      <div class="chart-box" id="chart-price"></div>
+    </section>
+    <section class="block">
+      <h2><span class="dot"></span>驱动因子归一化（起点=100）</h2>
+      <div class="chart-box" id="chart-norm"></div>
+    </section>
+    <section class="block">
+      <h2><span class="dot"></span>20 日滚动相关性</h2>
+      <div class="chart-box" id="chart-corr"></div>
+    </section>
+    <section class="block">
+      <h2><span class="dot"></span>期现价差（GC/10 − GLD）</h2>
+      <div class="chart-box" id="chart-basis"></div>
+    </section>
+  </div>
+
+  <!-- 最近 10 天表 -->
+  <section class="block">
+    <h2><span class="dot"></span>最近 10 个交易日</h2>
+    <div style="overflow-x:auto">
+      <table id="table"></table>
+    </div>
+    <p class="src-note">
+      数据源：Yahoo Finance —
+      <a href="https://finance.yahoo.com/quote/GC=F" target="_blank" rel="noopener noreferrer">COMEX 黄金期货 GC=F</a>、
+      <a href="https://finance.yahoo.com/quote/GLD" target="_blank" rel="noopener noreferrer">SPDR 黄金 ETF GLD</a>、
+      <a href="https://finance.yahoo.com/quote/DX-Y.NYB" target="_blank" rel="noopener noreferrer">美元指数 DXY</a>、
+      <a href="https://finance.yahoo.com/quote/%5EVIX" target="_blank" rel="noopener noreferrer">VIX</a>、
+      <a href="https://finance.yahoo.com/quote/TIP" target="_blank" rel="noopener noreferrer">TIPS ETF TIP</a>、
+      <a href="https://finance.yahoo.com/quote/%5ETNX" target="_blank" rel="noopener noreferrer">10Y 美债收益率 ^TNX</a>。
+      每日美股收盘后自动更新。
+    </p>
+  </section>
+
+  <footer>
+    <b>定价模式</b>：A=利率敏感（实际利率主导）/ B=避险驱动（VIX 高企）/ C=央行购金（与利率、美元脱钩）/ M=混合。<br>
+    <b>信号方向</b>：绿=利好黄金，红=利空，灰=中性。综合评分 ±5。<br>
+    <b>风险提示</b>：本看板仅作宏观研究与参考，不构成任何投资建议。
+  </footer>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
+<script>
+  if (!window.echarts) {
+    document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.5.1/echarts.min.js"><\/script>');
+  }
+</script>
+<script>
+const fmtPct = v => (v >= 0 ? '+' : '') + v.toFixed(2) + '%';
+const fmtMoney = v => '$' + v.toLocaleString('en-US', {maximumFractionDigits: 1});
+
+async function load() {
+  const [lr, hr] = await Promise.all([
+    fetch('data/gold/latest.json', {cache: 'no-store'}),
+    fetch('data/gold/history.json', {cache: 'no-store'})
+  ]);
+  const L = await lr.json();
+  const H = await hr.json();
+  return {L, H};
+}
+
+function renderKPI(L) {
+  document.getElementById('date-meta').textContent = '数据日期 ' + L.date + ' · 美股收盘后更新';
+  const chgCls = L.gold_chg >= 0 ? 'up' : 'down';
+  const maPos = L.above_ma20 ? '在 MA20 之上' : '在 MA20 之下';
+  const cards = [
+    {label: '当前金价 (COMEX)', value: fmtMoney(L.gold), sub: 'MA20 ' + fmtMoney(L.ma20) + ' · ' + maPos, cls: 'gold'},
+    {label: '日涨跌幅', value: fmtPct(L.gold_chg), sub: 'vs 上一交易日 · MA50 ' + fmtMoney(L.ma50), cls: chgCls},
+    {label: '定价模式', value: L.mode, sub: L.mode_name.replace(/^.\s/, '') + ' · 置信度 ' + L.confidence, cls: 'mode'},
+    {label: '综合信号', value: (L.score > 0 ? '+' : '') + L.score, sub: L.score_summary, cls: L.score > 0 ? 'up' : (L.score < 0 ? 'down' : '')},
+  ];
+  document.getElementById('kpi').innerHTML = cards.map(c =>
+    `<div class="kpi ${c.cls}"><div class="label">${c.label}</div><div class="value">${c.value}</div><div class="sub">${c.sub}</div></div>`
+  ).join('');
+}
+
+function renderSignals(L) {
+  const rows = L.signals.map(s => {
+    const badge = s.dir === 'bull' ? '利好' : (s.dir === 'bear' ? '利空' : '中性');
+    return `<div class="sig-row ${s.dir}">
+      <span class="badge">${badge}</span>
+      <span class="name">${s.name}</span>
+      <span class="text">${s.text}</span>
+    </div>`;
+  }).join('');
+  document.getElementById('signals').innerHTML = rows;
+  document.getElementById('score').textContent = (L.score > 0 ? '+' : '') + L.score;
+  document.getElementById('score-text').textContent = L.score_summary;
+}
+
+function renderEvidence(L) {
+  document.getElementById('evidence').innerHTML = `
+    <b>当前模式：${L.mode_name}</b>（置信度 ${L.confidence}）
+    <ol>${L.evidence.map(e => `<li>${e}</li>`).join('')}</ol>`;
+}
+
+function renderTable(L) {
+  const rows = L.recent10.map(r => {
+    const cls = r.gold_chg >= 0 ? 'chg-pos' : 'chg-neg';
+    return `<tr>
+      <td>${r.date}</td>
+      <td>${r.gold.toFixed(1)}</td>
+      <td class="${cls}">${fmtPct(r.gold_chg)}</td>
+      <td>${r.dxy.toFixed(2)}</td>
+      <td>${r.vix.toFixed(2)}</td>
+      <td>${r.tip.toFixed(2)}</td>
+    </tr>`;
+  }).join('');
+  document.getElementById('table').innerHTML =
+    `<thead><tr><th>日期</th><th>金价 $/oz</th><th>日涨跌</th><th>DXY</th><th>VIX</th><th>TIP</th></tr></thead><tbody>${rows}</tbody>`;
+}
+
+function makeZoom() {
+  return {
+    type: 'inside', xAxisIndex: [0], filterMode: 'none'
+  };
+}
+
+function commonGrid() {
+  return {left: 50, right: 20, top: 30, bottom: 50};
+}
+
+function baseAxis() {
+  return {
+    axisLine: {lineStyle: {color: '#24342C'}},
+    axisLabel: {color: '#8FA39A', fontSize: 11},
+    splitLine: {lineStyle: {color: '#1B2822'}},
+  };
+}
+
+function renderCharts(H) {
+  const dates = H.map(r => r.date);
+  // 图1：金价 + MA20 + MA50
+  echarts.init(document.getElementById('chart-price')).setOption({
+    backgroundColor: 'transparent',
+    tooltip: {trigger: 'axis'},
+    legend: {textStyle: {color: '#8FA39A'}, top: 0, right: 10},
+    grid: commonGrid(),
+    xAxis: {type: 'category', data: dates, ...baseAxis()},
+    yAxis: {type: 'value', scale: true, ...baseAxis()},
+    dataZoom: [makeZoom(), {type: 'slider', height: 18, bottom: 8, borderColor: '#24342C', textStyle: {color: '#8FA39A'}}],
+    series: [
+      {name: '金价', type: 'line', data: H.map(r => r.gold), smooth: true, symbol: 'none', lineStyle: {color: '#E8B84A', width: 2}, itemStyle: {color: '#E8B84A'}},
+      {name: 'MA20', type: 'line', data: H.map(r => r.ma20), smooth: true, symbol: 'none', lineStyle: {color: '#7FB5E8', width: 1.2}},
+      {name: 'MA50', type: 'line', data: H.map(r => r.ma50), smooth: true, symbol: 'none', lineStyle: {color: '#D96A5C', width: 1.2, type: 'dashed'}},
+    ]
+  });
+
+  // 图2：归一化（以窗口第一天=100）
+  const slice = H.slice(-90);  // 近 90 天
+  const d0 = slice[0];
+  const norm = (key) => slice.map(r => +(r[key] / d0[key] * 100).toFixed(2));
+  echarts.init(document.getElementById('chart-norm')).setOption({
+    backgroundColor: 'transparent',
+    tooltip: {trigger: 'axis'},
+    legend: {textStyle: {color: '#8FA39A'}, top: 0, right: 10},
+    grid: commonGrid(),
+    xAxis: {type: 'category', data: slice.map(r => r.date), ...baseAxis()},
+    yAxis: {type: 'value', scale: true, ...baseAxis()},
+    series: [
+      {name: '黄金', type: 'line', data: norm('gold'), smooth: true, symbol: 'none', lineStyle: {color: '#E8B84A', width: 2}},
+      {name: 'DXY 美元', type: 'line', data: norm('dxy'), smooth: true, symbol: 'none', lineStyle: {color: '#7FB5E8', width: 1.5}},
+      {name: 'VIX 恐慌', type: 'line', data: norm('vix'), smooth: true, symbol: 'none', lineStyle: {color: '#D96A5C', width: 1.5}},
+      {name: 'TIP 实际利率', type: 'line', data: norm('tip'), smooth: true, symbol: 'none', lineStyle: {color: '#3FBF7F', width: 1.5}},
+    ]
+  });
+
+  // 图3：滚动相关性
+  echarts.init(document.getElementById('chart-corr')).setOption({
+    backgroundColor: 'transparent',
+    tooltip: {trigger: 'axis'},
+    legend: {textStyle: {color: '#8FA39A'}, top: 0, right: 10},
+    grid: commonGrid(),
+    xAxis: {type: 'category', data: dates, ...baseAxis()},
+    yAxis: {type: 'value', min: -1, max: 1, ...baseAxis()},
+    dataZoom: [makeZoom()],
+    series: [
+      {name: '黄金-DXY', type: 'line', data: H.map(r => r.corr_dxy), smooth: true, symbol: 'none', lineStyle: {color: '#7FB5E8', width: 1.5}},
+      {name: '黄金-TIP', type: 'line', data: H.map(r => r.corr_tip), smooth: true, symbol: 'none', lineStyle: {color: '#3FBF7F', width: 1.5}},
+      {name: '黄金-VIX', type: 'line', data: H.map(r => r.corr_vix), smooth: true, symbol: 'none', lineStyle: {color: '#D96A5C', width: 1.5}},
+      {name: '0 轴', type: 'line', data: dates.map(() => 0), symbol: 'none', lineStyle: {color: '#24342C', width: 1, type: 'dashed'}},
+    ]
+  });
+
+  // 图4：期现价差
+  echarts.init(document.getElementById('chart-basis')).setOption({
+    backgroundColor: 'transparent',
+    tooltip: {trigger: 'axis'},
+    grid: commonGrid(),
+    xAxis: {type: 'category', data: dates, ...baseAxis()},
+    yAxis: {type: 'value', scale: true, ...baseAxis()},
+    dataZoom: [makeZoom()],
+    series: [{
+      name: '价差', type: 'bar', data: H.map(r => r.basis),
+      itemStyle: {color: p => p.value >= 0 ? '#3FBF7F' : '#D96A5C'}
+    }]
+  });
+}
+
+load().then(({L, H}) => {
+  renderKPI(L);
+  renderSignals(L);
+  renderEvidence(L);
+  renderTable(L);
+  if (window.echarts) renderCharts(H);
+}).catch(e => {
+  document.getElementById('date-meta').textContent = '数据加载失败: ' + e.message;
+});
+</script>
+</body>
+</html>
