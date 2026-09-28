@@ -174,16 +174,16 @@
         "src": "WSJ"
       },
       {
-        "date": "2026-09-25",
-        "text": "Iran rules out nuclear concessions even if US accepts Hormuz proposal",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1xYzYyR0NpT0VDaGp4d1RDOTYydmhUQVJxa1NRVHZ1azRwdGtpQTYyRzlPcGVNRXNDM0JKQmdQSFNoR3dUMHAzUVQ0dmlOTF9VSmc?oc=5",
-        "src": "Iran International"
-      },
-      {
         "date": "2026-09-27",
         "text": "Iran Is Pressed to Make Nuclear Concessions to Revive Peace Talks With U.S.",
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeXp0VDVwMkZGQUR0OVFaQ0F6UHY3eDRsYmVadXFSWkRLQUhWVEZCVkFkdmZqd3FnMHBLQ05nWWZLV2p6MzVFWlVRYzZ5MDJURDczQ0FaMmdEOUNPTENwN3RRU01oOHpIdUNKenN6dnJWRzNWeVZwZFpuQ2RLakc0SE1qVTVLNDVsWTBIbm1Tc2N6V2N6aWNPN05wUmx1dkJLRE9Md0Vxd3ZVWTBhUDJoOWFOeGYydXRVRUE?oc=5",
         "src": "WSJ"
+      },
+      {
+        "date": "2026-09-25",
+        "text": "Iran rules out nuclear concessions even if US accepts Hormuz proposal",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1xYzYyR0NpT0VDaGp4d1RDOTYydmhUQVJxa1NRVHZ1azRwdGtpQTYyRzlPcGVNRXNDM0JKQmdQSFNoR3dUMHAzUVQ0dmlOTF9VSmc?oc=5",
+        "src": "Iran International"
       },
       {
         "date": "2026-09-25",
@@ -208,5 +208,7 @@
     "wti_price": 92.41,
     "wti_chg": -2.33,
     "news_auto": true
-  }
+  },
+  "ai_analysis": "",
+  "ai_date": "2026-09-25"
 }
