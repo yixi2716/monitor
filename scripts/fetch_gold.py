@@ -286,11 +286,36 @@ def main():
         json.dump(latest, f, ensure_ascii=False, indent=2)
     with open(os.path.join(DATA_DIR, "gold_history.json"), "w", encoding="utf-8") as f:
         json.dump(history, f, ensure_ascii=False)
+
+    # 信号历史（每天追加一条，供前端画热力图/评分柱状图）
+    sig_row = {
+        "date": latest["date"],
+        "score": score,
+        "mode": mode,
+        "dirs": [s["dir"] for s in signals],  # 5 个方向，顺序：美元/利率/避险/情绪/实物
+    }
+    sig_hist_path = os.path.join(DATA_DIR, "gold_signal_history.json")
+    sig_hist = []
+    if os.path.exists(sig_hist_path):
+        try:
+            with open(sig_hist_path, encoding="utf-8") as f:
+                sig_hist = json.load(f)
+        except Exception:
+            sig_hist = []
+    sig_hist = [r for r in sig_hist if r.get("date") != latest["date"]]
+    sig_hist.append(sig_row)
+    sig_hist.sort(key=lambda r: r["date"])
+    sig_hist = sig_hist[-180:]  # 保留最近 180 天
+
     # 同步到 site/data/gold/（GitHub Pages 静态目录）
     with open(os.path.join(SITE_DATA_DIR, "latest.json"), "w", encoding="utf-8") as f:
         json.dump(latest, f, ensure_ascii=False, indent=2)
     with open(os.path.join(SITE_DATA_DIR, "history.json"), "w", encoding="utf-8") as f:
         json.dump(history, f, ensure_ascii=False)
+    with open(os.path.join(SITE_DATA_DIR, "signal_history.json"), "w", encoding="utf-8") as f:
+        json.dump(sig_hist, f, ensure_ascii=False, indent=2)
+    with open(sig_hist_path, "w", encoding="utf-8") as f:
+        json.dump(sig_hist, f, ensure_ascii=False, indent=2)
 
     print(f"  金价 ${latest['gold']} ({latest['gold_chg']:+.2f}%)")
     print(f"  模式: {latest['mode_name']} 置信度 {latest['confidence']}")

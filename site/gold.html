@@ -186,6 +186,13 @@
     </section>
   </div>
 
+  <!-- 信号历史 -->
+  <section class="block">
+    <h2><span class="dot"></span>综合信号历史（每日评分 · 绿=偏多 / 红=偏空 / 灰=中性）</h2>
+    <div class="chart-box" id="chart-score" style="height:260px"></div>
+    <p class="src-note" style="margin-top:6px">每天美股收盘后自动记录当日 5 条信号加总的分数（-5 到 +5）。柱子连续同向 = 信号一致；正负频繁切换 = 多空拉锯。</p>
+  </section>
+
   <!-- 最近 10 天表 -->
   <section class="block">
     <h2><span class="dot"></span>最近 10 个交易日</h2>
@@ -223,13 +230,14 @@ const fmtPct = v => (v >= 0 ? '+' : '') + v.toFixed(2) + '%';
 const fmtMoney = v => '$' + v.toLocaleString('en-US', {maximumFractionDigits: 1});
 
 async function load() {
-  const [lr, hr] = await Promise.all([
+  const [lr, hr, sr] = await Promise.all([
     fetch('data/gold/latest.json', {cache: 'no-store'}),
-    fetch('data/gold/history.json', {cache: 'no-store'})
+    fetch('data/gold/history.json', {cache: 'no-store'}),
+    fetch('data/gold/signal_history.json', {cache: 'no-store'}).then(r => r.ok ? r.json() : []).catch(() => []),
   ]);
   const L = await lr.json();
   const H = await hr.json();
-  return {L, H};
+  return {L, H, SH: sr};
 }
 
 function renderKPI(L) {
@@ -370,15 +378,43 @@ function renderCharts(H) {
   });
 }
 
-load().then(({L, H}) => {
+load().then(({L, H, SH}) => {
   renderKPI(L);
   renderSignals(L);
   renderEvidence(L);
   renderTable(L);
-  if (window.echarts) renderCharts(H);
+  if (window.echarts) {
+    renderCharts(H);
+    renderScoreHistory(SH);
+  }
 }).catch(e => {
   document.getElementById('date-meta').textContent = '数据加载失败: ' + e.message;
 });
+
+function renderScoreHistory(SH) {
+  if (!SH || !SH.length) return;
+  const slice = SH.slice(-60);  // 最近 60 个交易日
+  const dates = slice.map(r => r.date);
+  const scores = slice.map(r => r.score);
+  echarts.init(document.getElementById('chart-score')).setOption({
+    backgroundColor: 'transparent',
+    tooltip: {trigger: 'axis', formatter: p => {
+      const i = p[0].dataIndex;
+      const r = slice[i];
+      return r.date + '<br/>综合评分: <b>' + (r.score > 0 ? '+' : '') + r.score + '</b><br/>模式: ' + r.mode;
+    }},
+    grid: commonGrid(),
+    xAxis: {type: 'category', data: dates, ...baseAxis()},
+    yAxis: {type: 'value', min: -5, max: 5, interval: 1, ...baseAxis()},
+    dataZoom: [{type: 'inside'}],
+    series: [{
+      type: 'bar',
+      data: scores,
+      barWidth: '60%',
+      itemStyle: {color: p => p.value > 0 ? '#3FBF7F' : (p.value < 0 ? '#D96A5C' : '#5A6B62')}
+    }]
+  });
+}
 </script>
 </body>
 </html>
