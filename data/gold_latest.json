@@ -1,68 +1,60 @@
 {
-  "date": "2026-09-25",
-  "gold": 4321.2,
-  "gold_chg": 0.54,
-  "ma20": 4407.47,
-  "ma50": 4354.55,
+  "date": "2026-09-28",
+  "gold": 4168.4,
+  "gold_chg": -3.54,
+  "ma20": 4389.4,
+  "ma50": 4357.54,
   "above_ma20": false,
   "above_ma50": false,
-  "dxy": 100.97,
-  "dxy_chg": -0.32,
-  "vix": 14.87,
-  "vix_chg": -5.11,
-  "tip": 104.54,
-  "tnx": 5.18,
-  "corr_gold_dxy": -0.52,
+  "dxy": 101.2,
+  "dxy_chg": 0.23,
+  "vix": 16.07,
+  "vix_chg": 8.07,
+  "tip": 104.09,
+  "tnx": 5.24,
+  "corr_gold_dxy": -0.43,
   "corr_gold_tip": 0.22,
-  "corr_gold_vix": -0.51,
-  "basis": 38.71,
-  "vol20": 19.9,
+  "corr_gold_vix": -0.62,
+  "basis": 38.93,
+  "vol20": 21.1,
   "mode": "M",
   "mode_name": "M · 混合驱动",
   "confidence": "低",
   "evidence": [
-    "黄金与 TIP 相关性 +0.22，与 DXY 相关性 -0.52",
-    "VIX 14.9，与 VIX 相关性 -0.51",
+    "黄金与 TIP 相关性 +0.22，与 DXY 相关性 -0.43",
+    "VIX 16.1，与 VIX 相关性 -0.62",
     "多因子混合驱动，无单一主导逻辑"
   ],
   "signals": [
     {
       "name": "美元信号",
-      "text": "DXY 101.0，区间震荡",
-      "dir": "neutral"
-    },
-    {
-      "name": "利率信号",
-      "text": "TIP 5日 -0.69%，实际利率平稳",
-      "dir": "neutral"
-    },
-    {
-      "name": "避险信号",
-      "text": "VIX 14.9 < 15，风险偏好高 → 利空",
+      "text": "DXY 101.2 > 101，压制金价",
       "dir": "bear"
     },
     {
+      "name": "利率信号",
+      "text": "TIP 5日 -1.50%，实际利率上行 → 利空",
+      "dir": "bear"
+    },
+    {
+      "name": "避险信号",
+      "text": "VIX 16.1，中性",
+      "dir": "neutral"
+    },
+    {
       "name": "情绪信号",
-      "text": "VIX 5日 +0%，情绪平稳",
+      "text": "VIX 5日 +8%，情绪平稳",
       "dir": "neutral"
     },
     {
       "name": "实物信号",
-      "text": "GLD 与期货同步（5日 -1.93% vs -2.34%）",
+      "text": "GLD 与期货同步（5日 -5.14% vs -4.92%）",
       "dir": "neutral"
     }
   ],
-  "score": -1,
-  "score_summary": "-1（中性）",
+  "score": -2,
+  "score_summary": "-2（偏空）",
   "recent10": [
-    {
-      "date": "2026-09-14",
-      "gold": 4351.9,
-      "gold_chg": -1.29,
-      "dxy": 99.46,
-      "vix": 17.1,
-      "tip": 105.82
-    },
     {
       "date": "2026-09-15",
       "gold": 4332.8,
@@ -134,6 +126,14 @@
       "dxy": 100.97,
       "vix": 14.87,
       "tip": 104.54
+    },
+    {
+      "date": "2026-09-28",
+      "gold": 4168.4,
+      "gold_chg": -3.54,
+      "dxy": 101.2,
+      "vix": 16.07,
+      "tip": 104.09
     }
   ],
   "macro": {
@@ -141,7 +141,7 @@
     "last_change": "2026-09-16 加息 25bp",
     "next_label": "10/27–28 议息会议",
     "next_date": "2026-10-28",
-    "days_to_next": 33,
+    "days_to_next": 30,
     "upcoming": [
       {
         "date": "2026-10-28",
@@ -168,10 +168,16 @@
     "updated": "2026-09-28",
     "events": [
       {
-        "date": "2026-09-26",
-        "text": "Exclusive | Trump Rejects Iran Ceasefire, Expects Renewed Bombing After Midterms",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbGVxM0NSSkVPVjdHTGNlUHBLbTdGTmh3OWZsTFRXVGVReHZGWmxEM2xjdUt4Y25KMVVyYlJ6WkdKZFVWdEFSVzFmcGx1X2lKTjd0MmxLak01UzgwYU5Iek1zazA1RzlhRXE0cGdhQzNtNFpUTVdhTWQ1Vk5DMWFxbHNEVTFLMTJRUFBFZjRNNU1UaHFoaDZqLWotX1RvUEhCVVotMElmMDdCRHB2RWFQVjMxNGs?oc=5",
-        "src": "WSJ"
+        "date": "2026-09-28",
+        "text": "Trump offers Iran economic relief for concrete nuclear concessions",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBzLTlNS2xVWTYwTmVybXRITlF0dW9lUXpfZkRpdjRXR29CQ2pKWTJORTlBUmZWaFBSLVIybG42Q3Z2TEp4aDlVMURMZmtoOGNfclJmSjMwS2hFZFZGUE1OenhhMzVSRUxCeDNnMkFlUlBoQWxuTFhMRkF3Zk9pdjA?oc=5",
+        "src": "Axios"
+      },
+      {
+        "date": "2026-09-29",
+        "text": "Mediators are working to broker a US-Iran deal, but major hurdles remain",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWXZybWpYdGZCWHd5WlBiVFg4cDR1LXFIeGFyakJFaVZXbEJ1S3U3ZjIwTkxqVE5mOGR0Q1dERkZmSlNwZ0RZNnd5anlvTktKc2h3aUVCOVhLLUpsNGp3eVZtakc3dHJhbkNCTGFwZ3NQZG02ZTV3TVEtYy1qcTlaMnNpRV9Cci1pTTByTTZFOGFIMXNEQS1udGlFZm54Z0lWNjd3bw?oc=5",
+        "src": "AP News"
       },
       {
         "date": "2026-09-27",
@@ -186,29 +192,23 @@
         "src": "Iran International"
       },
       {
-        "date": "2026-09-25",
-        "text": "Iran will make no nuclear concessions, Iranian official says",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORVpYNWQxeFFCcXEzQTZQdkM1LTJpVWc2RHpwOWtxbzV0OHg2aE12UGV1Y2VOQUN4WHdvOVB4YzBGT0ltckk5d0hDZGZUVXk3YWs0WnA5R2xjNmNBbkhHRzNra2pIQVlLa1pNQ29OV1QxQVdSTWJnaWZEYkVaaXJXa3d4cHVvV1o5VGlpWFRjUG9HVTFoMWw4TFZwNlI4aHJwQjU0UVRuZzJISFp0ZU9YQUw4VQ?oc=5",
-        "src": "Reuters"
+        "date": "2026-09-27",
+        "text": "After nixing Iran proposal, Trump tells Axios he expects talks this week",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOdHM4R3NjWURXNmwzUk9wVVEtMmptc2xnRGNKbm9pVlowMGxHMWRzaU15d0ZhUmFNNnpuMUZwbjRSLXl6V2tSY2RyTjNQR1pBc1NhdjFYSzhvamxGRmlKU2pSdEhjSklFQzhDVnMxT3dlSHhxSGlRNUVuT1FNejVrOE9n?oc=5",
+        "src": "Axios"
       },
       {
         "date": "2026-09-25",
         "text": "Iran has suggested a deal to reopen the Strait of Hormuz in 7 days",
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOczZkNFNvZkpweENjLTZ5eHpEbVdZcWpKSWE3bGtBanVfamo4ZTNfazZreldrM3NULU1aOVAwSU0ySlk1eUNsb1BJaU5CdlhWZnpxQ0w2VWszbUw0U3l6b0pGbFJHTVFISmFnUXVUZkdOLUlCTmIxM2dmQzJQVllad3gyQmtwSi1XSWh3NnZKRzRfUEd5MEEydTlseVItcTdxNkxr0gGoAUFVX3lxTE9PR1VBVVRhOTVURUs3alR4STFac2RGV09YQ2x2OFlOTU9salFTT21neWpVSGNXSU43Z3VGdHFwaHdwLTNCOG04ZGo1amtKUFFKaS1INFRqRk9sMjU3SDZydWZPb01WOU91UzJxdEFSSjlvTE51WENtMWZobjJmVnFBbkFHNW5zSmJkM0NSVUMxYUdxR29ZTk9aRTBBVUttZ3pQaXI4VU5pNg?oc=5",
         "src": "PBS"
-      },
-      {
-        "date": "2026-09-25",
-        "text": "Iran offers to reopen Strait of Hormuz within 7 days and restart nuclear talks",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5aZ0hqeDJKZlFWZTE2eWwxei1Cd21MaFNkZFZPRWxzNllJdmUzUXVGMFZ6THlXempxQmo1NzhRV1FuNG1sd3hTSW9NT1hvSVdEMVhfVDI5bFBlYWk0T3pvTGd3ZXpjcDJIbEHSAW9BVV95cUxQbGRDUzktQ3JVU3VVcnpXSk5LN20tZEVPbEZ1d3NjSDJKa0xleWt4V054NFNtYU54WElPeWE5ZXk4VnlDVUg4TUIxaExtbGZBS2xkZEdXeVpPd0Z4VFk1cWo1QnRQSFBOUXNUUE5nbW8?oc=5",
-        "src": "CNBC"
       }
     ],
     "gold_impact": "双重作用：局势升级→避险买盘利多黄金；但同时油价飙升→通胀预期→美联储更难降息→利空黄金。当前谈判窗口期，油价波动会直接传导到金价。",
-    "wti_price": 92.41,
-    "wti_chg": -2.33,
+    "wti_price": 92.6,
+    "wti_chg": 0.21,
     "news_auto": true
   },
   "ai_analysis": "",
-  "ai_date": "2026-09-25"
+  "ai_date": "2026-09-28"
 }
