@@ -1,28 +1,28 @@
 {
-  "date": "2026-09-29",
-  "gold": 4179.7,
-  "gold_chg": 0.27,
-  "ma20": 4374.31,
-  "ma50": 4360.82,
+  "date": "2026-09-30",
+  "gold": 4186.7,
+  "gold_chg": 0.17,
+  "ma20": 4363.82,
+  "ma50": 4363.02,
   "above_ma20": false,
   "above_ma50": false,
-  "dxy": 101.37,
-  "dxy_chg": 0.17,
-  "vix": 16.04,
-  "vix_chg": -0.19,
-  "tip": 104.01,
-  "tnx": 5.26,
-  "corr_gold_dxy": -0.47,
-  "corr_gold_tip": 0.23,
-  "corr_gold_vix": -0.61,
-  "basis": 35.08,
-  "vol20": 21.1,
+  "dxy": 101.45,
+  "dxy_chg": 0.08,
+  "vix": 16.34,
+  "vix_chg": 1.87,
+  "tip": 104.04,
+  "tnx": 5.29,
+  "corr_gold_dxy": -0.46,
+  "corr_gold_tip": 0.28,
+  "corr_gold_vix": -0.57,
+  "basis": 37.83,
+  "vol20": 20.3,
   "mode": "M",
   "mode_name": "M · 混合驱动",
   "confidence": "低",
   "evidence": [
-    "黄金与 TIP 相关性 +0.23，与 DXY 相关性 -0.47",
-    "VIX 16.0，与 VIX 相关性 -0.61",
+    "黄金与 TIP 相关性 +0.28，与 DXY 相关性 -0.46",
+    "VIX 16.3，与 VIX 相关性 -0.57",
     "多因子混合驱动，无单一主导逻辑"
   ],
   "signals": [
@@ -33,36 +33,28 @@
     },
     {
       "name": "利率信号",
-      "text": "TIP 5日 -1.47%，实际利率上行 → 利空",
-      "dir": "bear"
+      "text": "TIP 5日 -0.73%，实际利率平稳",
+      "dir": "neutral"
     },
     {
       "name": "避险信号",
-      "text": "VIX 16.0，中性",
+      "text": "VIX 16.3，中性",
       "dir": "neutral"
     },
     {
       "name": "情绪信号",
-      "text": "VIX 5日 +13%，情绪平稳",
+      "text": "VIX 5日 +8%，情绪平稳",
       "dir": "neutral"
     },
     {
       "name": "实物信号",
-      "text": "GLD 与期货同步（5日 -4.29% vs -4.49%）",
+      "text": "GLD 与期货同步（5日 -3.06% vs -3.05%）",
       "dir": "neutral"
     }
   ],
-  "score": -2,
-  "score_summary": "-2（偏空）",
+  "score": -1,
+  "score_summary": "-1（中性）",
   "recent10": [
-    {
-      "date": "2026-09-16",
-      "gold": 4387.5,
-      "gold_chg": 1.26,
-      "dxy": 100.31,
-      "vix": 17.71,
-      "tip": 105.39
-    },
     {
       "date": "2026-09-17",
       "gold": 4399.7,
@@ -134,6 +126,14 @@
       "dxy": 101.37,
       "vix": 16.04,
       "tip": 104.01
+    },
+    {
+      "date": "2026-09-30",
+      "gold": 4186.7,
+      "gold_chg": 0.17,
+      "dxy": 101.45,
+      "vix": 16.34,
+      "tip": 104.04
     }
   ],
   "macro": {
@@ -141,7 +141,7 @@
     "last_change": "2026-09-16 加息 25bp",
     "next_label": "10/27–28 议息会议",
     "next_date": "2026-10-28",
-    "days_to_next": 29,
+    "days_to_next": 28,
     "upcoming": [
       {
         "date": "2026-10-28",
@@ -168,16 +168,10 @@
     "updated": "2026-09-28",
     "events": [
       {
-        "date": "2026-09-28",
-        "text": "Trump offers Iran economic relief for concrete nuclear concessions",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBzLTlNS2xVWTYwTmVybXRITlF0dW9lUXpfZkRpdjRXR29CQ2pKWTJORTlBUmZWaFBSLVIybG42Q3Z2TEp4aDlVMURMZmtoOGNfclJmSjMwS2hFZFZGUE1OenhhMzVSRUxCeDNnMkFlUlBoQWxuTFhMRkF3Zk9pdjA?oc=5",
-        "src": "Axios"
-      },
-      {
-        "date": "2026-09-27",
-        "text": "Iran Is Pressed to Make Nuclear Concessions to Revive Peace Talks With U.S.",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeXp0VDVwMkZGQUR0OVFaQ0F6UHY3eDRsYmVadXFSWkRLQUhWVEZCVkFkdmZqd3FnMHBLQ05nWWZLV2p6MzVFWlVRYzZ5MDJURDczQ0FaMmdEOUNPTENwN3RRU01oOHpIdUNKenN6dnJWRzNWeVZwZFpuQ2RLakc0SE1qVTVLNDVsWTBIbm1Tc2N6V2N6aWNPN05wUmx1dkJLRE9Md0Vxd3ZVWTBhUDJoOWFOeGYydXRVRUE?oc=5",
-        "src": "WSJ"
+        "date": "2026-09-25",
+        "text": "Iran proposes a deal to reopen the Strait of Hormuz in 7 days if the US meets its conditions",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNElSLUJIM2lSSWJPendCMnQ4Q252MkdGeXFPT0t2R1VHN2tIaFlzdEZPNWhWZUhfdW4ySjdnZF8tal9vblVkNERSNm5hOHlzelVYZk44VXNhSGI4TVpwcnF0Z1hrQVBsdC02OUNGLW0yeG15N2FsT3dMb29NZ1dXR2FPSU5xRW5BOHIyQ2JuMktWYXBsMlR5ZDlxM2lOeTQ?oc=5",
+        "src": "AP News"
       },
       {
         "date": "2026-09-25",
@@ -189,13 +183,19 @@
         "date": "2026-09-25",
         "text": "Iran will make no nuclear concessions, Iranian official says",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORVpYNWQxeFFCcXEzQTZQdkM1LTJpVWc2RHpwOWtxbzV0OHg2aE12UGV1Y2VOQUN4WHdvOVB4YzBGT0ltckk5d0hDZGZUVXk3YWs0WnA5R2xjNmNBbkhHRzNra2pIQVlLa1pNQ29OV1QxQVdSTWJnaWZEYkVaaXJXa3d4cHVvV1o5VGlpWFRjUG9HVTFoMWw4TFZwNlI4aHJwQjU0UVRuZzJISFp0ZU9YQUw4VQ?oc=5",
-        "src": "reuters.com"
+        "src": "Reuters"
+      },
+      {
+        "date": "2026-09-27",
+        "text": "After nixing Iran proposal, Trump tells Axios he expects talks this week",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOdHM4R3NjWURXNmwzUk9wVVEtMmptc2xnRGNKbm9pVlowMGxHMWRzaU15d0ZhUmFNNnpuMUZwbjRSLXl6V2tSY2RyTjNQR1pBc1NhdjFYSzhvamxGRmlKU2pSdEhjSklFQzhDVnMxT3dlSHhxSGlRNUVuT1FNejVrOE9n?oc=5",
+        "src": "Axios"
       },
       {
         "date": "2026-09-25",
-        "text": "Iran has suggested a deal to reopen the Strait of Hormuz in 7 days",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOczZkNFNvZkpweENjLTZ5eHpEbVdZcWpKSWE3bGtBanVfamo4ZTNfazZreldrM3NULU1aOVAwSU0ySlk1eUNsb1BJaU5CdlhWZnpxQ0w2VWszbUw0U3l6b0pGbFJHTVFISmFnUXVUZkdOLUlCTmIxM2dmQzJQVllad3gyQmtwSi1XSWh3NnZKRzRfUEd5MEEydTlseVItcTdxNkxr0gGoAUFVX3lxTE9PR1VBVVRhOTVURUs3alR4STFac2RGV09YQ2x2OFlOTU9salFTT21neWpVSGNXSU43Z3VGdHFwaHdwLTNCOG04ZGo1amtKUFFKaS1INFRqRk9sMjU3SDZydWZPb01WOU91UzJxdEFSSjlvTE51WENtMWZobjJmVnFBbkFHNW5zSmJkM0NSVUMxYUdxR29ZTk9aRTBBVUttZ3pQaXI4VU5pNg?oc=5",
-        "src": "PBS"
+        "text": "Iran offers to reopen Strait of Hormuz within 7 days and restart nuclear talks",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5aZ0hqeDJKZlFWZTE2eWwxei1Cd21MaFNkZFZPRWxzNllJdmUzUXVGMFZ6THlXempxQmo1NzhRV1FuNG1sd3hTSW9NT1hvSVdEMVhfVDI5bFBlYWk0T3pvTGd3ZXpjcDJIbEHSAW9BVV95cUxQbGRDUzktQ3JVU3VVcnpXSk5LN20tZEVPbEZ1d3NjSDJKa0xleWt4V054NFNtYU54WElPeWE5ZXk4VnlDVUg4TUIxaExtbGZBS2xkZEdXeVpPd0Z4VFk1cWo1QnRQSFBOUXNUUE5nbW8?oc=5",
+        "src": "cnbc.com"
       },
       {
         "date": "2026-09-29",
@@ -205,10 +205,10 @@
       }
     ],
     "gold_impact": "双重作用：局势升级→避险买盘利多黄金；但同时油价飙升→通胀预期→美联储更难降息→利空黄金。当前谈判窗口期，油价波动会直接传导到金价。",
-    "wti_price": 89.38,
-    "wti_chg": -3.48,
+    "wti_price": 90.42,
+    "wti_chg": 1.16,
     "news_auto": true
   },
   "ai_analysis": "",
-  "ai_date": "2026-09-29"
+  "ai_date": "2026-09-30"
 }
