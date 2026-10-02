@@ -1,68 +1,60 @@
 {
-  "date": "2026-09-30",
-  "gold": 4186.7,
-  "gold_chg": 0.17,
-  "ma20": 4363.82,
-  "ma50": 4363.02,
+  "date": "2026-10-01",
+  "gold": 4202.3,
+  "gold_chg": 0.37,
+  "ma20": 4353.21,
+  "ma50": 4364.03,
   "above_ma20": false,
   "above_ma50": false,
-  "dxy": 101.45,
-  "dxy_chg": 0.08,
-  "vix": 16.34,
-  "vix_chg": 1.87,
-  "tip": 104.04,
-  "tnx": 5.29,
-  "corr_gold_dxy": -0.46,
+  "dxy": 102.1,
+  "dxy_chg": 0.64,
+  "vix": 16.39,
+  "vix_chg": 0.31,
+  "tip": 104.31,
+  "tnx": 5.24,
+  "corr_gold_dxy": -0.37,
   "corr_gold_tip": 0.28,
-  "corr_gold_vix": -0.57,
-  "basis": 37.83,
+  "corr_gold_vix": -0.56,
+  "basis": 37.47,
   "vol20": 20.3,
   "mode": "M",
   "mode_name": "M · 混合驱动",
   "confidence": "低",
   "evidence": [
-    "黄金与 TIP 相关性 +0.28，与 DXY 相关性 -0.46",
-    "VIX 16.3，与 VIX 相关性 -0.57",
+    "黄金与 TIP 相关性 +0.28，与 DXY 相关性 -0.37",
+    "VIX 16.4，与 VIX 相关性 -0.56",
     "多因子混合驱动，无单一主导逻辑"
   ],
   "signals": [
     {
       "name": "美元信号",
-      "text": "DXY 101.4 > 101，压制金价",
+      "text": "DXY 102.1 > 101，压制金价",
       "dir": "bear"
     },
     {
       "name": "利率信号",
-      "text": "TIP 5日 -0.73%，实际利率平稳",
+      "text": "TIP 5日 +0.01%，实际利率平稳",
       "dir": "neutral"
     },
     {
       "name": "避险信号",
-      "text": "VIX 16.3，中性",
+      "text": "VIX 16.4，中性",
       "dir": "neutral"
     },
     {
       "name": "情绪信号",
-      "text": "VIX 5日 +8%，情绪平稳",
+      "text": "VIX 5日 +5%，情绪平稳",
       "dir": "neutral"
     },
     {
       "name": "实物信号",
-      "text": "GLD 与期货同步（5日 -3.06% vs -3.05%）",
+      "text": "GLD 与期货同步（5日 -2.28% vs -2.23%）",
       "dir": "neutral"
     }
   ],
   "score": -1,
   "score_summary": "-1（中性）",
   "recent10": [
-    {
-      "date": "2026-09-17",
-      "gold": 4399.7,
-      "gold_chg": 0.28,
-      "dxy": 100.22,
-      "vix": 15.44,
-      "tip": 105.71
-    },
     {
       "date": "2026-09-18",
       "gold": 4424.9,
@@ -134,6 +126,14 @@
       "dxy": 101.45,
       "vix": 16.34,
       "tip": 104.04
+    },
+    {
+      "date": "2026-10-01",
+      "gold": 4202.3,
+      "gold_chg": 0.37,
+      "dxy": 102.1,
+      "vix": 16.39,
+      "tip": 104.31
     }
   ],
   "macro": {
@@ -141,7 +141,7 @@
     "last_change": "2026-09-16 加息 25bp",
     "next_label": "10/27–28 议息会议",
     "next_date": "2026-10-28",
-    "days_to_next": 28,
+    "days_to_next": 27,
     "upcoming": [
       {
         "date": "2026-10-28",
@@ -154,10 +154,10 @@
         "dot_plot": true
       }
     ],
-    "zq_price": 96.25,
-    "zq_implied_rate": 3.75,
-    "market_bp_vs_current": -25.0,
-    "market_expectation": "市场预期降息 25bp",
+    "zq_price": 96.11,
+    "zq_implied_rate": 3.89,
+    "market_bp_vs_current": -11.0,
+    "market_expectation": "市场预期降息 11bp",
     "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
   },
   "geopolitics": {
@@ -187,28 +187,28 @@
       },
       {
         "date": "2026-09-27",
-        "text": "After nixing Iran proposal, Trump tells Axios he expects talks this week",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOdHM4R3NjWURXNmwzUk9wVVEtMmptc2xnRGNKbm9pVlowMGxHMWRzaU15d0ZhUmFNNnpuMUZwbjRSLXl6V2tSY2RyTjNQR1pBc1NhdjFYSzhvamxGRmlKU2pSdEhjSklFQzhDVnMxT3dlSHhxSGlRNUVuT1FNejVrOE9n?oc=5",
-        "src": "Axios"
+        "text": "Iran Is Pressed to Make Nuclear Concessions to Revive Peace Talks With U.S.",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeXp0VDVwMkZGQUR0OVFaQ0F6UHY3eDRsYmVadXFSWkRLQUhWVEZCVkFkdmZqd3FnMHBLQ05nWWZLV2p6MzVFWlVRYzZ5MDJURDczQ0FaMmdEOUNPTENwN3RRU01oOHpIdUNKenN6dnJWRzNWeVZwZFpuQ2RLakc0SE1qVTVLNDVsWTBIbm1Tc2N6V2N6aWNPN05wUmx1dkJLRE9Md0Vxd3ZVWTBhUDJoOWFOeGYydXRVRUE?oc=5",
+        "src": "WSJ"
       },
       {
-        "date": "2026-09-25",
-        "text": "Iran offers to reopen Strait of Hormuz within 7 days and restart nuclear talks",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5aZ0hqeDJKZlFWZTE2eWwxei1Cd21MaFNkZFZPRWxzNllJdmUzUXVGMFZ6THlXempxQmo1NzhRV1FuNG1sd3hTSW9NT1hvSVdEMVhfVDI5bFBlYWk0T3pvTGd3ZXpjcDJIbEHSAW9BVV95cUxQbGRDUzktQ3JVU3VVcnpXSk5LN20tZEVPbEZ1d3NjSDJKa0xleWt4V054NFNtYU54WElPeWE5ZXk4VnlDVUg4TUIxaExtbGZBS2xkZEdXeVpPd0Z4VFk1cWo1QnRQSFBOUXNUUE5nbW8?oc=5",
-        "src": "cnbc.com"
-      },
-      {
-        "date": "2026-09-29",
-        "text": "Iran’s Araghchi meets Qatari mediators as US calls for nuclear talks",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcE44alQta2RFLXNvU0JiaFZSbUxkcExUYzBMeEhRX0dWeUZMNVNUYUdybHhQOXpnZnRLT1BhV1RIVVIyTHBhUjdpNC0xN3huVl9fcVpxSExGZ213MGJobkl6b2Jvc0lRRWVUekNSWUVrQmM4eVZxQ1k2R3N3MDlqeWVSdFlxVE5NRVpzbmQ1LTFOanp6YU5SSHpzeWhuNkNoMVAzUk1hd0NvQVJmN3fSAbMBQVVfeXFMUGpqdDdjQnVuTmxIUWZxQWRlLUF3NTR1c2JjYlVWaUFJT0ZPMVF4MV9yN2x2RlZIWUs5Y0dyLTRfWG9TdTBqZjBibjl0ajB2Q0thcV9ZZnljMWVvcFRVTGh1aV9qX3MweE1ZNzdGWUJkbGhQeHZlUmdQWjB3eVJpdVp6Wks2OWh6cUZFeE9lWTVIb0RCRk5rOWJsQlphYzE3VlYzWGp1N2ZVdHVQYUJkUjlwNmM?oc=5",
+        "date": "2026-09-27",
+        "text": "Mike Waltz: US offered to sell Iran uranium for civilian programme",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQU1BQRjBhdElacDhZcXlDbzF1M3BLcFpWZnpNdVZ4MEZCZkVteExtay1RZDVqcjhZTlhPcnpoWWFoZlpka0h5dHJDd25ZMkhUc2laaVZ4aWEta2FPYUtVMm96ZmVlOFhENGFHMWZLMVRSU3FkMzB0WGQ1U2E0Z1NaZUViZHpIeEJaaUNzbDNLTHU1V0E0aC1IbkJrUDM0eVNJWlBNc19oQ1lGd9IBrwFBVV95cUxNYjJMM2l2Yk84M0xIUFZHLWltSENaQjBUeWFsVjB4dE1YR2V1WTJKUGU3c3pZQ2pSM0c1bTRaNTlzTm5RQno1YkR3ekFqSkVsWExtVUNKTmtQSjBXbi1URnhCSDM5MnF2S3JXTXNHV2ZGYkR0OFNTOWVZWUl4ZURZM2ZGZHNpVlZDbUpDa2ZNUG5XeWF2SjZYcFlqOFRIYjZ5QkRmZ25TaXhkS0E5dW00?oc=5",
         "src": "Al Jazeera"
+      },
+      {
+        "date": "2026-09-28",
+        "text": "Trump offers Iran economic relief for concrete nuclear concessions",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBzLTlNS2xVWTYwTmVybXRITlF0dW9lUXpfZkRpdjRXR29CQ2pKWTJORTlBUmZWaFBSLVIybG42Q3Z2TEp4aDlVMURMZmtoOGNfclJmSjMwS2hFZFZGUE1OenhhMzVSRUxCeDNnMkFlUlBoQWxuTFhMRkF3Zk9pdjA?oc=5",
+        "src": "Axios"
       }
     ],
     "gold_impact": "双重作用：局势升级→避险买盘利多黄金；但同时油价飙升→通胀预期→美联储更难降息→利空黄金。当前谈判窗口期，油价波动会直接传导到金价。",
-    "wti_price": 90.42,
-    "wti_chg": 1.16,
+    "wti_price": 92.87,
+    "wti_chg": 2.71,
     "news_auto": true
   },
   "ai_analysis": "",
-  "ai_date": "2026-09-30"
+  "ai_date": "2026-10-01"
 }
