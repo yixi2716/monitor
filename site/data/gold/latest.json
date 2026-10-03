@@ -1,68 +1,60 @@
 {
-  "date": "2026-10-01",
-  "gold": 4202.3,
-  "gold_chg": 0.37,
-  "ma20": 4353.21,
-  "ma50": 4364.03,
+  "date": "2026-10-02",
+  "gold": 4162.3,
+  "gold_chg": -0.95,
+  "ma20": 4334.33,
+  "ma50": 4366.27,
   "above_ma20": false,
   "above_ma50": false,
-  "dxy": 102.1,
-  "dxy_chg": 0.64,
-  "vix": 16.39,
-  "vix_chg": 0.31,
-  "tip": 104.31,
-  "tnx": 5.24,
-  "corr_gold_dxy": -0.37,
-  "corr_gold_tip": 0.28,
-  "corr_gold_vix": -0.56,
-  "basis": 37.47,
-  "vol20": 20.3,
+  "dxy": 101.93,
+  "dxy_chg": -0.17,
+  "vix": 15.31,
+  "vix_chg": -6.59,
+  "tip": 104.11,
+  "tnx": 5.28,
+  "corr_gold_dxy": -0.06,
+  "corr_gold_tip": 0.22,
+  "corr_gold_vix": -0.47,
+  "basis": 36.09,
+  "vol20": 16.8,
   "mode": "M",
   "mode_name": "M · 混合驱动",
   "confidence": "低",
   "evidence": [
-    "黄金与 TIP 相关性 +0.28，与 DXY 相关性 -0.37",
-    "VIX 16.4，与 VIX 相关性 -0.56",
+    "黄金与 TIP 相关性 +0.22，与 DXY 相关性 -0.06",
+    "VIX 15.3，与 VIX 相关性 -0.47",
     "多因子混合驱动，无单一主导逻辑"
   ],
   "signals": [
     {
       "name": "美元信号",
-      "text": "DXY 102.1 > 101，压制金价",
+      "text": "DXY 101.9 > 101，压制金价",
       "dir": "bear"
     },
     {
       "name": "利率信号",
-      "text": "TIP 5日 +0.01%，实际利率平稳",
+      "text": "TIP 5日 -0.41%，实际利率平稳",
       "dir": "neutral"
     },
     {
       "name": "避险信号",
-      "text": "VIX 16.4，中性",
+      "text": "VIX 15.3，中性",
       "dir": "neutral"
     },
     {
       "name": "情绪信号",
-      "text": "VIX 5日 +5%，情绪平稳",
+      "text": "VIX 5日 +3%，情绪平稳",
       "dir": "neutral"
     },
     {
       "name": "实物信号",
-      "text": "GLD 与期货同步（5日 -2.28% vs -2.23%）",
+      "text": "GLD 与期货同步（5日 -3.37% vs -3.68%）",
       "dir": "neutral"
     }
   ],
   "score": -1,
   "score_summary": "-1（中性）",
   "recent10": [
-    {
-      "date": "2026-09-18",
-      "gold": 4424.9,
-      "gold_chg": 0.57,
-      "dxy": 100.22,
-      "vix": 14.81,
-      "tip": 105.27
-    },
     {
       "date": "2026-09-21",
       "gold": 4383.9,
@@ -134,6 +126,14 @@
       "dxy": 102.1,
       "vix": 16.39,
       "tip": 104.31
+    },
+    {
+      "date": "2026-10-02",
+      "gold": 4162.3,
+      "gold_chg": -0.95,
+      "dxy": 101.93,
+      "vix": 15.31,
+      "tip": 104.11
     }
   ],
   "macro": {
@@ -141,7 +141,7 @@
     "last_change": "2026-09-16 加息 25bp",
     "next_label": "10/27–28 议息会议",
     "next_date": "2026-10-28",
-    "days_to_next": 27,
+    "days_to_next": 26,
     "upcoming": [
       {
         "date": "2026-10-28",
@@ -154,10 +154,10 @@
         "dot_plot": true
       }
     ],
-    "zq_price": 96.11,
-    "zq_implied_rate": 3.89,
-    "market_bp_vs_current": -11.0,
-    "market_expectation": "市场预期降息 11bp",
+    "zq_price": 96.12,
+    "zq_implied_rate": 3.88,
+    "market_bp_vs_current": -12.0,
+    "market_expectation": "市场预期降息 12bp",
     "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
   },
   "geopolitics": {
@@ -168,21 +168,9 @@
     "updated": "2026-09-28",
     "events": [
       {
-        "date": "2026-09-25",
-        "text": "Iran proposes a deal to reopen the Strait of Hormuz in 7 days if the US meets its conditions",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNElSLUJIM2lSSWJPendCMnQ4Q252MkdGeXFPT0t2R1VHN2tIaFlzdEZPNWhWZUhfdW4ySjdnZF8tal9vblVkNERSNm5hOHlzelVYZk44VXNhSGI4TVpwcnF0Z1hrQVBsdC02OUNGLW0yeG15N2FsT3dMb29NZ1dXR2FPSU5xRW5BOHIyQ2JuMktWYXBsMlR5ZDlxM2lOeTQ?oc=5",
-        "src": "AP News"
-      },
-      {
-        "date": "2026-09-25",
-        "text": "Iran rules out nuclear concessions even if US accepts Hormuz proposal",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1xYzYyR0NpT0VDaGp4d1RDOTYydmhUQVJxa1NRVHZ1azRwdGtpQTYyRzlPcGVNRXNDM0JKQmdQSFNoR3dUMHAzUVQ0dmlOTF9VSmc?oc=5",
-        "src": "Iran International"
-      },
-      {
-        "date": "2026-09-25",
-        "text": "Iran will make no nuclear concessions, Iranian official says",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORVpYNWQxeFFCcXEzQTZQdkM1LTJpVWc2RHpwOWtxbzV0OHg2aE12UGV1Y2VOQUN4WHdvOVB4YzBGT0ltckk5d0hDZGZUVXk3YWs0WnA5R2xjNmNBbkhHRzNra2pIQVlLa1pNQ29OV1QxQVdSTWJnaWZEYkVaaXJXa3d4cHVvV1o5VGlpWFRjUG9HVTFoMWw4TFZwNlI4aHJwQjU0UVRuZzJISFp0ZU9YQUw4VQ?oc=5",
+        "date": "2026-09-29",
+        "text": "Trump denies offering Iran sanctions relief for nuclear concessions",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQLVF4LWZMa3hVb1J2cTVXVjRXdmh0RkFkMkY4MHVWVTVhQmZCQjJpT1l2QmExeFBXd3FRa256Z1Z1Z3k3UFQzOGY5VW1OSHBrcFVGQjkzVkdRaG1rc3FkR19CY3dhajI3cy0zOFZUb2tkTkRLUDN1aHdYd0tRMHM2ZVZiMk1Ld0dvZEhzX0JsblduWjdGa0dfZ3pzSDRqejRRdWZUY0RQUzA?oc=5",
         "src": "Reuters"
       },
       {
@@ -192,23 +180,35 @@
         "src": "WSJ"
       },
       {
-        "date": "2026-09-27",
-        "text": "Mike Waltz: US offered to sell Iran uranium for civilian programme",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQU1BQRjBhdElacDhZcXlDbzF1M3BLcFpWZnpNdVZ4MEZCZkVteExtay1RZDVqcjhZTlhPcnpoWWFoZlpka0h5dHJDd25ZMkhUc2laaVZ4aWEta2FPYUtVMm96ZmVlOFhENGFHMWZLMVRSU3FkMzB0WGQ1U2E0Z1NaZUViZHpIeEJaaUNzbDNLTHU1V0E0aC1IbkJrUDM0eVNJWlBNc19oQ1lGd9IBrwFBVV95cUxNYjJMM2l2Yk84M0xIUFZHLWltSENaQjBUeWFsVjB4dE1YR2V1WTJKUGU3c3pZQ2pSM0c1bTRaNTlzTm5RQno1YkR3ekFqSkVsWExtVUNKTmtQSjBXbi1URnhCSDM5MnF2S3JXTXNHV2ZGYkR0OFNTOWVZWUl4ZURZM2ZGZHNpVlZDbUpDa2ZNUG5XeWF2SjZYcFlqOFRIYjZ5QkRmZ25TaXhkS0E5dW00?oc=5",
-        "src": "Al Jazeera"
+        "date": "2026-09-29",
+        "text": "Mediators are working to broker a US-Iran deal, but major hurdles remain",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWXZybWpYdGZCWHd5WlBiVFg4cDR1LXFIeGFyakJFaVZXbEJ1S3U3ZjIwTkxqVE5mOGR0Q1dERkZmSlNwZ0RZNnd5anlvTktKc2h3aUVCOVhLLUpsNGp3eVZtakc3dHJhbkNCTGFwZ3NQZG02ZTV3TVEtYy1qcTlaMnNpRV9Cci1pTTByTTZFOGFIMXNEQS1udGlFZm54Z0lWNjd3bw?oc=5",
+        "src": "apnews.com"
       },
       {
         "date": "2026-09-28",
         "text": "Trump offers Iran economic relief for concrete nuclear concessions",
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBzLTlNS2xVWTYwTmVybXRITlF0dW9lUXpfZkRpdjRXR29CQ2pKWTJORTlBUmZWaFBSLVIybG42Q3Z2TEp4aDlVMURMZmtoOGNfclJmSjMwS2hFZFZGUE1OenhhMzVSRUxCeDNnMkFlUlBoQWxuTFhMRkF3Zk9pdjA?oc=5",
-        "src": "Axios"
+        "src": "axios.com"
+      },
+      {
+        "date": "2026-09-29",
+        "text": "Iran’s Araghchi meets Qatari mediators as US calls for nuclear talks",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcE44alQta2RFLXNvU0JiaFZSbUxkcExUYzBMeEhRX0dWeUZMNVNUYUdybHhQOXpnZnRLT1BhV1RIVVIyTHBhUjdpNC0xN3huVl9fcVpxSExGZ213MGJobkl6b2Jvc0lRRWVUekNSWUVrQmM4eVZxQ1k2R3N3MDlqeWVSdFlxVE5NRVpzbmQ1LTFOanp6YU5SSHpzeWhuNkNoMVAzUk1hd0NvQVJmN3fSAbMBQVVfeXFMUGpqdDdjQnVuTmxIUWZxQWRlLUF3NTR1c2JjYlVWaUFJT0ZPMVF4MV9yN2x2RlZIWUs5Y0dyLTRfWG9TdTBqZjBibjl0ajB2Q0thcV9ZZnljMWVvcFRVTGh1aV9qX3MweE1ZNzdGWUJkbGhQeHZlUmdQWjB3eVJpdVp6Wks2OWh6cUZFeE9lWTVIb0RCRk5rOWJsQlphYzE3VlYzWGp1N2ZVdHVQYUJkUjlwNmM?oc=5",
+        "src": "Al Jazeera"
+      },
+      {
+        "date": "2026-09-27",
+        "text": "Trump expects talks with Iran to resume this week after rejecting proposal",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMkdfOTQxTjRqN04xZFVPX21CZDlGNTFDREhiZjV5RmZWQ090V0RtV3dZamlyQnMxTFVRU29OV2xyLUM0Q2RKTDMwR2hjVjRaaE96SU5HQzN3VHREbE04ZzhHYXNiamw1R0d5ZEozY1J3d2ZfazZoM3J5S2VlYUkxaUpyU3piczhjWkw3M09MQVI?oc=5",
+        "src": "CBS News"
       }
     ],
     "gold_impact": "双重作用：局势升级→避险买盘利多黄金；但同时油价飙升→通胀预期→美联储更难降息→利空黄金。当前谈判窗口期，油价波动会直接传导到金价。",
-    "wti_price": 92.87,
-    "wti_chg": 2.71,
+    "wti_price": 91.11,
+    "wti_chg": -1.9,
     "news_auto": true
   },
   "ai_analysis": "",
-  "ai_date": "2026-10-01"
+  "ai_date": "2026-10-02"
 }
