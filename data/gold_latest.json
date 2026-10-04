@@ -154,10 +154,10 @@
         "dot_plot": true
       }
     ],
-    "zq_price": 96.12,
-    "zq_implied_rate": 3.88,
-    "market_bp_vs_current": -12.0,
-    "market_expectation": "市场预期降息 12bp",
+    "zq_price": 96.07,
+    "zq_implied_rate": 3.93,
+    "market_bp_vs_current": -7.0,
+    "market_expectation": "市场预期下次会议维持不变",
     "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
   },
   "geopolitics": {
@@ -183,19 +183,19 @@
         "date": "2026-09-29",
         "text": "Mediators are working to broker a US-Iran deal, but major hurdles remain",
         "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWXZybWpYdGZCWHd5WlBiVFg4cDR1LXFIeGFyakJFaVZXbEJ1S3U3ZjIwTkxqVE5mOGR0Q1dERkZmSlNwZ0RZNnd5anlvTktKc2h3aUVCOVhLLUpsNGp3eVZtakc3dHJhbkNCTGFwZ3NQZG02ZTV3TVEtYy1qcTlaMnNpRV9Cci1pTTByTTZFOGFIMXNEQS1udGlFZm54Z0lWNjd3bw?oc=5",
-        "src": "apnews.com"
-      },
-      {
-        "date": "2026-09-28",
-        "text": "Trump offers Iran economic relief for concrete nuclear concessions",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBzLTlNS2xVWTYwTmVybXRITlF0dW9lUXpfZkRpdjRXR29CQ2pKWTJORTlBUmZWaFBSLVIybG42Q3Z2TEp4aDlVMURMZmtoOGNfclJmSjMwS2hFZFZGUE1OenhhMzVSRUxCeDNnMkFlUlBoQWxuTFhMRkF3Zk9pdjA?oc=5",
-        "src": "axios.com"
+        "src": "AP News"
       },
       {
         "date": "2026-09-29",
         "text": "Iran’s Araghchi meets Qatari mediators as US calls for nuclear talks",
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcE44alQta2RFLXNvU0JiaFZSbUxkcExUYzBMeEhRX0dWeUZMNVNUYUdybHhQOXpnZnRLT1BhV1RIVVIyTHBhUjdpNC0xN3huVl9fcVpxSExGZ213MGJobkl6b2Jvc0lRRWVUekNSWUVrQmM4eVZxQ1k2R3N3MDlqeWVSdFlxVE5NRVpzbmQ1LTFOanp6YU5SSHpzeWhuNkNoMVAzUk1hd0NvQVJmN3fSAbMBQVVfeXFMUGpqdDdjQnVuTmxIUWZxQWRlLUF3NTR1c2JjYlVWaUFJT0ZPMVF4MV9yN2x2RlZIWUs5Y0dyLTRfWG9TdTBqZjBibjl0ajB2Q0thcV9ZZnljMWVvcFRVTGh1aV9qX3MweE1ZNzdGWUJkbGhQeHZlUmdQWjB3eVJpdVp6Wks2OWh6cUZFeE9lWTVIb0RCRk5rOWJsQlphYzE3VlYzWGp1N2ZVdHVQYUJkUjlwNmM?oc=5",
         "src": "Al Jazeera"
+      },
+      {
+        "date": "2026-09-28",
+        "text": "Trump offers Iran economic relief for concrete nuclear concessions",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBzLTlNS2xVWTYwTmVybXRITlF0dW9lUXpfZkRpdjRXR29CQ2pKWTJORTlBUmZWaFBSLVIybG42Q3Z2TEp4aDlVMURMZmtoOGNfclJmSjMwS2hFZFZGUE1OenhhMzVSRUxCeDNnMkFlUlBoQWxuTFhMRkF3Zk9pdjA?oc=5",
+        "src": "Axios"
       },
       {
         "date": "2026-09-27",
