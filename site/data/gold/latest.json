@@ -154,10 +154,10 @@
         "dot_plot": true
       }
     ],
-    "zq_price": 96.07,
-    "zq_implied_rate": 3.93,
-    "market_bp_vs_current": -7.0,
-    "market_expectation": "市场预期下次会议维持不变",
+    "zq_price": 96.12,
+    "zq_implied_rate": 3.88,
+    "market_bp_vs_current": -12.0,
+    "market_expectation": "市场预期降息 12bp",
     "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
   },
   "geopolitics": {
@@ -174,16 +174,16 @@
         "src": "Reuters"
       },
       {
-        "date": "2026-09-27",
-        "text": "Iran Is Pressed to Make Nuclear Concessions to Revive Peace Talks With U.S.",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeXp0VDVwMkZGQUR0OVFaQ0F6UHY3eDRsYmVadXFSWkRLQUhWVEZCVkFkdmZqd3FnMHBLQ05nWWZLV2p6MzVFWlVRYzZ5MDJURDczQ0FaMmdEOUNPTENwN3RRU01oOHpIdUNKenN6dnJWRzNWeVZwZFpuQ2RLakc0SE1qVTVLNDVsWTBIbm1Tc2N6V2N6aWNPN05wUmx1dkJLRE9Md0Vxd3ZVWTBhUDJoOWFOeGYydXRVRUE?oc=5",
-        "src": "WSJ"
+        "date": "2026-09-28",
+        "text": "Trump offers Iran economic relief for concrete nuclear concessions",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBzLTlNS2xVWTYwTmVybXRITlF0dW9lUXpfZkRpdjRXR29CQ2pKWTJORTlBUmZWaFBSLVIybG42Q3Z2TEp4aDlVMURMZmtoOGNfclJmSjMwS2hFZFZGUE1OenhhMzVSRUxCeDNnMkFlUlBoQWxuTFhMRkF3Zk9pdjA?oc=5",
+        "src": "axios.com"
       },
       {
-        "date": "2026-09-29",
-        "text": "Mediators are working to broker a US-Iran deal, but major hurdles remain",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWXZybWpYdGZCWHd5WlBiVFg4cDR1LXFIeGFyakJFaVZXbEJ1S3U3ZjIwTkxqVE5mOGR0Q1dERkZmSlNwZ0RZNnd5anlvTktKc2h3aUVCOVhLLUpsNGp3eVZtakc3dHJhbkNCTGFwZ3NQZG02ZTV3TVEtYy1qcTlaMnNpRV9Cci1pTTByTTZFOGFIMXNEQS1udGlFZm54Z0lWNjd3bw?oc=5",
-        "src": "AP News"
+        "date": "2026-10-01",
+        "text": "Iran's nuclear program remains shrouded in mystery as the regime debates ditching non-proliferation",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPV2xZbG9BLVF0UFM3WDlBMkk3SkNfcHR0azdoT1ZHVTJZVHlDM0paRVhVNzNMcHlaMnVCeHNkc1MwZHZIRTN4aWNjRWNiOU9fXzZtcldWVWtaRUJVZm1SVWR1REV2ZmU4YzUtcnh5NDFsZTVwS2dNSVV3OXFkcXg3eE9jdTRIcFJYMzI4TUt1WUp3Tzc1Yi1PTjBJYm1rZl95d3AwYTcxUllrVWVIWndQZ2NJWkI1VV9qWDgzWi1pbFpBaHlMSEVCWjhtUdIBywFBVV95cUxNVzdMUDRrV3dNY2d4WGVvN0NlWEZZVHFBQ2tsaW9iRFF1b0VmTXg4RWZiWDd1VVJGd0s3TjJBLS1VRkNPQjV6bTl2aW11VUtrMVdBQVpZUTBzRTU1SkotbkJCYXR6ZG1mdloyVVBzMDBuS1ZVQmtRQ0ZLRVVJYV9aR0tPaFYxQnVwWUtHTHVCSkZ3dkhLa3I4blktMWZNU0RWS2VNRFlIM0FyWUZWZEpUZVFFRmVfOXBkQjlpemY5elRXQkxWTnp5bHN2OA?oc=5",
+        "src": "DW.com"
       },
       {
         "date": "2026-09-29",
@@ -192,16 +192,16 @@
         "src": "Al Jazeera"
       },
       {
-        "date": "2026-09-28",
-        "text": "Trump offers Iran economic relief for concrete nuclear concessions",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBzLTlNS2xVWTYwTmVybXRITlF0dW9lUXpfZkRpdjRXR29CQ2pKWTJORTlBUmZWaFBSLVIybG42Q3Z2TEp4aDlVMURMZmtoOGNfclJmSjMwS2hFZFZGUE1OenhhMzVSRUxCeDNnMkFlUlBoQWxuTFhMRkF3Zk9pdjA?oc=5",
-        "src": "Axios"
+        "date": "2026-09-29",
+        "text": "Mediators are working to broker a US-Iran deal, but major hurdles remain",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWXZybWpYdGZCWHd5WlBiVFg4cDR1LXFIeGFyakJFaVZXbEJ1S3U3ZjIwTkxqVE5mOGR0Q1dERkZmSlNwZ0RZNnd5anlvTktKc2h3aUVCOVhLLUpsNGp3eVZtakc3dHJhbkNCTGFwZ3NQZG02ZTV3TVEtYy1qcTlaMnNpRV9Cci1pTTByTTZFOGFIMXNEQS1udGlFZm54Z0lWNjd3bw?oc=5",
+        "src": "AP News"
       },
       {
-        "date": "2026-09-27",
-        "text": "Trump expects talks with Iran to resume this week after rejecting proposal",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMkdfOTQxTjRqN04xZFVPX21CZDlGNTFDREhiZjV5RmZWQ090V0RtV3dZamlyQnMxTFVRU29OV2xyLUM0Q2RKTDMwR2hjVjRaaE96SU5HQzN3VHREbE04ZzhHYXNiamw1R0d5ZEozY1J3d2ZfazZoM3J5S2VlYUkxaUpyU3piczhjWkw3M09MQVI?oc=5",
-        "src": "CBS News"
+        "date": "2026-10-04",
+        "text": "Pete Hegseth warns Iran will 'never' get nuclear bomb, touts Hormuz blockade",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9SQmt4aVVHV2F1NnVZSHNXdUFyRUQ5c0NZblJrWExud0FELVFsTHBpRk1NN1ZHd1FUQmdYQUFRU2dNeFlveWZwTUdrM2s0YlFmN1lKM0F0VWRYcU9CclBPUEVUVWtIV1d3NUE?oc=5",
+        "src": "The Jerusalem Post"
       }
     ],
     "gold_impact": "双重作用：局势升级→避险买盘利多黄金；但同时油价飙升→通胀预期→美联储更难降息→利空黄金。当前谈判窗口期，油价波动会直接传导到金价。",
