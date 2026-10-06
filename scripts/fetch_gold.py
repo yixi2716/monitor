@@ -204,7 +204,7 @@ def call_deepseek(data: dict) -> str:
     api_key = os.environ.get("DEEPSEEK_API_KEY", "").strip()
     if not api_key:
         print("    [skip] 未配置 DEEPSEEK_API_KEY，跳过 AI 分析")
-        return ""
+        return "", "未配置 DEEPSEEK_API_KEY（GitHub Secrets 里没配）"
     m = data.get("macro", {})
     g = data.get("geopolitics", {})
     sig_lines = "\n".join(f"  - {s['name']}（{s['dir']}）：{s['text']}" for s in data.get("signals", []))
