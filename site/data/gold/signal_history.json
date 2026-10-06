@@ -85,14 +85,14 @@
   },
   {
     "date": "2026-10-06",
-    "score": -2,
+    "score": -1,
     "mode": "M",
     "dirs": [
       "bear",
       "neutral",
       "neutral",
       "neutral",
-      "bear"
+      "neutral"
     ]
   }
 ]

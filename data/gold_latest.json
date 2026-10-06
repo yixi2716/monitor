@@ -1,28 +1,28 @@
 {
   "date": "2026-10-06",
-  "gold": 4180.6,
-  "gold_chg": 0.57,
-  "ma20": 4305.42,
-  "ma50": 4370.06,
+  "gold": 4183.2,
+  "gold_chg": 0.64,
+  "ma20": 4305.55,
+  "ma50": 4370.12,
   "above_ma20": false,
   "above_ma50": false,
-  "dxy": 101.92,
-  "dxy_chg": -0.24,
-  "vix": 15.39,
-  "vix_chg": -0.84,
-  "tip": 104.23,
-  "tnx": 5.29,
-  "corr_gold_dxy": -0.17,
+  "dxy": 101.87,
+  "dxy_chg": -0.3,
+  "vix": 15.41,
+  "vix_chg": -0.71,
+  "tip": 104.26,
+  "tnx": 5.28,
+  "corr_gold_dxy": -0.18,
   "corr_gold_tip": 0.31,
-  "corr_gold_vix": -0.47,
-  "basis": 37.23,
+  "corr_gold_vix": -0.46,
+  "basis": 36.73,
   "vol20": 16.7,
   "mode": "M",
   "mode_name": "M · 混合驱动",
   "confidence": "低",
   "evidence": [
-    "黄金与 TIP 相关性 +0.31，与 DXY 相关性 -0.17",
-    "VIX 15.4，与 VIX 相关性 -0.47",
+    "黄金与 TIP 相关性 +0.31，与 DXY 相关性 -0.18",
+    "VIX 15.4，与 VIX 相关性 -0.46",
     "多因子混合驱动，无单一主导逻辑"
   ],
   "signals": [
@@ -33,7 +33,7 @@
     },
     {
       "name": "利率信号",
-      "text": "TIP 5日 +0.21%，实际利率平稳",
+      "text": "TIP 5日 +0.24%，实际利率平稳",
       "dir": "neutral"
     },
     {
@@ -48,12 +48,12 @@
     },
     {
       "name": "实物信号",
-      "text": "GLD 5日 -0.54% 弱于期货 +0.02%，期货投机偏热",
-      "dir": "bear"
+      "text": "GLD 与期货同步（5日 -0.34% vs +0.08%）",
+      "dir": "neutral"
     }
   ],
-  "score": -2,
-  "score_summary": "-2（偏空）",
+  "score": -1,
+  "score_summary": "-1（中性）",
   "recent10": [
     {
       "date": "2026-09-23",
@@ -129,11 +129,11 @@
     },
     {
       "date": "2026-10-06",
-      "gold": 4180.6,
-      "gold_chg": 0.57,
-      "dxy": 101.92,
-      "vix": 15.39,
-      "tip": 104.23
+      "gold": 4183.2,
+      "gold_chg": 0.64,
+      "dxy": 101.87,
+      "vix": 15.41,
+      "tip": 104.26
     }
   ],
   "macro": {
@@ -176,8 +176,8 @@
       {
         "date": "2026-10-04",
         "text": "Iran says Hormuz to remain closed until US meets conditions",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdEpOSExlamJ6VFM3V3hVMXl2M09LVHYxQnZpUHV6bXZuRkJmM3ljVHA0NFpQTmJ2WS1uZzhQVjAxVUJJYUZXeE5rMTVZMkdma3Z0a2NWUU9qRGJXZlhkSFYyVkVINHE1NjR6bklmTmxZUWdWNS1qaXc0cTNnU0xtZWV2QTRubWoyakdyMDNIUm9KcmpfSy1Jb3Nrb09mTEVMbjBlYVFybGNaa0JFOFhF?oc=5",
-        "src": "Al Jazeera"
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdEpOSExlamJ6VFM3V3hVMXl2M09LVHYxQnZpUHV6bXZuRkJmM3ljVHA0NFpQTmJ2WS1uZzhQVjAxVUJJYUZXeE5rMTVZMkdma3Z0a2NWUU9qRGJXZlhkSFYyVkVINHE1NjR6bklmTmxZUWdWNS1qaXc0cTNnU0xtZWV2QTRubWoyakdyMDNIUm9KcmpfSy1Jb3Nrb09mTEVMbjBlYVFybGNaa0JFOFhF0gG0AUFVX3lxTE12RHNGM054RWlsaVJaeEgtRWlIUDNKVWN0N0JLQmRfOHA1MU5SUVhXV1pjM1RKRlY2YjVkZlkyaG5vaDhWa0Fhd2hDeVZGMXRYcm5odHB1RWZ1eWJGeEZxRnZrWVNib2FvZHFySGVnNjdqTHlmUVJLdThHZHkwYk14ajdNWlptejNOYnhNR3dacmZMTWlLRDdGMFpkczBqcTBWZlN5UnlSUTV6a3NsWFBvY0djdQ?oc=5",
+        "src": "aljazeera.com"
       },
       {
         "date": "2026-10-02",
@@ -205,11 +205,11 @@
       }
     ],
     "gold_impact": "双重作用：局势升级→避险买盘利多黄金；但同时油价飙升→通胀预期→美联储更难降息→利空黄金。当前谈判窗口期，油价波动会直接传导到金价。",
-    "wti_price": 87.99,
-    "wti_chg": -1.61,
+    "wti_price": 87.82,
+    "wti_chg": -1.8,
     "news_auto": true
   },
-  "ai_error": "API 返回空字符串",
+  "ai_error": "ValueError: not enough values to unpack (expected 2, got 0)",
   "ai_analysis": "",
   "ai_date": "2026-10-06"
 }
