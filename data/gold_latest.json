@@ -1,21 +1,21 @@
 {
   "date": "2026-10-06",
-  "gold": 4192.2,
-  "gold_chg": 0.85,
-  "ma20": 4306.0,
-  "ma50": 4370.3,
+  "gold": 4191.5,
+  "gold_chg": 0.83,
+  "ma20": 4305.96,
+  "ma50": 4370.28,
   "above_ma20": false,
   "above_ma50": false,
-  "dxy": 101.82,
-  "dxy_chg": -0.34,
+  "dxy": 101.81,
+  "dxy_chg": -0.36,
   "vix": 15.34,
   "vix_chg": -1.16,
-  "tip": 104.26,
+  "tip": 104.25,
   "tnx": 5.26,
   "corr_gold_dxy": -0.2,
   "corr_gold_tip": 0.32,
   "corr_gold_vix": -0.46,
-  "basis": 37.59,
+  "basis": 37.58,
   "vol20": 16.9,
   "mode": "M",
   "mode_name": "M · 混合驱动",
@@ -48,7 +48,7 @@
     },
     {
       "name": "实物信号",
-      "text": "GLD 5日 -0.33% 弱于期货 +0.30%，期货投机偏热",
+      "text": "GLD 5日 -0.34% 弱于期货 +0.28%，期货投机偏热",
       "dir": "bear"
     }
   ],
@@ -129,11 +129,11 @@
     },
     {
       "date": "2026-10-06",
-      "gold": 4192.2,
-      "gold_chg": 0.85,
-      "dxy": 101.82,
+      "gold": 4191.5,
+      "gold_chg": 0.83,
+      "dxy": 101.81,
       "vix": 15.34,
-      "tip": 104.26
+      "tip": 104.25
     }
   ],
   "macro": {
@@ -177,7 +177,7 @@
         "date": "2026-10-04",
         "text": "Iran says Hormuz to remain closed until US meets conditions",
         "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdEpOSExlamJ6VFM3V3hVMXl2M09LVHYxQnZpUHV6bXZuRkJmM3ljVHA0NFpQTmJ2WS1uZzhQVjAxVUJJYUZXeE5rMTVZMkdma3Z0a2NWUU9qRGJXZlhkSFYyVkVINHE1NjR6bklmTmxZUWdWNS1qaXc0cTNnU0xtZWV2QTRubWoyakdyMDNIUm9KcmpfSy1Jb3Nrb09mTEVMbjBlYVFybGNaa0JFOFhF0gG0AUFVX3lxTE12RHNGM054RWlsaVJaeEgtRWlIUDNKVWN0N0JLQmRfOHA1MU5SUVhXV1pjM1RKRlY2YjVkZlkyaG5vaDhWa0Fhd2hDeVZGMXRYcm5odHB1RWZ1eWJGeEZxRnZrWVNib2FvZHFySGVnNjdqTHlmUVJLdThHZHkwYk14ajdNWlptejNOYnhNR3dacmZMTWlLRDdGMFpkczBqcTBWZlN5UnlSUTV6a3NsWFBvY0djdQ?oc=5",
-        "src": "Al Jazeera"
+        "src": "aljazeera.com"
       },
       {
         "date": "2026-10-02",
@@ -192,24 +192,24 @@
         "src": "Anadolu Ajansı"
       },
       {
-        "date": "2026-10-06",
-        "text": "Trump sparks criticism with comments on potential Iranian attacks on US cities",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbTVfSnJTVmMwN09KVS1wekVYV2FiTmRicXpGZ3dHbmFSS2dtMXZiQU81WkF6ZGJ5X1BEdkhtbk0xNEZKS3pSaGlCZkFXdFFsTEdiYlBqMVRRT1paR2wzQzVDd3ppMjhibHNMZU0wYjlRaklVZkFWcENnSnVTQUVSM3JFTTVwZ0hsYk5tQWEycC1Xcmo5WS01dk13bEJfMV9tNDhxcFFmcXpyQi1OVmZISW02YUVNdXlzQ2QybWVxQ3Q?oc=5",
-        "src": "Scripps News"
-      },
-      {
         "date": "2026-10-04",
         "text": "Pete Hegseth warns Iran will 'never' get nuclear bomb, touts Hormuz blockade",
         "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9SQmt4aVVHV2F1NnVZSHNXdUFyRUQ5c0NZblJrWExud0FELVFsTHBpRk1NN1ZHd1FUQmdYQUFRU2dNeFlveWZwTUdrM2s0YlFmN1lKM0F0VWRYcU9CclBPUEVUVWtIV1d3NUE?oc=5",
         "src": "The Jerusalem Post"
+      },
+      {
+        "date": "2026-10-06",
+        "text": "Trump sparks criticism with comments on potential Iranian attacks on US cities",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbTVfSnJTVmMwN09KVS1wekVYV2FiTmRicXpGZ3dHbmFSS2dtMXZiQU81WkF6ZGJ5X1BEdkhtbk0xNEZKS3pSaGlCZkFXdFFsTEdiYlBqMVRRT1paR2wzQzVDd3ppMjhibHNMZU0wYjlRaklVZkFWcENnSnVTQUVSM3JFTTVwZ0hsYk5tQWEycC1Xcmo5WS01dk13bEJfMV9tNDhxcFFmcXpyQi1OVmZISW02YUVNdXlzQ2QybWVxQ3Q?oc=5",
+        "src": "Scripps News"
       }
     ],
     "gold_impact": "双重作用：局势升级→避险买盘利多黄金；但同时油价飙升→通胀预期→美联储更难降息→利空黄金。当前谈判窗口期，油价波动会直接传导到金价。",
-    "wti_price": 87.85,
-    "wti_chg": -1.77,
+    "wti_price": 88.11,
+    "wti_chg": -1.48,
     "news_auto": true
   },
   "ai_error": "",
-  "ai_analysis": "金价现在处在“反弹但没翻身”的格局：4192美元只是从低位弹了一下，头上还压着MA20（4306）和MA50（4370）两条均线，综合评分-2，说明空头仍占上风，这波涨更像是超跌后的技术性修复，不是趋势反转。\n\n主导因素有两个。一是美元太强，DXY 101.8站上101关口，直接压着金价抬不起头；二是期货投机偏热、实物偏冷——GLD五天跌0.33%，期货却涨0.30%，说明这波上涨是资金在盘面里炒，不是真有人在买金条，这种结构不牢靠。利率和避险都是中性，帮不上忙也拖不了后腿。\n\n未来一周盯两件事：第一，10年期美债收益率已经5.26%，这个位置如果继续往上冲，黄金的持有成本会更难受，反弹随时熄火；第二，美伊局势紧张度中高但油价反而跌1.77%，说明市场没在认真定价地缘风险，一旦真出事，避险买盘可能突然把金价往上顶——这是当前唯一能打破僵局的变量。",
+  "ai_analysis": "金价现在处在“反弹但没翻身”的格局：4191美元只是从低位弹了一下，头顶还压着MA20（4306）和MA50（4370）两道坎，综合评分-2，偏空没变。\n\n主导因素有两个。一是美元太强，DXY 101.8站上101，直接压着金价抬不起头；二是期货投机偏热、实物偏冷——GLD五天跌0.34%，期货却涨0.28%，说明这波反弹是资金在期货里炒，不是真有人在买金条，这种涨法不结实。10年美债5.26%的高利率也一直在抽走持有黄金的理由。\n\n未来一周盯两件事：第一，美伊局势紧张度中高但油价反而跌1.48%，一旦真出事，避险资金会瞬间推金价，这是最大的上行意外；第二，22天后FOMC，市场只预期降12bp，如果接下来有美联储官员放鹰、降息预期继续缩水，金价大概率再探底。\n\n一句话：反弹可以看，但4300没站上之前，别当成反转。",
   "ai_date": "2026-10-06"
 }
