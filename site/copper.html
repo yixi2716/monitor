@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>铜价周期监测台</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔶</text></svg>">
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+<style>
+:root{
+  --bg:#0d1117; --card:#161b22; --border:#30363d;
+  --text:#e6edf3; --muted:#8b949e;
+  --accent:#d4782a; --accent2:#f0a050;
+  --green:#3fb950; --red:#f85149; --orange:#d29922; --cyan:#39c5cf;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,'Segoe UI','Microsoft YaHei',sans-serif;padding:20px;max-width:1400px;margin:0 auto}
+.header{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;flex-wrap:wrap;gap:10px}
+.header h1{font-size:22px;font-weight:700}
+.header a{color:var(--accent2);text-decoration:none;font-size:13px}
+.kpi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-bottom:16px}
+.kpi{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:14px 16px}
+.kpi .label{font-size:11px;color:var(--muted);margin-bottom:6px}
+.kpi .value{font-size:24px;font-weight:700}
+.kpi .chg{font-size:12px;margin-top:4px}
+.up{color:var(--red)} .down{color:var(--green)}
+.section{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:18px;margin-bottom:16px}
+.section h2{font-size:15px;margin-bottom:14px;display:flex;align-items:center;gap:8px}
+.section h2 .dot{width:8px;height:8px;border-radius:50%;background:var(--accent)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media(max-width:800px){.grid2{grid-template-columns:1fr}}
+.chart{height:320px}
+.signal-row{display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid var(--border);font-size:13px}
+.signal-row:last-child{border:0}
+.badge{padding:2px 8px;border-radius:10px;font-size:11px;font-weight:600}
+.bull{background:rgba(248,81,73,.15);color:var(--red)}
+.bear{background:rgba(63,185,80,.15);color:var(--green)}
+.neutral{background:rgba(139,148,158,.15);color:var(--muted)}
+.news{font-size:13px}
+.news .item{padding:8px 0;border-bottom:1px solid var(--border)}
+.news .item:last-child{border:0}
+.news .date{color:var(--muted);font-size:11px;margin-right:8px}
+.news a{color:var(--text);text-decoration:none}
+.news a:hover{color:var(--accent2)}
+.ai-box{background:linear-gradient(135deg,rgba(212,120,42,.08),rgba(240,160,80,.03));border-left:3px solid var(--accent);padding:14px;border-radius:6px;font-size:13px;line-height:1.8;white-space:pre-wrap}
+.src{font-size:11px;color:var(--muted);margin-top:8px}
+.src a{color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>🔶 铜价周期监测台</h1>
+  <a href="index.html">← 返回总览</a>
+</div>
+
+<div class="kpi-grid" id="kpi"></div>
+
+<div class="section">
+  <h2><span class="dot"></span>铜价走势（近1年）</h2>
+  <div id="chart" class="chart"></div>
+</div>
+
+<div class="grid2">
+  <div class="section">
+    <h2><span class="dot"></span>每日信号</h2>
+    <div id="signals"></div>
+  </div>
+  <div class="section">
+    <h2><span class="dot"></span>矿端/库存/关税新闻</h2>
+    <div class="news" id="news"></div>
+  </div>
+</div>
+
+<div class="section">
+  <h2><span class="dot"></span>AI 综合分析 · DeepSeek</h2>
+  <div class="ai-box" id="ai">加载中...</div>
+  <div class="src">由 DeepSeek 模型读取当日数据后生成，每日美股收盘后更新；不构成投资建议。</div>
+</div>
+
+<script>
+async function load(){
+  const L = await fetch('data/copper/latest.json',{cache:'no-store'}).then(r=>r.json());
+  // KPI
+  const chgCls = L.copper_chg>=0?'up':'down';
+  const chgSign = L.copper_chg>=0?'+':'';
+  document.getElementById('kpi').innerHTML = `
+    <div class="kpi"><div class="label">COMEX 铜</div><div class="value">$${L.copper.toFixed(2)}</div><div class="chg ${chgCls}">${chgSign}${L.copper_chg.toFixed(2)}%</div></div>
+    <div class="kpi"><div class="label">MA20 / MA50</div><div class="value" style="font-size:16px">$${L.ma20.toFixed(0)} / $${L.ma50.toFixed(0)}</div><div class="chg" style="color:var(--muted)">${L.copper>L.ma20?'站上MA20':'低于MA20'}</div></div>
+    <div class="kpi"><div class="label">美元指数 DXY</div><div class="value">${L.dxy.toFixed(2)}</div><div class="chg" style="color:var(--muted)">${L.dxy<100?'偏弱 利多铜':L.dxy>103?'偏强 压制铜':'中性'}</div></div>
+    <div class="kpi"><div class="label">VIX 恐慌指数</div><div class="value">${L.vix.toFixed(1)}</div><div class="chg" style="color:var(--muted)">${L.vix>25?'避险升温':'风险偏好正常'}</div></div>
+    <div class="kpi"><div class="label">10Y 美债收益率</div><div class="value">${L.tnx.toFixed(2)}%</div><div class="chg" style="color:var(--muted)">${L.tnx>5?'高利率压制':'环境友好'}</div></div>
+    <div class="kpi"><div class="label">铜油比</div><div class="value">${L.cu_oil_ratio.toFixed(1)}</div><div class="chg" style="color:var(--muted)">铜价/油价</div></div>
+  `;
+  // 信号
+  document.getElementById('signals').innerHTML = L.signals.map(s=>`
+    <div class="signal-row"><span class="badge ${s.dir}">${s.dir==='bull'?'多':s.dir==='bear'?'空':'中'}</span><strong>${s.name}</strong><span style="color:var(--muted)">${s.text}</span></div>
+  `).join('');
+  // 新闻
+  document.getElementById('news').innerHTML = (L.news||[]).map(n=>`
+    <div class="item"><span class="date">${n.date}</span><a href="${n.url}" target="_blank">${n.text}</a></div>
+  `).join('') || '<span style="color:var(--muted)">暂无新闻</span>';
+  // AI
+  const aiEl = document.getElementById('ai');
+  if(L.ai_analysis){ aiEl.textContent = L.ai_analysis; }
+  else { aiEl.innerHTML = '<span style="color:var(--muted)">今日 AI 分析暂未生成'+(L.ai_error?'（'+L.ai_error+'）':'')+'</span>'; }
+  // 图
+  const hist = await fetch('data/copper/history.json',{cache:'no-store'}).then(r=>r.json());
+  const dates = hist.map(h=>h.date);
+  const prices = hist.map(h=>h.copper);
+  const chart = echarts.init(document.getElementById('chart'));
+  chart.setOption({
+    tooltip:{trigger:'axis'},
+    grid:{left:60,right:20,top:20,bottom:30},
+    xAxis:{type:'category',data:dates,axisLabel:{color:'#8b949e'}},
+    yAxis:{type:'value',scale:true,axisLabel:{color:'#8b949e'},splitLine:{lineStyle:{color:'#30363d'}}},
+    series:[{type:'line',data:prices,smooth:true,itemStyle:{color:'#d4782a'},areaStyle:{color:'rgba(212,120,42,.15)'}}]
+  });
+  window.addEventListener('resize',()=>chart.resize());
+}
+load().catch(e=>document.body.innerHTML='<p style="color:red">加载失败: '+e+'</p>');
+</script>
+</body>
+</html>
