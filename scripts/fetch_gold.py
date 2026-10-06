@@ -247,12 +247,25 @@ def call_deepseek(data: dict) -> str:
     try:
         with urllib.request.urlopen(req, timeout=30) as r:
             resp = json.loads(r.read().decode("utf-8"))
+        if "error" in resp:
+            err = str(resp["error"])[:300]
+            print(f"    [warn] DeepSeek 返回错误: {err}")
+            return "", err
         text = resp["choices"][0]["message"]["content"].strip()
+        if not text:
+            print(f"    [warn] DeepSeek 返回空内容，完整响应: {json.dumps(resp)[:300]}")
+            return "", "API 返回空内容: " + json.dumps(resp)[:200]
         print(f"    AI 分析生成成功（{len(text)} 字）")
-        return text
+        return text, ""
+    except urllib.error.HTTPError as e:
+        body = e.read().decode("utf-8", errors="replace")[:300]
+        err = f"HTTP {e.code}: {body}"
+        print(f"    [warn] DeepSeek API 调用失败: {err}")
+        return "", err
     except Exception as e:
-        print(f"    [warn] DeepSeek API 调用失败: {e}")
-        return ""
+        err = f"{type(e).__name__}: {e}"
+        print(f"    [warn] DeepSeek API 调用失败: {err}")
+        return "", err
 
 
 def fetch_iran_news(limit=6):
@@ -451,8 +464,8 @@ def main():
     # AI 综合分析（在写文件前调用，把最新数据喂给 DeepSeek）
     print("    调用 DeepSeek 生成综合分析...")
     try:
-        analysis = call_deepseek(latest)
-        latest["ai_error"] = "" if analysis else "API 返回空字符串"
+        analysis, ai_err = call_deepseek(latest)
+        latest["ai_error"] = ai_err
     except Exception as e:
         analysis = ""
         latest["ai_error"] = f"{type(e).__name__}: {e}"
