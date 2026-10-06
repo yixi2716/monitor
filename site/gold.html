@@ -404,7 +404,8 @@ function renderGeo(L) {
 function renderAI(L) {
   const el = document.getElementById('ai-content');
   if (!L.ai_analysis) {
-    el.innerHTML = '<span style="color:var(--muted);font-size:13px">今日 AI 分析暂未生成（未配置 API key 或调用失败）。配置 DEEPSEEK_API_KEY 后自动启用。</span>';
+    const err = L.ai_error ? '原因：' + L.ai_error : '';
+    el.innerHTML = '<span style="color:var(--muted);font-size:13px">今日 AI 分析暂未生成。' + err + '</span>';
     return;
   }
   el.textContent = L.ai_analysis;

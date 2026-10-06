@@ -450,7 +450,12 @@ def main():
 
     # AI 综合分析（在写文件前调用，把最新数据喂给 DeepSeek）
     print("    调用 DeepSeek 生成综合分析...")
-    analysis = call_deepseek(latest)
+    try:
+        analysis = call_deepseek(latest)
+        latest["ai_error"] = "" if analysis else "API 返回空字符串"
+    except Exception as e:
+        analysis = ""
+        latest["ai_error"] = f"{type(e).__name__}: {e}"
     latest["ai_analysis"] = analysis
     latest["ai_date"] = latest["date"]
     os.makedirs(SITE_DATA_DIR, exist_ok=True)
