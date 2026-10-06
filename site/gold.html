@@ -325,8 +325,17 @@ function renderEvidence(L) {
 }
 
 function renderFed(L) {
-  const m = L.macro;
+  let m = L.macro;
   if (!m) return;
+  // 如果 next_date 已过（开完会了），自动从 upcoming 里找下一个未来会议
+  if (m.next_date && m.upcoming && m.upcoming.length) {
+    const today = new Date(); today.setHours(0,0,0,0);
+    const cur = new Date(m.next_date + 'T00:00:00');
+    if (cur < today) {
+      const future = m.upcoming.find(u => new Date(u.date + 'T00:00:00') >= today);
+      if (future) m = {...m, next_date: future.date, next_label: future.label.replace(/（.*?）/, '').trim()};
+    }
+  }
   const expectColor = m.market_bp_vs_current > 5 ? 'orange' : (m.market_bp_vs_current < -5 ? 'green' : 'cyan');
   const upcoming = (m.upcoming || []).map(u =>
     `<li>${u.date} · ${u.label}${u.dot_plot ? ' <span style="color:var(--accent)">★</span>' : ''}</li>`
@@ -370,6 +379,8 @@ function renderGeo(L) {
   const events = (g.events || []).map(e =>
     `<div class="ev"><span class="d">${e.date}</span><a href="${e.url}" target="_blank" rel="noopener">${e.text}（${e.src}）↗</a></div>`
   ).join('');
+  // 美伊"更新日期"自动取新闻里最新一条的日期，不用 config 写死的
+  const latestNewsDate = (g.events && g.events[0] && g.events[0].date) ? g.events[0].date : g.updated;
   document.getElementById('geo-wrap').innerHTML = `
     <div class="geo-left">
       <div style="color:var(--muted);font-size:12px">当前紧张度</div>
@@ -381,7 +392,7 @@ function renderGeo(L) {
         <span style="color:${wtiCls};font-size:12px;margin-left:6px">${g.wti_chg >= 0 ? '+' : ''}${g.wti_chg}%</span>
         <div style="margin-top:4px"><a href="https://finance.yahoo.com/quote/CL=F" target="_blank" rel="noopener" style="color:#7FB5E8;font-size:12px;text-decoration:none">来源：Yahoo CL=F ↗</a></div>
       </div>
-      <div style="font-size:11px;color:var(--muted);margin-top:10px">更新：${g.updated} · <span style="color:#3FBF7F">新闻每日自动更新</span></div>
+      <div style="font-size:11px;color:var(--muted);margin-top:10px">最新新闻：${latestNewsDate} · <span style="color:#3FBF7F">每日自动抓取</span></div>
     </div>
     <div class="geo-right">
       <div style="font-size:13px;line-height:1.7;margin-bottom:6px">${g.summary}</div>
@@ -397,6 +408,11 @@ function renderAI(L) {
     return;
   }
   el.textContent = L.ai_analysis;
+  // 在标题后面加日期
+  const h2 = document.querySelector('#ai-block h2');
+  if (h2 && L.ai_date) {
+    h2.innerHTML = '<span class="dot" style="background:var(--accent)"></span>AI 综合分析 · DeepSeek 阅读今日看板后生成 <span style="color:var(--muted);font-weight:400;font-size:12px;margin-left:8px">(' + L.ai_date + ')</span>';
+  }
 }
 
 function renderTable(L) {
