@@ -332,6 +332,14 @@ function renderFed(L) {
     `<li>${u.date} · ${u.label}${u.dot_plot ? ' <span style="color:var(--accent)">★</span>' : ''}</li>`
   ).join('');
   const a = (href, txt) => `<a href="${href}" target="_blank" rel="noopener" style="color:#7FB5E8;text-decoration:none">${txt}</a>`;
+  // 前端实时算距下次 FOMC 天数（不管数据是哪天的，按打开页面当天算）
+  let daysStr = '—';
+  if (m.next_date) {
+    const today = new Date(); today.setHours(0,0,0,0);
+    const target = new Date(m.next_date + 'T00:00:00');
+    const diff = Math.round((target - today) / 86400000);
+    daysStr = diff >= 0 ? diff + ' 天' : '已过';
+  }
   document.getElementById('fed-grid').innerHTML = `
     <div class="fed-card">
       <div class="lbl">当前联邦基金利率</div>
@@ -340,7 +348,7 @@ function renderFed(L) {
     </div>
     <div class="fed-card cyan">
       <div class="lbl">距下次 FOMC</div>
-      <div class="val">${m.days_to_next != null ? m.days_to_next + ' 天' : '—'}</div>
+      <div class="val">${daysStr}</div>
       <div class="sub">${m.next_label || ''} · ${m.next_date || ''}<br>${a('https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm', '来源：美联储日历 ↗')}</div>
     </div>
     <div class="fed-card ${expectColor}">
