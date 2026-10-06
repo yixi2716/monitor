@@ -1,21 +1,21 @@
 {
   "date": "2026-10-06",
-  "gold": 4183.2,
+  "gold": 4183.3,
   "gold_chg": 0.64,
   "ma20": 4305.55,
   "ma50": 4370.12,
   "above_ma20": false,
   "above_ma50": false,
-  "dxy": 101.87,
-  "dxy_chg": -0.3,
-  "vix": 15.41,
-  "vix_chg": -0.71,
-  "tip": 104.26,
-  "tnx": 5.28,
+  "dxy": 101.86,
+  "dxy_chg": -0.31,
+  "vix": 15.39,
+  "vix_chg": -0.84,
+  "tip": 104.22,
+  "tnx": 5.26,
   "corr_gold_dxy": -0.18,
   "corr_gold_tip": 0.31,
   "corr_gold_vix": -0.46,
-  "basis": 36.73,
+  "basis": 36.98,
   "vol20": 16.7,
   "mode": "M",
   "mode_name": "M · 混合驱动",
@@ -33,7 +33,7 @@
     },
     {
       "name": "利率信号",
-      "text": "TIP 5日 +0.24%，实际利率平稳",
+      "text": "TIP 5日 +0.21%，实际利率平稳",
       "dir": "neutral"
     },
     {
@@ -48,7 +48,7 @@
     },
     {
       "name": "实物信号",
-      "text": "GLD 与期货同步（5日 -0.34% vs +0.08%）",
+      "text": "GLD 与期货同步（5日 -0.40% vs +0.09%）",
       "dir": "neutral"
     }
   ],
@@ -129,11 +129,11 @@
     },
     {
       "date": "2026-10-06",
-      "gold": 4183.2,
+      "gold": 4183.3,
       "gold_chg": 0.64,
-      "dxy": 101.87,
-      "vix": 15.41,
-      "tip": 104.26
+      "dxy": 101.86,
+      "vix": 15.39,
+      "tip": 104.22
     }
   ],
   "macro": {
@@ -177,7 +177,7 @@
         "date": "2026-10-04",
         "text": "Iran says Hormuz to remain closed until US meets conditions",
         "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdEpOSExlamJ6VFM3V3hVMXl2M09LVHYxQnZpUHV6bXZuRkJmM3ljVHA0NFpQTmJ2WS1uZzhQVjAxVUJJYUZXeE5rMTVZMkdma3Z0a2NWUU9qRGJXZlhkSFYyVkVINHE1NjR6bklmTmxZUWdWNS1qaXc0cTNnU0xtZWV2QTRubWoyakdyMDNIUm9KcmpfSy1Jb3Nrb09mTEVMbjBlYVFybGNaa0JFOFhF0gG0AUFVX3lxTE12RHNGM054RWlsaVJaeEgtRWlIUDNKVWN0N0JLQmRfOHA1MU5SUVhXV1pjM1RKRlY2YjVkZlkyaG5vaDhWa0Fhd2hDeVZGMXRYcm5odHB1RWZ1eWJGeEZxRnZrWVNib2FvZHFySGVnNjdqTHlmUVJLdThHZHkwYk14ajdNWlptejNOYnhNR3dacmZMTWlLRDdGMFpkczBqcTBWZlN5UnlSUTV6a3NsWFBvY0djdQ?oc=5",
-        "src": "aljazeera.com"
+        "src": "Al Jazeera"
       },
       {
         "date": "2026-10-02",
@@ -198,18 +198,18 @@
         "src": "The Jerusalem Post"
       },
       {
-        "date": "2026-10-01",
-        "text": "NATO Chief Calls US Strikes on Iran Nuclear Sites “Completely Necessary”",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPX2puQ2pjRi1rZWZoWll6eS02bS1ucTlyWDI2VFBVMnJYTmZkOEJaelhZMWRBR3kyMll2bEJtckRuYnhjODBCTEQ4Ul94VWlKemYya2tUX0pRcWtWQ3pMd0xuOXFkdDVsZEFTbk91cHVBYm5uYlhHZFAtQmVfb2NwbUpDS1VHNlg3dU9TYW5XV1RqZDNjbjMtZFB6bEhSVl91RC1oRVIxYWk2MnM?oc=5",
-        "src": "IranWire"
+        "date": "2026-10-06",
+        "text": "Trump sparks criticism with comments on potential Iranian attacks on US cities",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbTVfSnJTVmMwN09KVS1wekVYV2FiTmRicXpGZ3dHbmFSS2dtMXZiQU81WkF6ZGJ5X1BEdkhtbk0xNEZKS3pSaGlCZkFXdFFsTEdiYlBqMVRRT1paR2wzQzVDd3ppMjhibHNMZU0wYjlRaklVZkFWcENnSnVTQUVSM3JFTTVwZ0hsYk5tQWEycC1Xcmo5WS01dk13bEJfMV9tNDhxcFFmcXpyQi1OVmZISW02YUVNdXlzQ2QybWVxQ3Q?oc=5",
+        "src": "Scripps News"
       }
     ],
     "gold_impact": "双重作用：局势升级→避险买盘利多黄金；但同时油价飙升→通胀预期→美联储更难降息→利空黄金。当前谈判窗口期，油价波动会直接传导到金价。",
-    "wti_price": 87.82,
-    "wti_chg": -1.8,
+    "wti_price": 87.88,
+    "wti_chg": -1.73,
     "news_auto": true
   },
-  "ai_error": "ValueError: not enough values to unpack (expected 2, got 0)",
-  "ai_analysis": "",
+  "ai_error": "",
+  "ai_analysis": "金价现在站在 $4183，但头顶压着 MA20（4305）和 MA50（4370）两条均线，属于反弹但没翻身的偏空格局，综合评分 -1 也印证了这点。\n\n主导因素有两个：一是美元，DXY 101.86 站上 101 关口，直接压着金价抬不起头，这是当前最硬的空头逻辑；二是美债收益率 5.26% 的高位，持有黄金的机会成本太高，资金没理由大举进场。至于美伊紧张、油价却跌 1.73%，说明避险买盘并没有真正启动，这条线暂时撑不起金价。\n\n未来一周盯两件事：第一，DXY 能不能跌回 101 以下，这是金价能否站稳 4200 的前提；第二，美伊局势会不会从\"中高\"升级成实质冲突，一旦油价反弹、VIX 跳升，避险信号会从 neutral 转向 bear（对金价利多），那才是真正的变盘触发器。现在这个位置，追多没底气，做空又怕地缘黑天鹅，等信号明朗再动手。",
   "ai_date": "2026-10-06"
 }
