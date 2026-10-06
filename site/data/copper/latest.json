@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-06",
+  "copper": 0,
+  "copper_chg": 0,
+  "ma20": 0,
+  "ma50": 0,
+  "dxy": 0,
+  "vix": 0,
+  "tnx": 0,
+  "wti": 0,
+  "cu_oil_ratio": 0,
+  "signals": [],
+  "score": 0,
+  "news": [],
+  "ai_analysis": "",
+  "ai_date": "",
+  "ai_error": "等待首次数据采集"
+}
