@@ -216,24 +216,37 @@ def call_deepseek(data: dict) -> str:
     m = data.get("macro", {})
     g = data.get("geopolitics", {})
     sig_lines = "\n".join(f"  - {s['name']}（{s['dir']}）：{s['text']}" for s in data.get("signals", []))
-    prompt = f"""你是黄金宏观分析师。基于以下今日看板数据，用中文给出 200-300 字的综合判断。
-要求：
-1. 先一句话定调（当前多空格局）
-2. 指出当前最主导的 1-2 个驱动因素
-3. 提示 1-2 个未来一周需要盯的风险点
-4. 不要套话，不要"投资需谨慎"这种免责声明，直接说观点
-5. 用普通人能懂的话，不要堆砌术语
+    shfe_str = f"¥{data.get('shfe_au',0):.2f}/克" if data.get('shfe_au') else "未获取"
+    ratio_str = f"{data.get('gold_silver_ratio',0):.1f}" if data.get('gold_silver_ratio') else "未获取"
+    cftc_str = f"{data.get('cftc_gold_net',0):,} 张" if data.get('cftc_gold_net') else "未获取"
 
-今日数据：
-- 金价：${data['gold']}（{data['gold_chg']:+.2f}%），MA20={data['ma20']}，MA50={data['ma50']}
-- 定价模式：{data['mode_name']}（置信度 {data['confidence']}）
-- VIX={data['vix']}，DXY={data['dxy']}，10Y美债={data['tnx']}%
-- 5条每日信号：
-{sig_lines}
-- 综合评分：{data['score']}
+    prompt = f"""你是贵金属分析师，每日跟踪黄金市场。基于以下数据，按要求输出。
+
+【核心数据】
+- COMEX黄金：${data['gold']:.2f}/盎司（{data['gold_chg']:+.2f}%），MA20=${data['ma20']:.2f}，MA50=${data['ma50']:.2f}
+- 沪金主力：{shfe_str}
+- 金银比：{ratio_str}（>80 避险升温）
+- DXY美元指数：{data['dxy']:.2f}
+- 10Y美债收益率：{data['tnx']:.2f}%
+- TIPS实际利率：用 TIP ETF 代理（{data.get('tip',0):.2f}）
+- VIX：{data['vix']:.1f}
+- CFTC黄金净持仓：{cftc_str}（{data.get('cftc_gold_date','')}）
 - 美联储：当前利率 {m.get('funds_range','')}，距下次FOMC还有 {m.get('days_to_next','?')} 天，{m.get('market_expectation','')}
-- 美伊局势：紧张度 {g.get('level','')}，WTI原油 ${g.get('wti_price','?')}（{g.get('wti_chg',0):+.2f}%）
-"""
+- 地缘局势：紧张度 {g.get('level','')}，WTI原油 ${g.get('wti_price','?')}
+- SPDR GLD持仓量：未获取
+
+【每日信号】
+{sig_lines}
+
+【输出要求】
+1. 涨跌归因：区分今日驱动是实际利率/美元/避险/资金技术驱动，判断行情持续性
+2. 宏观映射：实际利率和美元变动是否解释了金价波动，若有背离重点说明
+3. 资金信号：CFTC净多头是否过热，投机盘方向
+4. 内外盘：沪金溢价反映国内需求强弱
+5. 短期展望：偏多/偏空/震荡 + 关键支撑位/阻力位
+6. 近期风险事件：重要数据发布时间
+
+要求：200-300字，普通人能懂，不要套话和免责声明，未获取的数据不要编造。"""
     body = json.dumps({
         "model": "deepseek-chat",
         "messages": [
