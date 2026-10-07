@@ -1,14 +1,14 @@
 {
   "date": "2026-10-07",
-  "copper": 6.63700008392334,
-  "copper_chg": 0.6444767405496155,
-  "ma20": 6.563275003433228,
-  "ma50": 6.5698200130462645,
-  "dxy": 102.38899993896484,
-  "vix": 15.829999923706055,
+  "copper": 6.639500141143799,
+  "copper_chg": 0.6823879877385419,
+  "ma20": 6.56340000629425,
+  "ma50": 6.569870014190673,
+  "dxy": 102.32499694824219,
+  "vix": 15.699999809265137,
   "tnx": 5.317999839782715,
-  "wti": 89.8499984741211,
-  "cu_oil_ratio": 162.84989842524539,
+  "wti": 89.86000061035156,
+  "cu_oil_ratio": 162.89310818769616,
   "shfe_cu": 109680.0,
   "shfe_cu_date": "2026-09-30",
   "shfe_lme_ratio": 1.041,
@@ -26,17 +26,17 @@
     {
       "name": "美元中性",
       "dir": "neutral",
-      "text": "DXY 102.39"
+      "text": "DXY 102.32"
     },
     {
       "name": "风险偏好正常",
       "dir": "neutral",
-      "text": "VIX 15.8"
+      "text": "VIX 15.7"
     },
     {
       "name": "铜油比偏高",
       "dir": "bull",
-      "text": "铜油比 162.8，工业景气预期强"
+      "text": "铜油比 162.9，工业景气预期强"
     },
     {
       "name": "实际利率高企",
@@ -51,6 +51,12 @@
       "text": "Copper Price: Navigating Near-Term Volatility and Long-Term Bullish Trends",
       "src": "deVere Group",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5iR19yTVRLNWdQWTdndExpQzFoUDA1ZzQ1S1hOMzktMVA1cFBaQkxYNXByTXhaSElMbHFRWGFwQ2JpNkdLSElwTm1za011czVCcF9TaQ?oc=5"
+    },
+    {
+      "date": "2026-10-02",
+      "text": "Koryx Copper Completes Haib PFS Drilling Eyes Updated MRE & PFS by Year-End",
+      "src": "Streetwise Reports",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTmxvTTJjNjZvOHRxVkZhNWthczdSUlNwWHR3dFZweTU1R1RTZ3FLakdkTTNIR1lIS2liRHEwcFJ2bXlZX0tGWTZrejMwMlNJNThTQWwtX2FUdjEyclV5V3ZobGxmUUpINHZDWEgyd2R4U19iSVFKMkJxU3NzTm45XzdfNXNUSlJRYldub2ktM05QakNrbVpHQkVLejdtMnRYcmszQzhja09kd2lJODBmQVVCLThDR0R1S2g3U29veVo0YTFiOGo4UG5hX3M1cUZv?oc=5"
     },
     {
       "date": "2026-10-05",
@@ -72,6 +78,6 @@
     }
   ],
   "ai_error": "",
-  "ai_analysis": "铜价小涨0.64%至$6.64/磅，主要靠情绪面撑住：中美贸易对抗升级让\"囤铜\"需求升温，铜油比162.8显示工业预期不弱，加上价格站上MA20。但10年期美债5.32%的高利率像块石头压着，涨幅因此有限，美元和VIX都中性，没添乱。\n\n库存信号矛盾：LME近30万吨算宽松，但沪铜库存仅1万吨且单日再降721吨，国内明显偏紧。LME升贴水未获取，无法确认海外现货强弱，暂以\"外松内紧\"定性。\n\n沪伦比值1.041>1，进口有利润，说明国内价格相对更强。美国232关税若落地，会推高COMEX对LME的溢价，届时内外盘价差可能进一步走阔，这是当前最需盯住的变量。\n\n趋势信号偏健康：站上均线、铜油比偏多，但实际利率是唯一空头信号，属于\"多头占优但有压制\"。\n\n短期看震荡偏多，COMEX关注$6.56（MA20）支撑和$6.70阻力；沪铜关注¥109,000支撑。\n\n风险点：一是232关税落地节奏若超预期，COMEX溢价跳升会打乱内外盘套利；二是美债利率若继续冲高，会直接压制铜的金融属性估值。",
+  "ai_analysis": "铜价今日小涨0.68%至$6.64/磅，站上MA20和MA50，驱动力主要来自需求预期——铜油比162.9偏高，说明工业景气预期强，叠加美中贸易争夺推升囤铜需求。但10Y美债5.32%的实际利率高企，压制估值上行空间，美元中性未添助力，所以涨幅温和。\n\n库存分化明显：LME库存29.6万吨偏高，但沪铜库存仅1万吨且日降721吨，国内偏紧、海外偏松。LME升贴水未获取，无法判断海外现货紧张程度。\n\n沪伦比值1.041>1，进口有利，说明国内价格相对偏强。需注意COMEX因美国232铜关税预期存在溢价，若关税落地，COMEX与LME价差可能进一步走阔。\n\n资金信号看，价格站上均线、铜油比偏多，但实际利率是逆风，趋势中性偏健康，未到强势。\n\n短期展望：震荡偏多，COMEX关键支撑$6.56（MA20），阻力$6.70。\n\n风险点：一是美国232铜关税政策若生变，COMEX溢价可能快速回吐；二是10Y美债利率若继续走高，将压制铜价。",
   "ai_date": "2026-10-07"
 }
