@@ -101,29 +101,34 @@ async function regenerateAI(){
   el.textContent = '分析中...';
   try {
     const L = await fetch('data/pharma/latest.json',{cache:'no-store'}).then(r=>r.json());
-    const newsLines = (L.news||[]).slice(0,6).map(n=>`  - [${n.date}] ${n.text}`).join('\n');
-    const prompt = `你是医药行业分析师。基于以下数据，用中文给 200-300 字综合判断。
+    const newsLines = (L.news||[]).slice(0,8).map(n=>`  - [${n.date}] ${n.text}`).join('\n');
+    const prompt = `请作为医药板块分析师，基于以下数据对今日A股医药行业进行跟踪分析。
 
-【板块数据】
+【核心数据】
 - 沪深300：${L.hs300}（${(L.hs300_chg>=0?'+':'')+L.hs300_chg}%）
 - 医药ETF：${L.med_etf}（${(L.med_etf_chg>=0?'+':'')+L.med_etf_chg}%）
 - 创新药ETF：${L.inn_etf}（${(L.inn_etf_chg>=0?'+':'')+L.inn_etf_chg}%）
 - 恒生医疗：${L.hsi_health}（${(L.hsi_health_chg>=0?'+':'')+L.hsi_health_chg}%）
 - 10Y美债：${L.tnx}%
-- 人民币汇率：${L.usdcny}
+- 美元/人民币：${L.usdcny}
 - 医药相对沪深300超额：${(L.excess>=0?'+':'')+L.excess}%
 
-【最近新闻】
+【当日医药新闻】
 ${newsLines}
 
-【输出要求】
-1. 今日板块涨跌归因（是大盘带动还是独立行情，哪个子板块领涨）
-2. 政策/研发事件催化
-3. 宏观利率和汇率对创新药/CXO的影响
-4. 短期展望（偏多/偏空/震荡）+ 关键位置
-5. 需关注的风险点
+【分析要求】
+1. 涨跌归因：今日板块表现是政策驱动、事件催化（license-out/临床数据）、利率驱动还是大盘贝塔？领涨子板块背后的逻辑
+2. 结构：子板块之间是否分化，资金在板块内部往哪里切换
+3. 联动：港股创新药与A股是否共振，美债利率变动如何影响创新药/CXO估值
+4. 政策扫描：集采/医保谈判/支付改革等政策对各子板块的短期情绪与中长期格局影响
+5. 情绪：涨跌停家数、新闻热度判断板块情绪位置
 
-要求：200-300字，普通人能懂，不要套话，未获取的数据不要编造。`;
+【输出格式】
+- 一段话行情解读（100字以内，明确主导驱动与子板块结构）
+- 短期展望（板块方向 + 需跟踪的催化与风险）
+- 当日重要个股/政策事件摘要（1-2条，附事件性质判断：一次性催化还是基本面变化）
+
+如某项数据当日未更新，标注"未更新"并沿用最近值，不要编造数据。用中文，普通人能懂。`;
 
     const resp = await fetch('https://api.deepseek.com/v1/chat/completions',{
       method:'POST',
