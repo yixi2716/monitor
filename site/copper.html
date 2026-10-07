@@ -76,7 +76,7 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,'Segoe UI'
     <button onclick="regenerateAI()" style="margin-left:12px;padding:4px 12px;background:var(--accent2);color:#000;border:none;border-radius:4px;cursor:pointer;font-size:12px">重新生成</button>
   </h2>
   <div class="ai-box" id="ai">加载中...</div>
-  <div class="src">由 DeepSeek 模型读取当日数据后生成，每日美股收盘后更新；不构成投资建议。</div>
+  <div class="src">由 DeepSeek 模型读取当日数据后生成；不构成投资建议。</div>
 </div>
 
 <div class="section" style="font-size:12px;color:var(--muted)">
@@ -135,9 +135,73 @@ async function load(){
 }
 load().catch(e=>document.body.innerHTML='<p style="color:red">加载失败: '+e+'</p>');
 
-function regenerateAI(){
-  alert('请打开 GitHub Actions 点 "Run workflow"，跑完后刷新本页面即可看到新的 AI 分析。');
-  window.open('https://github.com/yixi2716/monitor/actions','_blank');
+const DEEPSEEK_KEY = "sk-238f37694a504056b4178fb33d6613b6";
+
+async function regenerateAI(){
+  const aiEl = document.getElementById('ai');
+  aiEl.textContent = "分析中...";
+  try {
+    const L = await fetch('data/copper/latest.json',{cache:'no-store'}).then(r=>r.json());
+    const sigLines = (L.signals||[]).map(s=>`  - ${s.name}（${s.dir}）：${s.text}`).join('\n');
+    const newsLines = (L.news||[]).slice(0,8).map(n=>`  - [${n.date}] ${n.text}`).join('\n');
+    const lmeStock = L.lme_stock ? L.lme_stock.toLocaleString()+' 吨' : '未获取';
+    const shfeStock = L.shfe_stock ? L.shfe_stock.toLocaleString()+' 吨（日变'+(L.shfe_stock_chg>0?'+':'')+L.shfe_stock_chg+'）' : '未获取';
+    const shfeCu = L.shfe_cu ? '¥'+L.shfe_cu.toLocaleString()+'/吨' : '未获取';
+    const ratio = L.shfe_lme_ratio ? L.shfe_lme_ratio.toFixed(3) : '未获取';
+
+    const prompt = `你是大宗商品分析师，每日跟踪铜市场。基于以下数据，按要求输出。
+
+【核心数据】
+- COMEX铜：$${L.copper.toFixed(2)}/磅（${(L.copper_chg>=0?'+':'')+L.copper_chg.toFixed(2)}%），MA20=$${L.ma20.toFixed(2)}，MA50=$${L.ma50.toFixed(2)}
+- 沪铜主力：${shfeCu}
+- 沪伦比值：${ratio}（>1 进口有利）
+- DXY美元指数：${L.dxy.toFixed(2)}
+- VIX：${L.vix.toFixed(1)}，10Y美债：${L.tnx.toFixed(2)}%
+- WTI原油：$${L.wti.toFixed(2)}，铜油比：${(L.cu_oil_ratio||0).toFixed(1)}
+- LME库存：${lmeStock}（${L.lme_stock_date||''}）
+- 沪铜库存：${shfeStock}（${L.shfe_stock_date||''}）
+- LME Cash-3M升贴水：未获取
+- 铜精矿TC：未获取
+- CFTC铜非商业净持仓：未获取
+
+【每日信号】
+${sigLines}
+
+【最近新闻】
+${newsLines}
+
+【输出要求】
+1. 涨跌归因：拆解今日铜价变动主要由什么驱动（宏观美元/利率、供给、还是需求预期）
+2. 库存与价差：结合库存和升贴水判断当前是紧张还是宽松格局
+3. 内外盘：沪伦比值说明内外盘强弱
+4. 资金信号：基于已有信号判断趋势是否健康
+5. 短期展望：偏多/偏空/震荡 + 关键价位
+6. 风险点：1-2条
+
+要求：200-300字，普通人能懂，不要套话和免责声明，未获取的数据不要编造。`;
+
+    const resp = await fetch('https://api.deepseek.com/v1/chat/completions', {
+      method: 'POST',
+      headers: {
+        'Authorization': 'Bearer ' + DEEPSEEK_KEY,
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        model: 'deepseek-chat',
+        messages: [
+          {role: 'system', content: '你是严谨的大宗商品分析师。'},
+          {role: 'user', content: prompt}
+        ],
+        temperature: 0.3,
+        max_tokens: 500
+      })
+    });
+    const data = await resp.json();
+    if(data.error) throw new Error(data.error.message);
+    aiEl.textContent = data.choices[0].message.content;
+  } catch(e) {
+    aiEl.innerHTML = '<span style="color:#f85149">生成失败: '+e.message+'</span>';
+  }
 }
 </script>
 </body>
