@@ -206,7 +206,11 @@ def main():
     except Exception:
         hist = []
     rec = {"date": latest_data["date"], "copper": copper, "dxy": dxy, "score": score}
-    if hist and hist[-1]["date"] == latest_data["date"]:
+    if not hist:
+        # 第一次跑：把拉到的 1 年历史都写进去
+        hist = [{"date": idx.strftime("%Y-%m-%d"), "copper": float(row["HG"])}
+                for idx, row in px.iterrows()]
+    elif hist[-1]["date"] == latest_data["date"]:
         hist[-1] = rec
     else:
         hist.append(rec)
