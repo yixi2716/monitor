@@ -1,14 +1,14 @@
 {
   "date": "2026-10-07",
-  "copper": 6.636000156402588,
-  "copper_chg": 0.6293136878402494,
-  "ma20": 6.56322500705719,
-  "ma50": 6.56980001449585,
-  "dxy": 102.38800048828125,
-  "vix": 15.710000038146973,
-  "tnx": 5.325999736785889,
-  "wti": 89.93000030517578,
-  "cu_oil_ratio": 162.6805139015025,
+  "copper": 6.63700008392334,
+  "copper_chg": 0.6444767405496155,
+  "ma20": 6.563275003433228,
+  "ma50": 6.5698200130462645,
+  "dxy": 102.38899993896484,
+  "vix": 15.829999923706055,
+  "tnx": 5.317999839782715,
+  "wti": 89.8499984741211,
+  "cu_oil_ratio": 162.84989842524539,
   "shfe_cu": 109680.0,
   "shfe_cu_date": "2026-09-30",
   "shfe_lme_ratio": 1.041,
@@ -31,17 +31,17 @@
     {
       "name": "风险偏好正常",
       "dir": "neutral",
-      "text": "VIX 15.7"
+      "text": "VIX 15.8"
     },
     {
       "name": "铜油比偏高",
       "dir": "bull",
-      "text": "铜油比 162.7，工业景气预期强"
+      "text": "铜油比 162.8，工业景气预期强"
     },
     {
       "name": "实际利率高企",
       "dir": "bear",
-      "text": "10Y 5.33%，压制金属估值"
+      "text": "10Y 5.32%，压制金属估值"
     }
   ],
   "score": 1,
@@ -59,12 +59,6 @@
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5waEFyQkk3SV9keHBKdFhHWmtZVmN2MTNTbFhvd09CUXB1YWtYUkhoMWVGZVdMVm9GVnJ6WE00enpiUHk2cTU5SHlOZE42aWRuUy01TzZCUQ?oc=5"
     },
     {
-      "date": "2026-09-30",
-      "text": "A Real Affordability Agenda",
-      "src": "National Review",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPamhvVmp3MTZULWFlRzhNRWdHb2tHck9HeEIxYW02VlcxNjZUUEdIcmNwSjVjdDJBVDJJMjRWY3dQUzYwSGFadzVVQ1FTSHUtNzZZa2dwd0Z0dURja3VicFM5WGQxbHo5WXZ3bkNJY0x4UzUxajV6NURyREUyS1FZbW9B0gGHAUFVX3lxTFBHM3NKQ29RNlZya2tUdi1xcF9EWG5seGMyU25vNk1kN0g5aW5hMmU1RUkyNTJuVHZndGUzd1hNN2ZsTms3aWRfVDlOMGFBNUpzQ2pEdWlsaVF0dU9GalJUXy05d3dIZFF2UVRoUThLVjJ4Zm9GSWpOeFhvLW1SUFZ0VC1SOTFFbw?oc=5"
-    },
-    {
       "date": "2026-10-06",
       "text": "DNCA Investments: \"Copper is at the heart of trade and technology wars\"",
       "src": "marketscreener.com",
@@ -78,6 +72,6 @@
     }
   ],
   "ai_error": "",
-  "ai_analysis": "铜价今日小涨0.63%至$6.64/磅，主要靠技术面站上MA20和铜油比偏高支撑，但10年期美债5.33%的高利率在压制估值，美元中性没添乱。库存分化明显：LME近30万吨偏宽松，沪铜仅1万吨且日减721吨，国内偏紧。沪伦比值1.041说明进口有利润、内盘略强，但美国232关税若落地，COMEX对LME溢价可能进一步走阔，跨市套利空间会被扭曲。资金信号看，站上均线+铜油比强是健康偏多信号，但实际利率高企是硬伤，趋势不算牢固。短期震荡偏多，COMEX关注$6.56均线支撑和$6.70压力，沪铜看¥108,000-¥111,000。风险点：一是232关税细则若超预期，COMEX溢价跳升会打乱内外盘节奏；二是美债利率若再冲高，金属估值会被继续压。",
+  "ai_analysis": "铜价小涨0.64%至$6.64/磅，主要靠情绪面撑住：中美贸易对抗升级让\"囤铜\"需求升温，铜油比162.8显示工业预期不弱，加上价格站上MA20。但10年期美债5.32%的高利率像块石头压着，涨幅因此有限，美元和VIX都中性，没添乱。\n\n库存信号矛盾：LME近30万吨算宽松，但沪铜库存仅1万吨且单日再降721吨，国内明显偏紧。LME升贴水未获取，无法确认海外现货强弱，暂以\"外松内紧\"定性。\n\n沪伦比值1.041>1，进口有利润，说明国内价格相对更强。美国232关税若落地，会推高COMEX对LME的溢价，届时内外盘价差可能进一步走阔，这是当前最需盯住的变量。\n\n趋势信号偏健康：站上均线、铜油比偏多，但实际利率是唯一空头信号，属于\"多头占优但有压制\"。\n\n短期看震荡偏多，COMEX关注$6.56（MA20）支撑和$6.70阻力；沪铜关注¥109,000支撑。\n\n风险点：一是232关税落地节奏若超预期，COMEX溢价跳升会打乱内外盘套利；二是美债利率若继续冲高，会直接压制铜的金融属性估值。",
   "ai_date": "2026-10-07"
 }
