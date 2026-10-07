@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>医药板块监测台</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💊</text></svg>">
+<style>
+:root{
+  --bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --accent:#3fb950;--accent2:#58a6ff;--up:#3fb950;--down:#f85149;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;font-size:14px;line-height:1.6;padding:20px;max-width:1400px;margin:0 auto}
+.header{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px}
+.header h1{font-size:22px;display:flex;align-items:center;gap:8px}
+.header a{color:var(--muted);text-decoration:none;font-size:13px}
+.kpi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-bottom:20px}
+.kpi{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:14px;border-top:3px solid var(--accent)}
+.kpi .label{font-size:12px;color:var(--muted)}
+.kpi .value{font-size:24px;font-weight:700;margin:4px 0}
+.kpi .chg{font-size:13px}
+.kpi .chg.up{color:var(--up)}.kpi .chg.down{color:var(--down)}
+.kpi .src{font-size:10px;color:var(--muted);margin-top:6px}
+.kpi .src a{color:var(--accent2);text-decoration:none}
+.section{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:16px;margin-bottom:16px}
+.section h2{font-size:15px;margin-bottom:12px;display:flex;align-items:center;gap:6px}
+.section h2 .dot{width:8px;height:8px;border-radius:50%;background:var(--accent);display:inline-block}
+.news-item{padding:8px 0;border-bottom:1px solid var(--border);font-size:13px}
+.news-item:last-child{border:none}
+.news-item .date{color:var(--muted);margin-right:8px;font-size:12px}
+.news-item a{color:var(--text);text-decoration:none}
+.news-item a:hover{color:var(--accent2)}
+.ai-box{background:linear-gradient(135deg,rgba(63,185,80,.08),transparent);border-left:3px solid var(--accent);padding:14px;border-radius:6px;font-size:13px;line-height:1.8;white-space:pre-wrap;min-height:40px}
+button{cursor:pointer}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1><span>💊</span>医药板块监测台</h1>
+  <a href="index.html">← 返回总览</a>
+</div>
+
+<div class="kpi-grid" id="kpi"></div>
+
+<div class="section">
+  <h2><span class="dot"></span>板块新闻</h2>
+  <div id="news"></div>
+</div>
+
+<div class="section">
+  <h2><span class="dot" style="background:var(--accent2)"></span>AI 综合分析 · DeepSeek
+    <button onclick="regenerateAI()" style="margin-left:12px;padding:4px 12px;background:var(--accent);color:#fff;border:none;border-radius:4px;cursor:pointer;font-size:12px">重新生成</button>
+  </h2>
+  <div class="ai-box" id="ai">加载中...</div>
+  <p style="font-size:11px;color:var(--muted);margin-top:8px">由 DeepSeek 模型读取当日数据后生成；不构成投资建议。</p>
+</div>
+
+<div class="section" style="font-size:12px;color:var(--muted)">
+  <strong style="color:var(--text)">数据来源</strong><br>
+  沪深300/医药ETF/创新药ETF/恒生医疗：<a href="https://finance.yahoo.com/" target="_blank" style="color:var(--accent2)">Yahoo Finance ↗</a> ·
+  10Y美债/汇率：Yahoo Finance ·
+  新闻：<a href="https://news.google.com/" target="_blank" style="color:var(--accent2)">Google News ↗</a>
+</div>
+
+<script>
+const DEEPSEEK_KEY = "sk-238f37694a504056b4178fb33d6613b6";
+
+async function load(){
+  const L = await fetch('data/pharma/latest.json',{cache:'no-store'}).then(r=>r.json());
+  document.getElementById('kpi').innerHTML = [
+    {label:'沪深300', value:L.hs300.toFixed(0), chg:L.hs300_chg, src:'Yahoo 000300.SS · '+L.date},
+    {label:'医药ETF', value:L.med_etf.toFixed(3), chg:L.med_etf_chg, src:'Yahoo 512010.SS · '+L.date},
+    {label:'创新药ETF', value:L.inn_etf.toFixed(3), chg:L.inn_etf_chg, src:'Yahoo 159992.SZ · '+L.date},
+    {label:'恒生医疗', value:L.hsi_health.toFixed(0), chg:L.hsi_health_chg, src:'Yahoo 000012.HK · '+L.date},
+    {label:'超额收益(医药vs300)', value:(L.excess>=0?'+':'')+L.excess.toFixed(2)+'%', chg:L.excess, src:'ETF涨幅-300涨幅'},
+    {label:'10Y美债', value:L.tnx.toFixed(2)+'%', chg:0, src:'Yahoo ^TNX · '+L.date},
+    {label:'美元/人民币', value:L.usdcny.toFixed(4), chg:0, src:'Yahoo CNY=X · '+L.date},
+  ].map(c=>`
+    <div class="kpi">
+      <div class="label">${c.label}</div>
+      <div class="value">${c.value}</div>
+      <div class="chg ${c.chg>=0?'up':'down'}">${c.chg!==0?(c.chg>=0?'+':'')+c.chg.toFixed(2)+'%':''}</div>
+      <div class="src">${c.src}</div>
+    </div>
+  `).join('');
+
+  document.getElementById('news').innerHTML = (L.news||[]).map(n=>`
+    <div class="news-item"><span class="date">${n.date}</span><a href="${n.url}" target="_blank">${n.text}</a></div>
+  `).join('') || '<span style="color:var(--muted)">暂无新闻</span>';
+
+  const aiEl = document.getElementById('ai');
+  if(L.ai_analysis) aiEl.textContent = L.ai_analysis;
+  else aiEl.innerHTML = '<span style="color:var(--muted)">AI分析未生成'+(L.ai_error?'（'+L.ai_error+'）':'')+'</span>';
+}
+load().catch(e=>document.body.innerHTML='<p style="color:red">加载失败: '+e+'</p>');
+
+async function regenerateAI(){
+  const el = document.getElementById('ai');
+  el.textContent = '分析中...';
+  try {
+    const L = await fetch('data/pharma/latest.json',{cache:'no-store'}).then(r=>r.json());
+    const newsLines = (L.news||[]).slice(0,6).map(n=>`  - [${n.date}] ${n.text}`).join('\n');
+    const prompt = `你是医药行业分析师。基于以下数据，用中文给 200-300 字综合判断。
+
+【板块数据】
+- 沪深300：${L.hs300}（${(L.hs300_chg>=0?'+':'')+L.hs300_chg}%）
+- 医药ETF：${L.med_etf}（${(L.med_etf_chg>=0?'+':'')+L.med_etf_chg}%）
+- 创新药ETF：${L.inn_etf}（${(L.inn_etf_chg>=0?'+':'')+L.inn_etf_chg}%）
+- 恒生医疗：${L.hsi_health}（${(L.hsi_health_chg>=0?'+':'')+L.hsi_health_chg}%）
+- 10Y美债：${L.tnx}%
+- 人民币汇率：${L.usdcny}
+- 医药相对沪深300超额：${(L.excess>=0?'+':'')+L.excess}%
+
+【最近新闻】
+${newsLines}
+
+【输出要求】
+1. 今日板块涨跌归因（是大盘带动还是独立行情，哪个子板块领涨）
+2. 政策/研发事件催化
+3. 宏观利率和汇率对创新药/CXO的影响
+4. 短期展望（偏多/偏空/震荡）+ 关键位置
+5. 需关注的风险点
+
+要求：200-300字，普通人能懂，不要套话，未获取的数据不要编造。`;
+
+    const resp = await fetch('https://api.deepseek.com/v1/chat/completions',{
+      method:'POST',
+      headers:{'Authorization':'Bearer '+DEEPSEEK_KEY,'Content-Type':'application/json'},
+      body:JSON.stringify({model:'deepseek-chat',messages:[{role:'system',content:'你是严谨的医药行业分析师。'},{role:'user',content:prompt}],temperature:0.3,max_tokens:500})
+    });
+    const data = await resp.json();
+    if(data.error) throw new Error(data.error.message);
+    el.textContent = data.choices[0].message.content;
+  } catch(e) {
+    el.innerHTML = '<span style="color:#f85149">生成失败: '+e.message+'</span>';
+  }
+}
+</script>
+</body>
+</html>

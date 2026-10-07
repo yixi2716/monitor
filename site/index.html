@@ -177,6 +177,24 @@
       <div class="enter">进入监测 →</div>
     </a>
 
+    <a class="card" href="./pharma.html">
+      <span class="tag">已上线</span>
+      <h2>
+        <span class="ico">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#3fb950" stroke-width="2" stroke-linecap="round">
+            <rect x="4" y="4" width="16" height="16" rx="2"/>
+            <path d="M12 8 L12 16 M8 12 L16 12"/>
+          </svg>
+        </span>
+        医药板块
+      </h2>
+      <p class="desc">医药ETF / 创新药 / 恒生医疗 / 政策新闻 · 每日AI分析</p>
+      <div class="status-line" id="pharma-status">
+        <span class="verdict">加载中…</span>
+      </div>
+      <div class="enter">进入监测 →</div>
+    </a>
+
     <!-- 占位：规划中 -->
     <div class="card placeholder">
       <span class="tag">规划中</span>
@@ -268,6 +286,14 @@
         '<span class="verdict ' + scoreCls + '">' + (cu.score > 0 ? '偏多' : cu.score < 0 ? '偏空' : '中性') + '</span>' +
         '<span class="score-big">$' + cu.copper.toFixed(2) + '<small style="font-size:11px;color:var(--muted);font-weight:500"> /lb</small></span>' +
         '<span class="date">' + cu.date + '</span>';
+    }
+    // 医药
+    const ph = await loadCardStatus('data/pharma/latest.json', 'pharma-status');
+    if (ph && ph.med_etf > 0) {
+      document.getElementById('pharma-status').innerHTML =
+        '<span class="verdict">' + (ph.med_etf_chg >= 0 ? '上涨' : '下跌') + '</span>' +
+        '<span class="score-big">' + (ph.med_etf_chg >= 0 ? '+' : '') + ph.med_etf_chg.toFixed(2) + '<small style="font-size:11px;color:var(--muted);font-weight:500"> %</small></span>' +
+        '<span class="date">' + ph.date + '</span>';
     }
   })();
 </script>

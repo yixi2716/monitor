@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-07",
+  "hs300": 4357.62,
+  "hs300_chg": 0.0,
+  "med_etf": 0.388,
+  "med_etf_chg": 0.0,
+  "inn_etf": 0.872,
+  "inn_etf_chg": 0.0,
+  "hsi_health": 0.0,
+  "hsi_health_chg": 0,
+  "tnx": 5.29,
+  "usdcny": 6.703,
+  "excess": 0.0,
+  "news": [],
+  "ai_analysis": "",
+  "ai_error": "未配置 DEEPSEEK_API_KEY"
+}
