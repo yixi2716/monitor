@@ -79,17 +79,17 @@ async function load(){
       return r.json();
     });
   document.getElementById('kpi').innerHTML = [
-    {label:'沪深300', value:L.hs300.toFixed(0), chg:L.hs300_chg, src:'Yahoo 000300.SS · '+L.date},
-    {label:'医药ETF', value:L.med_etf.toFixed(3), chg:L.med_etf_chg, src:'Yahoo 512010.SS · '+L.date},
-    {label:'创新药ETF', value:L.inn_etf.toFixed(3), chg:L.inn_etf_chg, src:'Yahoo 159992.SZ · '+L.date},
-    {label:'CXO医疗ETF', value:L.cxo_etf.toFixed(3), chg:L.cxo_etf_chg||0, src:'Yahoo 512170.SS'},
-    {label:'中药ETF', value:L.tcm_etf.toFixed(3), chg:L.tcm_etf_chg||0, src:'Yahoo 159647.SZ'},
-    {label:'医疗器械ETF', value:L.meddev_etf.toFixed(3), chg:L.meddev_etf_chg||0, src:'Yahoo 159883.SZ'},
-    {label:'疫苗ETF', value:L.vaccine_etf.toFixed(3), chg:L.vaccine_etf_chg||0, src:'Yahoo 516160.SS'},
-    {label:'恒生医疗', value:L.hsi_health.toFixed(0), chg:L.hsi_health_chg, src:'Yahoo 000012.HK · '+L.date},
-    {label:'超额(医药vs300)', value:(L.excess>=0?'+':'')+L.excess.toFixed(2)+'%', chg:L.excess, src:'ETF涨幅-300涨幅'},
-    {label:'10Y美债', value:L.tnx.toFixed(2)+'%', chg:0, src:'Yahoo ^TNX · '+L.date},
-    {label:'美元/人民币', value:L.usdcny.toFixed(4), chg:0, src:'Yahoo CNY=X · '+L.date},
+    {label:'沪深300', value:(L.hs300||0).toFixed(0), chg:L.hs300_chg||0, src:'Yahoo 000300.SS · '+L.date},
+    {label:'医药ETF', value:(L.med_etf||0).toFixed(3), chg:L.med_etf_chg||0, src:'Yahoo 512010.SS · '+L.date},
+    {label:'创新药ETF', value:(L.inn_etf||0).toFixed(3), chg:L.inn_etf_chg||0, src:'Yahoo 159992.SZ · '+L.date},
+    {label:'CXO医疗ETF', value:(L.cxo_etf||0).toFixed(3), chg:L.cxo_etf_chg||0, src:'Yahoo 512170.SS'},
+    {label:'中药ETF', value:(L.tcm_etf||0).toFixed(3), chg:L.tcm_etf_chg||0, src:'Yahoo 159647.SZ'},
+    {label:'医疗器械ETF', value:(L.meddev_etf||0).toFixed(3), chg:L.meddev_etf_chg||0, src:'Yahoo 159883.SZ'},
+    {label:'疫苗ETF', value:(L.vaccine_etf||0).toFixed(3), chg:L.vaccine_etf_chg||0, src:'Yahoo 516160.SS'},
+    {label:'恒生医疗', value:(L.hsi_health||0).toFixed(0), chg:L.hsi_health_chg||0, src:'Yahoo 000012.HK · '+L.date},
+    {label:'超额(医药vs300)', value:((L.excess||0)>=0?'+':'')+(L.excess||0).toFixed(2)+'%', chg:L.excess||0, src:'ETF涨幅-300涨幅'},
+    {label:'10Y美债', value:(L.tnx||0).toFixed(2)+'%', chg:0, src:'Yahoo ^TNX · '+L.date},
+    {label:'美元/人民币', value:(L.usdcny||0).toFixed(4), chg:0, src:'Yahoo CNY=X · '+L.date},
   ].map(c=>`
     <div class="kpi">
       <div class="label">${c.label}</div>
