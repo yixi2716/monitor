@@ -153,15 +153,37 @@ def main():
     # 沪铜主力（akshare 新浪）
     shfe_cu = None
     shfe_cu_date = None
+    lme_stock = None
+    lme_stock_date = None
+    shfe_stock = None
+    shfe_stock_chg = None
+    shfe_stock_date = None
     if HAS_AK:
         try:
             df_cu = ak.futures_zh_daily_sina(symbol="CU0")
             last_cu = df_cu.iloc[-1]
-            shfe_cu = round(float(last_cu["close"]), 2)  # 元/吨
+            shfe_cu = round(float(last_cu["close"]), 2)
             shfe_cu_date = str(last_cu["date"])
             print(f"    沪铜主力: {shfe_cu} 元/吨 ({shfe_cu_date})")
         except Exception as e:
             print(f"    [warn] 沪铜拉取失败: {e}")
+        try:
+            df_lme = ak.macro_euro_lme_stock()
+            last_lme = df_lme.iloc[-1]
+            lme_stock = int(last_lme["铜-库存"])
+            lme_stock_date = str(last_lme["日期"])
+            print(f"    LME铜库存: {lme_stock:,} 吨 ({lme_stock_date})")
+        except Exception as e:
+            print(f"    [warn] LME库存拉取失败: {e}")
+        try:
+            df_shfe = ak.futures_inventory_em(symbol="沪铜")
+            last_shfe = df_shfe.iloc[-1]
+            shfe_stock = int(last_shfe["库存"])
+            shfe_stock_chg = int(last_shfe["增减"])
+            shfe_stock_date = str(last_shfe["日期"])
+            print(f"    沪铜库存: {shfe_stock:,} 吨 ({shfe_stock_date})")
+        except Exception as e:
+            print(f"    [warn] 沪铜库存拉取失败: {e}")
 
     # 沪伦比值 = 沪铜(元/吨) / (COMEX铜 美元/磅 × 2204.62 磅/吨) × 汇率
     # 简化：用 DXY 反推汇率近似，或直接用 7.2 汇率
@@ -217,6 +239,8 @@ def main():
         "cu_oil_ratio": cu_oil,
         "shfe_cu": shfe_cu, "shfe_cu_date": shfe_cu_date,
         "shfe_lme_ratio": shfe_lme_ratio,
+        "lme_stock": lme_stock, "lme_stock_date": lme_stock_date,
+        "shfe_stock": shfe_stock, "shfe_stock_chg": shfe_stock_chg, "shfe_stock_date": shfe_stock_date,
         "signals": signals, "score": score,
         "news": news,
     }

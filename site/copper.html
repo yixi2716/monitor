@@ -102,6 +102,8 @@ async function load(){
     <div class="kpi"><div class="label">铜油比</div><div class="value">${L.cu_oil_ratio.toFixed(1)}</div><div class="chg" style="color:var(--muted)">铜价/油价</div></div>
     <div class="kpi"><div class="label">沪铜主力</div><div class="value">${L.shfe_cu ? '¥'+L.shfe_cu.toLocaleString() : '—'}</div><div class="chg" style="color:var(--muted)">元/吨 ${L.shfe_cu_date||''}</div></div>
     <div class="kpi"><div class="label">沪伦比值</div><div class="value">${L.shfe_lme_ratio ? L.shfe_lme_ratio.toFixed(3) : '—'}</div><div class="chg" style="color:var(--muted)">>1 进口有利</div></div>
+    <div class="kpi"><div class="label">LME 铜库存</div><div class="value">${L.lme_stock ? (L.lme_stock/1000).toFixed(1)+'k' : '—'}</div><div class="chg" style="color:var(--muted)">吨 ${L.lme_stock_date||''}</div></div>
+    <div class="kpi"><div class="label">沪铜库存</div><div class="value">${L.shfe_stock ? L.shfe_stock.toLocaleString() : '—'}</div><div class="chg" style="color:${L.shfe_stock_chg<0?'var(--up)':'var(--down)'}">${L.shfe_stock_chg>0?'+':''}${L.shfe_stock_chg||0} ${L.shfe_stock_date||''}</div></div>
   `;
   // 信号
   document.getElementById('signals').innerHTML = L.signals.map(s=>`
