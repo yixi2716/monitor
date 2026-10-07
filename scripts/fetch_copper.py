@@ -62,7 +62,7 @@ def fetch_copper_news(limit=6):
         print(f"    [warn] 铜新闻抓取失败: {e}")
         return []
     items = []
-    for item in tree.iter("item")[:limit]:
+    for item in list(tree.iter("item"))[:limit]:
         title = item.findtext("title", "")
         link = item.findtext("link", "")
         pub = item.findtext("pubDate", "")
