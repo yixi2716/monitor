@@ -32,7 +32,15 @@ TICKERS = {
     "TNX": "^TNX",       # 10 年美债收益率（%）
     "ZQ": "ZQ=F",        # 30 天联邦基金期货（隐含政策利率预期）
     "CL": "CL=F",        # WTI 原油（美元/桶，地缘风险代理）
+    "XAG": "SI=F",       # COMEX 白银（美元/盎司，算金银比）
+    "USDCNY": "CNY=X",   # 美元/人民币汇率
 }
+
+try:
+    import akshare as ak
+    HAS_AK = True
+except Exception:
+    HAS_AK = False
 
 
 def fetch_all(period="1y"):
@@ -396,6 +404,23 @@ def main():
         "C": "C · 央行购金型", "M": "M · 混合驱动",
     }
 
+    # 金银比、汇率、沪金
+    xag = float(px["XAG"].iloc[-1]) if "XAG" in px.columns else None
+    usdcny = float(px["USDCNY"].iloc[-1]) if "USDCNY" in px.columns else None
+    gold_silver_ratio = round(float(last["gold"]) / xag, 2) if xag else None
+
+    shfe_au = None
+    shfe_au_date = None
+    if HAS_AK:
+        try:
+            df_au = ak.futures_zh_daily_sina(symbol="AU0")
+            last_au = df_au.iloc[-1]
+            shfe_au = round(float(last_au["close"]), 2)  # 元/克
+            shfe_au_date = str(last_au["date"])
+            print(f"    沪金主力: {shfe_au} 元/克 ({shfe_au_date})")
+        except Exception as e:
+            print(f"    [warn] 沪金拉取失败: {e}")
+
     latest = {
         "date": df.index[-1].strftime("%Y-%m-%d"),
         "gold": round(float(last["gold"]), 2),
@@ -415,6 +440,10 @@ def main():
         "corr_gold_vix": round(float(last["corr_gold_vix"]), 2),
         "basis": round(float(last["basis"]), 2),
         "vol20": round(float(last["vol20"]), 1),
+        "gold_silver_ratio": gold_silver_ratio,
+        "usdcny": round(usdcny, 4) if usdcny else None,
+        "shfe_au": shfe_au,
+        "shfe_au_date": shfe_au_date,
         "mode": mode,
         "mode_name": mode_names[mode],
         "confidence": conf,

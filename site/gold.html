@@ -298,6 +298,9 @@ function renderKPI(L) {
     {label: '日涨跌幅', value: fmtPct(L.gold_chg), sub: 'vs 上一交易日 · MA50 ' + fmtMoney(L.ma50), cls: chgCls},
     {label: '定价模式', value: L.mode, sub: L.mode_name.replace(/^.\s/, '') + ' · 置信度 ' + L.confidence, cls: 'mode'},
     {label: '综合信号', value: (L.score > 0 ? '+' : '') + L.score, sub: L.score_summary, cls: L.score > 0 ? 'up' : (L.score < 0 ? 'down' : '')},
+    {label: '沪金主力', value: L.shfe_au ? '¥' + L.shfe_au.toFixed(2) : '—', sub: '元/克 ' + (L.shfe_au_date || ''), cls: ''},
+    {label: '金银比', value: L.gold_silver_ratio ? L.gold_silver_ratio.toFixed(1) : '—', sub: '>80 避险升温', cls: ''},
+    {label: '美元/人民币', value: L.usdcny ? L.usdcny.toFixed(4) : '—', sub: '汇率', cls: ''},
   ];
   document.getElementById('kpi').innerHTML = cards.map(c =>
     `<div class="kpi ${c.cls}"><div class="label">${c.label}</div><div class="value">${c.value}</div><div class="sub">${c.sub}</div></div>`
