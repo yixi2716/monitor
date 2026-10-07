@@ -198,10 +198,10 @@
         "src": "Axios"
       },
       {
-        "date": "2026-10-03",
-        "text": "Live - Trump warns Iran as Vance sets nuclear condition to end war",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBOTk9NY25oVDA1VHhzR0hxT0pvLWs0MkRyZGN4QU5NZjl5RHZRNk13anozbldGMi1HcGlvclRQWktscHRETDIyd0luOTBhN3N6aVViYnRRU0YwWHlSQnc?oc=5",
-        "src": "Iran International"
+        "date": "2026-10-06",
+        "text": "Trump sparks criticism with comments on potential Iranian attacks on US cities",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbTVfSnJTVmMwN09KVS1wekVYV2FiTmRicXpGZ3dHbmFSS2dtMXZiQU81WkF6ZGJ5X1BEdkhtbk0xNEZKS3pSaGlCZkFXdFFsTEdiYlBqMVRRT1paR2wzQzVDd3ppMjhibHNMZU0wYjlRaklVZkFWcENnSnVTQUVSM3JFTTVwZ0hsYk5tQWEycC1Xcmo5WS01dk13bEJfMV9tNDhxcFFmcXpyQi1OVmZISW02YUVNdXlzQ2QybWVxQ3Q?oc=5",
+        "src": "Scripps News"
       }
     ],
     "gold_impact": "双重作用：局势升级→避险买盘利多黄金；但同时油价飙升→通胀预期→美联储更难降息→利空黄金。当前谈判窗口期，油价波动会直接传导到金价。",
@@ -210,6 +210,6 @@
     "news_auto": true
   },
   "ai_error": "",
-  "ai_analysis": "**一句话定调：金价短线反弹但仍在均线下方，空头格局未改，属于弱势中的技术性修复。**\n\n**主导因素：** 第一，美元太强。DXY 101.83 站上 101 关口，这是当前压着金价最重的一块石头，只要美元不松口，黄金反弹就是有限的。第二，美债 10 年期收益率 5.27% 处于高位，持有黄金的机会成本太高，资金没有理由大举进场。今天 +0.73% 更像是超跌后的喘息，而不是趋势反转——金价 4187 还在 MA20（4305）和 MA50（4370）下方快 120-180 美元，均线是实打实的压力。\n\n**未来一周盯两件事：** 一是美元指数能不能跌回 101 以下，这是金价能否继续反弹的前提；二是美伊局势，紧张度已经中高、油价 89 美元，一旦升级，避险买盘会突然涌入，这是唯一可能打破当前空头节奏的变量。另外 FOMC 还有 22 天，市场只预期降息 11bp，说明降息预期很弱，别指望美联储短期救场。\n\n**结论：反弹可参与但别追高，4300 附近是硬压力，站不上去就还是空头说了算。**",
+  "ai_analysis": "金价现在站在4187美元，但头顶压着MA20（4305）和MA50（4370）两条均线，属于反弹但没翻身的偏空格局，综合评分-1也印证了这点。\n\n主导因素有两个：一是美元，DXY 101.8站上101关口，这是当前最实的压制力量；二是美债收益率5.27%这个高位，持有黄金的机会成本太贵，资金没理由大举进场。至于地缘避险，美伊紧张度中高、油价89美元，但VIX只有15，市场根本没在怕，所以避险这条线暂时撑不起金价。\n\n未来一周盯两件事：第一，美伊局势如果真升级、油价冲上去，避险情绪可能突然点火，这是唯一能让金价快速冲均线的催化剂；第二，美元能不能守住101，一旦DXY回落，金价才有机会挑战4305。反过来，如果10Y收益率继续往上顶，4187这个位置守不住，下方空间会打开。现在市场对22天后的FOMC只预期降息11bp，等于没预期，别指望美联储短期救场。",
   "ai_date": "2026-10-06"
 }
