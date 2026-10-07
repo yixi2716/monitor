@@ -56,6 +56,28 @@
     if (verdict === "拐点确认区") cls = "peak";
     else if (verdict === "磨底观察中") cls = "watch";
     el("verdict").className = "verdict " + cls;
+    renderPigKPI();
+  }
+
+  function renderPigKPI() {
+    var L = DATA.latest || {};
+    var box = document.getElementById("pig-kpi");
+    if (!box) return;
+    var items = [];
+    if (L.spot_pig) items.push({label: "生猪出栏价", value: L.spot_pig.toFixed(1)+" 元/kg", sub: "全国均价"});
+    if (L.futures && L.futures.生猪) items.push({label: "LH期货主力", value: L.futures.生猪.close.toFixed(0)+" 元/吨", sub: "大商所"});
+    if (L.pig_grain_ratio) items.push({label: "猪粮比", value: L.pig_grain_ratio.toFixed(2), sub: L.pig_grain_ratio<5?'过度亏损':L.pig_grain_ratio>9?'过高':'正常'});
+    if (L.soybean_meal) items.push({label: "豆粕期货", value: L.soybean_meal.toFixed(0)+" 元/吨", sub: "饲料成本"});
+    if (L.self_profit !== undefined) items.push({label: "自繁自养利润", value: L.self_profit.toFixed(1)+" 元/kg", sub: L.self_profit<0?'亏损':L.self_profit>2?'盈利':'微利'});
+    if (L.province_prices) {
+      var pp = L.province_prices;
+      if (pp.河南) items.push({label: "河南", value: pp.河南.toFixed(1), sub: "主产区"});
+      if (pp.广东) items.push({label: "广东", value: pp.广东.toFixed(1), sub: "主销区"});
+      if (pp.东北均价) items.push({label: "东北均价", value: pp.东北均价.toFixed(1), sub: "主产区"});
+    }
+    box.innerHTML = items.map(function(it){
+      return '<div style="background:var(--card);padding:12px;border-radius:8px;border-left:3px solid var(--accent)"><div style="font-size:11px;color:var(--muted)">'+it.label+'</div><div style="font-size:20px;font-weight:700;margin:4px 0">'+it.value+'</div><div style="font-size:11px;color:var(--muted)">'+it.sub+'</div></div>';
+    }).join('');
   }
 
   /* ---------- 信号灯卡片 ---------- */

@@ -115,6 +115,32 @@ def main():
     if spot is not None and corn_kg:
         data["pig_grain_ratio"] = round(spot / corn_kg, 2)
 
+    # 豆粕价格（饲料成本）
+    soybean_meal = futures.get("豆粕", {}).get("close")
+    if soybean_meal:
+        data["soybean_meal"] = round(soybean_meal, 0)  # 元/吨
+
+    # 分省生猪价格（搜猪网）
+    try:
+        df_prov = ak.spot_hog_soozhu()
+        prov_map = {}
+        for _, row in df_prov.iterrows():
+            prov_map[row["省份"]] = float(row["价格"])
+        data["province_prices"] = {
+            "河南": prov_map.get("河南"),
+            "山东": prov_map.get("山东"),
+            "广东": prov_map.get("广东"),
+            "四川": prov_map.get("四川"),
+            "东北均价": round((prov_map.get("辽宁",0)+prov_map.get("吉林",0)+prov_map.get("黑龙江",0))/3, 2) if all(k in prov_map for k in ["辽宁","吉林","黑龙江"]) else None,
+        }
+        print(f"分省价格: 河南{prov_map.get('河南')} 广东{prov_map.get('广东')}")
+    except Exception as e:
+        print(f"[warn] 分省价格失败: {e}")
+
+    # 自繁自养利润估算：猪价 - 饲料成本（简化：猪价 - 2.5*玉米价）
+    if spot is not None and corn_kg:
+        data["self_profit"] = round(spot - 2.5 * corn_kg, 2)  # 元/公斤，粗略估算
+
     save_json("latest.json", data)
 
     # 追加历史（供前端画图）：同日期幂等更新，避免重复运行产生同日多行
