@@ -84,16 +84,20 @@ def call_deepseek(data: dict):
     if not api_key:
         return "", "未配置 DEEPSEEK_API_KEY"
     sig_lines = "\n".join(f"  - {s['name']}（{s['dir']}）：{s['text']}" for s in data.get("signals", []))
-    prompt = f"""你是铜宏观分析师。基于以下今日铜价看板数据，用中文给 200-300 字综合判断。
-要求：1) 一句话定调 2) 当前主导因素 1-2 个 3) 未来一周风险点 1-2 个 4) 不要套话和免责声明 5) 普通人能懂
+    news_lines = "\n".join(f"  - [{n['date']}] {n['text']}" for n in data.get("news", [])[:6])
+    prompt = f"""你是铜宏观分析师。基于以下今日铜价看板数据和最近新闻，用中文给 250-350 字综合判断。
+要求：1) 一句话定调 2) 当前主导因素 1-2 个 3) 最近新闻里值得注意的事 4) 未来一周风险点 5) 不要套话和免责声明 6) 普通人能懂
 
 今日数据：
 - COMEX铜：${data['copper']:.2f}/磅（{data['copper_chg']:+.2f}%），MA20={data['ma20']:.2f}，MA50={data['ma50']:.2f}
 - DXY={data['dxy']:.2f}，VIX={data['vix']:.1f}，10Y={data['tnx']:.2f}%，WTI=${data['wti']:.2f}
-- 铜油比（铜价/油价）：{data.get('cu_oil_ratio',0):.1f}
+- 铜油比：{data.get('cu_oil_ratio',0):.1f}
 - 5条信号：
 {sig_lines}
 - 综合评分：{data['score']}
+
+最近矿端/库存/关税新闻：
+{news_lines}
 """
     body = json.dumps({
         "model": "deepseek-chat",
