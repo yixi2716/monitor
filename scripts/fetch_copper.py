@@ -91,21 +91,43 @@ def call_deepseek(data: dict):
     if not api_key:
         return "", "未配置 DEEPSEEK_API_KEY"
     sig_lines = "\n".join(f"  - {s['name']}（{s['dir']}）：{s['text']}" for s in data.get("signals", []))
-    news_lines = "\n".join(f"  - [{n['date']}] {n['text']}" for n in data.get("news", [])[:6])
-    prompt = f"""你是铜宏观分析师。基于以下今日铜价看板数据和最近新闻，用中文给 250-350 字综合判断。
-要求：1) 一句话定调 2) 当前主导因素 1-2 个 3) 最近新闻里值得注意的事 4) 未来一周风险点 5) 不要套话和免责声明 6) 普通人能懂
+    news_lines = "\n".join(f"  - [{n['date']}] {n['text']}" for n in data.get("news", [])[:8])
 
-今日数据：
-- COMEX铜：${data['copper']:.2f}/磅（{data['copper_chg']:+.2f}%），MA20={data['ma20']:.2f}，MA50={data['ma50']:.2f}
-- DXY={data['dxy']:.2f}，VIX={data['vix']:.1f}，10Y={data['tnx']:.2f}%，WTI=${data['wti']:.2f}
-- 铜油比：{data.get('cu_oil_ratio',0):.1f}
-- 5条信号：
+    lme_stock_str = f"{data['lme_stock']:,} 吨" if data.get("lme_stock") else "未获取"
+    shfe_stock_str = f"{data['shfe_stock']:,} 吨（日变{data.get('shfe_stock_chg',0):+d}）" if data.get("shfe_stock") else "未获取"
+    shfe_cu_str = f"¥{data['shfe_cu']:,.0f}/吨" if data.get("shfe_cu") else "未获取"
+    ratio_str = f"{data['shfe_lme_ratio']:.3f}" if data.get("shfe_lme_ratio") else "未获取"
+
+    prompt = f"""你是大宗商品分析师，每日跟踪铜市场。基于以下数据，按要求输出。
+
+【核心数据】
+- COMEX铜：${data['copper']:.2f}/磅（{data['copper_chg']:+.2f}%），MA20=${data['ma20']:.2f}，MA50=${data['ma50']:.2f}
+- 沪铜主力：{shfe_cu_str}
+- 沪伦比值：{ratio_str}（>1 进口有利）
+- DXY美元指数：{data['dxy']:.2f}
+- VIX：{data['vix']:.1f}，10Y美债：{data['tnx']:.2f}%
+- WTI原油：${data['wti']:.2f}，铜油比：{data.get('cu_oil_ratio',0):.1f}
+- LME库存：{lme_stock_str}（{data.get('lme_stock_date','')}）
+- 沪铜库存：{shfe_stock_str}（{data.get('shfe_stock_date','')}）
+- LME Cash-3M升贴水：未获取
+- 铜精矿TC：未获取
+- CFTC铜非商业净持仓：未获取
+
+【每日信号】
 {sig_lines}
-- 综合评分：{data['score']}
 
-最近矿端/库存/关税新闻：
+【最近新闻】
 {news_lines}
-"""
+
+【输出要求】
+1. 涨跌归因：拆解今日铜价变动主要由什么驱动（宏观美元/利率、供给、还是需求预期）
+2. 库存与价差：结合库存和升贴水判断当前是紧张还是宽松格局
+3. 内外盘：沪伦比值说明内外盘强弱
+4. 资金信号：基于已有信号判断趋势是否健康
+5. 短期展望：偏多/偏空/震荡 + 关键价位
+6. 风险点：1-2条
+
+要求：200-300字，普通人能懂，不要套话和免责声明，未获取的数据不要编造。"""
     body = json.dumps({
         "model": "deepseek-chat",
         "messages": [
