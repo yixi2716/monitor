@@ -33,8 +33,9 @@ TICKERS = {
 
 
 def fetch_news():
-    url = ("https://news.google.com/rss/search?q="
-           "innovative+drug+OR+CXO+OR+pharma+OR+biotech+when:3d")
+    from urllib.parse import quote
+    q = quote("医药 OR 创新药 OR 集采 OR 医保局 OR 药监局 OR CXO when:3d")
+    url = f"https://news.google.com/rss/search?q={q}&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
         with urllib.request.urlopen(req, timeout=15) as r:
@@ -58,37 +59,53 @@ def fetch_news():
 def call_deepseek(data):
     api_key = os.environ.get("DEEPSEEK_API_KEY", "").strip()
     if not api_key:
-        return "", "未配置 DEEPSEEK_API_KEY"
-    news_lines = "\n".join(f"  - [{n['date']}] {n['text']}" for n in data.get("news", [])[:6])
-    prompt = f"""你是医药行业分析师。基于以下数据，用中文给 200-300 字综合判断。
+        return "", "未配置 DEEPSEEK_API_KEY", []
+    news_lines = "\n".join(f"  - [{n['date']}] {n['text']}" for n in data.get("news", [])[:8])
+    prompt = f"""请作为医药板块分析师，基于以下数据对今日A股医药行业进行跟踪分析，并给出多时间维度预测。
 
-【板块数据】
+【核心数据】
 - 沪深300：{data.get('hs300','?')}（{data.get('hs300_chg',0):+.2f}%）
 - 医药ETF：{data.get('med_etf','?')}（{data.get('med_etf_chg',0):+.2f}%）
 - 创新药ETF：{data.get('inn_etf','?')}（{data.get('inn_etf_chg',0):+.2f}%）
+- CXO医疗ETF：{data.get('cxo_etf','?')}（{data.get('cxo_etf_chg',0):+.2f}%）
+- 中药ETF：{data.get('tcm_etf','?')}（{data.get('tcm_etf_chg',0):+.2f}%）
+- 医疗器械ETF：{data.get('meddev_etf','?')}（{data.get('meddev_etf_chg',0):+.2f}%）
 - 恒生医疗：{data.get('hsi_health','?')}（{data.get('hsi_health_chg',0):+.2f}%）
 - 10Y美债：{data.get('tnx','?')}%
-- 人民币汇率：{data.get('usdcny','?')}
+- 美元/人民币：{data.get('usdcny','?')}
 - 医药相对沪深300超额：{data.get('excess',0):+.2f}%
 
-【最近新闻】
+【当日新闻】
 {news_lines}
 
-【输出要求】
-1. 今日板块涨跌归因（是大盘带动还是独立行情，哪个子板块领涨）
-2. 政策/研发事件催化
-3. 宏观利率和汇率对创新药/CXO的影响
-4. 短期展望（偏多/偏空/震荡）+ 关键位置
-5. 需关注的风险点
+【分析要求】
+1. 涨跌归因：政策/事件/利率/大盘贝塔？领涨子板块逻辑
+2. 子板块结构分化分析
+3. 港股联动 + 美债利率影响
+4. 政策扫描
+5. 情绪判断
 
-要求：200-300字，普通人能懂，不要套话，未获取的数据不要编造。"""
+【输出格式】
+先给 200 字综合分析，然后用 JSON 格式输出以下预测（不要加其他文字）：
+```json
+{{
+  "1d": "明日方向: 涨/跌/震荡, 概率60%",
+  "1w": "一周涨跌幅区间: -2%~+3%",
+  "1m": "一月目标区间: 0.51-0.54",
+  "3m": "三月目标区间: 0.50-0.56",
+  "6m": "半年目标区间: 0.49-0.58",
+  "1y": "一年目标区间: 0.48-0.62",
+  "key_logic": "核心逻辑一句话"
+}}
+```
+预测基于医药ETF(512010)当前价 {data.get('med_etf','?')}。"""
     body = json.dumps({
         "model": "deepseek-chat",
         "messages": [
             {"role": "system", "content": "你是严谨的医药行业分析师。"},
             {"role": "user", "content": prompt},
         ],
-        "temperature": 0.3, "max_tokens": 500,
+        "temperature": 0.3, "max_tokens": 800,
     }).encode("utf-8")
     req = urllib.request.Request(
         "https://api.deepseek.com/v1/chat/completions",
@@ -97,11 +114,79 @@ def call_deepseek(data):
         method="POST",
     )
     try:
-        with urllib.request.urlopen(req, timeout=30) as r:
+        with urllib.request.urlopen(req, timeout=45) as r:
             resp = json.loads(r.read().decode("utf-8"))
-        return resp["choices"][0]["message"]["content"].strip(), ""
+        text = resp["choices"][0]["message"]["content"].strip()
+        # 提取 JSON 预测
+        predictions = []
+        import re
+        m = re.search(r'```json\s*(\{.*?\})\s*```', text, re.DOTALL)
+        if m:
+            try:
+                pred = json.loads(m.group(1))
+                today = datetime.date.today().isoformat()
+                base_price = data.get("med_etf", 0)
+                horizons = [("1d", 1), ("1w", 7), ("1m", 30), ("3m", 90), ("6m", 180), ("1y", 365)]
+                for h, days in horizons:
+                    predictions.append({
+                        "predict_date": today,
+                        "horizon": h,
+                        "days": days,
+                        "base_price": base_price,
+                        "text": pred.get(h, ""),
+                        "key_logic": pred.get("key_logic", ""),
+                        "verified": False,
+                        "verify_date": None,
+                        "actual_price": None,
+                        "hit": None,
+                    })
+            except Exception as e:
+                print(f"  [warn] 预测JSON解析失败: {e}")
+        # 去掉 JSON 部分作为分析文本
+        analysis = re.sub(r'```json.*?```', '', text, flags=re.DOTALL).strip()
+        return analysis, "", predictions
     except Exception as e:
-        return "", str(e)[:200]
+        return "", str(e)[:200], []
+
+
+def verify_predictions(etf_price):
+    """检查到期的预测，验证准确率"""
+    pred_file = os.path.join(SITE_DATA_DIR, "predictions.json")
+    if not os.path.exists(pred_file):
+        return []
+    with open(pred_file, "r", encoding="utf-8") as f:
+        preds = json.load(f)
+    today = datetime.date.today()
+    newly_verified = 0
+    for p in preds:
+        if p.get("verified"):
+            continue
+        pred_date = datetime.date.fromisoformat(p["predict_date"])
+        due = pred_date + datetime.timedelta(days=p["days"])
+        if due <= today:
+            p["verified"] = True
+            p["verify_date"] = today.isoformat()
+            p["actual_price"] = etf_price
+            # 判断方向：从预测文本里提取"涨/跌/震荡"
+            txt = p.get("text", "")
+            base = p.get("base_price", 0)
+            if base > 0:
+                chg = (etf_price / base - 1) * 100
+                if "涨" in txt and chg > 0.5:
+                    p["hit"] = True
+                elif "跌" in txt and chg < -0.5:
+                    p["hit"] = True
+                elif "震荡" in txt and abs(chg) <= 0.5:
+                    p["hit"] = True
+                else:
+                    p["hit"] = False
+                p["actual_chg"] = round(chg, 2)
+                newly_verified += 1
+    if newly_verified:
+        with open(pred_file, "w", encoding="utf-8") as f:
+            json.dump(preds, f, ensure_ascii=False, indent=2)
+        print(f"  验证了 {newly_verified} 条预测")
+    return preds
 
 
 def main():
@@ -157,11 +242,26 @@ def main():
     data["news"] = fetch_news()
     print(f"  {len(data['news'])} 条新闻")
 
-    print("[3/4] AI分析...")
+    print("[3/4] AI分析+预测...")
+    all_preds = []
+    pred_file = os.path.join(SITE_DATA_DIR, "predictions.json")
+    # 先验证到期预测
+    etf_price = data.get("med_etf", 0)
+    if etf_price > 0:
+        all_preds = verify_predictions(etf_price)
+    # 再生成新预测
     try:
-        analysis, err = call_deepseek(data)
+        analysis, err, new_preds = call_deepseek(data)
         data["ai_analysis"] = analysis
         data["ai_error"] = err
+        # 合并新预测
+        if new_preds:
+            all_preds = new_preds + all_preds
+            # 只保留最近 100 条
+            all_preds = all_preds[:100]
+            with open(pred_file, "w", encoding="utf-8") as f:
+                json.dump(all_preds, f, ensure_ascii=False, indent=2)
+            print(f"  生成 {len(new_preds)} 条新预测")
     except Exception as e:
         data["ai_error"] = str(e)
 

@@ -50,6 +50,11 @@ button{cursor:pointer}
 </div>
 
 <div class="section">
+  <h2><span class="dot" style="background:#d29922"></span>预测与验证</h2>
+  <div id="predictions" style="font-size:13px"></div>
+</div>
+
+<div class="section">
   <h2><span class="dot" style="background:var(--accent2)"></span>AI 综合分析 · DeepSeek
     <button onclick="regenerateAI()" style="margin-left:12px;padding:4px 12px;background:var(--accent);color:#fff;border:none;border-radius:4px;cursor:pointer;font-size:12px">重新生成</button>
   </h2>
@@ -97,6 +102,50 @@ async function load(){
   document.getElementById('news').innerHTML = (L.news||[]).map(n=>`
     <div class="news-item"><span class="date">${n.date}</span><a href="${n.url}" target="_blank">${n.text}</a></div>
   `).join('') || '<span style="color:var(--muted)">暂无新闻</span>';
+
+  // 预测与验证
+  try {
+    const preds = await fetch('data/pharma/predictions.json',{cache:'no-store'}).then(r=>r.ok?r.json():[]);
+    if(preds.length){
+      // 统计命中率
+      const verified = preds.filter(p=>p.verified);
+      const hits = verified.filter(p=>p.hit).length;
+      const acc = verified.length ? (hits/verified.length*100).toFixed(0) : '—';
+      // 最新一条预测（今天的）
+      const today = new Date().toISOString().slice(0,10);
+      const todayPreds = preds.filter(p=>p.predict_date===today);
+      let html = `<p style="margin-bottom:10px;color:var(--muted)">累计预测 <b>${verified.length}</b> 条，命中 <b style="color:var(--accent)">${hits}</b> 条，准确率 <b style="color:var(--accent)">${acc}%</b></p>`;
+      if(todayPreds.length){
+        html += '<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px;margin-bottom:12px">';
+        const names = {'1d':'明日','1w':'一周','1m':'一月','3m':'三月','6m':'半年','1y':'一年'};
+        todayPreds.forEach(p=>{
+          html += `<div style="background:var(--card);padding:8px;border-radius:4px;border-left:3px solid #d29922">
+            <div style="font-size:11px;color:var(--muted)">${names[p.horizon]||p.horizon}</div>
+            <div style="font-size:12px">${p.text}</div>
+          </div>`;
+        });
+        html += '</div>';
+      }
+      // 最近验证记录
+      const recentVerified = verified.slice(-5).reverse();
+      if(recentVerified.length){
+        html += '<p style="color:var(--muted);margin-bottom:6px">最近验证：</p>';
+        recentVerified.forEach(p=>{
+          const color = p.hit ? 'var(--up)' : 'var(--down)';
+          const icon = p.hit ? '✓' : '✗';
+          html += `<div style="padding:4px 0;font-size:12px">
+            <span style="color:${color}">${icon}</span>
+            ${p.predict_date} ${p.horizon}预测：${p.text} → 实际${p.actual_chg>0?'+':''}${p.actual_chg}%
+          </div>`;
+        });
+      }
+      document.getElementById('predictions').innerHTML = html;
+    } else {
+      document.getElementById('predictions').innerHTML = '<span style="color:var(--muted)">暂无预测记录</span>';
+    }
+  } catch(e){
+    document.getElementById('predictions').innerHTML = '<span style="color:var(--muted)">预测数据未生成</span>';
+  }
 
   const aiEl = document.getElementById('ai');
   if(L.ai_analysis) aiEl.textContent = L.ai_analysis;
