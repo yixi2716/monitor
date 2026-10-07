@@ -437,3 +437,71 @@
     init();
   }
 })();
+
+const DEEPSEEK_KEY = "sk-238f37694a504056b4178fb33d6613b6";
+
+async function regeneratePigAI(){
+  const el = document.getElementById("pig-ai");
+  el.textContent = "分析中...";
+  try {
+    const [L, S] = await Promise.all([
+      fetch("data/latest.json",{cache:"no-store"}).then(r=>r.json()),
+      fetch("data/signals.json",{cache:"no-store"}).then(r=>r.json())
+    ]);
+    const sigLines = (S.signals||[]).map(s=>`  - ${s.name}（${s.status}）：${s.desc}`).join("\n");
+    const pp = L.province_prices || {};
+    const henan = pp.河南 ? pp.河南 : "未获取";
+    const guangdong = pp.广东 ? pp.广东 : "未获取";
+    const northeast = pp.东北均价 ? pp.东北均价 : "未获取";
+    const soybean = L.soybean_meal ? L.soybean_meal : "未获取";
+    const profit = L.self_profit !== undefined ? L.self_profit : "未获取";
+    const lhClose = L.futures && L.futures.生猪 ? L.futures.生猪.close : "未获取";
+
+    const prompt = `你是生猪产业分析师，每日跟踪生猪市场。基于以下数据，按要求输出。
+
+【核心数据】
+- 全国生猪出栏均价：${L.spot_pig||"未获取"} 元/公斤
+- 主产区河南：${henan} 元/公斤
+- 主销区广东：${guangdong} 元/公斤
+- 东北均价：${northeast} 元/公斤
+- 大商所LH期货主力：${lhClose} 元/吨
+- 猪粮比：${L.pig_grain_ratio||"未获取"}
+- 豆粕价格：${soybean} 元/吨
+- 自繁自养利润：${profit} 元/公斤
+- ${(S.signals||[]).length}个信号灯（${(S.signals||[]).filter(s=>s.status==="green").length}绿）：
+${sigLines}
+
+【输出要求】
+1. 周期定位：当前处于猪周期哪个阶段（去产能/筑底/上行/恢复/下行）
+2. 短期供需：当前供给压力 vs 季节性需求
+3. 价格驱动：今日变动是现货供需/期货资金/政策消息驱动
+4. 期现结构：基差和月差反映的市场预期
+5. 短期展望：现货猪价方向 + 期货关键价位
+6. 周期提示：下一个关键观察点
+7. 需关注事件：收储放储、产能数据发布日
+
+要求：200-300字，普通人能懂，不要套话和免责声明，未获取的数据不要编造。`;
+
+    const resp = await fetch("https://api.deepseek.com/v1/chat/completions", {
+      method: "POST",
+      headers: {
+        "Authorization": "Bearer " + DEEPSEEK_KEY,
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        model: "deepseek-chat",
+        messages: [
+          {role: "system", content: "你是严谨的生猪产业分析师。"},
+          {role: "user", content: prompt}
+        ],
+        temperature: 0.3,
+        max_tokens: 500
+      })
+    });
+    const data = await resp.json();
+    if(data.error) throw new Error(data.error.message);
+    el.textContent = data.choices[0].message.content;
+  } catch(e) {
+    el.innerHTML = '<span style="color:#f85149">生成失败: '+e.message+'</span>';
+  }
+}

@@ -95,15 +95,39 @@ def main():
         api_key = os.environ.get("DEEPSEEK_API_KEY", "").strip()
         if api_key:
             sig_lines = "\n".join(f"  - {s['name']}（{s['status']}）：{s['desc']}" for s in signals)
-            prompt = f"""你是生猪周期分析师。基于以下今日信号，用中文给 200-300 字综合判断。
-要求：1) 一句话定调当前周期位置 2) 最关键的信号是什么 3) 未来一个月盯什么 4) 不要套话和免责声明
-今日数据：
-- 现货猪价：{latest.get('spot_pig','?')} 元/公斤
-- 猪粮比：{latest.get('pig_grain_ratio','?')}
-- LH期货：{latest.get('futures',{}).get('生猪',{}).get('close','?')}
+            prov = latest.get('province_prices', {})
+            henan = prov.get('河南', '未获取')
+            guangdong = prov.get('广东', '未获取')
+            northeast = prov.get('东北均价', '未获取')
+            soybean = latest.get('soybean_meal', '未获取')
+            profit = latest.get('self_profit', '未获取')
+            lh_close = latest.get('futures',{}).get('生猪',{}).get('close','未获取')
+
+            prompt = f"""你是生猪产业分析师，每日跟踪生猪市场。基于以下数据，按要求输出。
+
+【核心数据】
+- 全国生猪出栏均价：{latest.get('spot_pig','未获取')} 元/公斤
+- 主产区河南：{henan} 元/公斤
+- 主销区广东：{guangdong} 元/公斤
+- 东北均价：{northeast} 元/公斤
+- 大商所LH期货主力：{lh_close} 元/吨
+- 猪粮比：{latest.get('pig_grain_ratio','未获取')}
+- 豆粕价格：{soybean} 元/吨
+- 自繁自养利润：{profit} 元/公斤
+- 能繁母猪存栏：{sow.get('holding_pct','未获取') if isinstance(sow, dict) else '未获取'}%（正常保有量）
 - {n}个信号灯（{green}绿/{n-green}非绿）：
 {sig_lines}
-"""
+
+【输出要求】
+1. 周期定位：当前处于猪周期哪个阶段（去产能/筑底/上行/恢复/下行），用能繁母猪和利润验证
+2. 短期供需：当前供给压力 vs 季节性需求
+3. 价格驱动：今日变动是现货供需/期货资金/政策消息驱动
+4. 期现结构：基差和月差反映的市场预期
+5. 短期展望：现货猪价方向 + 期货关键价位
+6. 周期提示：下一个关键观察点
+7. 需关注事件：收储放储、产能数据发布日
+
+要求：200-300字，普通人能懂，不要套话和免责声明，未获取的数据不要编造。"""
             body = json.dumps({
                 "model": "deepseek-chat",
                 "messages": [
