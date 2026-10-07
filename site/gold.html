@@ -301,6 +301,7 @@ function renderKPI(L) {
     {label: '沪金主力', value: L.shfe_au ? '¥' + L.shfe_au.toFixed(2) : '—', sub: '元/克 ' + (L.shfe_au_date || ''), cls: ''},
     {label: '金银比', value: L.gold_silver_ratio ? L.gold_silver_ratio.toFixed(1) : '—', sub: '>80 避险升温', cls: ''},
     {label: '美元/人民币', value: L.usdcny ? L.usdcny.toFixed(4) : '—', sub: '汇率', cls: ''},
+    {label: 'CFTC 黄金净持仓', value: L.cftc_gold_net ? (L.cftc_gold_net/1000).toFixed(0)+'k' : '—', sub: '张 ' + (L.cftc_gold_date || '周度'), cls: ''},
   ];
   document.getElementById('kpi').innerHTML = cards.map(c =>
     `<div class="kpi ${c.cls}"><div class="label">${c.label}</div><div class="value">${c.value}</div><div class="sub">${c.sub}</div></div>`
