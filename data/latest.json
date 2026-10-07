@@ -28,5 +28,13 @@
     "lh_far_near_spread": 3115.0
   },
   "spot_pig": 10.2,
-  "pig_grain_ratio": 4.66
+  "pig_grain_ratio": 4.66,
+  "soybean_meal": 3372.0,
+  "province_prices": {
+    "河南": 10.4,
+    "山东": 10.3,
+    "广东": 11.4,
+    "四川": 10.0,
+    "东北均价": 10.02
+  }
 }
