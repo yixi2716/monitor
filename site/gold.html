@@ -418,7 +418,10 @@ function renderAI(L) {
   // 在标题后面加日期
   const h2 = document.querySelector('#ai-block h2');
   if (h2 && L.ai_date) {
-    h2.innerHTML = '<span class="dot" style="background:var(--accent)"></span>AI 综合分析 · DeepSeek 阅读今日看板后生成 <span style="color:var(--muted);font-weight:400;font-size:12px;margin-left:8px">(' + L.ai_date + ')</span>';
+    const dateSpan = document.createElement('span');
+    dateSpan.style.cssText = 'color:var(--muted);font-weight:400;font-size:12px;margin-left:8px';
+    dateSpan.textContent = '(' + L.ai_date + ')';
+    h2.appendChild(dateSpan);
   }
 }
 
