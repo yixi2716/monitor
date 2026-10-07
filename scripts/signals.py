@@ -89,6 +89,46 @@ def main():
     })
     print(f"signals: {green} / {n} {verdict}")
 
+    # DeepSeek AI 综合分析
+    try:
+        import urllib.request, datetime
+        api_key = os.environ.get("DEEPSEEK_API_KEY", "").strip()
+        if api_key:
+            sig_lines = "\n".join(f"  - {s['name']}（{s['status']}）：{s['desc']}" for s in signals)
+            prompt = f"""你是生猪周期分析师。基于以下今日信号，用中文给 200-300 字综合判断。
+要求：1) 一句话定调当前周期位置 2) 最关键的信号是什么 3) 未来一个月盯什么 4) 不要套话和免责声明
+今日数据：
+- 现货猪价：{latest.get('spot_pig','?')} 元/公斤
+- 猪粮比：{latest.get('pig_grain_ratio','?')}
+- LH期货：{latest.get('futures',{}).get('生猪',{}).get('close','?')}
+- {n}个信号灯（{green}绿/{n-green}非绿）：
+{sig_lines}
+"""
+            body = json.dumps({
+                "model": "deepseek-chat",
+                "messages": [
+                    {"role": "system", "content": "你是严谨的生猪周期分析师。"},
+                    {"role": "user", "content": prompt},
+                ],
+                "temperature": 0.3, "max_tokens": 500,
+            }).encode("utf-8")
+            req = urllib.request.Request(
+                "https://api.deepseek.com/v1/chat/completions",
+                data=body,
+                headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
+                method="POST",
+            )
+            with urllib.request.urlopen(req, timeout=30) as r:
+                resp = json.loads(r.read().decode("utf-8"))
+            analysis = resp["choices"][0]["message"]["content"].strip()
+            sig = json.load(open(os.path.join(HERE, "..", "data", "signals.json"), encoding="utf-8"))
+            sig["ai_analysis"] = analysis
+            sig["ai_date"] = today_str()
+            save_json("signals.json", sig)
+            print(f"AI 分析生成成功（{len(analysis)} 字）")
+    except Exception as e:
+        print(f"[warn] AI 分析失败: {e}")
+
 
 if __name__ == "__main__":
     main()

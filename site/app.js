@@ -112,6 +112,17 @@
     });
   }
 
+  function renderAI() {
+    var el = document.getElementById("pig-ai");
+    if (!el) return;
+    var s = DATA.signals || {};
+    if (s.ai_analysis) {
+      el.textContent = s.ai_analysis;
+    } else {
+      el.innerHTML = '<span style="color:var(--muted)">今日 AI 分析暂未生成。</span>';
+    }
+  }
+
   /* ---------- 待复核区 ---------- */
   function renderPending() {
     var box = el("pending-list");
@@ -363,6 +374,7 @@
   function renderAll() {
     renderHeader();
     renderSignals();
+    renderAI();
     renderPending();
     if (window.echarts) {
       renderPriceChart();
