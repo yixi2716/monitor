@@ -260,6 +260,15 @@
         '<span class="score-big">' + g.gold.toLocaleString('en-US', {maximumFractionDigits: 0}) + '<small style="font-size:11px;color:var(--muted);font-weight:500"> $/oz</small></span>' +
         '<span class="date">' + g.date + '</span>';
     }
+    // 铜
+    const cu = await loadCardStatus('data/copper/latest.json', 'copper-status');
+    if (cu && cu.copper > 0) {
+      const scoreCls = cu.score > 0 ? 'peak' : (cu.score < 0 ? 'down' : '');
+      document.getElementById('copper-status').innerHTML =
+        '<span class="verdict ' + scoreCls + '">' + (cu.score > 0 ? '偏多' : cu.score < 0 ? '偏空' : '中性') + '</span>' +
+        '<span class="score-big">$' + cu.copper.toFixed(2) + '<small style="font-size:11px;color:var(--muted);font-weight:500"> /lb</small></span>' +
+        '<span class="date">' + cu.date + '</span>';
+    }
   })();
 </script>
 </body>

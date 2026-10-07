@@ -137,7 +137,7 @@ def main():
     vix = float(latest["VIX"])
     tnx = float(latest["TNX"])
     wti = float(latest["CL"])
-    cu_oil = copper / wti if wti else 0
+    cu_oil = (copper * 2204.62) / wti if wti else 0  # 美元/磅→美元/吨，再除以油价
 
     # 信号
     signals = []
