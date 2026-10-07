@@ -1,28 +1,28 @@
 {
   "date": "2026-10-06",
-  "gold": 4195.0,
-  "gold_chg": 0.92,
-  "ma20": 4306.14,
-  "ma50": 4370.35,
+  "gold": 4187.1,
+  "gold_chg": 0.73,
+  "ma20": 4305.74,
+  "ma50": 4370.19,
   "above_ma20": false,
   "above_ma50": false,
-  "dxy": 101.79,
-  "dxy_chg": -0.37,
-  "vix": 15.3,
-  "vix_chg": -1.42,
-  "tip": 104.25,
-  "tnx": 5.26,
-  "corr_gold_dxy": -0.21,
-  "corr_gold_tip": 0.32,
-  "corr_gold_vix": -0.47,
-  "basis": 37.4,
-  "vol20": 17.0,
+  "dxy": 101.83,
+  "dxy_chg": -0.33,
+  "vix": 15.01,
+  "vix_chg": -3.29,
+  "tip": 104.18,
+  "tnx": 5.27,
+  "corr_gold_dxy": -0.19,
+  "corr_gold_tip": 0.31,
+  "corr_gold_vix": -0.48,
+  "basis": 36.44,
+  "vol20": 16.8,
   "mode": "M",
   "mode_name": "M · 混合驱动",
   "confidence": "低",
   "evidence": [
-    "黄金与 TIP 相关性 +0.32，与 DXY 相关性 -0.21",
-    "VIX 15.3，与 VIX 相关性 -0.47",
+    "黄金与 TIP 相关性 +0.31，与 DXY 相关性 -0.19",
+    "VIX 15.0，与 VIX 相关性 -0.48",
     "多因子混合驱动，无单一主导逻辑"
   ],
   "signals": [
@@ -33,27 +33,27 @@
     },
     {
       "name": "利率信号",
-      "text": "TIP 5日 +0.23%，实际利率平稳",
+      "text": "TIP 5日 +0.16%，实际利率平稳",
       "dir": "neutral"
     },
     {
       "name": "避险信号",
-      "text": "VIX 15.3，中性",
+      "text": "VIX 15.0，中性",
       "dir": "neutral"
     },
     {
       "name": "情绪信号",
-      "text": "VIX 5日 -5%，情绪平稳",
+      "text": "VIX 5日 -6%，情绪平稳",
       "dir": "neutral"
     },
     {
       "name": "实物信号",
-      "text": "GLD 5日 -0.21% 弱于期货 +0.37%，期货投机偏热",
-      "dir": "bear"
+      "text": "GLD 与期货同步（5日 -0.16% vs +0.18%）",
+      "dir": "neutral"
     }
   ],
-  "score": -2,
-  "score_summary": "-2（偏空）",
+  "score": -1,
+  "score_summary": "-1（中性）",
   "recent10": [
     {
       "date": "2026-09-23",
@@ -129,11 +129,11 @@
     },
     {
       "date": "2026-10-06",
-      "gold": 4195.0,
-      "gold_chg": 0.92,
-      "dxy": 101.79,
-      "vix": 15.3,
-      "tip": 104.25
+      "gold": 4187.1,
+      "gold_chg": 0.73,
+      "dxy": 101.83,
+      "vix": 15.01,
+      "tip": 104.18
     }
   ],
   "macro": {
@@ -154,10 +154,10 @@
         "dot_plot": true
       }
     ],
-    "zq_price": 96.07,
-    "zq_implied_rate": 3.93,
-    "market_bp_vs_current": -7.0,
-    "market_expectation": "市场预期下次会议维持不变",
+    "zq_price": 96.11,
+    "zq_implied_rate": 3.89,
+    "market_bp_vs_current": -11.0,
+    "market_expectation": "市场预期降息 11bp",
     "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
   },
   "geopolitics": {
@@ -168,48 +168,48 @@
     "updated": "2026-09-28",
     "events": [
       {
-        "date": "2026-09-30",
-        "text": "Qatari mediators press peace deal between US and Iran",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPODNDSVp4Qi1GQVY3bEJ2d0dpZzVBbEU4NUpYQzBpV2QwaW9uVGdwdHJnQkstVFlUSTNRazRHaUVFOVFWOTJXRjhnS2dncDBNLVVsa0JiWC0zN3ktZXdvV0tWN3FrakF4aUZIX0w2RjMwVHJWc0lBZUpYU09SWmsyUmdQd3dJdXh1N3lTb1pDZ1ZEYkhOUTVPV0lhak9YM3ZxTm1vR1BmRnFnZjNUMWF0M1NabHhLblkxd05FM3dn?oc=5",
-        "src": "Reuters"
-      },
-      {
-        "date": "2026-10-04",
-        "text": "Iran says Hormuz to remain closed until US meets conditions",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdEpOSExlamJ6VFM3V3hVMXl2M09LVHYxQnZpUHV6bXZuRkJmM3ljVHA0NFpQTmJ2WS1uZzhQVjAxVUJJYUZXeE5rMTVZMkdma3Z0a2NWUU9qRGJXZlhkSFYyVkVINHE1NjR6bklmTmxZUWdWNS1qaXc0cTNnU0xtZWV2QTRubWoyakdyMDNIUm9KcmpfSy1Jb3Nrb09mTEVMbjBlYVFybGNaa0JFOFhF0gG0AUFVX3lxTE12RHNGM054RWlsaVJaeEgtRWlIUDNKVWN0N0JLQmRfOHA1MU5SUVhXV1pjM1RKRlY2YjVkZlkyaG5vaDhWa0Fhd2hDeVZGMXRYcm5odHB1RWZ1eWJGeEZxRnZrWVNib2FvZHFySGVnNjdqTHlmUVJLdThHZHkwYk14ajdNWlptejNOYnhNR3dacmZMTWlLRDdGMFpkczBqcTBWZlN5UnlSUTV6a3NsWFBvY0djdQ?oc=5",
+        "date": "2026-10-07",
+        "text": "US sets new demands for Iran deal: What are they?",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNU1ZQRjU0eUpuQ2c2ZFE4MjJEazVwWWMyai1SMWFlWVRBYURTYmlqblVhZFJTa0xxQlNKWEtRNEFXU3RCUnU1ZzRXc1FxdmcxaWcybl9ISzZfWUNtS2JaUUxuNXNSWmhpdzdETXQ4R1MyUS03c25waS1UTVNid1czdUlKSlRsYUtZTkJsb3l1QXl3Z9IBlwFBVV95cUxPSEZpRE83aEJSR2dxaC10MTBJMTBELUEzOXdFWHRmVmE3LWhmMWJWN1FiVGgtMktyb1YyQU9OWEFpMmc5WVJVR2NWVjJtUnUzZS1iTU45WkNPQl9Nb3ZOTzBDbS1qOHBOSmJHdG1pYzIxeEo2eXdHRzR5LWl4VXVVQmE0eV9oRlVfOFd4UU8yWkRCcnBWeGNn?oc=5",
         "src": "Al Jazeera"
       },
       {
-        "date": "2026-10-02",
-        "text": "Iran offers to allow nuclear inspectors if sanctions are eased",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRnd4WFhTaGZCUHNGOWJZNmJqNmRsZ3hKNkhFTVlYX0RkUWR2ZXRVX0FfamJGN1JSbEZnUkVoVDUyQjFSQzRRcnJwbHhIQ0hWeS15ZjVJbVNNT1BPeVV4TTVwRXp6V1Axa1FwQk9LZzZtcG1sMkU2SDRxb3pkbGFqUEFPcU9CZ0tpTzZ5cWZvdlpfb0U?oc=5",
-        "src": "The Japan Times"
-      },
-      {
-        "date": "2026-10-03",
-        "text": "Trump says Iran has 'virtually given up' any plans for nuclear weapons",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPY1J1NS1fRkpIU1Rqc3dkVE9JVDNUYms5VWlIQzlDQThNNWs1bE5vYVV3QWRDek9KOHgxV0pBc2pkSHFpLVgwelliTVFsSFdMLXZlTWJWLXMzTTlpbXBFQkh5clRHbUZrWnkwSVd5SkFMYzM5REJhXzVkX1d1NnBZa1dOSVY1Y0kwMUhFTGtuUzVjY016WVVVYWRoNHFNRTBEc0hIaVBGTC1QNktCa1VB?oc=5",
-        "src": "Anadolu Ajansı"
-      },
-      {
-        "date": "2026-10-04",
-        "text": "Pete Hegseth warns Iran will 'never' get nuclear bomb, touts Hormuz blockade",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9SQmt4aVVHV2F1NnVZSHNXdUFyRUQ5c0NZblJrWExud0FELVFsTHBpRk1NN1ZHd1FUQmdYQUFRU2dNeFlveWZwTUdrM2s0YlFmN1lKM0F0VWRYcU9CclBPUEVUVWtIV1d3NUE?oc=5",
-        "src": "The Jerusalem Post"
+        "date": "2026-10-06",
+        "text": "Trump Condemned for Invoking Nuclear Attacks on US Cities to Defend Iran War",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdmkxR2NDU09pMm4zQi1jVllzaVJQcDVFYU1sdVN2eWc1X0hjUFZ6UjhQX0RISUU5a08xTVJQZkVXbzJSRnJQUjBqekRPY1VBVndLakJBeF9oSlRpOXZybFVkdXR3YWNaTUpIWkQtcUFGYUNNNmxVTnlpNTlmRG1JZkhsYkRpX3Y5WHBHRXpsZ2RyOUU3S3d5WExHNVVlQlAxU0RtSU40QjBMcjg?oc=5",
+        "src": "Truthout"
       },
       {
         "date": "2026-10-06",
-        "text": "Trump sparks criticism with comments on potential Iranian attacks on US cities",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbTVfSnJTVmMwN09KVS1wekVYV2FiTmRicXpGZ3dHbmFSS2dtMXZiQU81WkF6ZGJ5X1BEdkhtbk0xNEZKS3pSaGlCZkFXdFFsTEdiYlBqMVRRT1paR2wzQzVDd3ppMjhibHNMZU0wYjlRaklVZkFWcENnSnVTQUVSM3JFTTVwZ0hsYk5tQWEycC1Xcmo5WS01dk13bEJfMV9tNDhxcFFmcXpyQi1OVmZISW02YUVNdXlzQ2QybWVxQ3Q?oc=5",
-        "src": "Scripps News"
+        "text": "EXCLUSIVE: Vance says Iran must cut enrichment to end war",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQ3R3RzJuRF9NSlo0bWNMaGY3dTdUbXRmSU1BMml2V2RLd0sxazNvVUNRdXpHa21Ebk4tVWtLeHZXMG5xM2ZUVG1aTEJDU0FRWnRHZnozTHQxdVRjeTJvbXRKNzFpNG1wR3RqVDlKMXpXY09hYlFKVlF4RW5uQjJJMXhKOEt3c0ZLWE4tbWZlQW5hUnRnckxmaU1mU0R0SWwzRGNXdGo0ZTVTUXBlSHlfakN1Yw?oc=5",
+        "src": "Reuters"
+      },
+      {
+        "date": "2026-10-07",
+        "text": "Rubio says Tehran missed 'multiple' chances for nuclear deal amid Iran stalemate",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBST3M3OWl1Z3R1OFBQaFRuXzBxeC1DVnczRVNFWm12c2NHQnV5OU9acWZLTllvSWNKcUE4NHBSV1oyQmFObGszUlE0dU9sUE9zZmk4NmpPZEJTNmZMRkZrU3NlWVlVSjF3czJHVVd30gFzQVVfeXFMTl9lOGNDTDRpUHJsdU80NU5NV1NTTVhua25JazF6eHA4TC1aNGNqWm5aaHBXM3hkYjZqZGFGYzR6NFdrcnJZdnRzRTBUYndZZEhIa2gwUHhwNTlvbkNmYk8zNG1DSFBMaDk2LUlidmJyRHZYdw?oc=5",
+        "src": "CNBC"
+      },
+      {
+        "date": "2026-10-07",
+        "text": "Trump worries Iran could target U.S. cities. These places get extra nuclear protection",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOV1ZiUHZxVzFmOWwxcFJTR05td0xmbURuRVJjRjhwclc2aXp0cEVoanVHOTJUWmFnRlprS01TbHVpNXpUeE5pNDZGVGRVRDhrRGE0bk5LUkRvMENoQ1FhdThMZEJtMkNoSExKbHJKdkx6YlNDU2pNckRPYWwxZ000WkFRU1dnTVk?oc=5",
+        "src": "Axios"
+      },
+      {
+        "date": "2026-10-03",
+        "text": "Live - Trump warns Iran as Vance sets nuclear condition to end war",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBOTk9NY25oVDA1VHhzR0hxT0pvLWs0MkRyZGN4QU5NZjl5RHZRNk13anozbldGMi1HcGlvclRQWktscHRETDIyd0luOTBhN3N6aVViYnRRU0YwWHlSQnc?oc=5",
+        "src": "Iran International"
       }
     ],
     "gold_impact": "双重作用：局势升级→避险买盘利多黄金；但同时油价飙升→通胀预期→美联储更难降息→利空黄金。当前谈判窗口期，油价波动会直接传导到金价。",
-    "wti_price": 88.72,
-    "wti_chg": -0.79,
+    "wti_price": 89.44,
+    "wti_chg": 0.01,
     "news_auto": true
   },
   "ai_error": "",
-  "ai_analysis": "金价现在站在4195美元，卡在20日线（4306）和50日线（4370）下方，属于反弹但没翻身的偏空格局，综合评分-2也印证了这点。\n\n主导因素有两个：一是美元太强，DXY 101.8直接压着金价抬不起头；二是期货投机盘偏热、实物买盘偏冷——GLD五天跌0.21%，期货却涨0.37%，这种背离说明这波上涨是资金推动而非真实需求，虚火成分大。10年期美债5.26%的高利率环境也不支持黄金走强。\n\n未来一周盯两件事：第一，美伊局势紧张度中高，一旦升级，油价和避险会同时推金价，这是唯一能打破当前偏空格局的变量；第二，美元指数能否守住101关口，跌破则金价有喘息空间，继续走强则4195大概率还要往下测。\n\n我的判断：短线偏空震荡，反弹到4300附近是压力位，别追高；真正的机会要么等美伊出事，要么等美元自己走软。",
+  "ai_analysis": "**一句话定调：金价短线反弹但仍在均线下方，空头格局未改，属于弱势中的技术性修复。**\n\n**主导因素：** 第一，美元太强。DXY 101.83 站上 101 关口，这是当前压着金价最重的一块石头，只要美元不松口，黄金反弹就是有限的。第二，美债 10 年期收益率 5.27% 处于高位，持有黄金的机会成本太高，资金没有理由大举进场。今天 +0.73% 更像是超跌后的喘息，而不是趋势反转——金价 4187 还在 MA20（4305）和 MA50（4370）下方快 120-180 美元，均线是实打实的压力。\n\n**未来一周盯两件事：** 一是美元指数能不能跌回 101 以下，这是金价能否继续反弹的前提；二是美伊局势，紧张度已经中高、油价 89 美元，一旦升级，避险买盘会突然涌入，这是唯一可能打破当前空头节奏的变量。另外 FOMC 还有 22 天，市场只预期降息 11bp，说明降息预期很弱，别指望美联储短期救场。\n\n**结论：反弹可参与但别追高，4300 附近是硬压力，站不上去就还是空头说了算。**",
   "ai_date": "2026-10-06"
 }
