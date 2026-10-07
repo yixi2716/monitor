@@ -1,17 +1,17 @@
 {
   "date": "2026-10-07",
-  "copper": 6.64300012588501,
-  "copper_chg": 0.7354622876368122,
-  "ma20": 6.563575005531311,
-  "ma50": 6.569940013885498,
-  "dxy": 102.28099822998047,
-  "vix": 15.710000038146973,
-  "tnx": 5.310999870300293,
-  "wti": 89.73999786376953,
-  "cu_oil_ratio": 163.19691649381363,
+  "copper": 6.6529998779296875,
+  "copper_chg": 0.887100045561473,
+  "ma20": 6.564074993133545,
+  "ma50": 6.5701400089263915,
+  "dxy": 102.26000213623047,
+  "vix": 15.680000305175781,
+  "tnx": 5.302999973297119,
+  "wti": 89.66999816894531,
+  "cu_oil_ratio": 163.57016717282556,
   "shfe_cu": 109680.0,
   "shfe_cu_date": "2026-09-30",
-  "shfe_lme_ratio": 1.04,
+  "shfe_lme_ratio": 1.039,
   "lme_stock": 296625,
   "lme_stock_date": "2026-07-17",
   "shfe_stock": 10011,
@@ -21,12 +21,12 @@
     {
       "name": "铜价站上MA20",
       "dir": "bull",
-      "text": "$6.64 > MA20 $6.56"
+      "text": "$6.65 > MA20 $6.56"
     },
     {
       "name": "美元中性",
       "dir": "neutral",
-      "text": "DXY 102.28"
+      "text": "DXY 102.26"
     },
     {
       "name": "风险偏好正常",
@@ -36,12 +36,12 @@
     {
       "name": "铜油比偏高",
       "dir": "bull",
-      "text": "铜油比 163.2，工业景气预期强"
+      "text": "铜油比 163.6，工业景气预期强"
     },
     {
       "name": "实际利率高企",
       "dir": "bear",
-      "text": "10Y 5.31%，压制金属估值"
+      "text": "10Y 5.30%，压制金属估值"
     }
   ],
   "score": 1,
@@ -77,7 +77,7 @@
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOS1gwQ3QzeEdOZV94cXRNaHVnTnpKUElMd2xRVUdycmUwVmNORFJUODBtUkdiNTlvbnRXb2pqekRBTnpZXy1fYkRMUmVKS1U1TDVaNkowMS1mUUh4U3BPMU8zY0ZkTEJUS05ZaGo0eF9McThoMUV2dGVza1V4cFpkNFVZQlJpc1o4MTFiQTlhLThybVByUjIzSkh6cDZaNlZQT1VxUDhYSkFDZW14WE02TGV0ZXRCVFpMcWRqZEFlZFI2WnkxZHo4?oc=5"
     }
   ],
-  "ai_error": "未配置 DEEPSEEK_API_KEY",
-  "ai_analysis": "",
+  "ai_error": "",
+  "ai_analysis": "**涨跌归因**：今日COMEX铜涨0.89%，主因是铜价站上MA20、铜油比163.6显示工业需求预期偏强，叠加美中贸易争夺推升囤铜需求。但10Y美债5.30%的高实际利率在压制估值，美元中性没帮忙也没拖累，所以涨幅温和。\n\n**库存与价差**：LME库存29.6万吨属中性偏高水平，但沪铜库存仅1万吨且日减721吨，国内明显偏紧。LME升贴水未获取，无法判断海外现货紧张程度。整体看内紧外松。\n\n**内外盘**：沪伦比值1.039>1，进口有利，说明国内价格相对更强，反映中国需求韧性。美国232关税若落地，会推高COMEX相对LME的溢价，但目前数据未体现异常溢价。\n\n**资金信号**：站上MA20是唯一明确多头信号，但MA50（6.57）几乎持平，趋势尚未完全打开；风险偏好和美元都中性，缺乏资金合力，趋势只能算弱健康。\n\n**短期展望**：震荡偏多。COMEX关键支撑MA20 $6.56，阻力前高附近；沪铜支撑¥108,000，上看¥112,000。\n\n**风险点**：①美国232铜关税若突然落地或加码，COMEX溢价跳升会打乱内外盘套利；②10Y美债若继续冲高，高利率会压制铜价反弹空间。",
   "ai_date": "2026-10-07"
 }

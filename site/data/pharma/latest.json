@@ -1,17 +1,58 @@
 {
   "date": "2026-10-07",
-  "hs300": 4825.5,
-  "hs300_chg": 0.12,
-  "med_etf": 0.523,
-  "med_etf_chg": -0.35,
-  "inn_etf": 0.687,
-  "inn_etf_chg": 0.42,
-  "hsi_health": 7820.5,
-  "hsi_health_chg": 0.85,
-  "tnx": 4.12,
-  "usdcny": 6.69,
-  "excess": -0.47,
-  "news": [],
-  "ai_analysis": "",
+  "hs300": 4357.62,
+  "hs300_chg": 0.0,
+  "med_etf": 0.388,
+  "med_etf_chg": 0.0,
+  "inn_etf": 0.872,
+  "inn_etf_chg": 0.0,
+  "hsi_health": 0.0,
+  "hsi_health_chg": 0,
+  "tnx": 5.29,
+  "usdcny": 6.703,
+  "excess": 0.0,
+  "news": [
+    {
+      "date": "2026-10-07",
+      "text": "Axiom Space, Exobiosphere Sign Memorandum of Understanding to Advance Drug Discovery in Space - Axiom Space",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1wMDB5RzJzclJ4X1FxLWFMYzhVVFhCUDY4cTA1VDVndGpuXy1pSDA1VW5xYk51SFVBTkN0c2JkMVlNY0lZaV9RQkZDNFMtcVhMcWFKZnpzNXpXWVVo?oc=5"
+    },
+    {
+      "date": "2026-10-07",
+      "text": "China’s Pharma Industry Goes Global: From Low-Cost Generics to Innovative Biotech- Expert View by Spherical Insights - Spherical Insights",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZUl3cXhCVDJ5V003clJLTVQ3b3A3X3VkVXNQaEY3Y0FhWE9hcWhST25VTl9mcGRXQ1ZNOEN0Z2xSUHFaRjltZHZ3d2FBTkpCOF9YVG1xNFlnakkzR0Q4X0QydURybFNSN3U1cGRIcGdFZE9pZkgydzFMN215TmlFc1RXaFQ5YXdGV1hxRGV6QXJNNk1TQWdZYlZ1MDAzSTgtVzhaWndaSlctc0IzbHNmWXRZeTZodEFFSEFnNQ?oc=5"
+    },
+    {
+      "date": "2026-10-05",
+      "text": "Sironax Named to Fierce Biotech’s “Fierce 15” List of the Most Innovative and Promising Private Biotechs of 2026 - GlobeNewswire",
+      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNU3p0aWFMSTBEa21HYTNMUTNIakhid25tWDVuWWpZX2lBNDBjUmJFTzBTTWIzc1NrUHFOMlc3RUV2NWdFT3NHb29LZTRucTJYSFZESWFXS0pESk5MYWRENllTWWI0azRwSEphdEdVejJMQ3VnMjYyQnRLd1RrUG5UZ3BaX05PVFd2ajlBVmFiRWZIano3UC1Vd3lWdmpGTXV5dl95MndmaVJfRnpNTk5IeFFkbFpRdzc3bVhWU1RudFNTZWYxUHpkT2ZGZ1NBSmFNYWZzSmpMcGZzWkpCSnRGS1lOM1U1dUl6Z2VuZnY3d1VzcHZndFAzb2lNVzVuMkk0MzlBc3Y4SkNORTIwTE9Z?oc=5"
+    },
+    {
+      "date": "2026-10-06",
+      "text": "SPI Pharma and Colorcon announce strategic global partnership - Manufacturing Chemist",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdDZaajRKN0lHaU1VQnR6OXY4WW9KeHFTV1NtaHp6SmdhVVdzaWxOUnV0NWpsZEZZazNvSUNnOXNHM20zNnFMRzlVWWoyR25tdHUwUE51TWluclF2SGtGbzVhQXJGNURFbk4tWGZUUHlpRFhZMU1CZ3dyLW5ZbHNCNXV6ZVJtZXpybGI2QUpESGhqWE1OMHotZU9R?oc=5"
+    },
+    {
+      "date": "2026-10-07",
+      "text": "Fosun Pharma stock gained 2.69 percent on September 30 as H1 revenue rose - AD HOC NEWS",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQaExqNE55V1FBMlFEcExqenJhQW5xZmRwZjV4VURzWlNGckhNTU92UVRXRUJXVUtMWS1FaGUzMHFBcXd5NFlyc015aFVTR2FTdm0yQ19DQ0pmejRDYWJKSXVQUW9jdEJORVpfOUFLbFZUZlBuZHJrdXpGMUNiWDljc2hHRDg1dHp1dEV6Smg0RXcxWTkySGRfMmk2U1FSYkRnWUVZenktQTctcmdXbGhuTGFJaFBVZXZKOG1jNXN3TEZrcmtXWUFCSnA0NDI?oc=5"
+    },
+    {
+      "date": "2026-10-05",
+      "text": "Pharma leaders say India must now move from generics to innovation - Forbes India",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPakd5cWpaNWRUVWFOSEpSNHdQNENLOU1rcllNb2N4b3BfbW9JcURSUm9IbE9mRmNZWEhJS05tVGdkblN5WXExNWVUdlRPSDFwWlFPRVp5dVRaczRhY1N3ZlhZSXExY2ctUDVUNzd1el9MMEFFcXdvMzdWMWtsMzNHNDRqcTRIMFc3S2xkZkVfUG9mZjhPUXI1NDk5WTRYOExaWDdXcXBpOXl6clVXbTlIWXFn0gG3AUFVX3lxTE8xSEttTXZyWkxkVlR3VndVV1AtaGNzWHRyWmpfOVRzME14WE5JdFNKUWVBeFUtS1RXb1dMNURDcjR0UG93S1VtcnVOU0dxTC1uOVA5UTktX3FsX2VLT0N1dXhDczVEZHN4bFZqNVFVcVpMSzhYNHh1dE90V1ZSWFpENnlwUGlveGh3ZUNnMTFDc1JhcUJhR0Q2MTJvVWNpYzlDNlVwQUJNZG5Eb1k3MklQemhkZVBzOA?oc=5"
+    },
+    {
+      "date": "2026-10-06",
+      "text": "Indian companies must invest in R&D, move from generics to innovation-led industry: Pharma leaders - ETPharma.com",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNZDBrNHBUeXZYam1NWHVVY2ZXeFF5b3FidDZwcXBjT01fUmxfOXAtM3htODQ5cUhOUFlxVTBYV0syNm1qRmd6N0xJeDMwaW1KZndEdl9IUWxkcnVJUG83YllOSDkzYUtOVFY2d05mekJDU0U2U0pubkYxdU5VQUJEV1FUbDBON212dF9RSUNwdFFXT1VXOTlIS01xR3ppdmZHS3ZpZldaX0ZQb1VmVEVkQjFScHRWcFdoV3gtT0FxTEwtemR1VlU3NnV0d05nZ0RmMzRycGpiSTFpelFEQmdaUXBDUEU0Y2RMN3JtWWNyRVlyN09FNVZCc1RwdWtoSTc5dkVtU9IBhAJBVV95cUxNZDBrNHBUeXZYam1NWHVVY2ZXeFF5b3FidDZwcXBjT01fUmxfOXAtM3htODQ5cUhOUFlxVTBYV0syNm1qRmd6N0xJeDMwaW1KZndEdl9IUWxkcnVJUG83YllOSDkzYUtOVFY2d05mekJDU0U2U0pubkYxdU5VQUJEV1FUbDBON212dF9RSUNwdFFXT1VXOTlIS01xR3ppdmZHS3ZpZldaX0ZQb1VmVEVkQjFScHRWcFdoV3gtT0FxTEwtemR1VlU3NnV0d05nZ0RmMzRycGpiSTFpelFEQmdaUXBDUEU0Y2RMN3JtWWNyRVlyN09FNVZCc1RwdWtoSTc5dkVtUw?oc=5"
+    },
+    {
+      "date": "2026-10-04",
+      "text": "obesity & weight loss drug development summit - www.polskieradio.pl",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQb3FkNkZqNjFOV20xeXdQV1Q5c21UNVZ5X09ScU0yX2w1VHhDMGVyUTNCYjRNbURWVFFXTUMzdElNNDZQd2d6ZnJtYno5cnVLMTJOWUFLaUxRUEY5N19COUowRk41Rk45a3JsN3RaRnJGbU0yanVRdnM3QkFaalpUME1uQmwyNHZ6akJwdDF2TEZjRWZCcDFLNE5qSFR4T0hPLU8tNHpMWkxDZw?oc=5"
+    }
+  ],
+  "ai_analysis": "今日医药板块整体零涨跌，医药ETF、创新药ETF均收平，相对沪深300无超额收益，说明既非大盘带动，也无独立行情，属于典型的缩量观望状态。子板块方面，复星医药H1营收增长带动其股价上涨2.69%，是少数亮点，但未能扩散至板块整体。\n\n事件催化上，中国医药产业从仿制药向创新生物药出海是中长期主线，Sironax入选Fierce 15、SPI与Colorcon全球合作等消息偏正面，但短期对A股情绪拉动有限。\n\n宏观层面，10Y美债5.29%仍处高位，对创新药估值和CXO融资环境构成压制；人民币6.703相对稳定，暂不构成额外冲击。高利率下Biotech融资成本高企，CXO订单回暖仍需时间。\n\n短期判断为震荡，医药ETF 0.388是关键支撑，创新药ETF 0.872是短期压力位。风险点：美债利率若继续上行将压制成长股估值；板块成交低迷，缺乏增量资金；出海逻辑兑现节奏存在不确定性。",
   "ai_error": ""
 }
