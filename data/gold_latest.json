@@ -1,23 +1,23 @@
 {
   "date": "2026-10-07",
-  "gold": 4125.6,
+  "gold": 4125.4,
   "gold_chg": -1.47,
-  "ma20": 4288.99,
+  "ma20": 4288.98,
   "ma50": 4371.93,
   "above_ma20": false,
   "above_ma50": false,
-  "dxy": 102.4,
-  "dxy_chg": 0.56,
-  "vix": 15.82,
-  "vix_chg": 5.4,
-  "tip": 104.09,
+  "dxy": 102.32,
+  "dxy_chg": 0.48,
+  "vix": 15.7,
+  "vix_chg": 4.6,
+  "tip": 104.07,
   "tnx": 5.32,
-  "corr_gold_dxy": -0.23,
+  "corr_gold_dxy": -0.22,
   "corr_gold_tip": 0.31,
   "corr_gold_vix": -0.55,
-  "basis": 36.79,
+  "basis": 36.39,
   "vol20": 17.0,
-  "gold_silver_ratio": 68.93,
+  "gold_silver_ratio": 68.88,
   "usdcny": 6.6933,
   "shfe_au": 910.58,
   "shfe_au_date": "2026-09-30",
@@ -27,34 +27,34 @@
   "mode_name": "M · 混合驱动",
   "confidence": "低",
   "evidence": [
-    "黄金与 TIP 相关性 +0.31，与 DXY 相关性 -0.23",
-    "VIX 15.8，与 VIX 相关性 -0.55",
+    "黄金与 TIP 相关性 +0.31，与 DXY 相关性 -0.22",
+    "VIX 15.7，与 VIX 相关性 -0.55",
     "多因子混合驱动，无单一主导逻辑"
   ],
   "signals": [
     {
       "name": "美元信号",
-      "text": "DXY 102.4 > 101，压制金价",
+      "text": "DXY 102.3 > 101，压制金价",
       "dir": "bear"
     },
     {
       "name": "利率信号",
-      "text": "TIP 5日 +0.05%，实际利率平稳",
+      "text": "TIP 5日 +0.03%，实际利率平稳",
       "dir": "neutral"
     },
     {
       "name": "避险信号",
-      "text": "VIX 15.8，中性",
+      "text": "VIX 15.7，中性",
       "dir": "neutral"
     },
     {
       "name": "情绪信号",
-      "text": "VIX 5日 -3%，情绪平稳",
+      "text": "VIX 5日 -4%，情绪平稳",
       "dir": "neutral"
     },
     {
       "name": "实物信号",
-      "text": "GLD 与期货同步（5日 -1.33% vs -1.46%）",
+      "text": "GLD 与期货同步（5日 -1.23% vs -1.46%）",
       "dir": "neutral"
     }
   ],
@@ -135,11 +135,11 @@
     },
     {
       "date": "2026-10-07",
-      "gold": 4125.6,
+      "gold": 4125.4,
       "gold_chg": -1.47,
-      "dxy": 102.4,
-      "vix": 15.82,
-      "tip": 104.09
+      "dxy": 102.32,
+      "vix": 15.7,
+      "tip": 104.07
     }
   ],
   "macro": {
@@ -193,15 +193,15 @@
       },
       {
         "date": "2026-10-07",
-        "text": "Trump worries Iran could target U.S. cities. These places get extra nuclear protection",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOV1ZiUHZxVzFmOWwxcFJTR05td0xmbURuRVJjRjhwclc2aXp0cEVoanVHOTJUWmFnRlprS01TbHVpNXpUeE5pNDZGVGRVRDhrRGE0bk5LUkRvMENoQ1FhdThMZEJtMkNoSExKbHJKdkx6YlNDU2pNckRPYWwxZ000WkFRU1dnTVk?oc=5",
-        "src": "Axios"
-      },
-      {
-        "date": "2026-10-07",
         "text": "Rubio says Tehran missed 'multiple' chances for nuclear deal amid Iran stalemate",
         "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBST3M3OWl1Z3R1OFBQaFRuXzBxeC1DVnczRVNFWm12c2NHQnV5OU9acWZLTllvSWNKcUE4NHBSV1oyQmFObGszUlE0dU9sUE9zZmk4NmpPZEJTNmZMRkZrU3NlWVlVSjF3czJHVVd30gFzQVVfeXFMTl9lOGNDTDRpUHJsdU80NU5NV1NTTVhua25JazF6eHA4TC1aNGNqWm5aaHBXM3hkYjZqZGFGYzR6NFdrcnJZdnRzRTBUYndZZEhIa2gwUHhwNTlvbkNmYk8zNG1DSFBMaDk2LUlidmJyRHZYdw?oc=5",
         "src": "CNBC"
+      },
+      {
+        "date": "2026-10-07",
+        "text": "Trump worries Iran could target U.S. cities. These places get extra nuclear protection",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOV1ZiUHZxVzFmOWwxcFJTR05td0xmbURuRVJjRjhwclc2aXp0cEVoanVHOTJUWmFnRlprS01TbHVpNXpUeE5pNDZGVGRVRDhrRGE0bk5LUkRvMENoQ1FhdThMZEJtMkNoSExKbHJKdkx6YlNDU2pNckRPYWwxZ000WkFRU1dnTVk?oc=5",
+        "src": "Axios"
       },
       {
         "date": "2026-10-06",
@@ -211,11 +211,11 @@
       }
     ],
     "gold_impact": "双重作用：局势升级→避险买盘利多黄金；但同时油价飙升→通胀预期→美联储更难降息→利空黄金。当前谈判窗口期，油价波动会直接传导到金价。",
-    "wti_price": 89.9,
-    "wti_chg": 0.51,
+    "wti_price": 89.84,
+    "wti_chg": 0.45,
     "news_auto": true
   },
   "ai_error": "",
-  "ai_analysis": "**涨跌归因**：今日金价跌1.47%，主因是美元偏强（DXY 102.4）叠加技术面破位——价格已跌破MA20（4289）和MA50（4372），属于美元+资金技术双驱动，而非实际利率或避险驱动。这种破位下跌通常有惯性，短期难快速反转。\n\n**宏观映射**：实际利率平稳（TIP 5日+0.05%）、VIX中性，都解释不了今天的跌幅，说明金价与宏观基本面出现背离，跌势更多来自投机盘踩踏而非宏观转向。\n\n**资金信号**：CFTC净持仓-25万张，已是净空头，投机盘明确看空，但极端空头也意味着后续踩踏空间有限，反而接近情绪底部。\n\n**内外盘**：沪金910.58元/克，未给出溢价数据，暂无法判断国内需求强弱。\n\n**短期展望**：偏空但接近超卖。支撑看4050美元，阻力4289（MA20）。\n\n**风险事件**：21天后FOMC，市场预期维持利率不变；WTI 89.9美元、地缘中高紧张，是潜在避险变量。",
+  "ai_analysis": "黄金今日跌1.47%至$4125.4，跌破MA20和MA50，属美元主导的技术性下跌。DXY 102.3虽只算温和偏强，但金价已连破两道均线，叠加CFTC净持仓-25万张（深度净空），说明投机盘仍在做空，下跌有资金面配合，不是一日情绪。实际利率端TIP五日仅+0.03%，基本没动，所以这轮跌不能怪利率，核心是美元压制+技术破位。\n\n宏观映射上，实际利率平稳而金价大跌，存在明显背离——正常逻辑下利率不动、金价不该破位，说明当前定价更多由美元和仓位驱动，而非基本面恶化。这种背离意味着跌势持续性存疑，若美元回落，金价容易反弹修复。\n\n资金信号：CFTC净空-25万张属极端偏空，投机盘方向明确向下，但极端仓位往往对应阶段性底部区域，需警惕空头回补。\n\n内外盘：沪金¥910.58/克，按汇率折算后溢价有限，国内需求未见明显走强，跟随外盘为主。\n\n短期展望：震荡偏空，但超跌反弹概率上升。支撑$4050，阻力$4290（MA20）。风险事件：21天后FOMC，市场预期维持不变，关注点阵图措辞；WTI $89.84叠加中高地缘，油价若冲高会重新点燃避险。",
   "ai_date": "2026-10-07"
 }
