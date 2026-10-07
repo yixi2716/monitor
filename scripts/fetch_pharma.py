@@ -23,6 +23,9 @@ TICKERS = {
     "med_etf": "512010.SS",      # 易方达沪深300医药卫生ETF
     "inn_etf": "159992.SZ",      # 银华创新药ETF
     "cxo_etf": "512170.SS",      # 医疗ETF（CXO代理）
+    "tcm_etf": "159647.SZ",      # 中药ETF
+    "meddev_etf": "159883.SZ",   # 医疗器械ETF
+    "vaccine_etf": "516160.SS",  # 疫苗ETF
     "hsi_health": "000012.HK",  # 恒生医疗保健指数
     "tnx": "^TNX",               # 10Y美债
     "usdcny": "CNY=X",           # 人民币汇率
@@ -135,6 +138,14 @@ def main():
         "med_etf_chg": round(chg("med_etf"), 2),
         "inn_etf": round(float(last.get("inn_etf", 0)), 3),
         "inn_etf_chg": round(chg("inn_etf"), 2),
+        "cxo_etf": round(float(last.get("cxo_etf", 0)), 3),
+        "cxo_etf_chg": round(chg("cxo_etf"), 2),
+        "tcm_etf": round(float(last.get("tcm_etf", 0)), 3),
+        "tcm_etf_chg": round(chg("tcm_etf"), 2),
+        "meddev_etf": round(float(last.get("meddev_etf", 0)), 3),
+        "meddev_etf_chg": round(chg("meddev_etf"), 2),
+        "vaccine_etf": round(float(last.get("vaccine_etf", 0)), 3),
+        "vaccine_etf_chg": round(chg("vaccine_etf"), 2),
         "hsi_health": round(float(last.get("hsi_health", 0)), 2),
         "hsi_health_chg": round(chg("hsi_health"), 2),
         "tnx": round(float(last.get("tnx", 0)), 2),
