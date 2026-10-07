@@ -18,6 +18,13 @@ import yfinance as yf
 import pandas as pd
 import numpy as np
 
+try:
+    import akshare as ak
+    HAS_AK = True
+except Exception:
+    HAS_AK = False
+    print("    [warn] akshare 不可用，沪铜数据跳过")
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(ROOT, "data")
 SITE_DATA_DIR = os.path.join(ROOT, "site", "data", "copper")
@@ -143,6 +150,25 @@ def main():
     wti = float(latest["CL"])
     cu_oil = (copper * 2204.62) / wti if wti else 0  # 美元/磅→美元/吨，再除以油价
 
+    # 沪铜主力（akshare 新浪）
+    shfe_cu = None
+    shfe_cu_date = None
+    if HAS_AK:
+        try:
+            df_cu = ak.futures_zh_daily_sina(symbol="CU0")
+            last_cu = df_cu.iloc[-1]
+            shfe_cu = round(float(last_cu["close"]), 2)  # 元/吨
+            shfe_cu_date = str(last_cu["date"])
+            print(f"    沪铜主力: {shfe_cu} 元/吨 ({shfe_cu_date})")
+        except Exception as e:
+            print(f"    [warn] 沪铜拉取失败: {e}")
+
+    # 沪伦比值 = 沪铜(元/吨) / (COMEX铜 美元/磅 × 2204.62 磅/吨) × 汇率
+    # 简化：用 DXY 反推汇率近似，或直接用 7.2 汇率
+    usd_cny = 7.2  # 近似汇率
+    comex_per_ton = copper * 2204.62  # 美元/吨
+    shfe_lme_ratio = round(shfe_cu / (comex_per_ton * usd_cny), 3) if shfe_cu else None
+
     # 信号
     signals = []
     # 1. 铜 vs MA20
@@ -189,6 +215,8 @@ def main():
         "ma20": ma20, "ma50": ma50,
         "dxy": dxy, "vix": vix, "tnx": tnx, "wti": wti,
         "cu_oil_ratio": cu_oil,
+        "shfe_cu": shfe_cu, "shfe_cu_date": shfe_cu_date,
+        "shfe_lme_ratio": shfe_lme_ratio,
         "signals": signals, "score": score,
         "news": news,
     }

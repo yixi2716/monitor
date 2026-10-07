@@ -100,6 +100,8 @@ async function load(){
     <div class="kpi"><div class="label">VIX 恐慌指数</div><div class="value">${L.vix.toFixed(1)}</div><div class="chg" style="color:var(--muted)">${L.vix>25?'避险升温':'风险偏好正常'}</div></div>
     <div class="kpi"><div class="label">10Y 美债收益率</div><div class="value">${L.tnx.toFixed(2)}%</div><div class="chg" style="color:var(--muted)">${L.tnx>5?'高利率压制':'环境友好'}</div></div>
     <div class="kpi"><div class="label">铜油比</div><div class="value">${L.cu_oil_ratio.toFixed(1)}</div><div class="chg" style="color:var(--muted)">铜价/油价</div></div>
+    <div class="kpi"><div class="label">沪铜主力</div><div class="value">${L.shfe_cu ? '¥'+L.shfe_cu.toLocaleString() : '—'}</div><div class="chg" style="color:var(--muted)">元/吨 ${L.shfe_cu_date||''}</div></div>
+    <div class="kpi"><div class="label">沪伦比值</div><div class="value">${L.shfe_lme_ratio ? L.shfe_lme_ratio.toFixed(3) : '—'}</div><div class="chg" style="color:var(--muted)">>1 进口有利</div></div>
   `;
   // 信号
   document.getElementById('signals').innerHTML = L.signals.map(s=>`
