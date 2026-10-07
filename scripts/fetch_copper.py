@@ -59,7 +59,7 @@ def fetch_all(period="1y"):
 
 def fetch_copper_news(limit=6):
     """Google News RSS 抓铜矿/库存/关税新闻。"""
-    url = ("https://news.google.com/rss/search?q=copper+price+OR+copper+mine+OR+LME+copper+inventory+when:7d"
+    url = ("https://news.google.com/rss/search?q=copper+price+OR+copper+mine+OR+LME+copper+inventory+OR+Section+232+copper+tariff+when:7d"
            "&hl=en-US&gl=US&ceid=US:en")
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
@@ -120,12 +120,12 @@ def call_deepseek(data: dict):
 {news_lines}
 
 【输出要求】
-1. 涨跌归因：拆解今日铜价变动主要由什么驱动（宏观美元/利率、供给、还是需求预期）
+1. 涨跌归因：拆解今日铜价变动主要由什么驱动（宏观美元/利率、供给、需求预期、或美国232铜关税政策）
 2. 库存与价差：结合库存和升贴水判断当前是紧张还是宽松格局
-3. 内外盘：沪伦比值说明内外盘强弱
+3. 内外盘：沪伦比值说明内外盘强弱，特别注意美国232关税对COMEX溢价的影响
 4. 资金信号：基于已有信号判断趋势是否健康
 5. 短期展望：偏多/偏空/震荡 + 关键价位
-6. 风险点：1-2条
+6. 风险点：1-2条（包含关税政策变化风险）
 
 要求：200-300字，普通人能懂，不要套话和免责声明，未获取的数据不要编造。"""
     body = json.dumps({
