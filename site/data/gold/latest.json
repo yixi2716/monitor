@@ -1,28 +1,34 @@
 {
   "date": "2026-10-07",
-  "gold": 4121.5,
-  "gold_chg": -1.57,
-  "ma20": 4288.78,
+  "gold": 4121.7,
+  "gold_chg": -1.56,
+  "ma20": 4288.79,
   "ma50": 4371.85,
   "above_ma20": false,
   "above_ma50": false,
-  "dxy": 102.38,
-  "dxy_chg": 0.54,
-  "vix": 15.8,
-  "vix_chg": 5.26,
+  "dxy": 102.39,
+  "dxy_chg": 0.55,
+  "vix": 15.71,
+  "vix_chg": 4.66,
   "tip": 104.07,
-  "tnx": 5.35,
+  "tnx": 5.33,
   "corr_gold_dxy": -0.23,
   "corr_gold_tip": 0.31,
   "corr_gold_vix": -0.55,
-  "basis": 36.45,
+  "basis": 36.43,
   "vol20": 17.1,
+  "gold_silver_ratio": 68.88,
+  "usdcny": 6.6933,
+  "shfe_au": 910.58,
+  "shfe_au_date": "2026-09-30",
+  "cftc_gold_net": -250967,
+  "cftc_gold_date": "2026-09-29",
   "mode": "M",
   "mode_name": "M · 混合驱动",
   "confidence": "低",
   "evidence": [
     "黄金与 TIP 相关性 +0.31，与 DXY 相关性 -0.23",
-    "VIX 15.8，与 VIX 相关性 -0.55",
+    "VIX 15.7，与 VIX 相关性 -0.55",
     "多因子混合驱动，无单一主导逻辑"
   ],
   "signals": [
@@ -33,22 +39,22 @@
     },
     {
       "name": "利率信号",
-      "text": "TIP 5日 +0.03%，实际利率平稳",
+      "text": "TIP 5日 +0.02%，实际利率平稳",
       "dir": "neutral"
     },
     {
       "name": "避险信号",
-      "text": "VIX 15.8，中性",
+      "text": "VIX 15.7，中性",
       "dir": "neutral"
     },
     {
       "name": "情绪信号",
-      "text": "VIX 5日 -3%，情绪平稳",
+      "text": "VIX 5日 -4%，情绪平稳",
       "dir": "neutral"
     },
     {
       "name": "实物信号",
-      "text": "GLD 与期货同步（5日 -1.35% vs -1.56%）",
+      "text": "GLD 与期货同步（5日 -1.34% vs -1.55%）",
       "dir": "neutral"
     }
   ],
@@ -129,10 +135,10 @@
     },
     {
       "date": "2026-10-07",
-      "gold": 4121.5,
-      "gold_chg": -1.57,
-      "dxy": 102.38,
-      "vix": 15.8,
+      "gold": 4121.7,
+      "gold_chg": -1.56,
+      "dxy": 102.39,
+      "vix": 15.71,
       "tip": 104.07
     }
   ],
@@ -186,10 +192,10 @@
         "src": "Truthout"
       },
       {
-        "date": "2026-10-07",
-        "text": "Trump worries Iran could target U.S. cities. These places get extra nuclear protection",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOV1ZiUHZxVzFmOWwxcFJTR05td0xmbURuRVJjRjhwclc2aXp0cEVoanVHOTJUWmFnRlprS01TbHVpNXpUeE5pNDZGVGRVRDhrRGE0bk5LUkRvMENoQ1FhdThMZEJtMkNoSExKbHJKdkx6YlNDU2pNckRPYWwxZ000WkFRU1dnTVk?oc=5",
-        "src": "Axios"
+        "date": "2026-10-06",
+        "text": "Trump sparks criticism with comments on potential Iranian attacks on US cities",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbTVfSnJTVmMwN09KVS1wekVYV2FiTmRicXpGZ3dHbmFSS2dtMXZiQU81WkF6ZGJ5X1BEdkhtbk0xNEZKS3pSaGlCZkFXdFFsTEdiYlBqMVRRT1paR2wzQzVDd3ppMjhibHNMZU0wYjlRaklVZkFWcENnSnVTQUVSM3JFTTVwZ0hsYk5tQWEycC1Xcmo5WS01dk13bEJfMV9tNDhxcFFmcXpyQi1OVmZISW02YUVNdXlzQ2QybWVxQ3Q?oc=5",
+        "src": "Scripps News"
       },
       {
         "date": "2026-10-07",
@@ -198,18 +204,18 @@
         "src": "CNBC"
       },
       {
-        "date": "2026-10-06",
-        "text": "Trump sparks criticism with comments on potential Iranian attacks on US cities",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbTVfSnJTVmMwN09KVS1wekVYV2FiTmRicXpGZ3dHbmFSS2dtMXZiQU81WkF6ZGJ5X1BEdkhtbk0xNEZKS3pSaGlCZkFXdFFsTEdiYlBqMVRRT1paR2wzQzVDd3ppMjhibHNMZU0wYjlRaklVZkFWcENnSnVTQUVSM3JFTTVwZ0hsYk5tQWEycC1Xcmo5WS01dk13bEJfMV9tNDhxcFFmcXpyQi1OVmZISW02YUVNdXlzQ2QybWVxQ3Q?oc=5",
-        "src": "Scripps News"
+        "date": "2026-10-07",
+        "text": "Trump worries Iran could target U.S. cities. These places get extra nuclear protection",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOV1ZiUHZxVzFmOWwxcFJTR05td0xmbURuRVJjRjhwclc2aXp0cEVoanVHOTJUWmFnRlprS01TbHVpNXpUeE5pNDZGVGRVRDhrRGE0bk5LUkRvMENoQ1FhdThMZEJtMkNoSExKbHJKdkx6YlNDU2pNckRPYWwxZ000WkFRU1dnTVk?oc=5",
+        "src": "Axios"
       }
     ],
     "gold_impact": "双重作用：局势升级→避险买盘利多黄金；但同时油价飙升→通胀预期→美联储更难降息→利空黄金。当前谈判窗口期，油价波动会直接传导到金价。",
-    "wti_price": 90.55,
-    "wti_chg": 1.24,
+    "wti_price": 89.91,
+    "wti_chg": 0.53,
     "news_auto": true
   },
   "ai_error": "",
-  "ai_analysis": "**一句话定调：黄金短线偏空，美元和利率是压在金价头上的两块石头，避险和实物需求暂时托不住。**\n\n**主导因素：** 第一，美元太强。DXY 102.4 站上 101 关口，直接压制以美元计价的黄金，这是今天 -1.57% 跌幅最直接的推手。第二，美债收益率 5.35% 太高。10 年期给到 5.35%，持有黄金的机会成本被拉满，资金更愿意躺在债券里吃利息，而不是拿不生息的黄金。金价已经跌破 MA20（4288）和 MA50（4371），技术面转弱，短期趋势向下。\n\n**未来一周盯两点：** 一是美元指数能不能守住 102 上方——如果 DXY 继续冲高，金价可能下探 4050 甚至 4000；如果美元回落，才有反弹空间。二是美伊局势。紧张度中高、油价已经涨到 90.55，一旦升级，避险买盘会突然进场，这是当前唯一能快速扭转空头逻辑的变量。\n\n**我的判断：** 短线顺势偏空，别急着抄底。真正值得等的是地缘冲突升级或美元见顶的信号，在那之前，反弹都是弱势反弹。",
+  "ai_analysis": "黄金今日跌1.56%至4121.70美元，跌破MA20和MA50，属技术破位后的趋势性下跌，而非单一消息冲击。美元指数102.4虽高于101构成压制，但今日美元并未大涨，真正拖累来自CFTC净持仓-25万张的极端空头格局——投机盘已全面站到空方，反弹缺乏买盘承接。实际利率端TIP五日仅+0.02%，基本平稳，说明利率并非今日主因，金价与利率出现背离，下跌更多是资金和技术驱动。VIX 15.7属中性，避险未升温，金银比68.9也远低于80，同样不支持避险买盘。国内沪金910.58元/克，按当前汇率折算溢价有限，反映国内需求平淡，没有出现抢金托底。短期偏空，支撑看4050美元，阻力4200美元。距FOMC还有21天，市场预期维持不变，但10Y美债5.33%的高位仍是悬顶之剑，若通胀数据超预期，金价可能进一步下探。",
   "ai_date": "2026-10-07"
 }
