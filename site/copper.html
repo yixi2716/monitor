@@ -77,6 +77,16 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,'Segoe UI'
   <div class="src">由 DeepSeek 模型读取当日数据后生成，每日美股收盘后更新；不构成投资建议。</div>
 </div>
 
+<div class="section" style="font-size:12px;color:var(--muted)">
+  <strong style="color:var(--text)">数据来源</strong><br>
+  COMEX铜价：<a href="https://finance.yahoo.com/quote/HG=F" target="_blank" style="color:var(--accent2)">Yahoo Finance HG=F ↗</a> ·
+  美元指数：<a href="https://finance.yahoo.com/quote/DX-Y.NYB" target="_blank" style="color:var(--accent2)">Yahoo Finance DXY ↗</a> ·
+  VIX：<a href="https://finance.yahoo.com/quote/%5EVIX" target="_blank" style="color:var(--accent2)">Yahoo Finance ^VIX ↗</a> ·
+  WTI原油：<a href="https://finance.yahoo.com/quote/CL=F" target="_blank" style="color:var(--accent2)">Yahoo Finance CL=F ↗</a><br>
+  新闻：<a href="https://news.google.com/rss/search?q=copper+price+OR+LME+copper+inventory" target="_blank" style="color:var(--accent2)">Google News RSS ↗</a> ·
+  AI分析：<a href="https://platform.deepseek.com/" target="_blank" style="color:var(--accent2)">DeepSeek API ↗</a>
+</div>
+
 <script>
 async function load(){
   const L = await fetch('data/copper/latest.json',{cache:'no-store'}).then(r=>r.json());
