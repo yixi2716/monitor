@@ -1,24 +1,24 @@
 {
   "date": "2026-10-08",
-  "gold": 4153.9,
-  "gold_chg": 0.32,
-  "ma20": 4277.07,
-  "ma50": 4374.59,
+  "gold": 4150.6,
+  "gold_chg": 0.24,
+  "ma20": 4276.91,
+  "ma50": 4374.52,
   "above_ma20": false,
   "above_ma50": false,
-  "dxy": 102.26,
-  "dxy_chg": 0.02,
-  "vix": 15.52,
-  "vix_chg": 2.92,
-  "tip": 104.3,
-  "tnx": 5.29,
+  "dxy": 102.27,
+  "dxy_chg": 0.03,
+  "vix": 15.48,
+  "vix_chg": 2.65,
+  "tip": 104.29,
+  "tnx": 5.28,
   "corr_gold_dxy": -0.18,
   "corr_gold_tip": 0.28,
-  "corr_gold_vix": -0.47,
-  "basis": 36.9,
+  "corr_gold_vix": -0.48,
+  "basis": 37.17,
   "vol20": 16.6,
-  "gold_silver_ratio": 69.85,
-  "usdcny": 6.7016,
+  "gold_silver_ratio": 69.89,
+  "usdcny": 6.693,
   "shfe_au": 893.12,
   "shfe_au_date": "2026-10-08",
   "cftc_gold_net": -250967,
@@ -28,7 +28,7 @@
   "confidence": "低",
   "evidence": [
     "黄金与 TIP 相关性 +0.28，与 DXY 相关性 -0.18",
-    "VIX 15.5，与 VIX 相关性 -0.47",
+    "VIX 15.5，与 VIX 相关性 -0.48",
     "多因子混合驱动，无单一主导逻辑"
   ],
   "signals": [
@@ -39,7 +39,7 @@
     },
     {
       "name": "利率信号",
-      "text": "TIP 5日 -0.01%，实际利率平稳",
+      "text": "TIP 5日 -0.02%，实际利率平稳",
       "dir": "neutral"
     },
     {
@@ -49,12 +49,12 @@
     },
     {
       "name": "情绪信号",
-      "text": "VIX 5日 -5%，情绪平稳",
+      "text": "VIX 5日 -6%，情绪平稳",
       "dir": "neutral"
     },
     {
       "name": "实物信号",
-      "text": "GLD 与期货同步（5日 -1.12% vs -1.15%）",
+      "text": "GLD 与期货同步（5日 -1.27% vs -1.23%）",
       "dir": "neutral"
     }
   ],
@@ -135,11 +135,11 @@
     },
     {
       "date": "2026-10-08",
-      "gold": 4153.9,
-      "gold_chg": 0.32,
-      "dxy": 102.26,
-      "vix": 15.52,
-      "tip": 104.3
+      "gold": 4150.6,
+      "gold_chg": 0.24,
+      "dxy": 102.27,
+      "vix": 15.48,
+      "tip": 104.29
     }
   ],
   "macro": {
@@ -174,12 +174,6 @@
     "updated": "2026-09-28",
     "events": [
       {
-        "date": "2026-10-07",
-        "text": "Military ordered to be ready for possible Iran strikes as Trump weighs timing",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcTJVT0lpY01IdHRxLXR3WFJUWVdlVlNWM2IyV0p2cFNoQVRPQjVMdXNkTHNpYk5NY2lvRzQ0SkpHN1I3T21KLThjVHI5SHlmeFZyZndfempWYjgzNWJMaWFmY1B2dk9nbGxuV056WG9NSWlRdWszd085cWZUOXBKbjc5YlFrcGo4VjI4?oc=5",
-        "src": "Axios"
-      },
-      {
         "date": "2026-10-06",
         "text": "EXCLUSIVE: Vance says Iran must cut enrichment to end war",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQ3R3RzJuRF9NSlo0bWNMaGY3dTdUbXRmSU1BMml2V2RLd0sxazNvVUNRdXpHa21Ebk4tVWtLeHZXMG5xM2ZUVG1aTEJDU0FRWnRHZnozTHQxdVRjeTJvbXRKNzFpNG1wR3RqVDlKMXpXY09hYlFKVlF4RW5uQjJJMXhKOEt3c0ZLWE4tbWZlQW5hUnRnckxmaU1mU0R0SWwzRGNXdGo0ZTVTUXBlSHlfakN1Yw?oc=5",
@@ -204,6 +198,12 @@
         "src": "CNBC"
       },
       {
+        "date": "2026-10-07",
+        "text": "Trump worries Iran could target U.S. cities. These places get extra nuclear protection",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOV1ZiUHZxVzFmOWwxcFJTR05td0xmbURuRVJjRjhwclc2aXp0cEVoanVHOTJUWmFnRlprS01TbHVpNXpUeE5pNDZGVGRVRDhrRGE0bk5LUkRvMENoQ1FhdThMZEJtMkNoSExKbHJKdkx6YlNDU2pNckRPYWwxZ000WkFRU1dnTVk?oc=5",
+        "src": "Axios"
+      },
+      {
         "date": "2026-10-04",
         "text": "Pete Hegseth warns Iran will 'never' get nuclear bomb, touts Hormuz blockade",
         "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9SQmt4aVVHV2F1NnVZSHNXdUFyRUQ5c0NZblJrWExud0FELVFsTHBpRk1NN1ZHd1FUQmdYQUFRU2dNeFlveWZwTUdrM2s0YlFmN1lKM0F0VWRYcU9CclBPUEVUVWtIV1d3NUE?oc=5",
@@ -215,7 +215,7 @@
     "wti_chg": 4.49,
     "news_auto": true
   },
-  "ai_error": "HTTP 402: {\"error\":{\"message\":\"Insufficient Balance (request_id: 4c0cc7dc-cacb-4b90-ac56-81aeaac7af4a)\",\"type\":\"unknown_error\",\"param\":null,\"code\":\"invalid_request_error\"}}",
-  "ai_analysis": "",
+  "ai_error": "",
+  "ai_analysis": "**涨跌归因**：金价微涨0.24%，但站在MA20（4276）和MA50（4374）下方，属于弱势反弹。今日驱动是美元压制（DXY 102.3）与避险、利率信号均中性的拉锯，缺乏明确方向，持续性存疑。\n\n**宏观映射**：10Y美债5.28%高位、实际利率平稳，美元偏强本应压金价，但金价仍小涨，说明有低位买盘托底，属背离信号，需警惕反弹乏力。\n\n**资金信号**：CFTC净持仓-25万张，投机盘深度看空，空头拥挤但未见过热反转迹象，反而意味着任何利多都可能引发空头回补式反弹。\n\n**内外盘**：沪金893.12元/克，未获取实时汇率与溢价数据，暂不判断国内需求强弱。\n\n**短期展望**：震荡偏空。阻力MA20约4277，支撑前低4100附近。\n\n**风险事件**：距FOMC还有20天，市场预期维持3.75%-4.00%不变；关注WTI 92美元下的地缘扰动及后续CPI、非农数据。",
   "ai_date": "2026-10-08"
 }

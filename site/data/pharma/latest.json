@@ -14,10 +14,10 @@
   "meddev_etf_chg": 0.0,
   "vaccine_etf": 2.234,
   "vaccine_etf_chg": 0.0,
-  "hsi_health": 0.0,
-  "hsi_health_chg": 0,
-  "tnx": 5.29,
-  "usdcny": 6.7016,
+  "hsi_health": 23785.79,
+  "hsi_health_chg": 0.0,
+  "tnx": 5.28,
+  "usdcny": 6.693,
   "excess": 0.0,
   "news": [
     {
@@ -61,6 +61,6 @@
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9yaTAzUEdDRTlpcGRIQzhIV0ZnMUtnYUlyTVUxMnQwZEtJdHVOZy1pNkxXd19HVHpxZ0FYMlh2QnM0ZXFGU2kxM0h0SXdOdXRaUm5qU3FqdlR5a2lSdGl6RGJ3?oc=5"
     }
   ],
-  "ai_analysis": "",
-  "ai_error": "HTTP Error 402: Payment Required"
+  "ai_analysis": "**综合分析（2026-10-08）**\n\n今日医药板块全线零涨跌，数据呈静态快照，但新闻面信息量偏积极：创新药出海（一品红FDA临床获批、阿斯利康达卓优国内获批）与\"十五五规划\"创新导向持续强化，CXO含量高的创新药ETF年初至今涨超17%，显示资金对创新药产业链的定价已先行。口腔种植牙集采三年落地347万套，以价换量逻辑兑现，但短期对器械板块仍构成价格压制。北京拟强化集采药品全链条质量监管，政策从\"唯低价\"转向\"质量+价格\"平衡，利好头部合规企业。未名医药跨界新材料属个体事件，不构成板块逻辑。利率端，10Y美债5.28%高位对港股创新药估值形成压制，恒生医疗与A股创新药联动承压；美元/人民币6.693偏强，外资流入医药意愿受限。情绪面：政策暖风与集采常态化并存，板块处于\"创新溢价+传统承压\"的结构分化期，整体情绪中性偏谨慎，超额收益需靠创新药与CXO结构性行情驱动。",
+  "ai_error": ""
 }
