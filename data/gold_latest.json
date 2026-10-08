@@ -1,24 +1,24 @@
 {
   "date": "2026-10-08",
-  "gold": 4148.5,
-  "gold_chg": 0.19,
-  "ma20": 4276.8,
-  "ma50": 4374.48,
+  "gold": 4153.9,
+  "gold_chg": 0.32,
+  "ma20": 4277.07,
+  "ma50": 4374.59,
   "above_ma20": false,
   "above_ma50": false,
-  "dxy": 102.29,
-  "dxy_chg": 0.05,
+  "dxy": 102.26,
+  "dxy_chg": 0.02,
   "vix": 15.52,
   "vix_chg": 2.92,
-  "tip": 104.27,
+  "tip": 104.3,
   "tnx": 5.29,
   "corr_gold_dxy": -0.18,
-  "corr_gold_tip": 0.27,
-  "corr_gold_vix": -0.48,
-  "basis": 36.88,
+  "corr_gold_tip": 0.28,
+  "corr_gold_vix": -0.47,
+  "basis": 36.9,
   "vol20": 16.6,
-  "gold_silver_ratio": 69.83,
-  "usdcny": 6.6931,
+  "gold_silver_ratio": 69.85,
+  "usdcny": 6.7016,
   "shfe_au": 893.12,
   "shfe_au_date": "2026-10-08",
   "cftc_gold_net": -250967,
@@ -27,8 +27,8 @@
   "mode_name": "M · 混合驱动",
   "confidence": "低",
   "evidence": [
-    "黄金与 TIP 相关性 +0.27，与 DXY 相关性 -0.18",
-    "VIX 15.5，与 VIX 相关性 -0.48",
+    "黄金与 TIP 相关性 +0.28，与 DXY 相关性 -0.18",
+    "VIX 15.5，与 VIX 相关性 -0.47",
     "多因子混合驱动，无单一主导逻辑"
   ],
   "signals": [
@@ -39,7 +39,7 @@
     },
     {
       "name": "利率信号",
-      "text": "TIP 5日 -0.04%，实际利率平稳",
+      "text": "TIP 5日 -0.01%，实际利率平稳",
       "dir": "neutral"
     },
     {
@@ -54,7 +54,7 @@
     },
     {
       "name": "实物信号",
-      "text": "GLD 与期货同步（5日 -1.25% vs -1.28%）",
+      "text": "GLD 与期货同步（5日 -1.12% vs -1.15%）",
       "dir": "neutral"
     }
   ],
@@ -135,11 +135,11 @@
     },
     {
       "date": "2026-10-08",
-      "gold": 4148.5,
-      "gold_chg": 0.19,
-      "dxy": 102.29,
+      "gold": 4153.9,
+      "gold_chg": 0.32,
+      "dxy": 102.26,
       "vix": 15.52,
-      "tip": 104.27
+      "tip": 104.3
     }
   ],
   "macro": {
@@ -174,36 +174,48 @@
     "updated": "2026-09-28",
     "events": [
       {
-        "date": "2026-09-28",
-        "text": "特朗普称预计美伊几天内重启谈判，最早28日举行间接对话",
-        "url": "http://www.xinhuanet.com/world/20260928/b281534c03fc4a6885933397414c4946/c.html",
-        "src": "新华网"
+        "date": "2026-10-07",
+        "text": "Military ordered to be ready for possible Iran strikes as Trump weighs timing",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcTJVT0lpY01IdHRxLXR3WFJUWVdlVlNWM2IyV0p2cFNoQVRPQjVMdXNkTHNpYk5NY2lvRzQ0SkpHN1I3T21KLThjVHI5SHlmeFZyZndfempWYjgzNWJMaWFmY1B2dk9nbGxuV056WG9NSWlRdWszd085cWZUOXBKbjc5YlFrcGo4VjI4?oc=5",
+        "src": "Axios"
       },
       {
-        "date": "2026-09-26",
-        "text": "特朗普拒绝伊朗最新停火提案，称'他们提了方案，我拒绝了'",
-        "url": "https://www.aa.com.tr/en/americas/trump-says-he-rejected-iran-s-latest-proposal-from-indirect-talks-in-new-york/4070274",
-        "src": "Anadolu"
+        "date": "2026-10-06",
+        "text": "EXCLUSIVE: Vance says Iran must cut enrichment to end war",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQ3R3RzJuRF9NSlo0bWNMaGY3dTdUbXRmSU1BMml2V2RLd0sxazNvVUNRdXpHa21Ebk4tVWtLeHZXMG5xM2ZUVG1aTEJDU0FRWnRHZnozTHQxdVRjeTJvbXRKNzFpNG1wR3RqVDlKMXpXY09hYlFKVlF4RW5uQjJJMXhKOEt3c0ZLWE4tbWZlQW5hUnRnckxmaU1mU0R0SWwzRGNXdGo0ZTVTUXBlSHlfakN1Yw?oc=5",
+        "src": "Reuters"
       },
       {
-        "date": "2026-09-25",
-        "text": "伊朗提出7天计划：停火+重开霍尔木兹海峡+开始核谈；称未满足条件前海峡保持关闭",
-        "url": "https://english.alarabiya.net/News/middle-east/2026/09/25/iran-will-make-no-nuclear-concessions-iranian-official-says",
-        "src": "Al Arabiya"
+        "date": "2026-10-07",
+        "text": "US sets new demands for Iran deal: What are they?",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNU1ZQRjU0eUpuQ2c2ZFE4MjJEazVwWWMyai1SMWFlWVRBYURTYmlqblVhZFJTa0xxQlNKWEtRNEFXU3RCUnU1ZzRXc1FxdmcxaWcybl9ISzZfWUNtS2JaUUxuNXNSWmhpdzdETXQ4R1MyUS03c25waS1UTVNid1czdUlKSlRsYUtZTkJsb3l1QXl3Z9IBlwFBVV95cUxPSEZpRE83aEJSR2dxaC10MTBJMTBELUEzOXdFWHRmVmE3LWhmMWJWN1FiVGgtMktyb1YyQU9OWEFpMmc5WVJVR2NWVjJtUnUzZS1iTU45WkNPQl9Nb3ZOTzBDbS1qOHBOSmJHdG1pYzIxeEo2eXdHRzR5LWl4VXVVQmE0eV9oRlVfOFd4UU8yWkRCcnBWeGNn?oc=5",
+        "src": "Al Jazeera"
       },
       {
-        "date": "2026-09-22",
-        "text": "联合国大会期间美特使威特科夫、库什纳与伊朗外长在纽约举行间接会晤",
-        "url": "http://www.xinhuanet.com/world/20260928/424a9ccf9a5142a3bf7e1f90bf2a48f6/c.html",
-        "src": "新华网"
+        "date": "2026-10-06",
+        "text": "Trump Condemned for Invoking Nuclear Attacks on US Cities to Defend Iran War",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdmkxR2NDU09pMm4zQi1jVllzaVJQcDVFYU1sdVN2eWc1X0hjUFZ6UjhQX0RISUU5a08xTVJQZkVXbzJSRnJQUjBqekRPY1VBVndLakJBeF9oSlRpOXZybFVkdXR3YWNaTUpIWkQtcUFGYUNNNmxVTnlpNTlmRG1JZkhsYkRpX3Y5WHBHRXpsZ2RyOUU3S3d5WExHNVVlQlAxU0RtSU40QjBMcjg?oc=5",
+        "src": "Truthout"
+      },
+      {
+        "date": "2026-10-07",
+        "text": "Rubio says Tehran missed 'multiple' chances for nuclear deal amid Iran stalemate",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBST3M3OWl1Z3R1OFBQaFRuXzBxeC1DVnczRVNFWm12c2NHQnV5OU9acWZLTllvSWNKcUE4NHBSV1oyQmFObGszUlE0dU9sUE9zZmk4NmpPZEJTNmZMRkZrU3NlWVlVSjF3czJHVVd30gFzQVVfeXFMTl9lOGNDTDRpUHJsdU80NU5NV1NTTVhua25JazF6eHA4TC1aNGNqWm5aaHBXM3hkYjZqZGFGYzR6NFdrcnJZdnRzRTBUYndZZEhIa2gwUHhwNTlvbkNmYk8zNG1DSFBMaDk2LUlidmJyRHZYdw?oc=5",
+        "src": "CNBC"
+      },
+      {
+        "date": "2026-10-04",
+        "text": "Pete Hegseth warns Iran will 'never' get nuclear bomb, touts Hormuz blockade",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9SQmt4aVVHV2F1NnVZSHNXdUFyRUQ5c0NZblJrWExud0FELVFsTHBpRk1NN1ZHd1FUQmdYQUFRU2dNeFlveWZwTUdrM2s0YlFmN1lKM0F0VWRYcU9CclBPUEVUVWtIV1d3NUE?oc=5",
+        "src": "The Jerusalem Post"
       }
     ],
     "gold_impact": "双重作用：局势升级→避险买盘利多黄金；但同时油价飙升→通胀预期→美联储更难降息→利空黄金。当前谈判窗口期，油价波动会直接传导到金价。",
     "wti_price": 92.24,
     "wti_chg": 4.49,
-    "news_auto": false
+    "news_auto": true
   },
-  "ai_error": "HTTP 402: {\"error\":{\"message\":\"Insufficient Balance (request_id: 7aa6b12d-b246-4166-9e93-6b5c05ce165c)\",\"type\":\"unknown_error\",\"param\":null,\"code\":\"invalid_request_error\"}}",
+  "ai_error": "HTTP 402: {\"error\":{\"message\":\"Insufficient Balance (request_id: 4c0cc7dc-cacb-4b90-ac56-81aeaac7af4a)\",\"type\":\"unknown_error\",\"param\":null,\"code\":\"invalid_request_error\"}}",
   "ai_analysis": "",
   "ai_date": "2026-10-08"
 }
