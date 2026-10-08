@@ -37,6 +37,9 @@ TICKERS = {
     "CL": "CL=F",          # WTI 原油（铜油比）
     "ZQ": "ZQ=F",          # Fed 基金期货（利率预期）
     "X": "SLV",            # 白银 ETF（工业金属情绪代理）
+    "lymy": "603993.SS",   # 洛阳钼业
+    "tl": "000630.SZ",     # 铜陵有色
+    "jxt": "600362.SS",    # 江西铜业
 }
 
 
@@ -253,6 +256,16 @@ def main():
     news = fetch_copper_news()
 
     print("[3/4] AI 分析...")
+    # 提取铜股数据
+    stock_data = {}
+    for k in ["lymy", "tl", "jxt"]:
+        if k in px.columns and len(px) >= 2:
+            stock_data[k] = round(float(px[k].iloc[-1]), 2)
+            stock_data[k+"_chg"] = round((px[k].iloc[-1] / px[k].iloc[-2] - 1) * 100, 2)
+        else:
+            stock_data[k] = 0
+            stock_data[k+"_chg"] = 0
+
     latest_data = {
         "date": datetime.date.today().isoformat(),
         "copper": copper, "copper_chg": copper_chg,
@@ -263,6 +276,9 @@ def main():
         "shfe_lme_ratio": shfe_lme_ratio,
         "lme_stock": lme_stock, "lme_stock_date": lme_stock_date,
         "shfe_stock": shfe_stock, "shfe_stock_chg": shfe_stock_chg, "shfe_stock_date": shfe_stock_date,
+        "lymy": stock_data["lymy"], "lymy_chg": stock_data["lymy_chg"],
+        "tl": stock_data["tl"], "tl_chg": stock_data["tl_chg"],
+        "jxt": stock_data["jxt"], "jxt_chg": stock_data["jxt_chg"],
         "signals": signals, "score": score,
         "news": news,
     }

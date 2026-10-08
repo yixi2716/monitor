@@ -107,6 +107,14 @@ async function load(){
     <div class="kpi"><div class="label">LME 铜库存</div><div class="value">${L.lme_stock ? (L.lme_stock/1000).toFixed(1)+'k' : '暂未获取'}</div><div class="chg" style="color:var(--muted)">吨</div><div class="src" style="font-size:10px;margin-top:4px"><a href="https://www.lme.com/Metals/Non-ferrous/LME-Copper" target="_blank">LME官方 ↗</a> · ${L.lme_stock_date||''}</div></div>
     <div class="kpi"><div class="label">沪铜库存</div><div class="value">${L.shfe_stock ? L.shfe_stock.toLocaleString() : '暂未获取'}</div><div class="chg" style="color:${L.shfe_stock_chg<0?'var(--up)':'var(--down)'}">${L.shfe_stock_chg!==undefined&&L.shfe_stock_chg!==null ? (L.shfe_stock_chg>0?'+':'')+L.shfe_stock_chg : ''}</div><div class="src" style="font-size:10px;margin-top:4px"><a href="https://data.eastmoney.com/ifdata/kcsj.html" target="_blank">东方财富 ↗</a> · ${L.shfe_stock_date||''}</div></div>
   `;
+
+  // A股铜股
+  const stockHtml = `
+    <div class="kpi" style="border-top-color:#d4782a"><div class="label">洛阳钼业</div><div class="value">¥${(L.lymy||0).toFixed(2)}</div><div class="chg ${(L.lymy_chg||0)>=0?'up':'down'}">${(L.lymy_chg||0)>=0?'+':''}${(L.lymy_chg||0).toFixed(2)}%</div><div class="src" style="font-size:10px;margin-top:4px"><a href="https://finance.yahoo.com/quote/603993.SS" target="_blank">Yahoo 603993.SS ↗</a> · ${L.date}</div></div>
+    <div class="kpi" style="border-top-color:#d4782a"><div class="label">铜陵有色</div><div class="value">¥${(L.tl||0).toFixed(2)}</div><div class="chg ${(L.tl_chg||0)>=0?'up':'down'}">${(L.tl_chg||0)>=0?'+':''}${(L.tl_chg||0).toFixed(2)}%</div><div class="src" style="font-size:10px;margin-top:4px"><a href="https://finance.yahoo.com/quote/000630.SZ" target="_blank">Yahoo 000630.SZ ↗</a> · ${L.date}</div></div>
+    <div class="kpi" style="border-top-color:#d4782a"><div class="label">江西铜业</div><div class="value">¥${(L.jxt||0).toFixed(2)}</div><div class="chg ${(L.jxt_chg||0)>=0?'up':'down'}">${(L.jxt_chg||0)>=0?'+':''}${(L.jxt_chg||0).toFixed(2)}%</div><div class="src" style="font-size:10px;margin-top:4px"><a href="https://finance.yahoo.com/quote/600362.SS" target="_blank">Yahoo 600362.SS ↗</a> · ${L.date}</div></div>
+  `;
+  document.getElementById('kpi').innerHTML += stockHtml;
   // 信号
   document.getElementById('signals').innerHTML = L.signals.map(s=>`
     <div class="signal-row"><span class="badge ${s.dir}">${s.dir==='bull'?'多':s.dir==='bear'?'空':'中'}</span><strong>${s.name}</strong><span style="color:var(--muted)">${s.text}</span></div>
