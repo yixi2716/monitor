@@ -14,10 +14,10 @@
   "meddev_etf_chg": 0.0,
   "vaccine_etf": 2.234,
   "vaccine_etf_chg": 0.0,
-  "hsi_health": 23785.79,
-  "hsi_health_chg": 0.0,
+  "hsi_health": NaN,
+  "hsi_health_chg": NaN,
   "tnx": 5.28,
-  "usdcny": 6.693,
+  "usdcny": 6.6939,
   "excess": 0.0,
   "news": [
     {
@@ -57,10 +57,10 @@
     },
     {
       "date": "2026-10-08",
-      "text": "阿斯利康：达卓优获国家药监局批准 用于三阴性乳腺癌治疗 - 观点网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9yaTAzUEdDRTlpcGRIQzhIV0ZnMUtnYUlyTVUxMnQwZEtJdHVOZy1pNkxXd19HVHpxZ0FYMlh2QnM0ZXFGU2kxM0h0SXdOdXRaUm5qU3FqdlR5a2lSdGl6RGJ3?oc=5"
+      "text": "2026年10月9日医药新版早参 - 每日经济新闻",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9XMFlZeU41bU1hNjhoMGpsTUZaa3NVbHF1ZkZfUV9WNW9IVU1FQU5BVzlWVHZtQWRJR1oyaXhHazFrbmhtbXg1Z2tjREoxaEFKak5ZZFc5NUdnRzFlNUg4M0NvaEdVQQ?oc=5"
     }
   ],
-  "ai_analysis": "**综合分析（2026-10-08）**\n\n今日医药板块全线零涨跌，数据呈静态快照，但新闻面信息量偏积极：创新药出海（一品红FDA临床获批、阿斯利康达卓优国内获批）与\"十五五规划\"创新导向持续强化，CXO含量高的创新药ETF年初至今涨超17%，显示资金对创新药产业链的定价已先行。口腔种植牙集采三年落地347万套，以价换量逻辑兑现，但短期对器械板块仍构成价格压制。北京拟强化集采药品全链条质量监管，政策从\"唯低价\"转向\"质量+价格\"平衡，利好头部合规企业。未名医药跨界新材料属个体事件，不构成板块逻辑。利率端，10Y美债5.28%高位对港股创新药估值形成压制，恒生医疗与A股创新药联动承压；美元/人民币6.693偏强，外资流入医药意愿受限。情绪面：政策暖风与集采常态化并存，板块处于\"创新溢价+传统承压\"的结构分化期，整体情绪中性偏谨慎，超额收益需靠创新药与CXO结构性行情驱动。",
+  "ai_analysis": "【综合分析】\n\n今日医药板块全线零涨跌，数据呈静态特征，主要因行情快照未更新或处于非交易时段，涨跌归因需结合新闻面与宏观变量推演。政策端，北京拟强化集采药品全链条质量监管，标志着集采从\"唯低价\"向\"质量优先\"过渡，利好合规龙头、利空低端仿制；口腔种植牙集采三年放量347万套，以价换量逻辑兑现，但短期利润承压。创新药方向催化密集：一品红APH04935片获FDA临床批准、四川双马进入商业化验证窗口、创新药ETF标的指数年内涨超17%，叠加\"十五五规划\"创新导向，创新药与高CXO含量标的为最强主线。子板块分化上，创新药/CXO>中药>器械>仿制，未名医药跨界新材料反映传统药企转型焦虑。港股联动方面，恒生医疗数据缺失，但10Y美债5.28%高位对港股创新药估值形成压制，美元兑人民币6.6939偏强，外资流入医药意愿受限。情绪面整体中性偏谨慎，政策暖风与利率高压对冲，量能未验证前难言趋势性行情。",
   "ai_error": ""
 }
