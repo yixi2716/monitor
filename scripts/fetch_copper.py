@@ -305,15 +305,26 @@ def main():
         hist = json.load(open(hist_path, encoding="utf-8"))
     except Exception:
         hist = []
-    rec = {"date": latest_data["date"], "copper": copper, "dxy": dxy, "score": score}
+
+    # 第一次跑：把拉到的历史都写进去
     if not hist:
-        # 第一次跑：把拉到的 1 年历史都写进去
-        hist = [{"date": idx.strftime("%Y-%m-%d"), "copper": float(row["HG"])}
-                for idx, row in px.iterrows()]
-    elif hist[-1]["date"] == latest_data["date"]:
-        hist[-1] = rec
+        hist = []
+        for idx, row in px.iterrows():
+            rec = {"date": idx.strftime("%Y-%m-%d")}
+            for k in ["HG", "DXY", "cper", "copx", "lymy", "tl", "jxt"]:
+                if k in px.columns:
+                    rec[k.lower()] = float(row[k])
+            hist.append(rec)
     else:
-        hist.append(rec)
+        # 追加今天的数据
+        rec = {"date": latest_data["date"], "copper": copper, "dxy": dxy, "score": score}
+        for k in ["cper", "copx", "lymy", "tl", "jxt"]:
+            if k in px.columns:
+                rec[k] = float(px[k].iloc[-1])
+        if hist[-1]["date"] == latest_data["date"]:
+            hist[-1] = rec
+        else:
+            hist.append(rec)
     hist = hist[-300:]
 
     print("[4/4] 写文件...")
