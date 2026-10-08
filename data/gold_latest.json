@@ -1,34 +1,34 @@
 {
-  "date": "2026-10-07",
-  "gold": 4134.7,
-  "gold_chg": -1.25,
-  "ma20": 4289.44,
-  "ma50": 4372.11,
+  "date": "2026-10-08",
+  "gold": 4148.5,
+  "gold_chg": 0.19,
+  "ma20": 4276.8,
+  "ma50": 4374.48,
   "above_ma20": false,
   "above_ma50": false,
-  "dxy": 102.34,
-  "dxy_chg": 0.5,
-  "vix": 15.46,
-  "vix_chg": 3.0,
-  "tip": 104.07,
-  "tnx": 5.31,
-  "corr_gold_dxy": -0.21,
-  "corr_gold_tip": 0.32,
-  "corr_gold_vix": -0.54,
-  "basis": 37.09,
-  "vol20": 16.9,
-  "gold_silver_ratio": 68.62,
-  "usdcny": 6.704,
-  "shfe_au": 910.58,
-  "shfe_au_date": "2026-09-30",
+  "dxy": 102.29,
+  "dxy_chg": 0.05,
+  "vix": 15.52,
+  "vix_chg": 2.92,
+  "tip": 104.27,
+  "tnx": 5.29,
+  "corr_gold_dxy": -0.18,
+  "corr_gold_tip": 0.27,
+  "corr_gold_vix": -0.48,
+  "basis": 36.88,
+  "vol20": 16.6,
+  "gold_silver_ratio": 69.83,
+  "usdcny": 6.6931,
+  "shfe_au": 893.12,
+  "shfe_au_date": "2026-10-08",
   "cftc_gold_net": -250967,
   "cftc_gold_date": "2026-09-29",
   "mode": "M",
   "mode_name": "M · 混合驱动",
   "confidence": "低",
   "evidence": [
-    "黄金与 TIP 相关性 +0.32，与 DXY 相关性 -0.21",
-    "VIX 15.5，与 VIX 相关性 -0.54",
+    "黄金与 TIP 相关性 +0.27，与 DXY 相关性 -0.18",
+    "VIX 15.5，与 VIX 相关性 -0.48",
     "多因子混合驱动，无单一主导逻辑"
   ],
   "signals": [
@@ -39,7 +39,7 @@
     },
     {
       "name": "利率信号",
-      "text": "TIP 5日 +0.03%，实际利率平稳",
+      "text": "TIP 5日 -0.04%，实际利率平稳",
       "dir": "neutral"
     },
     {
@@ -54,21 +54,13 @@
     },
     {
       "name": "实物信号",
-      "text": "GLD 与期货同步（5日 -1.17% vs -1.24%）",
+      "text": "GLD 与期货同步（5日 -1.25% vs -1.28%）",
       "dir": "neutral"
     }
   ],
   "score": -1,
   "score_summary": "-1（中性）",
   "recent10": [
-    {
-      "date": "2026-09-24",
-      "gold": 4298.0,
-      "gold_chg": -0.47,
-      "dxy": 101.29,
-      "vix": 15.67,
-      "tip": 104.3
-    },
     {
       "date": "2026-09-25",
       "gold": 4321.2,
@@ -135,11 +127,19 @@
     },
     {
       "date": "2026-10-07",
-      "gold": 4134.7,
-      "gold_chg": -1.25,
-      "dxy": 102.34,
-      "vix": 15.46,
-      "tip": 104.07
+      "gold": 4140.7,
+      "gold_chg": -1.11,
+      "dxy": 102.24,
+      "vix": 15.08,
+      "tip": 104.24
+    },
+    {
+      "date": "2026-10-08",
+      "gold": 4148.5,
+      "gold_chg": 0.19,
+      "dxy": 102.29,
+      "vix": 15.52,
+      "tip": 104.27
     }
   ],
   "macro": {
@@ -147,7 +147,7 @@
     "last_change": "2026-09-16 加息 25bp",
     "next_label": "10/27–28 议息会议",
     "next_date": "2026-10-28",
-    "days_to_next": 21,
+    "days_to_next": 20,
     "upcoming": [
       {
         "date": "2026-10-28",
@@ -174,48 +174,36 @@
     "updated": "2026-09-28",
     "events": [
       {
-        "date": "2026-10-06",
-        "text": "EXCLUSIVE: Vance says Iran must cut enrichment to end war",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQ3R3RzJuRF9NSlo0bWNMaGY3dTdUbXRmSU1BMml2V2RLd0sxazNvVUNRdXpHa21Ebk4tVWtLeHZXMG5xM2ZUVG1aTEJDU0FRWnRHZnozTHQxdVRjeTJvbXRKNzFpNG1wR3RqVDlKMXpXY09hYlFKVlF4RW5uQjJJMXhKOEt3c0ZLWE4tbWZlQW5hUnRnckxmaU1mU0R0SWwzRGNXdGo0ZTVTUXBlSHlfakN1Yw?oc=5",
-        "src": "Reuters"
+        "date": "2026-09-28",
+        "text": "特朗普称预计美伊几天内重启谈判，最早28日举行间接对话",
+        "url": "http://www.xinhuanet.com/world/20260928/b281534c03fc4a6885933397414c4946/c.html",
+        "src": "新华网"
       },
       {
-        "date": "2026-10-07",
-        "text": "US sets new demands for Iran deal: What are they?",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNU1ZQRjU0eUpuQ2c2ZFE4MjJEazVwWWMyai1SMWFlWVRBYURTYmlqblVhZFJTa0xxQlNKWEtRNEFXU3RCUnU1ZzRXc1FxdmcxaWcybl9ISzZfWUNtS2JaUUxuNXNSWmhpdzdETXQ4R1MyUS03c25waS1UTVNid1czdUlKSlRsYUtZTkJsb3l1QXl3Z9IBlwFBVV95cUxPSEZpRE83aEJSR2dxaC10MTBJMTBELUEzOXdFWHRmVmE3LWhmMWJWN1FiVGgtMktyb1YyQU9OWEFpMmc5WVJVR2NWVjJtUnUzZS1iTU45WkNPQl9Nb3ZOTzBDbS1qOHBOSmJHdG1pYzIxeEo2eXdHRzR5LWl4VXVVQmE0eV9oRlVfOFd4UU8yWkRCcnBWeGNn?oc=5",
-        "src": "Al Jazeera"
+        "date": "2026-09-26",
+        "text": "特朗普拒绝伊朗最新停火提案，称'他们提了方案，我拒绝了'",
+        "url": "https://www.aa.com.tr/en/americas/trump-says-he-rejected-iran-s-latest-proposal-from-indirect-talks-in-new-york/4070274",
+        "src": "Anadolu"
       },
       {
-        "date": "2026-10-06",
-        "text": "Trump Condemned for Invoking Nuclear Attacks on US Cities to Defend Iran War",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdmkxR2NDU09pMm4zQi1jVllzaVJQcDVFYU1sdVN2eWc1X0hjUFZ6UjhQX0RISUU5a08xTVJQZkVXbzJSRnJQUjBqekRPY1VBVndLakJBeF9oSlRpOXZybFVkdXR3YWNaTUpIWkQtcUFGYUNNNmxVTnlpNTlmRG1JZkhsYkRpX3Y5WHBHRXpsZ2RyOUU3S3d5WExHNVVlQlAxU0RtSU40QjBMcjg?oc=5",
-        "src": "Truthout"
+        "date": "2026-09-25",
+        "text": "伊朗提出7天计划：停火+重开霍尔木兹海峡+开始核谈；称未满足条件前海峡保持关闭",
+        "url": "https://english.alarabiya.net/News/middle-east/2026/09/25/iran-will-make-no-nuclear-concessions-iranian-official-says",
+        "src": "Al Arabiya"
       },
       {
-        "date": "2026-10-07",
-        "text": "Rubio says Tehran missed 'multiple' chances for nuclear deal amid Iran stalemate",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBST3M3OWl1Z3R1OFBQaFRuXzBxeC1DVnczRVNFWm12c2NHQnV5OU9acWZLTllvSWNKcUE4NHBSV1oyQmFObGszUlE0dU9sUE9zZmk4NmpPZEJTNmZMRkZrU3NlWVlVSjF3czJHVVd30gFzQVVfeXFMTl9lOGNDTDRpUHJsdU80NU5NV1NTTVhua25JazF6eHA4TC1aNGNqWm5aaHBXM3hkYjZqZGFGYzR6NFdrcnJZdnRzRTBUYndZZEhIa2gwUHhwNTlvbkNmYk8zNG1DSFBMaDk2LUlidmJyRHZYdw?oc=5",
-        "src": "CNBC"
-      },
-      {
-        "date": "2026-10-06",
-        "text": "Trump worries Iran could target U.S. cities. These places get extra nuclear protection",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOV1ZiUHZxVzFmOWwxcFJTR05td0xmbURuRVJjRjhwclc2aXp0cEVoanVHOTJUWmFnRlprS01TbHVpNXpUeE5pNDZGVGRVRDhrRGE0bk5LUkRvMENoQ1FhdThMZEJtMkNoSExKbHJKdkx6YlNDU2pNckRPYWwxZ000WkFRU1dnTVk?oc=5",
-        "src": "Axios"
-      },
-      {
-        "date": "2026-10-06",
-        "text": "Trump sparks criticism with comments on potential Iranian attacks on US cities",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbTVfSnJTVmMwN09KVS1wekVYV2FiTmRicXpGZ3dHbmFSS2dtMXZiQU81WkF6ZGJ5X1BEdkhtbk0xNEZKS3pSaGlCZkFXdFFsTEdiYlBqMVRRT1paR2wzQzVDd3ppMjhibHNMZU0wYjlRaklVZkFWcENnSnVTQUVSM3JFTTVwZ0hsYk5tQWEycC1Xcmo5WS01dk13bEJfMV9tNDhxcFFmcXpyQi1OVmZISW02YUVNdXlzQ2QybWVxQ3Q?oc=5",
-        "src": "Scripps News"
+        "date": "2026-09-22",
+        "text": "联合国大会期间美特使威特科夫、库什纳与伊朗外长在纽约举行间接会晤",
+        "url": "http://www.xinhuanet.com/world/20260928/424a9ccf9a5142a3bf7e1f90bf2a48f6/c.html",
+        "src": "新华网"
       }
     ],
     "gold_impact": "双重作用：局势升级→避险买盘利多黄金；但同时油价飙升→通胀预期→美联储更难降息→利空黄金。当前谈判窗口期，油价波动会直接传导到金价。",
-    "wti_price": 89.1,
-    "wti_chg": -0.38,
-    "news_auto": true
+    "wti_price": 92.24,
+    "wti_chg": 4.49,
+    "news_auto": false
   },
-  "ai_error": "",
-  "ai_analysis": "黄金今日跌1.25%至4134.70美元，跌破MA20和MA50，属于美元压制的技术性回调。DXY 102.34虽只算温和偏强，但金价对美元敏感度放大，叠加CFTC净空头高达-25万张，投机盘仍在做空，资金面没有托底。实际利率端TIP五日仅+0.03%，说明利率不是今日主因，美元信号才是核心驱动，行情持续性偏弱，除非美元回落。\n\n宏观映射上，10Y美债5.31%高位但TIPS平稳，金价下跌与利率端背离，说明这次跌的是美元定价而非真实利率逻辑，属于情绪+仓位驱动。资金信号明确偏空：净空头极端，但还没到空头回补的临界点，投机盘方向仍是向下试探。\n\n内外盘方面，沪金910.58元/克，按汇率折算国际金价约合人民币约905元/克附近，沪金小幅溢价，国内需求中性偏稳，没有明显抢金或抛售。\n\n短期展望：震荡偏空。支撑位4050美元（前低区域），阻力位4290美元（MA20）。跌破4050可能加速，站回4290才转多。\n\n风险事件：21天后FOMC，市场预期维持不变，但5.31%的10Y收益率若继续冲高，会重新压制金价；地缘中高+WTI 89美元是潜在避险变量，但目前VIX 15.5未定价。",
-  "ai_date": "2026-10-07"
+  "ai_error": "HTTP 402: {\"error\":{\"message\":\"Insufficient Balance (request_id: 7aa6b12d-b246-4166-9e93-6b5c05ce165c)\",\"type\":\"unknown_error\",\"param\":null,\"code\":\"invalid_request_error\"}}",
+  "ai_analysis": "",
+  "ai_date": "2026-10-08"
 }
