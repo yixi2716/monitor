@@ -1,42 +1,52 @@
 {
-  "date": "2026-10-08",
-  "copper": 6.609000205993652,
-  "copper_chg": 0.18949876834837287,
-  "ma20": 6.568350005149841,
-  "ma50": 6.575720014572144,
-  "dxy": 102.27100372314453,
-  "vix": 15.479999542236328,
-  "tnx": 5.2820000648498535,
-  "wti": 92.25,
-  "cu_oil_ratio": 157.94400037005664,
+  "date": "2026-10-09",
+  "copper": 6.584499835968018,
+  "copper_chg": 0.3887760428404663,
+  "ma20": 6.579050016403198,
+  "ma50": 6.5465200233459475,
+  "dxy": 102.30799865722656,
+  "vix": 15.430000305175781,
+  "tnx": 5.2779998779296875,
+  "wti": 90.9000015258789,
+  "cu_oil_ratio": 159.69548718037223,
   "shfe_cu": 110260.0,
   "shfe_cu_date": "2026-10-08",
-  "shfe_lme_ratio": 1.051,
+  "shfe_lme_ratio": 1.055,
   "lme_stock": 296625,
   "lme_stock_date": "2026-07-17",
   "shfe_stock": 7686,
   "shfe_stock_chg": -2325,
   "shfe_stock_date": "2026-10-08",
+  "lymy": 16.61,
+  "lymy_chg": -1.6,
+  "tl": 5.75,
+  "tl_chg": -0.52,
+  "jxt": 41.89,
+  "jxt_chg": 0.22,
+  "cper": 39.53,
+  "cper_chg": -0.63,
+  "copx": 81.93,
+  "copx_chg": -3.27,
   "signals": [
     {
       "name": "铜价站上MA20",
       "dir": "bull",
-      "text": "$6.61 > MA20 $6.57"
+      "text": "$6.58 > MA20 $6.58"
     },
     {
       "name": "美元中性",
       "dir": "neutral",
-      "text": "DXY 102.27"
+      "text": "DXY 102.31"
     },
     {
       "name": "风险偏好正常",
       "dir": "neutral",
-      "text": "VIX 15.5"
+      "text": "VIX 15.4"
     },
     {
       "name": "铜油比偏高",
       "dir": "bull",
-      "text": "铜油比 157.9，工业景气预期强"
+      "text": "铜油比 159.7，工业景气预期强"
     },
     {
       "name": "实际利率高企",
@@ -45,33 +55,8 @@
     }
   ],
   "score": 1,
-  "news": [
-    {
-      "date": "2026-10-08",
-      "text": "Copper Price: Navigating Near-Term Volatility and Long-Term Bullish Trends",
-      "src": "deVere Group",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5iR19yTVRLNWdQWTdndExpQzFoUDA1ZzQ1S1hOMzktMVA1cFBaQkxYNXByTXhaSElMbHFRWGFwQ2JpNkdLSElwTm1za011czVCcF9TaQ?oc=5"
-    },
-    {
-      "date": "2026-10-05",
-      "text": "US-China trade rivalry fuels demand for copper stockpiles",
-      "src": "Azernews.az",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5waEFyQkk3SV9keHBKdFhHWmtZVmN2MTNTbFhvd09CUXB1YWtYUkhoMWVGZVdMVm9GVnJ6WE00enpiUHk2cTU5SHlOZE42aWRuUy01TzZCUQ?oc=5"
-    },
-    {
-      "date": "2026-10-07",
-      "text": "Power Metallic Mines Advances Nisk PEA with BBA & ethos Appointments",
-      "src": "Streetwise Reports",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOS1gwQ3QzeEdOZV94cXRNaHVnTnpKUElMd2xRVUdycmUwVmNORFJUODBtUkdiNTlvbnRXb2pqekRBTnpZXy1fYkRMUmVKS1U1TDVaNkowMS1mUUh4U3BPMU8zY0ZkTEJUS05ZaGo0eF9McThoMUV2dGVza1V4cFpkNFVZQlJpc1o4MTFiQTlhLThybVByUjIzSkh6cDZaNlZQT1VxUDhYSkFDZW14WE02TGV0ZXRCVFpMcWRqZEFlZFI2WnkxZHo4?oc=5"
-    },
-    {
-      "date": "2026-10-06",
-      "text": "DNCA Investments: \"Copper is at the heart of trade and technology wars\"",
-      "src": "marketscreener.com",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZWZBSnR1eWNCTzlPS0t1NS1zMklxdXR1OVZwWDFaMXdqTGdubnZKY2JkOTA0cVdZQkFxVXRFc3gzQzZjQjRzMl9BUlJtMTJfUzhEQk5xNGowd2NibkFyLVo4dHNVdHZieGxtOEhJZ0pEOGg3bGN6SHlCZ0x5SDJ4LTJyd0xwa3RhLTE3RFh4Q3FKSDRqNUN0YUFWeFhkaTk4ZThQS2dWZDk2QmtPbGNnUEJSZU1PTXF5YnRxdUt3?oc=5"
-    }
-  ],
-  "ai_error": "",
-  "ai_analysis": "铜价今日小涨0.19%至$6.61/磅，主要靠需求预期撑着——铜油比157.9偏高，说明工业景气预期不差，加上中美贸易争夺推升囤铜需求。但10年期美债5.28%的高利率在压制估值，美元102.27中性，所以涨幅有限，属于多空拉锯下的小胜。\n\n库存分化明显：LME近30万吨偏宽松，但沪铜库存仅7,686吨且单日大降2,325吨，国内明显偏紧。升贴水数据缺失，无法判断LME现货紧张程度。\n\n沪伦比值1.051>1，进口有利，说明国内价格相对偏强。需注意COMEX因美国232铜关税预期存在溢价，会推高美铜相对伦铜、沪铜的价格，跨市套利空间被政策扭曲。\n\n资金信号看，铜价站上MA20、铜油比偏多，但受制于高利率，趋势只能算温和健康，不算强势。\n\n短期展望：震荡偏多，COMEX关键支撑$6.57（MA20），阻力$6.70。\n\n风险点：一是232关税落地或调整可能剧烈改变COMEX溢价和全球铜流向；二是美债利率若继续走高，会进一步压制铜价。",
-  "ai_date": "2026-10-08"
+  "news": [],
+  "ai_error": "未配置 DEEPSEEK_API_KEY",
+  "ai_analysis": "",
+  "ai_date": "2026-10-09"
 }
