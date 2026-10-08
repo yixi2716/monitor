@@ -6,10 +6,11 @@
     "base_price": 0.388,
     "text": "明日方向: 震荡, 概率55%",
     "key_logic": "十五五创新政策与CXO景气上行支撑中期估值修复，但美债5.29%高位压制长久期资产，短期震荡、中期结构性机会为主",
-    "verified": false,
-    "verify_date": null,
-    "actual_price": null,
-    "hit": null
+    "verified": true,
+    "verify_date": "2026-10-08",
+    "actual_price": 0.382,
+    "hit": false,
+    "actual_chg": -1.55
   },
   {
     "predict_date": "2026-10-07",

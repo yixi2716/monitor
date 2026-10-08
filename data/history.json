@@ -844,5 +844,11 @@
     "spot_pig": 10.2,
     "lh_close": 10680.0,
     "pig_grain_ratio": 4.66
+  },
+  {
+    "date": "2026-10-08",
+    "spot_pig": 10.28,
+    "lh_close": 11105.0,
+    "pig_grain_ratio": 4.77
   }
 ]

@@ -1,66 +1,66 @@
 {
-  "date": "2026-10-07",
-  "hs300": 4357.62,
+  "date": "2026-10-08",
+  "hs300": 4310.28,
   "hs300_chg": 0.0,
-  "med_etf": 0.388,
+  "med_etf": 0.382,
   "med_etf_chg": 0.0,
-  "inn_etf": 0.872,
+  "inn_etf": 0.839,
   "inn_etf_chg": 0.0,
-  "cxo_etf": 0.349,
+  "cxo_etf": 0.339,
   "cxo_etf_chg": 0.0,
-  "tcm_etf": 0.87,
+  "tcm_etf": 0.867,
   "tcm_etf_chg": 0.0,
-  "meddev_etf": 0.445,
+  "meddev_etf": 0.432,
   "meddev_etf_chg": 0.0,
-  "vaccine_etf": 2.24,
+  "vaccine_etf": 2.234,
   "vaccine_etf_chg": 0.0,
   "hsi_health": 0.0,
   "hsi_health_chg": 0,
   "tnx": 5.29,
-  "usdcny": 6.703,
+  "usdcny": 6.7016,
   "excess": 0.0,
   "news": [
     {
-      "date": "2026-10-07",
-      "text": "医药研发外包服务业：数智化转型及人工智能重塑行业结构 - 新浪网",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Rd2QxM3V3V2tvVF9vRUl6dlJsNUlkYnZIQm1MTVI5eU0zZHBUQ3JZVTB2NVJBTzBkOXdXWm4wdGxuWEtvdVIxclhnVDFLVEtXU3NObDBhenRwMWRxeXRZdndiQzVQTEZWQzRIZ1ppWkFlRThlTzZkYXFDdVNEUUk?oc=5"
+      "date": "2026-10-08",
+      "text": "连续多年亏损，未名医药跨界新材料领域开辟新利润增长点 - 新京报",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5ESFhkazBZbFAzQmZYNjhVUUtqM09TYkx2cDRIamQ1dlJQc012SWdJWW8wM0pzTGo5cDdFaUx3QVY5LTZGQzhhWmE5QWVBT09zNjJQNTNiOWx6T21yREY3UXZKZDk?oc=5"
     },
     {
-      "date": "2026-10-07",
-      "text": "港股全线上涨，医药生物板块爆发 - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9VX3luTHFaREsyVWJTSVpUdDdnaDY5X1RicW1qaUlVMXRWc0E2NEZVbVRzcFZ1c2htLUt5WVNPeXRFWlhIYkRjMWZkeURpSW5zNElSQk00ZzI3LS1wdkVDdQ?oc=5"
+      "date": "2026-10-08",
+      "text": "单颗种植牙直降近万元：三年347万套，口腔集采改变了什么？ - finance.sina.com.cn",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOeFMteHBINnF4bV9mUVktSE9MaU5wdnVpcXZnSUtFS0ZOSWtWbEE2N0hzbUVqcGR0bVBpVEpidV9SNldjaTRqUnoyeEtzYVpWSGQ5YVlhVHc2cXcyeGdQRFRCc2M1YkdHcUwzVHZDbUFMWTJ6cHFMOUJ2RkNJenBuNXRoVTc5MVNuMHhyVDhma0lva0c4aE9mT1ZzOTRqQkZhZUZva2pZdzdMWXdfY3hfajluM3dabVZleUZRTkVfY2UtX29zMzdIWUtSbzE4SGNVWTJ3QlBIZw?oc=5"
     },
     {
-      "date": "2026-10-07",
-      "text": "【明日主题前瞻】全球顶级学术盛会即将召开，机构称CXO行业景气度上行信号明确 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5OM3ZwVG5uVjJjNU1fUlVDT3hPc29Db0JDTFg5UUc4WFJNUnZSeHNXTVJHb21ubDlhX0wydDZNVVo3c2UySEhXUg?oc=5"
+      "date": "2026-10-08",
+      "text": "新华健康 | 创新药孵化价值渐显 四川双马进入商业化验证窗口 - 经济参考报",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNN25ROEJ6NjZnbk9Pd3dtR0lLR0lXOU9yYXZhN09Wa1VRMG43b0ZBVnltUDBFNVRydXMxbHlIcEFQM1NSVW1DT2pubDhFcU9IWnUtcHdYSXpvRFJrakFneTd2WldxUDhfOThLeVAxQURma2JNckgwVkxvN25fTjhGeQ?oc=5"
     },
     {
-      "date": "2026-10-07",
-      "text": "“乐城研用+海口生产”助推进口创新药加速上市 - 中国新闻网",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9PLUpvQ1MtYnRSc2diYjd1cmNUS2QwU3lEOWkwX0pxN3ZUeXVkRGh4bEFlNWU5NUhsSEh5ZHl4aGdHNlluU2FqREFyY2Z6dE5Eb2JnQzRqZlhtckl0TnFHY29UV2VFblA0NmVDag?oc=5"
+      "date": "2026-10-08",
+      "text": "奔跑的向“新”力 | 一路闯关跑 生物医药突围成长 - 光明网",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1MN0hFTlJHY1ZpT1lLMUl2dDNra2d0LUphQjhMaTV1eXRmMWdvMmt2SzlXdjNxV2xaT2xsNHVxUkN4RDUyMlpUekYyTHR3RTJFMnJHSFgyOTBpOFBJc0JySTlpRGRiY28?oc=5"
     },
     {
-      "date": "2026-10-07",
-      "text": "医药生物行业定期报告：三大“十五五规划”奠定医药行业创新发展新趋势_行业研究_研报 - 证券之星",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBTM1lBM2FmcGJ4WVdSZVRnS2pKRm1VYjZuRFM4TXpQMnhYOTBCM0lOOGNTRUkzaXU3VnNqZUtfRE9Md2EyLVlZbVl3bFBIOEhWb2plUHVaVGZlQ1V5MURZdnFn?oc=5"
+      "date": "2026-10-08",
+      "text": "高CXO含量的创新药ETF天弘(517380)标的指数年初至今涨超17%，三大“十五五规划”奠定医药行业创新发展新趋势 - 新浪网",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVHRfN1RXaWJ6d2kzM2lRZ1F0TXlKNlpmM1M3Ymp6ZHhWTGowMUJVWC1JdDVEQzljZkphNDVhdGhYczhjQ0Z2S3JWT2ItVXpiVUVocHhVTGx4QTFlaVZRUGlEc0EzTTVMMml1bW5fMjE5WkR1SGtvQmo3MmdjNGsyTVVXcw?oc=5"
     },
     {
-      "date": "2026-10-07",
-      "text": "浙江发文促生物医药产业发展 力争2030年集群营收超5000亿元 - 观点网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5GLVEyRzRxbWN0QmpodmNWNzNMY1hDMzNxZTJLWklNc3QzNkpzUDFsTjVqQnVzV3VXSXRFR2VPWThaVlZwQzIzMmtST2xCSldSczJ0V1c1Q2dCT1RaZzU4cEtB?oc=5"
+      "date": "2026-10-08",
+      "text": "只拼低价行不通！北京拟出新规，强化集采药品全链条质量监管 - 京报网",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1oVVItRWpQYWphXzNuWTZaalE4ZzZTbjd2X1otUDNFRmd3VlF6RlY0bjI5SXRtblp2WTBOc1l1X2VjNzJWeG9NYV90eFhrYlJCc2h4SUlFdmtzelp3cXc?oc=5"
     },
     {
-      "date": "2026-10-07",
-      "text": "医药工业“十五五”规划部署25项重点任务，释放了哪些信号？ - ThePaper.cn",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBqYXI2UnJOODFYLVh6MnZPdHlaLWZyNmpJU2VkN1JJTXI3cEJCMmxicXJtS0FpaS1EOEFBOUdzc3MtSlFZamw2VXJXTFlFc1FUSVdaeHFHTE9EazZwQ3dZZQ?oc=5"
+      "date": "2026-10-08",
+      "text": "一品红：关于全资子公司创新药APH04935片获得美国FDA临床试验批准的公告 - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBINVJ4ZUdtQVlsVnJ3RjBWaHBuQ1JxT2l3bjB5NkItS2JHU0pEUDNJMTZQQ21nNmNqT2RoMWRfZmJTOGJ1ZUl5dmFkTFFsUk9SdXU2QUZaekZFaXZKOTQ4UjNkZ0l2Zw?oc=5"
     },
     {
-      "date": "2026-10-07",
-      "text": "半导体、医药生物，集体大跌|现代中药集团|金斯瑞生物科技|兆易创新|澜起科技|天岳先进 - finance.sina.com.cn",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOaWpHU2ZOdmRNRmJNMHBGcWEyMEQxQkhrUVI4Skc2Tk1RRnlWSFp3a1Z0WmZUSzFVWlpJWFRNWnRWY1VvangzSmhMUDRpNHRrZlhGR3ZVSjdOR3Zsb3NLZnc1SFdrZkhFN0xibXFIUUx1enhOc3gzU0tEUmhkTlc5aThnQ0l6TmJrSU9V?oc=5"
+      "date": "2026-10-08",
+      "text": "阿斯利康：达卓优获国家药监局批准 用于三阴性乳腺癌治疗 - 观点网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9yaTAzUEdDRTlpcGRIQzhIV0ZnMUtnYUlyTVUxMnQwZEtJdHVOZy1pNkxXd19HVHpxZ0FYMlh2QnM0ZXFGU2kxM0h0SXdOdXRaUm5qU3FqdlR5a2lSdGl6RGJ3?oc=5"
     }
   ],
-  "ai_analysis": "**综合分析（约200字）**\n\n今日医药板块整体零涨跌，各子ETF及沪深300均收平，属于数据异常或休市状态，涨跌归因参考意义有限。但当日新闻面信息量较大：医药工业\"十五五\"规划部署25项重点任务、浙江发文促生物医药产业2030年集群营收超5000亿、CXO景气度上行信号明确、AI重塑研发外包结构，政策端持续释放创新支持信号，构成中期利好。港股医药生物板块爆发，但恒生医疗数据为0，联动验证不足。10Y美债5.29%处于高位，对创新药、CXO等长久期资产估值形成压制，美元/人民币6.703相对稳定，汇率扰动有限。子板块看，CXO受学术盛会和景气度催化逻辑最强，创新药受政策与乐城加速上市利好，中药受十五五规划提振，医疗器械相对平淡。情绪面政策暖风与高利率压制并存，短期偏震荡，中期结构性机会大于系统性行情。",
-  "ai_error": ""
+  "ai_analysis": "",
+  "ai_error": "HTTP Error 402: Payment Required"
 }
