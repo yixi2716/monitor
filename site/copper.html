@@ -129,17 +129,29 @@ async function load(){
   const aiEl = document.getElementById('ai');
   if(L.ai_analysis){ aiEl.textContent = L.ai_analysis; }
   else { aiEl.innerHTML = '<span style="color:var(--muted)">今日 AI 分析暂未生成'+(L.ai_error?'（'+L.ai_error+'）':'')+'</span>'; }
-  // 图
+  // 图：铜价 vs 铜股联动
   const hist = await fetch('data/copper/history.json',{cache:'no-store'}).then(r=>r.json());
   const dates = hist.map(h=>h.date);
-  const prices = hist.map(h=>h.copper);
+  // 归一化（以第一天为基准=100），方便对比走势
+  function norm(key){
+    const arr = hist.map(h=>h[key]);
+    const base = arr.find(v=>v && v>0) || 1;
+    return arr.map(v=>v ? (v/base*100).toFixed(1) : null);
+  }
   const chart = echarts.init(document.getElementById('chart'));
   chart.setOption({
     tooltip:{trigger:'axis'},
-    grid:{left:60,right:20,top:20,bottom:30},
+    legend:{data:['COMEX铜','洛阳钼业','铜陵有色','江西铜业','CPER'],textStyle:{color:'#8b949e'},top:0},
+    grid:{left:50,right:20,top:40,bottom:30},
     xAxis:{type:'category',data:dates,axisLabel:{color:'#8b949e'}},
     yAxis:{type:'value',scale:true,axisLabel:{color:'#8b949e'},splitLine:{lineStyle:{color:'#30363d'}}},
-    series:[{type:'line',data:prices,smooth:true,itemStyle:{color:'#d4782a'},areaStyle:{color:'rgba(212,120,42,.15)'}}]
+    series:[
+      {name:'COMEX铜',type:'line',data:norm('copper'),smooth:true,itemStyle:{color:'#d4782a'}},
+      {name:'洛阳钼业',type:'line',data:norm('lymy'),smooth:true,itemStyle:{color:'#58a6ff'}},
+      {name:'铜陵有色',type:'line',data:norm('tl'),smooth:true,itemStyle:{color:'#3fb950'}},
+      {name:'江西铜业',type:'line',data:norm('jxt'),smooth:true,itemStyle:{color:'#f778ba'}},
+      {name:'CPER',type:'line',data:norm('cper'),smooth:true,itemStyle:{color:'#d29922'}}
+    ]
   });
   window.addEventListener('resize',()=>chart.resize());
 }
