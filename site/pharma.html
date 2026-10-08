@@ -73,35 +73,47 @@ button{cursor:pointer}
 const DEEPSEEK_KEY = "sk-238f37694a504056b4178fb33d6613b6";
 
 async function load(){
+  let L;
   try {
-    const L = await fetch('data/pharma/latest.json',{cache:'no-store'}).then(r=>{
-      if(!r.ok) throw new Error('数据文件未生成，请先去GitHub Actions跑一次workflow');
+    L = await fetch('data/pharma/latest.json',{cache:'no-store'}).then(r=>{
+      if(!r.ok) throw new Error('数据文件未生成');
       return r.json();
     });
-  document.getElementById('kpi').innerHTML = [
-    {label:'沪深300', value:(L.hs300||0).toFixed(0), chg:L.hs300_chg||0, src:'Yahoo 000300.SS · '+L.date},
-    {label:'医药ETF', value:(L.med_etf||0).toFixed(3), chg:L.med_etf_chg||0, src:'Yahoo 512010.SS · '+L.date},
-    {label:'创新药ETF', value:(L.inn_etf||0).toFixed(3), chg:L.inn_etf_chg||0, src:'Yahoo 159992.SZ · '+L.date},
-    {label:'CXO医疗ETF', value:(L.cxo_etf||0).toFixed(3), chg:L.cxo_etf_chg||0, src:'Yahoo 512170.SS'},
-    {label:'中药ETF', value:(L.tcm_etf||0).toFixed(3), chg:L.tcm_etf_chg||0, src:'Yahoo 159647.SZ'},
-    {label:'医疗器械ETF', value:(L.meddev_etf||0).toFixed(3), chg:L.meddev_etf_chg||0, src:'Yahoo 159883.SZ'},
-    {label:'疫苗ETF', value:(L.vaccine_etf||0).toFixed(3), chg:L.vaccine_etf_chg||0, src:'Yahoo 516160.SS'},
-    {label:'恒生医疗', value:(L.hsi_health||0).toFixed(0), chg:L.hsi_health_chg||0, src:'Yahoo 000012.HK · '+L.date},
-    {label:'超额(医药vs300)', value:((L.excess||0)>=0?'+':'')+(L.excess||0).toFixed(2)+'%', chg:L.excess||0, src:'ETF涨幅-300涨幅'},
-    {label:'10Y美债', value:(L.tnx||0).toFixed(2)+'%', chg:0, src:'Yahoo ^TNX · '+L.date},
-    {label:'美元/人民币', value:(L.usdcny||0).toFixed(4), chg:0, src:'Yahoo CNY=X · '+L.date},
-  ].map(c=>`
-    <div class="kpi">
-      <div class="label">${c.label}</div>
-      <div class="value">${c.value}</div>
-      <div class="chg ${c.chg>=0?'up':'down'}">${c.chg!==0?(c.chg>=0?'+':'')+c.chg.toFixed(2)+'%':''}</div>
-      <div class="src">${c.src}</div>
-    </div>
-  `).join('');
+  } catch(e) {
+    document.body.innerHTML = '<p style="color:var(--down);padding:20px">数据加载失败: '+e.message+'</p>';
+    return;
+  }
 
-  document.getElementById('news').innerHTML = (L.news||[]).map(n=>`
-    <div class="news-item"><span class="date">${n.date}</span><a href="${n.url}" target="_blank">${n.text}</a></div>
-  `).join('') || '<span style="color:var(--muted)">暂无新闻</span>';
+  // KPI
+  try {
+    document.getElementById('kpi').innerHTML = [
+      {label:'沪深300', value:(L.hs300||0).toFixed(0), chg:L.hs300_chg||0, src:'Yahoo 000300.SS · '+L.date},
+      {label:'医药ETF', value:(L.med_etf||0).toFixed(3), chg:L.med_etf_chg||0, src:'Yahoo 512010.SS · '+L.date},
+      {label:'创新药ETF', value:(L.inn_etf||0).toFixed(3), chg:L.inn_etf_chg||0, src:'Yahoo 159992.SZ · '+L.date},
+      {label:'CXO医疗ETF', value:(L.cxo_etf||0).toFixed(3), chg:L.cxo_etf_chg||0, src:'Yahoo 512170.SS'},
+      {label:'中药ETF', value:(L.tcm_etf||0).toFixed(3), chg:L.tcm_etf_chg||0, src:'Yahoo 159647.SZ'},
+      {label:'医疗器械ETF', value:(L.meddev_etf||0).toFixed(3), chg:L.meddev_etf_chg||0, src:'Yahoo 159883.SZ'},
+      {label:'疫苗ETF', value:(L.vaccine_etf||0).toFixed(3), chg:L.vaccine_etf_chg||0, src:'Yahoo 516160.SS'},
+      {label:'恒生指数', value:(L.hsi_health||0).toFixed(0), chg:L.hsi_health_chg||0, src:'Yahoo ^HSI · '+L.date},
+      {label:'超额(医药vs300)', value:((L.excess||0)>=0?'+':'')+(L.excess||0).toFixed(2)+'%', chg:L.excess||0, src:'ETF涨幅-300涨幅'},
+      {label:'10Y美债', value:(L.tnx||0).toFixed(2)+'%', chg:0, src:'Yahoo ^TNX · '+L.date},
+      {label:'美元/人民币', value:(L.usdcny||0).toFixed(4), chg:0, src:'Yahoo CNY=X · '+L.date},
+    ].map(c=>`
+      <div class="kpi">
+        <div class="label">${c.label}</div>
+        <div class="value">${c.value}</div>
+        <div class="chg ${c.chg>=0?'up':'down'}">${c.chg!==0?(c.chg>=0?'+':'')+c.chg.toFixed(2)+'%':''}</div>
+        <div class="src">${c.src}</div>
+      </div>
+    `).join('');
+  } catch(e) { console.error('KPI error', e); }
+
+  // 新闻
+  try {
+    document.getElementById('news').innerHTML = (L.news||[]).map(n=>`
+      <div class="news-item"><span class="date">${n.date}</span><a href="${n.url}" target="_blank">${n.text}</a></div>
+    `).join('') || '<span style="color:var(--muted)">暂无新闻</span>';
+  } catch(e) { console.error('news error', e); }
 
   // 预测与验证
   try {
@@ -147,9 +159,13 @@ async function load(){
     document.getElementById('predictions').innerHTML = '<span style="color:var(--muted)">预测数据未生成</span>';
   }
 
-  const aiEl = document.getElementById('ai');
-  if(L.ai_analysis) aiEl.textContent = L.ai_analysis;
-  else aiEl.innerHTML = '<span style="color:var(--muted)">AI分析未生成'+(L.ai_error?'（'+L.ai_error+'）':'')+'</span>';
+  // AI 分析
+  try {
+    const aiEl = document.getElementById('ai');
+    if(L.ai_analysis) aiEl.textContent = L.ai_analysis;
+    else aiEl.innerHTML = '<span style="color:var(--muted)">AI分析未生成'+(L.ai_error?'（'+L.ai_error+'）':'')+'</span>';
+  } catch(e) { console.error('AI error', e); }
+}
 }
 load().catch(e=>document.body.innerHTML='<p style="color:red">加载失败: '+e+'</p>');
 
