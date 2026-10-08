@@ -37,6 +37,8 @@ TICKERS = {
     "CL": "CL=F",          # WTI 原油（铜油比）
     "ZQ": "ZQ=F",          # Fed 基金期货（利率预期）
     "X": "SLV",            # 白银 ETF（工业金属情绪代理）
+    "cper": "CPER",        # 全球最大铜ETF（资金情绪）
+    "copx": "COPX",        # 全球矿业ETF（铜相关）
     "lymy": "603993.SS",   # 洛阳钼业
     "tl": "000630.SZ",     # 铜陵有色
     "jxt": "600362.SS",    # 江西铜业
@@ -279,6 +281,10 @@ def main():
         "lymy": stock_data["lymy"], "lymy_chg": stock_data["lymy_chg"],
         "tl": stock_data["tl"], "tl_chg": stock_data["tl_chg"],
         "jxt": stock_data["jxt"], "jxt_chg": stock_data["jxt_chg"],
+        "cper": round(float(px["cper"].iloc[-1]), 2) if "cper" in px.columns else 0,
+        "cper_chg": round((px["cper"].iloc[-1]/px["cper"].iloc[-2]-1)*100, 2) if "cper" in px.columns and len(px)>=2 else 0,
+        "copx": round(float(px["copx"].iloc[-1]), 2) if "copx" in px.columns else 0,
+        "copx_chg": round((px["copx"].iloc[-1]/px["copx"].iloc[-2]-1)*100, 2) if "copx" in px.columns and len(px)>=2 else 0,
         "signals": signals, "score": score,
         "news": news,
     }
