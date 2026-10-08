@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-07",
+  "date": "2026-10-08",
   "score": "3/6",
   "verdict": "磨底观察中",
   "signals": [
@@ -40,7 +40,7 @@
       "name": "价格站稳成本线",
       "desc": "现货猪价 ≥ 14 元/公斤",
       "status": "yellow",
-      "value": 10.2,
+      "value": 10.28,
       "threshold": 14.0,
       "source": [
         {
@@ -54,7 +54,7 @@
       "name": "脱离深亏区",
       "desc": "猪粮比 ≥ 6",
       "status": "yellow",
-      "value": 4.66,
+      "value": 4.77,
       "threshold": 6.0,
       "source": [
         {
@@ -68,7 +68,7 @@
       "name": "期货远月升水",
       "desc": "LH远月合约收盘价 > 近月",
       "status": "green",
-      "value": 3115.0,
+      "value": 3085.0,
       "threshold": 0,
       "source": [
         {
