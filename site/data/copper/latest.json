@@ -1,14 +1,14 @@
 {
   "date": "2026-10-08",
-  "copper": 6.604499816894531,
-  "copper_chg": 0.12127487455961816,
-  "ma20": 6.568124985694885,
-  "ma50": 6.575630006790161,
-  "dxy": 102.29900360107422,
-  "vix": 15.520000457763672,
-  "tnx": 5.291999816894531,
-  "wti": 92.2300033569336,
-  "cu_oil_ratio": 157.87066959081284,
+  "copper": 6.605500221252441,
+  "copper_chg": 0.13644055893859974,
+  "ma20": 6.568175005912781,
+  "ma50": 6.575650014877319,
+  "dxy": 102.26100158691406,
+  "vix": 15.5,
+  "tnx": 5.2860002517700195,
+  "wti": 92.2699966430664,
+  "cu_oil_ratio": 157.82614530821985,
   "shfe_cu": 110260.0,
   "shfe_cu_date": "2026-10-08",
   "shfe_lme_ratio": 1.052,
@@ -21,12 +21,12 @@
     {
       "name": "铜价站上MA20",
       "dir": "bull",
-      "text": "$6.60 > MA20 $6.57"
+      "text": "$6.61 > MA20 $6.57"
     },
     {
       "name": "美元中性",
       "dir": "neutral",
-      "text": "DXY 102.30"
+      "text": "DXY 102.26"
     },
     {
       "name": "风险偏好正常",
@@ -36,7 +36,7 @@
     {
       "name": "铜油比偏高",
       "dir": "bull",
-      "text": "铜油比 157.9，工业景气预期强"
+      "text": "铜油比 157.8，工业景气预期强"
     },
     {
       "name": "实际利率高企",
@@ -71,7 +71,7 @@
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZWZBSnR1eWNCTzlPS0t1NS1zMklxdXR1OVZwWDFaMXdqTGdubnZKY2JkOTA0cVdZQkFxVXRFc3gzQzZjQjRzMl9BUlJtMTJfUzhEQk5xNGowd2NibkFyLVo4dHNVdHZieGxtOEhJZ0pEOGg3bGN6SHlCZ0x5SDJ4LTJyd0xwa3RhLTE3RFh4Q3FKSDRqNUN0YUFWeFhkaTk4ZThQS2dWZDk2QmtPbGNnUEJSZU1PTXF5YnRxdUt3?oc=5"
     }
   ],
-  "ai_error": "HTTP 402: {\"error\":{\"message\":\"Insufficient Balance (request_id: 7c14d529-6dfc-42a5-b6cc-a3b89e55488a)\",\"type\":\"unknown_error\",\"param\":null,\"code\":\"invalid_request_error\"}}",
+  "ai_error": "HTTP 402: {\"error\":{\"message\":\"Insufficient Balance (request_id: ad12e468-3edb-45d0-ab55-70cedf667099)\",\"type\":\"unknown_error\",\"param\":null,\"code\":\"invalid_request_error\"}}",
   "ai_analysis": "",
   "ai_date": "2026-10-08"
 }
