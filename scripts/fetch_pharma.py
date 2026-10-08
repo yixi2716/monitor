@@ -26,7 +26,7 @@ TICKERS = {
     "tcm_etf": "159647.SZ",      # 中药ETF
     "meddev_etf": "159883.SZ",   # 医疗器械ETF
     "vaccine_etf": "516160.SS",  # 疫苗ETF
-    "hsi_health": "000012.HK",  # 恒生医疗保健指数
+    "hsi_health": "^HSI",       # 恒生指数（代理，000012.HK已退市）
     "tnx": "^TNX",               # 10Y美债
     "usdcny": "CNY=X",           # 人民币汇率
 }
