@@ -166,7 +166,6 @@ async function load(){
     else aiEl.innerHTML = '<span style="color:var(--muted)">AI分析未生成'+(L.ai_error?'（'+L.ai_error+'）':'')+'</span>';
   } catch(e) { console.error('AI error', e); }
 }
-}
 load().catch(e=>document.body.innerHTML='<p style="color:red">加载失败: '+e+'</p>');
 
 async function regenerateAI(){
