@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-  "date": "2026-10-08",
-=======
   "date": "2026-10-09",
->>>>>>> b2aa7daaabcc8b3c0b9e3f2dba03e5d1b862de09
   "score": "3/6",
   "verdict": "磨底观察中",
   "signals": [
@@ -44,11 +40,7 @@
       "name": "价格站稳成本线",
       "desc": "现货猪价 ≥ 14 元/公斤",
       "status": "yellow",
-<<<<<<< HEAD
-      "value": 10.28,
-=======
       "value": 10.23,
->>>>>>> b2aa7daaabcc8b3c0b9e3f2dba03e5d1b862de09
       "threshold": 14.0,
       "source": [
         {
@@ -62,11 +54,7 @@
       "name": "脱离深亏区",
       "desc": "猪粮比 ≥ 6",
       "status": "yellow",
-<<<<<<< HEAD
-      "value": 4.77,
-=======
       "value": 4.73,
->>>>>>> b2aa7daaabcc8b3c0b9e3f2dba03e5d1b862de09
       "threshold": 6.0,
       "source": [
         {
@@ -80,11 +68,7 @@
       "name": "期货远月升水",
       "desc": "LH远月合约收盘价 > 近月",
       "status": "green",
-<<<<<<< HEAD
-      "value": 3085.0,
-=======
       "value": 3015.0,
->>>>>>> b2aa7daaabcc8b3c0b9e3f2dba03e5d1b862de09
       "threshold": 0,
       "source": [
         {
