@@ -11,6 +11,28 @@ if os.environ.get("HTTP_PROXY") is None and sys.platform == "win32":
 
 import yfinance as yf
 
+# Tushare token（GitHub Secrets 里配 TUSHARE_TOKEN）
+TUSHARE_TOKEN = os.environ.get("TUSHARE_TOKEN", "11d712645182771648bd9467e69bfc94b7183e2c23e78148c4ffdb33")
+
+def fetch_north_money():
+    """用 Tushare 拉北向资金每日净买入（单位：万元）"""
+    try:
+        import tushare as ts
+        ts.set_token(TUSHARE_TOKEN)
+        pro = ts.pro_api()
+        today = datetime.date.today().strftime("%Y%m%d")
+        week_ago = (datetime.date.today() - datetime.timedelta(days=7)).strftime("%Y%m%d")
+        df = pro.moneyflow_hsgt(start_date=week_ago, end_date=today)
+        if df is not None and len(df) > 0:
+            latest = df.iloc[0]
+            return {
+                "north_money": float(latest["north_money"]),  # 北向净买入（万元）
+                "north_date": latest["trade_date"],
+            }
+    except Exception as e:
+        print(f"  [warn] 北向资金拉取失败: {e}")
+    return {"north_money": None, "north_date": ""}
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(ROOT, "data", "pharma")
 SITE_DATA_DIR = os.path.join(ROOT, "site", "data", "pharma")
@@ -237,6 +259,11 @@ def main():
         "usdcny": round(float(last.get("usdcny", 0)), 4),
         "excess": round(chg("med_etf") - chg("hs300"), 2),
     }
+
+    # Tushare 北向资金
+    print("[1.5/4] 拉北向资金...")
+    nm = fetch_north_money()
+    data.update(nm)
 
     print("[2/4] 抓新闻...")
     data["news"] = fetch_news()

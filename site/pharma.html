@@ -98,6 +98,7 @@ async function load(){
       {label:'超额(医药vs300)', value:((L.excess||0)>=0?'+':'')+(L.excess||0).toFixed(2)+'%', chg:L.excess||0, src:'ETF涨幅-300涨幅'},
       {label:'10Y美债', value:(L.tnx||0).toFixed(2)+'%', chg:0, src:'Yahoo ^TNX · '+L.date},
       {label:'美元/人民币', value:(L.usdcny||0).toFixed(4), chg:0, src:'Yahoo CNY=X · '+L.date},
+      {label:'北向资金净买入', value:L.north_money!=null? (L.north_money/10000).toFixed(2)+'亿':'—', chg:L.north_money||0, src:'Tushare · '+L.north_date},
     ].map(c=>`
       <div class="kpi">
         <div class="label">${c.label}</div>
