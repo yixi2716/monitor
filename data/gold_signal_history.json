@@ -121,12 +121,12 @@
   },
   {
     "date": "2026-10-09",
-    "score": -1,
+    "score": -2,
     "mode": "M",
     "dirs": [
       "bear",
       "neutral",
-      "neutral",
+      "bear",
       "neutral",
       "neutral"
     ]
