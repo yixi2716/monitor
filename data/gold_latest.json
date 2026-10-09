@@ -1,23 +1,23 @@
 {
   "date": "2026-10-09",
-  "gold": 4217.1,
-  "gold_chg": 1.45,
-  "ma20": 4267.64,
-  "ma50": 4376.99,
+  "gold": 4210.5,
+  "gold_chg": 1.29,
+  "ma20": 4267.31,
+  "ma50": 4376.86,
   "above_ma20": false,
   "above_ma50": false,
-  "dxy": 102.31,
-  "dxy_chg": 0.16,
-  "vix": 15.1,
-  "vix_chg": -2.01,
-  "tip": 104.41,
+  "dxy": 102.32,
+  "dxy_chg": 0.17,
+  "vix": 15.06,
+  "vix_chg": -2.27,
+  "tip": 104.38,
   "tnx": 5.27,
   "corr_gold_dxy": -0.18,
-  "corr_gold_tip": 0.3,
-  "corr_gold_vix": -0.49,
-  "basis": 37.95,
-  "vol20": 17.8,
-  "gold_silver_ratio": 68.72,
+  "corr_gold_tip": 0.29,
+  "corr_gold_vix": -0.5,
+  "basis": 37.14,
+  "vol20": 17.6,
+  "gold_silver_ratio": 68.81,
   "usdcny": 6.6816,
   "shfe_au": 908.64,
   "shfe_au_date": "2026-10-09",
@@ -27,8 +27,8 @@
   "mode_name": "M · 混合驱动",
   "confidence": "低",
   "evidence": [
-    "黄金与 TIP 相关性 +0.30，与 DXY 相关性 -0.18",
-    "VIX 15.1，与 VIX 相关性 -0.49",
+    "黄金与 TIP 相关性 +0.29，与 DXY 相关性 -0.18",
+    "VIX 15.1，与 VIX 相关性 -0.50",
     "多因子混合驱动，无单一主导逻辑"
   ],
   "signals": [
@@ -39,7 +39,7 @@
     },
     {
       "name": "利率信号",
-      "text": "TIP 5日 +0.29%，实际利率平稳",
+      "text": "TIP 5日 +0.25%，实际利率平稳",
       "dir": "neutral"
     },
     {
@@ -49,12 +49,12 @@
     },
     {
       "name": "情绪信号",
-      "text": "VIX 5日 -1%，情绪平稳",
+      "text": "VIX 5日 -2%，情绪平稳",
       "dir": "neutral"
     },
     {
       "name": "实物信号",
-      "text": "GLD 与期货同步（5日 +0.95% vs +1.32%）",
+      "text": "GLD 与期货同步（5日 +0.99% vs +1.16%）",
       "dir": "neutral"
     }
   ],
@@ -135,11 +135,11 @@
     },
     {
       "date": "2026-10-09",
-      "gold": 4217.1,
-      "gold_chg": 1.45,
-      "dxy": 102.31,
-      "vix": 15.1,
-      "tip": 104.41
+      "gold": 4210.5,
+      "gold_chg": 1.29,
+      "dxy": 102.32,
+      "vix": 15.06,
+      "tip": 104.38
     }
   ],
   "macro": {
@@ -174,12 +174,6 @@
     "updated": "2026-09-28",
     "events": [
       {
-        "date": "2026-10-08",
-        "text": "Military ordered to be ready for possible Iran strikes as Trump weighs timing",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcTJVT0lpY01IdHRxLXR3WFJUWVdlVlNWM2IyV0p2cFNoQVRPQjVMdXNkTHNpYk5NY2lvRzQ0SkpHN1I3T21KLThjVHI5SHlmeFZyZndfempWYjgzNWJMaWFmY1B2dk9nbGxuV056WG9NSWlRdWszd085cWZUOXBKbjc5YlFrcGo4VjI4?oc=5",
-        "src": "Axios"
-      },
-      {
         "date": "2026-10-09",
         "text": "Trump promises not to resume strikes before midterm elections",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQT3NqbnFSYTNQUWFNSU9NdzBQSDlrTHpvdERPVGo0QVJXY1ItMlhYbXN0Y21VWjZSbTlLcmlRWnQ0TGhuNjRhUkZ4cE0tUXp4ZHNiS3llXy0ycWlhZVdrYkowY0JqTHBNa2g0SjNIZHZlcTQ3Q3pKSUI4MzNHeHpmcVNJakp1ZmcyZmJFZTZFMXo1T1ltWVhGM2xIZlc?oc=5",
@@ -208,11 +202,17 @@
         "text": "Trump Condemned for Invoking Nuclear Attacks on US Cities to Defend Iran War",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdmkxR2NDU09pMm4zQi1jVllzaVJQcDVFYU1sdVN2eWc1X0hjUFZ6UjhQX0RISUU5a08xTVJQZkVXbzJSRnJQUjBqekRPY1VBVndLakJBeF9oSlRpOXZybFVkdXR3YWNaTUpIWkQtcUFGYUNNNmxVTnlpNTlmRG1JZkhsYkRpX3Y5WHBHRXpsZ2RyOUU3S3d5WExHNVVlQlAxU0RtSU40QjBMcjg?oc=5",
         "src": "Truthout"
+      },
+      {
+        "date": "2026-10-07",
+        "text": "Trump worries Iran could target U.S. cities. These places get extra nuclear protection",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOV1ZiUHZxVzFmOWwxcFJTR05td0xmbURuRVJjRjhwclc2aXp0cEVoanVHOTJUWmFnRlprS01TbHVpNXpUeE5pNDZGVGRVRDhrRGE0bk5LUkRvMENoQ1FhdThMZEJtMkNoSExKbHJKdkx6YlNDU2pNckRPYWwxZ000WkFRU1dnTVk?oc=5",
+        "src": "Axios"
       }
     ],
     "gold_impact": "双重作用：局势升级→避险买盘利多黄金；但同时油价飙升→通胀预期→美联储更难降息→利空黄金。当前谈判窗口期，油价波动会直接传导到金价。",
-    "wti_price": 91.47,
-    "wti_chg": -0.02,
+    "wti_price": 91.57,
+    "wti_chg": 0.09,
     "news_auto": true
   },
   "ai_analysis": "",
