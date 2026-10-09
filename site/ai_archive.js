@@ -147,3 +147,5 @@ const AIArchive = (function () {
 
   return { init, setCurrent, save, refresh };
 })();
+/* 显式挂到 window：顶层 const 不会成为 window 属性，页面里用 window.AIArchive 判断 */
+window.AIArchive = AIArchive;
