@@ -309,7 +309,8 @@ def main():
             rec = {"date": idx.strftime("%Y-%m-%d")}
             for k in ["HG", "DXY", "cper", "copx", "lymy", "tl", "jxt"]:
                 if k in px.columns:
-                    rec[k.lower()] = float(row[k])
+                    # HG 统一存为 copper，与每日追加分支的字段名保持一致
+                    rec["copper" if k == "HG" else k.lower()] = float(row[k])
             hist.append(rec)
     else:
         # 追加今天的数据
