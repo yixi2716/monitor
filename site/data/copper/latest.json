@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "date": "2026-10-09",
   "copper": 6.584499835968018,
   "copper_chg": 0.3887760428404663,
@@ -13,21 +12,6 @@
   "shfe_cu": 110260.0,
   "shfe_cu_date": "2026-10-08",
   "shfe_lme_ratio": 1.055,
-=======
-  "date": "2026-10-08",
-  "copper": 6.5879998207092285,
-  "copper_chg": 0.44213760303362104,
-  "ma20": 6.579225015640259,
-  "ma50": 6.546590023040771,
-  "dxy": 102.2959976196289,
-  "vix": 15.430000305175781,
-  "tnx": 5.279999732971191,
-  "wti": 90.87999725341797,
-  "cu_oil_ratio": 159.81554361441988,
-  "shfe_cu": 110260.0,
-  "shfe_cu_date": "2026-10-08",
-  "shfe_lme_ratio": 1.054,
->>>>>>> 0fbfd107d1da9cd1d2c25ba32c0b3c86fce25f2c
   "lme_stock": 296625,
   "lme_stock_date": "2026-07-17",
   "shfe_stock": 7686,
@@ -39,35 +23,20 @@
   "tl_chg": -0.52,
   "jxt": 41.89,
   "jxt_chg": 0.22,
-<<<<<<< HEAD
   "cper": 39.53,
   "cper_chg": -0.63,
   "copx": 81.93,
   "copx_chg": -3.27,
-=======
-  "cper": 39.54,
-  "cper_chg": -0.6,
-  "copx": 81.81,
-  "copx_chg": -3.41,
->>>>>>> 0fbfd107d1da9cd1d2c25ba32c0b3c86fce25f2c
   "signals": [
     {
       "name": "铜价站上MA20",
       "dir": "bull",
-<<<<<<< HEAD
       "text": "$6.58 > MA20 $6.58"
-=======
-      "text": "$6.59 > MA20 $6.58"
->>>>>>> 0fbfd107d1da9cd1d2c25ba32c0b3c86fce25f2c
     },
     {
       "name": "美元中性",
       "dir": "neutral",
-<<<<<<< HEAD
       "text": "DXY 102.31"
-=======
-      "text": "DXY 102.30"
->>>>>>> 0fbfd107d1da9cd1d2c25ba32c0b3c86fce25f2c
     },
     {
       "name": "风险偏好正常",
@@ -77,11 +46,7 @@
     {
       "name": "铜油比偏高",
       "dir": "bull",
-<<<<<<< HEAD
       "text": "铜油比 159.7，工业景气预期强"
-=======
-      "text": "铜油比 159.8，工业景气预期强"
->>>>>>> 0fbfd107d1da9cd1d2c25ba32c0b3c86fce25f2c
     },
     {
       "name": "实际利率高企",
@@ -90,40 +55,8 @@
     }
   ],
   "score": 1,
-<<<<<<< HEAD
   "news": [],
   "ai_error": "未配置 DEEPSEEK_API_KEY",
   "ai_analysis": "",
   "ai_date": "2026-10-09"
-=======
-  "news": [
-    {
-      "date": "2026-10-08",
-      "text": "Copper Price: Navigating Near-Term Volatility and Long-Term Bullish Trends",
-      "src": "deVere Group",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5iR19yTVRLNWdQWTdndExpQzFoUDA1ZzQ1S1hOMzktMVA1cFBaQkxYNXByTXhaSElMbHFRWGFwQ2JpNkdLSElwTm1za011czVCcF9TaQ?oc=5"
-    },
-    {
-      "date": "2026-10-05",
-      "text": "US-China trade rivalry fuels demand for copper stockpiles",
-      "src": "Azernews.az",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5waEFyQkk3SV9keHBKdFhHWmtZVmN2MTNTbFhvd09CUXB1YWtYUkhoMWVGZVdMVm9GVnJ6WE00enpiUHk2cTU5SHlOZE42aWRuUy01TzZCUQ?oc=5"
-    },
-    {
-      "date": "2026-10-07",
-      "text": "Power Metallic Mines Advances Nisk PEA with BBA & ethos Appointments",
-      "src": "Streetwise Reports",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOS1gwQ3QzeEdOZV94cXRNaHVnTnpKUElMd2xRVUdycmUwVmNORFJUODBtUkdiNTlvbnRXb2pqekRBTnpZXy1fYkRMUmVKS1U1TDVaNkowMS1mUUh4U3BPMU8zY0ZkTEJUS05ZaGo0eF9McThoMUV2dGVza1V4cFpkNFVZQlJpc1o4MTFiQTlhLThybVByUjIzSkh6cDZaNlZQT1VxUDhYSkFDZW14WE02TGV0ZXRCVFpMcWRqZEFlZFI2WnkxZHo4?oc=5"
-    },
-    {
-      "date": "2026-10-06",
-      "text": "DNCA Investments: \"Copper is at the heart of trade and technology wars\"",
-      "src": "marketscreener.com",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZWZBSnR1eWNCTzlPS0t1NS1zMklxdXR1OVZwWDFaMXdqTGdubnZKY2JkOTA0cVdZQkFxVXRFc3gzQzZjQjRzMl9BUlJtMTJfUzhEQk5xNGowd2NibkFyLVo4dHNVdHZieGxtOEhJZ0pEOGg3bGN6SHlCZ0x5SDJ4LTJyd0xwa3RhLTE3RFh4Q3FKSDRqNUN0YUFWeFhkaTk4ZThQS2dWZDk2QmtPbGNnUEJSZU1PTXF5YnRxdUt3?oc=5"
-    }
-  ],
-  "ai_error": "",
-  "ai_analysis": "**涨跌归因**：今日COMEX铜微涨0.44%，主因铜价站上MA20、铜油比159.8显示工业需求预期偏强，叠加美中贸易争夺铜库存的新闻支撑。但10Y美债5.28%的高实际利率压制估值，美元中性，涨幅有限。\n\n**库存与价差**：LME库存29.6万吨属中性偏高，但沪铜库存仅7,686吨且单日大降2,325吨，国内明显偏紧。LME升贴水未获取，无法判断海外现货紧张程度，整体呈\"外松内紧\"。\n\n**内外盘**：沪伦比值1.054>1，进口有利，说明国内价格强于伦铜，中国需求是主要支撑。美国232关税若落地，将推高COMEX对LME溢价，目前数据未显示异常溢价。\n\n**资金信号**：价格站上MA20和MA50，趋势偏健康；但实际利率高企是隐忧，信号偏多但不激进。\n\n**短期展望**：震荡偏多，COMEX关注$6.55支撑、$6.65阻力；沪铜关注¥109,000支撑。\n\n**风险点**：①美国232铜关税政策落地节奏变化，可能瞬间拉大COMEX溢价；②10Y美债若继续上行破5.5%，将压制铜价。",
-  "ai_date": "2026-10-08"
->>>>>>> 0fbfd107d1da9cd1d2c25ba32c0b3c86fce25f2c
 }
