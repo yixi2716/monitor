@@ -6,3 +6,6 @@ venv/
 
 # 前端截图/临时
 site/_shots/
+
+# 数据文件只由 GitHub Actions 生成，本地不 commit，避免冲突
+site/data/
