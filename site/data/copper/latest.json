@@ -1,5 +1,6 @@
 {
   "date": "2026-10-09",
+<<<<<<< HEAD
   "copper": 6.584499835968018,
   "copper_chg": 0.3887760428404663,
   "ma20": 6.579050016403198,
@@ -27,30 +28,76 @@
   "cper_chg": -0.63,
   "copx": 81.93,
   "copx_chg": -3.27,
+=======
+  "copper": 6.698999881744385,
+  "copper_chg": 2.761157031201189,
+  "ma20": 6.5856750249862674,
+  "ma50": 6.550170021057129,
+  "dxy": 102.31800079345703,
+  "vix": 15.0600004196167,
+  "tnx": 5.265000343322754,
+  "wti": 91.56999969482422,
+  "cu_oil_ratio": 161.2837082943233,
+  "shfe_cu": 110110.0,
+  "shfe_cu_date": "2026-10-09",
+  "shfe_lme_ratio": 1.036,
+  "lme_stock": 296625,
+  "lme_stock_date": "2026-07-17",
+  "shfe_stock": 8285,
+  "shfe_stock_chg": 599,
+  "shfe_stock_date": "2026-10-09",
+  "lymy": 17.22,
+  "lymy_chg": 3.67,
+  "tl": 5.85,
+  "tl_chg": 1.74,
+  "jxt": 42.51,
+  "jxt_chg": 1.48,
+  "cper": 40.26,
+  "cper_chg": 2.03,
+  "copx": 84.83,
+  "copx_chg": 3.17,
+>>>>>>> b2aa7daaabcc8b3c0b9e3f2dba03e5d1b862de09
   "signals": [
     {
       "name": "铜价站上MA20",
       "dir": "bull",
+<<<<<<< HEAD
       "text": "$6.58 > MA20 $6.58"
+=======
+      "text": "$6.70 > MA20 $6.59"
+>>>>>>> b2aa7daaabcc8b3c0b9e3f2dba03e5d1b862de09
     },
     {
       "name": "美元中性",
       "dir": "neutral",
+<<<<<<< HEAD
       "text": "DXY 102.31"
+=======
+      "text": "DXY 102.32"
+>>>>>>> b2aa7daaabcc8b3c0b9e3f2dba03e5d1b862de09
     },
     {
       "name": "风险偏好正常",
       "dir": "neutral",
+<<<<<<< HEAD
       "text": "VIX 15.4"
+=======
+      "text": "VIX 15.1"
+>>>>>>> b2aa7daaabcc8b3c0b9e3f2dba03e5d1b862de09
     },
     {
       "name": "铜油比偏高",
       "dir": "bull",
+<<<<<<< HEAD
       "text": "铜油比 159.7，工业景气预期强"
+=======
+      "text": "铜油比 161.3，工业景气预期强"
+>>>>>>> b2aa7daaabcc8b3c0b9e3f2dba03e5d1b862de09
     },
     {
       "name": "实际利率高企",
       "dir": "bear",
+<<<<<<< HEAD
       "text": "10Y 5.28%，压制金属估值"
     }
   ],
@@ -58,5 +105,51 @@
   "news": [],
   "ai_error": "未配置 DEEPSEEK_API_KEY",
   "ai_analysis": "",
+=======
+      "text": "10Y 5.27%，压制金属估值"
+    }
+  ],
+  "score": 1,
+  "news": [
+    {
+      "date": "2026-10-08",
+      "text": "US Tariff Threat Reprices Copper Without a Global Shortage",
+      "src": "Crux Investor",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVVJHX21aZWtfd1JFY0xfU0VidkVXSTFhRDQ3TVRzNGNDdGxodmdyWEtOR21ET3JTWHpvZ1BsUVRlX285MmtBMzd5dDVjS1NuWG1fSXd4Sk5zY2tOZlpvWDlVS1RpU1ctSEFvVFpOQ3VDbXVhSzliOHpXaHU1b1ppTE1SNG9LVWx3VXpnbktkazltODc1cDJQZQ?oc=5"
+    },
+    {
+      "date": "2026-10-08",
+      "text": "Copper Price: Navigating Near-Term Volatility and Long-Term Bullish Trends",
+      "src": "deVere Group",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5iR19yTVRLNWdQWTdndExpQzFoUDA1ZzQ1S1hOMzktMVA1cFBaQkxYNXByTXhaSElMbHFRWGFwQ2JpNkdLSElwTm1za011czVCcF9TaQ?oc=5"
+    },
+    {
+      "date": "2026-10-06",
+      "text": "Can Cobre Panama copper mine run for 25 years without growing?",
+      "src": "Benchmark Mineral Intelligence",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdF9BWjVBX2RGTmowbHFiczQ0b3NIOGw3bmRtdlN2SWtTdm0zUktFNlljZGp1cVNQM2Vaa09aR3hUV3JwMldOYmxWYlYzQkpzck95SmRNT1huN3VhNlpadFdJamZQbmtLMUpqLV93ZGxKRkhOSVR5RnBEdWtzWlhCMU00dkUwOGN5ZGxReEs5cVZjVmhWOHE4dmgzdVhiYzlvNE4ybzBFQnpMeVk?oc=5"
+    },
+    {
+      "date": "2026-10-05",
+      "text": "US-China trade rivalry fuels demand for copper stockpiles",
+      "src": "Azernews.az",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5waEFyQkk3SV9keHBKdFhHWmtZVmN2MTNTbFhvd09CUXB1YWtYUkhoMWVGZVdMVm9GVnJ6WE00enpiUHk2cTU5SHlOZE42aWRuUy01TzZCUQ?oc=5"
+    },
+    {
+      "date": "2026-10-07",
+      "text": "Power Metallic Mines Advances Nisk PEA with BBA & ethos Appointments",
+      "src": "Streetwise Reports",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOS1gwQ3QzeEdOZV94cXRNaHVnTnpKUElMd2xRVUdycmUwVmNORFJUODBtUkdiNTlvbnRXb2pqekRBTnpZXy1fYkRMUmVKS1U1TDVaNkowMS1mUUh4U3BPMU8zY0ZkTEJUS05ZaGo0eF9McThoMUV2dGVza1V4cFpkNFVZQlJpc1o4MTFiQTlhLThybVByUjIzSkh6cDZaNlZQT1VxUDhYSkFDZW14WE02TGV0ZXRCVFpMcWRqZEFlZFI2WnkxZHo4?oc=5"
+    },
+    {
+      "date": "2026-10-06",
+      "text": "DNCA Investments: \"Copper is at the heart of trade and technology wars\"",
+      "src": "marketscreener.com",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZWZBSnR1eWNCTzlPS0t1NS1zMklxdXR1OVZwWDFaMXdqTGdubnZKY2JkOTA0cVdZQkFxVXRFc3gzQzZjQjRzMl9BUlJtMTJfUzhEQk5xNGowd2NibkFyLVo4dHNVdHZieGxtOEhJZ0pEOGg3bGN6SHlCZ0x5SDJ4LTJyd0xwa3RhLTE3RFh4Q3FKSDRqNUN0YUFWeFhkaTk4ZThQS2dWZDk2QmtPbGNnUEJSZU1PTXF5YnRxdUt3?oc=5"
+    }
+  ],
+  "ai_analysis": "",
+  "ai_error": "未自动生成，点击按钮手动生成",
+>>>>>>> b2aa7daaabcc8b3c0b9e3f2dba03e5d1b862de09
   "ai_date": "2026-10-09"
 }

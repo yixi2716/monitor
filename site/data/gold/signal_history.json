@@ -118,5 +118,20 @@
       "neutral",
       "neutral"
     ]
+<<<<<<< HEAD
+=======
+  },
+  {
+    "date": "2026-10-09",
+    "score": -1,
+    "mode": "M",
+    "dirs": [
+      "bear",
+      "neutral",
+      "neutral",
+      "neutral",
+      "neutral"
+    ]
+>>>>>>> b2aa7daaabcc8b3c0b9e3f2dba03e5d1b862de09
   }
 ]

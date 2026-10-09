@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "date": "2026-10-08",
   "hs300": 4310.28,
   "hs300_chg": 0.0,
@@ -63,4 +64,72 @@
   ],
   "ai_analysis": "综合分析：今日医药板块全线零涨跌，数据呈静态，主因或为数据源未更新或休市，但新闻面信息量较大。核心矛盾在于：10Y美债5.29%高位对创新药/CXO估值形成压制，美元兑人民币6.6939偏强不利港股医疗联动；但国内政策端“十五五规划”创新药主线、北京集采质量监管新规（反内卷、利好合规龙头）、种植牙集采三年放量347万套（以价换量逻辑兑现）构成结构性支撑。子板块看，创新药ETF（0.839）与CXO ETF（0.339）弹性最大，受益于一品红FDA临床获批、四川双马商业化验证等催化；中药ETF（0.867）防御属性强但缺乏催化；医疗器械ETF（0.432）受集采降价压制但口腔种植牙放量边际改善。港股恒生医疗数据缺失，需警惕美债高企下港股流动性折价传导。情绪面偏中性略谨慎，集采质量监管趋严中长期利好龙头集中度提升，但短期压制中小药企。超额收益+0.00%显示医药未跑赢大盘，资金观望情绪浓。",
   "ai_error": ""
+=======
+  "date": "2026-10-09",
+  "hs300": 4317.25,
+  "hs300_chg": 0.0,
+  "med_etf": 0.38,
+  "med_etf_chg": 0.0,
+  "inn_etf": 0.843,
+  "inn_etf_chg": 0.0,
+  "cxo_etf": 0.341,
+  "cxo_etf_chg": 0.0,
+  "tcm_etf": 0.89,
+  "tcm_etf_chg": 0.0,
+  "meddev_etf": 0.44,
+  "meddev_etf_chg": 0.0,
+  "vaccine_etf": 2.249,
+  "vaccine_etf_chg": 0.0,
+  "hsi_health": 24211.35,
+  "hsi_health_chg": 0.0,
+  "tnx": 5.26,
+  "usdcny": 6.6816,
+  "excess": 0.0,
+  "north_money": null,
+  "north_date": "",
+  "news": [
+    {
+      "date": "2026-10-09",
+      "text": "上海医药氯维地平乳状注射液获国家药监局批准生产 - 观点网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5raGh2SjVWV0MtbHRNNUVUTEJDREJCOWdvU0pna2pOaTZYdmI0QjJYVVVXQTZTbGQ5emd5dHplZEFJNkY2OWV4ZG9RbG5QQTVRNkFVZlRlZzRZdm1WSFI4VGx3?oc=5"
+    },
+    {
+      "date": "2026-10-09",
+      "text": "见证中医药救治危重症的力量：北京中医医院2026年度“中西医融合危重症诊疗技术进修班”学员心声 - 北京市卫生健康委员会",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5ITXBSY0dVSlNuaU5RN3NCbG9zN2ttU0MwNmstdlVZTkN5WTRXeDN6cWVEQW1MbFp3ZWlKanBjeVZOdl84UzlRTFFfT0Z2WWVRaGprN0lwTDB0Z0lNQ1JDM1JKWkFxUGk1STVtbUZxOGZwLVVkQWE0WnV5dkg?oc=5"
+    },
+    {
+      "date": "2026-10-09",
+      "text": "实施首都中医药人才行动计划，打造多层次中医药人才队伍 - 京报网",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBRNjNqcnJFUF9rSnVNUjQ4TUpidzFtMndVaDRJUVBxdzljeTVBVlZDcUdlVVRWUWNXc3FHdkk1blU5N19RUC1RY1VBMjNVZDdJUmJNUmFaTDdyNTFKRFE?oc=5"
+    },
+    {
+      "date": "2026-10-09",
+      "text": "154位中外专家、154场报告 世界传统医药大会将在京举办 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBGQ2lCaW8xLUtDUlZvMmRzbnpUZTBJOFZLOEJfLVNfNDZNR3F2dUdZTXRFNkNKLURTRmdEZ0YtTzVJOTdrOFB5QmozTGY0ajROOUx2R19JT0p5RVdCSDZQck92TUJSQUc1MzBJTnBGcjh5SzFGMDNLXw?oc=5"
+    },
+    {
+      "date": "2026-10-09",
+      "text": "金凤凰生物医药创新中心在张家港市凤凰镇开工建设 - 紫牛新闻",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBUREs0R3A1dkpsdzhOa1dRTnRtbVFRTnBaUHlaUE5wRDBvZWJCajlPVEdBRVM2R05hTW5EQ0ZFNmNydnRhaVBlcjU4N25TNC1ndlVLMlAzZXZjLVBpYXNUek5qbGxVaC1sY1picDJiSHJKdWdjN0VzVA?oc=5"
+    },
+    {
+      "date": "2026-10-09",
+      "text": "图解财报：沃华医药前三季归母净利润9265.45万元，同比增长44.78% - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE96bjZCNGhabmxhejhpTDRRT1FrUEpTWXdUbHZsSE1LWk04YzVXTGExRXd1S1NhSlFJWGtTM0UwbTRhR1B6WWtmRjhPcDA2YjROc1BkSjhBMXRoUXc4blNjZjV4VnRPUQ?oc=5"
+    },
+    {
+      "date": "2026-10-09",
+      "text": "超20款1类创新药布局，健康元创新转型进入商业化验证阶段 - 同花顺财经",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1iYWRfbHkzbmd3MVZOWkV4TVlaNUdqa1E0NEpCMlhNdGNldUlmWi1GVDdVZmtQYkRxazFlcmZUZ0w4VG90dDlSLVdFNXBwVFFIa21lUW9oTFZxZGFmeHA5a3ZR?oc=5"
+    },
+    {
+      "date": "2026-10-09",
+      "text": "两市首份三季报出炉！沃华医药2026年前三季度净利增长44.78%，双基药格局验证产品线质量_行业新闻_财经 - 证券之星",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE56dlZuOVZYd2llSkxScFc0Wi1ySmxyeXRNRlFqQk9FUlE5NEY1OVpBZndwTktTQUdRR3BxZTRVMGRsdVlhemV6Z0lmaWJja25sTU1pbTl5YnY2d0RKX2RRcg?oc=5"
+    }
+  ],
+  "ai_analysis": "",
+  "ai_error": "未自动生成，点击按钮手动生成"
+>>>>>>> b2aa7daaabcc8b3c0b9e3f2dba03e5d1b862de09
 }
