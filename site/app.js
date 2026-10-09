@@ -143,6 +143,10 @@
     } else {
       el.innerHTML = '<span style="color:var(--muted)">今日 AI 分析暂未生成。</span>';
     }
+    // 按日期存档（可翻阅历史；有存档优先展示存档）
+    if (window.AIArchive && DATA.latest) {
+      AIArchive.init({ commodity: "pig", baseDir: "data/", displayEl: "pig-ai", dataDate: DATA.latest.date });
+    }
   }
 
   /* ---------- 待复核区 ---------- */
@@ -501,6 +505,7 @@ ${sigLines}
     const data = await resp.json();
     if(data.error) throw new Error(data.error.message);
     el.textContent = data.choices[0].message.content;
+    if (window.AIArchive) AIArchive.setCurrent(data.choices[0].message.content);
   } catch(e) {
     el.innerHTML = '<span style="color:#f85149">生成失败: '+e.message+'</span>';
   }

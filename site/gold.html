@@ -259,7 +259,22 @@
       <button onclick="regenerateGoldAI()" style="margin-left:12px;padding:4px 12px;background:var(--accent);color:#000;border:none;border-radius:4px;cursor:pointer;font-size:12px">重新生成</button>
     </h2>
     <div id="ai-content" style="font-size:14px; line-height:1.9; color:var(--text); white-space:pre-wrap;"></div>
-    <p class="src-note">由 DeepSeek 模型读取当日看板数据后生成；不构成投资建议。</p>
+    <p class="src-note">由 DeepSeek 模型读取当日看板数据后生成；每晚 0 点自动生成并存档，白天手动生成可点"存入档案"覆盖当天。同一天多次生成，以最后一次为准。</p>
+    <details style="margin-top:6px;font-size:12px;color:var(--muted)">
+      <summary style="cursor:pointer">查看本页 AI 提示词</summary>
+      <pre style="white-space:pre-wrap;background:rgba(127,181,232,.06);padding:10px;border-radius:6px;margin-top:6px;font-size:12px;line-height:1.6;color:var(--muted)">你是贵金属分析师，每日跟踪黄金市场。基于以下数据，按要求输出。
+
+【核心数据】
+- COMEX黄金：$${L.gold}/盎司（涨跌%），MA20，MA50
+- 沪金主力 / 金银比（>80 避险升温）/ DXY / 10Y美债 / VIX / CFTC黄金净持仓
+- 美联储：利率、距下次FOMC天数、市场预期
+- 地缘局势：紧张度、WTI原油
+
+【每日信号】当日 5 条信号（美元/利率/避险/情绪/实物）
+
+【输出格式】1.涨跌归因 2.宏观映射 3.资金信号 4.内外盘 5.短期展望+关键支撑/阻力位 6.近期风险事件
+要求：200-300字，普通人能懂，不要套话和免责声明，未获取的数据不要编造。</pre>
+    </details>
   </section>
 
   <footer>
@@ -276,6 +291,7 @@
     document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.5.1/echarts.min.js"><\/script>');
   }
 </script>
+<script src="ai_archive.js"></script>
 <script>
 const fmtPct = v => (v >= 0 ? '+' : '') + v.toFixed(2) + '%';
 const fmtMoney = v => '$' + v.toLocaleString('en-US', {maximumFractionDigits: 1});
@@ -412,16 +428,20 @@ function renderAI(L) {
   if (!L.ai_analysis) {
     const err = L.ai_error ? '原因：' + L.ai_error : '';
     el.innerHTML = '<span style="color:var(--muted);font-size:13px">今日 AI 分析暂未生成。' + err + '</span>';
-    return;
+  } else {
+    el.textContent = L.ai_analysis;
+    // 在标题后面加日期
+    const h2 = document.querySelector('#ai-block h2');
+    if (h2 && L.ai_date) {
+      const dateSpan = document.createElement('span');
+      dateSpan.style.cssText = 'color:var(--muted);font-weight:400;font-size:12px;margin-left:8px';
+      dateSpan.textContent = '(' + L.ai_date + ')';
+      h2.appendChild(dateSpan);
+    }
   }
-  el.textContent = L.ai_analysis;
-  // 在标题后面加日期
-  const h2 = document.querySelector('#ai-block h2');
-  if (h2 && L.ai_date) {
-    const dateSpan = document.createElement('span');
-    dateSpan.style.cssText = 'color:var(--muted);font-weight:400;font-size:12px;margin-left:8px';
-    dateSpan.textContent = '(' + L.ai_date + ')';
-    h2.appendChild(dateSpan);
+  // 加载按日期存档（有存档时优先展示存档，可翻阅历史）
+  if (window.AIArchive) {
+    AIArchive.init({ commodity: 'gold', baseDir: 'data/gold/', displayEl: 'ai-content', dataDate: L.date });
   }
 }
 
@@ -629,6 +649,7 @@ ${sigLines}
     const data = await resp.json();
     if(data.error) throw new Error(data.error.message);
     el.textContent = data.choices[0].message.content;
+    if (window.AIArchive) AIArchive.setCurrent(data.choices[0].message.content);
   } catch(e) {
     el.innerHTML = '<span style="color:#f85149">生成失败: '+e.message+'</span>';
   }

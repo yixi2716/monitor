@@ -6,6 +6,7 @@
 <title>铜价周期监测台</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔶</text></svg>">
 <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+<script src="ai_archive.js"></script>
 <style>
 :root{
   --bg:#0d1117; --card:#161b22; --border:#30363d;
@@ -76,7 +77,28 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,'Segoe UI'
     <button onclick="regenerateAI()" style="margin-left:12px;padding:4px 12px;background:var(--accent2);color:#000;border:none;border-radius:4px;cursor:pointer;font-size:12px">重新生成</button>
   </h2>
   <div class="ai-box" id="ai">加载中...</div>
-  <div class="src">由 DeepSeek 模型读取当日数据后生成；不构成投资建议。</div>
+  <div class="src">由 DeepSeek 模型读取当日数据后生成；每晚 0 点自动生成并存档，白天手动生成可点"存入档案"覆盖当天。同一天多次生成，以最后一次为准。</div>
+  <details style="margin-top:6px;font-size:12px;color:var(--muted)">
+    <summary style="cursor:pointer">查看本页 AI 提示词</summary>
+    <pre style="white-space:pre-wrap;background:rgba(212,120,42,.07);padding:10px;border-radius:6px;margin-top:6px;font-size:12px;line-height:1.6">你是大宗商品分析师，每日跟踪铜市场。基于以下数据，按要求输出。
+
+【核心数据】
+- COMEX铜：$/磅（涨跌%），MA20，MA50
+- 沪铜主力 / 沪伦比值（>1 进口有利）/ DXY / VIX / 10Y美债
+- WTI原油 / 铜油比
+- LME库存 / 沪铜库存（日变）/ LME Cash-3M升贴水 / 铜精矿TC / CFTC铜非商业净持仓
+
+【每日信号】当日规则信号列表
+【最近新闻】矿端/库存/关税相关新闻（最近7天）
+
+【输出要求】1.涨跌归因（宏观美元/利率、供给、需求预期、美国232铜关税政策）
+2.库存与价差：紧张还是宽松格局
+3.内外盘：沪伦比值强弱，232关税对COMEX溢价的影响
+4.资金信号：趋势是否健康
+5.短期展望：偏多/偏空/震荡 + 关键价位
+6.风险点（含关税政策变化风险）
+要求：200-300字，普通人能懂，不要套话和免责声明，未获取的数据不要编造。</pre>
+  </details>
 </div>
 
 <div class="section" style="font-size:12px;color:var(--muted)">
@@ -129,6 +151,8 @@ async function load(){
   const aiEl = document.getElementById('ai');
   if(L.ai_analysis){ aiEl.textContent = L.ai_analysis; }
   else { aiEl.innerHTML = '<span style="color:var(--muted)">今日 AI 分析暂未生成'+(L.ai_error?'（'+L.ai_error+'）':'')+'</span>'; }
+  // 按日期存档（可翻阅历史；有存档优先展示存档）
+  if (window.AIArchive) { AIArchive.init({ commodity: 'copper', baseDir: 'data/copper/', displayEl: 'ai', dataDate: L.date }); }
   // 图：铜价 vs 铜股联动
   const hist = await fetch('data/copper/history.json',{cache:'no-store'}).then(r=>r.json());
   const dates = hist.map(h=>h.date);
@@ -221,6 +245,7 @@ ${newsLines}
     const data = await resp.json();
     if(data.error) throw new Error(data.error.message);
     aiEl.textContent = data.choices[0].message.content;
+    if (window.AIArchive) AIArchive.setCurrent(data.choices[0].message.content);
   } catch(e) {
     aiEl.innerHTML = '<span style="color:#f85149">生成失败: '+e.message+'</span>';
   }

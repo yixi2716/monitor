@@ -2,8 +2,7 @@ name: update-pig-data
 
 on:
   schedule:
-    - cron: '30 8 * * *'        # 每日 UTC 08:30 = 北京 16:30（A股收盘后，猪数据）
-    - cron: '0 6 * * *'         # 每日 UTC 06:00 = 北京 14:00（美股前一晚收盘后，黄金+铜）
+    - cron: '0 16 * * *'         # 每日 UTC 16:00 = 北京次日 00:00（当天 A股+美股数据均已收盘，统一更新全部品种 + AI 分析存档）
     - cron: '0 1 10 * *'        # 每月10日 09:00 北京：月报/周报
     - cron: '0 1 15 * *'        # 每月15日 09:00 北京：能繁母猪
   workflow_dispatch:
@@ -29,32 +28,39 @@ jobs:
           python-version: '3.11'
       - run: pip install -r requirements.txt
 
-      # 黄金+铜（UTC 06:00 定时 或 手动触发）
-      - if: github.event.schedule == '0 6 * * *' || github.event_name == 'workflow_dispatch'
+      # 黄金+铜+医药+猪（UTC 16:00 = 北京 0 点 定时 或 手动触发）
+      - if: github.event.schedule == '0 16 * * *' || github.event_name == 'workflow_dispatch'
         run: python scripts/fetch_gold.py
         continue-on-error: true
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
-      - if: github.event.schedule == '0 6 * * *' || github.event_name == 'workflow_dispatch'
+      - if: github.event.schedule == '0 16 * * *' || github.event_name == 'workflow_dispatch'
         run: python scripts/fetch_copper.py
         continue-on-error: true
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
 
       # 医药（每日）
-      - if: github.event.schedule == '0 6 * * *' || github.event_name == 'workflow_dispatch'
+      - if: github.event.schedule == '0 16 * * *' || github.event_name == 'workflow_dispatch'
         run: python scripts/fetch_pharma.py
         continue-on-error: true
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
 
-      # 猪（UTC 08:30 定时 或 手动触发）
-      - if: github.event.schedule == '30 8 * * *' || github.event_name == 'workflow_dispatch'
+      # 猪（每日）
+      - if: github.event.schedule == '0 16 * * *' || github.event_name == 'workflow_dispatch'
         run: python scripts/fetch_daily.py
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
-      - if: github.event.schedule == '30 8 * * *' || github.event_name == 'workflow_dispatch'
+      - if: github.event.schedule == '0 16 * * *' || github.event_name == 'workflow_dispatch'
         run: python scripts/signals.py
+
+      # AI 每日综合分析（数据齐后统一生成，按日期存档；当天已有人工保存的存档则不覆盖）
+      - if: github.event.schedule == '0 16 * * *' || github.event_name == 'workflow_dispatch'
+        run: python scripts/ai_daily.py
+        continue-on-error: true
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
 
       # 月报/能繁
       - if: github.event.schedule == '0 1 10 * *'

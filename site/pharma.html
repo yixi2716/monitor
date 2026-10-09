@@ -59,7 +59,27 @@ button{cursor:pointer}
     <button onclick="regenerateAI()" style="margin-left:12px;padding:4px 12px;background:var(--accent);color:#fff;border:none;border-radius:4px;cursor:pointer;font-size:12px">重新生成</button>
   </h2>
   <div class="ai-box" id="ai">加载中...</div>
-  <p style="font-size:11px;color:var(--muted);margin-top:8px">由 DeepSeek 模型读取当日数据后生成；不构成投资建议。</p>
+  <p style="font-size:11px;color:var(--muted);margin-top:8px">由 DeepSeek 模型读取当日数据后生成；每晚 0 点自动生成并存档，白天手动生成可点"存入档案"覆盖当天。同一天多次生成，以最后一次为准。</p>
+  <details style="margin-size:12px;font-size:12px;color:var(--muted)">
+    <summary style="cursor:pointer">查看本页 AI 提示词</summary>
+    <pre style="white-space:pre-wrap;background:rgba(63,185,80,.07);padding:10px;border-radius:6px;margin-top:6px;font-size:12px;line-height:1.6">请作为医药板块分析师，基于以下数据对今日A股医药行业进行跟踪分析。
+
+【核心数据】
+- 沪深300 / 医药ETF / 创新药ETF / CXO医疗ETF / 中药ETF / 医疗器械ETF / 疫苗ETF / 恒生医疗（各含涨跌幅）
+- 10Y美债 / 美元人民币 / 医药相对沪深300超额收益
+
+【当日医药新闻】最近新闻（最多8条）
+
+【分析要求】
+1.涨跌归因：政策驱动、事件催化（license-out/临床数据）、利率驱动还是大盘贝塔？领涨子板块逻辑
+2.结构：子板块分化，资金内部切换方向
+3.联动：港股创新药与A股共振，美债利率对创新药/CXO估值影响
+4.政策扫描：集采/医保谈判/支付改革的短中长期影响
+5.情绪：涨跌停家数、新闻热度判断情绪位置
+
+【输出格式】一段话行情解读(100字内) + 短期展望(方向+催化与风险) + 当日重要事件摘要(1-2条，判断一次性催化还是基本面变化)
+如某项数据当日未更新，标注"未更新"并沿用最近值，不要编造数据。</pre>
+  </details>
 </div>
 
 <div class="section" style="font-size:12px;color:var(--muted)">
@@ -69,6 +89,7 @@ button{cursor:pointer}
   新闻：<a href="https://news.google.com/" target="_blank" style="color:var(--accent2)">Google News ↗</a>
 </div>
 
+<script src="ai_archive.js"></script>
 <script>
 const DEEPSEEK_KEY = "sk-238f37694a504056b4178fb33d6613b6";
 
@@ -165,6 +186,8 @@ async function load(){
     const aiEl = document.getElementById('ai');
     if(L.ai_analysis) aiEl.textContent = L.ai_analysis;
     else aiEl.innerHTML = '<span style="color:var(--muted)">AI分析未生成'+(L.ai_error?'（'+L.ai_error+'）':'')+'</span>';
+    // 按日期存档（可翻阅历史；有存档优先展示存档）
+    if (window.AIArchive) { AIArchive.init({ commodity: 'pharma', baseDir: 'data/pharma/', displayEl: 'ai', dataDate: L.date }); }
   } catch(e) { console.error('AI error', e); }
 }
 load().catch(e=>document.body.innerHTML='<p style="color:red">加载失败: '+e+'</p>');
@@ -215,6 +238,7 @@ ${newsLines}
     const data = await resp.json();
     if(data.error) throw new Error(data.error.message);
     el.textContent = data.choices[0].message.content;
+    if (window.AIArchive) AIArchive.setCurrent(data.choices[0].message.content);
   } catch(e) {
     el.innerHTML = '<span style="color:#f85149">生成失败: '+e.message+'</span>';
   }

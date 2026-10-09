@@ -210,7 +210,27 @@
       <button onclick="regeneratePigAI()" style="margin-left:12px;padding:4px 12px;background:var(--red);color:#fff;border:none;border-radius:4px;cursor:pointer;font-size:12px">重新生成</button>
     </h2>
     <div id="pig-ai" style="background:linear-gradient(135deg,rgba(248,81,73,.08),transparent);border-left:3px solid var(--red);padding:14px;border-radius:6px;font-size:13px;line-height:1.8;white-space:pre-wrap;min-height:40px">加载中...</div>
-    <p style="font-size:11px;color:var(--muted);margin-top:8px">由 DeepSeek 模型读取当日数据后生成；不构成投资建议。</p>
+    <p style="font-size:11px;color:var(--muted);margin-top:8px">由 DeepSeek 模型读取当日数据后生成；每晚 0 点自动生成并存档，白天手动生成可点"存入档案"覆盖当天。同一天多次生成，以最后一次为准。</p>
+    <details style="margin-top:6px;font-size:12px;color:var(--muted)">
+      <summary style="cursor:pointer">查看本页 AI 提示词</summary>
+      <pre style="white-space:pre-wrap;background:rgba(248,81,73,.06);padding:10px;border-radius:6px;margin-top:6px;font-size:12px;line-height:1.6">你是生猪产业分析师，每日跟踪生猪市场。基于以下数据，按要求输出。
+
+【核心数据】
+- 全国生猪出栏均价 / 主产区河南 / 主销区广东 / 东北均价（元/公斤）
+- 大商所LH期货主力（元/吨）/ 猪粮比 / 豆粕价格 / 自繁自养利润（元/公斤）
+- 期货远月升水 / 能繁母猪存栏（季度数据）
+- 全部信号灯列表（名称+状态+判定描述）
+
+【输出要求】
+1.周期定位：去产能/筑底/上行/恢复/下行哪个阶段
+2.短期供需：供给压力 vs 季节性需求
+3.价格驱动：现货供需/期货资金/政策消息
+4.期现结构：基差和月差反映的市场预期
+5.短期展望：现货方向 + 期货关键价位
+6.周期提示：下一个关键观察点
+7.需关注事件：收储放储、产能数据发布日
+要求：200-300字，普通人能懂，不要套话和免责声明，未获取的数据不要编造。</pre>
+    </details>
   </section>
 
   <footer>
@@ -233,6 +253,7 @@
     document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.5.1/echarts.min.js"><\/script>');
   }
 </script>
+<script src="ai_archive.js"></script>
 <script src="app.js"></script>
 </body>
 </html>
