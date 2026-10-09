@@ -249,23 +249,31 @@ def main():
     etf_price = data.get("med_etf", 0)
     if etf_price > 0:
         all_preds = verify_predictions(etf_price)
-    # 再生成新预测
+    # AI 分析和预测改为前端手动触发，自动跑不调 API 省 token
+    data["ai_analysis"] = ""
+    data["ai_error"] = "未自动生成，点击按钮手动生成"
+    # 保留已有的预测记录，不生成新预测
+    pred_file = os.path.join(SITE_DATA_DIR, "predictions.json")
     try:
-        analysis, err, new_preds = call_deepseek(data)
-        data["ai_analysis"] = analysis
-        data["ai_error"] = err
-        # 合并新预测
-        if new_preds:
-            all_preds = new_preds + all_preds
-            # 只保留最近 100 条
-            all_preds = all_preds[:100]
-            with open(pred_file, "w", encoding="utf-8") as f:
-                json.dump(all_preds, f, ensure_ascii=False, indent=2)
-            print(f"  生成 {len(new_preds)} 条新预测")
+        with open(pred_file, "r", encoding="utf-8") as f:
+            all_preds = json.load(f)
+    except Exception:
+        all_preds = []
     except Exception as e:
         data["ai_error"] = str(e)
 
     print("[4/4] 写文件...")
+    # 把所有 NaN 替换成 None，否则 JSON 非法
+    import math
+    def clean_nan(obj):
+        if isinstance(obj, dict):
+            return {k: clean_nan(v) for k, v in obj.items()}
+        elif isinstance(obj, list):
+            return [clean_nan(v) for v in obj]
+        elif isinstance(obj, float) and math.isnan(obj):
+            return None
+        return obj
+    data = clean_nan(data)
     with open(os.path.join(DATA_DIR, "latest.json"), "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
     import shutil

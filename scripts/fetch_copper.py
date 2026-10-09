@@ -288,13 +288,9 @@ def main():
         "signals": signals, "score": score,
         "news": news,
     }
-    try:
-        analysis, ai_err = call_deepseek(latest_data)
-        latest_data["ai_error"] = ai_err
-    except Exception as e:
-        analysis = ""
-        latest_data["ai_error"] = f"{type(e).__name__}: {e}"
-    latest_data["ai_analysis"] = analysis
+    # AI 分析改为前端手动触发，自动跑不调 API 省 token
+    latest_data["ai_analysis"] = ""
+    latest_data["ai_error"] = "未自动生成，点击按钮手动生成"
     latest_data["ai_date"] = latest_data["date"]
 
     # 历史
