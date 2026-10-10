@@ -8,7 +8,7 @@ import re
 import json
 import html as html_mod
 import requests
-from util import load_json, save_json, git_push, today_str
+from util import load_json, save_json, today_str
 
 API_KEY = os.environ.get("DEEPSEEK_API_KEY", "")
 SOW_MIN, SOW_MAX = 3000, 4500  # 万头，合理性校验区间
@@ -148,7 +148,6 @@ def main():
         round(val / NORMAL_HOLDING * 100, 1) if val else None)
     manual["sow"] = rec
     save_json("manual.json", manual)
-    git_push(f"data: sow {today_str()}")
     print("sow record:", rec)
 
 

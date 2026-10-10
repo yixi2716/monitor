@@ -10,7 +10,7 @@
 import os
 import json
 import requests
-from util import load_json, save_json, git_push, today_str
+from util import load_json, save_json, today_str
 
 API_KEY = os.environ.get("DEEPSEEK_API_KEY", "")
 
@@ -138,7 +138,6 @@ def main():
     if weekly:
         manual["weekly_indicators"] = weekly
     save_json("manual.json", manual)
-    git_push(f"data: reports {today_str()}")
     print("reports done:", json.dumps(monthly, ensure_ascii=False)[:500])
 
 

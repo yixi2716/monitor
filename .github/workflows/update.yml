@@ -60,6 +60,7 @@ jobs:
       # 猪（每日）
       - if: github.event.schedule == '0 16 * * *' || github.event_name == 'workflow_dispatch'
         run: python scripts/fetch_daily.py
+        continue-on-error: true
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
       - if: github.event.schedule == '0 16 * * *' || github.event_name == 'workflow_dispatch'

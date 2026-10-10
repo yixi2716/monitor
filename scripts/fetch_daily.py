@@ -8,7 +8,12 @@
 """
 import akshare as ak
 import re
-from util import load_json, save_json, git_push, today_str, load_config
+import signal
+from util import load_json, save_json, today_str, load_config
+
+# 硬超时（秒）：akshare 走国内源（新浪/生意社/搜猪网），美国 runner 网络不通时
+# TCP 挂死不设超时将无限等待。7 分钟兜底，超时后退出（保留旧数据，不阻断流水线）。
+HARD_TIMEOUT = 420
 
 FUTURES_MAIN = [("LH0", "生猪"), ("C0", "玉米"), ("M0", "豆粕")]
 
@@ -88,7 +93,7 @@ def fetch_spot_pig(max_back=2):
     return None
 
 
-def main():
+def _main():
     data = load_json("latest.json")
     futures = fetch_futures()
     spot = fetch_spot_pig()
@@ -156,8 +161,25 @@ def main():
     hist = hist[-1500:]
     save_json("history.json", hist)
 
-    git_push(f"data: daily {today_str()}")
     print(f"daily fetch done: spot={data.get('spot_pig')} ratio={data.get('pig_grain_ratio')}")
+
+
+def main():
+    # signal.SIGALRM 仅 Unix 可用（Actions 是 ubuntu-latest）；Windows 本地调试跳过
+    has_alarm = hasattr(signal, "SIGALRM")
+    if has_alarm:
+        def _handler(signum, frame):
+            raise TimeoutError(f"akshare 抓取超过 {HARD_TIMEOUT}s，强制结束（保留旧数据）")
+
+        signal.signal(signal.SIGALRM, _handler)
+        signal.alarm(HARD_TIMEOUT)
+    try:
+        _main()
+    except TimeoutError as e:
+        print(f"[fatal] {e}")
+    finally:
+        if has_alarm:
+            signal.alarm(0)
 
 
 if __name__ == "__main__":
