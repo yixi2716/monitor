@@ -1,60 +1,60 @@
 {
   "date": "2026-10-09",
-  "gold": 4213.3,
-  "gold_chg": 1.35,
-  "ma20": 4267.45,
-  "ma50": 4376.91,
+  "gold": 4216.3,
+  "gold_chg": 1.43,
+  "ma20": 4267.6,
+  "ma50": 4376.97,
   "above_ma20": false,
   "above_ma50": false,
-  "dxy": 102.28,
-  "dxy_chg": 0.14,
-  "vix": 14.93,
-  "vix_chg": -3.11,
+  "dxy": 102.21,
+  "dxy_chg": 0.07,
+  "vix": 14.84,
+  "vix_chg": -3.7,
   "tip": 104.42,
-  "tnx": 5.26,
-  "corr_gold_dxy": -0.19,
+  "tnx": 5.24,
+  "corr_gold_dxy": -0.2,
   "corr_gold_tip": 0.3,
   "corr_gold_vix": -0.51,
-  "basis": 37.28,
-  "vol20": 17.6,
-  "gold_silver_ratio": 68.88,
-  "usdcny": 6.6818,
+  "basis": 37.05,
+  "vol20": 17.7,
+  "gold_silver_ratio": 69.5,
+  "usdcny": 6.7021,
   "shfe_au": 908.64,
   "shfe_au_date": "2026-10-09",
-  "cftc_gold_net": -250967,
-  "cftc_gold_date": "2026-09-29",
+  "cftc_gold_net": -244527,
+  "cftc_gold_date": "2026-10-06",
   "mode": "M",
   "mode_name": "M · 混合驱动",
   "confidence": "低",
   "evidence": [
-    "黄金与 TIP 相关性 +0.30，与 DXY 相关性 -0.19",
-    "VIX 14.9，与 VIX 相关性 -0.51",
+    "黄金与 TIP 相关性 +0.30，与 DXY 相关性 -0.20",
+    "VIX 14.8，与 VIX 相关性 -0.51",
     "多因子混合驱动，无单一主导逻辑"
   ],
   "signals": [
     {
       "name": "美元信号",
-      "text": "DXY 102.3 > 101，压制金价",
+      "text": "DXY 102.2 > 101，压制金价",
       "dir": "bear"
     },
     {
       "name": "利率信号",
-      "text": "TIP 5日 +0.29%，实际利率平稳",
+      "text": "TIP 5日 +0.30%，实际利率平稳",
       "dir": "neutral"
     },
     {
       "name": "避险信号",
-      "text": "VIX 14.9 < 15，风险偏好高 → 利空",
+      "text": "VIX 14.8 < 15，风险偏好高 → 利空",
       "dir": "bear"
     },
     {
       "name": "情绪信号",
-      "text": "VIX 5日 -2%，情绪平稳",
+      "text": "VIX 5日 -3%，情绪平稳",
       "dir": "neutral"
     },
     {
       "name": "实物信号",
-      "text": "GLD 与期货同步（5日 +1.03% vs +1.23%）",
+      "text": "GLD 与期货同步（5日 +1.17% vs +1.30%）",
       "dir": "neutral"
     }
   ],
@@ -135,10 +135,10 @@
     },
     {
       "date": "2026-10-09",
-      "gold": 4213.3,
-      "gold_chg": 1.35,
-      "dxy": 102.28,
-      "vix": 14.93,
+      "gold": 4216.3,
+      "gold_chg": 1.43,
+      "dxy": 102.21,
+      "vix": 14.84,
       "tip": 104.42
     }
   ],
@@ -160,10 +160,10 @@
         "dot_plot": true
       }
     ],
-    "zq_price": 96.07,
-    "zq_implied_rate": 3.93,
-    "market_bp_vs_current": -7.0,
-    "market_expectation": "市场预期下次会议维持不变",
+    "zq_price": 96.11,
+    "zq_implied_rate": 3.89,
+    "market_bp_vs_current": -11.0,
+    "market_expectation": "市场预期降息 11bp",
     "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
   },
   "geopolitics": {
@@ -211,11 +211,11 @@
       }
     ],
     "gold_impact": "双重作用：局势升级→避险买盘利多黄金；但同时油价飙升→通胀预期→美联储更难降息→利空黄金。当前谈判窗口期，油价波动会直接传导到金价。",
-    "wti_price": 92.01,
-    "wti_chg": 0.57,
+    "wti_price": 91.85,
+    "wti_chg": 0.39,
     "news_auto": true
   },
-  "ai_analysis": "1. 涨跌归因：金价涨1.35%至4213.30美元，但仍在MA20（4267）和MA50（4377）下方，属超跌反弹而非趋势反转。美元102.28偏强、VIX仅14.9显示避险需求弱，反弹持续性存疑。\n\n2. 宏观映射：美元强、风险偏好高本应压制金价，今日上涨出现背离，说明买盘并非来自宏观逻辑，更可能是技术性修复或低位承接，缺乏基本面支撑。\n\n3. 资金信号：CFTC净持仓-250,967张，为净空头，投机盘看空情绪浓厚，尚未出现过热做多，反而存在空头回补推涨的可能。\n\n4. 内外盘：沪金908.64元/克，国内溢价需对比汇率换算，暂无明显内外分化信号。\n\n5. 短期展望：震荡偏空。阻力位MA20约4267，支撑位4150附近。若跌破4150，下看4100。\n\n6. 近期风险事件：距FOMC还有19天，市场预期维持利率不变；关注美国通胀与就业数据、WTI原油92美元对通胀预期的传导。",
-  "ai_error": "",
+  "ai_analysis": "",
+  "ai_error": "未自动生成，点击按钮手动生成",
   "ai_date": "2026-10-09"
 }

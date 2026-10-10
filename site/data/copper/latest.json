@@ -1,17 +1,17 @@
 {
-  "date": "2026-10-09",
-  "copper": 6.689000129699707,
-  "copper_chg": 2.607763075644254,
-  "ma20": 6.585175037384033,
-  "ma50": 6.5499700260162355,
-  "dxy": 102.27999877929688,
-  "vix": 14.930000305175781,
-  "tnx": 5.261000156402588,
-  "wti": 91.98999786376953,
-  "cu_oil_ratio": 160.3076835350878,
+  "date": "2026-10-10",
+  "copper": 6.642499923706055,
+  "copper_chg": 1.8944603357653245,
+  "ma20": 6.58285002708435,
+  "ma50": 6.549040021896363,
+  "dxy": 102.20999908447266,
+  "vix": 14.84000015258789,
+  "tnx": 5.24399995803833,
+  "wti": 91.8499984741211,
+  "cu_oil_ratio": 159.43591099706845,
   "shfe_cu": 110110.0,
   "shfe_cu_date": "2026-10-09",
-  "shfe_lme_ratio": 1.037,
+  "shfe_lme_ratio": 1.044,
   "lme_stock": 296625,
   "lme_stock_date": "2026-07-17",
   "shfe_stock": 8285,
@@ -23,35 +23,35 @@
   "tl_chg": 1.74,
   "jxt": 42.51,
   "jxt_chg": 1.48,
-  "cper": 40.19,
-  "cper_chg": 1.86,
-  "copx": 85.68,
-  "copx_chg": 4.21,
+  "cper": 40.31,
+  "cper_chg": 2.15,
+  "copx": 85.75,
+  "copx_chg": 4.29,
   "signals": [
     {
       "name": "铜价站上MA20",
       "dir": "bull",
-      "text": "$6.69 > MA20 $6.59"
+      "text": "$6.64 > MA20 $6.58"
     },
     {
       "name": "美元中性",
       "dir": "neutral",
-      "text": "DXY 102.28"
+      "text": "DXY 102.21"
     },
     {
       "name": "风险偏好正常",
       "dir": "neutral",
-      "text": "VIX 14.9"
+      "text": "VIX 14.8"
     },
     {
       "name": "铜油比偏高",
       "dir": "bull",
-      "text": "铜油比 160.3，工业景气预期强"
+      "text": "铜油比 159.4，工业景气预期强"
     },
     {
       "name": "实际利率高企",
       "dir": "bear",
-      "text": "10Y 5.26%，压制金属估值"
+      "text": "10Y 5.24%，压制金属估值"
     }
   ],
   "score": 1,
@@ -81,10 +81,10 @@
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5waEFyQkk3SV9keHBKdFhHWmtZVmN2MTNTbFhvd09CUXB1YWtYUkhoMWVGZVdMVm9GVnJ6WE00enpiUHk2cTU5SHlOZE42aWRuUy01TzZCUQ?oc=5"
     },
     {
-      "date": "2026-10-07",
-      "text": "Power Metallic Mines Advances Nisk PEA with BBA & ethos Appointments",
+      "date": "2026-10-10",
+      "text": "Adamera Expands Max IP Anomaly to 3 km at South Hedley Near Hudbay's Copper Mountain",
       "src": "Streetwise Reports",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOS1gwQ3QzeEdOZV94cXRNaHVnTnpKUElMd2xRVUdycmUwVmNORFJUODBtUkdiNTlvbnRXb2pqekRBTnpZXy1fYkRMUmVKS1U1TDVaNkowMS1mUUh4U3BPMU8zY0ZkTEJUS05ZaGo0eF9McThoMUV2dGVza1V4cFpkNFVZQlJpc1o4MTFiQTlhLThybVByUjIzSkh6cDZaNlZQT1VxUDhYSkFDZW14WE02TGV0ZXRCVFpMcWRqZEFlZFI2WnkxZHo4?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPcFpweTNyZkhidjhhbmt5aWhSVUlhYXd6a0tIWVFxQlNzRE94N21uZWlYUnI4cEZQZFlnYk5DeFFYTWYzSzlfcExQOHlkNXBnMTZVbTRacXJQZEFtT2g0VzZzRnFEMV9hbHdBSWp6U0xadjZISXlieW1PZTVoUUd5RjF2LWtKRjI5OEdjb0dCT3MwOEhTT1Z2SkVlY0VnWGlQVFpoR0lWeGFKenh5SE13VGx1cEJYd2xyYVFiQlZQMkJneUpIQ1pla3JfTmFKalNBM0pkRGpjdkg?oc=5"
     },
     {
       "date": "2026-10-06",
@@ -93,7 +93,7 @@
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZWZBSnR1eWNCTzlPS0t1NS1zMklxdXR1OVZwWDFaMXdqTGdubnZKY2JkOTA0cVdZQkFxVXRFc3gzQzZjQjRzMl9BUlJtMTJfUzhEQk5xNGowd2NibkFyLVo4dHNVdHZieGxtOEhJZ0pEOGg3bGN6SHlCZ0x5SDJ4LTJyd0xwa3RhLTE3RFh4Q3FKSDRqNUN0YUFWeFhkaTk4ZThQS2dWZDk2QmtPbGNnUEJSZU1PTXF5YnRxdUt3?oc=5"
     }
   ],
-  "ai_analysis": "**涨跌归因**：今日COMEX铜涨2.61%，主因是铜价站上MA20、铜油比160.3显示工业需求预期偏强，叠加美国232关税威胁引发抢运囤货情绪。但10Y美债5.26%的高实际利率在压制估值，涨幅并非全面牛市启动。\n\n**库存与价差**：LME库存29.6万吨属中性偏高，沪铜库存仅8,285吨但日增599吨，国内偏紧但开始补库。LME升贴水未获取，无法判断现货紧张程度，整体是\"结构性偏紧、全球不短缺\"格局。\n\n**内外盘**：沪伦比值1.037>1，进口有利润，说明国内价格相对偏强。232关税预期让COMEX对LME溢价扩大，美国买家提前囤货，这是当前COMEX领涨的核心逻辑，而非全球真实缺铜。\n\n**资金信号**：站上MA20是bull，铜油比bull，但美元、VIX中性，实际利率bear——信号多空交织，趋势只能算\"温和健康\"，不是单边强势。\n\n**短期展望**：震荡偏多。COMEX关键支撑$6.55（MA50），阻力$6.80；沪铜支撑¥108,000，阻力¥112,000。\n\n**风险点**：①232关税若落地或豁免，COMEX溢价可能快速回吐；②10Y美债若继续上行破5.5%，金属估值将承压。",
-  "ai_error": "",
-  "ai_date": "2026-10-09"
+  "ai_analysis": "",
+  "ai_error": "未自动生成，点击按钮手动生成",
+  "ai_date": "2026-10-10"
 }
