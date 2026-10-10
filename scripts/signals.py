@@ -89,11 +89,12 @@ def main():
     })
     print(f"signals: {green} / {n} {verdict}")
 
-    # DeepSeek AI 综合分析
+    # DeepSeek AI 综合分析 —— 默认停用：用户决定手动生成（曾因 Actions 反复失败烧额度）。
+    # 如需恢复每日自动生成：workflow 里给 signals.py 步骤加 env ENABLE_PIG_AUTO_AI=1
     try:
         import urllib.request, datetime
         api_key = os.environ.get("DEEPSEEK_API_KEY", "").strip()
-        if api_key:
+        if api_key and os.environ.get("ENABLE_PIG_AUTO_AI") == "1":
             sig_lines = "\n".join(f"  - {s['name']}（{s['status']}）：{s['desc']}" for s in signals)
             prov = latest.get('province_prices', {})
             henan = prov.get('河南', '未获取')
