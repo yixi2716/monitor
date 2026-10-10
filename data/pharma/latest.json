@@ -1,66 +1,66 @@
 {
-  "date": "2026-10-09",
+  "date": "2026-10-10",
   "hs300": 4317.25,
   "hs300_chg": 0.0,
-  "med_etf": 0.38,
-  "med_etf_chg": 0.0,
-  "inn_etf": 0.843,
-  "inn_etf_chg": 0.0,
-  "cxo_etf": 0.341,
-  "cxo_etf_chg": 0.0,
-  "tcm_etf": 0.89,
-  "tcm_etf_chg": 0.0,
-  "meddev_etf": 0.44,
-  "meddev_etf_chg": 0.0,
-  "vaccine_etf": 2.249,
-  "vaccine_etf_chg": 0.0,
+  "med_etf": null,
+  "med_etf_chg": null,
+  "inn_etf": null,
+  "inn_etf_chg": null,
+  "cxo_etf": null,
+  "cxo_etf_chg": null,
+  "tcm_etf": null,
+  "tcm_etf_chg": null,
+  "meddev_etf": null,
+  "meddev_etf_chg": null,
+  "vaccine_etf": null,
+  "vaccine_etf_chg": null,
   "hsi_health": 24211.35,
   "hsi_health_chg": 0.0,
-  "tnx": 5.26,
-  "usdcny": 6.6818,
-  "excess": 0.0,
-  "north_money": null,
-  "north_date": "",
+  "tnx": 5.24,
+  "usdcny": 6.7021,
+  "excess": null,
+  "north_money": 296735.35,
+  "north_date": "20261009",
   "news": [
     {
-      "date": "2026-10-09",
-      "text": "上海医药氯维地平乳状注射液获国家药监局批准生产 - 观点网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5raGh2SjVWV0MtbHRNNUVUTEJDREJCOWdvU0pna2pOaTZYdmI0QjJYVVVXQTZTbGQ5emd5dHplZEFJNkY2OWV4ZG9RbG5QQTVRNkFVZlRlZzRZdm1WSFI4VGx3?oc=5"
+      "date": "2026-10-10",
+      "text": "中医+AI联手推动中医药经验优势转化，国家科技重大专项在沪启动 - 上观新闻",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBfTXZvdEpUMDl3UmxrNnhzdW91djlGUE9OLV9kU3gzWlpVY3ZoZXhCVkx4QW84aU9iZGZvZkVtcW1sQXF5UDIzRElWaExCemNuNFEzcmNGOGgzUQ?oc=5"
     },
     {
-      "date": "2026-10-09",
-      "text": "实施首都中医药人才行动计划，打造多层次中医药人才队伍 - 京报网",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBmZWlWa1piOEliQ2xUZ2FOQnVSYXVYQ0F0REFqV2RkUDd4b2MtdlFlbGdXM21wMWl1Qzl6VVJVVVBOUVp1aFhpWTdNdlRKeHRtLTNneTRHbUNjTjMtSFdZUUUzaHNULW1hRmJqRXdfVVI3QQ?oc=5"
+      "date": "2026-10-10",
+      "text": "北京中医药大学：涵养师者仁心 赓续岐黄薪火 - 新华网客户端",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcm9QdTBXYUY5UVdEQVg4UkNHOGlkTlFmZFljVS1vZklMcFE4SjR5ZFYyQ2dkREJ5MVFqakMzNjFJeTJUUUQ4ME5jWU1RWjdhZk9yT195YmNjcnROZWxUNHRGSHltZXB1YVlMSGlyTW90ajVCU1dRc3ZEbmdhcXM1clYtdlRRcU9TSlVlOVRWeXpTRXRzS3luN3JB?oc=5"
     },
     {
-      "date": "2026-10-09",
-      "text": "中国官方：推动中医药国际合作更加贴近各国卫生健康需求 - 中国新闻网",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0yRWVNZGNoSjBnc0RXMTlLWU9uRG5lTi1LZlF5X1YyeXY4U1FuSGRHdXpnZ3ZidWh5emhLRno0TF9sZE5XQk1ReHFyZmlBOVM2ZUpDUTBMZ3p5V2U4ZFJ5aGh5all3Y0NFR1dz?oc=5"
+      "date": "2026-10-10",
+      "text": "山东省药监局五分局组织化妆品法规培训暨履职能力考核_山东要闻_山东新闻_新闻 - 齐鲁网",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1aSDZtajVPZFlXSVEzaV9uMGNSM1VNcURXeUc0cTNVX1VSYVd6OG9BTXF2aE5nX0pKaHFGVEVaOXAxeTlYWFY5dkYxZUtKRFd3cno0bG83THYtdHZPRW84WW9rZnYycXFGVW1KNUMyNA?oc=5"
     },
     {
-      "date": "2026-10-09",
-      "text": "上海医药氯维地平乳状注射液获国家药监局批准生产 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNRGlqdEVWdWdIUDBCMmx4T3h4N2t3em5jUzRKYXJma1pKUG9HR3hiSWloNXlFcGhLWk1vQ2FVbUMyNnVJT2lHTF9XM1ktRnNrWXZWcVpfcDJ4VEczMUE2V0IwR2tGSUNYcUpsUWN6S3EyNHVNMlpxTy1EdXZXWmRDUndHOVVYZXR3bnc?oc=5"
+      "date": "2026-10-10",
+      "text": "A股首份三季报出炉沃华医药净利同比增长44.78%|非经常性损益|净利润|基药|股东|目录 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBaTmFLQXhzektIMXhkLXBJMUluenpqWU5uTEdXalVMRlRHSm9CLXgwTkt5aWgtT0VZeWRIbjlSZUZnVU9zaWMwZV9CRTEzMWdRMFZEejYtQmZWdXJnX3dtdHYzNmxGOGJ2TnQ5NjFRSDdRbTIzbWU0eg?oc=5"
     },
     {
-      "date": "2026-10-09",
-      "text": "山东省药监局一分局举办药品出口合规风险沙龙助力药企稳健出海_山东要闻_山东新闻_新闻 - 齐鲁网",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE56M09MV25nS0xNQmhKY1loUVAxRkNDSTRab3NjTTZlZld4dTAzbGxubDQtOUxXbGVHZUktZ0pNRzhBUUpXb3RlVTVEaEVnSHVxQUUzNGl0MURaLVV3V1U5cndZQ3NUR1ctVjFvRFgtcw?oc=5"
+      "date": "2026-10-10",
+      "text": "前三季基金业绩揭榜: 半导体吃肉、原油喝汤、医药复兴 - 华尔街见闻",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBIUnVhTUczbkxzOC05VS1tOWlBazJNbWgxdjR5MkNTbkxJcHQ0UkkwUms1d3RWVUpha3BWajV1aElOUVVRLUJSdXVfZFZNTjlIUjFV?oc=5"
     },
     {
-      "date": "2026-10-09",
-      "text": "见证中医药救治危重症的力量：北京中医医院2026年度“中西医融合危重症诊疗技术进修班”学员心声 - 北京市卫生健康委员会",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5ITXBSY0dVSlNuaU5RN3NCbG9zN2ttU0MwNmstdlVZTkN5WTRXeDN6cWVEQW1MbFp3ZWlKanBjeVZOdl84UzlRTFFfT0Z2WWVRaGprN0lwTDB0Z0lNQ1JDM1JKWkFxUGk1STVtbUZxOGZwLVVkQWE0WnV5dkg?oc=5"
+      "date": "2026-10-10",
+      "text": "12000元医药费只花3000多 骑手：真切享受到了医保 - 浙江在线",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5HdWlsYjFVeHR6dkN6QzljTUFRclkyVzA1MjV1aGlENUVxcUxneGpXZnVOVmc4NlFqLVBoVXNvWVUxN1JGWE95a25iTlNLXzVsalZ6VXF3bVBvM01tS3dkMkc3TTRMalZ4bGtzRA?oc=5"
     },
     {
-      "date": "2026-10-09",
-      "text": "看变化 悟思想丨一祠传医脉 一园启新程 - 新浪新闻",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9TSTZkTnFzTzUwVjhUeDhHTHpTeTFuVmNUNnRvTHdxM2ZvUUx3UGV0NVZZTktQaEpsSFpPWDlEV3ZJRjNLVXR3dkFuQm1SMUVhX0UtdElJSDBNck9uUDRueUxhSWV4TjdEX1V1b0lzZVJNWExpU2c?oc=5"
+      "date": "2026-10-10",
+      "text": "以“药”兴城 江西樟树着力打造中医药协同发展高地 - 搜狐网",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdkxvMnUxWWNCNlYwVW91UzRkcjI3Z0dnZ0hOQU5RS0xYRGNBUkU3VUVzTkVWYUEwWU1nRlJvcllzbWQ2b2FnNHEyWHBhVEJ5emMwMndpdDR2dEFNZXBfN2c3VHRGX3R6emIxM0V2VEIwbS1LRzJteTFoNnE3SVRmY25pMUlOVGdF?oc=5"
     },
     {
-      "date": "2026-10-09",
-      "text": "金凤凰生物医药创新中心在张家港市凤凰镇开工建设 - 紫牛新闻",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBUREs0R3A1dkpsdzhOa1dRTnRtbVFRTnBaUHlaUE5wRDBvZWJCajlPVEdBRVM2R05hTW5EQ0ZFNmNydnRhaVBlcjU4N25TNC1ndlVLMlAzZXZjLVBpYXNUek5qbGxVaC1sY1picDJiSHJKdWdjN0VzVA?oc=5"
+      "date": "2026-10-10",
+      "text": "9月三成基金正收益，但这些明星基金经理亏超10% - 新京报",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAxMzhFN2ZONU10dDhIQ2ozTW5ZVEpFN0NtZGc5ajRyX052WGhEajVSNzg3OEx3UWVVcUdfVHJXX0JrZEdaTlk1N1l2QTl6N2lMMnZsZERQeG40akZJYWZHd09aNC0?oc=5"
     }
   ],
   "ai_analysis": "",
