@@ -53,6 +53,9 @@ jobs:
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
       - if: github.event.schedule == '0 16 * * *' || github.event_name == 'workflow_dispatch'
+        run: python scripts/fetch_pig_stocks.py
+        continue-on-error: true
+      - if: github.event.schedule == '0 16 * * *' || github.event_name == 'workflow_dispatch'
         run: python scripts/signals.py
 
       # AI 每日自动分析已停用：曾因生成失败反复 rerun 消耗 API 额度。

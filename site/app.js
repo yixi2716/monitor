@@ -9,7 +9,8 @@
     history: null,
     signals: null,
     manual: null,
-    sow_history: null
+    sow_history: null,
+    stocks: null
   };
 
   function el(id) { return document.getElementById(id); }
@@ -28,7 +29,8 @@
       { key: "history", url: "data/history.json" },
       { key: "signals", url: "data/signals.json" },
       { key: "manual", url: "data/manual.json" },
-      { key: "sow_history", url: "data/sow_history.json" }
+      { key: "sow_history", url: "data/sow_history.json" },
+      { key: "stocks", url: "data/pig/stocks.json" }
     ];
     return Promise.all(jobs.map(function (j) {
       return fetch(j.url)
@@ -396,17 +398,152 @@
     }, true);
   }
 
+  /* ---------- A股猪企：股价 vs 猪价联动 ---------- */
+  var STOCK_NAMES = { muyuan: "牧原股份", wens: "温氏股份", xinxiwang: "新希望" };
+  var STOCK_COLORS = { muyuan: "#5FA8D9", wens: "#3FBF7F", xinxiwang: "#BC8CFF" };
+
+  function spotMap() {
+    var m = {};
+    (DATA.history || []).forEach(function (h) { if (h.spot_pig != null) m[h.date] = h.spot_pig; });
+    return m;
+  }
+
+  /* 归一化序列（首个非空值=100），自动跨 null 断点连线 */
+  function normArr(dates, get) {
+    var base = null;
+    return dates.map(function (d) {
+      var v = get(d);
+      if (v == null) return null;
+      if (base == null) base = v;
+      return +(v / base * 100).toFixed(2);
+    });
+  }
+
+  function renderStockChart() {
+    var c = chart("chart-stock");
+    if (!c) return;
+    var stocks = DATA.stocks || [];
+    if (!stocks.length) {
+      c.setOption({ backgroundColor: "transparent", title: { text: "暂无 A股猪企数据（明晚自动更新后显示）", textStyle: { color: "#8FA39A", fontSize: 13 } } }, true);
+      return;
+    }
+    var dates = stocks.map(function (r) { return r.date; });
+    var sm = spotMap();
+    var series = [{
+      name: "生猪现货(归一)", type: "line", data: normArr(dates, function (d) { return sm[d]; }),
+      smooth: true, symbol: "none", connectNulls: true,
+      lineStyle: { width: 2.5, color: "#E8934A", type: "dashed" }
+    }];
+    ["muyuan", "wens", "xinxiwang"].forEach(function (k) {
+      series.push({
+        name: STOCK_NAMES[k], type: "line",
+        data: normArr(dates, function (d) {
+          for (var i = 0; i < stocks.length; i++) if (stocks[i].date === d) return stocks[i][k];
+          return null;
+        }),
+        smooth: true, symbol: "none", connectNulls: true,
+        lineStyle: { width: 1.8, color: STOCK_COLORS[k] }
+      });
+    });
+    c.setOption({
+      backgroundColor: "transparent",
+      tooltip: { trigger: "axis" },
+      legend: { data: ["生猪现货(归一)", "牧原股份", "温氏股份", "新希望"], textStyle: { color: "#8FA39A" }, top: 0 },
+      grid: { left: 44, right: 20, top: 36, bottom: 60 },
+      dataZoom: makeZoom(dates),
+      xAxis: {
+        type: "category", data: dates, boundaryGap: false,
+        axisLine: { lineStyle: { color: AXIS.line } },
+        axisLabel: { color: AXIS.text }
+      },
+      yAxis: {
+        type: "value", name: "期初=100", nameTextStyle: { color: AXIS.text }, scale: true,
+        splitLine: { lineStyle: { color: AXIS.split } },
+        axisLabel: { color: AXIS.text }
+      },
+      series: series
+    }, true);
+  }
+
+  /* 股价日变动 与 猪价日变动 的配对样本（仅共同交易日） */
+  function pairedChanges() {
+    var sm = spotMap();
+    var stocks = DATA.stocks || [];
+    var pairs = { muyuan: [], wens: [], xinxiwang: [] };
+    for (var i = 1; i < stocks.length; i++) {
+      var a = stocks[i - 1], b = stocks[i];
+      var sp0 = sm[a.date], sp1 = sm[b.date];
+      if (sp0 == null || sp1 == null || !sp0) continue;
+      var pc = (sp1 / sp0 - 1) * 100;
+      ["muyuan", "wens", "xinxiwang"].forEach(function (k) {
+        if (a[k] != null && b[k] != null && a[k] !== 0) pairs[k].push([pc, (b[k] / a[k] - 1) * 100]);
+      });
+    }
+    return pairs;
+  }
+
+  function corrSlope(pairs) {
+    var n = pairs.length;
+    if (n < 10) return null;
+    var mx = 0, my = 0;
+    pairs.forEach(function (p) { mx += p[0]; my += p[1]; });
+    mx /= n; my /= n;
+    var sxy = 0, sxx = 0, syy = 0;
+    pairs.forEach(function (p) {
+      sxy += (p[0] - mx) * (p[1] - my);
+      sxx += (p[0] - mx) * (p[0] - mx);
+      syy += (p[1] - my) * (p[1] - my);
+    });
+    if (!sxx || !syy) return null;
+    return { n: n, corr: sxy / Math.sqrt(sxx * syy), beta: sxy / sxx };
+  }
+
+  function renderSens() {
+    var box = el("stock-sens");
+    if (!box) return;
+    var stocks = DATA.stocks || [];
+    if (!stocks.length) {
+      box.innerHTML = '<p class="empty">暂无 A股猪企数据（明晚自动更新后显示）。</p>';
+      return;
+    }
+    var pairs = pairedChanges();
+    var last = stocks[stocks.length - 1];
+    var rows = ["muyuan", "wens", "xinxiwang"].map(function (k) {
+      var c120 = corrSlope(pairs[k]);
+      var c60 = corrSlope(pairs[k].slice(-60));
+      return { key: k, price: last[k], c60: c60, c120: c120 };
+    });
+    var html = '<table style="width:100%;border-collapse:collapse;font-size:13px"><thead><tr style="color:var(--muted);font-size:12px;text-align:left"><th style="padding:6px 8px;border-bottom:1px solid var(--border)">标的</th><th style="padding:6px 8px;border-bottom:1px solid var(--border)">现价</th><th style="padding:6px 8px;border-bottom:1px solid var(--border)">60日相关</th><th style="padding:6px 8px;border-bottom:1px solid var(--border)">120日相关</th><th style="padding:6px 8px;border-bottom:1px solid var(--border)">敏感度(120日)</th></tr></thead><tbody>';
+    rows.forEach(function (r) {
+      function cell(v, suffix, invert) {
+        if (!v) return '<td style="padding:6px 8px;border-bottom:1px solid var(--border);color:var(--muted)">数据不足</td>';
+        var good = invert ? v.corr < 0.3 : v.corr > 0.4;
+        var col = good ? "var(--green)" : (Math.abs(v.corr) > 0.4 ? "var(--yellow)" : "var(--muted)");
+        return '<td style="padding:6px 8px;border-bottom:1px solid var(--border);color:' + col + '">' + (v.corr >= 0 ? "+" : "") + v.corr.toFixed(2) + (suffix || "") + '</td>';
+      }
+      var betaCell = !r.c120 ? '<td style="padding:6px 8px;border-bottom:1px solid var(--border);color:var(--muted)">数据不足</td>'
+        : '<td style="padding:6px 8px;border-bottom:1px solid var(--border);color:var(--text)">猪价+1% → 股价 ' + (r.c120.beta >= 0 ? "+" : "") + r.c120.beta.toFixed(2) + '%</td>';
+      html += '<tr><td style="padding:6px 8px;border-bottom:1px solid var(--border);font-weight:700">' + STOCK_NAMES[r.key] + '</td>' +
+        '<td style="padding:6px 8px;border-bottom:1px solid var(--border)">' + fmt(r.price) + '</td>' +
+        cell(r.c60) + cell(r.c120) + betaCell + '</tr>';
+    });
+    html += '</tbody></table>';
+    box.innerHTML = html;
+  }
+
   /* ---------- 主入口 ---------- */
   function renderAll() {
     renderHeader();
     renderSignals();
     renderAI();
     renderPending();
+    renderSens();
     if (window.echarts) {
       renderPriceChart();
       renderRatioChart();
       renderSowChart();
       renderCurveChart();
+      renderStockChart();
     } else {
       el("chart-price").innerHTML = '<p class="empty">ECharts 加载失败，请检查网络后刷新。</p>';
     }

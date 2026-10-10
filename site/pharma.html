@@ -315,7 +315,7 @@ function renderCharts(hist){
   const mk = (id, opt) => { const el=document.getElementById(id); if(!el) return; const c=echarts.init(el,null,{renderer:'canvas'}); c.setOption(opt); window.addEventListener('resize',()=>c.resize()); };
   const axis = {type:'category',data:dates,axisLabel:{color:'#8b949e',fontSize:10},axisLine:{lineStyle:{color:'#30363d'}}};
   const yAxis = {type:'value',scale:true,axisLabel:{color:'#8b949e',fontSize:10},splitLine:{lineStyle:{color:'#21262d'}}};
-  const line = (name,key,color) => ({name,type:'line',showSymbol:false,data:norm(key),lineStyle:{width:1.5},color});
+  const line = (name,key,color) => ({name,type:'line',showSymbol:false,connectNulls:true,data:norm(key),lineStyle:{width:1.5},color});
   const legend = {textStyle:{color:'#8b949e',fontSize:11},top:0};
   const grid = {left:40,right:16,top:34,bottom:24};
   // 核心对比
@@ -345,7 +345,7 @@ function renderCharts(hist){
   // 利率联动
   mk('chart-rate',{backgroundColor:'transparent',legend,grid:{left:40,right:44,top:34,bottom:24},tooltip:{trigger:'axis'},xAxis:axis,yAxis:[yAxis,{type:'value',scale:true,axisLabel:{color:'#d29922',fontSize:10},splitLine:{show:false}}],series:[
     line('创新药ETF','inn_etf','#58a6ff'),
-    {name:'10Y美债 %',type:'line',showSymbol:false,yAxisIndex:1,data:hist.map(h=>h.tnx),lineStyle:{width:1.5,color:'#d29922'}}
+    {name:'10Y美债 %',type:'line',showSymbol:false,connectNulls:true,yAxisIndex:1,data:hist.map(h=>h.tnx),lineStyle:{width:1.5,color:'#d29922'}}
   ]});
 }
 load().catch(e=>document.body.innerHTML='<p style="color:red">加载失败: '+e+'</p>');

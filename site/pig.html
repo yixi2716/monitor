@@ -194,6 +194,18 @@
   </div>
 
   <section class="block">
+    <h2><span class="dot" style="background:#5FA8D9"></span>A股生猪板块 · 股价与猪价联动 <span style="font-size:11px;color:var(--muted);letter-spacing:0;font-weight:400">归一化 = 期初 100 · 蓝线穿越橙虚线 = 股价跑赢猪价</span></h2>
+    <div class="chart-box tall" id="chart-stock"></div>
+    <p class="empty" style="margin-top:8px">数据源：A股日线 <a href="https://finance.yahoo.com/" target="_blank" rel="noopener noreferrer">Yahoo Finance ↗</a>（牧原股份 002714.SZ / 温氏股份 300498.SZ / 新希望 000876.SZ）+ 生意社现货猪价。猪股通常领先现货猪价见底/见顶，可辅助板块择时。</p>
+  </section>
+
+  <section class="block">
+    <h2><span class="dot" style="background:#5FA8D9"></span>标的敏感度 · 股价对猪价的弹性</h2>
+    <div id="stock-sens"></div>
+    <p class="empty" style="margin-top:8px">60日/120日 = 最近多少个共同交易日；敏感度 = 线性回归斜率（猪价每变动 1%，股价历史平均变动 %）。个股走势还受自身出栏量、成本曲线、估值影响，本表只看猪价弹性这一个维度。</p>
+  </section>
+
+  <section class="block">
     <h2><span class="dot"></span>能繁母猪存栏（季度）</h2>
     <div class="chart-box tall" id="chart-sow"></div>
     <p class="empty" style="margin-top:8px">数据源：国家统计局 / 农业农村部季度发布。虚线为正常保有量 3750 万头（2026 年修订目标）。</p>
