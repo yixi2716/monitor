@@ -17,15 +17,15 @@
    },
    {
     "month": "2026-09",
-    "count": 29,
+    "count": 27,
     "manual": false,
-    "auto_clues": 29
+    "auto_clues": 27
    },
    {
     "month": "2026-10",
-    "count": 7,
+    "count": 8,
     "manual": false,
-    "auto_clues": 7
+    "auto_clues": 8
    }
   ],
   "note": "count 为手工维护的官方计数(config/bd_manual.json)；无手工值时为近60天获批新闻线索数(高估情绪、非官方口径)"
