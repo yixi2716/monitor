@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-09",
+  "hs300": 4317.25,
+  "hs300_chg": 0.16,
+  "solar_etf": 0.765,
+  "solar_etf_chg": 0.26,
+  "newenergy_etf": 2.249,
+  "newenergy_etf_chg": 0.67,
+  "storage_etf": 1.645,
+  "storage_etf_chg": -0.24,
+  "tnx": 5.24,
+  "usdcny": 6.7021,
+  "excess": 0.1,
+  "dd_from_high": 0.3533,
+  "pb_ratio": 0.0333,
+  "turnover_ratio": 0.792,
+  "stocks": {
+    "tongwei": {
+      "close": 11.65,
+      "chg": 1.84
+    },
+    "zhonghuan": {
+      "close": 9.69,
+      "chg": 3.42
+    },
+    "junda": {
+      "close": 36.07,
+      "chg": 1.01
+    },
+    "longi": {
+      "close": 11.24,
+      "chg": 1.54
+    },
+    "flat": {
+      "close": 9.38,
+      "chg": 2.85
+    },
+    "jiejia": {
+      "close": 53.36,
+      "chg": 3.63
+    },
+    "sungrow": {
+      "close": 80.68,
+      "chg": 0.24
+    }
+  },
+  "news": [
+    {
+      "date": "2026-10-10",
+      "text": "河源市源城区政府屋顶光伏三期项目复核通过 总投资23747.75万元 - 观点网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5pWTJkMWFLeXA2bTJpOHFKM29zSDNMTktzYzdkY0tYVFV0NVZYM0ZwTF9GY3JBT3hXX21fWGtUSFFGRmtaWDVpQ1FjclRCZTdPTnNWN0pFM0tYenl1YjVPTVp3?oc=5"
+    },
+    {
+      "date": "2026-10-09",
+      "text": "我国首个三塔光伏光热基地并网发电-政务公开 - 青海省人民政府",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1NNUZVY0RQeEJpdGJsQmdrNXJOREhyV19HQ2lhUkJ5RHc4a1dZV3YtVF9CMFoxRVpuX3pTLTh2bTN2THNGMU0wbl9Nc0M4c0l1UTJDSVFTS2RLTFpUSV9tU1ZVcWpNNWhoZmxuVEhlZ0tSdw?oc=5"
+    },
+    {
+      "date": "2026-10-10",
+      "text": "屋顶揽阳光绿电助振兴——江苏首个中压并网“整村连片+绿电直供”分布式光伏项目落地宜兴白塔村 - 江苏省委新闻网",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNzJCM2ZrMUxiRi1PMGdhMUdjdW5fZHU2WGxoT0Rtd0c0ekZibjhyLWlDSTFJV01oVFJ2VFJpTEJySnZTS09LeTFza2NkbG1tNjJLQ2hpV3NGUXNuZkdXWlppUDBTU0NDdS0xSEw0TV9sa1V4cGs0V3ZzWmZjaVhHZXV4UE0?oc=5"
+    },
+    {
+      "date": "2026-10-10",
+      "text": "屋顶光伏赋能企业绿色低碳发展 - 国际太阳能光伏网",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1ldmdOYm1DVVZTUEplODlXTUpEOWtfU3dBOFVTNG9WcmdMVzJLUGVOTlN3RXQ5YUtYNTFrRlp4OHdQOE5MVUo5NnhET0hjZjJTSEh0amJLU19HZm9T?oc=5"
+    },
+    {
+      "date": "2026-10-10",
+      "text": "至少一半光伏企业，熬不过未来一年里最惨烈的大洗牌了！_产业观察_财经 - 证券之星",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1XTl9KVkJFRVdMbERpTWUzMm85WWN4dWJFMDZVbUlZOUg5cUZCbmlfNE1aSTA5VkxCVTRpWk1HNXFoZGkyZDFLV28tMlFrbjFybWdMYWNFUm5PbnJhdUhoZA?oc=5"
+    },
+    {
+      "date": "2026-10-10",
+      "text": "绿电赋能乡村兴 渔光互补富农家 - 新华网重庆",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBpY1NKZlYtaGFuUWp1OXEtMG55UDVrUVQ4QjEydUU1dnNFOE1GVENOTExKWDVYR2xvblNoZ2IwdXdfVlJYcjAtVWJOUDFpa1otdVlEbGlfMFc2am9hN2hLSlFYdTRfUE9ZejMxdVhrNzQ5a3g0dUE?oc=5"
+    },
+    {
+      "date": "2026-10-10",
+      "text": "银星能源工会开展2026年光伏运维值班员技能竞赛 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1iWGRqdTdXZTF2TkRtM2pjcW9tUEZ6bldBT0VXc0hKYlFMOVFLWk5fZ0ZwcHdsZEV1bm9YaVFsV1VkbllzN1l5bElVSDVqbmtfbU5Qam8ySmZ4Q0FibEpicnNkU1JKZl9JbGFzVUVJNU5WN1VSLW9lQy1MOGs?oc=5"
+    },
+    {
+      "date": "2026-10-10",
+      "text": "上海海关有效打击光伏产品侵权出口 - 搜狐网",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQU0VIV1JjYVJ6dTlqWlR0WXRGaWltSE5hcGRCdkh3cFhpQU9GNXlmSXdoM2NuLVRDRGlDSnQ5VUcxa2N1RkJrM2pkWmlkX0lBbGxQRFpoRzZDa0xPZWpSSHF5MnZwT05HY2I2RWZmbDJ0LUFxakZvbjFCS293TGJ5NGcwMTBOQzd4MTRj?oc=5"
+    }
+  ],
+  "ai_analysis": "",
+  "ai_error": "未自动生成，点击按钮手动生成"
+}

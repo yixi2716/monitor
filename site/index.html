@@ -195,6 +195,25 @@
       <div class="enter">进入监测 →</div>
     </a>
 
+    <!-- 光伏：已上线 -->
+    <a class="card" href="./solar.html">
+      <span class="tag">已上线</span>
+      <h2>
+        <span class="ico">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#E0B341" stroke-width="2" stroke-linecap="round">
+            <circle cx="12" cy="12" r="4"/>
+            <path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M19.1 4.9L17 7M7 17l-2.1 2.1"/>
+          </svg>
+        </span>
+        光伏板块
+      </h2>
+      <p class="desc">产业价格（硅料/组件/玻璃）/ 光伏ETF 趋势 / 破净比例 / 子板块广度 · 位置×时机×政策×产业四层监测</p>
+      <div class="status-line" id="solar-status">
+        <span class="verdict">加载中…</span>
+      </div>
+      <div class="enter">进入监测 →</div>
+    </a>
+
     <!-- 占位：规划中 -->
     <div class="card placeholder">
       <span class="tag">规划中</span>
@@ -294,6 +313,14 @@
         '<span class="verdict">' + (ph.med_etf_chg >= 0 ? '上涨' : '下跌') + '</span>' +
         '<span class="score-big">' + (ph.med_etf_chg >= 0 ? '+' : '') + ph.med_etf_chg.toFixed(2) + '<small style="font-size:11px;color:var(--muted);font-weight:500"> %</small></span>' +
         '<span class="date">' + ph.date + '</span>';
+    }
+    // 光伏
+    const so = await loadCardStatus('data/solar/latest.json', 'solar-status');
+    if (so && so.solar_etf > 0) {
+      document.getElementById('solar-status').innerHTML =
+        '<span class="verdict">' + (so.solar_etf_chg >= 0 ? '上涨' : '下跌') + '</span>' +
+        '<span class="score-big">' + (so.solar_etf_chg >= 0 ? '+' : '') + so.solar_etf_chg.toFixed(2) + '<small style="font-size:11px;color:var(--muted);font-weight:500"> %</small></span>' +
+        '<span class="date">' + so.date + '</span>';
     }
   })();
 </script>

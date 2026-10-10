@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>光伏板块 · 监测看板</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☀️</text></svg>">
+<style>
+:root{
+  --bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
+  --accent:#3fb950;--accent2:#58a6ff;--up:#3fb950;--down:#f85149;
+  --green:#3fb950;--red:#f85149;--orange:#d29922;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;font-size:14px;line-height:1.6;padding:20px;max-width:1400px;margin:0 auto}
+.header{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px}
+.header h1{font-size:22px;display:flex;align-items:center;gap:8px}
+.header a{color:var(--muted);text-decoration:none;font-size:13px}
+.kpi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-bottom:20px}
+.kpi{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:14px;border-top:3px solid var(--accent)}
+.kpi .label{font-size:12px;color:var(--muted)}
+.kpi .value{font-size:24px;font-weight:700;margin:4px 0}
+.kpi .chg{font-size:13px}
+.kpi .chg.up{color:var(--up)}.kpi .chg.down{color:var(--down)}
+.kpi .src{font-size:10px;color:var(--muted);margin-top:6px}
+.section{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:16px;margin-bottom:16px}
+.section h2{font-size:15px;margin-bottom:12px;display:flex;align-items:center;gap:6px}
+.section h2 .dot{width:8px;height:8px;border-radius:50%;background:var(--accent);display:inline-block}
+.news-item{padding:8px 0;border-bottom:1px solid var(--border);font-size:13px}
+.news-item:last-child{border:none}
+.news-item .date{color:var(--muted);margin-right:8px;font-size:12px}
+.news-item a{color:var(--text);text-decoration:none}
+.news-item a:hover{color:var(--accent2)}
+.ai-box{background:linear-gradient(135deg,rgba(63,185,80,.08),transparent);border-left:3px solid var(--accent);padding:14px;border-radius:6px;font-size:13px;line-height:1.8;white-space:pre-wrap;min-height:40px}
+.signal-row{display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid var(--border);font-size:13px}
+.signal-row:last-child{border:none}
+.signal-row .name{flex:1;white-space:nowrap}
+.signal-row .desc{color:var(--muted);font-size:11px;flex:2}
+.badge{padding:2px 8px;border-radius:10px;font-size:11px;font-weight:600;white-space:nowrap}
+.badge.on{background:rgba(63,185,80,.15);color:var(--green)}
+.badge.off{background:rgba(110,118,129,.15);color:#6e7681}
+.badge.na{background:rgba(210,153,34,.15);color:var(--orange)}
+.badge.half{background:rgba(210,153,34,.15);color:var(--orange)}
+.badge.red{background:rgba(248,81,73,.2);color:var(--red)}
+.combined-bar{padding:14px 16px;border-radius:8px;font-size:17px;font-weight:700;text-align:center;margin-bottom:16px;border:1px solid var(--border);background:var(--card)}
+.verdict{padding:10px;border-radius:6px;text-align:center;font-weight:700;font-size:15px;margin-top:10px}
+.chart-note{font-size:11px;color:var(--muted);margin-top:4px}
+table.pt{width:100%;border-collapse:collapse;font-size:13px}
+table.pt th{color:var(--muted);font-weight:500;text-align:left;padding:6px 8px;border-bottom:1px solid var(--border);font-size:12px}
+table.pt td{padding:8px;border-bottom:1px solid var(--border)}
+button{cursor:pointer}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1><span>☀️</span>光伏板块 · 监测看板</h1>
+  <a href="index.html">← 返回总览</a>
+</div>
+
+<div class="kpi-grid" id="kpi"></div>
+
+<div class="combined-bar" id="combined" style="color:var(--muted)">组合状态加载中...</div>
+
+<div class="section">
+  <h2><span class="dot" style="background:#e8b84a"></span>产业价格看板 <span style="font-size:11px;color:var(--muted);font-weight:400">光伏最真实的高频语言 · 权重高于行情指标 · 手工维护 · 更新于 <span id="manual-date">—</span></span></h2>
+  <div id="industry"><span style="color:var(--muted);font-size:13px">产业价格加载中...</span></div>
+  <p class="chart-note">数据源优先级：硅业分会官网（每周三）> InfoLink/隆众/SMM 公开周报 > 手工维护。组件价的"近4周环比全正"同时驱动 ①号灯。</p>
+</div>
+
+<div class="section">
+  <h2><span class="dot" style="background:#58a6ff"></span>位置信号 · 估值与流动性 <span style="font-size:11px;color:var(--muted);font-weight:400">左侧回答"跌到位没有" · 数据截至 <span id="position-date">—</span></span></h2>
+  <div id="position"><span style="color:var(--muted);font-size:13px">估值数据加载中...</span></div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:14px">
+    <div>
+      <div id="chart-pb" style="height:180px"></div>
+      <p class="chart-note" style="font-size:11px;margin:4px 0 0">灯⑥ 破净比例历史（PB&lt;1 家数 ÷ 光伏池总数，逐日积累）</p>
+    </div>
+    <div>
+      <div id="chart-turnover" style="height:180px"></div>
+      <p class="chart-note" style="font-size:11px;margin:4px 0 0">灯⑦ 成交占比历史（光伏池 Σ成交额 ÷ 全市场，逐日积累）</p>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h2><span class="dot" style="background:#d29922"></span>时机信号 · 趋势确认 <span style="font-size:11px;color:var(--muted);font-weight:400">右侧五灯回答"行情走起来没有" · 数据截至 <span id="timing-date">—</span></span></h2>
+  <div id="timing"><span style="color:var(--muted);font-size:13px">历史数据加载中...</span></div>
+  <div class="verdict" id="timing-verdict" style="display:none"></div>
+</div>
+
+<div class="section">
+  <h2><span class="dot" style="background:#bc8cff"></span>公司先行指标 <span style="font-size:11px;color:var(--muted);font-weight:400">季度手工更新 · 领先主链盈利 1-2 个季度</span></h2>
+  <div id="leaders"><span style="color:var(--muted);font-size:13px">先行指标加载中...</span></div>
+</div>
+
+<div class="section">
+  <h2><span class="dot" style="background:#58a6ff"></span>一年走势对比 <span style="font-size:11px;color:var(--muted);font-weight:400">归一化 = 期初 100</span></h2>
+  <div id="chart-core" style="height:320px"></div>
+  <p class="chart-note">src: data/solar/history.json（Tushare 日线）</p>
+</div>
+
+<div class="section">
+  <h2><span class="dot" style="background:#58a6ff"></span>子板块强弱 <span style="font-size:11px;color:var(--muted);font-weight:400">7 只代表股归一化（硅料/硅片/电池/组件/玻璃/设备/逆变器）</span></h2>
+  <div id="chart-sub" style="height:320px"></div>
+  <p class="chart-note">src: data/solar/history.json（Tushare 日线）</p>
+</div>
+
+<div class="section">
+  <h2><span class="dot" style="background:#58a6ff"></span>光伏相对沪深300 累计超额 <span style="font-size:11px;color:var(--muted);font-weight:400">Σ(光伏ETF日涨跌 − 沪深300日涨跌)</span></h2>
+  <div id="chart-excess" style="height:280px"></div>
+  <p class="chart-note">src: data/solar/history.json；正 = 光伏跑赢大盘</p>
+</div>
+
+<div class="section">
+  <h2><span class="dot"></span>板块新闻</h2>
+  <div id="news"></div>
+</div>
+
+<div class="section">
+  <h2><span class="dot" style="background:#d29922"></span>未来5日超额方向预测 <span style="font-size:11px;color:var(--muted);font-weight:400">光伏ETF 相对沪深300 · 由 AI 综合分析末尾的预测块解析</span></h2>
+  <div id="excess-forecast" style="font-size:13px"><span style="color:var(--muted)">点下方"重新生成"后，AI 会给出未来5日超额方向（跑赢/跑输/持平 + 置信度）</span></div>
+</div>
+
+<div class="section">
+  <h2><span class="dot" style="background:#58a6ff"></span>AI 综合分析 · DeepSeek
+    <button onclick="regenerateAI()" style="margin-left:12px;padding:4px 12px;background:var(--accent);color:#fff;border:none;border-radius:4px;cursor:pointer;font-size:12px">重新生成</button>
+  </h2>
+  <div class="ai-box" id="ai">加载中...</div>
+  <p style="font-size:11px;color:var(--muted);margin-top:8px">由 DeepSeek 模型读取当日数据后生成；手动生成后点"存入档案"保存当天（同一天多次生成以最后一次为准），下拉框可翻阅历史存档。</p>
+  <details style="font-size:12px;color:var(--muted)">
+    <summary style="cursor:pointer">查看本页 AI 提示词</summary>
+    <pre style="white-space:pre-wrap;background:rgba(63,185,80,.07);padding:10px;border-radius:6px;margin-top:6px;font-size:12px;line-height:1.6" id="prompt-view">（提示词随重新生成时的实际发送内容一致，见下方"重新生成"逻辑）</pre>
+  </details>
+</div>
+
+<div class="section">
+  <h2><span class="dot" style="background:#bc8cff"></span>政策日历 <span style="font-size:11px;color:var(--muted);font-weight:400">宏观事件与医药页共享同源 · 光伏节点手工季度维护 · level≥4 事件驱动⑧号灯</span></h2>
+  <div id="calendar-list"><span style="color:var(--muted);font-size:13px">日历加载中...</span></div>
+</div>
+
+<div class="section" style="font-size:12px;color:var(--muted)">
+  <strong style="color:var(--text)">数据来源</strong><br>
+  光伏ETF(515790)/新能源ETF(516160)/储能ETF(159566)/沪深300/个股/破净比例/成交占比：<a href="https://tushare.pro/" target="_blank" style="color:var(--accent2)">Tushare ↗</a> ·
+  10Y美债/汇率：复用医药页同源数据（Yahoo Finance，不重复抓取） ·
+  产业价格/先行指标：config/solar_manual.json 手工维护 ·
+  新闻：<a href="https://news.google.com/" target="_blank" style="color:var(--accent2)">Google News ↗</a>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
+<script>if(typeof echarts==='undefined')document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.5.1/echarts.min.js"><\/script>')</script>
+<script src="solar_core.js?v=1"></script>
+<script src="ai_archive.js?v=3"></script>
+<script src="refresh.js?v=1"></script>
+<script>
+function getDeepseekKey(){
+  let k = localStorage.getItem('ds_key');
+  if(!k){
+    k = (prompt('首次生成需要输入 DeepSeek API Key（仅保存在本浏览器 localStorage，绝不进代码库）：')||'').trim();
+    if(k) localStorage.setItem('ds_key', k); else throw new Error('未填写 DeepSeek Key');
+  }
+  return k;
+}
+
+/* 产业价格各行的灯态（展示用；①号灯只看组件） */
+function priceLight(key, series){
+  if(!series || series.length < 2) return {st:'na', moms:[]};
+  const moms = [];
+  for(let i = Math.max(1, series.length-4); i < series.length; i++)
+    moms.push(series[i-1].value > 0 ? (series[i].value/series[i-1].value - 1) * 100 : null);
+  const lastMom = moms.length ? moms[moms.length-1] : null;
+  const allPos = moms.length === 4 && moms.every(m => m != null && m > 0);
+  if(key === 'glass') return {st: (lastMom != null && lastMom > 0) ? 'on' : 'off', moms};
+  if(key === 'wafer' || key === 'cell'){
+    if(allPos) return {st:'on', moms};
+    return {st: (lastMom != null && lastMom >= 0) ? 'half' : 'off', moms};  // 止跌即黄灯
+  }
+  // polysilicon / module：4周环比全正 = 亮
+  if(allPos) return {st:'on', moms};
+  return {st: (lastMom != null && lastMom > 0) ? 'half' : 'off', moms};
+}
+
+async function load(){
+  let L;
+  try {
+    L = await fetch('data/solar/latest.json',{cache:'no-store'}).then(r=>{
+      if(!r.ok) throw new Error('数据文件未生成');
+      return r.json();
+    });
+  } catch(e) {
+    document.body.innerHTML = '<p style="color:var(--down);padding:20px">数据加载失败: '+e.message+'</p>';
+    return;
+  }
+  const manual = await fetch('data/solar/manual.json',{cache:'no-store'}).then(r=>r.ok?r.json():{}).catch(()=>({}));
+
+  // 把提示词模板存起来，regenerateAI 与展示共用
+  window.__solarPromptTemplate = buildPrompt;
+
+  // KPI
+  try {
+    const nf = (v, n) => v!=null && isFinite(v) ? v.toFixed(n) : '—';
+    const st = L.stocks || {};
+    const stCards = [
+      {label:'隆基(组件)', v:st.longi&&st.longi.close, c:st.longi&&st.longi.chg},
+      {label:'捷佳伟创(设备)', v:st.jiejia&&st.jiejia.close, c:st.jiejia&&st.jiejia.chg},
+      {label:'通威(硅料)', v:st.tongwei&&st.tongwei.close, c:st.tongwei&&st.tongwei.chg},
+      {label:'阳光电源(逆变器)', v:st.sungrow&&st.sungrow.close, c:st.sungrow&&st.sungrow.chg},
+      {label:'福莱特(玻璃)', v:st.flat&&st.flat.close, c:st.flat&&st.flat.chg},
+    ];
+    document.getElementById('kpi').innerHTML = [
+      {label:'沪深300', value:nf(L.hs300,0), chg:L.hs300_chg, src:'Tushare 000300.SH · '+L.date},
+      {label:'光伏ETF', value:nf(L.solar_etf,3), chg:L.solar_etf_chg, src:'Tushare 515790.SH · '+L.date},
+      {label:'新能源ETF', value:nf(L.newenergy_etf,3), chg:L.newenergy_etf_chg, src:'Tushare 516160.SH · '+L.date},
+      {label:'储能ETF', value:nf(L.storage_etf,3), chg:L.storage_etf_chg, src:'Tushare 159566.SZ · '+L.date},
+      ...stCards.map(s=>({label:s.label, value:nf(s.v,2), chg:s.c, src:'Tushare · '+L.date})),
+      {label:'超额(光伏vs300)', value:L.excess!=null?((L.excess>=0?'+':'')+L.excess.toFixed(2)+'%'):'—', chg:L.excess, src:'ETF涨幅-300涨幅'},
+      {label:'破净比例(灯⑥)', value:L.pb_ratio!=null?(L.pb_ratio*100).toFixed(1)+'%':'—', chg:0, src:'光伏池PB<1占比 · Tushare · '+L.date},
+      {label:'距前高回撤', value:L.dd_from_high!=null?(L.dd_from_high*100).toFixed(1)+'%':'—', chg:0, src:'光伏ETF 1年高点'},
+      {label:'10Y美债', value:L.tnx!=null?L.tnx.toFixed(2)+'%':'—', chg:0, src:'复用医药页同源 · '+L.date},
+      {label:'美元/人民币', value:nf(L.usdcny,4), chg:0, src:'复用医药页同源 · '+L.date},
+    ].map(c=>`
+      <div class="kpi">
+        <div class="label">${c.label}</div>
+        <div class="value">${c.value}</div>
+        <div class="chg ${(c.chg||0)>=0?'up':'down'}">${c.chg!=null&&c.chg!==0?(c.chg>=0?'+':'')+c.chg.toFixed(2)+'%':''}</div>
+        <div class="src">${c.src}</div>
+      </div>
+    `).join('');
+  } catch(e) { console.error('KPI error', e); }
+
+  // 产业价格看板
+  try {
+    renderIndustry(manual);
+  } catch(e) { console.error('industry error', e); }
+
+  // 新闻
+  try {
+    document.getElementById('news').innerHTML = (L.news||[]).map(n=>`
+      <div class="news-item"><span class="date">${n.date}</span><a href="${n.url}" target="_blank">${n.text}</a></div>
+    `).join('') || '<span style="color:var(--muted)">暂无新闻</span>';
+  } catch(e) { console.error('news error', e); }
+
+  // 公司先行指标
+  try { renderLeaders(manual); } catch(e) { console.error('leaders error', e); }
+
+  // AI 分析
+  try {
+    const aiEl = document.getElementById('ai');
+    if(L.ai_analysis) aiEl.textContent = L.ai_analysis;
+    else aiEl.innerHTML = '<span style="color:var(--muted)">AI分析未生成'+(L.ai_error?'（'+L.ai_error+'）':'')+'</span>';
+    document.getElementById('prompt-view').textContent = buildPrompt(L, (L.news||[]).slice(0,8).map(n=>`  - [${n.date}] ${n.text}`).join('\n'));
+    if (window.AIArchive) { AIArchive.init({ commodity: 'solar', baseDir: 'data/solar/', displayEl: 'ai', dataDate: L.date }); }
+    const fEl = document.getElementById('ai');
+    if(fEl && !fEl.__fcObs){
+      fEl.__fcObs = new MutationObserver(()=>renderForecast(fEl.textContent));
+      fEl.__fcObs.observe(fEl, {childList:true, characterData:true, subtree:true});
+    }
+    renderForecast(aiEl.textContent);
+  } catch(e) { console.error('AI error', e); }
+
+  // 历史数据：择时信号 + 图表
+  try {
+    const hist = await fetch('data/solar/history.json',{cache:'no-store'}).then(r=>r.ok?r.json():[]);
+    if(hist.length){
+      const t = SolarCore.computeTiming(hist, L, manual);
+      window.__breadthLit = t.breadthLit;
+      window.__timingLit = renderTiming(t) || 0;
+      renderCharts(hist);
+    } else {
+      window.__timingLit = 0;
+      document.getElementById('timing').innerHTML = '<span style="color:var(--muted);font-size:13px">历史数据未生成（明晚自动更新后显示）</span>';
+    }
+  } catch(e) { console.error('history error', e); window.__timingLit = 0; }
+
+  // 位置信号 + 政策日历 + 组合状态
+  try {
+    const [v, cal, ph] = await Promise.all([
+      fetch('data/solar/valuation.json',{cache:'no-store'}).then(r=>r.ok?r.json():null),
+      fetch('data/solar/calendar.json',{cache:'no-store'}).then(r=>r.ok?r.json():[]),
+      fetch('data/solar/position_history.json',{cache:'no-store'}).then(r=>r.ok?r.json():null)
+    ]);
+    renderPosition(v, cal||[], window.__timingLit||0, L);
+    try { renderPosHistory(ph); } catch(e2) { console.error('pos-history error', e2); }
+  } catch(e) { console.error('position error', e); }
+}
+
+function renderIndustry(manual){
+  const box = document.getElementById('industry');
+  document.getElementById('manual-date').textContent = manual.updated || '—';
+  const ip = manual.industry_prices || {};
+  const rows = [
+    {key:'polysilicon', light:'4周环比全正 = 右侧信号'},
+    {key:'module',      light:'4周环比全正 = ①号灯亮'},
+    {key:'glass',       light:'环比上涨 = 唯一上涨环节确认'},
+    {key:'wafer',       light:'止跌 = 黄灯'},
+    {key:'cell',        light:'止跌 = 黄灯'},
+  ];
+  const badge = st => ({on:'<span class="badge on">亮</span>',half:'<span class="badge half">黄灯</span>',off:'<span class="badge off">灭</span>',na:'<span class="badge na">缺数据</span>'}[st]);
+  box.innerHTML = '<table class="pt"><thead><tr><th>指标</th><th>最新值</th><th>基线</th><th>近4周环比</th><th>信号</th></tr></thead><tbody>' +
+    rows.map(r=>{
+      const it = ip[r.key];
+      if(!it || !it.series || !it.series.length) return '';
+      const last = it.series[it.series.length-1];
+      const {st, moms} = priceLight(r.key, it.series);
+      return `<tr>
+        <td>${it.name}</td>
+        <td><b>${last.value}</b> ${it.unit}<br><span style="color:var(--muted);font-size:11px">${last.date}</span></td>
+        <td style="color:var(--muted);font-size:12px">${it.baseline||''}</td>
+        <td style="font-size:12px">${moms.map(m=>m==null?'—':`<span style="color:${m>=0?'var(--up)':'var(--down)'}">${m>=0?'+':''}${m.toFixed(1)}%</span>`).join(' / ')}</td>
+        <td>${badge(st)}<br><span style="color:var(--muted);font-size:10px">${r.light}</span></td>
+      </tr>`;
+    }).join('') + '</tbody></table>';
+}
+
+function renderLeaders(manual){
+  const box = document.getElementById('leaders');
+  const cl = manual.company_leaders || {};
+  const items = [cl.jiejia_contract_liab, cl.longi_asp, cl.industry_loss].filter(Boolean);
+  if(!items.length){ box.innerHTML = '<span style="color:var(--muted);font-size:13px">暂无数据（config/solar_manual.json 手工维护）</span>'; return; }
+  box.innerHTML = '<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px">' + items.map(it=>{
+    const rows = (it.series||[]).map(s=>{
+      const v = s.value != null ? s.value : (s.asp != null ? `${s.asp} 元/W${s.loss_narrow!=null?` · 减亏${s.loss_narrow}亿`:''}` : '—');
+      return `<tr><td style="padding:4px 8px;color:var(--muted)">${s.quarter}</td><td style="padding:4px 8px">${v}</td></tr>`;
+    }).join('');
+    return `<div style="border:1px solid var(--border);border-radius:8px;padding:12px">
+      <div style="font-weight:700;font-size:13px">${it.name}</div>
+      <div style="color:var(--muted);font-size:11px;margin:4px 0 8px">${it.meaning||''}${it.baseline?'<br>'+it.baseline:''}</div>
+      <table style="width:100%;border-collapse:collapse;font-size:12px"><tbody>${rows}</tbody></table>
+      <div style="color:var(--muted);font-size:10px;margin-top:6px">${it.freq||''}</div>
+    </div>`;
+  }).join('') + '</div>';
+}
+
+function renderTiming(t){
+  const rows = t.rows;
+  document.getElementById('timing-date').textContent = new Date().toISOString().slice(0,10);
+  const lit = rows.filter(r=>r.on).length;
+  const vEl = document.getElementById('timing-verdict');
+  let txt, bg, fg;
+  if(lit>=4){txt='积极关注 · 可加仓配置'; bg='rgba(63,185,80,.15)'; fg='var(--green)';}
+  else if(lit===3){txt='中性偏多 · 可小仓位试错'; bg='rgba(210,153,34,.15)'; fg='var(--orange)';}
+  else if(lit===2){txt='中性观望 · 等待信号明确'; bg='rgba(110,118,129,.15)'; fg='#6e7681';}
+  else {txt='谨慎 · 规避或减仓'; bg='rgba(248,81,73,.15)'; fg='var(--red)';}
+  document.getElementById('timing').innerHTML = rows.map(r=>`
+    <div class="signal-row">
+      <span class="name">${r.name}</span>
+      <span class="desc">${r.desc}</span>
+      <span class="badge ${r.na?'na':(r.on?'on':'off')}">${r.na?'缺数据':(r.on?'亮':'灭')}</span>
+    </div>`).join('');
+  vEl.style.display='block'; vEl.style.background=bg; vEl.style.color=fg;
+  vEl.textContent = `${lit}/5 灯 · ${txt}`;
+  return lit;
+}
+
+function renderPosition(v, cal, timingLit, L){
+  const box = document.getElementById('position');
+  const badge = st => ({on:'<span class="badge on">亮</span>',half:'<span class="badge half">半亮</span>',off:'<span class="badge off">灭</span>',na:'<span class="badge na">缺数据</span>'}[st]||'');
+  if(!v || !v.lights){
+    box.innerHTML = '<span style="color:var(--muted);font-size:13px">估值数据未生成（明晚自动更新后显示）</span>';
+    const cb = document.getElementById('combined');
+    cb.style.color = '#6e7681';
+    cb.textContent = '组合状态：⚪ 数据积累中（位置信号未生成）';
+    renderCalendarList(cal);
+    return;
+  }
+  const li = v.lights;
+  document.getElementById('position-date').textContent = v.date;
+  // 灯⑥ 破净比例（阈值型）：≥60% 亮、40~60% 半亮、<40% 灭
+  const pbSt = SolarCore.pbLight(li.pb ? li.pb.ratio : null);
+  // 灯⑦ 成交占比分位：<10% 亮（积累满 30 个交易日前为"数据积累中"）
+  const toPct = li.turnover ? li.turnover.pct : null;
+  const toSt = SolarCore.posLight(toPct);
+  // 灯⑧ 政策日历
+  const pol = SolarCore.policyState(cal, v.date);
+  const polBadge = pol==='red' ? '<span class="badge red">红灯</span>' : (pol==='yellow' ? '<span class="badge half">黄灯</span>' : '<span class="badge off">灭</span>');
+  const polDesc = pol==='red' ? '重大事件窗口（当天±1天）' : (pol==='yellow' ? '14 天内有 level≥4 事件' : '无临近高等级事件');
+  const posOn = (pbSt==='on'?1:0) + (toSt==='on'?1:0);
+  const posTotal = (pbSt!=='na'?1:0) + (toSt!=='na'?1:0);
+  box.innerHTML = [
+    {name:'⑥ 破净比例', desc: li.pb&&li.pb.ratio!=null ? `光伏池 ${li.pb.pool} 只中 PB&lt;1 占 ${(li.pb.ratio*100).toFixed(1)}%（≥60% 亮 = 左侧底部特征）` : '无数据', src: li.pb?li.pb.src:'', st: pbSt},
+    {name:'⑦ 成交占比', desc: li.turnover&&li.turnover.ratio!=null ? `光伏占全市场成交 ${li.turnover.ratio}% · 分位 ${toPct!=null?(toPct*100).toFixed(1)+'%':'积累中(<'+ '30天)'}（<10%分位亮 = 无人问津）` : '无数据', src: li.turnover?li.turnover.src:'', st: toSt},
+    {name:'⑧ 政策日历', desc: polDesc, src: 'calendar.json 手工维护', st: pol==='red'?'red':(pol==='yellow'?'half':'off'), pol:true},
+  ].map(r=>`
+    <div class="signal-row">
+      <span class="name">${r.name}</span>
+      <span class="desc">${r.desc}${r.src?` <span style="color:#6e7681">(${r.src})</span>`:''}</span>
+      ${r.pol?polBadge:badge(r.st)}
+    </div>`).join('');
+  const combined = SolarCore.combineState({posOn, posTotal, pol, timingLit,
+    breadthLit: window.__breadthLit||0, ddFromHigh: L.dd_from_high!=null?L.dd_from_high:null});
+  const cb = document.getElementById('combined');
+  cb.style.color = combined.color;
+  cb.textContent = `组合状态：${combined.label}（位置 ${posOn} 亮 · 时机 ${timingLit} 灯）`;
+  renderCalendarList(cal);
+}
+
+function renderPosHistory(ph){
+  if(typeof echarts==='undefined' || !ph) return;
+  const mk = (id, opt) => { const el=document.getElementById(id); if(!el) return; const c=echarts.init(el,null,{renderer:'canvas'}); c.setOption(opt); window.addEventListener('resize',()=>c.resize()); };
+  const axis = data => ({type:'category',data,axisLabel:{color:'#8b949e',fontSize:10},axisLine:{lineStyle:{color:'#30363d'}}});
+  const grid = {left:40,right:10,top:10,bottom:22};
+  const pb = (ph||[]).filter(r=>r.pb_ratio!=null);
+  if(pb.length>5){
+    mk('chart-pb',{backgroundColor:'transparent',grid,tooltip:{trigger:'axis'},
+      xAxis:axis(pb.map(r=>r.date.slice(5))),
+      yAxis:{type:'value',min:0,max:1,axisLabel:{color:'#8b949e',fontSize:10,formatter:v=>(v*100).toFixed(0)+'%'},splitLine:{lineStyle:{color:'#21262d'}}},
+      series:[{type:'line',showSymbol:false,data:pb.map(r=>r.pb_ratio),lineStyle:{width:2,color:'#e8b84a'},areaStyle:{opacity:.12},
+        markLine:{silent:true,symbol:'none',lineStyle:{color:'#d29922',type:'dashed'},data:[{yAxis:0.6,label:{formatter:'60% 亮灯线',color:'#d29922',fontSize:10}}]}}]});
+  }
+  const to = (ph||[]).filter(r=>r.turnover_ratio!=null);
+  if(to.length>5){
+    mk('chart-turnover',{backgroundColor:'transparent',grid,tooltip:{trigger:'axis'},
+      xAxis:axis(to.map(r=>r.date.slice(5))),
+      yAxis:{type:'value',axisLabel:{color:'#8b949e',fontSize:10},splitLine:{lineStyle:{color:'#21262d'}}},
+      series:[{type:'line',showSymbol:false,data:to.map(r=>r.turnover_ratio),lineStyle:{width:2,color:'#58a6ff'},areaStyle:{opacity:.12}}]});
+  }
+}
+
+function renderCalendarList(cal){
+  const box = document.getElementById('calendar-list');
+  if(!box) return;
+  if(!cal.length){ box.innerHTML = '<span style="color:var(--muted);font-size:13px">暂无日历事件（编辑 data/solar/calendar.json 添加）</span>'; return; }
+  const today = new Date().toISOString().slice(0,10);
+  const sorted = [...cal].sort((a,b)=>a.date<b.date?-1:1);
+  box.innerHTML = `<table style="width:100%;border-collapse:collapse;font-size:13px"><tbody>${sorted.map(ev=>{
+    const past = ev.date < today ? 'opacity:.45;' : '';
+    return `<tr style="border-bottom:1px solid var(--border);${past}">
+      <td style="padding:6px 8px;color:var(--muted);white-space:nowrap">${ev.date}</td>
+      <td style="padding:6px 8px">${ev.event}</td>
+      <td style="padding:6px 8px;color:var(--muted);font-size:12px">${ev.type||''}</td>
+      <td style="padding:6px 8px;color:var(--orange);white-space:nowrap">${'⭐'.repeat(Math.min(ev.level||1,5))}</td>
+    </tr>`;}).join('')}</tbody></table>`;
+}
+
+function renderCharts(hist){
+  if(typeof echarts==='undefined') return;
+  const dates = hist.map(h=>h.date);
+  const norm = key => { let base=null; return hist.map(h=>{ const v=h[key]; if(v==null) return null; if(base==null) base=v; return +(v/base*100).toFixed(2); }); };
+  const mk = (id, opt) => { const el=document.getElementById(id); if(!el) return; const c=echarts.init(el,null,{renderer:'canvas'}); c.setOption(opt); window.addEventListener('resize',()=>c.resize()); };
+  const axis = {type:'category',data:dates,axisLabel:{color:'#8b949e',fontSize:10},axisLine:{lineStyle:{color:'#30363d'}}};
+  const yAxis = {type:'value',scale:true,axisLabel:{color:'#8b949e',fontSize:10},splitLine:{lineStyle:{color:'#21262d'}}};
+  const line = (name,key,color) => ({name,type:'line',showSymbol:false,connectNulls:true,data:norm(key),lineStyle:{width:1.5},color});
+  const legend = {textStyle:{color:'#8b949e',fontSize:11},top:0};
+  const grid = {left:40,right:16,top:34,bottom:24};
+  // 核心对比
+  const coreSeries = [line('光伏ETF','solar_etf','#e8b84a'), line('新能源ETF','newenergy_etf','#3fb950'), line('储能ETF','storage_etf','#39c5cf')];
+  if(norm('hs300').filter(v=>v!=null).length>=2) coreSeries.unshift(line('沪深300','hs300','#8b949e'));
+  mk('chart-core',{backgroundColor:'transparent',legend,grid,tooltip:{trigger:'axis'},xAxis:axis,yAxis:[yAxis],series:coreSeries});
+  // 子板块 7 股
+  const sub = [['通威(硅料)','tongwei','#f85149'],['中环(硅片)','zhonghuan','#58a6ff'],['钧达(电池)','junda','#bc8cff'],['隆基(组件)','longi','#3fb950'],['福莱特(玻璃)','flat','#8b949e'],['捷佳伟创(设备)','jiejia','#d29922'],['阳光电源(逆变器)','sungrow','#39c5cf']];
+  mk('chart-sub',{backgroundColor:'transparent',legend,grid,tooltip:{trigger:'axis'},xAxis:axis,yAxis:[yAxis],series:sub.map(s=>line(s[0],s[1],s[2]))});
+  // 累计超额
+  const exEl = document.getElementById('chart-excess');
+  if(exEl){
+    const exData=[]; let cum=0; let has300=false;
+    for(let i=1;i<hist.length;i++){
+      const a=hist[i-1],b=hist[i];
+      if(a.solar_etf!=null&&b.solar_etf!=null){ cum+=(b.solar_etf/a.solar_etf-1)*100; }
+      if(a.hs300!=null&&b.hs300!=null){ cum-=(b.hs300/a.hs300-1)*100; has300=true; }
+      exData.push(+cum.toFixed(2));
+    }
+    if(has300){
+      mk('chart-excess',{backgroundColor:'transparent',grid,tooltip:{trigger:'axis'},xAxis:{type:'category',data:dates.slice(1),axisLabel:{color:'#8b949e',fontSize:10},axisLine:{lineStyle:{color:'#30363d'}}},yAxis:[yAxis],series:[{name:'累计超额 %',type:'line',showSymbol:false,data:exData,lineStyle:{width:2,color:'#e8b84a'},areaStyle:{opacity:.1}}]});
+    }
+  }
+}
+
+/* 未来5日超额方向：解析 AI 文本末尾的预测块 */
+function renderForecast(text){
+  const box = document.getElementById('excess-forecast');
+  if(!box) return;
+  text = text||'';
+  const m = text.match(/【5日超额预测】([\s\S]*?)(?:\n\s*\n|$)/);
+  if(!m) return;
+  const block = m[1];
+  const dir = (block.match(/方向[:：]\s*([^\n]+)/)||[])[1];
+  const conf = (block.match(/置信度[:：]\s*(\d+)/)||[])[1];
+  const logic = (block.match(/关键逻辑[:：]\s*([^\n]+)/)||[])[1];
+  if(!dir) return;
+  const d = dir.trim();
+  const color = d.includes('跑赢') ? 'var(--up)' : (d.includes('跑输') ? 'var(--down)' : '#d29922');
+  const arrow = d.includes('跑赢') ? '▲' : (d.includes('跑输') ? '▼' : '◆');
+  box.innerHTML = `<div style="display:flex;gap:16px;align-items:center;flex-wrap:wrap">
+    <div style="font-size:26px;font-weight:700;color:${color}">${arrow} ${d}</div>
+    ${conf?`<div>置信度 <b style="color:${color}">${conf}%</b></div>`:''}
+    ${logic?`<div style="color:var(--muted);flex:1;min-width:200px">逻辑：${logic.trim()}</div>`:''}
+  </div>
+  <p style="font-size:11px;color:var(--muted);margin-top:6px">预测基于生成当日数据，5日后请自行对照"光伏相对沪深300 累计超额"图核对。</p>`;
+}
+
+/* AI 提示词（与重新生成时实际发送内容一致；newsLines 为预格式化新闻） */
+function buildPrompt(L, newsLines){
+  const st = L.stocks || {};
+  const sk = k => st[k] ? `${st[k].close}（${(st[k].chg>=0?'+':'')+st[k].chg}%）` : '未获取';
+  return `请作为光伏行业分析师，基于以下数据对今日A股光伏板块进行跟踪分析。
+
+【核心数据】
+- 沪深300：${L.hs300}（${(L.hs300_chg>=0?'+':'')+L.hs300_chg}%）
+- 光伏ETF(515790)：${L.solar_etf}（${(L.solar_etf_chg>=0?'+':'')+L.solar_etf_chg}%）
+- 新能源ETF(516160)：${L.newenergy_etf}（${(L.newenergy_etf_chg>=0?'+':'')+L.newenergy_etf_chg}%）
+- 储能ETF(159566)：${L.storage_etf}（${(L.storage_etf_chg>=0?'+':'')+L.storage_etf_chg}%）
+- 个股：隆基 ${sk('longi')} / 捷佳伟创 ${sk('jiejia')} / 通威 ${sk('tongwei')} / 阳光电源 ${sk('sungrow')} / 福莱特 ${sk('flat')}
+- 光伏ETF 距1年高点回撤：${L.dd_from_high!=null?(L.dd_from_high*100).toFixed(1)+'%':'未获取'}
+- 光伏池破净比例：${L.pb_ratio!=null?(L.pb_ratio*100).toFixed(1)+'%':'未获取'}
+- 10Y美债：${L.tnx}% · 美元/人民币：${L.usdcny}
+- 光伏相对沪深300超额：${(L.excess>=0?'+':'')+L.excess}%
+
+【产业价格】（手工维护，硅业分会/InfoLink 口径）
+- 多晶硅/组件/玻璃/硅片/电池：见页面"产业价格看板"近4周环比
+
+【当日光伏新闻】最近新闻（最多8条）
+${newsLines||'（无）'}
+
+【分析要求】
+1.涨跌归因：今日板块表现是政策驱动（收储平台/能效标准/集采）、产业价格驱动（硅料/组件/玻璃报价）、利率驱动还是大盘贝塔？领涨环节背后的逻辑
+2.结构：主链（硅料-硅片-电池-组件）与辅链（玻璃/逆变器/设备）是否分化，资金往哪个环节切换
+3.联动：储能ETF与光伏ETF是否共振，美债利率与汇率对出口链（组件/逆变器）估值的影响
+4.政策扫描：硅料收储平台动作、工信部能效强制标准（传闻清退约30%产能）、光伏集采的短中长期影响
+5.出清进度：结合亏损收窄与破净比例判断行业处于出清早/中/晚期
+
+【输出格式】一段话行情解读(100字内) + 短期展望(方向+催化与风险) + 当日重要事件摘要(1-2条，判断一次性催化还是基本面变化) + 【5日超额预测】块（方向: 跑赢/跑输/持平，置信度: 50-90整数%，关键逻辑: 一句话）
+如某项数据当日未更新，标注"未更新"并沿用最近值，不要编造数据。用中文，普通人能懂。`;
+}
+
+async function regenerateAI(){
+  const el = document.getElementById('ai');
+  el.textContent = '分析中...';
+  try {
+    const L = await fetch('data/solar/latest.json',{cache:'no-store'}).then(r=>r.json());
+    const newsLines = (L.news||[]).slice(0,8).map(n=>`  - [${n.date}] ${n.text}`).join('\n');
+    const prompt = buildPrompt(L, newsLines);
+    document.getElementById('prompt-view').textContent = prompt;
+    const resp = await fetch('https://api.deepseek.com/v1/chat/completions',{
+      method:'POST',
+      headers:{'Authorization':'Bearer '+getDeepseekKey(),'Content-Type':'application/json'},
+      body:JSON.stringify({model:'deepseek-chat',messages:[{role:'system',content:'你是严谨的光伏行业分析师。'},{role:'user',content:prompt}],temperature:0.3,max_tokens:500})
+    });
+    const data = await resp.json();
+    if(data.error) throw new Error(data.error.message);
+    el.textContent = data.choices[0].message.content;
+    if (window.AIArchive) AIArchive.setCurrent(data.choices[0].message.content);
+  } catch(e) {
+    el.innerHTML = '<span style="color:#f85149">生成失败: '+e.message+'</span>';
+  }
+}
+load().catch(e=>document.body.innerHTML='<p style="color:red">加载失败: '+e+'</p>');
+</script>
+</body>
+</html>

@@ -57,6 +57,13 @@ jobs:
         run: python scripts/fetch_bd.py
         continue-on-error: true
 
+      # 光伏（每日，全 Tushare 路由，规避 akshare 国内源挂死）
+      - if: github.event.schedule == '0 16 * * *' || github.event_name == 'workflow_dispatch'
+        run: python scripts/fetch_solar.py
+        continue-on-error: true
+        env:
+          TUSHARE_TOKEN: ${{ secrets.TUSHARE_TOKEN }}
+
       # 猪（每日）
       - if: github.event.schedule == '0 16 * * *' || github.event_name == 'workflow_dispatch'
         run: python scripts/fetch_daily.py
