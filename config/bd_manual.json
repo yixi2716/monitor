@@ -1,0 +1,5 @@
+{
+  "monthly_upfront": {},
+  "nmpa_monthly": {},
+  "说明": "monthly_upfront: {\"2026-09\": 12.5} 按月填 License-out 首付款总额(亿美元, 手工核对值, 如医药魔方月度统计)，覆盖新闻自动提取值；nmpa_monthly: {\"2026-09\": 3} 按月填 NMPA 创新药获批数量(官方口径)。留空则全部用自动值。"
+}

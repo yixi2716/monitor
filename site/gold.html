@@ -292,6 +292,7 @@
   }
 </script>
 <script src="ai_archive.js?v=3"></script>
+<script src="refresh.js?v=1"></script>
 <script>
 const fmtPct = v => (v >= 0 ? '+' : '') + v.toFixed(2) + '%';
 const fmtMoney = v => '$' + v.toLocaleString('en-US', {maximumFractionDigits: 1});
@@ -308,7 +309,7 @@ async function load() {
 }
 
 function renderKPI(L) {
-  document.getElementById('date-meta').textContent = '数据日期 ' + L.date + ' · 美股收盘后更新';
+  document.getElementById('date-meta').textContent = '数据日期 ' + L.date + '（美东交易日）' + (L.fetched_at ? ' · 更新于 ' + L.fetched_at + '（北京）' : '');
   const chgCls = L.gold_chg >= 0 ? 'up' : 'down';
   const maPos = L.above_ma20 ? '在 MA20 之上' : '在 MA20 之下';
   const cards = [

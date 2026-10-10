@@ -149,6 +149,62 @@ def fetch_turnover_pct(sw):
     }
 
 
+def rolling_pct_series(dates, values, window):
+    """最近 N 个观测点的滚动分位序列：每个点取过去 window 个值的 (历史值<当前) 比例"""
+    out = []
+    s = pd.Series(values, dtype=float)
+    n = len(s)
+    keep = min(n, 500)          # 只保留最近 500 天的曲线，文件不过大
+    for i in range(max(1, n - keep), n):
+        lo = max(0, i - window)
+        w = s.iloc[lo:i]
+        w = w.dropna()
+        v = s.iloc[i]
+        if len(w) < 30 or pd.isna(v):
+            continue
+        out.append({"date": dates[i], "pct": round(float((w < v).mean()), 4)})
+    return out
+
+
+def save_history(sw, price_light, turnover_light):
+    """分位历史曲线数据（页面位置信号区图表用）"""
+    sw = sw.copy()
+    sw["日期"] = pd.to_datetime(sw["日期"])
+    sw = sw.sort_values("日期").tail(TEN_Y)
+    dates = sw["日期"].dt.strftime("%Y-%m-%d").tolist()
+    closes = sw["收盘"].astype(float).tolist()
+    price_hist = rolling_pct_series(dates, closes, TEN_Y)
+
+    # 成交占比序列：与 fetch_turnover_pct 同口径
+    sw_amt = dict(zip(dates, sw["成交额"].astype(float)))
+    try:
+        full = _try_both(lambda: ak.index_hist_sw(symbol="801250", period="day"), "index_hist_sw(801250)")
+        full["日期"] = pd.to_datetime(full["日期"])
+        full = full.sort_values("日期").tail(THREE_Y + 30)
+        full_amt = dict(zip(full["日期"].dt.strftime("%Y-%m-%d"), full["成交额"].astype(float)))
+    except Exception:
+        full_amt = {}
+    t_dates, t_ratios = [], []
+    for d, amt in sw_amt.items():
+        if d in full_amt and full_amt[d] > 0:
+            t_dates.append(d)
+            t_ratios.append(amt / full_amt[d])
+    turnover_hist = rolling_pct_series(t_dates, t_ratios, THREE_Y)
+    for r, ratio in zip(turnover_hist, t_ratios[-len(turnover_hist):]):
+        r["ratio"] = round(ratio * 100, 3)
+
+    pe_rows = load_json("pe_history.json", [])
+    pe_hist = [{"date": r["date"], "pe": round(float(r["pe"]), 2)} for r in pe_rows if r.get("pe") is not None][-500:]
+
+    save_json("valuation_history.json", {
+        "date": datetime.date.today().strftime("%Y-%m-%d"),
+        "price_pct": price_hist,
+        "turnover_pct": turnover_hist,
+        "pe": pe_hist,
+        "note": "price_pct=801150十年价格分位; turnover_pct=医药成交占比3年分位; pe=000913 PE1原始值",
+    })
+
+
 def main():
     out = {"date": datetime.date.today().strftime("%Y-%m-%d"), "lights": {}}
     print("[0/3] 拉取 801150 日线（价格+成交额共用）...")
@@ -182,6 +238,10 @@ def main():
 
     print("[3/3] 写 valuation.json")
     save_json("valuation.json", out)
+    try:
+        save_history(sw_df, out["lights"].get("price"), out["lights"].get("turnover"))
+    except Exception as e:
+        print(f"    [warn] 分位历史曲线失败: {e}")
     print("done.")
 
 

@@ -52,6 +52,11 @@ jobs:
         run: python scripts/fetch_valuation.py
         continue-on-error: true
 
+      # BD 出海产业引擎（License-out 首付款 + NMPA 获批，新闻提取口径）
+      - if: github.event.schedule == '0 16 * * *' || github.event_name == 'workflow_dispatch'
+        run: python scripts/fetch_bd.py
+        continue-on-error: true
+
       # 猪（每日）
       - if: github.event.schedule == '0 16 * * *' || github.event_name == 'workflow_dispatch'
         run: python scripts/fetch_daily.py

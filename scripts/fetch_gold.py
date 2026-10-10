@@ -446,6 +446,7 @@ def main():
 
     latest = {
         "date": df.index[-1].strftime("%Y-%m-%d"),
+        "fetched_at": datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8))).strftime("%Y-%m-%d %H:%M"),
         "gold": round(float(last["gold"]), 2),
         "gold_chg": round(gold_chg, 2),
         "ma20": round(float(last["ma20"]), 2),
