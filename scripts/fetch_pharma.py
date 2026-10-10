@@ -54,6 +54,27 @@ TICKERS = {
 }
 
 
+def fetch_history():
+    """拉取近1年日线，用于页面图表（每日全量重写，幂等）"""
+    frames = {}
+    for name, sym in TICKERS.items():
+        try:
+            df = yf.Ticker(sym).history(period="1y", interval="1d", auto_adjust=False)
+            if df.empty:
+                print(f"  [warn] history {sym} 空")
+                continue
+            s = df["Close"].rename(name)
+            s.index = s.index.tz_localize(None).normalize()
+            frames[name] = s
+        except Exception as e:
+            print(f"  [warn] history {name} 失败: {e}")
+    if not frames:
+        return None
+    import pandas as pd
+    px = pd.concat(frames.values(), axis=1, join="outer").sort_index().round(4)
+    return px
+
+
 def fetch_news():
     from urllib.parse import quote
     q = quote("医药 OR 创新药 OR 集采 OR 医保局 OR 药监局 OR CXO when:3d")
@@ -290,6 +311,22 @@ def main():
         data["ai_error"] = str(e)
 
     print("[4/4] 写文件...")
+    # 历史走势（1年日线，供页面图表；每日全量重写，幂等）
+    hist_path = os.path.join(SITE_DATA_DIR, "history.json")
+    px_hist = fetch_history()
+    if px_hist is not None:
+        import pandas as pd
+        hist = []
+        for idx, row in px_hist.iterrows():
+            rec = {"date": idx.strftime("%Y-%m-%d")}
+            for k in TICKERS.keys():
+                v = row.get(k)
+                rec[k] = float(v) if pd.notna(v) else None
+            hist.append(rec)
+        hist = hist[-400:]
+        with open(hist_path, "w", encoding="utf-8") as f:
+            json.dump(hist, f, ensure_ascii=False)
+        print(f"  history.json: {len(hist)} 条")
     # 把所有 NaN 替换成 None，否则 JSON 非法
     import math
     def clean_nan(obj):

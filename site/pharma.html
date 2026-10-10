@@ -3,12 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>医药板块监测台</title>
+<title>医药板块 · 轮动择时看板</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💊</text></svg>">
 <style>
 :root{
   --bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;
   --accent:#3fb950;--accent2:#58a6ff;--up:#3fb950;--down:#f85149;
+  --green:#3fb950;--red:#f85149;--orange:#d29922;
 }
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:var(--bg);color:var(--text);font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;font-size:14px;line-height:1.6;padding:20px;max-width:1400px;margin:0 auto}
@@ -32,17 +33,57 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,"PingFang 
 .news-item a{color:var(--text);text-decoration:none}
 .news-item a:hover{color:var(--accent2)}
 .ai-box{background:linear-gradient(135deg,rgba(63,185,80,.08),transparent);border-left:3px solid var(--accent);padding:14px;border-radius:6px;font-size:13px;line-height:1.8;white-space:pre-wrap;min-height:40px}
+.signal-row{display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid var(--border);font-size:13px}
+.signal-row:last-child{border:none}
+.signal-row .name{flex:1}
+.signal-row .desc{color:var(--muted);font-size:11px;flex:2}
+.badge{padding:2px 8px;border-radius:10px;font-size:11px;font-weight:600;white-space:nowrap}
+.badge.on{background:rgba(63,185,80,.15);color:var(--green)}
+.badge.off{background:rgba(110,118,129,.15);color:#6e7681}
+.badge.na{background:rgba(210,153,34,.15);color:var(--orange)}
+.verdict{padding:10px;border-radius:6px;text-align:center;font-weight:700;font-size:15px;margin-top:10px}
+.chart-note{font-size:11px;color:var(--muted);margin-top:4px}
 button{cursor:pointer}
 </style>
 </head>
 <body>
 
 <div class="header">
-  <h1><span>💊</span>医药板块监测台</h1>
+  <h1><span>💊</span>医药板块 · 轮动择时看板</h1>
   <a href="index.html">← 返回总览</a>
 </div>
 
 <div class="kpi-grid" id="kpi"></div>
+
+<div class="section">
+  <h2><span class="dot" style="background:#d29922"></span>轮动择时信号 <span style="font-size:11px;color:var(--muted);font-weight:400">五灯模型 · 4 亮以上积极关注 · 数据截至 <span id="timing-date">—</span></span></h2>
+  <div id="timing"><span style="color:var(--muted);font-size:13px">历史数据加载中...</span></div>
+  <div class="verdict" id="timing-verdict" style="display:none"></div>
+</div>
+
+<div class="section">
+  <h2><span class="dot" style="background:var(--accent2)"></span>一年走势对比 <span style="font-size:11px;color:var(--muted);font-weight:400">归一化 = 期初 100</span></h2>
+  <div id="chart-core" style="height:320px"></div>
+  <p class="chart-note">src: data/pharma/history.json（Yahoo Finance 日线）</p>
+</div>
+
+<div class="section">
+  <h2><span class="dot" style="background:var(--accent2)"></span>子板块强弱 <span style="font-size:11px;color:var(--muted);font-weight:400">7 只子板块 ETF 归一化</span></h2>
+  <div id="chart-sub" style="height:320px"></div>
+  <p class="chart-note">src: data/pharma/history.json（Yahoo Finance 日线）</p>
+</div>
+
+<div class="section">
+  <h2><span class="dot" style="background:var(--accent2)"></span>医药相对沪深300 累计超额 <span style="font-size:11px;color:var(--muted);font-weight:400">Σ(医药ETF日涨跌 − 沪深300日涨跌)</span></h2>
+  <div id="chart-excess" style="height:280px"></div>
+  <p class="chart-note">src: data/pharma/history.json；正 = 医药跑赢大盘</p>
+</div>
+
+<div class="section">
+  <h2><span class="dot" style="background:var(--accent2)"></span>创新药 × 美债利率 <span style="font-size:11px;color:var(--muted);font-weight:400">创新药ETF（左）vs 10Y美债 %（右）</span></h2>
+  <div id="chart-rate" style="height:280px"></div>
+  <p class="chart-note">src: data/pharma/history.json；利率下行通常利好创新药/CXO 估值</p>
+</div>
 
 <div class="section">
   <h2><span class="dot"></span>板块新闻</h2>
@@ -89,6 +130,8 @@ button{cursor:pointer}
   新闻：<a href="https://news.google.com/" target="_blank" style="color:var(--accent2)">Google News ↗</a>
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
+<script>if(typeof echarts==='undefined')document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.5.1/echarts.min.js"><\/script>')</script>
 <script src="ai_archive.js?v=3"></script>
 <script>
 const DEEPSEEK_KEY = "sk-238f37694a504056b4178fb33d6613b6";
@@ -119,7 +162,7 @@ async function load(){
       {label:'超额(医药vs300)', value:((L.excess||0)>=0?'+':'')+(L.excess||0).toFixed(2)+'%', chg:L.excess||0, src:'ETF涨幅-300涨幅'},
       {label:'10Y美债', value:(L.tnx||0).toFixed(2)+'%', chg:0, src:'Yahoo ^TNX · '+L.date},
       {label:'美元/人民币', value:(L.usdcny||0).toFixed(4), chg:0, src:'Yahoo CNY=X · '+L.date},
-      {label:'北向资金净买入', value:L.north_money!=null? (L.north_money/10000).toFixed(2)+'亿':'—', chg:L.north_money||0, src:'Tushare · '+L.north_date},
+      {label:'北向资金净买入', value:L.north_money!=null? (L.north_money/10000).toFixed(2)+'亿':'未获取', chg:L.north_money||0, src:L.north_money!=null?'Tushare · '+L.north_date:'Tushare 拉取失败或未配置 token'},
     ].map(c=>`
       <div class="kpi">
         <div class="label">${c.label}</div>
@@ -147,11 +190,11 @@ async function load(){
       const acc = verified.length ? (hits/verified.length*100).toFixed(0) : '—';
       // 最新一条预测（今天的）
       const today = new Date().toISOString().slice(0,10);
+      const names = {'1d':'明日','1w':'一周','1m':'一月','3m':'三月','6m':'半年','1y':'一年'};
       const todayPreds = preds.filter(p=>p.predict_date===today);
       let html = `<p style="margin-bottom:10px;color:var(--muted)">累计预测 <b>${verified.length}</b> 条，命中 <b style="color:var(--accent)">${hits}</b> 条，准确率 <b style="color:var(--accent)">${acc}%</b></p>`;
       if(todayPreds.length){
         html += '<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px;margin-bottom:12px">';
-        const names = {'1d':'明日','1w':'一周','1m':'一月','3m':'三月','6m':'半年','1y':'一年'};
         todayPreds.forEach(p=>{
           html += `<div style="background:var(--card);padding:8px;border-radius:4px;border-left:3px solid #d29922">
             <div style="font-size:11px;color:var(--muted)">${names[p.horizon]||p.horizon}</div>
@@ -159,6 +202,28 @@ async function load(){
           </div>`;
         });
         html += '</div>';
+      }
+      // 进行中预测 · 目标区间进度（未验证且非今日）
+      const open = preds.filter(p=>!p.verified && p.predict_date<today).slice(-6).reverse();
+      if(open.length){
+        html += '<p style="color:var(--muted);margin:8px 0 6px">进行中预测 · 目标区间进度 <span style="font-size:11px">（绿条 = 现价在目标区间内的位置，黄线 = 时间进度）</span></p>';
+        open.forEach(p=>{
+          html += `<div style="font-size:12px;padding:4px 0 2px"><span style="color:var(--muted)">${p.predict_date} ${names[p.horizon]||p.horizon}</span>：${p.text}</div>`;
+          const m = (p.text||'').match(/(\d+\.\d+)\s*[-~～]\s*(\d+\.\d+)/);
+          if(m && L.med_etf){
+            const lo=parseFloat(m[1]), hi=parseFloat(m[2]);
+            if(hi>lo){
+              const pos=Math.min(100,Math.max(0,(L.med_etf-lo)/(hi-lo)*100));
+              const daysMap={'1d':1,'1w':7,'1m':30,'3m':90,'6m':180,'1y':365};
+              const total=daysMap[p.horizon]||30;
+              const past=Math.min(100,Math.max(0,(Date.now()-new Date(p.predict_date+'T00:00:00'))/86400000/total*100));
+              html += `<div style="margin:2px 0 10px">
+                <div style="display:flex;justify-content:space-between;font-size:11px;color:var(--muted)"><span>目标 ${lo.toFixed(3)} ~ ${hi.toFixed(3)} · 现价 ${L.med_etf.toFixed(3)}</span><span>时间已过 ${past.toFixed(0)}%</span></div>
+                <div style="height:8px;background:var(--border);border-radius:4px;position:relative"><div style="height:100%;width:${pos}%;background:var(--up);border-radius:4px"></div><div style="position:absolute;top:-2px;bottom:-2px;left:${past}%;width:2px;background:#d29922"></div></div>
+              </div>`;
+            }
+          }
+        });
       }
       // 最近验证记录
       const recentVerified = verified.slice(-5).reverse();
@@ -189,6 +254,99 @@ async function load(){
     // 按日期存档（可翻阅历史；有存档优先展示存档）
     if (window.AIArchive) { AIArchive.init({ commodity: 'pharma', baseDir: 'data/pharma/', displayEl: 'ai', dataDate: L.date }); }
   } catch(e) { console.error('AI error', e); }
+
+  // 历史数据：择时信号 + 图表
+  try {
+    const hist = await fetch('data/pharma/history.json',{cache:'no-store'}).then(r=>r.ok?r.json():[]);
+    if(hist.length){
+      renderTiming(hist, L);
+      renderCharts(hist);
+    } else {
+      document.getElementById('timing').innerHTML = '<span style="color:var(--muted);font-size:13px">历史数据未生成（明晚自动更新后显示）</span>';
+    }
+  } catch(e) { console.error('history error', e); }
+}
+
+function renderTiming(hist, L){
+  const rows = [];
+  const last = [...hist].reverse().find(h=>h.med_etf!=null) || hist[hist.length-1];
+  document.getElementById('timing-date').textContent = last.date;
+  // ① 利率环境
+  const tnxOk = last.tnx!=null && last.tnx < 4.5;
+  rows.push({name:'① 利率环境', desc:last.tnx!=null?`10Y美债 ${last.tnx.toFixed(2)}% ${tnxOk?'(<4.5% 利好创新药估值)':'(偏高 压制估值)'}`:'10Y美债数据缺失', on:tnxOk, na:last.tnx==null});
+  // ② 板块趋势
+  const meds = hist.map(h=>h.med_etf).filter(v=>v!=null);
+  const ma20 = meds.length>=20 ? meds.slice(-20).reduce((a,b)=>a+b,0)/20 : null;
+  const trendOk = ma20!=null && last.med_etf>ma20;
+  rows.push({name:'② 板块趋势', desc:last.med_etf!=null?`医药ETF ${last.med_etf.toFixed(3)} ${ma20?('vs MA20 '+ma20.toFixed(3)):'(历史不足20日)'}`:'医药ETF数据缺失', on:trendOk, na:ma20==null});
+  // ③ 超额动量（5日）
+  const chg5 = key => { const arr = hist.slice(-6).map(h=>h[key]).filter(v=>v!=null); return arr.length>=2 ? (arr[arr.length-1]/arr[0]-1)*100 : null; };
+  const m5 = chg5('med_etf'), h5 = chg5('hs300');
+  const exOk = (m5!=null && h5!=null) ? (m5-h5)>0 : null;
+  rows.push({name:'③ 超额动量', desc:exOk!=null?`近5日 医药 ${m5.toFixed(2)}% vs 沪深300 ${h5.toFixed(2)}%`:'沪深300 历史缺失，无法计算（明晚自动更新后恢复）', on:!!exOk, na:exOk==null});
+  // ④ 广度
+  const chgs = [L.med_etf_chg,L.inn_etf_chg,L.cxo_etf_chg,L.tcm_etf_chg,L.meddev_etf_chg,L.vaccine_etf_chg,L.hsi_health_chg];
+  const up = chgs.filter(c=>c>0).length;
+  rows.push({name:'④ 子板块广度', desc:`7 个子板块中 ${up} 个上涨（≥4 亮）`, on:up>=4});
+  // ⑤ 港股共振
+  const resOk = L.hsi_health_chg!=null && L.med_etf_chg!=null && (L.hsi_health_chg*L.med_etf_chg>0) && Math.abs(L.med_etf_chg)>=0.1;
+  rows.push({name:'⑤ 港股共振', desc:`恒生医疗 ${L.hsi_health_chg!=null?(L.hsi_health_chg>=0?'+':'')+L.hsi_health_chg+'%':'缺失'} × 医药 ${L.med_etf_chg!=null?(L.med_etf_chg>=0?'+':'')+L.med_etf_chg+'%':'缺失'}`, on:!!resOk, na:L.hsi_health_chg==null||L.med_etf_chg==null});
+  const lit = rows.filter(r=>r.on).length;
+  const vEl = document.getElementById('timing-verdict');
+  let txt, bg, fg;
+  if(lit>=4){txt='积极关注 · 可加仓配置'; bg='rgba(63,185,80,.15)'; fg='var(--green)';}
+  else if(lit===3){txt='中性偏多 · 可小仓位试错'; bg='rgba(210,153,34,.15)'; fg='var(--orange)';}
+  else if(lit===2){txt='中性观望 · 等待信号明确'; bg='rgba(110,118,129,.15)'; fg='#6e7681';}
+  else {txt='谨慎 · 规避或减仓'; bg='rgba(248,81,73,.15)'; fg='var(--red)';}
+  document.getElementById('timing').innerHTML = rows.map(r=>`
+    <div class="signal-row">
+      <span class="name">${r.name}</span>
+      <span class="desc">${r.desc}</span>
+      <span class="badge ${r.na?'na':(r.on?'on':'off')}">${r.na?'缺数据':(r.on?'亮':'灭')}</span>
+    </div>`).join('');
+  vEl.style.display='block'; vEl.style.background=bg; vEl.style.color=fg;
+  vEl.textContent = `${lit}/5 灯 · ${txt}`;
+}
+
+function renderCharts(hist){
+  if(typeof echarts==='undefined') return;
+  const dates = hist.map(h=>h.date);
+  const norm = key => { let base=null; return hist.map(h=>{ const v=h[key]; if(v==null) return null; if(base==null) base=v; return +(v/base*100).toFixed(2); }); };
+  const mk = (id, opt) => { const el=document.getElementById(id); if(!el) return; const c=echarts.init(el,null,{renderer:'canvas'}); c.setOption(opt); window.addEventListener('resize',()=>c.resize()); };
+  const axis = {type:'category',data:dates,axisLabel:{color:'#8b949e',fontSize:10},axisLine:{lineStyle:{color:'#30363d'}}};
+  const yAxis = {type:'value',scale:true,axisLabel:{color:'#8b949e',fontSize:10},splitLine:{lineStyle:{color:'#21262d'}}};
+  const line = (name,key,color) => ({name,type:'line',showSymbol:false,data:norm(key),lineStyle:{width:1.5},color});
+  const legend = {textStyle:{color:'#8b949e',fontSize:11},top:0};
+  const grid = {left:40,right:16,top:34,bottom:24};
+  // 核心对比
+  const coreSeries = [line('医药ETF','med_etf','#3fb950'), line('创新药ETF','inn_etf','#58a6ff'), line('恒生医疗','hsi_health','#d29922')];
+  if(norm('hs300').filter(v=>v!=null).length>=2) coreSeries.unshift(line('沪深300','hs300','#8b949e'));
+  mk('chart-core',{backgroundColor:'transparent',legend,grid,tooltip:{trigger:'axis'},xAxis:axis,yAxis:[yAxis],series:coreSeries});
+  // 子板块
+  mk('chart-sub',{backgroundColor:'transparent',legend,grid,tooltip:{trigger:'axis'},xAxis:axis,yAxis:[yAxis],series:[
+    line('医药ETF','med_etf','#3fb950'),line('创新药ETF','inn_etf','#58a6ff'),line('CXO','cxo_etf','#f85149'),line('中药','tcm_etf','#d29922'),line('医疗器械','meddev_etf','#bc8cff'),line('疫苗','vaccine_etf','#39c5cf')
+  ]});
+  // 累计超额
+  const exEl = document.getElementById('chart-excess');
+  if(exEl){
+    const exData=[]; let cum=0; let has300=false;
+    for(let i=1;i<hist.length;i++){
+      const a=hist[i-1],b=hist[i];
+      if(a.med_etf!=null&&b.med_etf!=null){ cum+=(b.med_etf/a.med_etf-1)*100; }
+      if(a.hs300!=null&&b.hs300!=null){ cum-=(b.hs300/a.hs300-1)*100; has300=true; }
+      exData.push(+cum.toFixed(2));
+    }
+    if(has300){
+      mk('chart-excess',{backgroundColor:'transparent',grid,tooltip:{trigger:'axis'},xAxis:{type:'category',data:dates.slice(1),axisLabel:{color:'#8b949e',fontSize:10},axisLine:{lineStyle:{color:'#30363d'}}},yAxis:[yAxis],series:[{name:'累计超额 %',type:'line',showSymbol:false,data:exData,lineStyle:{width:2,color:'#3fb950'},areaStyle:{opacity:.1}}]});
+    } else {
+      exEl.innerHTML='<div style="display:flex;height:100%;align-items:center;justify-content:center;color:var(--muted);font-size:13px">沪深300 历史缺失，无法计算累计超额（明晚自动更新后恢复）</div>';
+    }
+  }
+  // 利率联动
+  mk('chart-rate',{backgroundColor:'transparent',legend,grid:{left:40,right:44,top:34,bottom:24},tooltip:{trigger:'axis'},xAxis:axis,yAxis:[yAxis,{type:'value',scale:true,axisLabel:{color:'#d29922',fontSize:10},splitLine:{show:false}}],series:[
+    line('创新药ETF','inn_etf','#58a6ff'),
+    {name:'10Y美债 %',type:'line',showSymbol:false,yAxisIndex:1,data:hist.map(h=>h.tnx),lineStyle:{width:1.5,color:'#d29922'}}
+  ]});
 }
 load().catch(e=>document.body.innerHTML='<p style="color:red">加载失败: '+e+'</p>');
 
