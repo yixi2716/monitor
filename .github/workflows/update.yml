@@ -47,6 +47,11 @@ jobs:
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
 
+      # 医药位置信号（灯⑥估值分位 + 灯⑦成交占比分位，akshare 免费源）
+      - if: github.event.schedule == '0 16 * * *' || github.event_name == 'workflow_dispatch'
+        run: python scripts/fetch_valuation.py
+        continue-on-error: true
+
       # 猪（每日）
       - if: github.event.schedule == '0 16 * * *' || github.event_name == 'workflow_dispatch'
         run: python scripts/fetch_daily.py

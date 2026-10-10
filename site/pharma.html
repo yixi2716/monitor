@@ -41,6 +41,9 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,"PingFang 
 .badge.on{background:rgba(63,185,80,.15);color:var(--green)}
 .badge.off{background:rgba(110,118,129,.15);color:#6e7681}
 .badge.na{background:rgba(210,153,34,.15);color:var(--orange)}
+.badge.half{background:rgba(210,153,34,.15);color:var(--orange)}
+.badge.red{background:rgba(248,81,73,.2);color:var(--red)}
+.combined-bar{padding:14px 16px;border-radius:8px;font-size:17px;font-weight:700;text-align:center;margin-bottom:16px;border:1px solid var(--border);background:var(--card)}
 .verdict{padding:10px;border-radius:6px;text-align:center;font-weight:700;font-size:15px;margin-top:10px}
 .chart-note{font-size:11px;color:var(--muted);margin-top:4px}
 button{cursor:pointer}
@@ -55,8 +58,15 @@ button{cursor:pointer}
 
 <div class="kpi-grid" id="kpi"></div>
 
+<div class="combined-bar" id="combined" style="color:var(--muted)">组合状态加载中...</div>
+
 <div class="section">
-  <h2><span class="dot" style="background:#d29922"></span>轮动择时信号 <span style="font-size:11px;color:var(--muted);font-weight:400">五灯模型 · 4 亮以上积极关注 · 数据截至 <span id="timing-date">—</span></span></h2>
+  <h2><span class="dot" style="background:#58a6ff"></span>位置信号 · 估值与流动性 <span style="font-size:11px;color:var(--muted);font-weight:400">左侧三灯回答"跌到位没有" · 数据截至 <span id="position-date">—</span></span></h2>
+  <div id="position"><span style="color:var(--muted);font-size:13px">估值数据加载中...</span></div>
+</div>
+
+<div class="section">
+  <h2><span class="dot" style="background:#d29922"></span>时机信号 · 趋势确认 <span style="font-size:11px;color:var(--muted);font-weight:400">右侧五灯回答"行情走起来没有" · 数据截至 <span id="timing-date">—</span></span></h2>
   <div id="timing"><span style="color:var(--muted);font-size:13px">历史数据加载中...</span></div>
   <div class="verdict" id="timing-verdict" style="display:none"></div>
 </div>
@@ -123,6 +133,11 @@ button{cursor:pointer}
   </details>
 </div>
 
+<div class="section">
+  <h2><span class="dot" style="background:#bc8cff"></span>政策日历 <span style="font-size:11px;color:var(--muted);font-weight:400">手工维护 · 季度更新 · level≥4 事件驱动⑧号灯</span></h2>
+  <div id="calendar-list"><span style="color:var(--muted);font-size:13px">日历加载中...</span></div>
+</div>
+
 <div class="section" style="font-size:12px;color:var(--muted)">
   <strong style="color:var(--text)">数据来源</strong><br>
   沪深300/医药ETF/创新药ETF/恒生医疗：<a href="https://finance.yahoo.com/" target="_blank" style="color:var(--accent2)">Yahoo Finance ↗</a> ·
@@ -132,6 +147,7 @@ button{cursor:pointer}
 
 <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
 <script>if(typeof echarts==='undefined')document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.5.1/echarts.min.js"><\/script>')</script>
+<script src="position_logic.js?v=1"></script>
 <script src="ai_archive.js?v=3"></script>
 <script>
 const DEEPSEEK_KEY = "sk-238f37694a504056b4178fb33d6613b6";
@@ -259,12 +275,89 @@ async function load(){
   try {
     const hist = await fetch('data/pharma/history.json',{cache:'no-store'}).then(r=>r.ok?r.json():[]);
     if(hist.length){
-      renderTiming(hist, L);
+      window.__timingLit = renderTiming(hist, L) || 0;
       renderCharts(hist);
     } else {
+      window.__timingLit = 0;
       document.getElementById('timing').innerHTML = '<span style="color:var(--muted);font-size:13px">历史数据未生成（明晚自动更新后显示）</span>';
     }
-  } catch(e) { console.error('history error', e); }
+  } catch(e) { console.error('history error', e); window.__timingLit = 0; }
+
+  // 位置信号（左侧三灯）+ 政策日历 + 组合状态
+  try {
+    const [v, cal] = await Promise.all([
+      fetch('data/pharma/valuation.json',{cache:'no-store'}).then(r=>r.ok?r.json():null),
+      fetch('data/pharma/calendar.json',{cache:'no-store'}).then(r=>r.ok?r.json():[])
+    ]);
+    renderPosition(v, cal||[], window.__timingLit||0);
+  } catch(e) { console.error('position error', e); }
+}
+
+function renderPosition(v, cal, timingLit){
+  const PL = window.PositionLogic;
+  const box = document.getElementById('position');
+  const badge = st => ({on:'<span class="badge on">亮</span>',half:'<span class="badge half">半亮</span>',off:'<span class="badge off">灭</span>',na:'<span class="badge na">缺数据</span>'}[st]||'');
+  if(!v || !v.lights){
+    box.innerHTML = '<span style="color:var(--muted);font-size:13px">估值数据未生成（明晚自动更新后显示）</span>';
+    const cb = document.getElementById('combined');
+    cb.style.color = '#6e7681';
+    cb.textContent = '组合状态：⚪ 数据积累中（位置信号未生成）';
+    renderCalendarList(cal);
+    return;
+  }
+  const li = v.lights;
+  document.getElementById('position-date').textContent = (li.price && li.price.date) || v.date;
+  // 灯⑥：PE 分位优先（积累满 250 交易日），未 ready 时用 801150 十年价格分位过渡
+  let pePct = null, peLabel = '无数据', peSrc = '', peNote = '';
+  if(li.pe && li.pe.ready && li.pe.pct != null){
+    pePct = li.pe.pct;
+    peLabel = `PE 分位 ${(pePct*100).toFixed(1)}%（300医药 PE ${li.pe.pe}）`;
+    peSrc = li.pe.src;
+  } else {
+    pePct = li.price ? li.price.pct : null;
+    peLabel = pePct != null ? `价格分位(过渡) ${(pePct*100).toFixed(1)}%` : '无数据';
+    peSrc = li.price ? li.price.src : '';
+    if(li.pe && !li.pe.ready) peNote = `PE 序列积累中 ${li.pe.rows}/250 个交易日，暂以十年价格分位代替`;
+  }
+  const peSt = PL.posLight(pePct);
+  // 灯⑦：成交占比 3 年分位
+  const toPct = li.turnover ? li.turnover.pct : null;
+  const toSt = PL.posLight(toPct);
+  // 灯⑧：政策日历
+  const pol = PL.policyState(cal, v.date);
+  const polBadge = pol==='red' ? '<span class="badge red">红灯</span>' : (pol==='yellow' ? '<span class="badge half">黄灯</span>' : '<span class="badge off">灭</span>');
+  const polDesc = pol==='red' ? '重大事件窗口（当天±1天）' : (pol==='yellow' ? '14 天内有 level≥4 事件' : '无临近高等级事件');
+  const posOn = (peSt==='on'?1:0) + (toSt==='on'?1:0);
+  const posTotal = (peSt!=='na'?1:0) + (toSt!=='na'?1:0);
+  box.innerHTML = [
+    {name:'⑥ 估值位置', desc:`${peLabel} <span style="color:#6e7681">${peNote}</span>`, src:peSrc, st:peSt},
+    {name:'⑦ 成交占比', desc:toPct!=null?`医药占全市场成交 ${li.turnover.ratio}% · 3年分位 ${(toPct*100).toFixed(1)}%`:'无数据', src:li.turnover?li.turnover.src:'', st:toSt},
+    {name:'⑧ 政策日历', desc:polDesc, src:'calendar.json 手工维护', st:pol==='red'?'red':(pol==='yellow'?'half':'off'), pol:true},
+  ].map(r=>`
+    <div class="signal-row">
+      <span class="name">${r.name}</span>
+      <span class="desc">${r.desc}${r.src?` <span style="color:#6e7681">(${r.src})</span>`:''}</span>
+      ${r.pol?polBadge:badge(r.st)}
+    </div>`).join('');
+  const combined = PL.combineState({posOn, posTotal, pol, timingLit, pePct});
+  const cb = document.getElementById('combined');
+  cb.style.color = combined.color;
+  cb.textContent = `组合状态：${combined.label}（位置 ${posOn} 亮 · 时机 ${timingLit} 灯）`;
+  renderCalendarList(cal);
+}
+
+function renderCalendarList(cal){
+  const box = document.getElementById('calendar-list');
+  if(!box) return;
+  if(!cal.length){ box.innerHTML = '<span style="color:var(--muted);font-size:13px">暂无日历事件（编辑 data/pharma/calendar.json 添加）</span>'; return; }
+  const sorted = [...cal].sort((a,b)=>a.date<b.date?-1:1);
+  box.innerHTML = `<table style="width:100%;border-collapse:collapse;font-size:13px"><tbody>${sorted.map(ev=>`
+    <tr style="border-bottom:1px solid var(--border)">
+      <td style="padding:6px 8px;color:var(--muted);white-space:nowrap">${ev.date}</td>
+      <td style="padding:6px 8px">${ev.event}</td>
+      <td style="padding:6px 8px;color:var(--muted);font-size:12px">${ev.type||''}</td>
+      <td style="padding:6px 8px;color:var(--orange);white-space:nowrap">${'⭐'.repeat(Math.min(ev.level||1,5))}</td>
+    </tr>`).join('')}</tbody></table>`;
 }
 
 function renderTiming(hist, L){
@@ -306,6 +399,7 @@ function renderTiming(hist, L){
     </div>`).join('');
   vEl.style.display='block'; vEl.style.background=bg; vEl.style.color=fg;
   vEl.textContent = `${lit}/5 灯 · ${txt}`;
+  return lit;
 }
 
 function renderCharts(hist){
