@@ -55,12 +55,14 @@ jobs:
       - if: github.event.schedule == '0 16 * * *' || github.event_name == 'workflow_dispatch'
         run: python scripts/signals.py
 
-      # AI 每日综合分析（数据齐后统一生成，按日期存档；当天已有人工保存的存档则不覆盖）
-      - if: github.event.schedule == '0 16 * * *' || github.event_name == 'workflow_dispatch'
-        run: python scripts/ai_daily.py
-        continue-on-error: true
-        env:
-          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+      # AI 每日自动分析已停用：曾因生成失败反复 rerun 消耗 API 额度。
+      # 现改为页面手动"重新生成" + "存入档案"（见 site/ai_archive.js）。
+      # 如需恢复，取消下面注释并确保配置了 DEEPSEEK_API_KEY secret：
+      # - if: github.event.schedule == '0 16 * * *' || github.event_name == 'workflow_dispatch'
+      #   run: python scripts/ai_daily.py
+      #   continue-on-error: true
+      #   env:
+      #     DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
 
       # 月报/能繁
       - if: github.event.schedule == '0 1 10 * *'

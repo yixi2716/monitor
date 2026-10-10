@@ -259,7 +259,7 @@
       <button onclick="regenerateGoldAI()" style="margin-left:12px;padding:4px 12px;background:var(--accent);color:#000;border:none;border-radius:4px;cursor:pointer;font-size:12px">重新生成</button>
     </h2>
     <div id="ai-content" style="font-size:14px; line-height:1.9; color:var(--text); white-space:pre-wrap;"></div>
-    <p class="src-note">由 DeepSeek 模型读取当日看板数据后生成；每晚 0 点自动生成并存档，白天手动生成可点"存入档案"覆盖当天。同一天多次生成，以最后一次为准。</p>
+    <p class="src-note">由 DeepSeek 模型读取当日看板数据后生成；手动生成后点"存入档案"保存当天（同一天多次生成以最后一次为准），下拉框可翻阅历史存档。</p>
     <details style="margin-top:6px;font-size:12px;color:var(--muted)">
       <summary style="cursor:pointer">查看本页 AI 提示词</summary>
       <pre style="white-space:pre-wrap;background:rgba(127,181,232,.06);padding:10px;border-radius:6px;margin-top:6px;font-size:12px;line-height:1.6;color:var(--muted)">你是贵金属分析师，每日跟踪黄金市场。基于以下数据，按要求输出。
@@ -291,7 +291,7 @@
     document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.5.1/echarts.min.js"><\/script>');
   }
 </script>
-<script src="ai_archive.js?v=2"></script>
+<script src="ai_archive.js?v=3"></script>
 <script>
 const fmtPct = v => (v >= 0 ? '+' : '') + v.toFixed(2) + '%';
 const fmtMoney = v => '$' + v.toLocaleString('en-US', {maximumFractionDigits: 1});

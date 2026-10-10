@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>铜价周期监测台</title>
+<title>铜价周期 · A股铜板块择时看板</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔶</text></svg>">
 <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
-<script src="ai_archive.js?v=2"></script>
+<script src="ai_archive.js?v=3"></script>
 <style>
 :root{
   --bg:#0d1117; --card:#161b22; --border:#30363d;
@@ -50,7 +50,7 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,'Segoe UI'
 </head>
 <body>
 <div class="header">
-  <h1>🔶 铜价周期监测台</h1>
+  <h1>🔶 铜价周期 · A股铜板块择时看板</h1>
   <a href="index.html">← 返回总览</a>
 </div>
 
@@ -59,6 +59,50 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,'Segoe UI'
 <div class="section">
   <h2><span class="dot"></span>铜价走势（近1年）</h2>
   <div id="chart" class="chart"></div>
+</div>
+
+<div class="section">
+  <h2><span class="dot" style="background:var(--accent2)"></span>A股铜板块 · 择时信号
+    <span id="timing-verdict" style="margin-left:10px;font-size:13px;font-weight:600"></span>
+  </h2>
+  <div id="timing"></div>
+  <div class="src" style="margin-top:6px">规则确定性计算：趋势（铜价 vs MA20）· 内外盘（沪伦比）· 库存方向 · 板块资金动量（铜股/铜价比率 5 日变化）· 海外共振（CPER）。≥4 盏绿灯积极关注，≤1 盏谨慎。仅作研究参考，不构成投资建议。</div>
+</div>
+
+<div class="section">
+  <h2><span class="dot"></span>铜股 ÷ 铜价 · 相对强弱（起点=100）</h2>
+  <div id="chart-rs" class="chart"></div>
+  <div class="src" style="margin-top:6px">数值上行 = 铜股跑赢铜价（资金流入板块/个股 alpha）；持续下行 = 铜股跑输（跟涨乏力或基本面隐忧）。剔除汇率与大盘 beta 的直接干扰，比单看股价更有参考性。</div>
+</div>
+
+<div class="section">
+  <h2><span class="dot"></span>三标的怎么选 · 敏感度对比</h2>
+  <table style="width:100%;border-collapse:collapse;font-size:13px">
+    <thead><tr style="color:var(--muted);text-align:left;border-bottom:1px solid var(--border)">
+      <th style="padding:6px 8px">标的</th><th style="padding:6px 8px">代码</th><th style="padding:6px 8px">业务结构</th><th style="padding:6px 8px">铜价敏感度</th><th style="padding:6px 8px">TC 加工费敏感度</th><th style="padding:6px 8px">核心看点</th>
+    </tr></thead>
+    <tbody>
+      <tr style="border-bottom:1px solid var(--border)">
+        <td style="padding:8px"><b>洛阳钼业</b></td><td style="padding:8px">603993</td>
+        <td style="padding:8px">矿山为主（刚果金 TFM/KFM 铜钴矿）+ 贸易</td>
+        <td style="padding:8px;color:var(--red)">高</td><td style="padding:8px;color:var(--muted)">低</td>
+        <td style="padding:8px">铜价弹性最大的纯资源逻辑；钴/铌是第二曲线</td>
+      </tr>
+      <tr style="border-bottom:1px solid var(--border)">
+        <td style="padding:8px"><b>江西铜业</b></td><td style="padding:8px">600362</td>
+        <td style="padding:8px">矿山 + 冶炼一体化，自给矿比例较高</td>
+        <td style="padding:8px;color:var(--accent2)">中高</td><td style="padding:8px;color:var(--accent2)">中</td>
+        <td style="padding:8px">攻守均衡，分红稳定；兼具铜价与产量增长逻辑</td>
+      </tr>
+      <tr>
+        <td style="padding:8px"><b>铜陵有色</b></td><td style="padding:8px">000630</td>
+        <td style="padding:8px">冶炼加工为主，原料依赖外购铜精矿</td>
+        <td style="padding:8px;color:var(--accent2)">中</td><td style="padding:8px;color:var(--red)">高</td>
+        <td style="padding:8px">TC 加工费回升的最直接受益者；加工费修复行情首选</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="src" style="margin-top:6px">铜价大涨行情 → 洛钼弹性领先；TC 触底回升（冶炼利润修复）→ 铜陵逻辑最顺；均衡配置 → 江铜。当前铜精矿 TC（长单/现货）：<b id="tc-value">读取中…</b>　<span id="tc-note" style="color:var(--muted)"></span></div>
 </div>
 
 <div class="grid2">
@@ -77,7 +121,7 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,'Segoe UI'
     <button onclick="regenerateAI()" style="margin-left:12px;padding:4px 12px;background:var(--accent2);color:#000;border:none;border-radius:4px;cursor:pointer;font-size:12px">重新生成</button>
   </h2>
   <div class="ai-box" id="ai">加载中...</div>
-  <div class="src">由 DeepSeek 模型读取当日数据后生成；每晚 0 点自动生成并存档，白天手动生成可点"存入档案"覆盖当天。同一天多次生成，以最后一次为准。</div>
+  <div class="src">由 DeepSeek 模型读取当日数据后生成；手动生成后点"存入档案"保存当天（同一天多次生成以最后一次为准），下拉框可翻阅历史存档。</div>
   <details style="margin-top:6px;font-size:12px;color:var(--muted)">
     <summary style="cursor:pointer">查看本页 AI 提示词</summary>
     <pre style="white-space:pre-wrap;background:rgba(212,120,42,.07);padding:10px;border-radius:6px;margin-top:6px;font-size:12px;line-height:1.6">你是大宗商品分析师，每日跟踪铜市场。基于以下数据，按要求输出。
@@ -178,6 +222,96 @@ async function load(){
     ]
   });
   window.addEventListener('resize',()=>chart.resize());
+
+  // ===== A股铜板块择时看板 =====
+  // 1) 相对强弱：铜股 ÷ 铜价，各自归一化到起点=100
+  function rsNorm(key){
+    const pairs = hist.filter(h=>h[key]&&h.copper).map(h=>h[key]/h.copper);
+    const base = pairs[0] || 1;
+    // 对齐到原始日期轴（缺数据的日期补 null）
+    let i = 0;
+    return hist.map(h=>{ if(h[key]&&h.copper){ const v = pairs[i++]/base*100; return +v.toFixed(2); } return null; });
+  }
+  const chartRs = echarts.init(document.getElementById('chart-rs'));
+  chartRs.setOption({
+    tooltip:{trigger:'axis'},
+    legend:{data:['洛阳钼业÷铜','江西铜业÷铜','铜陵有色÷铜'],textStyle:{color:'#8b949e'},top:0},
+    grid:{left:50,right:20,top:40,bottom:30},
+    xAxis:{type:'category',data:dates,axisLabel:{color:'#8b949e'}},
+    yAxis:{type:'value',scale:true,axisLabel:{color:'#8b949e'},splitLine:{lineStyle:{color:'#30363d'}}},
+    series:[
+      {name:'洛阳钼业÷铜',type:'line',data:rsNorm('lymy'),smooth:true,symbol:'none',itemStyle:{color:'#58a6ff'},lineStyle:{width:2}},
+      {name:'江西铜业÷铜',type:'line',data:rsNorm('jxt'),smooth:true,symbol:'none',itemStyle:{color:'#f778ba'},lineStyle:{width:2}},
+      {name:'铜陵有色÷铜',type:'line',data:rsNorm('tl'),smooth:true,symbol:'none',itemStyle:{color:'#3fb950'},lineStyle:{width:2}}
+    ]
+  });
+  window.addEventListener('resize',()=>chartRs.resize());
+
+  // 2) 择时信号灯（规则确定性计算）
+  function rsChg5(key){
+    const arr = hist.filter(h=>h[key]&&h.copper);
+    if(arr.length<6) return 0;
+    const a = arr[arr.length-6], b = arr[arr.length-1];
+    return ((b[key]/b.copper)/(a[key]/a.copper) - 1) * 100;
+  }
+  const lamps = [];
+  {
+    const pass = L.copper > L.ma20;
+    lamps.push({name:'铜价趋势', pass, text:`COMEX $${L.copper.toFixed(2)} ${pass?'>':'≤'} MA20 $${L.ma20.toFixed(2)}`,
+      hint: pass ? '趋势向上，板块有贝塔支撑' : '趋势偏弱，追高风险大'});
+  }
+  {
+    const r = L.shfe_lme_ratio || 0;
+    const pass = r > 1.07;
+    lamps.push({name:'内外盘价差', pass: r>1.07, text:`沪伦比 ${r.toFixed(3)}（>1.07 国内溢价）`,
+      hint: pass ? '国内溢价 = 内需强/进口受限，利多国内铜企' : '内外盘平价，缺额外催化'});
+  }
+  {
+    const chg = L.shfe_stock_chg;
+    const pass = (chg !== null && chg !== undefined) ? chg < 0 : false;
+    lamps.push({name:'库存方向', pass, text: chg !== null && chg !== undefined ? `沪铜库存日变 ${chg>0?'+':''}${chg} 吨` : '沪铜库存未获取',
+      hint: pass ? '去库 = 现货趋紧，支撑价格' : (chg > 0 ? '累库压制价格' : '库存数据缺失')});
+  }
+  {
+    const rs = (rsChg5('lymy') + rsChg5('tl') + rsChg5('jxt')) / 3;
+    const pass = rs > 0;
+    lamps.push({name:'板块资金动量', pass, text:`铜股/铜价比率 5日 ${rs>=0?'+':''}${rs.toFixed(1)}%`,
+      hint: pass ? '资金流入铜股，板块强于商品' : '铜股跑输铜价，观望资金态度'});
+  }
+  {
+    const c = L.cper_chg || 0;
+    const pass = c > 0;
+    lamps.push({name:'海外共振', pass, text:`CPER 铜ETF 日涨跌 ${c>=0?'+':''}${c.toFixed(2)}%`,
+      hint: pass ? '海外铜板块同向走强' : '海外铜股走弱，警惕隔夜风险'});
+  }
+  const greens = lamps.filter(l=>l.pass).length;
+  const verdict = greens>=4 ? ['积极关注','var(--red)'] : greens===3 ? ['中性偏多','var(--orange)'] : greens===2 ? ['中性观望','var(--muted)'] : ['谨慎','var(--green)'];
+  document.getElementById('timing-verdict').textContent = `${greens}/5 · ${verdict[0]}`;
+  document.getElementById('timing-verdict').style.color = verdict[1];
+  document.getElementById('timing').innerHTML = lamps.map(l=>`
+    <div class="signal-row">
+      <span class="badge ${l.pass?'bear':''}" style="${l.pass?'':'background:#6e7681;color:#c9d1d9'}">${l.pass?'亮':'灭'}</span>
+      <strong>${l.name}</strong>
+      <span style="color:var(--muted)">${l.text}</span>
+      <span style="color:var(--muted);font-size:11px;margin-left:auto">${l.hint}</span>
+    </div>`).join('');
+
+  // 3) TC 加工费（手动维护的数据文件，见 data/copper/tc.json）
+  try {
+    const tc = await fetch('data/copper/tc.json',{cache:'no-store'}).then(r=>r.ok?r.json():null);
+    const el = document.getElementById('tc-value');
+    const note = document.getElementById('tc-note');
+    if (tc && tc.tc_usd) {
+      el.textContent = `$${tc.tc_usd}/干吨（${tc.type||'现货'}，${tc.date||''}）`;
+      note.textContent = tc.source || '';
+    } else {
+      el.textContent = '未录入';
+      note.textContent = 'TC 是冶炼股（尤其铜陵）利润的核心变量，建议每月从 SMM/我的钢铁 查一次现货 TC 更新 data/copper/tc.json';
+    }
+  } catch(e) {
+    document.getElementById('tc-value').textContent = '未录入';
+    document.getElementById('tc-note').textContent = '建议每月手动更新 data/copper/tc.json（SMM 铜精矿现货 TC）';
+  }
 }
 load().catch(e=>document.body.innerHTML='<p style="color:red">加载失败: '+e+'</p>');
 

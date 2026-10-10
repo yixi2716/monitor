@@ -53,7 +53,7 @@ const AIArchive = (function () {
       ? '<button id="ai-arch-save" style="padding:2px 10px;background:#238636;color:#fff;border:none;border-radius:4px;cursor:pointer">存入档案（覆盖当天）</button>'
       : '';
     if (!ds.length) {
-      toolbar.innerHTML = '<span style="color:var(--muted)">暂无历史存档' + (unsaved() ? '' : '（每晚 0 点自动生成，或点"重新生成"后手动存入）') + '</span>' + saveBtn + '<span id="ai-arch-msg" style="color:var(--muted)"></span>';
+      toolbar.innerHTML = '<span style="color:var(--muted)">暂无历史存档' + (unsaved() ? '' : '（点"重新生成"后可手动存入档案）') + '</span>' + saveBtn + '<span id="ai-arch-msg" style="color:var(--muted)"></span>';
     } else {
       const opts = ds.map(d => '<option value="' + d + '">' + d + '</option>').join('');
       const def = (cfg.dataDate && archive[cfg.dataDate]) ? cfg.dataDate : ds[0];
