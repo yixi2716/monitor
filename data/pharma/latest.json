@@ -2,23 +2,23 @@
   "date": "2026-10-10",
   "hs300": 4317.25,
   "hs300_chg": 0.0,
-  "med_etf": null,
-  "med_etf_chg": null,
-  "inn_etf": null,
-  "inn_etf_chg": null,
-  "cxo_etf": null,
-  "cxo_etf_chg": null,
-  "tcm_etf": null,
-  "tcm_etf_chg": null,
-  "meddev_etf": null,
-  "meddev_etf_chg": null,
-  "vaccine_etf": null,
-  "vaccine_etf_chg": null,
+  "med_etf": 0.382,
+  "med_etf_chg": 0.0,
+  "inn_etf": 0.839,
+  "inn_etf_chg": 0.0,
+  "cxo_etf": 0.339,
+  "cxo_etf_chg": 0.0,
+  "tcm_etf": 0.867,
+  "tcm_etf_chg": 0.0,
+  "meddev_etf": 0.432,
+  "meddev_etf_chg": 0.0,
+  "vaccine_etf": 2.234,
+  "vaccine_etf_chg": 0.0,
   "hsi_health": 24211.35,
   "hsi_health_chg": 0.0,
   "tnx": 5.24,
-  "usdcny": 6.7021,
-  "excess": null,
+  "usdcny": 6.683,
+  "excess": 0.0,
   "north_money": 296735.35,
   "north_date": "20261009",
   "news": [
@@ -34,8 +34,23 @@
     },
     {
       "date": "2026-10-10",
-      "text": "从社区康复到社会参与，梯瓦医药携手阳光家园开展“以爱为梯，花开四季”活动 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBOR2hCUWRaeGtfREt1cUs1VzE0dC1uVElLRDNTXzlYbFQ2VTNqMVRnM2FxeXFLYTQzaGo4b2kwa0U4WllaekhpR19naHdfRE1Tdy1YRGdzNV82N0JCc2JMN1lFd09nenJ4andzemxPakhjMXdDa3lBcQ?oc=5"
+      "text": "验收促提升 传承启新程 - 北京市卫生健康委员会",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFByQm5uN0R6OEkzRE5qV2dtMTdVeU9NVVFTRHdZSmN0cFlwaDJKSmtncnZONGs5WURGXzRzaXpzRlMtNTF6SlMxNXgtSUV2Mm1VMWwyc2hTS0tkS0ZWV2RBNW9YajBxdGEyUXM5RnRzaG5vZHhWNS1LQ0hJZ3o?oc=5"
+    },
+    {
+      "date": "2026-10-10",
+      "text": "中医+AI联手推动中医药经验优势转化，国家科技重大专项在沪启动 - 新浪网",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9zNGZBTHlzY00yYU1hQWMtTldtUVFib3hUbGlXR0RYSU41eXBORnhLU2ZNYlEwc0ZhaFJ0dzNaX1dqNVBXWUJxUkhRZ09OaWd4WEg2eVhQS1B5STdsOVVneEZpenVmTTk4aDI4cmVxN1hnU0thWVlvYVA1WUhOUQ?oc=5"
+    },
+    {
+      "date": "2026-10-10",
+      "text": "集采围标撞“枪口” 圣诺生物子公司及实控人被公诉|速读公告 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ENTJiMmFxNHFfREN4SHN6UUtxT0NLRmdRa0Z4UkNrVFV2cndIX0NtZEx1N0h6bnR0d2xmQWdwbHNNMXBQWWVFVg?oc=5"
+    },
+    {
+      "date": "2026-10-10",
+      "text": "涉嫌药品集采串通投标 圣诺生物核心子公司及实控人文永均被提起公诉 - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB4LVllMGl6cktIRXkzcjRSOERyeXBlWFNrU184c24xQlNHdmVUNURBc0xISVJrZmVjaC1MeU9UVExuWjI3T1BWN2MwM0Q2ZkxGZzJNUHl4UnI0emk2Q2w5cWRXLWJhUQ?oc=5"
     },
     {
       "date": "2026-10-10",
@@ -46,21 +61,6 @@
       "date": "2026-10-10",
       "text": "A股首份三季报出炉沃华医药净利同比增长44.78%|非经常性损益|净利润|基药|股东|目录 - 新浪财经",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBaTmFLQXhzektIMXhkLXBJMUluenpqWU5uTEdXalVMRlRHSm9CLXgwTkt5aWgtT0VZeWRIbjlSZUZnVU9zaWMwZV9CRTEzMWdRMFZEejYtQmZWdXJnX3dtdHYzNmxGOGJ2TnQ5NjFRSDdRbTIzbWU0eg?oc=5"
-    },
-    {
-      "date": "2026-10-10",
-      "text": "中医+AI联手推动中医药经验优势转化，国家科技重大专项在沪启动 - 上观新闻",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1NZ05oT2VIaGlMTm8yVjZWTnA1VGZOZVUxQkgyOG05d0dBbmpSZ2dBbzZkZmRtbDJCV19YZ0FWRkVsSXBLb3g3S0IxZFV1NDNnWXNkbVpRTXhiZUVz?oc=5"
-    },
-    {
-      "date": "2026-10-10",
-      "text": "前三季基金业绩揭榜: 半导体吃肉、原油喝汤、医药复兴 - 华尔街见闻",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBIUnVhTUczbkxzOC05VS1tOWlBazJNbWgxdjR5MkNTbkxJcHQ0UkkwUms1d3RWVUpha3BWajV1aElOUVVRLUJSdXVfZFZNTjlIUjFV?oc=5"
-    },
-    {
-      "date": "2026-10-10",
-      "text": "12000元医药费只花3000多 骑手：真切享受到了医保 - 浙江在线",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5HdWlsYjFVeHR6dkN6QzljTUFRclkyVzA1MjV1aGlENUVxcUxneGpXZnVOVmc4NlFqLVBoVXNvWVUxN1JGWE95a25iTlNLXzVsalZ6VXF3bVBvM01tS3dkMkc3TTRMalZ4bGtzRA?oc=5"
     }
   ],
   "ai_analysis": "",

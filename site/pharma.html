@@ -173,24 +173,25 @@ async function load(){
 
   // KPI
   try {
+    const nf = (v, n) => v!=null && isFinite(v) ? v.toFixed(n) : '—';
     document.getElementById('kpi').innerHTML = [
-      {label:'沪深300', value:(L.hs300||0).toFixed(0), chg:L.hs300_chg||0, src:'Yahoo 000300.SS · '+L.date},
-      {label:'医药ETF', value:(L.med_etf||0).toFixed(3), chg:L.med_etf_chg||0, src:'Yahoo 512010.SS · '+L.date},
-      {label:'创新药ETF', value:(L.inn_etf||0).toFixed(3), chg:L.inn_etf_chg||0, src:'Yahoo 159992.SZ · '+L.date},
-      {label:'CXO医疗ETF', value:(L.cxo_etf||0).toFixed(3), chg:L.cxo_etf_chg||0, src:'Yahoo 512170.SS'},
-      {label:'中药ETF', value:(L.tcm_etf||0).toFixed(3), chg:L.tcm_etf_chg||0, src:'Yahoo 159647.SZ'},
-      {label:'医疗器械ETF', value:(L.meddev_etf||0).toFixed(3), chg:L.meddev_etf_chg||0, src:'Yahoo 159883.SZ'},
-      {label:'疫苗ETF', value:(L.vaccine_etf||0).toFixed(3), chg:L.vaccine_etf_chg||0, src:'Yahoo 516160.SS'},
-      {label:'恒生指数', value:(L.hsi_health||0).toFixed(0), chg:L.hsi_health_chg||0, src:'Yahoo ^HSI · '+L.date},
-      {label:'超额(医药vs300)', value:((L.excess||0)>=0?'+':'')+(L.excess||0).toFixed(2)+'%', chg:L.excess||0, src:'ETF涨幅-300涨幅'},
-      {label:'10Y美债', value:(L.tnx||0).toFixed(2)+'%', chg:0, src:'Yahoo ^TNX · '+L.date},
-      {label:'美元/人民币', value:(L.usdcny||0).toFixed(4), chg:0, src:'Yahoo CNY=X · '+L.date},
-      {label:'北向资金净买入', value:L.north_money!=null? (L.north_money/10000).toFixed(2)+'亿':'未获取', chg:L.north_money||0, src:L.north_money!=null?'Tushare · '+L.north_date:'Tushare 拉取失败或未配置 token'},
+      {label:'沪深300', value:nf(L.hs300,0), chg:L.hs300_chg, src:'Yahoo 000300.SS · '+L.date},
+      {label:'医药ETF', value:nf(L.med_etf,3), chg:L.med_etf_chg, src:'Yahoo 512010.SS · '+L.date},
+      {label:'创新药ETF', value:nf(L.inn_etf,3), chg:L.inn_etf_chg, src:'Yahoo 159992.SZ · '+L.date},
+      {label:'CXO医疗ETF', value:nf(L.cxo_etf,3), chg:L.cxo_etf_chg, src:'Yahoo 512170.SS'},
+      {label:'中药ETF', value:nf(L.tcm_etf,3), chg:L.tcm_etf_chg, src:'Yahoo 159647.SZ'},
+      {label:'医疗器械ETF', value:nf(L.meddev_etf,3), chg:L.meddev_etf_chg, src:'Yahoo 159883.SZ'},
+      {label:'疫苗ETF', value:nf(L.vaccine_etf,3), chg:L.vaccine_etf_chg, src:'Yahoo 516160.SS'},
+      {label:'恒生指数', value:nf(L.hsi_health,0), chg:L.hsi_health_chg, src:'Yahoo ^HSI · '+L.date},
+      {label:'超额(医药vs300)', value:L.excess!=null?((L.excess>=0?'+':'')+L.excess.toFixed(2)+'%'):'—', chg:L.excess, src:'ETF涨幅-300涨幅'},
+      {label:'10Y美债', value:L.tnx!=null?L.tnx.toFixed(2)+'%':'—', chg:0, src:'Yahoo ^TNX · '+L.date},
+      {label:'美元/人民币', value:nf(L.usdcny,4), chg:0, src:'Yahoo CNY=X · '+L.date},
+      {label:'北向资金净买入', value:L.north_money!=null? (L.north_money/10000).toFixed(2)+'亿':'未获取', chg:0, src:L.north_money!=null?'Tushare · '+L.north_date:'Tushare 拉取失败或未配置 token'},
     ].map(c=>`
       <div class="kpi">
         <div class="label">${c.label}</div>
         <div class="value">${c.value}</div>
-        <div class="chg ${c.chg>=0?'up':'down'}">${c.chg!==0?(c.chg>=0?'+':'')+c.chg.toFixed(2)+'%':''}</div>
+        <div class="chg ${(c.chg||0)>=0?'up':'down'}">${c.chg!=null&&c.chg!==0?(c.chg>=0?'+':'')+c.chg.toFixed(2)+'%':''}</div>
         <div class="src">${c.src}</div>
       </div>
     `).join('');
