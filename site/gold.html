@@ -589,7 +589,14 @@ function renderScoreHistory(SH) {
   });
 }
 
-const DEEPSEEK_KEY = "sk-238f37694a504056b4178fb33d6613b6";
+function getDeepseekKey(){
+  let k = localStorage.getItem('ds_key');
+  if(!k){
+    k = (prompt('首次生成需要输入 DeepSeek API Key（仅保存在本浏览器 localStorage，绝不进代码库）：')||'').trim();
+    if(k) localStorage.setItem('ds_key', k); else throw new Error('未填写 DeepSeek Key');
+  }
+  return k;
+}
 
 async function regenerateGoldAI(){
   const el = document.getElementById('ai-content');
@@ -633,7 +640,7 @@ ${sigLines}
     const resp = await fetch('https://api.deepseek.com/v1/chat/completions', {
       method: 'POST',
       headers: {
-        'Authorization': 'Bearer ' + DEEPSEEK_KEY,
+        'Authorization': 'Bearer ' + getDeepseekKey(),
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({

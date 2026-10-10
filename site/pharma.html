@@ -150,7 +150,14 @@ button{cursor:pointer}
 <script src="position_logic.js?v=1"></script>
 <script src="ai_archive.js?v=3"></script>
 <script>
-const DEEPSEEK_KEY = "sk-238f37694a504056b4178fb33d6613b6";
+function getDeepseekKey(){
+  let k = localStorage.getItem('ds_key');
+  if(!k){
+    k = (prompt('首次生成需要输入 DeepSeek API Key（仅保存在本浏览器 localStorage，绝不进代码库）：')||'').trim();
+    if(k) localStorage.setItem('ds_key', k); else throw new Error('未填写 DeepSeek Key');
+  }
+  return k;
+}
 
 async function load(){
   let L;
@@ -484,7 +491,7 @@ ${newsLines}
 
     const resp = await fetch('https://api.deepseek.com/v1/chat/completions',{
       method:'POST',
-      headers:{'Authorization':'Bearer '+DEEPSEEK_KEY,'Content-Type':'application/json'},
+      headers:{'Authorization':'Bearer '+getDeepseekKey(),'Content-Type':'application/json'},
       body:JSON.stringify({model:'deepseek-chat',messages:[{role:'system',content:'你是严谨的医药行业分析师。'},{role:'user',content:prompt}],temperature:0.3,max_tokens:500})
     });
     const data = await resp.json();
