@@ -1,6 +1,6 @@
 {
   "date": "2026-10-09",
-  "fetched_at": "2026-10-11 03:58",
+  "fetched_at": "2026-10-12 04:08",
   "gold": 4216.3,
   "gold_chg": 1.43,
   "ma20": 4267.6,
@@ -18,7 +18,7 @@
   "corr_gold_vix": -0.51,
   "basis": 37.05,
   "vol20": 17.7,
-  "gold_silver_ratio": 69.5,
+  "gold_silver_ratio": 69.07,
   "usdcny": 6.7021,
   "shfe_au": 908.64,
   "shfe_au_date": "2026-10-09",
@@ -161,10 +161,10 @@
         "dot_plot": true
       }
     ],
-    "zq_price": 96.11,
-    "zq_implied_rate": 3.89,
-    "market_bp_vs_current": -11.0,
-    "market_expectation": "市场预期降息 11bp",
+    "zq_price": 96.07,
+    "zq_implied_rate": 3.93,
+    "market_bp_vs_current": -7.0,
+    "market_expectation": "市场预期下次会议维持不变",
     "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
   },
   "geopolitics": {
@@ -182,33 +182,33 @@
       },
       {
         "date": "2026-10-07",
-        "text": "US sets new demands for Iran deal: What are they?",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNU1ZQRjU0eUpuQ2c2ZFE4MjJEazVwWWMyai1SMWFlWVRBYURTYmlqblVhZFJTa0xxQlNKWEtRNEFXU3RCUnU1ZzRXc1FxdmcxaWcybl9ISzZfWUNtS2JaUUxuNXNSWmhpdzdETXQ4R1MyUS03c25waS1UTVNid1czdUlKSlRsYUtZTkJsb3l1QXl3Z9IBlwFBVV95cUxPSEZpRE83aEJSR2dxaC10MTBJMTBELUEzOXdFWHRmVmE3LWhmMWJWN1FiVGgtMktyb1YyQU9OWEFpMmc5WVJVR2NWVjJtUnUzZS1iTU45WkNPQl9Nb3ZOTzBDbS1qOHBOSmJHdG1pYzIxeEo2eXdHRzR5LWl4VXVVQmE0eV9oRlVfOFd4UU8yWkRCcnBWeGNn?oc=5",
-        "src": "Al Jazeera"
-      },
-      {
-        "date": "2026-10-07",
         "text": "EXCLUSIVE: Vance says Iran must cut enrichment to end war",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQ3R3RzJuRF9NSlo0bWNMaGY3dTdUbXRmSU1BMml2V2RLd0sxazNvVUNRdXpHa21Ebk4tVWtLeHZXMG5xM2ZUVG1aTEJDU0FRWnRHZnozTHQxdVRjeTJvbXRKNzFpNG1wR3RqVDlKMXpXY09hYlFKVlF4RW5uQjJJMXhKOEt3c0ZLWE4tbWZlQW5hUnRnckxmaU1mU0R0SWwzRGNXdGo0ZTVTUXBlSHlfakN1Yw?oc=5",
         "src": "Reuters"
       },
       {
         "date": "2026-10-07",
-        "text": "Rubio says Tehran missed 'multiple' chances for nuclear deal amid Iran stalemate",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBST3M3OWl1Z3R1OFBQaFRuXzBxeC1DVnczRVNFWm12c2NHQnV5OU9acWZLTllvSWNKcUE4NHBSV1oyQmFObGszUlE0dU9sUE9zZmk4NmpPZEJTNmZMRkZrU3NlWVlVSjF3czJHVVd30gFzQVVfeXFMTl9lOGNDTDRpUHJsdU80NU5NV1NTTVhua25JazF6eHA4TC1aNGNqWm5aaHBXM3hkYjZqZGFGYzR6NFdrcnJZdnRzRTBUYndZZEhIa2gwUHhwNTlvbkNmYk8zNG1DSFBMaDk2LUlidmJyRHZYdw?oc=5",
-        "src": "CNBC"
-      },
-      {
-        "date": "2026-10-06",
-        "text": "Trump Condemned for Invoking Nuclear Attacks on US Cities to Defend Iran War",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdmkxR2NDU09pMm4zQi1jVllzaVJQcDVFYU1sdVN2eWc1X0hjUFZ6UjhQX0RISUU5a08xTVJQZkVXbzJSRnJQUjBqekRPY1VBVndLakJBeF9oSlRpOXZybFVkdXR3YWNaTUpIWkQtcUFGYUNNNmxVTnlpNTlmRG1JZkhsYkRpX3Y5WHBHRXpsZ2RyOUU3S3d5WExHNVVlQlAxU0RtSU40QjBMcjg?oc=5",
-        "src": "Truthout"
-      },
-      {
-        "date": "2026-10-07",
         "text": "Trump worries Iran could target U.S. cities. These places get extra nuclear protection",
         "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOV1ZiUHZxVzFmOWwxcFJTR05td0xmbURuRVJjRjhwclc2aXp0cEVoanVHOTJUWmFnRlprS01TbHVpNXpUeE5pNDZGVGRVRDhrRGE0bk5LUkRvMENoQ1FhdThMZEJtMkNoSExKbHJKdkx6YlNDU2pNckRPYWwxZ000WkFRU1dnTVk?oc=5",
         "src": "Axios"
+      },
+      {
+        "date": "2026-10-08",
+        "text": "Trump offers Iran path to nuclear deal while keeping up military pressure",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVTQ0RFFrNHNGVmJ5R21YTk1oeWQ5cjRLbzZEbVhzcHBYRzhVRjVDU3JJNTJmOG02RlhNVlBia3J4QkF1SW03LThGVFhRX3Y3UHlyWGlnaWhLSjZxR3BFeC05dzY3ZnZGaUxZU24xSndyckxIcExBclBTOGNvS084R2ZQOUVpdGlPTDEzbm55UGYwQkg4SGZsVEsxa2VhNE1RWmxNeWNEbV9EV0I2RFFLSFpn?oc=5",
+        "src": "Al-Monitor"
+      },
+      {
+        "date": "2026-10-09",
+        "text": "'We shouldn't worry': Trump assures US prevented Iran from acquiring a nuclear weapon",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE16MUM0UzNXT3ItQVdfM283WS1aMm5kZVRmeW93SmdHa1Q4bkprc01YX2xKTWRuRGRMbEMtODRYMUhsaTRMRVFmb0RUQ2RpOW1NcGFMOVREOTVLcDZ5bWNMdFBteExpMVhJdmc?oc=5",
+        "src": "The Jerusalem Post"
+      },
+      {
+        "date": "2026-10-08",
+        "text": "Iran will not abandon uranium enrichment or hand over its uranium, nuclear chief says",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOOWJXV1M2Z055WDNCTmFla09RcnJqYWV4TVRMX0t4djNydEU2SHQtV0drRlQ0U2k3NERlaUpPbkF0SDhUMTVOVTU2eXRIWVYwM1JBNXVHUnluZlRrby03cDdnQnF4WW1DcV9ROTgxZUlmNzVTMUdtMnJJSTBhbTNpYWVoY0JXM1hUcVpPdlluZmpLRi1mN3NfcV9abFY5MmhFanlyeDhCYjVXa2FiQkxLbThPclVWcmpKdHU3bGlYeXkzV1BiTVFLUw?oc=5",
+        "src": "Arab News"
       }
     ],
     "gold_impact": "双重作用：局势升级→避险买盘利多黄金；但同时油价飙升→通胀预期→美联储更难降息→利空黄金。当前谈判窗口期，油价波动会直接传导到金价。",

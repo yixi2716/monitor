@@ -1,17 +1,17 @@
 {
-  "date": "2026-10-10",
-  "copper": 6.642499923706055,
-  "copper_chg": 1.8944603357653245,
-  "ma20": 6.58285002708435,
-  "ma50": 6.549040021896363,
+  "date": "2026-10-11",
+  "copper": 6.691999912261963,
+  "copper_chg": 2.6537790679387996,
+  "ma20": 6.585325026512146,
+  "ma50": 6.550030021667481,
   "dxy": 102.20999908447266,
   "vix": 14.84000015258789,
   "tnx": 5.24399995803833,
   "wti": 91.8499984741211,
-  "cu_oil_ratio": 159.43591099706845,
+  "cu_oil_ratio": 160.62402930499493,
   "shfe_cu": 110110.0,
   "shfe_cu_date": "2026-10-09",
-  "shfe_lme_ratio": 1.044,
+  "shfe_lme_ratio": 1.037,
   "lme_stock": 296625,
   "lme_stock_date": "2026-07-17",
   "shfe_stock": 8285,
@@ -31,7 +31,7 @@
     {
       "name": "铜价站上MA20",
       "dir": "bull",
-      "text": "$6.64 > MA20 $6.58"
+      "text": "$6.69 > MA20 $6.59"
     },
     {
       "name": "美元中性",
@@ -46,7 +46,7 @@
     {
       "name": "铜油比偏高",
       "dir": "bull",
-      "text": "铜油比 159.4，工业景气预期强"
+      "text": "铜油比 160.6，工业景气预期强"
     },
     {
       "name": "实际利率高企",
@@ -63,7 +63,7 @@
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVVJHX21aZWtfd1JFY0xfU0VidkVXSTFhRDQ3TVRzNGNDdGxodmdyWEtOR21ET3JTWHpvZ1BsUVRlX285MmtBMzd5dDVjS1NuWG1fSXd4Sk5zY2tOZlpvWDlVS1RpU1ctSEFvVFpOQ3VDbXVhSzliOHpXaHU1b1ppTE1SNG9LVWx3VXpnbktkazltODc1cDJQZQ?oc=5"
     },
     {
-      "date": "2026-10-08",
+      "date": "2026-10-11",
       "text": "Copper Price: Navigating Near-Term Volatility and Long-Term Bullish Trends",
       "src": "deVere Group",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5iR19yTVRLNWdQWTdndExpQzFoUDA1ZzQ1S1hOMzktMVA1cFBaQkxYNXByTXhaSElMbHFRWGFwQ2JpNkdLSElwTm1za011czVCcF9TaQ?oc=5"
@@ -95,5 +95,5 @@
   ],
   "ai_analysis": "",
   "ai_error": "未自动生成，点击按钮手动生成",
-  "ai_date": "2026-10-10"
+  "ai_date": "2026-10-11"
 }
