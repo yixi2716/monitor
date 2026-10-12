@@ -1,68 +1,68 @@
 {
-  "date": "2026-10-11",
-  "hs300": 4317.25,
-  "hs300_chg": 0.0,
-  "med_etf": 0.38,
-  "med_etf_chg": 0.0,
-  "inn_etf": 0.843,
-  "inn_etf_chg": 0.0,
-  "cxo_etf": 0.341,
-  "cxo_etf_chg": 0.0,
-  "tcm_etf": 0.89,
-  "tcm_etf_chg": 0.0,
-  "meddev_etf": 0.44,
-  "meddev_etf_chg": 0.0,
-  "vaccine_etf": 2.249,
-  "vaccine_etf_chg": 0.0,
-  "hsi_health": 24211.35,
-  "hsi_health_chg": 0.0,
-  "hs_inn_etf": 1.308,
-  "hs_inn_etf_chg": 0.0,
+  "date": "2026-10-12",
+  "hs300": 4287.98,
+  "hs300_chg": null,
+  "med_etf": 0.379,
+  "med_etf_chg": -0.26,
+  "inn_etf": 0.83,
+  "inn_etf_chg": -1.54,
+  "cxo_etf": 0.34,
+  "cxo_etf_chg": -0.29,
+  "tcm_etf": 0.888,
+  "tcm_etf_chg": -0.22,
+  "meddev_etf": 0.438,
+  "meddev_etf_chg": -0.45,
+  "vaccine_etf": 2.218,
+  "vaccine_etf_chg": -1.38,
+  "hsi_health": 24271.2,
+  "hsi_health_chg": 0.25,
+  "hs_inn_etf": 1.304,
+  "hs_inn_etf_chg": -0.31,
   "tnx": 5.24,
-  "usdcny": 6.7021,
-  "excess": 0.0,
-  "north_money": 296735.35,
-  "north_date": "20261009",
+  "usdcny": 6.682,
+  "excess": null,
+  "north_money": 248023.19,
+  "north_date": "20261012",
   "news": [
     {
-      "date": "2026-10-11",
-      "text": "广西：构建四级网络 提升中医药服务可及性 - 新华网",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNnBob0M1S0hOcDNKcV9LMktKT3dLYjFaVTN4UXpoU3NfOFJqNnVVOHhXY2ZPY2VtQTVnSzN3YmFsMncyN3psMkkxcmFDcG9XaUNUZklPd0VWWUx0dWtiOTVoX1RHVVJvbzVmQUJPRUdvSm9uTGpIRzBJSzRicEdzWXRnQnNZQQ?oc=5"
+      "date": "2026-10-12",
+      "text": "从服务全球客户到开展本地科研协作 睿智医药深化海外布局 - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1uckh4eHF2VjhaOHhGR0g1cXdPQl9tLWN0QmlpWjZ0ZVJOeXhvSHM2UF9MaVRRX2g2Z20wd0tCalF0eWVKNjNiTkdROXBrWmx5U1pPQXBWOGtlU0NJRnJyVktISV9QcEdrVmpLZkVlOU5zaFR0amlXelAyOHpSa0k?oc=5"
     },
     {
-      "date": "2026-10-11",
-      "text": "贵州最大医药物流园成长记|冷链物流|贵州文旅|冷链运输|贵州省|贵阳日报 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE51VVpSVmJyYW5TU21hRHRudm1PZDZhX0JxMkxhZ0s3bVNjM19UNGRQdVhtWll2VTZ6RloyeFl3Y01nMHBScm9yLU9tTXFnRVJfYnJVVHU2cGdpSXZiVEs2RFdiaHdhcDE3c0ZKZkdfbzlra19ya2RSRA?oc=5"
+      "date": "2026-10-12",
+      "text": "朝阳区：2026世界传统医药大会新闻发布会举行 - 北京市人民政府门户网站",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1Ud3FscHVkY05iQlA5TGZOYUIzeGd3MU1DSnJWVkRROU83UzFzdDlPVjMwckdOQ2k1TTByM2dmd3ViOG5PVXVUZGQ0WW1KazIwM3JkNzdXbkg2dC1JMzFUejhYVjBvTWVha0l0OU9fT0pZVFF2?oc=5"
     },
     {
-      "date": "2026-10-11",
-      "text": "医药生物行业定期报告：RAY1225减重III期临床结果优异，建议关注众生药业_行业研究_研报 - 证券之星",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA4d25vbzl2NlZ1SkxRMGZxMWVucHlhanJhdjFLSTZ0YURVdHZFYlJ3dW1mcXEzV19ETDVTcWxSdlJoUzJUbEhZamhrT2Q3TWRjb2F0UTRRODlyVHVEenBjUEtB?oc=5"
+      "date": "2026-10-12",
+      "text": "藏医药薪火相传第十五届全国藏医药高级研修班开班了_滚动图 - 中国西藏网",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAwdTVQMGwwUFZwWVNFRjUxbi1tUXgxZWNqSkxmWmhYUnlOdzFUdlcwVnpneHFwV3d0elFJTDBiRjBEcUs5Y09jeTI2OUNfcUdLRDlEdVV5SlZfd3gxUEdqV25ySzJqbWg2dUZZ?oc=5"
     },
     {
-      "date": "2026-10-11",
-      "text": "亿帆医药子公司枸橼酸伊沙佐米胶囊注册申请获国家药监局受理 - 观点网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5iNGtEUE5LcjhzSWhnNjMydWhPX3UxRW02X2d6Wmt3QzRzTnNWNzF3NG1teUVHeG9YS3NmZHRUTTQxUkVhRlRRTndRZEZ0bzQxODJaelpxR0dndng5WVE1c3h3?oc=5"
+      "date": "2026-10-12",
+      "text": "博瑞医药：BGM0504片获药物临床试验批准通知书 - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9qOU5UUVAzb2lieVE2Q3NUYksxTlU4UWJTd2YwbVBiY1ZxNnlIazUzR2ZhdVRsM2pfeUlySlRwT3hBT1VsRVRWMnBrM0l0UTgxUTR4aDEzZWlMdUo0RE5weHhFVQ?oc=5"
     },
     {
-      "date": "2026-10-11",
-      "text": "国家药监局调研组莅临优利特调研指导 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1sYUJucU1GZVhCdHNvU0Z0eVZsQmxaclJBZDRkSVJEeWIteDZFblNydmpia0o0ZWZzTFNNRWI1Zm5nZF9IX21wVXRCbVFwTGNkOTJGNjFZanppeTlrNVJCN0hCMC02Zm9zU2l5SFhhM19pRklUMkxBUA?oc=5"
+      "date": "2026-10-12",
+      "text": "医药基金大反弹，避风港还是新主线？ - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMijARBVV95cUxPVVQ0S1BEdVljQmRlMnJFb1dGbEU0TE1kYmFrQk9HUEpoVWN5WVU4Mk42TzZFdDh3dnNFVlh4OFE4N1ctMjRnMDRwVk9nbmJvU3N4M3RwQVZ1N0luUGFvM1Awa1BTMXJTNDNYWDBTdWt6WnQ2ZEpub1BrdGdBeWpIV09oeEs5cnoydHlyWFZXZFRoXzd6WGtNNWtxREFnaG9COWJ6dU5peF85MmxEV1ZDcGtPVkd2OVJ3OENVbko3d0VHNG01eXZDbFFMbDlqUGZ1UVdPNS1Xbl8xQkp2dUNSN0RrQjRaVUZSb1hCc0R6STcyTEVPRURBa19INzk4WjE4ZEp5XzZfVmI4WFZtRTA1WjFLeDVnRzlzM2FhZnM3YW85Q0hlT2lqVWpCMG9vYlJHSE5lQ0V3Z2VYaTNlVGY5WnBka1lJdHR4ejJjY1M1NGdSX3JTRkNfNUYwalp3bFY4UmRDbF9aRzVPa2dpVjhGOS16cEpQMm1hS2VJTzZqbTJpY3U0NmhYN2hDcG9CbVJDcGM4YzZjb2JESjJ1UHJvVl9BYjhNLWFSS0t5N3NPanBDWTV1Z3JBSHNTeHZ4RWRhQ2J5MmRMUHFIZUdiUlJlcWh6SGJBR29raVpkUGZ5Ykt1QTJQQjJHdjN6Nll2ZVhiTlZ4REgtY0ZWNFpWZXk1bGxoX01XNnc1Mktxbg?oc=5"
     },
     {
-      "date": "2026-10-11",
-      "text": "上海名老中医秋冬膏方养生季启动，中医药文化市集开进网红打卡地 - 上观新闻",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBlMnMxNVZRRlFOYW14V0p2UDZaLWh2T09ZZVlwSElKYXZkbXJoTHJKRlpkNmNZanpjcDF6RHFhQzU3S1NVR05kLWZ0MWFOd2hlVV9WaE5FVHV6UQ?oc=5"
+      "date": "2026-10-12",
+      "text": "北京同仁堂在港推广中医药文化百名学子结业成为健康学生大使--大湾区频道 - 人民网",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBvSVJrcGNyeFdiRHBUWkUtVzJvQXY3SjloOV9oX0hHOXc5aklteC1BQWVSN1Y5d3h3Y1l6MWJOOUdFOHk2UXMzSy1kclFHOTBjNmlnRlVJNURmelNVYTN2RTh5MGxEaE05?oc=5"
     },
     {
-      "date": "2026-10-11",
-      "text": "从创业板到北交所，百诺医药IPO再折戟 - 每日经济新闻",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBQa2JrdnB6VDN1NVEwb0hhYm1GUlltVkR6eGY3SGF2VlJWZDNZdEpXc1Q5bGMzY29QbUVEaWRKQjBSNU5oRkJlVlFqbFpkLWJYYWUwTFZBUE04LTRBN2hfa2ZPREhTdw?oc=5"
+      "date": "2026-10-12",
+      "text": "国家医保局公布新一批“同病同付”病种，以内科疾病为主 - 新京报",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBoZHhaWTFHYktQQWFIOEp1QXZrTl9HbVRuZ2lqZXhCcG5fNzlIS3JaejV4SllYdWQ1cHBIMFRwWFVSdFU3ZjJNZlpSNldtQlFwRVBmNkkwTkdhRkdPVU5rXzZUM2E?oc=5"
     },
     {
-      "date": "2026-10-11",
-      "text": "亿帆医药：子公司枸橼酸伊沙佐米胶囊药品注册上市许可申请获受理 - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE02MFhLSXNWTWx0WXc2Y0Z3eHpzSG4taGpRTjFjVUNnR1ZHQTdxaGlkNHY2Y3QyOFZveGY2Wm5Qekd1UU1nOFZIanFXdW5jbWZnUDJkaUNXZm94ekhudVFiUFRIS3Q?oc=5"
+      "date": "2026-10-12",
+      "text": "中国医药健康产业年度盛会：第93届全国药品交易会——产业云集，行业风向标 - 摩熵医药",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9DZWJpdXJhNGhLT3VwR2szWlB4R05HMGQ2SEpqUjBoWDdobTF4Q0F5aFhWTm4zcGZMOGZJbDVpZjQ3NGs2V1Z3elRya1lHQ2NMLUhXUThvTQ?oc=5"
     }
   ],
   "ai_analysis": "",

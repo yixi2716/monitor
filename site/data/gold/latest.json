@@ -1,6 +1,6 @@
 {
   "date": "2026-10-09",
-  "fetched_at": "2026-10-12 04:08",
+  "fetched_at": "2026-10-12 20:19",
   "gold": 4216.3,
   "gold_chg": 1.43,
   "ma20": 4267.6,
@@ -18,10 +18,10 @@
   "corr_gold_vix": -0.51,
   "basis": 37.05,
   "vol20": 17.7,
-  "gold_silver_ratio": 69.07,
+  "gold_silver_ratio": 69.5,
   "usdcny": 6.7021,
-  "shfe_au": 908.64,
-  "shfe_au_date": "2026-10-09",
+  "shfe_au": 905.52,
+  "shfe_au_date": "2026-10-12",
   "cftc_gold_net": -244527,
   "cftc_gold_date": "2026-10-06",
   "mode": "M",
@@ -161,10 +161,10 @@
         "dot_plot": true
       }
     ],
-    "zq_price": 96.07,
-    "zq_implied_rate": 3.93,
-    "market_bp_vs_current": -7.0,
-    "market_expectation": "市场预期下次会议维持不变",
+    "zq_price": 96.11,
+    "zq_implied_rate": 3.89,
+    "market_bp_vs_current": -11.0,
+    "market_expectation": "市场预期降息 11bp",
     "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
   },
   "geopolitics": {
@@ -175,7 +175,7 @@
     "updated": "2026-09-28",
     "events": [
       {
-        "date": "2026-10-07",
+        "date": "2026-10-09",
         "text": "Trump promises not to resume strikes before midterm elections",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQT3NqbnFSYTNQUWFNSU9NdzBQSDlrTHpvdERPVGo0QVJXY1ItMlhYbXN0Y21VWjZSbTlLcmlRWnQ0TGhuNjRhUkZ4cE0tUXp4ZHNiS3llXy0ycWlhZVdrYkowY0JqTHBNa2g0SjNIZHZlcTQ3Q3pKSUI4MzNHeHpmcVNJakp1ZmcyZmJFZTZFMXo1T1ltWVhGM2xIZlc?oc=5",
         "src": "CBS News"
@@ -200,15 +200,15 @@
       },
       {
         "date": "2026-10-09",
-        "text": "'We shouldn't worry': Trump assures US prevented Iran from acquiring a nuclear weapon",
+        "text": "Donald Trump claims Iran war will 'end very soon' in White House speech",
         "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE16MUM0UzNXT3ItQVdfM283WS1aMm5kZVRmeW93SmdHa1Q4bkprc01YX2xKTWRuRGRMbEMtODRYMUhsaTRMRVFmb0RUQ2RpOW1NcGFMOVREOTVLcDZ5bWNMdFBteExpMVhJdmc?oc=5",
         "src": "The Jerusalem Post"
       },
       {
         "date": "2026-10-08",
-        "text": "Iran will not abandon uranium enrichment or hand over its uranium, nuclear chief says",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOOWJXV1M2Z055WDNCTmFla09RcnJqYWV4TVRMX0t4djNydEU2SHQtV0drRlQ0U2k3NERlaUpPbkF0SDhUMTVOVTU2eXRIWVYwM1JBNXVHUnluZlRrby03cDdnQnF4WW1DcV9ROTgxZUlmNzVTMUdtMnJJSTBhbTNpYWVoY0JXM1hUcVpPdlluZmpLRi1mN3NfcV9abFY5MmhFanlyeDhCYjVXa2FiQkxLbThPclVWcmpKdHU3bGlYeXkzV1BiTVFLUw?oc=5",
-        "src": "Arab News"
+        "text": "U.S. military prepares new Iran war options ahead of midterm elections",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTVM0Sy1rbHNiVjdWLVdNMmRxWk9ZOTdhWWNkbFZicW9ycDdvMy1WMXQ4LTZ3a0VPMElzOWI4THB3ZUhmTkxNYkZIdEpPdHMzdnhzSHN6LUkxYWlVU0Rmbi1RY1VCX2xydDY0Z1kzZmRDSGZYODN5YjdpaHNWMUthSEtZbXVvUlRHU01KSW1XUUJ3MExLTkxWdzctVldDUGlMLUgwM1M4aE9EMkVnZXVmS2VYZlZOZ0hFUU9oVWJ4RWt6Q3dxZWc?oc=5",
+        "src": "NBC News"
       }
     ],
     "gold_impact": "双重作用：局势升级→避险买盘利多黄金；但同时油价飙升→通胀预期→美联储更难降息→利空黄金。当前谈判窗口期，油价波动会直接传导到金价。",

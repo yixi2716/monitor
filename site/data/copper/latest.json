@@ -1,22 +1,22 @@
 {
-  "date": "2026-10-11",
-  "copper": 6.691999912261963,
-  "copper_chg": 2.6537790679387996,
-  "ma20": 6.585325026512146,
-  "ma50": 6.550030021667481,
+  "date": "2026-10-12",
+  "copper": 6.642499923706055,
+  "copper_chg": 1.8944603357653245,
+  "ma20": 6.58285002708435,
+  "ma50": 6.549040021896363,
   "dxy": 102.20999908447266,
   "vix": 14.84000015258789,
   "tnx": 5.24399995803833,
   "wti": 91.8499984741211,
-  "cu_oil_ratio": 160.62402930499493,
-  "shfe_cu": 110110.0,
-  "shfe_cu_date": "2026-10-09",
-  "shfe_lme_ratio": 1.037,
+  "cu_oil_ratio": 159.43591099706845,
+  "shfe_cu": 110630.0,
+  "shfe_cu_date": "2026-10-12",
+  "shfe_lme_ratio": 1.049,
   "lme_stock": 296625,
   "lme_stock_date": "2026-07-17",
-  "shfe_stock": 8285,
-  "shfe_stock_chg": 599,
-  "shfe_stock_date": "2026-10-09",
+  "shfe_stock": 8785,
+  "shfe_stock_chg": 500,
+  "shfe_stock_date": "2026-10-12",
   "lymy": 17.22,
   "lymy_chg": 3.67,
   "tl": 5.85,
@@ -31,7 +31,7 @@
     {
       "name": "铜价站上MA20",
       "dir": "bull",
-      "text": "$6.69 > MA20 $6.59"
+      "text": "$6.64 > MA20 $6.58"
     },
     {
       "name": "美元中性",
@@ -46,7 +46,7 @@
     {
       "name": "铜油比偏高",
       "dir": "bull",
-      "text": "铜油比 160.6，工业景气预期强"
+      "text": "铜油比 159.4，工业景气预期强"
     },
     {
       "name": "实际利率高企",
@@ -75,25 +75,25 @@
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdF9BWjVBX2RGTmowbHFiczQ0b3NIOGw3bmRtdlN2SWtTdm0zUktFNlljZGp1cVNQM2Vaa09aR3hUV3JwMldOYmxWYlYzQkpzck95SmRNT1huN3VhNlpadFdJamZQbmtLMUpqLV93ZGxKRkhOSVR5RnBEdWtzWlhCMU00dkUwOGN5ZGxReEs5cVZjVmhWOHE4dmgzdVhiYzlvNE4ybzBFQnpMeVk?oc=5"
     },
     {
-      "date": "2026-10-05",
-      "text": "US-China trade rivalry fuels demand for copper stockpiles",
-      "src": "Azernews.az",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5waEFyQkk3SV9keHBKdFhHWmtZVmN2MTNTbFhvd09CUXB1YWtYUkhoMWVGZVdMVm9GVnJ6WE00enpiUHk2cTU5SHlOZE42aWRuUy01TzZCUQ?oc=5"
-    },
-    {
       "date": "2026-10-10",
       "text": "Adamera Expands Max IP Anomaly to 3 km at South Hedley Near Hudbay's Copper Mountain",
       "src": "Streetwise Reports",
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPcFpweTNyZkhidjhhbmt5aWhSVUlhYXd6a0tIWVFxQlNzRE94N21uZWlYUnI4cEZQZFlnYk5DeFFYTWYzSzlfcExQOHlkNXBnMTZVbTRacXJQZEFtT2g0VzZzRnFEMV9hbHdBSWp6U0xadjZISXlieW1PZTVoUUd5RjF2LWtKRjI5OEdjb0dCT3MwOEhTT1Z2SkVlY0VnWGlQVFpoR0lWeGFKenh5SE13VGx1cEJYd2xyYVFiQlZQMkJneUpIQ1pla3JfTmFKalNBM0pkRGpjdkg?oc=5"
     },
     {
-      "date": "2026-10-06",
-      "text": "DNCA Investments: \"Copper is at the heart of trade and technology wars\"",
-      "src": "marketscreener.com",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZWZBSnR1eWNCTzlPS0t1NS1zMklxdXR1OVZwWDFaMXdqTGdubnZKY2JkOTA0cVdZQkFxVXRFc3gzQzZjQjRzMl9BUlJtMTJfUzhEQk5xNGowd2NibkFyLVo4dHNVdHZieGxtOEhJZ0pEOGg3bGN6SHlCZ0x5SDJ4LTJyd0xwa3RhLTE3RFh4Q3FKSDRqNUN0YUFWeFhkaTk4ZThQS2dWZDk2QmtPbGNnUEJSZU1PTXF5YnRxdUt3?oc=5"
+      "date": "2026-10-05",
+      "text": "US-China trade rivalry fuels demand for copper stockpiles",
+      "src": "Azernews.az",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5waEFyQkk3SV9keHBKdFhHWmtZVmN2MTNTbFhvd09CUXB1YWtYUkhoMWVGZVdMVm9GVnJ6WE00enpiUHk2cTU5SHlOZE42aWRuUy01TzZCUQ?oc=5"
+    },
+    {
+      "date": "2026-10-08",
+      "text": "Copper Wire Prices 2026: Latest Trends, Chart & Forecast",
+      "src": "IMARC Group",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1HNnRFSFFBT2JIT0pQQWVfbWNUVVhodmwzTUk1elZmcGlMVGF0STZIS2NJT2Q0bWVlTlQyMXZxUkw0Q1hJM0w5eUFnSVE4cy1EQkJZQmhXVmlHTU1GLWdXcHU5Yw?oc=5"
     }
   ],
   "ai_analysis": "",
   "ai_error": "未自动生成，点击按钮手动生成",
-  "ai_date": "2026-10-11"
+  "ai_date": "2026-10-12"
 }
