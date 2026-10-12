@@ -1,7 +1,7 @@
 {
   "date": "2026-10-12",
   "hs300": 4287.98,
-  "hs300_chg": null,
+  "hs300_chg": -0.68,
   "med_etf": 0.379,
   "med_etf_chg": -0.26,
   "inn_etf": 0.83,
@@ -19,8 +19,8 @@
   "hs_inn_etf": 1.304,
   "hs_inn_etf_chg": -0.31,
   "tnx": 5.24,
-  "usdcny": 6.682,
-  "excess": null,
+  "usdcny": 6.6818,
+  "excess": 0.42,
   "north_money": 248023.19,
   "north_date": "20261012",
   "news": [
@@ -41,13 +41,13 @@
     },
     {
       "date": "2026-10-12",
-      "text": "博瑞医药：BGM0504片获药物临床试验批准通知书 - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9qOU5UUVAzb2lieVE2Q3NUYksxTlU4UWJTd2YwbVBiY1ZxNnlIazUzR2ZhdVRsM2pfeUlySlRwT3hBT1VsRVRWMnBrM0l0UTgxUTR4aDEzZWlMdUo0RE5weHhFVQ?oc=5"
+      "text": "内蒙古药监局10月12日起暂停元和药业咽炎含片生产销售 - 观点网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBsLWVWSzkyemRHVk8zZFVfNU5xT3NyQ3BYNmRRUVh0YnZEcmlTVGF3QVZ2NFQ2VjEtMkZwN2Z6Y3d5RVF5Q2lvNG1XT3RYcVVkX2RyM0J6VDBDeVJnQzNseVVR?oc=5"
     },
     {
       "date": "2026-10-12",
-      "text": "医药基金大反弹，避风港还是新主线？ - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMijARBVV95cUxPVVQ0S1BEdVljQmRlMnJFb1dGbEU0TE1kYmFrQk9HUEpoVWN5WVU4Mk42TzZFdDh3dnNFVlh4OFE4N1ctMjRnMDRwVk9nbmJvU3N4M3RwQVZ1N0luUGFvM1Awa1BTMXJTNDNYWDBTdWt6WnQ2ZEpub1BrdGdBeWpIV09oeEs5cnoydHlyWFZXZFRoXzd6WGtNNWtxREFnaG9COWJ6dU5peF85MmxEV1ZDcGtPVkd2OVJ3OENVbko3d0VHNG01eXZDbFFMbDlqUGZ1UVdPNS1Xbl8xQkp2dUNSN0RrQjRaVUZSb1hCc0R6STcyTEVPRURBa19INzk4WjE4ZEp5XzZfVmI4WFZtRTA1WjFLeDVnRzlzM2FhZnM3YW85Q0hlT2lqVWpCMG9vYlJHSE5lQ0V3Z2VYaTNlVGY5WnBka1lJdHR4ejJjY1M1NGdSX3JTRkNfNUYwalp3bFY4UmRDbF9aRzVPa2dpVjhGOS16cEpQMm1hS2VJTzZqbTJpY3U0NmhYN2hDcG9CbVJDcGM4YzZjb2JESjJ1UHJvVl9BYjhNLWFSS0t5N3NPanBDWTV1Z3JBSHNTeHZ4RWRhQ2J5MmRMUHFIZUdiUlJlcWh6SGJBR29raVpkUGZ5Ykt1QTJQQjJHdjN6Nll2ZVhiTlZ4REgtY0ZWNFpWZXk1bGxoX01XNnc1Mktxbg?oc=5"
+      "text": "中国创新药的全球化兑现下指数如何选？港股创新药ETF景顺(513780)一键配置创新药核心资产 - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1held5Q3B2WWcyTkRPa2hxWDF3XzZZYkV6TXlzdl9yc0xXc1d0b1hFQl9FUlZpOUMtXzQ5NG0yVWJ0YXRVcHJ5OXc4U3FaN01hZllFNU9VYlFyN25EZTN1NEtn?oc=5"
     },
     {
       "date": "2026-10-12",
@@ -56,13 +56,13 @@
     },
     {
       "date": "2026-10-12",
-      "text": "国家医保局公布新一批“同病同付”病种，以内科疾病为主 - 新京报",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBoZHhaWTFHYktQQWFIOEp1QXZrTl9HbVRuZ2lqZXhCcG5fNzlIS3JaejV4SllYdWQ1cHBIMFRwWFVSdFU3ZjJNZlpSNldtQlFwRVBmNkkwTkdhRkdPVU5rXzZUM2E?oc=5"
+      "text": "国产创新药“出海”如何走远走实？ - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMigAVBVV95cUxNLUR1OWlLS3BWU0hNdFkxbkhwUUloZGxiWDB5ai1EYzlON1dBZ1RyODJLYkJmZG55VlF3cVljWTBuSVBqaGp3VEhUMkFiU0NhV2dzR0I4QTRkTjRtemFVZG9hWmR3WUpRRFk2ZjFBNzFIa3hmcXdtU3l1aEd4bUV1R3JiaE5rOFh6NEh1dUFkZjZtWXVqNDVhcXZhRGZBeEJSaXlENUpsdTN0QWRpQ0UxNUtSZzBmalBPd29lQXl2SHhfTEVQU2QyOHhWRGlyTTR0dmd0MEVXZnU2NGg4QWI4dVBnZE0tZlVHQW5xcE1kMDlhWTAxdGFVX0dLdTlpNHVPc0NEV0FHM3JIMHRzNUZVTjFaMGt1SUpoSkl3TUFGbl90QjdrM2x0Y1dPSFdGcEx3MFltTm5xVzJPZjNEb0RtQlJNaVFNbnJzQjZHYzRPWXdVM1BRcjZlTGlfNkVUenppajdEdmpkQ1lMdEl6UGVpdWpvcy1SLVI0NDlVTVhWb1pIZnp2bGFlR0VweXpxOHVPc1ZrM2RCS2JhZ21fcllWdzA1UEhXUzl6cWRIZkZUWXY1UTdFNVdkVkFmek9pdHIwbmdnUmJ0YVhCTEdMZmVYRFI1Mi0yZDZHSmxMZ0FwbHptdmJESmxaYlQ1N25DMnc4VU0zTW0tZzZYRXYzd0VTZGMzWWw4aExkS2RUWjNZSUV6VTdubXhDbzFCb0FZV0IwVW1wRV9JMDNqdTZIeUs3c1FTblpQOXZGQUhIVWtCZXdiUFJaMU9jSkxDWFk4QlFWMEZqZ2RTNGNxVlJEOE1OTHNiNXhScTdyX3hYT0dtbXdlaG95dzNGVExJeVpjbl9C?oc=5"
     },
     {
       "date": "2026-10-12",
-      "text": "中国医药健康产业年度盛会：第93届全国药品交易会——产业云集，行业风向标 - 摩熵医药",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9DZWJpdXJhNGhLT3VwR2szWlB4R05HMGQ2SEpqUjBoWDdobTF4Q0F5aFhWTm4zcGZMOGZJbDVpZjQ3NGs2V1Z3elRya1lHQ2NMLUhXUThvTQ?oc=5"
+      "text": "国家医保局公布新一批“同病同付”病种，以内科疾病为主 - 新京报",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBoZHhaWTFHYktQQWFIOEp1QXZrTl9HbVRuZ2lqZXhCcG5fNzlIS3JaejV4SllYdWQ1cHBIMFRwWFVSdFU3ZjJNZlpSNldtQlFwRVBmNkkwTkdhRkdPVU5rXzZUM2E?oc=5"
     }
   ],
   "ai_analysis": "",
