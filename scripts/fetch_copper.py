@@ -39,10 +39,67 @@ TICKERS = {
     "X": "SLV",            # 白银 ETF（工业金属情绪代理）
     "cper": "CPER",        # 全球最大铜ETF（资金情绪）
     "copx": "COPX",        # 全球矿业ETF（铜相关）
-    "lymy": "603993.SS",   # 洛阳钼业
-    "tl": "000630.SZ",     # 铜陵有色
-    "jxt": "600362.SS",    # 江西铜业
 }
+
+# A股铜标的：走 Tushare（Yahoo 的 A股数据延迟约一天，且 inner join 会把
+# 整个行情框拖回上周五——2026-10-12 事故：三只A股周五收盘被标成当天数据）
+ASTOCKS = {
+    "lymy": "603993.SH",   # 洛阳钼业
+    "tl": "000630.SZ",     # 铜陵有色
+    "jxt": "600362.SH",    # 江西铜业
+}
+TUSHARE_TOKEN = os.environ.get("TUSHARE_TOKEN", "").strip() \
+    or "11d712645182771648bd9467e69bfc94b7183e2c23e78148c4ffdb33"
+
+
+def fetch_astocks():
+    """A股三只铜标的走 Tushare 日线。失败返回 None（调用方回落 Yahoo）。
+    接口偶发返回空表，空结果重试3次。"""
+    try:
+        import time
+        import tushare as ts
+        ts.set_token(TUSHARE_TOKEN)
+        pro = ts.pro_api()
+        end = datetime.date.today().strftime("%Y%m%d")
+        start = (datetime.date.today() - datetime.timedelta(days=370)).strftime("%Y%m%d")
+        df = None
+        for attempt in range(3):
+            df = pro.daily(ts_code=",".join(ASTOCKS.values()), start_date=start, end_date=end)
+            if df is not None and len(df) > 0:
+                break
+            print(f"    [warn] A股标的 tushare 空(第{attempt+1}次)，2s后重试")
+            time.sleep(2)
+        if df is None or len(df) == 0:
+            return None
+        rev = {v: k for k, v in ASTOCKS.items()}
+        frames = {}
+        for code, grp in df.groupby("ts_code"):
+            grp = grp.sort_values("trade_date")
+            frames[rev[code]] = pd.Series(
+                grp["close"].astype(float).values,
+                index=pd.to_datetime(grp["trade_date"], format="%Y%m%d"), name=rev[code])
+        return pd.concat(frames.values(), axis=1, join="outer").sort_index()
+    except Exception as e:
+        print(f"    [warn] A股标的 Tushare 失败，回落 Yahoo: {str(e)[:80]}")
+        return None
+
+
+def fetch_astocks_yahoo():
+    frames = {}
+    ymap = {"lymy": "603993.SS", "tl": "000630.SZ", "jxt": "600362.SS"}
+    for name, sym in ymap.items():
+        try:
+            df = yf.Ticker(sym).history(period="1y", interval="1d", auto_adjust=False)
+            if df.empty:
+                continue
+            s = df["Close"].rename(name)
+            s.index = s.index.tz_localize(None).normalize()
+            frames[name] = s
+        except Exception as e:
+            print(f"    [warn] A股标的 Yahoo 兜底 {sym} 失败: {e}")
+    if not frames:
+        return None
+    return pd.concat(frames.values(), axis=1, join="outer").sort_index()
 
 
 def fetch_all(period="1y"):
@@ -58,7 +115,8 @@ def fetch_all(period="1y"):
             frames[name] = s
         except Exception as e:
             print(f"    [warn] {sym} 拉取失败: {e}")
-    px = pd.concat(frames.values(), axis=1, join="inner").sort_index()
+    # outer join + ffill：单标的数据延迟不再拖垮整个行情框（inner join 的旧坑）
+    px = pd.concat(frames.values(), axis=1, join="outer").sort_index().ffill()
     return px
 
 
@@ -164,6 +222,10 @@ def call_deepseek(data: dict):
 def main():
     print("[1/4] 拉行情...")
     px = fetch_all(period="1y")
+    ax = fetch_astocks() or fetch_astocks_yahoo()
+    if ax is not None:
+        px = px.join(ax, how="outer").sort_index().ffill()
+        print(f"    A股标的: 已并入 tushare 日线 {ax.index[-1].strftime('%Y-%m-%d')}")
     latest = px.iloc[-1]
     prev = px.iloc[-2]
     copper = float(latest["HG"])
@@ -258,12 +320,13 @@ def main():
     news = fetch_copper_news()
 
     print("[3/4] AI 分析...")
-    # 提取铜股数据
+    # 提取铜股数据（A股标的已并入 px，取各自最近两个有效值）
     stock_data = {}
     for k in ["lymy", "tl", "jxt"]:
-        if k in px.columns and len(px) >= 2:
-            stock_data[k] = round(float(px[k].iloc[-1]), 2)
-            stock_data[k+"_chg"] = round((px[k].iloc[-1] / px[k].iloc[-2] - 1) * 100, 2)
+        s = px[k].dropna() if k in px.columns else []
+        if len(s) >= 2:
+            stock_data[k] = round(float(s.iloc[-1]), 2)
+            stock_data[k+"_chg"] = round((float(s.iloc[-1]) / float(s.iloc[-2]) - 1) * 100, 2)
         else:
             stock_data[k] = 0
             stock_data[k+"_chg"] = 0
@@ -308,7 +371,7 @@ def main():
         for idx, row in px.iterrows():
             rec = {"date": idx.strftime("%Y-%m-%d")}
             for k in ["HG", "DXY", "cper", "copx", "lymy", "tl", "jxt"]:
-                if k in px.columns:
+                if k in px.columns and pd.notna(row[k]):
                     # HG 统一存为 copper，与每日追加分支的字段名保持一致
                     rec["copper" if k == "HG" else k.lower()] = float(row[k])
             hist.append(rec)
@@ -317,7 +380,9 @@ def main():
         rec = {"date": latest_data["date"], "copper": copper, "dxy": dxy, "score": score}
         for k in ["cper", "copx", "lymy", "tl", "jxt"]:
             if k in px.columns:
-                rec[k] = float(px[k].iloc[-1])
+                s = px[k].dropna()
+                if len(s):
+                    rec[k] = float(s.iloc[-1])
         if hist[-1]["date"] == latest_data["date"]:
             hist[-1] = rec
         else:

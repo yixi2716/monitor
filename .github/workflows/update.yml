@@ -98,14 +98,15 @@ jobs:
       # 同步猪数据到 site/data
       - run: cp data/latest.json data/history.json data/signals.json data/sow_history.json data/manual.json site/data/ 2>/dev/null || true
 
-      # 只 commit + push 一次，从根本上避免并行冲突
+      # 只 commit + push 一次，从根本上避免并行冲突；push 被撞时重试一次
       - run: |
           git config user.name data-bot
           git config user.email bot@users.noreply.github.com
           git add -f data/ site/data/
           git commit -m "data: daily $(date -u +%Y-%m-%d)" || echo "no changes"
-          git pull --rebase origin main
-          git push
+          git pull --rebase origin main && git push || \
+            (echo "push 被拒（可能与其他提交撞车），10s 后重试"; sleep 10; \
+             git pull --rebase origin main && git push)
 
   deploy:
     if: always()

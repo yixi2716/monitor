@@ -1,89 +1,89 @@
 {
-  "date": "2026-10-09",
-  "hs300": 4317.25,
-  "hs300_chg": 0.16,
-  "solar_etf": 0.765,
-  "solar_etf_chg": 0.26,
-  "newenergy_etf": 2.249,
-  "newenergy_etf_chg": 0.67,
-  "storage_etf": 1.645,
-  "storage_etf_chg": -0.24,
+  "date": "2026-10-12",
+  "hs300": 4287.98,
+  "hs300_chg": -0.68,
+  "solar_etf": 0.76,
+  "solar_etf_chg": -0.65,
+  "newenergy_etf": 2.218,
+  "newenergy_etf_chg": -1.38,
+  "storage_etf": 1.635,
+  "storage_etf_chg": -0.61,
   "tnx": 5.24,
   "usdcny": 6.7021,
-  "excess": 0.1,
-  "dd_from_high": 0.3533,
+  "excess": 0.03,
+  "dd_from_high": 0.3576,
   "pb_ratio": 0.0333,
-  "turnover_ratio": 0.792,
+  "turnover_ratio": 0.953,
   "stocks": {
     "tongwei": {
-      "close": 11.65,
-      "chg": 1.84
+      "close": 11.43,
+      "chg": -1.89
     },
     "zhonghuan": {
-      "close": 9.69,
-      "chg": 3.42
+      "close": 9.34,
+      "chg": -3.61
     },
     "junda": {
-      "close": 36.07,
-      "chg": 1.01
+      "close": 35.84,
+      "chg": -0.64
     },
     "longi": {
-      "close": 11.24,
-      "chg": 1.54
+      "close": 11.12,
+      "chg": -1.07
     },
     "flat": {
-      "close": 9.38,
-      "chg": 2.85
+      "close": 9.31,
+      "chg": -0.75
     },
     "jiejia": {
-      "close": 53.36,
-      "chg": 3.63
+      "close": 52.42,
+      "chg": -1.76
     },
     "sungrow": {
-      "close": 80.68,
-      "chg": 0.24
+      "close": 82.35,
+      "chg": 2.07
     }
   },
   "news": [
     {
-      "date": "2026-10-10",
-      "text": "河源市源城区政府屋顶光伏三期项目复核通过 总投资23747.75万元 - 观点网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5pWTJkMWFLeXA2bTJpOHFKM29zSDNMTktzYzdkY0tYVFV0NVZYM0ZwTF9GY3JBT3hXX21fWGtUSFFGRmtaWDVpQ1FjclRCZTdPTnNWN0pFM0tYenl1YjVPTVp3?oc=5"
+      "date": "2026-10-12",
+      "text": "广东宇数新能源博罗600kW分布式光伏项目备案通过 总投资224万元 - 观点网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE03dzdIZXdydl9pb1B2Q3dvYWhBajhkRUFMSVlZYndMX283XzMyeklqeUJxZVdlWU5uTUxBSGowMGhqaTctNGpSbW9mazJ3cmoyMGNpZFJNNGs0UGtMRElZNVpR?oc=5"
     },
     {
-      "date": "2026-10-09",
-      "text": "我国首个三塔光伏光热基地并网发电-政务公开 - 青海省人民政府",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1NNUZVY0RQeEJpdGJsQmdrNXJOREhyV19HQ2lhUkJ5RHc4a1dZV3YtVF9CMFoxRVpuX3pTLTh2bTN2THNGMU0wbl9Nc0M4c0l1UTJDSVFTS2RLTFpUSV9tU1ZVcWpNNWhoZmxuVEhlZ0tSdw?oc=5"
+      "date": "2026-10-12",
+      "text": "不占地+错峰发电 串串光伏创新技术项目在海口启动运营 - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9mMUNLZnc0SklvTXBfVm9zYndEa296WDJWcTZxc3UzOElfOVNKTU01Q3EybEwzQV84STFBTDUwTXJieUFOZ0ItczNWR3ZSY0hiWVVtNjJjLURtUUhKR1ZSV1ZuZzZ0VXNiZjBpR29HOGtvUG5t?oc=5"
     },
     {
-      "date": "2026-10-10",
-      "text": "屋顶揽阳光绿电助振兴——江苏首个中压并网“整村连片+绿电直供”分布式光伏项目落地宜兴白塔村 - 江苏省委新闻网",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNzJCM2ZrMUxiRi1PMGdhMUdjdW5fZHU2WGxoT0Rtd0c0ekZibjhyLWlDSTFJV01oVFJ2VFJpTEJySnZTS09LeTFza2NkbG1tNjJLQ2hpV3NGUXNuZkdXWlppUDBTU0NDdS0xSEw0TV9sa1V4cGs0V3ZzWmZjaVhHZXV4UE0?oc=5"
+      "date": "2026-10-12",
+      "text": "福建漳州市：累计获批集中式光伏电站项目47个、总装机规模6423MW - 国际新能源网",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ieklzYnlsOG1oVXFkLW5SUnZGZFBVRGlWaUVjTFZHRy1ZaHJqdHJqa005dWo1dU9Gd2ZXQ3lwZHpaNm9PZWJGX3JvVGt0cW96YjhVZFk4UXpCRHJJUTdGYktJZ2QyM2M?oc=5"
     },
     {
-      "date": "2026-10-10",
-      "text": "屋顶光伏赋能企业绿色低碳发展 - 国际太阳能光伏网",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1ldmdOYm1DVVZTUEplODlXTUpEOWtfU3dBOFVTNG9WcmdMVzJLUGVOTlN3RXQ5YUtYNTFrRlp4OHdQOE5MVUo5NnhET0hjZjJTSEh0amJLU19HZm9T?oc=5"
+      "date": "2026-10-12",
+      "text": "2026年光伏融资近300亿元：资金转向化债、电站运营与钙钛矿 - 虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1uQkV4eFk3MlZwMVVEWXEzOU1CUkZjTU5zQnUtVFhrTzYwM2lxOTFuSDZLM1dEU1ZIb0lyV3BjV2dHRWo4QkdZY0pwMUtNRG1KX0x0Mg?oc=5"
     },
     {
-      "date": "2026-10-10",
-      "text": "至少一半光伏企业，熬不过未来一年里最惨烈的大洗牌了！_产业观察_财经 - 证券之星",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1XTl9KVkJFRVdMbERpTWUzMm85WWN4dWJFMDZVbUlZOUg5cUZCbmlfNE1aSTA5VkxCVTRpWk1HNXFoZGkyZDFLV28tMlFrbjFybWdMYWNFUm5PbnJhdUhoZA?oc=5"
+      "date": "2026-10-12",
+      "text": "拓日新能：2026年上半年光伏玻璃业务毛利率为-12.93%_公司新闻 - 证券之星",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE40bzRFd2RXNmcyS3lWNFZ2UFpNSi0yQ2hieDM2ZHZJSFYwTy0yNDYxajVqdk85M0J6eEd0anJ3ak9ONzFzLXhlcWZvMWtHTmNpTk1sdzNYbEw5cjZXcWFfZDBB?oc=5"
     },
     {
-      "date": "2026-10-10",
-      "text": "绿电赋能乡村兴 渔光互补富农家 - 新华网重庆",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBpY1NKZlYtaGFuUWp1OXEtMG55UDVrUVQ4QjEydUU1dnNFOE1GVENOTExKWDVYR2xvblNoZ2IwdXdfVlJYcjAtVWJOUDFpa1otdVlEbGlfMFc2am9hN2hLSlFYdTRfUE9ZejMxdVhrNzQ5a3g0dUE?oc=5"
+      "date": "2026-10-11",
+      "text": "国家能源集团青海共和分公司启晖光伏电站年累计发电量突破十亿千瓦时-政务公开 - 青海省人民政府",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBDeGNoQXUwV2Npa29hSkt0ZkNZSENNZWdMaWpEUWhQcFZuTS1Hbi1JMW9oUXRqSkhiaWFqak1KaWFfWTZHbTlkZHg0NnVJQnpjVVV4V3pjMkdWRkd6TXRDZ1lCUU1KSGlHWXNLRTgyODJHdw?oc=5"
     },
     {
-      "date": "2026-10-10",
-      "text": "银星能源工会开展2026年光伏运维值班员技能竞赛 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1iWGRqdTdXZTF2TkRtM2pjcW9tUEZ6bldBT0VXc0hKYlFMOVFLWk5fZ0ZwcHdsZEV1bm9YaVFsV1VkbllzN1l5bElVSDVqbmtfbU5Qam8ySmZ4Q0FibEpicnNkU1JKZl9JbGFzVUVJNU5WN1VSLW9lQy1MOGs?oc=5"
+      "date": "2026-10-12",
+      "text": "光伏设备板块拉升 首航新能、安彩高科涨停 - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5sb1d2WEt5NFhBMWs3ZlMtMHd4LVlOeEZ1cVBlNXhoWHNEODR2Qlc2dE10aGhQTnRJY0xrNW85YjBkYmlyajM4MWxFRmdORmJHSFo5SGtfSGhhdFQzSkVJUS03OXdMdw?oc=5"
     },
     {
-      "date": "2026-10-10",
-      "text": "上海海关有效打击光伏产品侵权出口 - 搜狐网",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQU0VIV1JjYVJ6dTlqWlR0WXRGaWltSE5hcGRCdkh3cFhpQU9GNXlmSXdoM2NuLVRDRGlDSnQ5VUcxa2N1RkJrM2pkWmlkX0lBbGxQRFpoRzZDa0xPZWpSSHF5MnZwT05HY2I2RWZmbDJ0LUFxakZvbjFCS293TGJ5NGcwMTBOQzd4MTRj?oc=5"
+      "date": "2026-10-12",
+      "text": "江苏300MW风光同场海上光伏项目获批 - 新浪网",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOMk11d1puTXZLRktpVEM5MEVBV2p5alBOSmgwTk5ZLUxfSndXTEJuWHk2YzBtQktlSlZsTmRpR2cteTk1cnFseWVDNmlmUTA3bmItQVQ1WHFKdy1JdGlFRXZCa1VESTNMQl9RakhrZWEzUjJmbC1fSDc5UzVRWU5FUFhRMA?oc=5"
     }
   ],
   "ai_analysis": "",

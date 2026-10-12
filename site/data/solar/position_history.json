@@ -3,5 +3,10 @@
     "date": "2026-10-09",
     "pb_ratio": 0.0333,
     "turnover_ratio": 0.792
+  },
+  {
+    "date": "2026-10-12",
+    "pb_ratio": 0.0333,
+    "turnover_ratio": 0.953
   }
 ]

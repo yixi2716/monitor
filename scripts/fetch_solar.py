@@ -21,6 +21,7 @@ token：环境变量 TUSHARE_TOKEN，缺省时回落 fetch_pharma 同款（工�
 import os
 import sys
 import json
+import time
 import signal
 import datetime
 import urllib.request
@@ -34,8 +35,8 @@ os.makedirs(SITE_DATA_DIR, exist_ok=True)
 
 HARD_TIMEOUT = 420  # 与 fetch_daily 同款硬保险
 
-TUSHARE_TOKEN = os.environ.get(
-    "TUSHARE_TOKEN", "11d712645182771648bd9467e69bfc94b7183e2c23e78148c4ffdb33")
+TUSHARE_TOKEN = os.environ.get("TUSHARE_TOKEN", "").strip() \
+    or "11d712645182771648bd9467e69bfc94b7183e2c23e78148c4ffdb33"
 
 # 行情标的（与 solar_core.js STOCK_KEYS 对齐）
 ETF_MAP = {
@@ -89,6 +90,20 @@ def pct_rank(series, value):
     if len(s) < 30 or value is None:
         return None
     return round(sum(1 for v in s if v < value) / len(s), 4)
+
+
+def _retry(fn, label, times=3, sleep_s=2):
+    """tushare 接口偶发返回空表（网关抖动/限流），空结果与异常都重试。"""
+    for i in range(times):
+        try:
+            r = fn()
+            if r is not None and len(r) > 0:
+                return r
+            print(f"  [warn] {label} 空(第{i+1}次)，{sleep_s}s后重试")
+        except Exception as e:
+            print(f"  [warn] {label} 失败(第{i+1}次): {str(e)[:60]}")
+        time.sleep(sleep_s)
+    return None
 
 
 def fetch_news():
@@ -165,7 +180,9 @@ def _main():
 
     try:
         codes = ",".join(STOCKS.values())
-        df = pro.daily(ts_code=codes, start_date=start_1y, end_date=end)
+        df = _retry(lambda: pro.daily(ts_code=codes, start_date=start_1y, end_date=end), "个股日线")
+        if df is None:
+            raise RuntimeError("个股日线重试后仍为空")
         rev = {v: k for k, v in STOCKS.items()}
         for code, grp in df.groupby("ts_code"):
             grp = grp.sort_values("trade_date")
@@ -216,7 +233,7 @@ def _main():
     if last_trade:
         # 灯⑥：全市场 daily_basic 单日 PB → 池内 PB<1 比例
         try:
-            b = pro.daily_basic(trade_date=last_trade, fields="ts_code,pb")
+            b = _retry(lambda: pro.daily_basic(trade_date=last_trade, fields="ts_code,pb"), "daily_basic")
             pool = b[b["ts_code"].isin(SOLAR_POOL)]
             pool = pool.dropna(subset=["pb"])
             pool_n = len(pool)
@@ -228,8 +245,10 @@ def _main():
             print(f"  [warn] daily_basic 失败: {e}")
         # 灯⑦：全市场成交额 → 池内 Σamount ÷ 全市场 Σamount
         try:
-            d = pro.daily(trade_date=last_trade,
-                          fields="ts_code,amount")
+            d = _retry(lambda: pro.daily(trade_date=last_trade,
+                                         fields="ts_code,amount"), "全市场成交额")
+            if d is None:
+                raise RuntimeError("成交额重试后仍为空")
             tot = d["amount"].sum()
             sub = d[d["ts_code"].isin(SOLAR_POOL)]["amount"].sum()
             if tot > 0:

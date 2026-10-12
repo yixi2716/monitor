@@ -11,26 +11,31 @@ if os.environ.get("HTTP_PROXY") is None and sys.platform == "win32":
 
 import yfinance as yf
 
-# Tushare token（GitHub Secrets 里配 TUSHARE_TOKEN）
-TUSHARE_TOKEN = os.environ.get("TUSHARE_TOKEN", "11d712645182771648bd9467e69bfc94b7183e2c23e78148c4ffdb33")
+# Tushare token（GitHub Secrets 里配 TUSHARE_TOKEN；空串/未配置时回落内置 token）
+TUSHARE_TOKEN = os.environ.get("TUSHARE_TOKEN", "").strip() \
+    or "11d712645182771648bd9467e69bfc94b7183e2c23e78148c4ffdb33"
 
 def fetch_north_money():
-    """用 Tushare 拉北向资金每日净买入（单位：万元）"""
-    try:
-        import tushare as ts
-        ts.set_token(TUSHARE_TOKEN)
-        pro = ts.pro_api()
-        today = datetime.date.today().strftime("%Y%m%d")
-        week_ago = (datetime.date.today() - datetime.timedelta(days=7)).strftime("%Y%m%d")
-        df = pro.moneyflow_hsgt(start_date=week_ago, end_date=today)
-        if df is not None and len(df) > 0:
-            latest = df.iloc[0]
-            return {
-                "north_money": float(latest["north_money"]),  # 北向净买入（万元）
-                "north_date": latest["trade_date"],
-            }
-    except Exception as e:
-        print(f"  [warn] 北向资金拉取失败: {e}")
+    """用 Tushare 拉北向资金每日净买入（单位：万元）。接口会偶发返回空表，重试3次。"""
+    for attempt in range(3):
+        try:
+            import tushare as ts
+            ts.set_token(TUSHARE_TOKEN)
+            pro = ts.pro_api()
+            today = datetime.date.today().strftime("%Y%m%d")
+            week_ago = (datetime.date.today() - datetime.timedelta(days=7)).strftime("%Y%m%d")
+            df = pro.moneyflow_hsgt(start_date=week_ago, end_date=today)
+            if df is not None and len(df) > 0:
+                latest = df.iloc[0]
+                return {
+                    "north_money": float(latest["north_money"]),  # 北向净买入（万元）
+                    "north_date": latest["trade_date"],
+                }
+            print(f"  [warn] 北向资金空(第{attempt+1}次)，2s后重试")
+            time.sleep(2)
+        except Exception as e:
+            print(f"  [warn] 北向资金拉取失败(第{attempt+1}次): {e}")
+            time.sleep(2)
     return {"north_money": None, "north_date": ""}
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -112,7 +117,8 @@ TUSHARE_MAP = {
 }
 
 def fetch_tushare_daily(name):
-    """用 tushare 拉 A股指数/ETF 近一年日线（Yahoo 限流兜底）"""
+    """用 tushare 拉 A股指数/ETF 近一年日线（Yahoo 限流兜底）。
+    接口偶发返回空表（网关抖动/限流），空结果重试3次再放弃。"""
     import pandas as pd
     import tushare as ts
     kind, code = TUSHARE_MAP[name]
@@ -120,10 +126,16 @@ def fetch_tushare_daily(name):
     pro = ts.pro_api()
     end = datetime.date.today().strftime("%Y%m%d")
     start = (datetime.date.today() - datetime.timedelta(days=370)).strftime("%Y%m%d")
-    if kind == "index":
-        df = pro.index_daily(ts_code=code, start_date=start, end_date=end)
-    else:
-        df = pro.fund_daily(ts_code=code, start_date=start, end_date=end)
+    df = None
+    for attempt in range(3):
+        if kind == "index":
+            df = pro.index_daily(ts_code=code, start_date=start, end_date=end)
+        else:
+            df = pro.fund_daily(ts_code=code, start_date=start, end_date=end)
+        if df is not None and len(df) > 0:
+            break
+        print(f"  [warn] tushare {code} 空(第{attempt+1}次)，2s后重试")
+        time.sleep(2)
     if df is None or len(df) == 0:
         return None
     df = df.sort_values("trade_date")
@@ -188,6 +200,10 @@ def main():
         time.sleep(1)  # 温和请求，避免 Yahoo 限流
 
     import pandas as pd
+    if not frames:
+        # 双源（Yahoo+Tushare）全部失败时保留旧数据，不得让脚本崩溃或写空文件
+        print("[fatal] 行情全部失败（Yahoo/Tushare 均不可用），保留旧数据")
+        return
     px = pd.concat(frames.values(), axis=1, join="inner").sort_index()
     if px.empty:
         # 各 ticker 日期交集为空时退回 outer join + ffill
@@ -234,6 +250,20 @@ def main():
         "usdcny": val("usdcny", 4),
         "excess": round(med_chg - hs_chg, 2) if med_chg is not None and hs_chg is not None else None,
     }
+
+    # Yahoo 当日序列缺前收或退化（last==prev，chg=0.0）时，A股标的用 tushare 重算涨跌幅，
+    # 否则 hs300_chg 异常会连带 excess 失真（2026-10-12 事故：Yahoo 退化数据 chg 全为 0）
+    for k in TUSHARE_MAP:
+        if data.get(k) is not None and (data.get(k + "_chg") is None or data.get(k + "_chg") == 0.0):
+            try:
+                s = fetch_tushare_daily(k)
+                if s is not None and len(s) >= 2:
+                    data[k + "_chg"] = round((float(s.iloc[-1]) / float(s.iloc[-2]) - 1) * 100, 2)
+                    print(f"  [ok] {k} 涨跌幅由 tushare 补齐: {data[k+'_chg']:+.2f}%")
+            except Exception as e:
+                print(f"  [warn] {k} tushare 补齐失败: {str(e)[:60]}")
+    if data.get("excess") is None and data.get("med_etf_chg") is not None and data.get("hs300_chg") is not None:
+        data["excess"] = round(data["med_etf_chg"] - data["hs300_chg"], 2)
 
     # Tushare 北向资金
     print("[1.5/4] 拉北向资金...")
