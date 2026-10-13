@@ -52,14 +52,18 @@ const AIArchive = (function () {
     const saveBtn = unsaved()
       ? '<button id="ai-arch-save" style="padding:2px 10px;background:#238636;color:#fff;border:none;border-radius:4px;cursor:pointer">存入档案（覆盖当天）</button>'
       : '';
+    // 本地草稿：生成过但还没存进 GitHub 档案（如上次保存失败/断网），提供一键恢复
+    const draft = (!unsaved() && loadDraft() && (!archive[cfg.dataDate] || archive[cfg.dataDate].text !== loadDraft().text))
+      ? '<button id="ai-arch-restore" style="padding:2px 10px;background:#9e6a03;color:#fff;border:none;border-radius:4px;cursor:pointer">恢复本地草稿（' + loadDraft().date + ' 未保存）</button>'
+      : '';
     if (!ds.length) {
-      toolbar.innerHTML = '<span style="color:var(--muted)">暂无历史存档' + (unsaved() ? '' : '（点"重新生成"后可手动存入档案）') + '</span>' + saveBtn + '<span id="ai-arch-msg" style="color:var(--muted)"></span>';
+      toolbar.innerHTML = '<span style="color:var(--muted)">暂无历史存档' + (unsaved() ? '' : '（点"重新生成"后可手动存入档案）') + '</span>' + saveBtn + draft + '<span id="ai-arch-msg" style="color:var(--muted)"></span>';
     } else {
       const opts = ds.map(d => '<option value="' + d + '">' + d + '</option>').join('');
       const def = (cfg.dataDate && archive[cfg.dataDate]) ? cfg.dataDate : ds[0];
       toolbar.innerHTML = '历史存档 <select id="ai-arch-date" style="background:#161d26;color:inherit;border:1px solid #30363d;border-radius:4px;padding:2px 6px">'
         + opts + '</select><span style="color:var(--muted)">共 ' + ds.length + ' 天</span>'
-        + saveBtn + '<span id="ai-arch-msg" style="color:var(--muted)"></span>';
+        + saveBtn + draft + '<span id="ai-arch-msg" style="color:var(--muted)"></span>';
       const sel = toolbar.querySelector('#ai-arch-date');
       sel.value = def;
       sel.onchange = () => show(sel.value);
@@ -67,6 +71,16 @@ const AIArchive = (function () {
     }
     const sv = toolbar.querySelector('#ai-arch-save');
     if (sv) sv.onclick = save;
+    const rs = toolbar.querySelector('#ai-arch-restore');
+    if (rs) rs.onclick = () => {
+      const d = loadDraft();
+      if (!d) return;
+      currentText = d.text;
+      cfg.dataDate = d.date;
+      display().textContent = d.text;
+      setMsg('已恢复 ' + d.date + ' 草稿，点"存入档案"即可保存');
+      refresh();
+    };
   }
 
   function show(date, silent) {
@@ -84,7 +98,29 @@ const AIArchive = (function () {
   /* 页面"重新生成"成功后调用：登记当前文本，允许存入档案 */
   function setCurrent(text) {
     currentText = (text || '').trim();
+    // 本地草稿备份：即使保存到 GitHub 失败，刷新/重进页面也能找回
+    try { localStorage.setItem(draftKey(), JSON.stringify({ date: cfg.dataDate, text: currentText })); } catch (e) {}
     refresh();
+  }
+
+  function draftKey() { return 'ai_draft_' + (cfg.commodity || 'pig'); }
+
+  function loadDraft() {
+    try {
+      const d = JSON.parse(localStorage.getItem(draftKey()) || 'null');
+      return d && d.text ? d : null;
+    } catch (e) { return null; }
+  }
+
+  /* 带超时的 fetch：国内直连 api.github.com 可能挂起，绝不无限等 */
+  async function fetchT(url, options, timeoutMs) {
+    const ctrl = new AbortController();
+    const timer = setTimeout(() => ctrl.abort(), timeoutMs || 20000);
+    try {
+      return await fetch(url, Object.assign({}, options, { signal: ctrl.signal }));
+    } finally {
+      clearTimeout(timer);
+    }
   }
 
   async function getPat() {
@@ -99,48 +135,63 @@ const AIArchive = (function () {
     return pat.trim();
   }
 
+  async function getContentAndSha(pat, api) {
+    const g = await fetchT(api, { headers: { 'Authorization': 'token ' + pat, 'Accept': 'application/vnd.github+json' } });
+    if (g.ok) {
+      const gj = await g.json();
+      return { sha: gj.sha, content: JSON.parse(decodeURIComponent(escape(atob(gj.content.replace(/\n/g, ''))))) };
+    }
+    if (g.status === 404) return { sha: null, content: {} };
+    throw new Error('读取档案失败 HTTP ' + g.status);
+  }
+
   async function save() {
     if (!currentText) { setMsg('请先生成分析', true); return; }
     const pat = await getPat();
     if (!pat) return;
     const path = 'site/data/' + (cfg.commodity ? cfg.commodity + '/' : '') + 'ai_history.json';
     const api = 'https://api.github.com/repos/' + REPO + '/contents/' + path;
-    setMsg('保存中...');
+    setMsg('保存中...（最长等 20 秒）');
     try {
-      let sha = null;
-      let content = {};
-      const g = await fetch(api, { headers: { 'Authorization': 'token ' + pat, 'Accept': 'application/vnd.github+json' } });
-      if (g.ok) {
-        const gj = await g.json();
-        sha = gj.sha;
-        content = JSON.parse(decodeURIComponent(escape(atob(gj.content.replace(/\n/g, '')))));
-      } else if (g.status !== 404) {
-        throw new Error('读取档案失败 HTTP ' + g.status);
-      }
+      let { sha, content } = await getContentAndSha(pat, api);
       content[cfg.dataDate] = { text: currentText, ts: new Date().toISOString() };
-      const payload = {
+      const body = (s) => JSON.stringify({
         message: 'ai: ' + (cfg.commodity || 'pig') + ' ' + cfg.dataDate,
         content: btoa(unescape(encodeURIComponent(JSON.stringify(content, null, 2)))),
-        sha: sha
-      };
-      const p = await fetch(api, {
+        sha: s
+      });
+      let p = await fetchT(api, {
         method: 'PUT',
         headers: { 'Authorization': 'token ' + pat, 'Content-Type': 'application/json', 'Accept': 'application/vnd.github+json' },
-        body: JSON.stringify(payload)
+        body: body(sha)
       });
+      if (p.status === 422) {
+        // sha 过期（Actions 或别的设备刚提交过）：重取最新 sha 再试一次，避免覆盖他人新增的存档
+        const fresh = await getContentAndSha(pat, api);
+        sha = fresh.sha; content = fresh.content;
+        content[cfg.dataDate] = { text: currentText, ts: new Date().toISOString() };
+        p = await fetchT(api, {
+          method: 'PUT',
+          headers: { 'Authorization': 'token ' + pat, 'Content-Type': 'application/json', 'Accept': 'application/vnd.github+json' },
+          body: body(sha)
+        });
+      }
       if (!p.ok) {
         const pj = await p.json().catch(() => ({}));
         throw new Error(pj.message || ('HTTP ' + p.status));
       }
       archive = content;
+      try { localStorage.removeItem(draftKey()); } catch (e) {}
       setMsg('已保存（Pages 部署约 1 分钟后生效）');
       refresh();
     } catch (e) {
-      if (/401|403|Bad credentials/i.test(String(e.message))) {
+      if (e.name === 'AbortError' || /Failed to fetch|NetworkError/i.test(String(e.message))) {
+        setMsg('连不上 api.github.com（网络问题，开代理后重试即可，分析已存本地草稿不会丢）', true);
+      } else if (/401|403|Bad credentials/i.test(String(e.message))) {
         localStorage.removeItem('gh_pat');
         setMsg('Token 无效/权限不足，已清除请重试', true);
       } else {
-        setMsg('保存失败：' + e.message, true);
+        setMsg('保存失败：' + e.message + '（分析已存本地草稿，可重试）', true);
       }
     }
   }
