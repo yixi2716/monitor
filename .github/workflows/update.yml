@@ -15,7 +15,8 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pig-pages
+  # push（纯部署）与取数（schedule/dispatch）分组隔离：我推代码不会再把你正在跑的手动任务取消掉
+  group: pig-pages-${{ github.event_name == 'push' && 'deploy' || 'fetch' }}
   cancel-in-progress: true
 
 jobs:
