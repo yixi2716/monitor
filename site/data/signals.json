@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-12",
+  "date": "2026-10-13",
   "score": "3/6",
   "verdict": "磨底观察中",
   "signals": [
@@ -68,7 +68,7 @@
       "name": "期货远月升水",
       "desc": "LH远月合约收盘价 > 近月",
       "status": "green",
-      "value": 3200.0,
+      "value": 3165.0,
       "threshold": 0,
       "source": [
         {
