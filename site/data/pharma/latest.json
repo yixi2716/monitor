@@ -2,25 +2,25 @@
   "date": "2026-10-13",
   "hs300": 4275.68,
   "hs300_chg": -0.29,
-  "med_etf": 0.376,
+  "med_etf": 0.379,
   "med_etf_chg": -0.79,
-  "inn_etf": 0.82,
+  "inn_etf": 0.843,
   "inn_etf_chg": -1.2,
-  "cxo_etf": 0.335,
+  "cxo_etf": 0.341,
   "cxo_etf_chg": -1.47,
-  "tcm_etf": 0.883,
+  "tcm_etf": 0.89,
   "tcm_etf_chg": -0.56,
-  "meddev_etf": 0.434,
+  "meddev_etf": 0.44,
   "meddev_etf_chg": -0.91,
-  "vaccine_etf": 2.172,
+  "vaccine_etf": 2.249,
   "vaccine_etf_chg": -2.07,
-  "hsi_health": 24345.22,
+  "hsi_health": 24271.2,
   "hsi_health_chg": 0.0,
-  "hs_inn_etf": 1.272,
+  "hs_inn_etf": 1.308,
   "hs_inn_etf_chg": -2.45,
   "tnx": 5.22,
   "usdcny": 6.6808,
-  "excess": 0.0,
+  "excess": -0.5,
   "north_money": 261883.18,
   "north_date": "20261013",
   "news": [
@@ -56,13 +56,13 @@
     },
     {
       "date": "2026-10-13",
-      "text": "国际生物医药产业园：深港“握手”的掌心，长出两栋会造药的楼｜业聚福楼㉔ - 深圳新闻网",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1vQTBDYXBsTjltamNTcS1Zck5SaFVmc0xOcThUdkVmbUhDVnpPem80WnJNQXFCRnhhc1QycElLYk9TZVl5VjZ0NVFMX2MxekhsN3RwTXhrQl82VHB5Mkd4dmtBb082YW9OT3RHNEFDXzZteWtZdUZDdjB3?oc=5"
+      "text": "5年在创新药领域投入500亿元、拓展超100个管线，广药集团能转型成功吗？ - 每日经济新闻",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBiRFZMNkYzTHBpeTZqc1hFM3VHaGc2RldmaDJZVHc1cURaTTJLaEJ4OC1xYXpBR1U0VEVRenV2cHVXWjdhTTdRZXNpSG9SS2U2V2wyTllzdURCSjZYd19zTmxxbDFmQQ?oc=5"
     },
     {
       "date": "2026-10-13",
-      "text": "湖州吴兴：名中医馆扎根基层 中医药赋能共富 - 新华网浙江",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcGl3WlkwNmo3NElyMV8za0c2VkN1MGxLQ0w2OXI0S1NjMWtMQ1RHTzZISElYd3E3QlNoMVJyeWhoaTVtdGI0YWZKcTItYS1NZDdwT05qRTBxXzloRU10anZ3NDZnY0EyTDAxX1FqeGRraGlFbnh2bWZVTW5XZktxdDZn?oc=5"
+      "text": "国际生物医药产业园：深港“握手”的掌心，长出两栋会造药的楼｜业聚福楼㉔ - 深圳新闻网",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1vQTBDYXBsTjltamNTcS1Zck5SaFVmc0xOcThUdkVmbUhDVnpPem80WnJNQXFCRnhhc1QycElLYk9TZVl5VjZ0NVFMX2MxekhsN3RwTXhrQl82VHB5Mkd4dmtBb082YW9OT3RHNEFDXzZteWtZdUZDdjB3?oc=5"
     }
   ],
   "ai_analysis": "",

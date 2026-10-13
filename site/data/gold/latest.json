@@ -1,24 +1,24 @@
 {
   "date": "2026-10-13",
-  "fetched_at": "2026-10-13 23:48",
-  "gold": 4182.8,
-  "gold_chg": -0.79,
-  "ma20": 4259.14,
-  "ma50": 4378.49,
+  "fetched_at": "2026-10-14 00:17",
+  "gold": 4178.3,
+  "gold_chg": -0.9,
+  "ma20": 4258.92,
+  "ma50": 4378.4,
   "above_ma20": false,
   "above_ma50": false,
-  "dxy": 102.29,
-  "dxy_chg": 0.08,
-  "vix": 15.38,
-  "vix_chg": 3.64,
-  "tip": 104.53,
+  "dxy": 102.24,
+  "dxy_chg": 0.03,
+  "vix": 15.42,
+  "vix_chg": 3.91,
+  "tip": 104.54,
   "tnx": 5.22,
-  "corr_gold_dxy": -0.17,
-  "corr_gold_tip": 0.3,
+  "corr_gold_dxy": -0.16,
+  "corr_gold_tip": 0.29,
   "corr_gold_vix": -0.49,
-  "basis": 37.17,
-  "vol20": 17.4,
-  "gold_silver_ratio": 70.25,
+  "basis": 36.64,
+  "vol20": 17.5,
+  "gold_silver_ratio": 70.32,
   "usdcny": 6.6808,
   "shfe_au": 907.02,
   "shfe_au_date": "2026-10-13",
@@ -28,19 +28,19 @@
   "mode_name": "M · 混合驱动",
   "confidence": "低",
   "evidence": [
-    "黄金与 TIP 相关性 +0.30，与 DXY 相关性 -0.17",
+    "黄金与 TIP 相关性 +0.29，与 DXY 相关性 -0.16",
     "VIX 15.4，与 VIX 相关性 -0.49",
     "多因子混合驱动，无单一主导逻辑"
   ],
   "signals": [
     {
       "name": "美元信号",
-      "text": "DXY 102.3 > 101，压制金价",
+      "text": "DXY 102.2 > 101，压制金价",
       "dir": "bear"
     },
     {
       "name": "利率信号",
-      "text": "TIP 5日 +0.53%，实际利率平稳",
+      "text": "TIP 5日 +0.54%，实际利率平稳",
       "dir": "neutral"
     },
     {
@@ -55,7 +55,7 @@
     },
     {
       "name": "实物信号",
-      "text": "GLD 与期货同步（5日 +0.41% vs +0.63%）",
+      "text": "GLD 与期货同步（5日 +0.43% vs +0.52%）",
       "dir": "neutral"
     }
   ],
@@ -136,11 +136,11 @@
     },
     {
       "date": "2026-10-13",
-      "gold": 4182.8,
-      "gold_chg": -0.79,
-      "dxy": 102.29,
-      "vix": 15.38,
-      "tip": 104.53
+      "gold": 4178.3,
+      "gold_chg": -0.9,
+      "dxy": 102.24,
+      "vix": 15.42,
+      "tip": 104.54
     }
   ],
   "macro": {
@@ -161,9 +161,9 @@
         "dot_plot": true
       }
     ],
-    "zq_price": 96.07,
-    "zq_implied_rate": 3.93,
-    "market_bp_vs_current": -7.0,
+    "zq_price": 96.06,
+    "zq_implied_rate": 3.94,
+    "market_bp_vs_current": -6.0,
     "market_expectation": "市场预期下次会议维持不变",
     "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
   },
@@ -212,8 +212,8 @@
       }
     ],
     "gold_impact": "双重作用：局势升级→避险买盘利多黄金；但同时油价飙升→通胀预期→美联储更难降息→利空黄金。当前谈判窗口期，油价波动会直接传导到金价。",
-    "wti_price": 94.28,
-    "wti_chg": 2.65,
+    "wti_price": 93.84,
+    "wti_chg": 2.17,
     "news_auto": true
   },
   "ai_analysis": "",
