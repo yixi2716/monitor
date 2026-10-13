@@ -1,89 +1,89 @@
 {
-  "date": "2026-10-12",
-  "hs300": 4287.98,
-  "hs300_chg": -0.68,
-  "solar_etf": 0.76,
-  "solar_etf_chg": -0.65,
-  "newenergy_etf": 2.218,
-  "newenergy_etf_chg": -1.38,
-  "storage_etf": 1.635,
-  "storage_etf_chg": -0.61,
-  "tnx": 5.24,
-  "usdcny": 6.6818,
-  "excess": 0.03,
-  "dd_from_high": 0.3576,
+  "date": "2026-10-13",
+  "hs300": 4275.68,
+  "hs300_chg": -0.29,
+  "solar_etf": 0.752,
+  "solar_etf_chg": -1.05,
+  "newenergy_etf": 2.172,
+  "newenergy_etf_chg": -2.07,
+  "storage_etf": 1.598,
+  "storage_etf_chg": -2.26,
+  "tnx": 5.22,
+  "usdcny": 6.6808,
+  "excess": -0.76,
+  "dd_from_high": 0.3643,
   "pb_ratio": 0.0333,
-  "turnover_ratio": 0.953,
+  "turnover_ratio": 0.831,
   "stocks": {
     "tongwei": {
-      "close": 11.43,
-      "chg": -1.89
+      "close": 11.58,
+      "chg": 1.31
     },
     "zhonghuan": {
-      "close": 9.34,
-      "chg": -3.61
+      "close": 9.32,
+      "chg": -0.21
     },
     "junda": {
-      "close": 35.84,
-      "chg": -0.64
+      "close": 35.66,
+      "chg": -0.5
     },
     "longi": {
-      "close": 11.12,
-      "chg": -1.07
+      "close": 11.06,
+      "chg": -0.54
     },
     "flat": {
-      "close": 9.31,
+      "close": 9.24,
       "chg": -0.75
     },
     "jiejia": {
-      "close": 52.42,
-      "chg": -1.76
+      "close": 52.0,
+      "chg": -0.8
     },
     "sungrow": {
-      "close": 82.35,
-      "chg": 2.07
+      "close": 79.91,
+      "chg": -2.96
     }
   },
   "news": [
     {
+      "date": "2026-10-13",
+      "text": "光伏与储能大会即将举办，可再生能源装机规模稳步扩大，这些股频获机构调研 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9SQ0k0dXBOM3Z0SXVuSmtCbnZlSTlmYmhCWkpRNEs1aXd1WWlGWDJUSEhJUTFOZ1BaUjlWVFNBNS14ZUZNb2hGSw?oc=5"
+    },
+    {
+      "date": "2026-10-13",
+      "text": "广东省阳江市昭合太阳能5个分布式光伏项目10月13日复核通过 - 观点网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9VTGlVb1lyYms5Nk5zU2pueE9tcjlLc19Nd0h3YkJWSlV2UURFZG11STdSVU5sdlF5THNJZ3VjUjU1UUdDQ3VOVlJZRTk1VDdneXRJVWF3aUtUSHBkQW0xN3pn?oc=5"
+    },
+    {
+      "date": "2026-10-13",
+      "text": "江苏首个市场化整村光伏并网 - 中国科技网",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE12ZG41ZW1xTWhYZTlQSmRFdGs1bmFGRXloanYyNVpLcFBqbHhBNEpwUWJwVDhsQ0x2eFVXaVpqZ2JMZGJPUmgzZXIyS0lfX0FpOEFpWGpIdkxmYVJMb3Y3aFZ3dDl6eE5HYkQ3bWo2Z0E?oc=5"
+    },
+    {
+      "date": "2026-10-13",
+      "text": "硅料涨价催化不断！光伏赛道景气回暖 8股2027年净利暴增可期(名单) - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAtUGVWSVVjNHc1Y0ptNE5VbXFRZzNSZWpjOVpMZWRqdXBIRFVEblVJUEFIWlVNbUwweDJta2did2NuMTFjdmEyX2piSHl6X3pjYXpndUxEemkxczVYSTJRbg?oc=5"
+    },
+    {
+      "date": "2026-10-13",
+      "text": "温州市工业与能源集团首个异质结光伏项目顺利竣工 - 国际太阳能光伏网",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBMLVh0OUh5dU80NzdUQU5NQ1pXcGl6U1pnU25WUzdqaThOWnJTWjFseFRzeU01d3Z5eHAyc2FpN3h1RUVKOTg3Wm00THdUWkU0MEJRU1VNZ0g0S0lH?oc=5"
+    },
+    {
+      "date": "2026-10-13",
+      "text": "江苏探索以“整村光伏”开发实现多方共赢 - 中国金融信息网",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFA2RTVqMG50cFNoM0FnTjdRRjJub1RPaDhNVFZqV2RDZTZaQWkzYkRTeTZEdlZDNHlQN2hOMEdEWUFNVXY1RjZPSjh0aHNPRWd4dlVXXzE4cEJ3Rms1ZTIzQkhBaDJWZF9VNWI1eFhFek1ldw?oc=5"
+    },
+    {
+      "date": "2026-10-13",
+      "text": "光伏检测标准细化，组件质量进入可追溯验证期 - 新浪网",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPdy1STVpZbkZCMjBmeERhNnNPMURlc05rVHpVejZKeG5PWEhIa0JpSThsY1hSNjEzNk13UTVkYzMydy1nVWQyTkt3dUFRNTNqSU9fc1JGX1RMVjdoRmxjekEteXFVMEdtLV9YVDF0b3BXLTFyYzVPRGN1dEptOXFaaHVtVQ?oc=5"
+    },
+    {
       "date": "2026-10-12",
       "text": "“青字号”光伏产品走俏海外前8个月出口同比增长1.5倍-政务公开 - 青海省人民政府",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBmVjZiUWxhM0Y5QU02TDJ4TENzTmRGYXNqWXdhbUc1MVYtYUcwdHNlNDE3bkhxd0VfcjV1Q0JxYldjOFBoV2dkUDd3dzJnY2tnUmRaSzRKTXI3S2o4QlMzY2xSX19mSm42WkgtQ0pQaXNYdw?oc=5"
-    },
-    {
-      "date": "2026-10-13",
-      "text": "大降50%！9月光伏组件集采定标量“腰斩”！好消息是25GW+容量待释放 - 新浪网",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9xYk1rNkU5RVBGdzlDajc3RXo1WTRpczhBdGtCT3R3QU9LS2JPUl91b1RubTRqblVwVFNUWExEOGd1bWhCblFNai1DdXhmNE1mZmszcWxCSGVWdFZEY1VMcExLdFFGUEhkSS1mU1E2bWNPQQ?oc=5"
-    },
-    {
-      "date": "2026-10-13",
-      "text": "光明日报：追风向光 逐绿前行——我国能源绿色低碳转型成果丰硕 - 国务院国有资产监督管理委员会",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE82LVQ3ZnZNb0thNzFTSTRyWGpLTlBicU81QkRLOEQzc0ZBVGJrWkltWmEwT21QRVRyOXRTZ0lReVFoNkdPQS1waGU4TjNIRlM0V05KWDBCbFhmam5tU1ZoTThGUENCUXdTalE2TWQxeno3QQ?oc=5"
-    },
-    {
-      "date": "2026-10-13",
-      "text": "中欣晶圆：一片硅片的产业攀登之路 - 搜狐网",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNa0U0Q1BrY2lIZG5fQUhJYzMwb1JiOVFDWjRLMFNrU1BhM1dOclFXSGNqemxFbi11RUtnMUItakh1SkpMVTduLU5RakYzUUVSZ2gyZ2p2UEhBeWw3YkEwTlZhdzdBNDBaRllncElYU1Ixam44bmxiaEUtNElTaXctb21ZTEROWXZPRXhxQWR6RQ?oc=5"
-    },
-    {
-      "date": "2026-10-13",
-      "text": "光启新篇！湖南耒阳余庆90MW林光互补光伏项目开工建设 - 国际太阳能光伏网",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0wRUJUamtBUUF3Q0czV0NnaHBpMFZFTEVRQmJ1bG9hREVIOTF6MjJSazRlZWlHcnJCVjhYYUlfc3M2d01YMXZEa1JKci1SVTNIWWxrSzVDQlNWLWEt?oc=5"
-    },
-    {
-      "date": "2026-10-13",
-      "text": "山东烟台分布式光伏+储能产业投资项目EPC工程总承包招标项目招标公告发布 - 碳索储能网",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5CREpfa19zSXZXWWhXLW5GY0xNX25vR05sNnpQcWNyMDl3UHlKUWEybm5CNExnTnhfbTBwSS1vLVRqVTIwbUdpNXFfOEdxazVHNEdYbWV1QjBxMGNiRm1GWg?oc=5"
-    },
-    {
-      "date": "2026-10-12",
-      "text": "江苏首个市场化“整村光伏”项目在沛县并网投运 - 人民网－江苏频道",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBWQ0J4XzBOVlZtdlFqUzRlejRYeF9xSEdfWGM1TnlPOXJwWHE2dmlxNzhhS3BWUHF6cGpHb2loTzVrZ2gwMmpTY0lxM0djWGpHYmlmTGl6VmlDbWwyalNzQml4RE56R2JPdnc?oc=5"
-    },
-    {
-      "date": "2026-10-13",
-      "text": "落实反内卷倡议：硅料龙头敲定 4.3 万元 / 吨成本销售红线 - ChemNet News",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1VWDBDTDZLSjB4eUtVd2FYR2pwVDg3ZTFWbWVnLVA3Wk1mNmdKRE9VMUkxWmZPZ0Z5aDdkc2NPanRfb2NlUElKYU1wYWlfV1c4bjE0UC1BUTVHb0R2QnFr?oc=5"
     }
   ],
   "ai_analysis": "",

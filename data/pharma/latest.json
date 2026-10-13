@@ -1,68 +1,68 @@
 {
   "date": "2026-10-13",
-  "hs300": 4222.75,
-  "hs300_chg": -0.68,
-  "med_etf": 0.371,
-  "med_etf_chg": -2.11,
-  "inn_etf": 0.809,
-  "inn_etf_chg": -4.03,
-  "cxo_etf": 0.331,
-  "cxo_etf_chg": -2.93,
-  "tcm_etf": 0.878,
-  "tcm_etf_chg": -1.35,
-  "meddev_etf": 0.428,
-  "meddev_etf_chg": -2.73,
-  "vaccine_etf": 2.134,
-  "vaccine_etf_chg": -5.11,
-  "hsi_health": 23992.12,
-  "hsi_health_chg": -1.15,
-  "hs_inn_etf": 1.25,
-  "hs_inn_etf_chg": -4.43,
-  "tnx": 5.24,
-  "usdcny": 6.6947,
-  "excess": -1.43,
-  "north_money": 248023.19,
-  "north_date": "20261012",
+  "hs300": 4275.68,
+  "hs300_chg": -0.29,
+  "med_etf": 0.376,
+  "med_etf_chg": -0.79,
+  "inn_etf": 0.82,
+  "inn_etf_chg": -1.2,
+  "cxo_etf": 0.335,
+  "cxo_etf_chg": -1.47,
+  "tcm_etf": 0.883,
+  "tcm_etf_chg": -0.56,
+  "meddev_etf": 0.434,
+  "meddev_etf_chg": -0.91,
+  "vaccine_etf": 2.172,
+  "vaccine_etf_chg": -2.07,
+  "hsi_health": 24345.22,
+  "hsi_health_chg": 0.0,
+  "hs_inn_etf": 1.272,
+  "hs_inn_etf_chg": -2.45,
+  "tnx": 5.22,
+  "usdcny": 6.6808,
+  "excess": 0.0,
+  "north_money": 261883.18,
+  "north_date": "20261013",
   "news": [
     {
       "date": "2026-10-13",
-      "text": "从0到N 成都生物医药如何走好创新“最后一公里”？ - 成都市委统战部",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOX1hkZl9DcUFMVEVpQlQydVJBN2RfUWVyUDl4bjFFWXd3VjdqNUhpNjk0UmUxanNoWGVkcndNcVpWNk5Hd0drVmNmT2FWRE45WjZGb3RXYzBRUmQycUpucWRaNzhNcmp3cEkzZWtwc2tZdHZnbFc1QTRSVDAyZ192dHpCNDBJR1JpSG1xZm4xVnI0NnZwblBsalNyZTM4QjN4VklR?oc=5"
+      "text": "亚太药业子公司签署1.1类创新药合作意向书 交易价款最高不超1亿元 - 观点网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1GVUpkZVUweFpOc2l6VWs0S2JSb0VMdUdwZHk4WGNHR1hsV0kxU3IwQVBLRUJfaVFBVmVOazdCRnN1Ym1ORTBoSy1MTTJ6dEk1eS01Mm9xcURVVEVfU21LQ2ZB?oc=5"
     },
     {
       "date": "2026-10-13",
-      "text": "来凯医药-B：LAE102 24周单药治疗研究取得积极进展 - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1LTjJENmluV25HMVVDNng2ZlRZMWFBdmtGZ0VVdXA0T2diSGxWSTZEbFhLclVSMXpCaEdKN0Nrck90aEZQUTFkMzBCVEIyaUhxZkx6ZjJpaE1pR2ZtNVpZR2xjV1hWQQ?oc=5"
+      "text": "中国—东盟区域医药交易（集采）平台促中国医药“出海” - 中国新闻网",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9RLTdSeFhMUTcxRnF2YWQ2WlN1Uk1JbklfWnNqdGlQUm9kRWxiczhhNDlpLXBxTk1ST2xwa0N4S193MWc0VGhETlBlRF83eDJmc1dpSGRIRzh0eUpqcW5QS1E1dElyOXgtdTJseEUtNTdsdw?oc=5"
     },
     {
       "date": "2026-10-13",
-      "text": "医药行业周报：市场情绪波动，关注低位标的 - ByDrug",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPc3BMSzQxdVdQLXdCVUsxX1FRaXRfUGxDbDd4OUdTYzk3SHpUZFBSVWxfakNxMHl1NFQ4YVBHRERaRm5KMjJLbmpkbzd1eEs4a2ZQMi1NUjI1NjdLNGpSMGtBaDc5TnVlVjFoaVF0VUNsY3BERUtTYVk0Z2hNTWs4Sw?oc=5"
-    },
-    {
-      "date": "2026-10-12",
-      "text": "从服务全球客户到开展本地科研协作 睿智医药深化海外布局 - 新华网",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1uckh4eHF2VjhaOHhGR0g1cXdPQl9tLWN0QmlpWjZ0ZVJOeXhvSHM2UF9MaVRRX2g2Z20wd0tCalF0eWVKNjNiTkdROXBrWmx5U1pPQXBWOGtlU0NJRnJyVktISV9QcEdrVmpLZkVlOU5zaFR0amlXelAyOHpSa0k?oc=5"
-    },
-    {
-      "date": "2026-10-12",
-      "text": "藏医药薪火相传第十五届全国藏医药高级研修班开班了_滚动图 - 中国西藏网",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAwdTVQMGwwUFZwWVNFRjUxbi1tUXgxZWNqSkxmWmhYUnlOdzFUdlcwVnpneHFwV3d0elFJTDBiRjBEcUs5Y09jeTI2OUNfcUdLRDlEdVV5SlZfd3gxUEdqV25ySzJqbWg2dUZZ?oc=5"
+      "text": "重磅签约！武汉鄂州顺丰共建临空生物医药产业园 - 湖北省经济和信息化厅",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE13X2pWU0lZaTNTWWQ3STdPN0tfeVhSQzJWempvV3UwbkluTjdnWDFGeXhUODgyUUhfd2E4ZGFCQTBVVXkzeU4zX1JaMHVFMWtPLXJSUzdlYjFPTWxFbWJNRlpVQXpwZDZtanQ5YnhiQjZKUQ?oc=5"
     },
     {
       "date": "2026-10-13",
-      "text": "医药行业跟踪报告：艾博生物与诺华达成mRNA-TCE合作授权，中国创新药出海再下一城_行业研究_研报 - 证券之星",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5pbUJfd0RocEtFR2RjdXotb0t0MEViQjFJcVROa0NIbVMyX3ZmdkZ0bmFaR2l3Rm1CTG9mU1lCMDY1dUxsQXZYNzlYb3NnRC1hWXp5VDJXWDE4YnpmWFY5RzZ3?oc=5"
+      "text": "[新华社] 习近平出席全国卫生与健康大会并发表重要讲话 - 中华人民共和国国家卫生健康委员会",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPQWlLWlZwTFRiMm5wNFA5Rkh3SXZzUHdlR09VSS1LMVEzUlNwbHp2bDhLWDk0djFpVzZGVTMzbmU2M2xxLUhBbGdtWVpBSzQyeXlTSUZ1M1g4dzN5WExoVndEaWt6dXBISkNtNzJjT0l1QzZRNi1yUENzcHltOFFkX19kZw?oc=5"
     },
     {
       "date": "2026-10-13",
-      "text": "大降50%！9月光伏组件集采定标量“腰斩”！好消息是25GW+容量待释放 - 新浪网",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9xYk1rNkU5RVBGdzlDajc3RXo1WTRpczhBdGtCT3R3QU9LS2JPUl91b1RubTRqblVwVFNUWExEOGd1bWhCblFNai1DdXhmNE1mZmszcWxCSGVWdFZEY1VMcExLdFFGUEhkSS1mU1E2bWNPQQ?oc=5"
+      "text": "和铂医药-B：10月13日斥资727.76万港元回购70万股 - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE53cHB0LV9jdkY1bUZybHQ3X0ZFbFdrbXNtZWgzVldUNnpYd1AzQWZiWXBuSjlodERVd0JiUHVrcF92bEVBMFlPQ1pYZnJMcjFnaEFlUzhQbkwwRkxMcGxNMjF0SmVQdw?oc=5"
     },
     {
       "date": "2026-10-13",
-      "text": "世界传统医药大会聚焦AI赋能传统医药 - 温州新闻",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBvcUNhajIzNFRrcktuMzhxenRxOVQxaS03RXBpNkFVRjFPNW1Sa2xiNmVYZFF0SGdxUkRVck5tOW9iS0ZZam9CSmVveTkzX1pCZmpaU0RDczVUdWtlMXRrMXdCeWhXN0dk?oc=5"
+      "text": "深耕基层十余载 云南中医药健康管理服务惠及千家万户 - 云南省卫生健康委员会",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1uSGNTWjBjLUs0QnBNa2pqU2szclpwZ3FKNGNEdEFvcElnTkZfZjFXWDNIdVVSR2ZZeUZpSXZoNzgxR1FaYjd3SDJWT0JMVTROWUY4bFRUZUgwanV5aGhDbzhsQzhMZDVTbHowOWt5cjk0XzBO?oc=5"
+    },
+    {
+      "date": "2026-10-13",
+      "text": "国际生物医药产业园：深港“握手”的掌心，长出两栋会造药的楼｜业聚福楼㉔ - 深圳新闻网",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1vQTBDYXBsTjltamNTcS1Zck5SaFVmc0xOcThUdkVmbUhDVnpPem80WnJNQXFCRnhhc1QycElLYk9TZVl5VjZ0NVFMX2MxekhsN3RwTXhrQl82VHB5Mkd4dmtBb082YW9OT3RHNEFDXzZteWtZdUZDdjB3?oc=5"
+    },
+    {
+      "date": "2026-10-13",
+      "text": "湖州吴兴：名中医馆扎根基层 中医药赋能共富 - 新华网浙江",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcGl3WlkwNmo3NElyMV8za0c2VkN1MGxLQ0w2OXI0S1NjMWtMQ1RHTzZISElYd3E3QlNoMVJyeWhoaTVtdGI0YWZKcTItYS1NZDdwT05qRTBxXzloRU10anZ3NDZnY0EyTDAxX1FqeGRraGlFbnh2bWZVTW5XZktxdDZn?oc=5"
     }
   ],
   "ai_analysis": "",
