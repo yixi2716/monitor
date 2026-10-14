@@ -1,89 +1,89 @@
 {
-  "date": "2026-10-13",
-  "hs300": 4275.68,
-  "hs300_chg": -0.29,
-  "solar_etf": 0.752,
-  "solar_etf_chg": -1.05,
-  "newenergy_etf": 2.172,
-  "newenergy_etf_chg": -2.07,
-  "storage_etf": 1.598,
-  "storage_etf_chg": -2.26,
-  "tnx": 5.22,
-  "usdcny": 6.6808,
-  "excess": -0.76,
-  "dd_from_high": 0.3643,
+  "date": "2026-10-14",
+  "hs300": 4217.68,
+  "hs300_chg": -1.36,
+  "solar_etf": 0.738,
+  "solar_etf_chg": -1.86,
+  "newenergy_etf": 2.123,
+  "newenergy_etf_chg": -2.26,
+  "storage_etf": 1.555,
+  "storage_etf_chg": -2.69,
+  "tnx": 5.26,
+  "usdcny": 6.6866,
+  "excess": -0.5,
+  "dd_from_high": 0.3762,
   "pb_ratio": 0.0333,
-  "turnover_ratio": 0.831,
+  "turnover_ratio": 0.691,
   "stocks": {
     "tongwei": {
-      "close": 11.58,
-      "chg": 1.31
+      "close": 11.38,
+      "chg": -1.73
     },
     "zhonghuan": {
-      "close": 9.32,
-      "chg": -0.21
+      "close": 9.51,
+      "chg": 2.04
     },
     "junda": {
-      "close": 35.66,
-      "chg": -0.5
+      "close": 34.39,
+      "chg": -3.56
     },
     "longi": {
-      "close": 11.06,
-      "chg": -0.54
+      "close": 10.88,
+      "chg": -1.63
     },
     "flat": {
-      "close": 9.24,
-      "chg": -0.75
+      "close": 9.15,
+      "chg": -0.97
     },
     "jiejia": {
-      "close": 52.0,
-      "chg": -0.8
+      "close": 50.59,
+      "chg": -2.71
     },
     "sungrow": {
-      "close": 79.91,
-      "chg": -2.96
+      "close": 78.08,
+      "chg": -2.29
     }
   },
   "news": [
     {
-      "date": "2026-10-13",
-      "text": "光伏与储能大会即将举办，可再生能源装机规模稳步扩大，这些股频获机构调研 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9SQ0k0dXBOM3Z0SXVuSmtCbnZlSTlmYmhCWkpRNEs1aXd1WWlGWDJUSEhJUTFOZ1BaUjlWVFNBNS14ZUZNb2hGSw?oc=5"
+      "date": "2026-10-14",
+      "text": "硅业分会：多晶硅减产逐步落地 本周n型复投料成交价4.30万元/吨 - 观点网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9aS0t2NUt0cVBxSXhHeENNWWNMM0E2UHNnM1ZUTTV4Q0M3MS1WbHRNcUE5bTRkNXFRNTgyUEo1aTRJc05tU3AzXzI4NkszUVpuOFo3ZTVDdVRqSUZRUTJCUVZn?oc=5"
     },
     {
-      "date": "2026-10-13",
-      "text": "广东省阳江市昭合太阳能5个分布式光伏项目10月13日复核通过 - 观点网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9VTGlVb1lyYms5Nk5zU2pueE9tcjlLc19Nd0h3YkJWSlV2UURFZG11STdSVU5sdlF5THNJZ3VjUjU1UUdDQ3VOVlJZRTk1VDdneXRJVWF3aUtUSHBkQW0xN3pn?oc=5"
+      "date": "2026-10-14",
+      "text": "1级占比75%！龙源电力6GW光伏组件框采招标 - 国际太阳能光伏网",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAxdEN5YTd0cm1PUnM0UkpCbTR4OFNmUU05Tk5PMXU3ZGw2VEtFcnhZeE9rNzQzYk5pb3l4MUpGamwyaUFJQWVIUDN5QnNHa29fNndjbWc1ZV9OTmZF?oc=5"
     },
     {
-      "date": "2026-10-13",
-      "text": "江苏首个市场化整村光伏并网 - 中国科技网",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE12ZG41ZW1xTWhYZTlQSmRFdGs1bmFGRXloanYyNVpLcFBqbHhBNEpwUWJwVDhsQ0x2eFVXaVpqZ2JMZGJPUmgzZXIyS0lfX0FpOEFpWGpIdkxmYVJMb3Y3aFZ3dDl6eE5HYkQ3bWo2Z0E?oc=5"
+      "date": "2026-10-14",
+      "text": "串串光伏不占地 错峰发电效益高 - 碳索储能网",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9naUNLUjNkOTU5VzYzVTVNR2hkQ1Q4REZDQlVuVkFvRVBUaEwtUmFEeDh6aW1Kc2tWMWRYa19odGpXUzhUNVRYSnplUGVTcG1GWWlBbzhPS1Q2SFB3NGh3ZA?oc=5"
     },
     {
-      "date": "2026-10-13",
-      "text": "硅料涨价催化不断！光伏赛道景气回暖 8股2027年净利暴增可期(名单) - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAtUGVWSVVjNHc1Y0ptNE5VbXFRZzNSZWpjOVpMZWRqdXBIRFVEblVJUEFIWlVNbUwweDJta2did2NuMTFjdmEyX2piSHl6X3pjYXpndUxEemkxczVYSTJRbg?oc=5"
+      "date": "2026-10-14",
+      "text": "光伏龙头再开会，行业正在寻找新节奏_公司新闻_财经 - 证券之星",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5wTEpzSVZwYW8zWmdVZXJuLTZRNW54VzFhckczdUVrLW1iMmY4VkxuNDd1c21qMFVfaFkxSmRrWXE5UFJObkdjTnVneWZ1dzNZOHFoV2NtMk44ODJ4Ml9lZw?oc=5"
     },
     {
-      "date": "2026-10-13",
-      "text": "温州市工业与能源集团首个异质结光伏项目顺利竣工 - 国际太阳能光伏网",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBMLVh0OUh5dU80NzdUQU5NQ1pXcGl6U1pnU25WUzdqaThOWnJTWjFseFRzeU01d3Z5eHAyc2FpN3h1RUVKOTg3Wm00THdUWkU0MEJRU1VNZ0g0S0lH?oc=5"
+      "date": "2026-10-14",
+      "text": "我国已批准发布水电、光伏等清洁能源国家标准600余项 - 国际在线",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBxMUNCVVdvcjA0RERKb0FENUxhMXIxckRQekNSR3pQQnhveTVEWHgzMlRMakstY2czZmxPSU43dTZmanAzWHdMOTU4TF9oLWRubzdrY3M2TGF1S1RjeVBTYjJzQzNodzVVdFpCdlA0WXdfZkpPdlNCeEV3?oc=5"
     },
     {
-      "date": "2026-10-13",
-      "text": "江苏探索以“整村光伏”开发实现多方共赢 - 中国金融信息网",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFA2RTVqMG50cFNoM0FnTjdRRjJub1RPaDhNVFZqV2RDZTZaQWkzYkRTeTZEdlZDNHlQN2hOMEdEWUFNVXY1RjZPSjh0aHNPRWd4dlVXXzE4cEJ3Rms1ZTIzQkhBaDJWZF9VNWI1eFhFek1ldw?oc=5"
+      "date": "2026-10-14",
+      "text": "屋顶揽阳光绿电助振兴——江苏首个中压并网“整村连片+绿电直供”分布式光伏项目落地宜兴白塔村 - 半月谈",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONE1SMjJKSVZ1MDQ1aXZJNEF5UElUYmNHOHk4T1N5bVJIdkZMM1JSWW9fY3hOU3A3MDlXRnkzVlBkVm56VDNqMnBMOGJOakRib1JvTk1Sdl9tc3dYNnFKTVhwZmR2NVBqNlpqRFlTRUJZMEZlV3dGWFM0Y21vdFRERXotY2NEYmFWaDQ4TWdGQl8?oc=5"
     },
     {
-      "date": "2026-10-13",
-      "text": "光伏检测标准细化，组件质量进入可追溯验证期 - 新浪网",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPdy1STVpZbkZCMjBmeERhNnNPMURlc05rVHpVejZKeG5PWEhIa0JpSThsY1hSNjEzNk13UTVkYzMydy1nVWQyTkt3dUFRNTNqSU9fc1JGX1RMVjdoRmxjekEteXFVMEdtLV9YVDF0b3BXLTFyYzVPRGN1dEptOXFaaHVtVQ?oc=5"
+      "date": "2026-10-14",
+      "text": "光伏装机规模登顶但行业陷入亏损，13家主流企业2026年上半年合计亏损184.73亿元 - 虎嗅网",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5scWxROTVTMmw2NzhCTkE1Q082Z2pSVG13V2lSYkxMVHF0eXBUQ0d5eVBlNlExVEJKMTB5cWV4SXE1bVg5cDg5ZEUwanVsU1h5Q0g4Xw?oc=5"
     },
     {
-      "date": "2026-10-12",
-      "text": "“青字号”光伏产品走俏海外前8个月出口同比增长1.5倍-政务公开 - 青海省人民政府",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBmVjZiUWxhM0Y5QU02TDJ4TENzTmRGYXNqWXdhbUc1MVYtYUcwdHNlNDE3bkhxd0VfcjV1Q0JxYldjOFBoV2dkUDd3dzJnY2tnUmRaSzRKTXI3S2o4QlMzY2xSX19mSm42WkgtQ0pQaXNYdw?oc=5"
+      "date": "2026-10-14",
+      "text": "辽宁2026年Q4全省分布式光伏接入电网承载力评估结果公布 - 我的钢铁",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1hOEsxWkg4c1FEZndSX1ctLUFLdmZncWI4VV9xRVBVSDZCMDhWcU1EOWota2RNbzNDWWFQam01ZldFM0FubHl6Y3hsdHRHbjktNHREQlBzdF9qU1ROT1gwWTNzcERHMWxY?oc=5"
     }
   ],
   "ai_analysis": "",

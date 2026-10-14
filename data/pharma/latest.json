@@ -1,68 +1,68 @@
 {
-  "date": "2026-10-13",
-  "hs300": 4275.68,
-  "hs300_chg": -0.29,
-  "med_etf": 0.379,
-  "med_etf_chg": -0.79,
-  "inn_etf": 0.843,
-  "inn_etf_chg": -1.2,
-  "cxo_etf": 0.341,
-  "cxo_etf_chg": -1.47,
-  "tcm_etf": 0.89,
-  "tcm_etf_chg": -0.56,
-  "meddev_etf": 0.44,
-  "meddev_etf_chg": -0.91,
-  "vaccine_etf": 2.249,
-  "vaccine_etf_chg": -2.07,
-  "hsi_health": 24271.2,
+  "date": "2026-10-14",
+  "hs300": 4217.68,
+  "hs300_chg": -1.36,
+  "med_etf": 0.374,
+  "med_etf_chg": -0.53,
+  "inn_etf": 0.81,
+  "inn_etf_chg": -1.22,
+  "cxo_etf": 0.332,
+  "cxo_etf_chg": -0.9,
+  "tcm_etf": 0.895,
+  "tcm_etf_chg": 1.36,
+  "meddev_etf": 0.429,
+  "meddev_etf_chg": -1.15,
+  "vaccine_etf": 2.123,
+  "vaccine_etf_chg": -2.26,
+  "hsi_health": 24314.17,
   "hsi_health_chg": 0.0,
-  "hs_inn_etf": 1.308,
-  "hs_inn_etf_chg": -2.45,
-  "tnx": 5.22,
-  "usdcny": 6.6808,
-  "excess": -0.5,
-  "north_money": 261883.18,
-  "north_date": "20261013",
+  "hs_inn_etf": 1.236,
+  "hs_inn_etf_chg": -2.83,
+  "tnx": 5.26,
+  "usdcny": 6.6866,
+  "excess": 0.0,
+  "north_money": 205453.31,
+  "north_date": "20261014",
   "news": [
     {
-      "date": "2026-10-13",
-      "text": "亚太药业子公司签署1.1类创新药合作意向书 交易价款最高不超1亿元 - 观点网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1GVUpkZVUweFpOc2l6VWs0S2JSb0VMdUdwZHk4WGNHR1hsV0kxU3IwQVBLRUJfaVFBVmVOazdCRnN1Ym1ORTBoSy1MTTJ6dEk1eS01Mm9xcURVVEVfU21LQ2ZB?oc=5"
+      "date": "2026-10-14",
+      "text": "丹诺医药与苏州大学国际创新药学院签约共建产教融合实习基地 - 观点网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBvRGpWeFU3dW41TFlKak04RE50S2h6ZFhzN2JsX2lhZWVVMzh3bXNEUThnV2ZzS09hckE3V2t2VWZieV9qNm5PMG1YRkdLN21tRmpkMDU0ZnRtNjdheUdVV1NB?oc=5"
     },
     {
-      "date": "2026-10-13",
-      "text": "中国—东盟区域医药交易（集采）平台促中国医药“出海” - 中国新闻网",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9RLTdSeFhMUTcxRnF2YWQ2WlN1Uk1JbklfWnNqdGlQUm9kRWxiczhhNDlpLXBxTk1ST2xwa0N4S193MWc0VGhETlBlRF83eDJmc1dpSGRIRzh0eUpqcW5QS1E1dElyOXgtdTJseEUtNTdsdw?oc=5"
+      "date": "2026-10-14",
+      "text": "大足区开展中医药文化进校园 - 重庆新闻",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1hWTc4ekNYZVlxNzBFcXdxbnU1OGQ5eUhWbWg4Y1hxOGFJbnI2VnNSOTdIUllxdmZyLW1XcGV2TzBHMVk1VFFab0J3UXkzajJBWEFEcGg2LW9iRFlRZm5pc3Y2VjVRTnlpSzNWYQ?oc=5"
     },
     {
-      "date": "2026-10-13",
-      "text": "重磅签约！武汉鄂州顺丰共建临空生物医药产业园 - 湖北省经济和信息化厅",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE13X2pWU0lZaTNTWWQ3STdPN0tfeVhSQzJWempvV3UwbkluTjdnWDFGeXhUODgyUUhfd2E4ZGFCQTBVVXkzeU4zX1JaMHVFMWtPLXJSUzdlYjFPTWxFbWJNRlpVQXpwZDZtanQ5YnhiQjZKUQ?oc=5"
+      "date": "2026-10-14",
+      "text": "湖南省首届药膳大赛收官 - 中国科技网",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBRbVdjY1dHbGVJLTdsWngtNURxVmg3R3Jvc0dra1N4bUM0aUhrelB4U2ZWQnM2V1hkRkdNZUtDRnc0amluNVNwNVdBREFQeWxBWVM4RUtLQUJaR3R4SFM1ZkJDOEFabHRCNVhFa3B3V1U?oc=5"
     },
     {
-      "date": "2026-10-13",
-      "text": "[新华社] 习近平出席全国卫生与健康大会并发表重要讲话 - 中华人民共和国国家卫生健康委员会",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPQWlLWlZwTFRiMm5wNFA5Rkh3SXZzUHdlR09VSS1LMVEzUlNwbHp2bDhLWDk0djFpVzZGVTMzbmU2M2xxLUhBbGdtWVpBSzQyeXlTSUZ1M1g4dzN5WExoVndEaWt6dXBISkNtNzJjT0l1QzZRNi1yUENzcHltOFFkX19kZw?oc=5"
+      "date": "2026-10-14",
+      "text": "怀柔区领导调研生物医药企业强调要培育更具竞争力的未来健康产业生态_各区热点_首都之窗 - 北京市人民政府门户网站",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5Ta2FvbG02N2dGNzgwcEJjNGFzVFNGdTFpVlc3bjhkZ04yeV9hR2t0Q1kwT3FTYmJTSHYzTlFoaEdWeDE5UFpVQUh5R29XOHZQbDR2a0VBcFRDV2RtWXljMklXQ1FqQWpxWk1EYWViaERlRXpW?oc=5"
     },
     {
-      "date": "2026-10-13",
-      "text": "和铂医药-B：10月13日斥资727.76万港元回购70万股 - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE53cHB0LV9jdkY1bUZybHQ3X0ZFbFdrbXNtZWgzVldUNnpYd1AzQWZiWXBuSjlodERVd0JiUHVrcF92bEVBMFlPQ1pYZnJMcjFnaEFlUzhQbkwwRkxMcGxNMjF0SmVQdw?oc=5"
+      "date": "2026-10-14",
+      "text": "恩威医药：成都泽洪、昌都市杰威特等合计质押250万股用于自身生产经营 - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE01dWxCUHBHZ1o5VW1wSUctTkJhY1BRVUk2UEpJNnhzbEhrQmZwM3dBOWd4LWxiMXNFY3BHamFzRGxLNE9jbHBFVXdqOGtDMGhvenFTcjhTMGpmbVRlTk15ZXlJTVF1UQ?oc=5"
     },
     {
-      "date": "2026-10-13",
-      "text": "深耕基层十余载 云南中医药健康管理服务惠及千家万户 - 云南省卫生健康委员会",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1uSGNTWjBjLUs0QnBNa2pqU2szclpwZ3FKNGNEdEFvcElnTkZfZjFXWDNIdVVSR2ZZeUZpSXZoNzgxR1FaYjd3SDJWT0JMVTROWUY4bFRUZUgwanV5aGhDbzhsQzhMZDVTbHowOWt5cjk0XzBO?oc=5"
+      "date": "2026-10-14",
+      "text": "跨越山海 中医药促进中外民心相通 - 健康报",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE16bDRyejdkTkljaE9fWWlRVDZRZFlZMHlJbG9mWFNLUVFyeGRYZERwVE1kSlZoVk1GdVBtNEN4RkxTTEJva2NuQWNGWUp0T3FuV1ZPMURhUQ?oc=5"
     },
     {
-      "date": "2026-10-13",
-      "text": "5年在创新药领域投入500亿元、拓展超100个管线，广药集团能转型成功吗？ - 每日经济新闻",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBiRFZMNkYzTHBpeTZqc1hFM3VHaGc2RldmaDJZVHc1cURaTTJLaEJ4OC1xYXpBR1U0VEVRenV2cHVXWjdhTTdRZXNpSG9SS2U2V2wyTllzdURCSjZYd19zTmxxbDFmQQ?oc=5"
+      "date": "2026-10-14",
+      "text": "宏观紧缩预期叠加医药股龙头折价配售 康方生物下挫超9%领跌相关个股 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBia0Zrd0t5Zjc0WWxpZEx1YzRiVDdKbEg4N2xfVE1VQkNVeGhWa0xBMXF2QmpFYkNYNXBTaHE3VjNqYUlZbk5NRA?oc=5"
     },
     {
-      "date": "2026-10-13",
-      "text": "国际生物医药产业园：深港“握手”的掌心，长出两栋会造药的楼｜业聚福楼㉔ - 深圳新闻网",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1vQTBDYXBsTjltamNTcS1Zck5SaFVmc0xOcThUdkVmbUhDVnpPem80WnJNQXFCRnhhc1QycElLYk9TZVl5VjZ0NVFMX2MxekhsN3RwTXhrQl82VHB5Mkd4dmtBb082YW9OT3RHNEFDXzZteWtZdUZDdjB3?oc=5"
+      "date": "2026-10-14",
+      "text": "医药生物周报：CXO和科研服务上游预计仍是高景气方向_行业研究_研报 - 证券之星",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8xck4ycDAxRHJWNFBWT0RjZUZIMkZmekhINkxmcVVZaU9aQVlDTXdVcUhMVmRiNDVsYjlDWTJQQnEtY3MxVDlpTExOMFo3MWdDR2QtTUFwTjg2XzJhVF93UFhB?oc=5"
     }
   ],
   "ai_analysis": "",
