@@ -59,15 +59,18 @@ const AIArchive = (function () {
     if (!ds.length) {
       toolbar.innerHTML = '<span style="color:var(--muted)">暂无历史存档' + (unsaved() ? '' : '（点"重新生成"后可手动存入档案）') + '</span>' + saveBtn + draft + '<span id="ai-arch-msg" style="color:var(--muted)"></span>';
     } else {
-      const opts = ds.map(d => '<option value="' + d + '">' + d + '</option>').join('');
-      const def = (cfg.dataDate && archive[cfg.dataDate]) ? cfg.dataDate : ds[0];
+      // 始终提供"今天"这个选项：没存档就标注未生成，选中后正文显示提示而不是塞旧的存档
+      const todayOpt = (cfg.dataDate && !archive[cfg.dataDate])
+        ? '<option value="' + cfg.dataDate + '">' + cfg.dataDate + '（未生成）</option>'
+        : '';
+      const opts = todayOpt + ds.map(d => '<option value="' + d + '">' + d + '</option>').join('');
       toolbar.innerHTML = '历史存档 <select id="ai-arch-date" style="background:#161d26;color:inherit;border:1px solid #30363d;border-radius:4px;padding:2px 6px">'
         + opts + '</select><span style="color:var(--muted)">共 ' + ds.length + ' 天</span>'
         + saveBtn + draft + '<span id="ai-arch-msg" style="color:var(--muted)"></span>';
       const sel = toolbar.querySelector('#ai-arch-date');
-      sel.value = def;
+      sel.value = cfg.dataDate || ds[0];   // 默认选今天：有存档显示存档，没有则显示"未生成"提示
       sel.onchange = () => show(sel.value);
-      show(def, true);
+      show(sel.value, true);
     }
     const sv = toolbar.querySelector('#ai-arch-save');
     if (sv) sv.onclick = save;
@@ -85,8 +88,17 @@ const AIArchive = (function () {
 
   function show(date, silent) {
     const el = display();
-    if (!el || !archive[date]) return;
-    el.textContent = archive[date].text;
+    if (!el) return;
+    if (archive[date]) {
+      el.textContent = archive[date].text;
+      el.style.color = '';
+    } else if (date === cfg.dataDate) {
+      // 今天的存档为空：明确提示未生成，不把旧存档伪装成今日分析
+      el.textContent = '今日（' + date + '）的 AI 分析尚未生成。\n点上方"重新生成"按钮生成，生成后点"存入档案"保存当天；当天不生成则存档留空，随时可在下拉框翻阅历史存档。';
+      el.style.color = 'var(--muted)';
+    } else {
+      return;
+    }
     if (!silent) setMsg('');
   }
 
