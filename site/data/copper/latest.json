@@ -1,60 +1,60 @@
 {
-  "date": "2026-10-12",
-  "copper": 6.769999980926514,
-  "copper_chg": 1.9194589188541888,
-  "ma20": 6.59449999332428,
-  "ma50": 6.586220016479492,
-  "dxy": 102.3949966430664,
-  "vix": 15.5,
-  "tnx": 5.240000247955322,
-  "wti": 93.76000213623047,
-  "cu_oil_ratio": 159.18597502018216,
-  "shfe_cu": 110630.0,
-  "shfe_cu_date": "2026-10-12",
-  "shfe_lme_ratio": 1.029,
+  "date": "2026-10-15",
+  "copper": 6.5415,
+  "copper_chg": -1.1111111111111183,
+  "ma20": 6.6830750000000005,
+  "ma50": 6.633929999999999,
+  "dxy": 102.01,
+  "vix": 17.479999542236328,
+  "tnx": 5.059999942779541,
+  "wti": 96.47,
+  "cu_oil_ratio": 149.4922953249715,
+  "shfe_cu": 108940.0,
+  "shfe_cu_date": "2026-10-15",
+  "shfe_lme_ratio": 1.049,
   "lme_stock": 296625,
   "lme_stock_date": "2026-07-17",
-  "shfe_stock": 8785,
-  "shfe_stock_chg": 500,
-  "shfe_stock_date": "2026-10-12",
-  "lymy": 17.04,
-  "lymy_chg": -1.05,
-  "tl": 5.75,
-  "tl_chg": -1.71,
-  "jxt": 41.29,
-  "jxt_chg": -2.87,
-  "cper": 40.31,
-  "cper_chg": 0.0,
-  "copx": 85.75,
-  "copx_chg": 0.0,
+  "shfe_stock": 34933,
+  "shfe_stock_chg": 11476,
+  "shfe_stock_date": "2026-10-15",
+  "lymy": 15.99,
+  "lymy_chg": -3.91,
+  "tl": 5.37,
+  "tl_chg": -5.12,
+  "jxt": 38.9,
+  "jxt_chg": -5.35,
+  "cper": 39.31,
+  "cper_chg": -0.87,
+  "copx": 79.35,
+  "copx_chg": -1.82,
   "signals": [
     {
-      "name": "铜价站上MA20",
-      "dir": "bull",
-      "text": "$6.77 > MA20 $6.59"
+      "name": "铜价低于MA20",
+      "dir": "bear",
+      "text": "$6.54 < MA20 $6.68"
     },
     {
       "name": "美元中性",
       "dir": "neutral",
-      "text": "DXY 102.39"
+      "text": "DXY 102.01"
     },
     {
       "name": "风险偏好正常",
       "dir": "neutral",
-      "text": "VIX 15.5"
+      "text": "VIX 17.5"
     },
     {
       "name": "铜油比偏高",
       "dir": "bull",
-      "text": "铜油比 159.2，工业景气预期强"
+      "text": "铜油比 149.5，工业景气预期强"
     },
     {
       "name": "实际利率高企",
       "dir": "bear",
-      "text": "10Y 5.24%，压制金属估值"
+      "text": "10Y 5.06%，压制金属估值"
     }
   ],
-  "score": 1,
+  "score": -1,
   "news": [
     {
       "date": "2026-10-08",
@@ -63,37 +63,37 @@
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVVJHX21aZWtfd1JFY0xfU0VidkVXSTFhRDQ3TVRzNGNDdGxodmdyWEtOR21ET3JTWHpvZ1BsUVRlX285MmtBMzd5dDVjS1NuWG1fSXd4Sk5zY2tOZlpvWDlVS1RpU1ctSEFvVFpOQ3VDbXVhSzliOHpXaHU1b1ppTE1SNG9LVWx3VXpnbktkazltODc1cDJQZQ?oc=5"
     },
     {
-      "date": "2026-10-11",
-      "text": "Copper Price: Navigating Near-Term Volatility and Long-Term Bullish Trends",
-      "src": "deVere Group",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5iR19yTVRLNWdQWTdndExpQzFoUDA1ZzQ1S1hOMzktMVA1cFBaQkxYNXByTXhaSElMbHFRWGFwQ2JpNkdLSElwTm1za011czVCcF9TaQ?oc=5"
+      "date": "2026-10-14",
+      "text": "Copper price forecasts lifted for 2026 but tariff “collapse” still on the table",
+      "src": "Mining.com",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUXdLa1dPTUMwTjlJYWRvaWhwQkV4Z0tXVUV0MDRTR0YxTHp0SnBFMjIwWDZBZXBWS0N1azNLeGFOdVA2T0tER2V1N05ZTXN1bW1veWJhU2JUeEVGSEItZFh5d3BxYnNtMGxJbXhQeEtac2RBZTFMTjJCS211bXVZQlptdG9QVF9NN2JXck9zemt2Q29CS2FzaGRpQTZDY3d3WjZ3?oc=5"
     },
     {
-      "date": "2026-10-06",
-      "text": "Can Cobre Panama copper mine run for 25 years without growing?",
-      "src": "Benchmark Mineral Intelligence",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdF9BWjVBX2RGTmowbHFiczQ0b3NIOGw3bmRtdlN2SWtTdm0zUktFNlljZGp1cVNQM2Vaa09aR3hUV3JwMldOYmxWYlYzQkpzck95SmRNT1huN3VhNlpadFdJamZQbmtLMUpqLV93ZGxKRkhOSVR5RnBEdWtzWlhCMU00dkUwOGN5ZGxReEs5cVZjVmhWOHE4dmgzdVhiYzlvNE4ybzBFQnpMeVk?oc=5"
+      "date": "2026-10-13",
+      "text": "Official Data Show Copper Market Near Balance As U.S. Inventories Climb",
+      "src": "Forbes",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNWxWSkNzR20tVURtTWRKVTRiY2V0eDhuU3k2RmZGM3BWWWdlQUVLS1lDVEFwMmI5aU4zSHN0dkRrandubjZzMWQ3X1hWMDk3aU14OGowQnMxVzZNeWJ2VGdRSVExOUNPN2xiMnI2RC1hZmJrb25maDkwUTVhM1ZlbXMtYmN2eWttancwVG04TWlIcDFwdzA5T2gwUFVScUp2UW1kdlZtVEFLWG1yMnFBU2pPb1M2aHdILXYxT2YtZTA?oc=5"
     },
     {
-      "date": "2026-10-10",
-      "text": "Adamera Expands Max IP Anomaly to 3 km at South Hedley Near Hudbay's Copper Mountain",
-      "src": "Streetwise Reports",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPcFpweTNyZkhidjhhbmt5aWhSVUlhYXd6a0tIWVFxQlNzRE94N21uZWlYUnI4cEZQZFlnYk5DeFFYTWYzSzlfcExQOHlkNXBnMTZVbTRacXJQZEFtT2g0VzZzRnFEMV9hbHdBSWp6U0xadjZISXlieW1PZTVoUUd5RjF2LWtKRjI5OEdjb0dCT3MwOEhTT1Z2SkVlY0VnWGlQVFpoR0lWeGFKenh5SE13VGx1cEJYd2xyYVFiQlZQMkJneUpIQ1pla3JfTmFKalNBM0pkRGpjdkg?oc=5"
+      "date": "2026-10-14",
+      "text": "Copper Bulls and Bears Clash on Supply, Demand as Forecasts Diverge",
+      "src": "NAI500",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZkxMSzFtT1NDTThsVmJoX3FHYTlEam52bXdDblVpNVF2Yld1c0xCcHBZazF1SWE0NFkyY0Q5bGFXNGtFZDdrU3JGaTBOZmdKRDQ1R0pWeW9QZE9NV0JvUC1mQnBxSFRWUHU4UDQxTjdrVkRETWUyNjdnV2NNS0tzQ08zUmlyWDQxZnktUms3YWVNeDF4TGxsTFNQYUpyOWth?oc=5"
     },
     {
-      "date": "2026-10-05",
-      "text": "US-China trade rivalry fuels demand for copper stockpiles",
-      "src": "Azernews.az",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5waEFyQkk3SV9keHBKdFhHWmtZVmN2MTNTbFhvd09CUXB1YWtYUkhoMWVGZVdMVm9GVnJ6WE00enpiUHk2cTU5SHlOZE42aWRuUy01TzZCUQ?oc=5"
+      "date": "2026-10-15",
+      "text": "Copper's record 2026 rally is the AI infrastructure trade nobody priced in",
+      "src": "Startup Fortune",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQk9XOHU2cFFEcF8zejNsdGpoYWtweVNuWlVpQXcwOHdNZXhjTjk1am1kMGdBUzBHVTNTakhBQXZMeU9tNllHekRWRjN1RS1UOFVYUVpqb3dLb29PLUtqMHRLb2laVlpGT2haWFNvbHpMc1p3QlUybXIwUGRuVmI1d1Zxa0h5VGJVcXRBc01zaUMycEc1YmdVazV4TUJLWmxWWkJF?oc=5"
     },
     {
-      "date": "2026-10-08",
-      "text": "Copper Wire Prices 2026: Latest Trends, Chart & Forecast",
-      "src": "IMARC Group",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1HNnRFSFFBT2JIT0pQQWVfbWNUVVhodmwzTUk1elZmcGlMVGF0STZIS2NJT2Q0bWVlTlQyMXZxUkw0Q1hJM0w5eUFnSVE4cy1EQkJZQmhXVmlHTU1GLWdXcHU5Yw?oc=5"
+      "date": "2026-10-13",
+      "text": "Copper Price 2026: Record Hunt on the LME and Forecast to Year End",
+      "src": "Steel and Stainless Steel News",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE53LWY1enVveUR3dGNWeTc2b2tYUVBhYkREMmZGRHoxSEI3VmNLZTVsc2d5QzE0Zlk0cVVYdDNNQnFqOFJJeHE4bUszTFJoWE5UNXdwWkR5aEJhdTNfMl9TSkhnUWNpcWlGbTF6T0lHdGV1TW5QVnh6eg?oc=5"
     }
   ],
   "ai_analysis": "",
   "ai_error": "未自动生成，点击按钮手动生成",
-  "ai_date": "2026-10-12"
+  "ai_date": "2026-10-15"
 }

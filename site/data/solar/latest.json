@@ -1,89 +1,89 @@
 {
-  "date": "2026-10-14",
-  "hs300": 4217.68,
-  "hs300_chg": -1.36,
-  "solar_etf": 0.738,
-  "solar_etf_chg": -1.86,
-  "newenergy_etf": 2.123,
-  "newenergy_etf_chg": -2.26,
-  "storage_etf": 1.555,
-  "storage_etf_chg": -2.69,
-  "tnx": 5.19,
-  "usdcny": 6.692,
-  "excess": -0.5,
-  "dd_from_high": 0.3762,
-  "pb_ratio": 0.0333,
-  "turnover_ratio": 0.691,
+  "date": "2026-10-15",
+  "hs300": 4166.01,
+  "hs300_chg": -1.23,
+  "solar_etf": 0.714,
+  "solar_etf_chg": -3.25,
+  "newenergy_etf": 2.07,
+  "newenergy_etf_chg": -2.5,
+  "storage_etf": 1.513,
+  "storage_etf_chg": -2.7,
+  "tnx": 5.06,
+  "usdcny": 6.6802,
+  "excess": -2.02,
+  "dd_from_high": 0.3964,
+  "pb_ratio": 0.0667,
+  "turnover_ratio": 0.801,
   "stocks": {
     "tongwei": {
-      "close": 11.38,
-      "chg": -1.73
+      "close": 11.1,
+      "chg": -2.46
     },
     "zhonghuan": {
-      "close": 9.51,
-      "chg": 2.04
+      "close": 9.23,
+      "chg": -2.94
     },
     "junda": {
-      "close": 34.39,
-      "chg": -3.56
+      "close": 32.21,
+      "chg": -6.34
     },
     "longi": {
-      "close": 10.88,
-      "chg": -1.63
+      "close": 10.77,
+      "chg": -1.01
     },
     "flat": {
-      "close": 9.15,
-      "chg": -0.97
+      "close": 8.83,
+      "chg": -3.5
     },
     "jiejia": {
-      "close": 50.59,
-      "chg": -2.71
+      "close": 48.6,
+      "chg": -3.93
     },
     "sungrow": {
-      "close": 78.08,
-      "chg": -2.29
+      "close": 76.1,
+      "chg": -2.54
     }
   },
   "news": [
     {
-      "date": "2026-10-14",
-      "text": "硅业分会：多晶硅减产逐步落地 本周n型复投料成交价4.30万元/吨 - 观点网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9aS0t2NUt0cVBxSXhHeENNWWNMM0E2UHNnM1ZUTTV4Q0M3MS1WbHRNcUE5bTRkNXFRNTgyUEo1aTRJc05tU3AzXzI4NkszUVpuOFo3ZTVDdVRqSUZRUTJCUVZn?oc=5"
+      "date": "2026-10-15",
+      "text": "大唐科研总院华东院：成功加入全国太阳光伏能源系统标准化技术委员会标准工作组 - 中国能源新闻网",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBFT0NnLW1ZeVdTb2ppbnhtbFMtZ1BGTXJHc2VLMWt0UktpVndGUldyTVFhazk5ejF2R3NuQno4NHZfSEtnN3hhQ1dta1JrT1RtQl84SzFnTUU2Y3VWSXRlZ1FQTkFKc05NZlFnaG9HQ1owUjl6dmRuVDlR?oc=5"
     },
     {
-      "date": "2026-10-14",
-      "text": "1级占比75%！龙源电力6GW光伏组件框采招标 - 国际太阳能光伏网",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAxdEN5YTd0cm1PUnM0UkpCbTR4OFNmUU05Tk5PMXU3ZGw2VEtFcnhZeE9rNzQzYk5pb3l4MUpGamwyaUFJQWVIUDN5QnNHa29fNndjbWc1ZV9OTmZF?oc=5"
+      "date": "2026-10-15",
+      "text": "集邦咨询称本周硅料库存56万吨以上 组件部分成交较报价下移1-3分/W - 观点网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBXcDNxd01Eb3Zwal9kSDQ5aGxNVXdyVzdiLTFlNFNZUEZ4OFhUUEh4TnkySE1hdjBTdlhUMlhzQ1lDZ3dFTFJzLU9nLUJlVGhPMjB5MXZPWUVRZjZNYzlob2hn?oc=5"
     },
     {
-      "date": "2026-10-14",
-      "text": "美国电价随集中式光伏走低、随屋顶光伏走高 - pv magazine China",
-      "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxPM2dpWnA2UzRXQVRCZGpJdUxTb0dwb0VTdThVa25ON0ZobzFZWDlpaThOWUtCT2QtUWx1eWh4R1dPWlIwX3ptaHF4OWoydHJoVXlaZURzVVlRLVRUNXBMMW1kLTBlaTBSZHFHeUREdlY4TTdGTkJNcHFyV1hTM3BRLW1tUDRmMk13QzV5emNRRWtIWkxyN0MtUzAyQXJtZENhbG1Obzh0WEJPMUhpZFpRYTRpOVZhbnFwM1R2THdaSmo4RjNha3BKdkRYT2VGbzNxOWI2VlNHYjBlbVFMZ2c1bk1tNTlQbmVfTkxFcjMzTkZ3WDdTczQ2MjZmX0lQdnVjeGNBdmF6bHg3QkZtRlcyOXhFZnIxTVA4TTAxdDRyVm5ENkwzWndaRXRKZVdIcnd4aXMxTFkzakVuRW9iQ003cWhFZ1BnSk8ySFE?oc=5"
+      "date": "2026-10-15",
+      "text": "多晶硅价格累计反弹超三成 头部企业锚定4.3万元/吨成本线 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1YbDFTSjFKVnhnV1Y2NnhEa09IM0s4cFE2SGk3NHdKYnVxNl9YRTVaODJBeW1JM0J0ejZ3MVk5YW5tWno0M3YzVw?oc=5"
     },
     {
-      "date": "2026-10-13",
-      "text": "江苏首个市场化整村光伏并网 - 中国科技网",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE12ZG41ZW1xTWhYZTlQSmRFdGs1bmFGRXloanYyNVpLcFBqbHhBNEpwUWJwVDhsQ0x2eFVXaVpqZ2JMZGJPUmgzZXIyS0lfX0FpOEFpWGpIdkxmYVJMb3Y3aFZ3dDl6eE5HYkQ3bWo2Z0E?oc=5"
+      "date": "2026-10-15",
+      "text": "安徽寿县乡村振兴分布式光伏建设项目正式开工 - 国际太阳能光伏网",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4ycXloU1VXV1R1Zl9NaTdwSVhUSmRleXpxYmJNbDUtVW0zRzR6bmdGM3NOc1NTVGNJSW5tWlhfdXR2Sk1WM09RWllJTkZ6Q2Nsb2RnelRTSGoxekw4?oc=5"
     },
     {
-      "date": "2026-10-14",
-      "text": "光伏龙头再开会，行业正在寻找新节奏_公司新闻_财经 - 证券之星",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5wTEpzSVZwYW8zWmdVZXJuLTZRNW54VzFhckczdUVrLW1iMmY4VkxuNDd1c21qMFVfaFkxSmRrWXE5UFJObkdjTnVneWZ1dzNZOHFoV2NtMk44ODJ4Ml9lZw?oc=5"
+      "date": "2026-10-15",
+      "text": "通威永祥四川多晶硅项目公示！ - 新浪网",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBZOGJWNmJ1bUtYQUZuSWJQZTUtWU9XYUxubHB6dFNFTS1ZTlQ2S3RtNmVZRTdhSFVacVAwanZvWThsY1NyMHRJRTc1aWZHSl82SEkwcjIwZDBzUVZfSDZ0YlVWd2FiQzU3Yl9oVTJuR05Sdw?oc=5"
     },
     {
-      "date": "2026-10-14",
-      "text": "国家能源局：光伏发电成为中国装机规模最大的电源品类 - 中国新闻网",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1La0NjZnNqNEIyRllScENucTZNUV9obnUwaGxVcWpSd29RUm9wb0trQjFHbGk2b1JsbDJyV2NnS19FYjYtZEZoWF9fcTZKN3NrSUkzMHFiYmdZTmItU0pSWm9KRXFELWo1YnhDY2U5WHB0anRKNG96TGpoSTVTQQ?oc=5"
+      "date": "2026-10-15",
+      "text": "多晶硅龙虎榜 | 主力合约减仓下行 多空双方均呈退场态势 - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1WRVExaWlLaWNyckxSdGdUS2VVWm9KTGdlWXQzcjRxOWJGZHBtckxUaUdIOGZjU3hDSVJ6blhER1RMMGZsam8zbkkyakRfODJoR1JpcmtjdzhRNmNXWWRNaTF3NXJRZw?oc=5"
     },
     {
-      "date": "2026-10-14",
-      "text": "前三季度电动汽车出口增72.3%；龙源电力启动600万千瓦组件框采｜新能源早参 - https://www.mrjjxw.com/",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBNMG5id1NibFdFMHVrTkpLUjZnWGVia2NmaHFUcU02enA5cDQ5R3Q4a0JFcDkydk9nak14VENNSk9xd25rc1FyWktJNFlRUmFDVjVYSTNIWDRkZEUtSzBQMzhBVVlDQQ?oc=5"
+      "date": "2026-10-15",
+      "text": "硅料自律挺价筑底，组件价格明稳暗降 - 集邦新能源",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBabmtVekJWcUJ1elcxRmVKeFdsMEpSM2M3SG5HaFM3eGJUUDBYT2F0NVZzbTZreWtKWktVVXpSOWlJWW1CT20tQTFLdkg0VXZOaXpJOU81YllIOUNxVk1OWGczWFJIXzI3NmQ4?oc=5"
     },
     {
-      "date": "2026-10-14",
-      "text": "Tigo Energy助力超11MW光伏系统改造，老旧光伏服务市场持续升温 - Business Wire",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB4Q2M1TmxJWC1lUmhObzdTYVdlR0t4S1NpQ0tjYUw2ejRINkRLbXdRZDlJMnUyTzhSMHJiSm9EM3R2ajluNUlneVBsWUxBTnRhWnlwMEF5YkFKUXEtcGFXMW9RZHhzTFdCX3pF?oc=5"
+      "date": "2026-10-15",
+      "text": "龙源电力6GW光伏组件框采招标发布 - 搜狐",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVXRnblc5U3htaHdhTU9tMG5UMFA1dTVWSkJHWEN2SVIwMmpXOGxYS2pVQnFveE9JRGE0c2RQVENIMmFqMTd5WXU0VXAxNTJLc0N1UU1jM0F0RDdDel9xQUJhNzYwcWhwTjl4dHpUQlN3QzVIaHYtYnBtS1d4NFB3dWtoQmhkUnRl?oc=5"
     }
   ],
   "ai_analysis": "",
