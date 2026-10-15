@@ -11,8 +11,8 @@ import urllib.request
 import xml.etree.ElementTree as ET
 
 if os.environ.get("HTTP_PROXY") is None and sys.platform == "win32":
-    os.environ.setdefault("HTTP_PROXY", "http://127.0.0.1:7890")
-    os.environ.setdefault("HTTPS_PROXY", "http://127.0.0.1:7890")
+    # 本地调试可 set HTTP_PROXY=http://127.0.0.1:12000 走代理；默认不设（东财/新浪/Tushare 国内直连）
+    pass
 
 import yfinance as yf
 import pandas as pd
@@ -24,6 +24,9 @@ try:
 except Exception:
     HAS_AK = False
     print("    [warn] akshare 不可用，沪铜数据跳过")
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from global_quote import EM, em_kline, fred_series
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(ROOT, "data")
@@ -103,18 +106,46 @@ def fetch_astocks_yahoo():
 
 
 def fetch_all(period="1y"):
+    """外盘行情：东财外盘主力 + FRED 宏观 为主，Yahoo 兜底/补充。
+    Yahoo 对 GitHub Actions 的 IP 频繁 429（2026-10-13 起铜数据停更的根因），
+    不再作为唯一来源；HG 全部失败时直接退出并报 ::error::。"""
     frames = {}
+    # 1) 东财外盘主力连续合约
+    em_map = {"HG": EM["HG"], "DXY": EM["DXY"], "CL": EM["CL"], "X": EM["SI"]}
+    for name, secid in em_map.items():
+        s = em_kline(secid)
+        if s is not None:
+            frames[name] = s.rename(name)
+            print(f"    [em] {name:3s} 最新 {s.index[-1].strftime('%Y-%m-%d')} = {float(s.iloc[-1]):.2f}")
+        else:
+            print(f"    [warn] 东财 {name}({secid}) 失败，转 Yahoo 兜底")
+    # 2) FRED 宏观（VIX / 10Y美债），DGS10 即百分数值，与旧 ^TNX 口径一致
+    for name, sid in [("VIX", "VIXCLS"), ("TNX", "DGS10")]:
+        s = fred_series(sid)
+        if s is not None:
+            frames[name] = s.rename(name)
+            print(f"    [fred] {name} 最新 {s.index[-1].strftime('%Y-%m-%d')} = {float(s.iloc[-1]):.2f}")
+        else:
+            print(f"    [warn] FRED {sid} 失败，转 Yahoo 兜底")
+    # 3) Yahoo：ETF/利率期货补充 + 上面失败品种兜底
     for name, sym in TICKERS.items():
+        if name in frames:
+            continue
         try:
             df = yf.Ticker(sym).history(period=period, interval="1d", auto_adjust=False)
             if df.empty:
-                print(f"    [warn] {sym} 空数据")
+                print(f"    [warn] Yahoo {sym} 空数据")
                 continue
             s = df["Close"].rename(name)
             s.index = s.index.tz_localize(None).normalize()
             frames[name] = s
         except Exception as e:
-            print(f"    [warn] {sym} 拉取失败: {e}")
+            print(f"    [warn] Yahoo {sym} 拉取失败: {str(e)[:60]}")
+    if "HG" not in frames:
+        print("::error:: COMEX铜所有数据源（东财/Yahoo）均失败，本次铜数据未更新")
+        raise SystemExit(1)
+    if "DXY" not in frames:
+        print("::warning:: 美元指数缺失，相关信号降级")
     # outer join + ffill：单标的数据延迟不再拖垮整个行情框（inner join 的旧坑）
     px = pd.concat(frames.values(), axis=1, join="outer").sort_index().ffill()
     return px
@@ -222,7 +253,9 @@ def call_deepseek(data: dict):
 def main():
     print("[1/4] 拉行情...")
     px = fetch_all(period="1y")
-    ax = fetch_astocks() or fetch_astocks_yahoo()
+    ax = fetch_astocks()
+    if ax is None:
+        ax = fetch_astocks_yahoo()
     if ax is not None:
         px = px.join(ax, how="outer").sort_index().ffill()
         print(f"    A股标的: 已并入 tushare 日线 {ax.index[-1].strftime('%Y-%m-%d')}")
@@ -233,10 +266,30 @@ def main():
 
     ma20 = float(px["HG"].tail(20).mean())
     ma50 = float(px["HG"].tail(50).mean())
-    dxy = float(latest["DXY"])
-    vix = float(latest["VIX"])
-    tnx = float(latest["TNX"])
-    wti = float(latest["CL"])
+
+    # 宏观单项缺失（如 FRED/Yahoo 同时不通）时沿用上次值，不让整个看板停更
+    prev_file = os.path.join(SITE_DATA_DIR, "latest.json")
+    old = {}
+    if os.path.exists(prev_file):
+        try:
+            old = json.load(open(prev_file, encoding="utf-8"))
+        except Exception:
+            old = {}
+    def _field(col, old_key):
+        v = latest.get(col)
+        if v is None or pd.isna(v):
+            ov = old.get(old_key)
+            if ov is not None:
+                print(f"    [warn] {col} 缺失，沿用上次值 {ov}")
+                return float(ov)
+            print(f"::warning:: {col} 无数据且无历史值，记 0")
+            return 0.0
+        return float(v)
+
+    dxy = _field("DXY", "dxy")
+    vix = _field("VIX", "vix")
+    tnx = _field("TNX", "tnx")
+    wti = _field("CL", "wti")
     cu_oil = (copper * 2204.62) / wti if wti else 0  # 美元/磅→美元/吨，再除以油价
 
     # 沪铜主力（akshare 新浪）

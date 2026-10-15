@@ -10,14 +10,16 @@ import datetime
 import urllib.request
 import xml.etree.ElementTree as ET
 
-# 本地开发走代理；GitHub Actions runner 在美国直连即可
+# 本地开发可 set HTTP_PROXY 走代理；GitHub Actions runner 在美国直连即可
 if os.environ.get("HTTP_PROXY") is None and sys.platform == "win32":
-    os.environ.setdefault("HTTP_PROXY", "http://127.0.0.1:7890")
-    os.environ.setdefault("HTTPS_PROXY", "http://127.0.0.1:7890")
+    pass
 
 import yfinance as yf
 import pandas as pd
 import numpy as np
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from global_quote import EM, em_kline, fred_series
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(ROOT, "data")
@@ -44,19 +46,70 @@ except Exception:
 
 
 def fetch_all(period="1y"):
-    """拉 6 个 ticker，按日期 inner join 对齐（统一去掉时区，按交易日对齐）。"""
+    """外盘行情：东财外盘主力 + FRED 宏观 为主，Yahoo 兜底/补充。
+    Yahoo 对 GitHub Actions 的 IP 频繁 429（2026-10-13 起黄金停更的根因），
+    不再作为唯一来源；GC 全部失败时直接退出并报 ::error::。
+    outer join + ffill：缺某列不再拖垮全部（旧 inner join + raise 的坑）。"""
     frames = {}
+    # 1) 东财外盘主力连续合约
+    em_map = {"GC": EM["GC"], "XAG": EM["SI"], "CL": EM["CL"], "DXY": EM["DXY"]}
+    for name, secid in em_map.items():
+        s = em_kline(secid)
+        if s is not None:
+            frames[name] = s.rename(name)
+            print(f"    [em] {name:3s} 最新 {s.index[-1].strftime('%Y-%m-%d')} = {float(s.iloc[-1]):.2f}")
+        else:
+            print(f"    [warn] 东财 {name}({secid}) 失败，转 Yahoo 兜底")
+    # 2) FRED 宏观（VIX / 10Y美债），DGS10 即百分数值，与旧 ^TNX 口径一致
+    for name, sid in [("VIX", "VIXCLS"), ("TNX", "DGS10")]:
+        s = fred_series(sid)
+        if s is not None:
+            frames[name] = s.rename(name)
+            print(f"    [fred] {name} 最新 {s.index[-1].strftime('%Y-%m-%d')} = {float(s.iloc[-1]):.2f}")
+        else:
+            print(f"    [warn] FRED {sid} 失败，转 Yahoo 兜底")
+    # 3) Yahoo：ETF/汇率补充 + 上面失败品种兜底
     for name, sym in TICKERS.items():
-        df = yf.Ticker(sym).history(period=period, interval="1d", auto_adjust=False)
-        if df.empty:
-            raise RuntimeError(f"{sym} 返回空数据")
-        s = df["Close"].rename(name)
-        # 统一转成 naive 日期（去掉时区，避免 NY/Chicago 时区差导致 join 空）
-        s.index = s.index.tz_localize(None).normalize()
-        frames[name] = s
-    px = pd.concat(frames.values(), axis=1, join="inner")
-    px = px.sort_index()
-    px = px.dropna(how="any")
+        if name in frames:
+            continue
+        try:
+            df = yf.Ticker(sym).history(period=period, interval="1d", auto_adjust=False)
+            if df.empty:
+                print(f"    [warn] Yahoo {sym} 空数据")
+                continue
+            s = df["Close"].rename(name)
+            s.index = s.index.tz_localize(None).normalize()
+            frames[name] = s
+        except Exception as e:
+            print(f"    [warn] Yahoo {sym} 拉取失败: {str(e)[:60]}")
+    if "GC" not in frames:
+        print("::error:: COMEX黄金所有数据源（东财/FRED/Yahoo）均失败，本次黄金数据未更新")
+        raise SystemExit(1)
+    px = pd.concat(frames.values(), axis=1, join="outer").sort_index().ffill()
+
+    # 缺列（如 TIP/ZQ/GLD 只能走 Yahoo 而 Yahoo 被限流）用上次值填常量列，保证指标可算
+    prev_file = os.path.join(SITE_DATA_DIR, "latest.json")
+    old = {}
+    if os.path.exists(prev_file):
+        try:
+            old = json.load(open(prev_file, encoding="utf-8"))
+        except Exception:
+            old = {}
+    fill_map = {"GLD": "gld", "TIP": "tip", "ZQ": ("macro", "zq_price"),
+                "USDCNY": "usdcny", "DXY": "dxy", "VIX": "vix", "TNX": "tnx", "CL": ("geopolitics", "wti_price")}
+    for col, key in fill_map.items():
+        if col in px.columns:
+            continue
+        if isinstance(key, tuple):
+            ov = (old.get(key[0]) or {}).get(key[1])
+        else:
+            ov = old.get(key)
+        if ov is not None:
+            px[col] = float(ov)
+            print(f"    [warn] {col} 无新数据，沿用上次值 {ov}")
+        else:
+            px[col] = np.nan
+            print(f"    [warn] {col} 无数据且无历史值")
     return px
 
 
@@ -345,11 +398,17 @@ def main():
                 macro = json.load(f)
         except Exception:
             macro = {}
-    # ZQ 隐含利率
-    zq_price = float(px["ZQ"].iloc[-1])
-    zq_implied = round(100.0 - zq_price, 2)  # ZQ 期货价格 = 100 - 隐含联邦基金利率
+    # ZQ 隐含利率（Yahoo 被限流导致缺列时置 None，不硬算）
     fed_upper = float(macro.get("fed_funds_upper", 4.0))
-    fed_bp_diff = round((zq_implied - fed_upper) * 100, 0)  # 与当前政策利率上限差多少 bp
+    zq_val = px["ZQ"].iloc[-1]
+    if pd.isna(zq_val):
+        zq_price = None
+        zq_implied = None
+        fed_bp_diff = None
+    else:
+        zq_price = float(zq_val)
+        zq_implied = round(100.0 - zq_price, 2)  # ZQ 期货价格 = 100 - 隐含联邦基金利率
+        fed_bp_diff = round((zq_implied - fed_upper) * 100, 0)  # 与当前政策利率上限差多少 bp
     # 距离下次 FOMC 天数
     next_fomc_str = macro.get("next_fomc", "")
     days_to_fomc = None
@@ -367,13 +426,14 @@ def main():
         "next_date": next_fomc_str,
         "days_to_next": days_to_fomc,
         "upcoming": macro.get("upcoming_fomc", []),
-        "zq_price": round(zq_price, 2),
+        "zq_price": round(zq_price, 2) if zq_price is not None else None,
         "zq_implied_rate": zq_implied,
         "market_bp_vs_current": fed_bp_diff,
         "market_expectation": (
-            f"市场预期下次会议维持不变" if abs(fed_bp_diff) < 10
-            else (f"市场预期加息 {int(abs(fed_bp_diff))}bp" if fed_bp_diff > 0
-                  else f"市场预期降息 {int(abs(fed_bp_diff))}bp")
+            "ZQ 数据缺失，利率预期暂不可用" if fed_bp_diff is None
+            else (f"市场预期下次会议维持不变" if abs(fed_bp_diff) < 10
+                  else (f"市场预期加息 {int(abs(fed_bp_diff))}bp" if fed_bp_diff > 0
+                        else f"市场预期降息 {int(abs(fed_bp_diff))}bp"))
         ),
         "source_url": macro.get("source", ""),
     }
@@ -387,8 +447,9 @@ def main():
                 geo = json.load(f)
         except Exception:
             geo = {}
-    cl_price = float(px["CL"].iloc[-1])
-    cl_chg = (cl_price / float(px["CL"].iloc[-2]) - 1) * 100 if len(px) >= 2 else 0
+    cl_val = px["CL"].iloc[-1]
+    cl_price = float(cl_val) if not pd.isna(cl_val) else float(old.get("wti_price") or 0)
+    cl_chg = (cl_price / float(px["CL"].iloc[-2]) - 1) * 100 if len(px) >= 2 and not pd.isna(px["CL"].iloc[-2]) else 0
     # 自动爬 Google News RSS 美伊新闻，失败则用 config 里的静态事件
     auto_events = fetch_iran_news(limit=6)
     events = auto_events if auto_events else geo.get("events", [])
@@ -444,6 +505,9 @@ def main():
         except Exception as e:
             print(f"    [warn] CFTC持仓拉取失败: {e}")
 
+    def _num(v, nd=2):
+        return round(float(v), nd) if v is not None and not pd.isna(v) else None
+
     latest = {
         "date": df.index[-1].strftime("%Y-%m-%d"),
         "fetched_at": datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8))).strftime("%Y-%m-%d %H:%M"),
@@ -453,19 +517,19 @@ def main():
         "ma50": round(float(last["ma50"]), 2),
         "above_ma20": bool(last["gold"] > last["ma20"]),
         "above_ma50": bool(last["gold"] > last["ma50"]),
-        "dxy": round(float(last["dxy"]), 2),
-        "dxy_chg": round(dxy_chg, 2),
-        "vix": round(float(last["vix"]), 2),
-        "vix_chg": round(vix_chg, 2),
-        "tip": round(float(last["tip"]), 2),
-        "tnx": round(float(last["tnx"]), 2),
-        "corr_gold_dxy": round(float(last["corr_gold_dxy"]), 2),
-        "corr_gold_tip": round(float(last["corr_gold_tip"]), 2),
-        "corr_gold_vix": round(float(last["corr_gold_vix"]), 2),
-        "basis": round(float(last["basis"]), 2),
-        "vol20": round(float(last["vol20"]), 1),
+        "dxy": _num(last["dxy"]),
+        "dxy_chg": _num(dxy_chg),
+        "vix": _num(last["vix"]),
+        "vix_chg": _num(vix_chg),
+        "tip": _num(last["tip"]),
+        "tnx": _num(last["tnx"]),
+        "corr_gold_dxy": _num(last["corr_gold_dxy"]),
+        "corr_gold_tip": _num(last["corr_gold_tip"]),
+        "corr_gold_vix": _num(last["corr_gold_vix"]),
+        "basis": _num(last["basis"]),
+        "vol20": _num(last["vol20"], 1),
         "gold_silver_ratio": gold_silver_ratio,
-        "usdcny": round(usdcny, 4) if usdcny else None,
+        "usdcny": round(usdcny, 4) if usdcny and not pd.isna(usdcny) else None,
         "shfe_au": shfe_au,
         "shfe_au_date": shfe_au_date,
         "cftc_gold_net": cftc_gold_net,
@@ -483,17 +547,21 @@ def main():
     }
 
     # 最近 10 天表
+    def _n1(v):
+        return round(float(v), 1) if not pd.isna(v) else None
+    def _n2(v):
+        return round(float(v), 2) if not pd.isna(v) else None
     for i in range(-10, 0):
         r = df.iloc[i]
         d = df.index[i].strftime("%Y-%m-%d")
         recent_chg = (r["gold"] / df.iloc[i - 1]["gold"] - 1) * 100 if i > -len(df) else 0
         latest["recent10"].append({
             "date": d,
-            "gold": round(float(r["gold"]), 1),
+            "gold": _n1(r["gold"]),
             "gold_chg": round(recent_chg, 2),
-            "dxy": round(float(r["dxy"]), 2),
-            "vix": round(float(r["vix"]), 2),
-            "tip": round(float(r["tip"]), 2),
+            "dxy": _n2(r["dxy"]),
+            "vix": _n2(r["vix"]),
+            "tip": _n2(r["tip"]),
         })
 
     # 历史序列（给 ECharts）
@@ -502,16 +570,16 @@ def main():
         r = df.iloc[i]
         history.append({
             "date": df.index[i].strftime("%Y-%m-%d"),
-            "gold": round(float(r["gold"]), 1),
-            "ma20": round(float(r["ma20"]), 1) if not np.isnan(r["ma20"]) else None,
-            "ma50": round(float(r["ma50"]), 1) if not np.isnan(r["ma50"]) else None,
-            "dxy": round(float(r["dxy"]), 2),
-            "vix": round(float(r["vix"]), 2),
-            "tip": round(float(r["tip"]), 2),
-            "basis": round(float(r["basis"]), 2),
-            "corr_dxy": round(float(r["corr_gold_dxy"]), 2) if not np.isnan(r["corr_gold_dxy"]) else None,
-            "corr_tip": round(float(r["corr_gold_tip"]), 2) if not np.isnan(r["corr_gold_tip"]) else None,
-            "corr_vix": round(float(r["corr_gold_vix"]), 2) if not np.isnan(r["corr_gold_vix"]) else None,
+            "gold": _n1(r["gold"]),
+            "ma20": _n1(r["ma20"]),
+            "ma50": _n1(r["ma50"]),
+            "dxy": _n2(r["dxy"]),
+            "vix": _n2(r["vix"]),
+            "tip": _n2(r["tip"]),
+            "basis": _n2(r["basis"]),
+            "corr_dxy": _n2(r["corr_gold_dxy"]),
+            "corr_tip": _n2(r["corr_gold_tip"]),
+            "corr_vix": _n2(r["corr_gold_vix"]),
         })
 
     print("[4/4] 写 JSON...")
