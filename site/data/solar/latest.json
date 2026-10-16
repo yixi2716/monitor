@@ -1,89 +1,89 @@
 {
-  "date": "2026-10-15",
-  "hs300": 4166.01,
-  "hs300_chg": -1.23,
-  "solar_etf": 0.714,
-  "solar_etf_chg": -3.25,
-  "newenergy_etf": 2.07,
-  "newenergy_etf_chg": -2.5,
-  "storage_etf": 1.513,
-  "storage_etf_chg": -2.7,
-  "tnx": 5.06,
-  "usdcny": 6.6802,
-  "excess": -2.02,
-  "dd_from_high": 0.3964,
-  "pb_ratio": 0.0667,
-  "turnover_ratio": 0.801,
+  "date": "2026-10-16",
+  "hs300": 4170.61,
+  "hs300_chg": 0.11,
+  "solar_etf": 0.717,
+  "solar_etf_chg": 0.42,
+  "newenergy_etf": 2.064,
+  "newenergy_etf_chg": -0.29,
+  "storage_etf": 1.51,
+  "storage_etf_chg": -0.2,
+  "tnx": 5.08,
+  "usdcny": 6.6755,
+  "excess": 0.31,
+  "dd_from_high": 0.3939,
+  "pb_ratio": 0.0333,
+  "turnover_ratio": 0.798,
   "stocks": {
     "tongwei": {
-      "close": 11.1,
-      "chg": -2.46
+      "close": 11.33,
+      "chg": 2.07
     },
     "zhonghuan": {
-      "close": 9.23,
-      "chg": -2.94
+      "close": 9.37,
+      "chg": 1.52
     },
     "junda": {
-      "close": 32.21,
-      "chg": -6.34
+      "close": 33.08,
+      "chg": 2.7
     },
     "longi": {
-      "close": 10.77,
-      "chg": -1.01
+      "close": 10.89,
+      "chg": 1.11
     },
     "flat": {
-      "close": 8.83,
-      "chg": -3.5
+      "close": 9.04,
+      "chg": 2.38
     },
     "jiejia": {
-      "close": 48.6,
-      "chg": -3.93
+      "close": 48.53,
+      "chg": -0.14
     },
     "sungrow": {
-      "close": 76.1,
-      "chg": -2.54
+      "close": 76.86,
+      "chg": 1.0
     }
   },
   "news": [
     {
-      "date": "2026-10-15",
-      "text": "大唐科研总院华东院：成功加入全国太阳光伏能源系统标准化技术委员会标准工作组 - 中国能源新闻网",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBFT0NnLW1ZeVdTb2ppbnhtbFMtZ1BGTXJHc2VLMWt0UktpVndGUldyTVFhazk5ejF2R3NuQno4NHZfSEtnN3hhQ1dta1JrT1RtQl84SzFnTUU2Y3VWSXRlZ1FQTkFKc05NZlFnaG9HQ1owUjl6dmRuVDlR?oc=5"
+      "date": "2026-10-16",
+      "text": "中国限制或禁止出口AI、生物医药和光伏三领域共40项技术 - 财新",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1xT0I2NWgzRWJaZlFaeFJmRjNYNVZCbl9aT2hnZTZ6eWh3cVJjMkhscTcwME4tZVY0bFF4WkFTUlJUdFVOMzJWY1gtZXZhaXVQbks4eHVETXo3OHlmaHp2ZDR3dWo?oc=5"
     },
     {
-      "date": "2026-10-15",
-      "text": "集邦咨询称本周硅料库存56万吨以上 组件部分成交较报价下移1-3分/W - 观点网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBXcDNxd01Eb3Zwal9kSDQ5aGxNVXdyVzdiLTFlNFNZUEZ4OFhUUEh4TnkySE1hdjBTdlhUMlhzQ1lDZ3dFTFJzLU9nLUJlVGhPMjB5MXZPWUVRZjZNYzlob2hn?oc=5"
+      "date": "2026-10-16",
+      "text": "开建产业与协鑫光电签署战略合作框架协议 共拓钙钛矿BIPV赛道 - 观点网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE01dnZjYUtPSXVpV0hVZUc5bENqLXFNdjFFMEFUTmNnbmJSWTlrc2JUZXVxOEVOOWdBLXBydTNYekVOZ1VsdnNaUUhnWjBVeE1BY1EyMjktdDQyUTNmVjQ5U1Zn?oc=5"
     },
     {
-      "date": "2026-10-15",
-      "text": "多晶硅价格累计反弹超三成 头部企业锚定4.3万元/吨成本线 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1YbDFTSjFKVnhnV1Y2NnhEa09IM0s4cFE2SGk3NHdKYnVxNl9YRTVaODJBeW1JM0J0ejZ3MVk5YW5tWno0M3YzVw?oc=5"
+      "date": "2026-10-16",
+      "text": "光伏巨头晶科能源，预亏最高36亿元！年内股价已跌超30% - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5lQVBVaUNuYlZhQXV3Ul93MncwckVUNjhySGpfVHpzZTJlR3JiYkI2NGFPRkNkcHFqcHR1RDhPTGZyY3U0bHJnOG1oWTl1RVcyQlNCa01OX3JCRDctNHUzT0FoblVOQQ?oc=5"
     },
     {
-      "date": "2026-10-15",
-      "text": "安徽寿县乡村振兴分布式光伏建设项目正式开工 - 国际太阳能光伏网",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4ycXloU1VXV1R1Zl9NaTdwSVhUSmRleXpxYmJNbDUtVW0zRzR6bmdGM3NOc1NTVGNJSW5tWlhfdXR2Sk1WM09RWllJTkZ6Q2Nsb2RnelRTSGoxekw4?oc=5"
+      "date": "2026-10-16",
+      "text": "工信部：引导地方依据资源禀赋和产业基础合理布局光伏制造项目 - 21财经",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxObUFsVXJoUURfTW8xSHVrRkhIU0pPZV9TRE1MVWhSOUZJUGwwYWMyU2dFcXc3ajVXUE5PNUNkRzNvUHgxOVRNMGYzajJ5a1NGY25hTlNXU1A1OFBRMl83M1Vsb1RhcHFidkpELUFXLThGOUlvX1FFUTQ0VXh0SWE0eHh1N1B3TzBHVXhfOVl2VQ?oc=5"
     },
     {
-      "date": "2026-10-15",
-      "text": "通威永祥四川多晶硅项目公示！ - 新浪网",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBZOGJWNmJ1bUtYQUZuSWJQZTUtWU9XYUxubHB6dFNFTS1ZTlQ2S3RtNmVZRTdhSFVacVAwanZvWThsY1NyMHRJRTc1aWZHSl82SEkwcjIwZDBzUVZfSDZ0YlVWd2FiQzU3Yl9oVTJuR05Sdw?oc=5"
+      "date": "2026-10-16",
+      "text": "硅片＆电池周评-市场成交清淡 价格持稳运行 - 国际太阳能光伏网",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB1V0psSnBJQXplandmWWRXOWZKQzd5TElpTC1OdmMxRWItMnF6S3FKUUNnT1YxQ2xzWnVSMXlDTlN3LVNabHdDcmp2VEZkZ20tV1BxOF9CUjJSdFJx?oc=5"
     },
     {
-      "date": "2026-10-15",
-      "text": "多晶硅龙虎榜 | 主力合约减仓下行 多空双方均呈退场态势 - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1WRVExaWlLaWNyckxSdGdUS2VVWm9KTGdlWXQzcjRxOWJGZHBtckxUaUdIOGZjU3hDSVJ6blhER1RMMGZsam8zbkkyakRfODJoR1JpcmtjdzhRNmNXWWRNaTF3NXJRZw?oc=5"
+      "date": "2026-10-16",
+      "text": "中国拟限禁AI、生物医药和光伏三领域共40项技术的出口 - RFI",
+      "url": "https://news.google.com/rss/articles/CBMi7gJBVV95cUxNb0htLU5PX2NaT1JjVm9ZYkozTGtpMGh3OVVKZWh6QVBvYmpwZ2NMTHFmdTdjMjVBU0xfTlNzQzZTS0tmWUJCN04zTjRwbktydjBWaUtuQlJ0Nzg3ZW92ZGlRZl9ZWkdXRmZONXdQalVnUUFaSWJmQS1aajJYYU90REZra0Z4eGJlWUpxUFB4YzhMUmdvaDdfRkN4ZEliWjFzZW56ZjRzbTRBdHBiQk9fYnA3b3J4UGxlVmJxOUVlankwQ1JSV1paS01DMFVvWlIycm5feTdXTnJsZDhJRDRBZFVwcjFkN1lwRnFpTjJ0ODlzWVlaN0VONkVwVmdEdFRtQk1nem5GX0VJOTdRa3RmUFhYRDZlT3dYWXFhUTNKQjYyNkhSQW5rdGlwY1pXbFhfNVV2T3R3SGtnSDBSekhEMGJpdzFtSUZ2YW96bm0xdFFHZ09DSzVqTndGaWhJa0NFMEtqQXhLMHRhWk5taEE?oc=5"
     },
     {
-      "date": "2026-10-15",
-      "text": "硅料自律挺价筑底，组件价格明稳暗降 - 集邦新能源",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBabmtVekJWcUJ1elcxRmVKeFdsMEpSM2M3SG5HaFM3eGJUUDBYT2F0NVZzbTZreWtKWktVVXpSOWlJWW1CT20tQTFLdkg0VXZOaXpJOU81YllIOUNxVk1OWGczWFJIXzI3NmQ4?oc=5"
+      "date": "2026-10-16",
+      "text": "华润40MW复合光伏项目开工！ - 新浪网",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBsWVRQY3NlTjRqTUh0eENBN05STTYzMGpJcDEwWE1fUGx6M2ZaaFZRQ3pZZW1adm5RekR0dkt6RmFDdzBJaDNHblo2WnhvNDAySTVjVmNLcko2YS04Y1VmeElrMUtIVzVmNVNwaU1aREl4QQ?oc=5"
     },
     {
-      "date": "2026-10-15",
-      "text": "龙源电力6GW光伏组件框采招标发布 - 搜狐",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVXRnblc5U3htaHdhTU9tMG5UMFA1dTVWSkJHWEN2SVIwMmpXOGxYS2pVQnFveE9JRGE0c2RQVENIMmFqMTd5WXU0VXAxNTJLc0N1UU1jM0F0RDdDel9xQUJhNzYwcWhwTjl4dHpUQlN3QzVIaHYtYnBtS1d4NFB3dWtoQmhkUnRl?oc=5"
+      "date": "2026-10-16",
+      "text": "谷歌的 Android 安全状态库支持组件级安全校验 - InfoQ-CN",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9qMzdmWVBwTGFnd0JQcmdKRnNnVXQ3S2I3R0FoakFmZWRKMERKd3ZGT0RJTGh3bWZuamxjTXF2UlNEbnBGNVFwQUZtM3FPQlFxWGFPbEtPM2cyTlJ6TEE?oc=5"
     }
   ],
   "ai_analysis": "",

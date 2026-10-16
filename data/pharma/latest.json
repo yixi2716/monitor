@@ -1,68 +1,68 @@
 {
-  "date": "2026-10-15",
-  "hs300": 4166.01,
-  "hs300_chg": -1.23,
-  "med_etf": 0.377,
-  "med_etf_chg": 0.8,
-  "inn_etf": 0.81,
-  "inn_etf_chg": 0.0,
-  "cxo_etf": 0.329,
-  "cxo_etf_chg": -0.9,
-  "tcm_etf": 0.886,
-  "tcm_etf_chg": -1.01,
-  "meddev_etf": 0.425,
-  "meddev_etf_chg": -0.93,
-  "vaccine_etf": 2.07,
-  "vaccine_etf_chg": -2.5,
-  "hsi_health": 24062.72,
+  "date": "2026-10-16",
+  "hs300": 4170.61,
+  "hs300_chg": 0.11,
+  "med_etf": 0.367,
+  "med_etf_chg": -2.65,
+  "inn_etf": 0.796,
+  "inn_etf_chg": -1.73,
+  "cxo_etf": 0.322,
+  "cxo_etf_chg": -2.13,
+  "tcm_etf": 0.889,
+  "tcm_etf_chg": 0.34,
+  "meddev_etf": 0.422,
+  "meddev_etf_chg": -0.71,
+  "vaccine_etf": 2.064,
+  "vaccine_etf_chg": -0.29,
+  "hsi_health": 24186.83,
   "hsi_health_chg": 0.0,
-  "hs_inn_etf": 1.224,
-  "hs_inn_etf_chg": -0.97,
-  "tnx": 5.06,
-  "usdcny": 6.6802,
+  "hs_inn_etf": 1.226,
+  "hs_inn_etf_chg": 0.16,
+  "tnx": 5.08,
+  "usdcny": 6.6755,
   "excess": 0.0,
-  "north_money": 259796.98,
-  "north_date": "20261015",
+  "north_money": 225272.7,
+  "north_date": "20261016",
   "news": [
     {
-      "date": "2026-10-15",
-      "text": "和黄医药(00013)股票股价_股价行情_讨论_资讯_财报_数据报告 - 雪球",
-      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFBvUmVlOUw1dVM0cDNRUzZ4TUdIbnhmNF9YajVLSVNJSHhjeExQVzhvOGlXVkxFVkdnV055QUNXcw?oc=5"
+      "date": "2026-10-16",
+      "text": "2026北京国际传统医药展览会开幕 - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE02Z3dyczV0ZkdKUDdkWEFRVGdFWXZTVnBrQkRBdTMzUEc3aC1pMXBvSmUtaS1Za2x0aHVRRHdSNy1mZEp6S3RZWWtIcFlvY0pEYV9HWDFHNml4ZVVlLTZxMWp1Y3VBNTlpRnFTVG9MY3ZMTEpIdy0xNWJ3OTZ4eTQ?oc=5"
     },
     {
-      "date": "2026-10-15",
-      "text": "石药创新子公司SYS6062获国家药监局临床试验批准 - 观点网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5LWTNPc3p4eHJHcGdRcXllMUNFUUlONHlfRGFPeE5lSEN5TG5BV2tVNGlIWUM4OEFxUVJDc2o3ellFYlVwRDBHQnVxMDdfdlhyeV80bm9lMTNsNDhqUHJhSXR3?oc=5"
+      "date": "2026-10-16",
+      "text": "泰州市医药高新区（高港区）长期护理保险重度失能评估结论公示 - 泰州市人民政府",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaTMtZVU4WjRlelNlMHBxbUJuaGRLU3ZPMkh3VFFSd003MnpwS2hVQjlIVVM5NVRvcTlmdmtnVGtKVW0xcGxWTkJkT0FjQWQ1UHBmbXV5QTEwdzBPcUliQU0yVDR4Q25LNUkwSE02RmNCRFhCVHk4QXJvN09BS190LXlHQVU1MGhIcHBnZ21n?oc=5"
     },
     {
-      "date": "2026-10-15",
-      "text": "AI制药加速落地，CXO板块或将迈入新阶段！港股创新药ETF景顺(513780)多产业链优势显著 - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE01Qk5RUGMyZkZ5cXRPd25WTXBXNUF5RVEzNnJTczl5eW41SXpfbDdlZlNsU0NkM1JxWDd2YkVqRHFaelVyNVdxWUFTVThFRTRxY3YtZ1dOaG0ycmpHRFY0d0lHa2liZw?oc=5"
+      "date": "2026-10-16",
+      "text": "仓山区举办生物医药产业招商推介会- 仓山 - 东南网",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9yUThmSDhqUEl5ZWtJMzdKSDVkc2FlSVY2Q3FNME5TUFRjM2dWTUZnZF84OU96cW9aMFE1TDVFbXRsSTc0ZGd2V0x3aHV2OGt1SHJZb2J4QWVxblI0TjA0cw?oc=5"
     },
     {
-      "date": "2026-10-15",
-      "text": "人民时评：医保集采极端低价不通吃 规则设计反内卷 - 中华网",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9vWExhNHdMOVVrTERGdXJPdVZOX3FlNnVTM010ZmEtZGgxT3BTOG8zVHk4bVJnNUxncGgwbWZTc3ZIcHhhVE90ZFZMQUlqNE05cFUwRXB5OExvVTM5Z3EwcEEyRWZieXNQZ045ZEtyNEs?oc=5"
+      "date": "2026-10-16",
+      "text": "康辰药业：1类创新药KC1086片联合疗法获批临床 - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBOX2tsY0tVQUZ5MVFibGdIQklUMmxvN2tzcWhxQVNKbHpmbVl2VGwtZHBrd01GVFFXQ0Y3dFYwX0JZZGJBSFhuMlNnZjBDNV91RWhIN01FY2stMV9CX2xMaHpFcUo1QQ?oc=5"
     },
     {
-      "date": "2026-10-15",
-      "text": "港股创新药概念股逆市上涨，医保新政叠加ESMO密集催化 - 新浪网",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNTGhGd2EzQmVOWlR5Q19tZ2JZZ3BuRVBwd24wZU03Zm12VG1sY0lMSXd3enJnZGdNRFFiOWQ3ekMyZjJPQzBkTUJkSEltTmdFbE5pWDFFcXF0MjJ1SDlCeVUwUGM5bG1WN2ZsSWgxYWEwVE5IRi0yU01KY3RMR0k0WXB3?oc=5"
+      "date": "2026-10-16",
+      "text": "传承创新 让中医药更好守护人民健康——全国政协“委员科学讲堂”第二十三场讲座侧记 - 中国政协网",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1NTnJmV1JxQXF3bVpOTWVsa0ZCNGJFbEFWWGlfXzBJc1ZHRVlpc2l1TEtNWlhGRk9HUXNWUDJRay1DNEVQV2o0TkJBbndfdDEyUGk2NEtqX0lBRW9QWE5aOHc1NkZsaXdLcjZPWUhnNA?oc=5"
     },
     {
-      "date": "2026-10-15",
-      "text": "千红制药：该创新药I类沟通交流会议为公司QHRD211项目_公司新闻 - 证券之星",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1LRVZHRUpySkhoWlRtUmxObWk5RE5yeXQ0TFJBQzBjMGJrclNzVThxSGhyNjJTTmtqQTFTWjNteUx5SXRFUjBUMHpGREFlSGdaMWtnZThqMV94V3BtTTFjRQ?oc=5"
+      "date": "2026-10-16",
+      "text": "罗马尼亚雅西医药大学校长访问医学部 - 北京大学医学部",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9hUndZQXRDWk1qRmxMel9RVjFWZzhjSGsyc1JwRWd0VWN4OFFISndVYm5YeXFCcl9oVDBMREhuQ2NQMUUydzZnRHR1Z0phajhGNVBxZFdfWlY1dlozQ0xPLVBtRTluTFdHSzN6Wm1jMVUtSERYSzBaR1hZZDJkUQ?oc=5"
     },
     {
-      "date": "2026-10-15",
-      "text": "DATA+AI成核心分水岭，医药营销跳出单点AIGC工具走向全链路决策赋能 - 摩熵医药",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBZVlJMTHFwZ0FJLWZaek5EOW5aSlRLN3dBWmN4MUcxbHJBNzc0SEVFOG4xX1J3ZWQxXy1CaWxUYTQ3NXYxYU4zc213WUs0QkNIMDEtQkU2OA?oc=5"
+      "date": "2026-10-16",
+      "text": "山东省药监局组织开展2026年第三季度医疗器械生产环节风险会商_山东要闻_山东新闻_新闻 - 齐鲁网",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB3MUJvTm5WWllXemRFc2hIRTFrWWVpUWpIRHZtSHAxWDlEOHRRSldGN0JiNHNvX3JLcXdVOTN0TVYyRmktRjVpQU9LRmtMWEdmTzRZT01LTU9pZE1haTltdWV5cHd4Y0planlRbGJBZw?oc=5"
     },
     {
-      "date": "2026-10-15",
-      "text": "上海中医药大家谈 | 李赣：让文物活起来，让岐黄出海去 - 上观新闻",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE94ZHIyWTRWd0pYVDVzNVJyd2t6Z0M4aV9FaXUyMXRJWU1HNU51X3RpdVBGRFUzUjhhVGptSWVrQ1RoMGdyY0FDTzg1NndGb3EyOXdPQk01UXYxZw?oc=5"
+      "date": "2026-10-16",
+      "text": "16:55:12【港股创新药大跌后企稳，港股通创新药ETF南方（159297）换手率13.59%资金承接积极】 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9ONWR0QTFwYS1VTjlBRjYzMy01d0VRcjJnWlcxZ3Q2dC1HakZRbTc5NHFuUzJqV0FxTDZ3VEcxTThqZlpQend3LQ?oc=5"
     }
   ],
   "ai_analysis": "",
