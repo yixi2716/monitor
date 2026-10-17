@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16",
+ "updated": "2026-10-17",
  "monthly_upfront": [
   {
    "month": "2026-09",
@@ -11,9 +11,9 @@
   "months": [
    {
     "month": "2026-08",
-    "count": 8,
+    "count": 9,
     "manual": false,
-    "auto_clues": 8
+    "auto_clues": 9
    },
    {
     "month": "2026-09",
