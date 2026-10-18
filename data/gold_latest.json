@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-17",
-  "fetched_at": "2026-10-17 21:20",
+  "date": "2026-10-18",
+  "fetched_at": "2026-10-18 21:39",
   "gold": 4186.7,
   "gold_chg": 0.0,
   "ma20": 4211.55,
@@ -135,7 +135,7 @@
       "tip": 105.54
     },
     {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "gold": 4186.7,
       "gold_chg": 0.0,
       "dxy": 101.78,
@@ -148,7 +148,7 @@
     "last_change": "2026-09-16 加息 25bp",
     "next_label": "10/27–28 议息会议",
     "next_date": "2026-10-28",
-    "days_to_next": 11,
+    "days_to_next": 10,
     "upcoming": [
       {
         "date": "2026-10-28",
@@ -161,10 +161,10 @@
         "dot_plot": true
       }
     ],
-    "zq_price": 96.11,
-    "zq_implied_rate": 3.89,
-    "market_bp_vs_current": -11.0,
-    "market_expectation": "市场预期降息 11bp",
+    "zq_price": 96.08,
+    "zq_implied_rate": 3.92,
+    "market_bp_vs_current": -8.0,
+    "market_expectation": "市场预期下次会议维持不变",
     "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
   },
   "geopolitics": {
@@ -187,6 +187,12 @@
         "src": "WSJ"
       },
       {
+        "date": "2026-10-16",
+        "text": "Trump rules out using a nuclear bomb on Iran: Why that matters",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcEVJeVVzcTNFVC1FOUYtQWMtY0NiSVBxdmFYeHRUM0gwcFN4ZVhiQ1FNRV9SekM3TG1CaGMzQXU0MzhKd0htR2lvWjhGSWdCOTBXbU4wSWtLT2t6Q05MbmtneGNXSW5qRWxjVWpWYXUwemNuN1FzWXo5ZVNiYlh4ejNDT0c4clU1RVAyVjFvd0tzQlQxblhXSDBVcnRGNmg4R01pR2ln0gGrAUFVX3lxTE9Jdng1akZhN2pvQ01wS08zdGVYRzgzRGhIWVZBNmlNTWIybnlRdm5HZ0JVVlp3UE1qd1B4bEgxS3h1REVUUUtwRGt3d1pDeVBxQWdodkJJV1VHTUwwMkdTV3B3ZzlSTUlEVWxPSlFwS2kzRjRiU3Jnd3BGQ0w4TEgtekR6bkFLUmxsYU5lcG5CVU9DZHJxREF3QkRZejRtTlN5TE45MmVIQVlrZw?oc=5",
+        "src": "Al Jazeera"
+      },
+      {
         "date": "2026-10-13",
         "text": "Iran reportedly fortifies nuclear sites as it prepares for possible U.S. strikes after midterms",
         "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZzRCT1BEckNubkQ4V2N1RUZZQUhZU3NWUEtWRzlDbjdsbzFIYmQxZlFmT2RtTHA2d0lkelhGTklyV2RWTFROQnpVWU1IV3ZleGQ2cEJOakp5T3VUTkFTOVhtVUpxVXNDa1lEU3ZZcWlqZUswT0NsMWNzU0dRR1U2bGpyd9IBiAFBVV95cUxPek9nRnpJSEdtRDhZZnpheFFVTUdibjY3ZWxSSkNqRndpbFVabjhuSENyaVR0bi1nTGU2NFI0b1JINFlmSnZab2ZpMjFmeXVzR3F4WVZPVndUbGpFNHhxcGx0VkZtSC1uZVBPSGRRd0dodDZ2QV81b0QyV2ZKSF9tcDVMS3JBN2RO?oc=5",
@@ -194,21 +200,15 @@
       },
       {
         "date": "2026-10-16",
-        "text": "Trump rules out using a nuclear bomb on Iran: Why that matters",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcEVJeVVzcTNFVC1FOUYtQWMtY0NiSVBxdmFYeHRUM0gwcFN4ZVhiQ1FNRV9SekM3TG1CaGMzQXU0MzhKd0htR2lvWjhGSWdCOTBXbU4wSWtLT2t6Q05MbmtneGNXSW5qRWxjVWpWYXUwemNuN1FzWXo5ZVNiYlh4ejNDT0c4clU1RVAyVjFvd0tzQlQxblhXSDBVcnRGNmg4R01pR2ln0gGrAUFVX3lxTE9Jdng1akZhN2pvQ01wS08zdGVYRzgzRGhIWVZBNmlNTWIybnlRdm5HZ0JVVlp3UE1qd1B4bEgxS3h1REVUUUtwRGt3d1pDeVBxQWdodkJJV1VHTUwwMkdTV3B3ZzlSTUlEVWxPSlFwS2kzRjRiU3Jnd3BGQ0w4TEgtekR6bkFLUmxsYU5lcG5CVU9DZHJxREF3QkRZejRtTlN5TE45MmVIQVlrZw?oc=5",
-        "src": "Al Jazeera"
+        "text": "Trump signals possible new strike on Iran’s nuclear programme",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQc1B3YjRwT1JpVVBXNFpSeVpTT0xnUi10cjhDODNMakI4YlZIWWlXdTF2SHBGMG5UYjVBT19Cbk5TaHlGQW90TWNHSXBUc0Rzd2U5a0haSE5UVVJmLUpQNk15ZjZmTldJWVRxam1famdLNVc5Y3d3SjV4OU5yUzBPd1BOYVhYQXNiaWdZ?oc=5",
+        "src": "The Arab Weekly"
       },
       {
         "date": "2026-10-16",
         "text": "Trump says US may need to strike Iran's Pickaxe Mountain",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTWRtOEIzSmZRLXc0aEx6YkF3cGY5a2RwX1pzYmdQZnhqcmkzQUFkbndObFlvZEZybDNwU0lYT1I3U0pUdG9tZzNQTldkRktZajhWaXY2Vjh1NFQtU3BSbE10T2tXREh0dUVVWFQ0TVVsMmcyWDVUS21mQ21FVHVLaTF6M1dCX0NCZndtUy1fd3dXMzZPVDc1WXh3?oc=5",
         "src": "Reuters"
-      },
-      {
-        "date": "2026-10-16",
-        "text": "Trump rules out use of nuclear weapons against Iran",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQa21JS0d3Y2Q0YWZ5V3gteGxUQ2g0Mk80S0VVUXp5YTVnbUpmZllVbFNNTWVWSTdrWGdmOENMUXVBc25UVkZDdFh6UVplek1GRnFDdjF6aTZId1kzVVQtY01pT2JON3VVSE5Sd296SWUyejN6cDFTYzM0Zld3Z2F6RHFzRjgxdWVMVk9NZk1ZQ1NheVJtZ0c5TQ?oc=5",
-        "src": "Anadolu Ajansı"
       }
     ],
     "gold_impact": "双重作用：局势升级→避险买盘利多黄金；但同时油价飙升→通胀预期→美联储更难降息→利空黄金。当前谈判窗口期，油价波动会直接传导到金价。",
@@ -218,5 +218,5 @@
   },
   "ai_analysis": "",
   "ai_error": "未自动生成，点击按钮手动生成",
-  "ai_date": "2026-10-17"
+  "ai_date": "2026-10-18"
 }
