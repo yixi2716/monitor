@@ -1,57 +1,57 @@
 {
-  "date": "2026-10-18",
-  "copper": 6.562,
-  "copper_chg": -0.007619047619045194,
-  "ma20": 6.67645,
-  "ma50": 6.63389,
-  "dxy": 101.83999633789062,
-  "vix": 19.989999771118164,
-  "tnx": 5.0980000495910645,
-  "wti": 99.04,
-  "cu_oil_ratio": 146.06943093699513,
-  "shfe_cu": 109860.0,
-  "shfe_cu_date": "2026-10-16",
-  "shfe_lme_ratio": 1.055,
+  "date": "2026-10-19",
+  "copper": 6.571000099182129,
+  "copper_chg": 0.6124630380024199,
+  "ma20": 6.60167498588562,
+  "ma50": 6.579380016326905,
+  "dxy": 101.98200225830078,
+  "vix": 17.899999618530273,
+  "tnx": 5.144000053405762,
+  "wti": 98.94000244140625,
+  "cu_oil_ratio": 146.4176054294931,
+  "shfe_cu": 109770.0,
+  "shfe_cu_date": "2026-10-19",
+  "shfe_lme_ratio": 1.052,
   "lme_stock": 296625,
   "lme_stock_date": "2026-07-17",
-  "shfe_stock": 36386,
-  "shfe_stock_chg": 1453,
-  "shfe_stock_date": "2026-10-16",
-  "lymy": 15.9,
-  "lymy_chg": -0.56,
-  "tl": 5.38,
-  "tl_chg": 0.19,
-  "jxt": 39.43,
-  "jxt_chg": 1.36,
-  "cper": 39.5,
-  "cper_chg": 0.13,
-  "copx": 79.98,
-  "copx_chg": -1.05,
+  "shfe_stock": 35410,
+  "shfe_stock_chg": -976,
+  "shfe_stock_date": "2026-10-19",
+  "lymy": 15.43,
+  "lymy_chg": -2.96,
+  "tl": 5.32,
+  "tl_chg": -1.12,
+  "jxt": 39.09,
+  "jxt_chg": -0.86,
+  "cper": 39.53,
+  "cper_chg": 0.08,
+  "copx": 79.74,
+  "copx_chg": -0.3,
   "signals": [
     {
       "name": "铜价低于MA20",
       "dir": "bear",
-      "text": "$6.56 < MA20 $6.68"
+      "text": "$6.57 < MA20 $6.60"
     },
     {
       "name": "美元中性",
       "dir": "neutral",
-      "text": "DXY 101.84"
+      "text": "DXY 101.98"
     },
     {
       "name": "风险偏好正常",
       "dir": "neutral",
-      "text": "VIX 20.0"
+      "text": "VIX 17.9"
     },
     {
       "name": "铜油比偏高",
       "dir": "bull",
-      "text": "铜油比 146.1，工业景气预期强"
+      "text": "铜油比 146.4，工业景气预期强"
     },
     {
       "name": "实际利率高企",
       "dir": "bear",
-      "text": "10Y 5.10%，压制金属估值"
+      "text": "10Y 5.14%，压制金属估值"
     }
   ],
   "score": -1,
@@ -70,6 +70,12 @@
     },
     {
       "date": "2026-10-14",
+      "text": "Base metals head to LME Week 2026 with record-low TCs, war-hit supply chains",
+      "src": "Fastmarkets",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdms4ZHpVSGFORE1Oa2F5V2dvNzlwLTNlM08zN3NVcHVrdUJ2TVFvNXhoQmVrXy1mMzBBdTFVT2Ztb0tzNE8yM1RRQzI0THg4bjhGamxqdnFvTEVNYUNKLTlucUZnYzFDUFd1X0hSTVNaaGJFaWs3UzY4OS1RMS03R1FCWGpPZWU5QXBWeEFjb0ZrVmtpb2VKZlhIX1NnWmgzN1FZWmdTM2ZmRWlOYnRiZWVNRQ?oc=5"
+    },
+    {
+      "date": "2026-10-14",
       "text": "Copper Bulls and Bears Clash on Supply, Demand as Forecasts Diverge",
       "src": "NAI500",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZkxMSzFtT1NDTThsVmJoX3FHYTlEam52bXdDblVpNVF2Yld1c0xCcHBZazF1SWE0NFkyY0Q5bGFXNGtFZDdrU3JGaTBOZmdKRDQ1R0pWeW9QZE9NV0JvUC1mQnBxSFRWUHU4UDQxTjdrVkRETWUyNjdnV2NNS0tzQ08zUmlyWDQxZnktUms3YWVNeDF4TGxsTFNQYUpyOWth?oc=5"
@@ -81,12 +87,6 @@
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQk9XOHU2cFFEcF8zejNsdGpoYWtweVNuWlVpQXcwOHdNZXhjTjk1am1kMGdBUzBHVTNTakhBQXZMeU9tNllHekRWRjN1RS1UOFVYUVpqb3dLb29PLUtqMHRLb2laVlpGT2haWFNvbHpMc1p3QlUybXIwUGRuVmI1d1Zxa0h5VGJVcXRBc01zaUMycEc1YmdVazV4TUJLWmxWWkJF?oc=5"
     },
     {
-      "date": "2026-10-14",
-      "text": "Base metals head to LME Week 2026 with record-low TCs, war-hit supply chains",
-      "src": "Fastmarkets",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdms4ZHpVSGFORE1Oa2F5V2dvNzlwLTNlM08zN3NVcHVrdUJ2TVFvNXhoQmVrXy1mMzBBdTFVT2Ztb0tzNE8yM1RRQzI0THg4bjhGamxqdnFvTEVNYUNKLTlucUZnYzFDUFd1X0hSTVNaaGJFaWs3UzY4OS1RMS03R1FCWGpPZWU5QXBWeEFjb0ZrVmtpb2VKZlhIX1NnWmgzN1FZWmdTM2ZmRWlOYnRiZWVNRQ?oc=5"
-    },
-    {
       "date": "2026-10-13",
       "text": "Copper Price 2026: Record Hunt on the LME and Forecast to Year End",
       "src": "Steel and Stainless Steel News",
@@ -95,5 +95,5 @@
   ],
   "ai_analysis": "",
   "ai_error": "未自动生成，点击按钮手动生成",
-  "ai_date": "2026-10-18"
+  "ai_date": "2026-10-19"
 }

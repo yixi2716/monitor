@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-18",
+  "date": "2026-10-19",
   "score": "3/6",
   "verdict": "磨底观察中",
   "signals": [
@@ -54,7 +54,7 @@
       "name": "脱离深亏区",
       "desc": "猪粮比 ≥ 6",
       "status": "yellow",
-      "value": 4.51,
+      "value": 4.56,
       "threshold": 6.0,
       "source": [
         {
@@ -68,7 +68,7 @@
       "name": "期货远月升水",
       "desc": "LH远月合约收盘价 > 近月",
       "status": "green",
-      "value": 2875.0,
+      "value": 3020.0,
       "threshold": 0,
       "source": [
         {
