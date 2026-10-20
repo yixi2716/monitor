@@ -1,68 +1,68 @@
 {
-  "date": "2026-10-19",
-  "hs300": 4174.53,
-  "hs300_chg": 0.09,
-  "med_etf": 0.367,
-  "med_etf_chg": 1.63,
-  "inn_etf": 0.796,
-  "inn_etf_chg": 1.01,
-  "cxo_etf": 0.322,
-  "cxo_etf_chg": 1.24,
-  "tcm_etf": 0.889,
-  "tcm_etf_chg": 2.36,
-  "meddev_etf": 0.422,
-  "meddev_etf_chg": 0.71,
-  "vaccine_etf": 2.064,
-  "vaccine_etf_chg": -0.29,
-  "hsi_health": 24186.83,
+  "date": "2026-10-20",
+  "hs300": 4152.11,
+  "hs300_chg": -0.54,
+  "med_etf": 0.377,
+  "med_etf_chg": 1.07,
+  "inn_etf": 0.815,
+  "inn_etf_chg": 1.37,
+  "cxo_etf": 0.333,
+  "cxo_etf_chg": 2.15,
+  "tcm_etf": 0.902,
+  "tcm_etf_chg": -0.88,
+  "meddev_etf": 0.435,
+  "meddev_etf_chg": 2.35,
+  "vaccine_etf": 2.041,
+  "vaccine_etf_chg": -0.83,
+  "hsi_health": 23867.74,
   "hsi_health_chg": 0.0,
-  "hs_inn_etf": 1.226,
-  "hs_inn_etf_chg": 1.31,
-  "tnx": 5.14,
-  "usdcny": 6.6695,
-  "excess": 1.54,
-  "north_money": 225272.7,
-  "north_date": "20261016",
+  "hs_inn_etf": 1.263,
+  "hs_inn_etf_chg": 1.69,
+  "tnx": 5.09,
+  "usdcny": 6.6662,
+  "excess": 0.0,
+  "north_money": 209494.87,
+  "north_date": "20261020",
   "news": [
     {
-      "date": "2026-10-19",
-      "text": "北京中医药大学举办建校70周年高质量发展大会 - 新华网",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPeEtFOTNOb0lmb2lCbUk3amtUX1duVDZwakRFU0NUYjBVV0dGWnpNTjIyMHZha3BjTHlQa1l2TU1xQ09ZYUpsR0VrMzJPdzZNMUVqM1BYWFBsX3NFRW5HWEduXzJzeXlCNjBuZTJJZXlFb3hKYk1GWWtIVXdCNklPRlZCaw?oc=5"
+      "date": "2026-10-20",
+      "text": "国家药监局重磅新政：设立市场独占期，利好一批创新药 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUVZxUmN4Y1ozbHVQU2I4dG5sckhsZ2dTZHJwNnZxY21SZ1VPZjU0Y0s3RFVyaVk3aE5iejIzeXdWY09SUkZJS2ItV3hNQ0kxZEZNSEo1QkFvdHVsd0F4TWJ1YmhiMkt3Sy1senFnYVJ3eE5jRXh1cnR5LUtHYnRWX1BGek5pZElIWENhby1aRQ?oc=5"
     },
     {
-      "date": "2026-10-19",
-      "text": "北京中医药大学迎来建校70周年 - 新华网",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWjVnZjZvLThFUUpJam1BVVJldkNQLVZpeWt1NG5OZVE5MXZJNzNHRm1HNVk4OGpGNDJPcGdBd25EMV9JNXZILXJFSklrb2twRlpSOXRkUV81TlFQd2s0OTNaOElQc211OEJsRUlpNURvTTVKLTFlRXd3MXAtWF9nWmlOYU8wUQ?oc=5"
+      "date": "2026-10-20",
+      "text": "颐圣堂携古方创新成果亮相世界中医药大会 - 中国科技网",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1WeXFIcHJGVy1oanFudWZ6dGZJWEpob25kMXBGa2d1WmlyY3E1SXdEWVdTM2JTZzhCNGhoVHVWSlhqZ25yVmM4cTlLd1VnTGJyQXB5RFBkcEFNSlExZS1FVTBEcF8yMC1SUGQ4VmswaDM?oc=5"
     },
     {
-      "date": "2026-10-19",
-      "text": "集采质量监管再落槌：4家企业高值耗材产品被取消中选资格 - 21财经",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPQWViWTNCS2ZGTmZUZnhHaU9hdHVyeGl1VDAwRHRTYWxrQ2VQMTVEWXoxa2hRTUlMekRVb0U3dlZ1VTFhZUxEVHNNNGZBbHlfVHMxWTAyWVBYVDRqZWFmdmZNTl9CTG8yenEyb0htX05oZ3JDZzNIWmxNTDVrb0FrZFBYYjF0dnlDbm1GVTBTVQ?oc=5"
+      "date": "2026-10-20",
+      "text": "“一带一路”中医药合作升级 共促传统医药焕新发展 - 中国一带一路网",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBSOHRrM2M3R3QwejYtRnFYalNlVEVvRTRyLWNFUTBRSktwWG9uVVJFcDNmUlZTNnkzQUluT25nQWM5V2UyS09ITXdhWmxwaTdma2ZkbElVMA?oc=5"
     },
     {
-      "date": "2026-10-19",
-      "text": "张江创新药基地二期项目即将投用！_工作动态 - 上海浦东",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAxU3o4ZWZkY0dLWEtSTlFsTTV3MFVVWGFjT3pHRkZiVzJqOGNzTTRTRDc2Zy0wVld0bjNmZWI0dktRQ25NSHpvM3U4dzVXNGl6cmFxOEpQRXZ6RXBRV3laa1hTV1Y0ZUU?oc=5"
+      "date": "2026-10-20",
+      "text": "新华社消息丨前三季度我国获批创新药中国产占比达80% - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBFUU9DRnlhM0QzRGxTckxCUUJaVFRnTGxnbVhnUjh5T1A0TjNJRk4zRzZEaWNWX1ZhZmY2WlA0Qk1ZcTJoa1FJd1E4ZmdORU8wU1ZBVWhCaG1yNFhRZk41eWFPRC1XQzRfbEs5MFlwQXlJcGFMZUdr?oc=5"
     },
     {
-      "date": "2026-10-19",
-      "text": "“一带一路”中医药合作升级 共促传统医药焕新发展 - 新华丝路",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE16MmNEYmJJd2oyUklVNzlTdzhGR3BVdndFMUFfOW44NUQ4a2l3b1ZRczkxYmlpNWRkQ3QxdVU2UnIydDRGQzlvR0dyNExZMktxaXc?oc=5"
+      "date": "2026-10-20",
+      "text": "医药板块波动加剧，一文看懂后市逻辑 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcFRRREhkdWpEdkM1bzZHekZjTno1TlJ6NjhQN3BuaUVsM3YtMWZwV21tWEk3LVlybmtIb2Zmakt3UXBsYTJEMS1qdS1MRUJHZWpEVTdLTlFXUzhnR0dMdHM3V0RDaDlDMWJ5MmFGc2JhejhHYjRoVlJOQ0Y4MkpiZkZIWE13a2M1SVY0?oc=5"
     },
     {
-      "date": "2026-10-19",
-      "text": "中国医药健康产业年度盛会：第93届全国药品交易会——产业云集，行业风向标 - 摩熵医药",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9DZWJpdXJhNGhLT3VwR2szWlB4R05HMGQ2SEpqUjBoWDdobTF4Q0F5aFhWTm4zcGZMOGZJbDVpZjQ3NGs2V1Z3elRya1lHQ2NMLUhXUThvTQ?oc=5"
+      "date": "2026-10-20",
+      "text": "工信部：前三季度我国获批创新药中国产占比达80% - 观点网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1UeWJJSDRMUWItdERhVjlFYk1NQlh2YlQ4VkdjY05KbGVNNGs0dHlpR2ZOaTExT05KNzZDaEo3RUFvVmhVbG5ackRFSmphQTJadkFEcDY2UzRoWXpMamFyTEtR?oc=5"
     },
     {
-      "date": "2026-10-19",
-      "text": "中医药出海观察：以循证为桥 加速融入全球健康体系 - 中国新闻网",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBUV3hURUZ2UE0ySWpIb1NyZnVKUzJKOGRhX0JyNGluZkpWeWFzSHhQR2JDMDkyUENaaTVVZXpleTNDMmF5YnZWYXpaeEMtUXNiQUI1a2RFZ3VWTUxhcWJ4dktTbGdROFJC?oc=5"
+      "date": "2026-10-20",
+      "text": "医药生物板块上涨1.20% 结构性机会待业绩兑现 - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1SXzg0V1RYR3VjVnVkc1dyNlkzUXNfYXdLYWlOMVJRSTkxbHdGZ1g5cDNnZlNTQmF0aFVoMDJlejVlb2d3YTZHWHd4aWdfTDZYWUJ1UkdYYnpCc1M3QTlMdzVFZWVVUQ?oc=5"
     },
     {
-      "date": "2026-10-19",
-      "text": "北大医药：瑞舒伐他汀依折麦布片(Ⅰ)获注册批件 - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE51eHc4dHJnUTRFV1lxSEJiN1FHV18wNERoNTdZOGQ5TDBtSTNYTDlZck1RYWxKMm1QYU5nTnpiSXlWMEs0UUlJazl5UU5sNU5UWUtUejRDam1RSTVsbjhRTw?oc=5"
+      "date": "2026-10-20",
+      "text": "创新药如何顺利走向全球？产业链协同护航新药出海 输出药品更输出中国技术范式 - 第一财经",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5VTHBHWEl2WFFXU0xlcHU5VW9HYkVFbnNGMGNQQlhLelBsd2xydmpOcWZVQWtVQzR0eE9HUnZRYzVrWkZFX213VTRjMS1LbnMyemV4dA?oc=5"
     }
   ],
   "ai_analysis": "",

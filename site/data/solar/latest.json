@@ -1,89 +1,89 @@
 {
-  "date": "2026-10-19",
-  "hs300": 4174.53,
-  "hs300_chg": 0.09,
-  "solar_etf": 0.723,
-  "solar_etf_chg": 0.84,
-  "newenergy_etf": 2.058,
-  "newenergy_etf_chg": -0.29,
-  "storage_etf": 1.503,
-  "storage_etf_chg": -0.46,
-  "tnx": 5.14,
-  "usdcny": 6.6695,
-  "excess": 0.75,
-  "dd_from_high": 0.3888,
+  "date": "2026-10-20",
+  "hs300": 4152.11,
+  "hs300_chg": -0.54,
+  "solar_etf": 0.718,
+  "solar_etf_chg": -0.69,
+  "newenergy_etf": 2.041,
+  "newenergy_etf_chg": -0.83,
+  "storage_etf": 1.5,
+  "storage_etf_chg": -0.2,
+  "tnx": 5.09,
+  "usdcny": 6.6662,
+  "excess": -0.15,
+  "dd_from_high": 0.3931,
   "pb_ratio": 0.0333,
-  "turnover_ratio": 0.755,
+  "turnover_ratio": 0.749,
   "stocks": {
     "tongwei": {
-      "close": 11.55,
-      "chg": 1.94
+      "close": 11.25,
+      "chg": -2.6
     },
     "zhonghuan": {
-      "close": 9.18,
-      "chg": -2.03
+      "close": 8.89,
+      "chg": -3.16
     },
     "junda": {
-      "close": 33.21,
-      "chg": 0.39
+      "close": 33.26,
+      "chg": 0.15
     },
     "longi": {
-      "close": 11.09,
-      "chg": 1.84
+      "close": 10.95,
+      "chg": -1.26
     },
     "flat": {
-      "close": 9.18,
-      "chg": 1.55
+      "close": 9.04,
+      "chg": -1.53
     },
     "jiejia": {
-      "close": 48.81,
-      "chg": 0.58
+      "close": 49.98,
+      "chg": 2.4
     },
     "sungrow": {
-      "close": 77.68,
-      "chg": 1.07
+      "close": 76.04,
+      "chg": -2.11
     }
   },
   "news": [
     {
-      "date": "2026-10-19",
-      "text": "隆基绿能与ENGIE签署光伏组件及储能产品框架合作协议 - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1Idnp4NW5na2tqdHFqNkpZWHAzV3daNXpoQkRPdmJhdEhVVFVSNzJTZUk3YWVlV3RENHBwcEl1My1OT0JsZ0ktNkFmVkp1MnRheTFnbGs1Q194UEtucWhOaA?oc=5"
+      "date": "2026-10-20",
+      "text": "华润电力道孚龚吕500MW光伏项目高原推进 最高作业点4800米 - 观点网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA3ZzF6eXRLVmdybW55dEQ5N1V0NEtTOWJOZUdoUDZhTnIweWhTWmt2RnJFcFFsYlRaeHk0WURJVnFVZXhPRndIOFBudXd5blVEcEZyeGh6TGU4MHhFdUJwYTh3?oc=5"
     },
     {
-      "date": "2026-10-19",
-      "text": "中国拟将12项光伏关键技术纳入出口管制，覆盖多晶硅、硅片和电池制造 - 虎嗅网",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5hR0FVYmVKN19WQmRLTHlSejVCZGw0SjFQR2JiVGhTLV82YWF0WmtyUU8yRUV4NHVfQkZ5T1FBSEEyR3l0WTBqbWJ6a1FId1c1YXlFcA?oc=5"
+      "date": "2026-10-20",
+      "text": "综述丨中国“绿电出海”为发展中国家能源转型添动力 - 新华网客户端",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUV9yMW5IWk5tTmRPZ3VLeXJacXJLTTVRbERsMHlJR1YtUHVWWmtKcFA3UmhacUZqVE5JS2pFZEI1WFEtWmlxOW1FZW9aOTRGeExoNDRLdHZyUl8zc19CWVJpS1pVSDRILWJxaTZqMmNlNkVzUWtTUkttY3ZSdzJ1VDNZUXREbm5CUUZXalZvTWxaVkdzUzhMRGd3?oc=5"
     },
     {
-      "date": "2026-10-19",
-      "text": "湖北能源集团鄂州发电公司光伏再利用二期项目成功并网发电 - 国际新能源网",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBqVGFncDlRbnoxTC0xeTFXSTRUaUxpdDc3RlhsM1FnM3hLdmtPLUlOS0VObGczS09nNXYwWkNGSlJEc0lDX09EMGJ4eUdtYzJsLUlzazk3ZHhwUTJFSTZoRnJXOWFyRHM?oc=5"
+      "date": "2026-10-20",
+      "text": "隆基绿能与ENGIE签署800MW光伏及500MWh储能框架合作协议 - 经济观察网",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBlUTNNRWVVYy01N3JrczBnVEpfNlRnN1BmdWMwYS1QTXhpSjY0bTdzWHZiVVhGMktxbkVJMHpyeEVVY2txNkdHYXVmbFg3ejU5OTk2U3RR?oc=5"
     },
     {
-      "date": "2026-10-19",
-      "text": "光伏技术出口为何“上锁”？12项技术管控背后的产业“攻守道” - 21财经",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPM01OTGtvbG8td3BpU0V1ZFlUS2JiOEloU3NVNVF2NU9PVzRsQ1pFN19hTk9WUHNFY2xxV0RuZnJqVnFpTE03RjhMTFdKU2JZNm80Ymk3VU1QR0lTR3R3bW9jNUlDTHhERXJUaEh5bWJtVVV4UXVfZ3NzU0kzaEpQMjhiV1BXaUl5dzFvUzVNQQ?oc=5"
+      "date": "2026-10-20",
+      "text": "逆势投资光伏，两大央企却密集落子 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBkbWd6LUlPbF9ibEMxVmRkLU5xaHlNN09KOGY1UEJrTWNrOWpkbmpXeF9ELUFZeEl1T2NvTjBIay1BRF9tb045QjRDSjBDZlhMeDlXUHdxMnZNVU9GYVloaHZuWmIwV0Q2cFBrdGt0VG1pY3NUVEhfag?oc=5"
     },
     {
-      "date": "2026-10-19",
-      "text": "启源绿能1150万元承建凯博矿产3230KW光伏项目 备案复核通过 - 观点网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9fend6LVVVSlh5eFZTNlNfUE1RUmRrSE9xMFRHUXZHQWlCM0JSUG1BUmRPTS15eDhtbFpzdjRocmRDN04wb28zeFVGbWdkaXowbXZ3SzVVVmh2UmxHdmhmdl93?oc=5"
+      "date": "2026-10-20",
+      "text": "中国五冶湛钢原料场光伏项目冲刺并网 - 中国钢铁新闻网",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9aZHJodXQ2Q1B3YnluRXlDUTk3TGM4N2NScXRCY080WXdqVk85bC1nSXQtdFhlcnU2bGtKWUZEMnBURXp6U0NMMGZaeWd6TUJtcjVIcnlhbXpHVGhsbWZHMEZRVWdnTDlZMjZGODN1U1hnZw?oc=5"
     },
     {
-      "date": "2026-10-19",
-      "text": "电力设备行业：光伏制造征求意见稿发布，产能出清加速_行业研究_研报 - 证券之星",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4tY0VWR25oR0VJS0IybTM2T2RxaGpIR2pfWXE5Ym5yams3TzB5TkU0VllWd25zVUpId3llOW5RdldFWmRVdHFxY0ZWODQyTHlScERYQTNsbk05NUhwdC1FMVNR?oc=5"
+      "date": "2026-10-20",
+      "text": "光伏硅料龙头25亿购入锂电资产 - 手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1lZUlfOWYzTnRqQ0JCZ2VpcTdoUExkT0N2aHFucTlEd0pWUHZsTlNUelM5dksxeF9jTDhXamJaazMxaHNnM0pyNEZFblZnNUZFZFRVa2RJbERJdmkxWkxYQmpISTJDRTlseHFyOTROVmE0RWx1?oc=5"
     },
     {
-      "date": "2026-10-19",
-      "text": "华电新能天津分公司新能源场站预防性试验完成 - 中国科技网",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBVTkl3cXpqSUozczlZNS1RWldYdEFxRWVHRk5kTVM1ZjgwVUNQdnZSSXowYmxxVk5xN3RRWVh4Y0hCc2Z6em1BdWwyNEhmX1BkRXRJRUxRRUl6SzEtT1k3M1N1dWVEOVZpdzNnS0JFRHM?oc=5"
+      "date": "2026-10-20",
+      "text": "云南昭通：发展光伏玻璃制造 推动资源就地转化 - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcDBUZGdna0UtN0VDREFWOXBVY1FhOFBtdXFUNnZmVjVmWm9CZWg3T3lGdmFiUFZjRWtCU0hMdjdvYUt1dE91Ym1pYXl6eHlRUTNGRUVpejNMXy1sTWxHZ2V6bHUxLTU2OE05SGFWWHp3ZE05RUYyU0o4YzQyZWpTYmVOVnRMbVE?oc=5"
     },
     {
-      "date": "2026-10-19",
-      "text": "发出第一度绿电！湖南耒阳光伏项目并网成功 - 国际太阳能光伏网",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE43MWZXb1JrSEJEdWNkVjViUkxmWkVKTkRBT1hEendXMWFhR20tQUJCQVlwTVF3NlFtWkJEZVBOUHBVejAtWmNydy1jbWoyYlJiX1RTSmhqSWcydmFkb1E?oc=5"
+      "date": "2026-10-20",
+      "text": "中信证券：限制出口与新行业规范同步征求意见 光伏行业有望迈向高质量发展 - 21财经",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORnduMFhmazJxbGg4UUhKWGg1Q1JvUDFkOFY4Y3BmaTdCV1g0Sno5dXJObDc1bTlreGFDTjNLYkctdDBVVHdWcXBYTmdORmNvOW5NWE9DTEQ5bG9EYlA4R0JpR3NCcEl4VEdQemcxWDl6T3lyOTlTNFN5SVZNOTZLMXM3UlpPYkpBNmljYTl3TQ?oc=5"
     }
   ],
   "ai_analysis": "",
