@@ -1,68 +1,68 @@
 {
-  "date": "2026-10-20",
-  "hs300": 4152.11,
-  "hs300_chg": -0.54,
-  "med_etf": 0.377,
-  "med_etf_chg": 1.07,
+  "date": "2026-10-21",
+  "hs300": 4111.93,
+  "hs300_chg": -0.97,
+  "med_etf": 0.376,
+  "med_etf_chg": -0.27,
   "inn_etf": 0.815,
-  "inn_etf_chg": 1.37,
-  "cxo_etf": 0.333,
-  "cxo_etf_chg": 2.15,
-  "tcm_etf": 0.902,
-  "tcm_etf_chg": -0.88,
-  "meddev_etf": 0.435,
-  "meddev_etf_chg": 2.35,
-  "vaccine_etf": 2.041,
-  "vaccine_etf_chg": -0.83,
-  "hsi_health": 23867.74,
+  "inn_etf_chg": 0.0,
+  "cxo_etf": 0.332,
+  "cxo_etf_chg": -0.3,
+  "tcm_etf": 0.893,
+  "tcm_etf_chg": -1.0,
+  "meddev_etf": 0.432,
+  "meddev_etf_chg": -0.69,
+  "vaccine_etf": 1.984,
+  "vaccine_etf_chg": -2.79,
+  "hsi_health": 23651.87,
   "hsi_health_chg": 0.0,
-  "hs_inn_etf": 1.263,
-  "hs_inn_etf_chg": 1.69,
-  "tnx": 5.09,
-  "usdcny": 6.6662,
+  "hs_inn_etf": 1.262,
+  "hs_inn_etf_chg": -0.08,
+  "tnx": 5.1,
+  "usdcny": 6.6642,
   "excess": 0.0,
-  "north_money": 209494.87,
-  "north_date": "20261020",
+  "north_money": 222081.91,
+  "north_date": "20261021",
   "news": [
     {
-      "date": "2026-10-20",
-      "text": "国家药监局重磅新政：设立市场独占期，利好一批创新药 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUVZxUmN4Y1ozbHVQU2I4dG5sckhsZ2dTZHJwNnZxY21SZ1VPZjU0Y0s3RFVyaVk3aE5iejIzeXdWY09SUkZJS2ItV3hNQ0kxZEZNSEo1QkFvdHVsd0F4TWJ1YmhiMkt3Sy1senFnYVJ3eE5jRXh1cnR5LUtHYnRWX1BGek5pZElIWENhby1aRQ?oc=5"
+      "date": "2026-10-21",
+      "text": "医药健康“双展”开幕，顺义医药健康主题展区亮相 - 新京报",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAzWHBJaTgwWmlNN292M0w0Q05xaFlBUjZCTnpmLUZXWUhtVlVFOVR2NjRUYUEweUpRcldjQlFLeXhtYjMzM0tXOGRlaGhQTmRyVkVDZ19vdnJFLWt2M0pmaVJnbEc?oc=5"
     },
     {
-      "date": "2026-10-20",
-      "text": "颐圣堂携古方创新成果亮相世界中医药大会 - 中国科技网",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1WeXFIcHJGVy1oanFudWZ6dGZJWEpob25kMXBGa2d1WmlyY3E1SXdEWVdTM2JTZzhCNGhoVHVWSlhqZ25yVmM4cTlLd1VnTGJyQXB5RFBkcEFNSlExZS1FVTBEcF8yMC1SUGQ4VmswaDM?oc=5"
+      "date": "2026-10-21",
+      "text": "顺义医药健康主题展区精彩亮相CMEF系列展会- 中国日报网 - China Daily",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1vcVctNWo0anNuQTNTc1dMaktVZnlIcjBLbl9fNFdBbkhHemt1aUp2NDJoWVJ4UjlFb3B6anZraXNHYzZUSHZXSTB2SWplYm9FUmhoTTMzUWVFc2hoNVExRWR0WVZxN01qTm5heWRrVEZzWFVZOE1xbzZYTQ?oc=5"
     },
     {
-      "date": "2026-10-20",
-      "text": "“一带一路”中医药合作升级 共促传统医药焕新发展 - 中国一带一路网",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBSOHRrM2M3R3QwejYtRnFYalNlVEVvRTRyLWNFUTBRSktwWG9uVVJFcDNmUlZTNnkzQUluT25nQWM5V2UyS09ITXdhWmxwaTdma2ZkbElVMA?oc=5"
+      "date": "2026-10-21",
+      "text": "小小药瓶背后的医药创新之路｜活力中国调研行 - 21财经",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTG1RQ3lCTXdGSTRvN0t0YXR1UTdXbWJBcFJWdEhuZ20zZklRVk9vc0lIZ0FuRzg4eW1iY05Cdkp0N0prUGhWT0p4WlhVeTVlUHA5T0FIOW0xZ0xrVjZkZ3BpMUdTY3F1RW5NQ0hoVm5BeXdYMWliejRDcTJrbmVNT3FiX3lqbmJqblgyY0VDcERRZVp3?oc=5"
     },
     {
-      "date": "2026-10-20",
-      "text": "新华社消息丨前三季度我国获批创新药中国产占比达80% - 新华网",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBFUU9DRnlhM0QzRGxTckxCUUJaVFRnTGxnbVhnUjh5T1A0TjNJRk4zRzZEaWNWX1ZhZmY2WlA0Qk1ZcTJoa1FJd1E4ZmdORU8wU1ZBVWhCaG1yNFhRZk41eWFPRC1XQzRfbEs5MFlwQXlJcGFMZUdr?oc=5"
+      "date": "2026-10-21",
+      "text": "上海谊众：创新药YXC-001Ⅰ期临床试验完成首个剂量组首次给药 - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5KTXdyamxlODJiVDFWT3NIeFlTQjJKUktYR2ZiX1M2YmFBOHhaQXBVdFNzai12N1Z6endtSnh2d0M0dVJTUVFLb2EtNDNnSlBveXktWmU4d1Q4bW9jZS1KbmR3UnJCZw?oc=5"
     },
     {
-      "date": "2026-10-20",
-      "text": "医药板块波动加剧，一文看懂后市逻辑 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcFRRREhkdWpEdkM1bzZHekZjTno1TlJ6NjhQN3BuaUVsM3YtMWZwV21tWEk3LVlybmtIb2Zmakt3UXBsYTJEMS1qdS1MRUJHZWpEVTdLTlFXUzhnR0dMdHM3V0RDaDlDMWJ5MmFGc2JhejhHYjRoVlJOQ0Y4MkpiZkZIWE13a2M1SVY0?oc=5"
+      "date": "2026-10-21",
+      "text": "顺义医药健康产业规模近700亿元 - 北京市人民政府门户网站",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBscXBidF9tcnk1bzA4MDNReUUzNnJqcWZNbWJnN2VZZ3BXR2MxRHZQSzkyOVlOamxZeWItYzRKYU04ZVNUaEtYU0p3QmxQZ1BjV1ZPOXZMOTFwNlQ4ZkhRMXhGZVNFc05lTlBlc3FmaGVfUmJwUXQxVkQxQQ?oc=5"
     },
     {
-      "date": "2026-10-20",
-      "text": "工信部：前三季度我国获批创新药中国产占比达80% - 观点网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1UeWJJSDRMUWItdERhVjlFYk1NQlh2YlQ4VkdjY05KbGVNNGs0dHlpR2ZOaTExT05KNzZDaEo3RUFvVmhVbG5ackRFSmphQTJadkFEcDY2UzRoWXpMamFyTEtR?oc=5"
+      "date": "2026-10-21",
+      "text": "从单品授权走向生态共建 创新药企出海拓新局 - 经济参考报",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPSTVuSlJUM05TYjU4Ui1mNWtiSW8tbnRGVno5YTY2SThXdXRUbXpfdU5Qa2JMM0dTX1hjQm0ySWNhdGMwdFVRZHIteVBTVXYzN0JaMEx6YkZhRVNxVVJnbDY5ZkdRemJJZWRPVGVld1NjU05OdmJUV2MyUWg5UFVEUw?oc=5"
     },
     {
-      "date": "2026-10-20",
-      "text": "医药生物板块上涨1.20% 结构性机会待业绩兑现 - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1SXzg0V1RYR3VjVnVkc1dyNlkzUXNfYXdLYWlOMVJRSTkxbHdGZ1g5cDNnZlNTQmF0aFVoMDJlejVlb2d3YTZHWHd4aWdfTDZYWUJ1UkdYYnpCc1M3QTlMdzVFZWVVUQ?oc=5"
+      "date": "2026-10-21",
+      "text": "上海谊众最新公告：创新药YXC-001完成Ⅰ期临床试验首个剂量组首次给药_上市公司公告_数据解析 - 证券之星",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5wYlU2R0NXbl9PUEl2R1did21GTFlQV29vLVh1UTBVeDY4TVZ3dTJsUnZyRnN2NUVKSkN2dDFPYVhiZ2ZSNmxsemxMQXhEeVllRElOMkZLaExTY0JTSG8wTw?oc=5"
     },
     {
-      "date": "2026-10-20",
-      "text": "创新药如何顺利走向全球？产业链协同护航新药出海 输出药品更输出中国技术范式 - 第一财经",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5VTHBHWEl2WFFXU0xlcHU5VW9HYkVFbnNGMGNQQlhLelBsd2xydmpOcWZVQWtVQzR0eE9HUnZRYzVrWkZFX213VTRjMS1LbnMyemV4dA?oc=5"
+      "date": "2026-10-21",
+      "text": "国际青年福建中医药文化研习营福州开营 - 搜狐",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMjVhMHhPVTNxbHl0ZW80YmtjX0VGU3NESE9NMWl2dS02aFVjYnlBUk1rR1NXNzk0eTRZcl9CTVpoX0tzMWxpRUtBRDZvREJxSFJxQW1YRmlHMkFhSzZmMlBxVHZBX1dhM3RfUlRIVjAzSU8yVi1CdWdrdTltUHpDNEhGSVFCOGVa?oc=5"
     }
   ],
   "ai_analysis": "",

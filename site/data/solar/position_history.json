@@ -38,5 +38,10 @@
     "date": "2026-10-20",
     "pb_ratio": 0.0333,
     "turnover_ratio": 0.749
+  },
+  {
+    "date": "2026-10-21",
+    "pb_ratio": 0.0667,
+    "turnover_ratio": 0.839
   }
 ]
