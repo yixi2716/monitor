@@ -1,73 +1,61 @@
 {
-  "date": "2026-10-21",
-  "copper": 6.565499782562256,
-  "copper_chg": -0.01523497037132504,
-  "ma20": 6.584749984741211,
-  "ma50": 6.5771800136566165,
-  "dxy": 101.75399780273438,
-  "vix": 17.260000228881836,
-  "tnx": 5.1020002365112305,
-  "wti": 97.86000061035156,
-  "cu_oil_ratio": 147.90958553398278,
-  "shfe_cu": 108780.0,
-  "shfe_cu_date": "2026-10-21",
-  "shfe_lme_ratio": 1.044,
+  "date": "2026-10-22",
+  "copper": 6.416500091552734,
+  "copper_chg": -1.9333658172411394,
+  "ma20": 6.568525004386902,
+  "ma50": 6.573210020065307,
+  "dxy": 101.86599731445312,
+  "vix": 19.15999984741211,
+  "tnx": 5.015000343322754,
+  "wti": 98.3499984741211,
+  "cu_oil_ratio": 143.8326858292857,
+  "shfe_cu": 107590.0,
+  "shfe_cu_date": "2026-10-22",
+  "shfe_lme_ratio": 1.056,
   "lme_stock": 296625,
   "lme_stock_date": "2026-07-17",
-  "shfe_stock": 27214,
-  "shfe_stock_chg": -5753,
-  "shfe_stock_date": "2026-10-21",
-  "lymy": 14.15,
-  "lymy_chg": -1.39,
-  "tl": 5.19,
-  "tl_chg": 0.19,
-  "jxt": 37.95,
-  "jxt_chg": -0.32,
-  "cper": 39.47,
-  "cper_chg": -0.7,
-  "copx": 77.77,
-  "copx_chg": -1.74,
+  "shfe_stock": 23787,
+  "shfe_stock_chg": -3427,
+  "shfe_stock_date": "2026-10-22",
+  "lymy": 13.85,
+  "lymy_chg": -2.12,
+  "tl": 5.04,
+  "tl_chg": -2.89,
+  "jxt": 36.28,
+  "jxt_chg": -4.4,
+  "cper": 38.64,
+  "cper_chg": -2.28,
+  "copx": 73.61,
+  "copx_chg": -5.65,
   "signals": [
     {
       "name": "铜价低于MA20",
       "dir": "bear",
-      "text": "$6.57 < MA20 $6.58"
+      "text": "$6.42 < MA20 $6.57"
     },
     {
       "name": "美元中性",
       "dir": "neutral",
-      "text": "DXY 101.75"
+      "text": "DXY 101.87"
     },
     {
       "name": "风险偏好正常",
       "dir": "neutral",
-      "text": "VIX 17.3"
+      "text": "VIX 19.2"
     },
     {
       "name": "铜油比偏高",
       "dir": "bull",
-      "text": "铜油比 147.9，工业景气预期强"
+      "text": "铜油比 143.8，工业景气预期强"
     },
     {
       "name": "实际利率高企",
       "dir": "bear",
-      "text": "10Y 5.10%，压制金属估值"
+      "text": "10Y 5.02%，压制金属估值"
     }
   ],
   "score": -1,
   "news": [
-    {
-      "date": "2026-10-15",
-      "text": "Tariff Arbitrage Collapse Strands US Copper, Lifting Ex-US Pricing",
-      "src": "Crux Investor",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUEtHZ1JCNjBrVGE2cTFFdWxVTzVZU1lxZmxia3RMWU16OUZnZ3dRNDlONEpjU3Z0M2JxbVBIRjB6S3p1QW5Nck1Lb2g3cGtnb3hHMjg2c2JBc0g0SmEyYno3dElqanV1R3hvQ0d3dlJvOG00RTRtTXdFcXkxbndlenZMMTg4b3hpQ3ZtbVpnVTZBY2p6NTFXWGV0cDNSa0s2cmc?oc=5"
-    },
-    {
-      "date": "2026-10-14",
-      "text": "Copper price forecasts lifted for 2026 but tariff “collapse” still on the table",
-      "src": "Mining.com",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUXdLa1dPTUMwTjlJYWRvaWhwQkV4Z0tXVUV0MDRTR0YxTHp0SnBFMjIwWDZBZXBWS0N1azNLeGFOdVA2T0tER2V1N05ZTXN1bW1veWJhU2JUeEVGSEItZFh5d3BxYnNtMGxJbXhQeEtac2RBZTFMTjJCS211bXVZQlptdG9QVF9NN2JXck9zemt2Q29CS2FzaGRpQTZDY3d3WjZ3?oc=5"
-    },
     {
       "date": "2026-10-20",
       "text": "Idaho Copper Updates CuMo PEA: US$1.88B After-Tax NPV 18.5% IRR & 46-Year Mine Life",
@@ -75,25 +63,37 @@
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNWm9MWlB6blVlSy1VRkhhcU1SUjI2Uk9PcS1yM3NCMW5aLV95N2hDRktHUkxncXBySWtSSWJHX1phYVF0QVdHUVpPRlVlcmx2dDFNcVV4R1RIWDZXdGtyNGF4TXVwNjA0VjBEQW8zX3J5ZFotRF9PMHN0SHlPNGJHVlpjTVhEQnpYV1dnSXpMUm4wX3VlVVFRZlljT3VaODF1LXE5V2hKSWpESmtHNzJqTElaVGRkd0pTa2UtRUNCYTk3WmM2aTc1QmNfZERDcDNxMlJ2Z1g1ZHc?oc=5"
     },
     {
-      "date": "2026-10-14",
-      "text": "Copper Bulls and Bears Clash on Supply, Demand as Forecasts Diverge",
-      "src": "NAI500",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZkxMSzFtT1NDTThsVmJoX3FHYTlEam52bXdDblVpNVF2Yld1c0xCcHBZazF1SWE0NFkyY0Q5bGFXNGtFZDdrU3JGaTBOZmdKRDQ1R0pWeW9QZE9NV0JvUC1mQnBxSFRWUHU4UDQxTjdrVkRETWUyNjdnV2NNS0tzQ08zUmlyWDQxZnktUms3YWVNeDF4TGxsTFNQYUpyOWth?oc=5"
+      "date": "2026-10-22",
+      "text": "New Finds in Old Ground: How Modern Exploration is Revisiting Historical Deposits",
+      "src": "Investing News Network",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUFlLLW9hbnpON19XN0ZfRG5idU52ZXA3ZGdxd01ORUEzMHh5SGZOcnhiY2hIOHZVeDJoZUtiUFVPVl9qWnJVUHhwSUdzclJoM3M4STFCbTZ0Y3lRbjNWRXBSUXdSVzNmWFlNOUVwbDZ2VnkwY0VUVzBQcVBHTnpEN1hTOGdpRWpvcy16dk96ZTN6ZzRmYnpZOWEyUHRJcnZKdGw3U1ZrMG43VDg?oc=5"
+    },
+    {
+      "date": "2026-10-17",
+      "text": "Comfort Systems: A More Balanced Outlook, But Still A Buyer",
+      "src": "Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTUxGZllqNHdsUVRrQk5LbEJGNldOa292blJTUlZ2c2NiU291V3A4M0lZMURZbEpSTjdnaVlzc09udUVnVjRfUDllaE95NUFRN0hrWHcxaGtYX1oxc0tPTi1TRHoyM2ZkaWZ5MkVHT2VZNEczZnVwSFl1dlFJMmhZX0RDWTFJYUswZ1RSeWl6Y0FCc1haQ0lha1IxLUE?oc=5"
+    },
+    {
+      "date": "2026-10-21",
+      "text": "VR Resources Advances New Boston Drill Planning",
+      "src": "Streetwise Reports",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcHBCQnUtckcyOTVKM1pwN3IyOW1jNVFNU09adXNncVlUSFVfLW1saTN6RkdwdDRrNW9qR3AyaFFNVEhMODljN0hMYWVUdnlrWHJfR2NUSzNZcXlkTTJtblVVdVg3VkIzZkpBR1dUZjl1T2hZNzVxOHZXODFmMWtHTkpPQVNoMGRDdGo4Z1VTbDE2M2RnWm1BSXRaWjNWNlpsWkNqSlJjMDc?oc=5"
+    },
+    {
+      "date": "2026-10-19",
+      "text": "Commodities Update October 2026",
+      "src": "Westpac IQ",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNGl0QzY1aWJjX3ViWGhEdEpBbXdKcFIxc2Jxb0xWZ2FCem9XbElBNE0wR3ktM3ozcVIwdF9qWVppQkNMcHEwZjVKcW1OSFllbVNOSGdpWlkxQlBqWDZPTHAzSFBDWmNmYm9mMmNYVFdGZXNwOVZPazM4Y0JwYk5KNGo2bEQ?oc=5"
     },
     {
       "date": "2026-10-15",
-      "text": "Copper's record 2026 rally is the AI infrastructure trade nobody priced in",
-      "src": "Startup Fortune",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQk9XOHU2cFFEcF8zejNsdGpoYWtweVNuWlVpQXcwOHdNZXhjTjk1am1kMGdBUzBHVTNTakhBQXZMeU9tNllHekRWRjN1RS1UOFVYUVpqb3dLb29PLUtqMHRLb2laVlpGT2haWFNvbHpMc1p3QlUybXIwUGRuVmI1d1Zxa0h5VGJVcXRBc01zaUMycEc1YmdVazV4TUJLWmxWWkJF?oc=5"
-    },
-    {
-      "date": "2026-10-15",
-      "text": "Copper price forecasts lifted for 2026: market balance lens for mine planners",
-      "src": "Geomechanics.io",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZk5tWEtib3R1bHB2MldyQWFUb09obFQzM0hXSmwtRW9hQ0ZYMUFFUFVCQ0k0QjZDRTBlTk1GeWVyZC0wRGZlbGlreGRsM2ZrUWIxdXdWalFxczc3WkhsUDNnR3Zvb1I2RTJPNlVsbjNiTngxdzJBazltYmtaMlN4RDNRRFJqa2h6ZE9PMXpFNERCUjF5cUhGTWFQZVRnSGhKNUdITnE3ZVpMNTJmdTdpUkYtZUFCZjJQ?oc=5"
+      "text": "Aluminium Alloy Ingot Procurement Guide",
+      "src": "ChemAnalyst",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPMXdZRGRWZTRvZUxHTEFGaFJmUjVYbmx2TFo1WkVKQVFROGl5Q3hDc2dVTGxGTndlVVluY0Nhc0dXbmVhNXhZUHVzb0V6MDVFOXRGQmVDVThKcktrNy1fU0ZwVU5hQzJaRjlfNS0xaTdFU1RreVRNZktMYWZrMm9tVDFIcTZWWmo3b0g0dUNwNmwydWs?oc=5"
     }
   ],
   "ai_analysis": "",
   "ai_error": "未自动生成，点击按钮手动生成",
-  "ai_date": "2026-10-21"
+  "ai_date": "2026-10-22"
 }

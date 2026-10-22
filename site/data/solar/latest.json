@@ -1,89 +1,89 @@
 {
-  "date": "2026-10-21",
-  "hs300": 4111.93,
-  "hs300_chg": -0.97,
-  "solar_etf": 0.717,
-  "solar_etf_chg": -0.14,
-  "newenergy_etf": 1.984,
-  "newenergy_etf_chg": -2.79,
-  "storage_etf": 1.458,
-  "storage_etf_chg": -2.8,
-  "tnx": 5.1,
-  "usdcny": 6.6642,
-  "excess": 0.83,
-  "dd_from_high": 0.3939,
-  "pb_ratio": 0.0667,
-  "turnover_ratio": 0.839,
+  "date": "2026-10-22",
+  "hs300": 4036.3,
+  "hs300_chg": -1.84,
+  "solar_etf": 0.706,
+  "solar_etf_chg": -1.53,
+  "newenergy_etf": 1.945,
+  "newenergy_etf_chg": -1.97,
+  "storage_etf": 1.426,
+  "storage_etf_chg": -2.19,
+  "tnx": 5.01,
+  "usdcny": 6.6745,
+  "excess": 0.31,
+  "dd_from_high": 0.4032,
+  "pb_ratio": 0.0333,
+  "turnover_ratio": 0.803,
   "stocks": {
     "tongwei": {
-      "close": 11.25,
-      "chg": 0.0
+      "close": 11.15,
+      "chg": -0.89
     },
     "zhonghuan": {
-      "close": 8.84,
-      "chg": -0.56
+      "close": 8.69,
+      "chg": -1.7
     },
     "junda": {
-      "close": 34.65,
-      "chg": 4.18
+      "close": 35.8,
+      "chg": 3.32
     },
     "longi": {
-      "close": 10.99,
-      "chg": 0.37
+      "close": 11.16,
+      "chg": 1.55
     },
     "flat": {
-      "close": 9.03,
-      "chg": -0.11
+      "close": 9.04,
+      "chg": 0.11
     },
     "jiejia": {
-      "close": 50.66,
-      "chg": 1.36
+      "close": 50.13,
+      "chg": -1.05
     },
     "sungrow": {
-      "close": 72.3,
-      "chg": -4.92
+      "close": 70.51,
+      "chg": -2.48
     }
   },
   "news": [
     {
-      "date": "2026-10-21",
-      "text": "晋能控股光伏制造有限公司与纤纳光电开展钙钛矿-晶硅叠层技术交流 - 国际太阳能光伏网",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE94U19zM0dXNHcxTWlHVTZCM3hNWklkaW55VE1aR3ByU2tWSUdzQjctbDAyMHhzZzlEWUFyX0RMME9KeEZ1UUwxYlljakRPVXBoaUNkQ3FablZmeFA3?oc=5"
+      "date": "2026-10-22",
+      "text": "光伏新规还未实施 部分组件已退出大单竞争 - 经济观察网",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE56eUhQSVZuUEtoV3NINi10RjQ3U1FMbjExZ2t4U1dZZ2llQXVPUGprLXZMLUViOXlBclRreFpOLUduOXE3aTBBWXc2U0dHN2JEYncyclMydXh3UQ?oc=5"
     },
     {
-      "date": "2026-10-21",
-      "text": "硅业分会：市场按需采购 本周多晶硅价格平稳运行 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWm1wQ3I4VmxTMHR3NWh2eFZXMlNGYUhhRjRFeTNLa01wQ2Z2YkE4SWFCbHU0VTFIM0FMMVQ1OFpLc3ByZ3dGVnROWlBEd0hGOVhFRFdWa0NNQ05ac25adWhtMnJQNVM2SE9JZ2puWFVqQ2xRWHlaNUJuYVo0RGszNlNJbnkxdTd0SjV5TlRJWXNqXzFM?oc=5"
+      "date": "2026-10-22",
+      "text": "云南大学研究团队在水下光伏电池的研究领域取得重大进展 - 中国日报网",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9NRmZhYUtwZ2ZQS28yMVhyS0hQeTZvUUxjZ3gtUVdNdnk5eXpuYWpDeDNMT0ZBY3EwR29CanM5S1NSc2RaaXhnOEdBQjd1QVI0Sy1lTWRYOXpoQjA3cU1SWXNlT1NNZmg2M0h4WUg5cVY4MDJlUnBNZHBKRC0?oc=5"
     },
     {
-      "date": "2026-10-21",
-      "text": "银湖光启1290KWp光伏项目复核通过 总投资800万元 - 观点网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1PZWhmYTFoU1VkYVQtTlpILUFpUkZmSEUtd19DbEdiOE9mdmxxd3lIc09tc3BzNE9UOThxUEVacDlXUkdyblJoemRvVFAxVXM4QnNwbUZqWGV0ZXhaVjNqSmJB?oc=5"
+      "date": "2026-10-22",
+      "text": "晋能控股光伏制造有限公司携光伏产品重磅亮相广交会 开拓海外新市场 - 国际太阳能光伏网",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBFYms4TE5GVnZxalhzZi00LUdtVWFvcWpERmZybXJGazZRbGxrSU83ZTZ3MmFhdmlWeU90WHJPMmZZXzJqcmNablo0NmRSZ3lmbTZLT0dqc3ZlSTVm?oc=5"
     },
     {
-      "date": "2026-10-21",
-      "text": "综述丨中国“绿电出海”为发展中国家能源转型添动力 - 中国一带一路网",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9kNkpxdVR3cUg1Zl9fd2h1V0ZBaEtuVG1pOGJ1SmlNeUJobWxRVXJaLTNxOTlIbGlndDRQXzh0VEFtMl95ZnBHRVJJSWUyNGFXUmwzOEVIVQ?oc=5"
+      "date": "2026-10-22",
+      "text": "智源新能广州1.07MW屋顶光伏项目备案通过 总投资350万元 - 观点网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE13YXVhV1dRR1dUMF9YdTZtWVc1Z0lGVXdkekJOX2J4blVzOGVSRmdyaWxWYng5UE5VeEJENlpSNDBaZ1BNNzVLTlJSVWF0UmtwTzJiS2ZMTkNaWVhXM0htMWx3?oc=5"
     },
     {
-      "date": "2026-10-21",
-      "text": "广州发展拟7.33亿元投建重庆黔江200MW光伏项目 - 证券之星",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1oaGp4b0dCX1R0ekxOZVFia2ZtUVNaS0VVVXpWZm10ampXLUxZX2h6WWo5SzdHRVEzWl9XZXpvbmY3Q2tSTW9kN1djWkdmUTNtQzFjNS1qX2VQeGJpaGxsdw?oc=5"
+      "date": "2026-10-22",
+      "text": "中国光伏行业协会刘译阳：光伏行业仍处深度调整期，现在是要减量发展 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBvN05RNUNBUjR1ejRrNDdabjdXNWtITTE1Rm15ZG9oZUpyd3BTQVNaMERlNmlXTzFQekdTS3J5VFVEdjBSS2J4NkVHMlo2Y0x3bDFCZG5SemZWOVZSS1BCa2tVc0pXQ3JweFVyS3ZMczVwbTJFeUlKMQ?oc=5"
     },
     {
-      "date": "2026-10-21",
-      "text": "塔吉克斯坦阿什特250MW光伏电站稳步推进 已实现多批次并网发电 - 中新网·新疆",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOSjJEV0oyTkNSZGQ5REpLQ09XXzNzZVkycllKR0ZMZHZESm00Y1RQVjFFNWVCLUFzZHd2YURXTXRTRTFRaEUxVGI4bjRuTDVZTVc3eHA2UW40N2plX2U3dVdwUlJ2bXMyeWtjU2RQMUoycTRxekN6RF9USUJLSmEwUUR6NA?oc=5"
+      "date": "2026-10-22",
+      "text": "10.22光伏价格：多晶硅市场企稳预期增强，下游产业链供需博弈加剧 - 集邦新能源网",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5QQzJYbmNQbXhpcENjVURiWl9vLWtMS01sU29UZGR1bWthalVJRF84eG1la1BpQUcwSTlpVzRLQlEtZE42SWRMZmloUTFwUVd0VGd4M3JURGlPblJxdkZZejhESUthSDRSbng0?oc=5"
     },
     {
-      "date": "2026-10-21",
-      "text": "合计2.46亿，晶澳扬州两个光伏电池项目环评公示 - 集邦新能源网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE15T0Q2NWxjbk1aMFIxc2RTanpaS3ZSYWxfWkg4ZGVUM1BmQ1h2ODNrbkdCN0QzNlBMOHZrRERnX2ZDNkszZHdiMG9rTUpMN1locVdHdnpGZ3hTMTJaMHZfbWtB?oc=5"
+      "date": "2026-10-22",
+      "text": "有研硅：这类高附加值硅片壁垒高、供给紧 - 证券之星",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBqNmw2WWExZk5XeDlVaG01MWVCWXRYaDdJd19BVy0wMzJZUzRWR0dkbjB0MWR2UEtxTXkwdVRXTUFpamFYdkljdVRKeUNlWWxyRUFOc2l6S1c2Y1AxeWdzUQ?oc=5"
     },
     {
-      "date": "2026-10-21",
-      "text": "集团公司6项目获国家优质工程奖 - 国家能源集团",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWmhOVDQ3UlRncGRneDhrUndMaVdxWGNjUW9aR3Z5MGNJX2JTTmpDVVpzQVJXT3RIdGVRN19tczlHZnVzMjZSeFN4X2pnWkRoREdHbHV6TTduYUF4ZEJQZWtTbzRfQ19rZ3oyR2c0amtxcWpNNlpYUEEwSzYxdGRIY1JhR1JHU3pEQ0dnNndn?oc=5"
+      "date": "2026-10-22",
+      "text": "海南州共和县百万千瓦光伏光热项目成功并网发电 - 中国新闻网",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4zcVRDSGMxd1RsVWxid0o0SUNUOWJsSUk1RDI0RU5Yakh2eUtVNE5UdVlKXzl1czlfQ3NGWWoxTzBsUjg2OWdjbjNhNG9OSzd5cHFyR0RxSzhrczRETG43STlFdE1LZ19oa2R3S1FvcTM?oc=5"
     }
   ],
   "ai_analysis": "",
