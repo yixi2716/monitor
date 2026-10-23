@@ -1,68 +1,68 @@
 {
-  "date": "2026-10-22",
-  "hs300": 4036.3,
-  "hs300_chg": -1.84,
-  "med_etf": 0.368,
-  "med_etf_chg": -2.13,
-  "inn_etf": 0.791,
-  "inn_etf_chg": -2.94,
-  "cxo_etf": 0.326,
-  "cxo_etf_chg": -1.81,
-  "tcm_etf": 0.877,
-  "tcm_etf_chg": -1.79,
-  "meddev_etf": 0.429,
-  "meddev_etf_chg": -0.69,
-  "vaccine_etf": 1.945,
-  "vaccine_etf_chg": -1.97,
-  "hsi_health": 22934.68,
+  "date": "2026-10-23",
+  "hs300": 4105.33,
+  "hs300_chg": 1.71,
+  "med_etf": 0.376,
+  "med_etf_chg": 2.17,
+  "inn_etf": 0.81,
+  "inn_etf_chg": 2.4,
+  "cxo_etf": 0.334,
+  "cxo_etf_chg": 2.45,
+  "tcm_etf": 0.882,
+  "tcm_etf_chg": 0.57,
+  "meddev_etf": 0.441,
+  "meddev_etf_chg": 2.8,
+  "vaccine_etf": 2.002,
+  "vaccine_etf_chg": 2.93,
+  "hsi_health": 23093.37,
   "hsi_health_chg": 0.0,
-  "hs_inn_etf": 1.178,
-  "hs_inn_etf_chg": -6.66,
-  "tnx": 5.02,
-  "usdcny": 6.6647,
+  "hs_inn_etf": 1.206,
+  "hs_inn_etf_chg": 2.38,
+  "tnx": 4.99,
+  "usdcny": 6.6697,
   "excess": 0.0,
-  "north_money": 232622.08,
-  "north_date": "20261022",
+  "north_money": 313178.26,
+  "north_date": "20261023",
   "news": [
     {
-      "date": "2026-10-22",
-      "text": "朝阳把中医药服务送到百姓家门口 - 北京市人民政府门户网站",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5oS0FCWTBHanNUMWZnMVZ1d3J3cFltZjhVVGRJM1ZXd2NSM2YyQnY3cFE4VXlKakJ3aE13ajNrZm10Q2szVmNWRDFCRW04azhRdUVuNC1hbVB0TjE4UjM4RW1qR0V6UkYwY3ZjdVlxdkctcWsw?oc=5"
+      "date": "2026-10-23",
+      "text": "泰州市医药高新区（高港区）长期护理保险重度失能评估结论公示 - 泰州市人民政府",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNM0lKZlNrcXJOLWtlZVR5bHVxR0tKZXpEaW1vREthZFRVNWlyT2c4M3NmenhraFVRZjVheURpSktKRjAxMDU3VHByaDRQRHFiOVVnRWM4Tm1naVRDRDlPTzdhRk0xemFFX2I5Z1ltZDFhaElxZDF6WlRBc1g3bDFiVUxhX0hYQzQ0cGhCYmhR?oc=5"
+    },
+    {
+      "date": "2026-10-23",
+      "text": "盐城市大丰区举办中医药宣传月暨敬老月大型义诊活动 - 新华网江苏频道",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1YRE9NbnR1WHY5TVl4S1N0a0ZRSENhNWkzT3VFbUg4RDFlNHVRdmU2d2dZcHQtVjVHM05ZTHdhbFZiWS1qZkc1SWJveHlLanpoQmpCV0dueGpVQnpIRm95ZFI5dmwzVlVJaWUtODRpTktCMWVf?oc=5"
+    },
+    {
+      "date": "2026-10-23",
+      "text": "上海合作组织传统医药产业联盟—伊斯兰合作组织常设部长级科技委员会传统医药产业发展交流会在京顺利召开 - 北京市卫生健康委员会",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9GY0M2TWNELXBrcXljWF9SUm91elJ6OWdYTXNrSUdudVNWY2RRS19GRUlwRHI5bFlBd1dMWWkwNDJ6Ql9ZekxYTm9Ea0hlenVsSXdaaGltY1h5RVZHZ0FzeTRiLUhmYVhjUlp0N0ZhZGlfRVdlcWpLc1c1LTM?oc=5"
+    },
+    {
+      "date": "2026-10-23",
+      "text": "步长制药亮相2026世界传统医药大会 - 健康报",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5SVW5JVFoxNHlKa0pqZXpDNFdLQk5hT2RxNVN1Uy1nTmRMcDZOSzVUUjFLREZPb25FUEx0X0VycUd6aEFoWll0LVFza2ZGdGxYak1PTnIzcWE5bkFaT2Rn?oc=5"
+    },
+    {
+      "date": "2026-10-23",
+      "text": "亚盛医药盘中涨5.26% 国产首个Bcl-2抑制剂获突破性治疗认定 - 观点网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBwWEVwU3hNM2VOSGdGRzBvd3BjVDV0d1N5cDFmMngycm1mdm53cE5teThsVXZNVjI4a1JfbFpVTWVjbE1XZ2hxd1JWQjE3bXZPNWpKZ0NPNnZ2MWhmUXp1aG5R?oc=5"
     },
     {
       "date": "2026-10-22",
-      "text": "医药数字营销须以合理用药和患者获益为标尺 - 新华网",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQTNXa3JuOWtrV0lWNVRpNzlkdFppSUd1ZTItZ0hQOGNiZlQzbVRfSmk1YmtkMlZhWVZxRzZYTlZ0RFdvZFpiQ211QXpoT3A5a3BtbElZRjFzeGpuQkdyUW9ZWlMwbGxGamtiRGRVVDFYRkY0eEhEMm1XR05aZ1kwYVVJeEFYS28?oc=5"
+      "text": "我国首个民族医药领域国家标准外文版发布-政务公开 - 青海省人民政府",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE90QndzVl9ocUd2NUdpaXNKVnZTSWdQQkloNExGVk5HLUY5ODdXbkVRYVFYWndiMEhnT2JUd2VPTVI0enlWV0dQZ0JTRHRNVklYdUtMb2VnT3dwUXQwam1ST0FNeFZ1Z3dreEhkRktYRURIZw?oc=5"
     },
     {
-      "date": "2026-10-22",
-      "text": "湖北医药学院领导一行来校调研交流-首医要闻 - 首都医科大学",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE80U2JibmxpdEZ4ZFpKSHdKUVhCeWR2SXowcjlha203enBxc2lFNUtzd3lMdjhWR1FqZnFpN09YanJSZklheGdSVnQ2QzhhdWtYSnY5b1NYZzVkbE5ENDg3Sk4ydGNycmkxelEzcGozT3JqUjd4bk9hejh3QXI?oc=5"
+      "date": "2026-10-23",
+      "text": "港股创新药配售：牌桌重开，玩家换人 - 新浪网",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQOWJjbzN4RW1kVFBKWHlLYzFmaks5RU9KQUNUY3Vydm9wZ1JJd0ROeHJ3YWM1Y25RMmhBRUVnT0NsNnhNN0s2eDFObWRaYnBYUGdFUlpsNnZaQWlQSGQ4NXBZTEFpQ0tLUmNYaHFYNzg4T3ZhTzdZRWN2TmlYS2FlUDB3?oc=5"
     },
     {
-      "date": "2026-10-22",
-      "text": "西藏：千年藏医药的传承与发展 - 新浪新闻_手机新浪网",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5mSlFOcGRlNVFMYWx3dlVDT2w1Q1g2bjFleEJrMzF4YWZuQjNyWFRucmRTT0VBTG80TnRMNGZrUGZFYUlHa01sRVBkSVk2WThFYVJib3RTVmItaWZ5Snhud0s1V0N0bEJGWHZWT090V3RtNkE2R0E?oc=5"
-    },
-    {
-      "date": "2026-10-22",
-      "text": "国家医保局：医保钱包就医购药范围不断扩大 - 21财经",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORkdWMWgxV1ZtalhRSUZMMWo3RTNiR1NZZmJ3Rk1YNXIwNTJFRUZxTG02TEwzZ1h2SjFtYnlRVXJKTTdWbThlQXMxUjA2MUI1RG96c3M2c0pUd04zLXlkNElqbTY2N2k3U2tTT21WdEdfQmJLOTZwdFVOZUk1VmZyOUNma3hmdk8zRFNOUlVUZw?oc=5"
-    },
-    {
-      "date": "2026-10-22",
-      "text": "从一颗“芯”到一瓶创新药：海南硬科技产业加速突破 | 活力中国调研行 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFA1TnBvS2hwUHZ2NUxUN0JSYkdVMFBFcEd5RzJGUDdpZG1yYjAzWkV5cWZlZEphcXpJMGFXRWdoT0tqb0lRV3hXaw?oc=5"
-    },
-    {
-      "date": "2026-10-22",
-      "text": "昂利康股价异动，公司目前在研的创新药项目仅有1个 - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE04Q3ZMcUZGNF81YWx5dGc2UWR1WUtSVVUwcXpvVU4zNDZMQ08tcWxfUUpSdWQteG5rNlNtVkY2b1owc0x2NWtMZVMyWHhpZHg2UGloS3dvNTRFelAzZ0tHOEZua1lOZw?oc=5"
-    },
-    {
-      "date": "2026-10-22",
-      "text": "礼邦医药-B(09637)股票股价_股价行情_讨论_资讯_财报_数据报告 - 雪球",
-      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5rWHU2ODVzSUNwNHliWDZ4dzBESWxsdUwwOUl3UHhCR3U4MmdOZUx3UjV1R01BNVlDZnhxTlBsZw?oc=5"
+      "date": "2026-10-23",
+      "text": "2026年广西中医药养生嘉年华暨中医药文化服务周启动 - 央视网",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9tN2c5dlhfT01aZjdOZkY2RlJKWFo1Rkt5TW9lR09Jc3lJWjI1a0F3SUNhNzEwbVJBWDVUOVR1S2J0MzlHMHpFM3hyUUJ0T2dXRXhybmxnX3k1a0xIUWItOFVRQXlTUHgyTlh1akJFdlhUaU5tamVWM1hn?oc=5"
     }
   ],
   "ai_analysis": "",

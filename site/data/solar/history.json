@@ -4028,7 +4028,23 @@
     "jiejia": 50.13,
     "sungrow": 70.51,
     "hs300": 4036.2966,
-    "tnx": 5.015,
-    "usdcny": 6.6745
+    "tnx": 4.953,
+    "usdcny": 6.6779
+  },
+  {
+    "date": "2026-10-23",
+    "solar_etf": 0.717,
+    "newenergy_etf": 2.002,
+    "storage_etf": 1.475,
+    "tongwei": 11.45,
+    "zhonghuan": 8.6,
+    "junda": 34.32,
+    "longi": 11.3,
+    "flat": 9.17,
+    "jiejia": 51.55,
+    "sungrow": 72.2,
+    "hs300": 4105.3286,
+    "tnx": 4.988,
+    "usdcny": 6.6596
   }
 ]

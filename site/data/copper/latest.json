@@ -1,72 +1,78 @@
 {
-  "date": "2026-10-22",
-  "copper": 6.416500091552734,
-  "copper_chg": -1.9333658172411394,
-  "ma20": 6.568525004386902,
-  "ma50": 6.573210020065307,
-  "dxy": 101.86599731445312,
-  "vix": 19.15999984741211,
-  "tnx": 5.015000343322754,
-  "wti": 98.3499984741211,
-  "cu_oil_ratio": 143.8326858292857,
-  "shfe_cu": 107590.0,
-  "shfe_cu_date": "2026-10-22",
-  "shfe_lme_ratio": 1.056,
+  "date": "2026-10-23",
+  "copper": 6.46150016784668,
+  "copper_chg": 1.5559917350726593,
+  "ma20": 6.554125022888184,
+  "ma50": 6.569370021820069,
+  "dxy": 101.70500183105469,
+  "vix": 20.25,
+  "tnx": 4.98799991607666,
+  "wti": 102.47000122070312,
+  "cu_oil_ratio": 139.0177840376569,
+  "shfe_cu": 107900.0,
+  "shfe_cu_date": "2026-10-23",
+  "shfe_lme_ratio": 1.052,
   "lme_stock": 296625,
   "lme_stock_date": "2026-07-17",
-  "shfe_stock": 23787,
-  "shfe_stock_chg": -3427,
-  "shfe_stock_date": "2026-10-22",
-  "lymy": 13.85,
-  "lymy_chg": -2.12,
-  "tl": 5.04,
-  "tl_chg": -2.89,
-  "jxt": 36.28,
-  "jxt_chg": -4.4,
-  "cper": 38.64,
-  "cper_chg": -2.28,
-  "copx": 73.61,
-  "copx_chg": -5.65,
+  "shfe_stock": 19058,
+  "shfe_stock_chg": -4729,
+  "shfe_stock_date": "2026-10-23",
+  "lymy": 14.23,
+  "lymy_chg": 2.74,
+  "tl": 5.1,
+  "tl_chg": 1.19,
+  "jxt": 36.92,
+  "jxt_chg": 1.76,
+  "cper": 38.89,
+  "cper_chg": 1.09,
+  "copx": 72.53,
+  "copx_chg": -0.82,
   "signals": [
     {
       "name": "铜价低于MA20",
       "dir": "bear",
-      "text": "$6.42 < MA20 $6.57"
+      "text": "$6.46 < MA20 $6.55"
     },
     {
       "name": "美元中性",
       "dir": "neutral",
-      "text": "DXY 101.87"
+      "text": "DXY 101.71"
     },
     {
       "name": "风险偏好正常",
       "dir": "neutral",
-      "text": "VIX 19.2"
+      "text": "VIX 20.2"
     },
     {
       "name": "铜油比偏高",
       "dir": "bull",
-      "text": "铜油比 143.8，工业景气预期强"
+      "text": "铜油比 139.0，工业景气预期强"
     },
     {
-      "name": "实际利率高企",
-      "dir": "bear",
-      "text": "10Y 5.02%，压制金属估值"
+      "name": "利率环境友好",
+      "dir": "bull",
+      "text": "10Y 4.99%"
     }
   ],
-  "score": -1,
+  "score": 1,
   "news": [
-    {
-      "date": "2026-10-20",
-      "text": "Idaho Copper Updates CuMo PEA: US$1.88B After-Tax NPV 18.5% IRR & 46-Year Mine Life",
-      "src": "Streetwise Reports",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNWm9MWlB6blVlSy1VRkhhcU1SUjI2Uk9PcS1yM3NCMW5aLV95N2hDRktHUkxncXBySWtSSWJHX1phYVF0QVdHUVpPRlVlcmx2dDFNcVV4R1RIWDZXdGtyNGF4TXVwNjA0VjBEQW8zX3J5ZFotRF9PMHN0SHlPNGJHVlpjTVhEQnpYV1dnSXpMUm4wX3VlVVFRZlljT3VaODF1LXE5V2hKSWpESmtHNzJqTElaVGRkd0pTa2UtRUNCYTk3WmM2aTc1QmNfZERDcDNxMlJ2Z1g1ZHc?oc=5"
-    },
     {
       "date": "2026-10-22",
       "text": "New Finds in Old Ground: How Modern Exploration is Revisiting Historical Deposits",
       "src": "Investing News Network",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUFlLLW9hbnpON19XN0ZfRG5idU52ZXA3ZGdxd01ORUEzMHh5SGZOcnhiY2hIOHZVeDJoZUtiUFVPVl9qWnJVUHhwSUdzclJoM3M4STFCbTZ0Y3lRbjNWRXBSUXdSVzNmWFlNOUVwbDZ2VnkwY0VUVzBQcVBHTnpEN1hTOGdpRWpvcy16dk96ZTN6ZzRmYnpZOWEyUHRJcnZKdGw3U1ZrMG43VDg?oc=5"
+    },
+    {
+      "date": "2026-10-22",
+      "text": "Adamera Expands Glix Gold Skarn Work at South Hedley Near Historic Mines & Hudbay's Copper Mountain",
+      "src": "Streetwise Reports",
+      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPQlpLdWY0d01BU2p2anNkdGNlb1BjRnVWVWpfa1U3RF9BWklBZFJDODUxY1VaVDhqdENpNFBWUkljR1EwbEdJYVVWZEdPaU1SQkFjWlVnU0R6enVMczdfUDN6di1Ea2xrb1laU2hOVExaWDBYR3RBUGswd0FhaFVKYVBVb1JFU2M5TkMyRnp2QUZtQWJTenVnWVhRT2FaellqcERRZGpILVNEREc1dFVJaG1KMXpLdmgxU1FjdktCcU9wQ2lSWEtLdkZ2dW8wbFNvdDhSbWJEcEZ3SUNGZVUxWHFMdnFzODNXY3VTQnFGZlItSzFRN0pfaVlzTXVLYkhRRThtRk9PX3J0S202WUx3?oc=5"
+    },
+    {
+      "date": "2026-10-20",
+      "text": "China Merchants Securities: The allocation value of leading non-ferrous metal companies is gradually emerging; prioritize gold and copper in portfolio allocation.",
+      "src": "Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQXB3R01OOVdOYVNSamNkeWZmS1o4b0R5NGJzSHd0bGRuU1Z5TkhuemRFUXBmWEt4RHZ6aTVWVUVzaW80VGpmNkw5NkRtZ3kzTHltSzZCMEUtbmp5S3AzRDVYR055OEE4T3NaeUZHNXp2MlU5RHdaazI1WlZOS1c5LVgxY3NQWm5nWXJmeEVYQmV6MDhtOU5VdHNKZW1QT3FNVnViRC1vY0xkQjhHRld2bzQ0ckI?oc=5"
     },
     {
       "date": "2026-10-17",
@@ -75,25 +81,19 @@
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTUxGZllqNHdsUVRrQk5LbEJGNldOa292blJTUlZ2c2NiU291V3A4M0lZMURZbEpSTjdnaVlzc09udUVnVjRfUDllaE95NUFRN0hrWHcxaGtYX1oxc0tPTi1TRHoyM2ZkaWZ5MkVHT2VZNEczZnVwSFl1dlFJMmhZX0RDWTFJYUswZ1RSeWl6Y0FCc1haQ0lha1IxLUE?oc=5"
     },
     {
-      "date": "2026-10-21",
-      "text": "VR Resources Advances New Boston Drill Planning",
-      "src": "Streetwise Reports",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcHBCQnUtckcyOTVKM1pwN3IyOW1jNVFNU09adXNncVlUSFVfLW1saTN6RkdwdDRrNW9qR3AyaFFNVEhMODljN0hMYWVUdnlrWHJfR2NUSzNZcXlkTTJtblVVdVg3VkIzZkpBR1dUZjl1T2hZNzVxOHZXODFmMWtHTkpPQVNoMGRDdGo4Z1VTbDE2M2RnWm1BSXRaWjNWNlpsWkNqSlJjMDc?oc=5"
-    },
-    {
       "date": "2026-10-19",
       "text": "Commodities Update October 2026",
       "src": "Westpac IQ",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNGl0QzY1aWJjX3ViWGhEdEpBbXdKcFIxc2Jxb0xWZ2FCem9XbElBNE0wR3ktM3ozcVIwdF9qWVppQkNMcHEwZjVKcW1OSFllbVNOSGdpWlkxQlBqWDZPTHAzSFBDWmNmYm9mMmNYVFdGZXNwOVZPazM4Y0JwYk5KNGo2bEQ?oc=5"
     },
     {
-      "date": "2026-10-15",
-      "text": "Aluminium Alloy Ingot Procurement Guide",
-      "src": "ChemAnalyst",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPMXdZRGRWZTRvZUxHTEFGaFJmUjVYbmx2TFo1WkVKQVFROGl5Q3hDc2dVTGxGTndlVVluY0Nhc0dXbmVhNXhZUHVzb0V6MDVFOXRGQmVDVThKcktrNy1fU0ZwVU5hQzJaRjlfNS0xaTdFU1RreVRNZktMYWZrMm9tVDFIcTZWWmo3b0g0dUNwNmwydWs?oc=5"
+      "date": "2026-10-21",
+      "text": "VR Resources Advances New Boston Drill Planning",
+      "src": "Streetwise Reports",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcHBCQnUtckcyOTVKM1pwN3IyOW1jNVFNU09adXNncVlUSFVfLW1saTN6RkdwdDRrNW9qR3AyaFFNVEhMODljN0hMYWVUdnlrWHJfR2NUSzNZcXlkTTJtblVVdVg3VkIzZkpBR1dUZjl1T2hZNzVxOHZXODFmMWtHTkpPQVNoMGRDdGo4Z1VTbDE2M2RnWm1BSXRaWjNWNlpsWkNqSlJjMDc?oc=5"
     }
   ],
   "ai_analysis": "",
   "ai_error": "未自动生成，点击按钮手动生成",
-  "ai_date": "2026-10-22"
+  "ai_date": "2026-10-23"
 }

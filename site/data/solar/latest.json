@@ -1,89 +1,89 @@
 {
-  "date": "2026-10-22",
-  "hs300": 4036.3,
-  "hs300_chg": -1.84,
-  "solar_etf": 0.706,
-  "solar_etf_chg": -1.53,
-  "newenergy_etf": 1.945,
-  "newenergy_etf_chg": -1.97,
-  "storage_etf": 1.426,
-  "storage_etf_chg": -2.19,
-  "tnx": 5.01,
-  "usdcny": 6.6745,
-  "excess": 0.31,
-  "dd_from_high": 0.4032,
+  "date": "2026-10-23",
+  "hs300": 4105.33,
+  "hs300_chg": 1.71,
+  "solar_etf": 0.717,
+  "solar_etf_chg": 1.56,
+  "newenergy_etf": 2.002,
+  "newenergy_etf_chg": 2.93,
+  "storage_etf": 1.475,
+  "storage_etf_chg": 3.44,
+  "tnx": 4.99,
+  "usdcny": 6.6596,
+  "excess": -0.15,
+  "dd_from_high": 0.3939,
   "pb_ratio": 0.0333,
-  "turnover_ratio": 0.803,
+  "turnover_ratio": 0.773,
   "stocks": {
     "tongwei": {
-      "close": 11.15,
-      "chg": -0.89
+      "close": 11.45,
+      "chg": 2.69
     },
     "zhonghuan": {
-      "close": 8.69,
-      "chg": -1.7
+      "close": 8.6,
+      "chg": -1.04
     },
     "junda": {
-      "close": 35.8,
-      "chg": 3.32
+      "close": 34.32,
+      "chg": -4.13
     },
     "longi": {
-      "close": 11.16,
-      "chg": 1.55
+      "close": 11.3,
+      "chg": 1.25
     },
     "flat": {
-      "close": 9.04,
-      "chg": 0.11
+      "close": 9.17,
+      "chg": 1.44
     },
     "jiejia": {
-      "close": 50.13,
-      "chg": -1.05
+      "close": 51.55,
+      "chg": 2.83
     },
     "sungrow": {
-      "close": 70.51,
-      "chg": -2.48
+      "close": 72.2,
+      "chg": 2.4
     }
   },
   "news": [
     {
-      "date": "2026-10-22",
-      "text": "光伏新规还未实施 部分组件已退出大单竞争 - 经济观察网",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE56eUhQSVZuUEtoV3NINi10RjQ3U1FMbjExZ2t4U1dZZ2llQXVPUGprLXZMLUViOXlBclRreFpOLUduOXE3aTBBWXc2U0dHN2JEYncyclMydXh3UQ?oc=5"
+      "date": "2026-10-23",
+      "text": "我国科研人员破解柔性光伏“长不大”难题 - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE04V1hMQXNVNXZXd1U4NXVpeWJ1b0tPNzQ0RXhtMDA1cnU5TTJId1FkT3N3aUZ4b00zM0IyRVpSbENsRy16dk9RdlczMEJEeDk4SF9zRTFoSHJqcjdrSkZXRmFoT2U5Wlc1c3QtUFhCdHlYQ29ndFE1R3JtbUV4Zw?oc=5"
     },
     {
-      "date": "2026-10-22",
-      "text": "云南大学研究团队在水下光伏电池的研究领域取得重大进展 - 中国日报网",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9NRmZhYUtwZ2ZQS28yMVhyS0hQeTZvUUxjZ3gtUVdNdnk5eXpuYWpDeDNMT0ZBY3EwR29CanM5S1NSc2RaaXhnOEdBQjd1QVI0Sy1lTWRYOXpoQjA3cU1SWXNlT1NNZmg2M0h4WUg5cVY4MDJlUnBNZHBKRC0?oc=5"
+      "date": "2026-10-23",
+      "text": "多晶硅市场企稳预期增强，下游产业链供需博弈加剧 - 国际电子商情",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE94TFM1Q1BMaTZVYmw1WnRMOUJfNmd6Vnloc3Q5N3FtUG51Y256NTBhTm9tb2xqb2FzMmlaNEJYSEw3bWl2NE4tcjNVUWxjcjNDdW40MW1YcHVxZw?oc=5"
     },
     {
-      "date": "2026-10-22",
-      "text": "晋能控股光伏制造有限公司携光伏产品重磅亮相广交会 开拓海外新市场 - 国际太阳能光伏网",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBFYms4TE5GVnZxalhzZi00LUdtVWFvcWpERmZybXJGazZRbGxrSU83ZTZ3MmFhdmlWeU90WHJPMmZZXzJqcmNablo0NmRSZ3lmbTZLT0dqc3ZlSTVm?oc=5"
+      "date": "2026-10-23",
+      "text": "自然资源部：海上风电、海上光伏等用海活动，原则上应进行分层立体设权 - 国际太阳能光伏网",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8tRXN4MTZLV0k4VTFXdjB2dFRjUlFrZzFacWdfWWlCUGlVaFEzVEt4eWZzNWdCRy1sUzdJOUVUb09XUUttWXVsalhVdG9jSGxOYUQ1U2pXX3VUekpI?oc=5"
     },
     {
-      "date": "2026-10-22",
-      "text": "智源新能广州1.07MW屋顶光伏项目备案通过 总投资350万元 - 观点网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE13YXVhV1dRR1dUMF9YdTZtWVc1Z0lGVXdkekJOX2J4blVzOGVSRmdyaWxWYng5UE5VeEJENlpSNDBaZ1BNNzVLTlJSVWF0UmtwTzJiS2ZMTkNaWVhXM0htMWx3?oc=5"
+      "date": "2026-10-23",
+      "text": "光伏行业深陷亏损与银价上涨双重挤压，去银化技术竞赛加速 - 虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBWR2cxSDE0SG1VS2twSWI5ZmdvVUtES21EaTVENmVzMVhZVW9ram45MFBZeGY3NWpEcm8zTlpZV0RQV2NGRlZzN3BiX19ETFJGWmtvTg?oc=5"
     },
     {
-      "date": "2026-10-22",
-      "text": "中国光伏行业协会刘译阳：光伏行业仍处深度调整期，现在是要减量发展 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBvN05RNUNBUjR1ejRrNDdabjdXNWtITTE1Rm15ZG9oZUpyd3BTQVNaMERlNmlXTzFQekdTS3J5VFVEdjBSS2J4NkVHMlo2Y0x3bDFCZG5SemZWOVZSS1BCa2tVc0pXQ3JweFVyS3ZMczVwbTJFeUlKMQ?oc=5"
+      "date": "2026-10-23",
+      "text": "欧盟对华光伏玻璃12年“双反”落幕 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOOUl3MzdSb1k3ZHhoSVluR3piWlpyeUl2ZGstUW01clM5OHFUdmJwSlNLNW5IU2Qxc1pOTnc4NTdtU2lvZ3loNVo2by00bENQamp2cWdHekxBYXJaOXlPUm50dWVQS0UxNEFXdC1nSkgwS0Y4ZzIyT3o4clcxaTBMTlJzMTlkR0c0VnA5b3FfZEcyQVdRZUVrX2ZPUWk3UVpLSkQ0Z1ctalpNVkJCeEo0RWViZHZvRFhUbF9PbGhjd3pFQlloRWFKOW5nZE9SLWNmQnc?oc=5"
     },
     {
-      "date": "2026-10-22",
-      "text": "10.22光伏价格：多晶硅市场企稳预期增强，下游产业链供需博弈加剧 - 集邦新能源网",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5QQzJYbmNQbXhpcENjVURiWl9vLWtMS01sU29UZGR1bWthalVJRF84eG1la1BpQUcwSTlpVzRLQlEtZE42SWRMZmloUTFwUVd0VGd4M3JURGlPblJxdkZZejhESUthSDRSbng0?oc=5"
+      "date": "2026-10-23",
+      "text": "光伏产业向光而行 在平价与分化中迈向高质量发展阶段 - 中金在线",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5EYlpBbXJCZ3JkVXdqdTU0ZGQzazEyV2JtdVkwUGpjaXg1SVU1MV9UTEFqMUt4RW5EQWt1ZHBkTW94ZVIzRVFpa0VkLUlSQjNNbFhvU3AteXpibDBUTWJEMWx3WE5DbVRIMjBjWjZPemNNZw?oc=5"
     },
     {
-      "date": "2026-10-22",
-      "text": "有研硅：这类高附加值硅片壁垒高、供给紧 - 证券之星",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBqNmw2WWExZk5XeDlVaG01MWVCWXRYaDdJd19BVy0wMzJZUzRWR0dkbjB0MWR2UEtxTXkwdVRXTUFpamFYdkljdVRKeUNlWWxyRUFOc2l6S1c2Y1AxeWdzUQ?oc=5"
+      "date": "2026-10-23",
+      "text": "中企承建光伏电站为越南绿色转型注入新动能 - 搜狐",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNTU3clZaTV9sMDg3VVV6TWpJUnhnWHk5ZENfdF91V2c4a0phcU5JTmlRaFR5QTVIak85cXFJTlkyb1RzUmpDYjlWUFA0emxrUDBhYThCcWYxclM3SUlFSWxBZEtweFFPTERla3hna201MjZIcjN6eXd2a1JTVUw0RUNjekNqdmdU?oc=5"
     },
     {
-      "date": "2026-10-22",
-      "text": "海南州共和县百万千瓦光伏光热项目成功并网发电 - 中国新闻网",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4zcVRDSGMxd1RsVWxid0o0SUNUOWJsSUk1RDI0RU5Yakh2eUtVNE5UdVlKXzl1czlfQ3NGWWoxTzBsUjg2OWdjbjNhNG9OSzd5cHFyR0RxSzhrczRETG43STlFdE1LZ19oa2R3S1FvcTM?oc=5"
+      "date": "2026-10-23",
+      "text": "1000MW！中广核阿拉善光伏治沙项目完成备案 - 国际新能源网",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0zVmc3TlpIaWhZdm5CNjkzMUJlamRKY0ZPQzljcVctUE1Xc3hGcmJfUlVrOVFDcUI4OGRfMTRGdVhaM3pMb1N1V1VmLVBMRkQ3QXNCNzF1WEZiVENUSllaZXNKTUNIaUE?oc=5"
     }
   ],
   "ai_analysis": "",
