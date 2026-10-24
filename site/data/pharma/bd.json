@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-23",
+ "updated": "2026-10-24",
  "monthly_upfront": [
   {
    "month": "2026-09",
-   "total_usd": 6.1,
-   "count": 2
+   "total_usd": 11.1,
+   "count": 3
   }
  ],
  "nmpa": {
@@ -17,15 +17,15 @@
    },
    {
     "month": "2026-09",
-    "count": 26,
+    "count": 13,
     "manual": false,
-    "auto_clues": 26
+    "auto_clues": 13
    },
    {
     "month": "2026-10",
-    "count": 22,
+    "count": 26,
     "manual": false,
-    "auto_clues": 22
+    "auto_clues": 26
    }
   ],
   "note": "count 为手工维护的官方计数(config/bd_manual.json)；无手工值时为近60天获批新闻线索数(高估情绪、非官方口径)"
@@ -37,6 +37,13 @@
    "title": "创新药又一利好！002262，睡眠新药授权出海，首付款1050万美元＋最高5亿美元里程碑款 - https://www.mrjjxw.com/",
    "amount_usd": 5.0,
    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5GU0xZMTVyR2t2TEtaQTVDOGRISXpldFZaRno3YW85UnZSNEVFQTBRa2JsemlPdThqQl9TR3RRVXUyT01lZkVLZ0VGeExBUXdyUm1NQ3ZmRUEzWThub0VMWmRvTzJtQQ?oc=5"
+  },
+  {
+   "date": "2026-09-29",
+   "month": "2026-09",
+   "title": "创新药又一利好！002262，睡眠新药授权出海，首付款1050万美元＋最高5亿美元里程碑款 - 东方财富",
+   "amount_usd": 5.0,
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB0c2RqZ2c4WUhoNWRzLWFIOE9odmJHbzA4WHBjeEVoZHBxemZ3LW92eWNKWGNSQTlrTVdPaXlWdGoxRXA0em5YU09sSTM3MmVWVkljbmNyR3NDRTczc0FybGNRb1Bjdw?oc=5"
   },
   {
    "date": "2026-09-03",
