@@ -1,17 +1,17 @@
 {
-  "date": "2026-10-24",
-  "copper": 6.47599983215332,
-  "copper_chg": 1.7838842910171682,
-  "ma20": 6.554850006103516,
-  "ma50": 6.5696600151062015,
+  "date": "2026-10-25",
+  "copper": 6.507500171661377,
+  "copper_chg": 2.278978020899136,
+  "ma20": 6.556425023078918,
+  "ma50": 6.570290021896362,
   "dxy": 101.80999755859375,
   "vix": 19.450000762939453,
   "tnx": 4.98799991607666,
   "wti": 103.2699966430664,
-  "cu_oil_ratio": 138.25040393201584,
+  "cu_oil_ratio": 138.92287687424204,
   "shfe_cu": 107900.0,
   "shfe_cu_date": "2026-10-23",
-  "shfe_lme_ratio": 1.05,
+  "shfe_lme_ratio": 1.045,
   "lme_stock": 296625,
   "lme_stock_date": "2026-07-17",
   "shfe_stock": 19058,
@@ -31,7 +31,7 @@
     {
       "name": "铜价低于MA20",
       "dir": "bear",
-      "text": "$6.48 < MA20 $6.55"
+      "text": "$6.51 < MA20 $6.56"
     },
     {
       "name": "美元中性",
@@ -46,7 +46,7 @@
     {
       "name": "铜油比偏高",
       "dir": "bull",
-      "text": "铜油比 138.3，工业景气预期强"
+      "text": "铜油比 138.9，工业景气预期强"
     },
     {
       "name": "利率环境友好",
@@ -87,13 +87,13 @@
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQalQ1MC01OHJmR0hUVG4tZUU4cEJIZ0tIZkZvWmZDSmwxZmVkOHhVdWdMN0tTb2xCWjZnSW45NEU3MjA3U2dnZ2JlcVRrNk9qTTVTNlJTQUN1SzJqcGdSYU5fb1p0dExIcjdnNS1GclZlQnM3SVdocGIzRjZoME9sM09uaHhoR3pMcGdmT0FpcmhjNnJKNkFoTTAyVWFvS2QzWTFqc3hoaUE3ZFdzUTBHVlpXSHM0TUNsdkNxMm0zY0h2emlac3JFbE1EZEQ?oc=5"
     },
     {
-      "date": "2026-10-21",
-      "text": "VR Resources Advances New Boston Drill Planning",
-      "src": "Streetwise Reports",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcHBCQnUtckcyOTVKM1pwN3IyOW1jNVFNU09adXNncVlUSFVfLW1saTN6RkdwdDRrNW9qR3AyaFFNVEhMODljN0hMYWVUdnlrWHJfR2NUSzNZcXlkTTJtblVVdVg3VkIzZkpBR1dUZjl1T2hZNzVxOHZXODFmMWtHTkpPQVNoMGRDdGo4Z1VTbDE2M2RnWm1BSXRaWjNWNlpsWkNqSlJjMDc?oc=5"
+      "date": "2026-10-22",
+      "text": "How to Invest in Copper: Price Today, Futures and CFDs",
+      "src": "Admirals",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUlRIYUUxUWJVbkozbXBkWkZyRUNxbUZTLXFlLWZXbmpadFhmY2wyNTg5R2NQRi03TFNqWjNfUFNxcmFLZEVXSnUxUm9EZE5XR25zeExnekxseHc0QnhiZ2V6Z3B2MDFNeEFJVXJwN1BWQjR2WVhDM3ZndTMtOW1USkYyVXRVVS05?oc=5"
     }
   ],
   "ai_analysis": "",
   "ai_error": "未自动生成，点击按钮手动生成",
-  "ai_date": "2026-10-24"
+  "ai_date": "2026-10-25"
 }
