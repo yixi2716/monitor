@@ -1,68 +1,68 @@
 {
-  "date": "2026-10-25",
-  "hs300": 4105.33,
-  "hs300_chg": 1.71,
+  "date": "2026-10-26",
+  "hs300": 4103.54,
+  "hs300_chg": -0.04,
   "med_etf": 0.376,
-  "med_etf_chg": 2.17,
+  "med_etf_chg": 1.6,
   "inn_etf": 0.81,
-  "inn_etf_chg": 2.4,
+  "inn_etf_chg": 0.37,
   "cxo_etf": 0.334,
-  "cxo_etf_chg": 2.45,
+  "cxo_etf_chg": 1.5,
   "tcm_etf": 0.882,
-  "tcm_etf_chg": 0.57,
+  "tcm_etf_chg": 1.47,
   "meddev_etf": 0.441,
-  "meddev_etf_chg": 2.8,
+  "meddev_etf_chg": 2.49,
   "vaccine_etf": 2.002,
-  "vaccine_etf_chg": 2.93,
+  "vaccine_etf_chg": 0.1,
   "hsi_health": 23093.37,
   "hsi_health_chg": 0.0,
   "hs_inn_etf": 1.206,
-  "hs_inn_etf_chg": 2.38,
-  "tnx": 4.99,
-  "usdcny": 6.6779,
-  "excess": 0.0,
-  "north_money": 313178.26,
-  "north_date": "20261023",
+  "hs_inn_etf_chg": -0.83,
+  "tnx": 4.98,
+  "usdcny": 6.6583,
+  "excess": 1.64,
+  "north_money": 253912.32,
+  "north_date": "20261026",
   "news": [
     {
-      "date": "2026-10-25",
-      "text": "创新药“算力”告急？“猴哥”单价冲至20万 谁在推高这股风 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9VVEgxdGZ5dWo4S3NkN0JGQzNyZVNHSDBHd1d6b0JtSkNuemdKVnZNbjBNSHlNcnhhd2RtNFlLc09jR21RZkJxTw?oc=5"
+      "date": "2026-10-26",
+      "text": "中国医药创新加速迈向全球价值兑现新阶段 - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdndWSEVCbUVrWFluRDRNZVNieXRYLW94TGdycm5obUZmcjhzTGNIZnlrcFZCczhqd01WbHRlLWJ2R3JvRjFUZXFLbnJKWW9KSW93eWhOTU1wcHNuUHZGYnk4SnZFZzRhTnFEdEZFVENLT2xYZlROZGVCOUNGSV95WngyX1ZRVGc?oc=5"
     },
     {
-      "date": "2026-10-25",
-      "text": "德豪医药 扎根新都的医药流通区域服务商 - 中华网",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1vajZPYkhaRGtPWkR1eEdLTFhTTzBaT0tRaUxHY1ItX19sdTdlcTNpaDN5YXVPS3lmdGwtYkhUc2pHQzV6T0xjQW1xZndkaVprRFhucF8yYXpuUDVPRkE?oc=5"
+      "date": "2026-10-26",
+      "text": "上海国际生物技术与医药研讨会开幕，全球合作平台吸引中外大咖来沪 - 上观新闻",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1LcFVwRXlvLW1mQ2FMSTdfSDNZTENsaFFOVE1qVzhadFJBZm54OEpnUEFlMFh5NlFMVDFkWEpQV3YwMVVTTW1BbU9FUGpyUG9hOHRVaWhLTEd4Zw?oc=5"
     },
     {
-      "date": "2026-10-25",
-      "text": "2026年福建省中医药文化周专题活动在榕举行 - 中国新闻网",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9lR1p6UTRncGdEbTNGaGZQV1VFbm9JdnFPSzZDRy04VjZZc3hYNVBCWndpbTZWMklLeUJ4SVZQVHBGdTV4RWlzRFpkTEtPaEFLejRvMm9xZlJHR25yVVkzVG9aYU9jN3pX?oc=5"
+      "date": "2026-10-26",
+      "text": "产业资本赋能，南京又一生物医药公司完成A轮融资‌ - 新华报业网",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB1Q01MUXVFYnpESXRWUDh2MHI5MjVjcGlsWERxWmZlTV9sd2RHeDJlcFRFc1RCNjRtZnpPZkJEZXBaVlJ0VWtFN0hoelV5WU9kdzZuZmZMTjUtQUwzOUlVRmpDUU1NUFVTdlhv?oc=5"
     },
     {
-      "date": "2026-10-25",
-      "text": "医药生物行业周报：中国药企持续闪耀ESMO,关注Q4创新药主线机会_行业研究_研报 - 证券之星",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBleldJeGxUSU0wYUxzYjZJWVpoSXlrODZyYWtNdEJLeld0ZUp1SnVSdWlSWjRPRkpicUM5bFdFb25PZGhfS0w4S2pNVkJyR25hdGdyWHZIMmRUTXkzb05sMXBB?oc=5"
+      "date": "2026-10-26",
+      "text": "恒瑞医药三款药品获临床试验批准 自主研发抗肿瘤药联合用于膀胱癌 - 观点网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1wTlFEdUtNNThqY1hnUTU2T2hvSW5Xd0xpSWl4eXBBLWlpV091NFNsc3NpUExMX0FZSkRjMlBocTZfbTRPZU1FU3hHbmVQMHFIYlJlUFI5cG5XTU15RC1CRy1R?oc=5"
     },
     {
-      "date": "2026-10-25",
-      "text": "恩威医药：第三季度净利润同比增长463.79% - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBPZ3RFYWV4dU0zY281MnhZS0d4dHFtRTRXSkFja2VsOEkxb2VWMGxfUnpqQ3Q4cW02b1FlOEwyUXk1RFFIU0xlR1pxOS1SbjRGODFTcHMxbE1WRVlkcVhjcU1IZnViZw?oc=5"
+      "date": "2026-10-26",
+      "text": "中国创新药取得肺癌治疗新突破，联合疗法降低患者死亡风险32% - 上观新闻",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBLTHc1WTQzbmszeWZSNk1OWmxmUm9vYjNUeEtBbm0zdHBEU3M5VFVHUmZ5Y0h4VXo5NkhMQ3dHY190NFd2SWRaSGJGTlBtdXFTTkJ4d0dzUXhiWmhk?oc=5"
     },
     {
-      "date": "2026-10-25",
-      "text": "最新报告：从“赌管线”到“看兑现”，生物医药板块应强化估值战略 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1NWnBsMVJkQmdMSm5RUV9Hd25XZ3EtUFZkY2Iyb3EtZWdtVE1pMTJtMHlZOHk1ODRsX19YY1hOdXViWXVMM09pSUtIUDBHSGktRFpCRTVESUdFOHFGcmk1ZlZPa1RvM1pRckV0TFE1NnJKdmNtVVUtTA?oc=5"
+      "date": "2026-10-26",
+      "text": "和黄医药赛沃替尼全球Ⅲ期研究告捷，肺癌耐药患者中位生存期延长近5个月 - 华尔街见闻",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9tblYxU0djRkU3aEdTRWhiN0lmZmdiQWl5SjZsN21rN1NzMTRjZ1dzNVJWRE55TUR3MF9ydi1tYktMT3pxMUYzR3B6dmFublZ2bzN3?oc=5"
     },
     {
-      "date": "2026-10-25",
-      "text": "恒瑞医药瑞康曲妥珠单抗Ⅲ期研究公布 同步发表于《美国医学会杂志》 - 观点网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE40U2hxYkx6QnkwOGVIOHIzZmdVQnM3TlREUm5RLUpaN2oxeGRGQkJjcnY0Z3FjNW9PQWpJV0RWdEtoUkNMXzNoR1FUTHVzSldpSm5yX19wTEEyaVNpMDZqdGVB?oc=5"
+      "date": "2026-10-26",
+      "text": "医药商业：从“搬箱子”到“卖服务”，六家核心公司投资全景 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9PQ1NSNnlwWDVDbndUMFM3MzFWc2hWSVNRTHk5SHNOTG9BTDlwbGkxRDhHZWx4TUJYY2F1Tk4zSC01ZkxLd1FnWmM1RWlBU1RHdUdfSGVOUWFGc095YnY0azgtS29lUmdJSWFJRVBNSlVnVHg5bHM5cQ?oc=5"
     },
     {
-      "date": "2026-10-25",
-      "text": "火洲聚名医助力边疆中医药发展——世界中医药学会联合会急重症专委会2026年学术年会开幕- 中国日报网 - China Daily",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1FcEFtVUNSSXJVY2Z1NlV0LV9sTnA0anFSaXdWejhPWjVoSDFMOHFqYlFfZEw2NHFza1ZLWWdfRXlNMmpIVkVaaFJUVmhaZjNjS09vdnF2VGNYeERhN2JlNXRZdF9sNUJkZ3poU2lTdmIzUGllbTVQQVREREE?oc=5"
+      "date": "2026-10-26",
+      "text": "医药一级市场回温了，但真正的难题是“怎么退” - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5nQ0lYektMdUhXSmlad2JodWtNRTRxalFKQ29rekg4cGhQUVlmMjNnRXl6ZkFPTWhSYUpTaGotSkFLNnozZDlORA?oc=5"
     }
   ],
   "ai_analysis": "",

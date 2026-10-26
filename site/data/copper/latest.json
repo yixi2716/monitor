@@ -1,57 +1,57 @@
 {
-  "date": "2026-10-25",
-  "copper": 6.507500171661377,
-  "copper_chg": 2.278978020899136,
-  "ma20": 6.556425023078918,
-  "ma50": 6.570290021896362,
-  "dxy": 101.80999755859375,
-  "vix": 19.450000762939453,
-  "tnx": 4.98799991607666,
-  "wti": 103.2699966430664,
-  "cu_oil_ratio": 138.92287687424204,
-  "shfe_cu": 107900.0,
-  "shfe_cu_date": "2026-10-23",
-  "shfe_lme_ratio": 1.045,
+  "date": "2026-10-26",
+  "copper": 6.5435,
+  "copper_chg": 0.707964601769917,
+  "ma20": 6.6048,
+  "ma50": 6.624599999999999,
+  "dxy": 101.98899841308594,
+  "vix": 18.270000457763672,
+  "tnx": 4.98199987411499,
+  "wti": 102.94000244140625,
+  "cu_oil_ratio": 140.13921340453902,
+  "shfe_cu": 108110.0,
+  "shfe_cu_date": "2026-10-26",
+  "shfe_lme_ratio": 1.041,
   "lme_stock": 296625,
   "lme_stock_date": "2026-07-17",
-  "shfe_stock": 19058,
-  "shfe_stock_chg": -4729,
-  "shfe_stock_date": "2026-10-23",
-  "lymy": 14.23,
-  "lymy_chg": 2.74,
-  "tl": 5.1,
-  "tl_chg": 1.19,
-  "jxt": 36.92,
-  "jxt_chg": 1.76,
-  "cper": 39.06,
-  "cper_chg": 1.53,
-  "copx": 73.09,
-  "copx_chg": -0.05,
+  "shfe_stock": 16219,
+  "shfe_stock_chg": -2839,
+  "shfe_stock_date": "2026-10-26",
+  "lymy": 13.77,
+  "lymy_chg": -3.23,
+  "tl": 4.99,
+  "tl_chg": -2.16,
+  "jxt": 35.93,
+  "jxt_chg": -2.68,
+  "cper": 39.36,
+  "cper_chg": 0.77,
+  "copx": 74.06,
+  "copx_chg": 1.33,
   "signals": [
     {
       "name": "铜价低于MA20",
       "dir": "bear",
-      "text": "$6.51 < MA20 $6.56"
+      "text": "$6.54 < MA20 $6.60"
     },
     {
       "name": "美元中性",
       "dir": "neutral",
-      "text": "DXY 101.81"
+      "text": "DXY 101.99"
     },
     {
       "name": "风险偏好正常",
       "dir": "neutral",
-      "text": "VIX 19.5"
+      "text": "VIX 18.3"
     },
     {
       "name": "铜油比偏高",
       "dir": "bull",
-      "text": "铜油比 138.9，工业景气预期强"
+      "text": "铜油比 140.1，工业景气预期强"
     },
     {
       "name": "利率环境友好",
       "dir": "bull",
-      "text": "10Y 4.99%"
+      "text": "10Y 4.98%"
     }
   ],
   "score": 1,
@@ -78,7 +78,7 @@
       "date": "2026-10-22",
       "text": "Adamera Expands Glix Gold Skarn Work at South Hedley Near Historic Mines & Hudbay's Copper Mountain",
       "src": "Streetwise Reports",
-      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPQlpLdWY0d01BU2p2anNkdGNlb1BjRnVWVWpfa1U3RF9BWklBZFJDODUxY1VaVDhqdENpNFBWUkljR1EwbEdJYVVWZEdPaU1SQkFjWlVnU0R6enVMczdfUDN6di1Ea2xrb1laU2hOVExaWDBYR3RBUGswd0FhaFVKYVBVb1JFU2M5TkMyRnp2QUZtQWJTenVnWVhRT2FaellqcERRZGpILVNEREc1dFVJaG1KMXpLdmgxU1FjdktCcU9wQ2lSWEtLdkZ2dW8wbFNvdDhSbWJEcEZ3SUNGZVUxWHFMdnFzODNXY3VTQnFGZlItSzFRN0pfaVlzTXVLYkhRRThtRk9PX3J0S202WUx3?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOU1F5ODBSUHJMbGd6TTA5LWJKUGkwQjJtU0xiLTh5ODlrYU8zdXE4akhwbkNTZzlVRFFxbWpJMmt6VUhWMlE1NkdyRlp3YV9Dczl1dEw4ODU3OUVGWU8yUTNsRnd4dVpHN3VEbmpVZDZ5a01nTzYwYnI1LUttNV9oU2NPNjJwRENpRnRJUnRQR3UyUVhwaXlxWmlGbDNLbkhpRkx3Sjk3NE42U2hPUkpMc2c3d2h6TGxhZmxQOE1wUVFfTk1iNzlPYUtYMllTRnpuWVRoZmRrTE5tZjAtU1BwcFZaUHVZc2FXQkEzVklOQQ?oc=5"
     },
     {
       "date": "2026-10-23",
@@ -95,5 +95,5 @@
   ],
   "ai_analysis": "",
   "ai_error": "未自动生成，点击按钮手动生成",
-  "ai_date": "2026-10-25"
+  "ai_date": "2026-10-26"
 }

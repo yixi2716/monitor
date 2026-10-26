@@ -1,89 +1,89 @@
 {
-  "date": "2026-10-23",
-  "hs300": 4105.33,
-  "hs300_chg": 1.71,
-  "solar_etf": 0.717,
-  "solar_etf_chg": 1.56,
-  "newenergy_etf": 2.002,
-  "newenergy_etf_chg": 2.93,
-  "storage_etf": 1.475,
-  "storage_etf_chg": 3.44,
-  "tnx": 4.99,
-  "usdcny": 6.6779,
-  "excess": -0.15,
-  "dd_from_high": 0.3939,
+  "date": "2026-10-26",
+  "hs300": 4103.54,
+  "hs300_chg": -0.04,
+  "solar_etf": 0.713,
+  "solar_etf_chg": -0.56,
+  "newenergy_etf": 2.004,
+  "newenergy_etf_chg": 0.1,
+  "storage_etf": 1.463,
+  "storage_etf_chg": -0.81,
+  "tnx": 4.98,
+  "usdcny": 6.6583,
+  "excess": -0.52,
+  "dd_from_high": 0.3973,
   "pb_ratio": 0.0333,
-  "turnover_ratio": 0.773,
+  "turnover_ratio": 0.754,
   "stocks": {
     "tongwei": {
-      "close": 11.45,
-      "chg": 2.69
+      "close": 11.58,
+      "chg": 1.14
     },
     "zhonghuan": {
-      "close": 8.6,
-      "chg": -1.04
+      "close": 8.89,
+      "chg": 3.37
     },
     "junda": {
-      "close": 34.32,
-      "chg": -4.13
+      "close": 33.61,
+      "chg": -2.07
     },
     "longi": {
-      "close": 11.3,
-      "chg": 1.25
+      "close": 11.53,
+      "chg": 2.04
     },
     "flat": {
-      "close": 9.17,
-      "chg": 1.44
+      "close": 9.34,
+      "chg": 1.85
     },
     "jiejia": {
-      "close": 51.55,
-      "chg": 2.83
+      "close": 51.59,
+      "chg": 0.08
     },
     "sungrow": {
-      "close": 72.2,
-      "chg": 2.4
+      "close": 70.23,
+      "chg": -2.73
     }
   },
   "news": [
     {
-      "date": "2026-10-25",
-      "text": "江苏连云港：中核田湾200万千瓦滩涂光伏示范项目加快推进 - 新华网",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVjNBZHltc0xMLXNnb0dGTUZwUlhZUE9Jd0ZCQW9xS3ZjRUJ1bDRpemZ6UnBUcTdrWlNTelZYUDVvdEpoaWljZzJrMDdZT05sbEpoYmtsT3V3YkR2eHZRU0Jmb3RaTmhyeE9QOG00dUlubTJYakR3SEIzdFkwWkxWYlVLYmpsUQ?oc=5"
+      "date": "2026-10-26",
+      "text": "中山泰悦新能源600千瓦分布式光伏项目复核通过 总投资204.0万元 - 观点网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBKS1dMUXdOSlBhUkg5c0IyUTVpTDUyeTRwc3lXWENUQjl4OEhxR002RFplQlg3a2dVTkhBZ3BTZUdSeXR1WERJTWYyVlJvdVh5c2ZVZkpVOU90ZmVZVnREUEln?oc=5"
     },
     {
-      "date": "2026-10-25",
-      "text": "下周，半导体大硅片龙头，600亿市值巨额解禁；多只AI股解除限售，索辰科技、科大讯飞、卓胜微超数千万股解禁；联讯仪器超20亿市值解禁 - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5WR2RtM044WFdaM2ppekRBdDZhWWpwRDNzY2pMSTViNmRZZ3c2dk9wZU80eXFWWDZVV3FoLXUybEFVeW80YkhNdC1qTDRpdGhoUGktWnVHSDVWTkpaWDg4LXd3bw?oc=5"
+      "date": "2026-10-26",
+      "text": "国家能源集团河南电力焦作公司厂区二期光伏项目取得河南公司投资决策批复 - 国际太阳能光伏网",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBiNnlWZ19Dd2E4cTZuZXdYREdmWWhUR0Q5LUh0cEx2UTRUQl9yZjM1aFJnNVJNLVJjM29QNkV0Y0pFbnY4TWZ0UTU1a2tfSWttRXo5dWg1Wkxndl90?oc=5"
     },
     {
-      "date": "2026-10-25",
-      "text": "5.6GW光伏电站开工！涉汇能集团、四川能投、中电建、华能、中核、云南能源集团、中广核 - 搜狐网",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRHEwTHMxWTlJemZWLUZFa0NlRVpWVlE4R2lUejQ5VU9zY2pXTVFiZFcwaS1pdVdHeE10Mlk1LW9OY3c5RVJaMWdQRjdvNFZKcE82YXpTX1duMWJzRUVseFRfS01jLVM3Y0laYUlqbUY5WXAxVWZWMTdyd1FTTVdSd0Nta0d6cExP?oc=5"
+      "date": "2026-10-26",
+      "text": "机场光伏技术破题 如何从能源消耗者转变为清洁能源生产者 - 中国新闻网",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5jcTk2WkVvTTFMMGVCNTBBUGF0bXlPQ3hHNjJ2VXVaYTJwdndDUDhBcnhKY29kX2FqQTJ3dmtDTUVncDZ4bWZtWHdWdk0weW1Zb3loS0pObGlOUG9WY3dmUUNEVDRLMFNj?oc=5"
     },
     {
-      "date": "2026-10-25",
-      "text": "江苏24小时·滚动推送｜南通：啬园菊展紧张布置中 - 中国江苏网",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQb1lrbDFDMHBZUzQtbmRPR2VfQzZMLWh1dmIteWpEQjVQQzdNWlhELUlabWU0Zk9Wa3BLbTdHWllTSzY0QlQwWGFQdDhsYkF4YmVpemk0WGxzT1NaWUZKNHBfOXVXckVXb0VacXFNQnZSMmhvUVEwWUJjOXZZOW5yN25IVHJMY2Z3Q25r?oc=5"
+      "date": "2026-10-26",
+      "text": "第九届半导体大硅片论坛2026圆满召开！ - 电子工程专辑",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9vUzlYNTk3MVp1QUpyaUxEMHNxNUFtV0VaNDBCa2pqT0M0ZDZyZ3N4ekI1UEF4QjZMZFNrbUM4SmpxenlZTUtkR3EyWHUzUUtOMGh3?oc=5"
     },
     {
-      "date": "2026-10-25",
-      "text": "汇兑影响短期业绩，磁材AI放量+光伏出清可期_公司研究_研报 - 证券之星",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5UZl9PRHBLX1QtbEg2aTRrOXQtUkp0RWZEVkU1alhRUTM1NGFhbDBuMGwxd1d6NmszYTFQdzZYZUtxaU9qazdHaGhldmdHRTktaEhUWGhUNzhIR3N5MlprTWx3?oc=5"
+      "date": "2026-10-26",
+      "text": "超9亿！国能两大光伏项目公示！ - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5QWkNuVDk1YWZuS2NyWkpqN0ZXY3ZkcGZ0U0tOOTdTSHVtYWk1YlBoYU9IVHpvUlNzVFFCRWx3WEltWUw0ZkhvczlvcXZOQk5qcGZnb1dPZXcwTUJJNUg4c2d5MTc0M05LQi1pOTVTOFlTRS1RMUdJUQ?oc=5"
     },
     {
-      "date": "2026-10-24",
-      "text": "【早报】特朗普：对多晶硅及其衍生产品加征关税；美存储股再遭重挫；原油走强、黄金微跌；宇树科技发行价定了 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBKOGZ6ejN0YWR3YkZWVXU3YndmcUwyUGF0WFFRc2xGRkhSUm5lTjNSbm9LZlo2Mmx0WklVdWxSOFMxYnRHZnVsYw?oc=5"
+      "date": "2026-10-26",
+      "text": "张掖绿色能源再添“百万千瓦级”新动力 辉通山丹东乐滩十万千瓦光伏发电项目全容量并网发电 - 中国甘肃网",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0tU2k4OGJuWWdHQnNiYjVNRnY0a3YzZUFXNjBvaG5aY0ZQUFp5TjJXYnIzNU1TNlZ3bVZRbnVOaUg3a1RuWF8wc1dwYTk0Y3dBX3NCRXVxVUFmeWpFMnJsMldRYzdZT29YYWc?oc=5"
     },
     {
-      "date": "2026-10-25",
-      "text": "水上生绿电 板下种灵芝！海口，在废矿坑上追光逐绿 - 中国新闻网",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE93UkN2cUE2RWJudWtxVHpCWEM3d0czYzA4QU1HV21yZGJvVVRrLVlBT19QbFdSYlAzOXJ3c1VjeENaWjlEMmRtZ2ZmdTJnNWxQdGtxT2dISVpDdDlUXzBwc3I2eGhHb25CaVZtNQ?oc=5"
+      "date": "2026-10-26",
+      "text": "金刚光伏签订4.8亿元GPU卡及服务器采购合同_公司新闻_财经 - 证券之星",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5JU0pFYXA1VFJTSkI0bEtBN0MwMDZ1WndHSER3bWJRVzBMelctY3NvZ2NqYW5oMW9TcWg3TXYwVE1ld1pwZXYxQk81ZVFLZDFTVDJ4Qkh2TFJkUWEzbThPeQ?oc=5"
     },
     {
-      "date": "2026-10-25",
-      "text": "基于循环系统优化算法（CSBO）的光伏电池模型参数提取研究 - 生物通",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1VOW1KQnlDaVktcjlUZGRraHoxSkV5YXhxVTY0SW8tcEhoYmNuWFNKNUlhdkRmNnk2N0dGZGxDTWtkSEJEdkFEX3ByREJNVzhvVDFqalpsVFBhSXFFbURwbHEzNzdzWnV2dVVJajVB?oc=5"
+      "date": "2026-10-26",
+      "text": "梅州汉晟新能源三个分布式光伏项目备案获通过 合计投资101.21万元 - 观点网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9TWjlsVVdFd0owVkViYTRDME14Y3dIVGNPWTl3SjRKaXh5Qk1mVy03LWR3VXdjMGxNTm5wbk1jVzVqSGJPU29ONVNTSm1qMVRKdDRtREc3a3hZNElaZ1JlVUlR?oc=5"
     }
   ],
   "ai_analysis": "",

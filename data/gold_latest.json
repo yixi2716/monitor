@@ -1,72 +1,72 @@
 {
-  "date": "2026-10-25",
-  "fetched_at": "2026-10-25 22:00",
-  "gold": 4010.0,
-  "gold_chg": 0.0,
-  "ma20": 4153.41,
-  "ma50": 4330.23,
+  "date": "2026-10-26",
+  "fetched_at": "2026-10-27 00:21",
+  "gold": 4033.6,
+  "gold_chg": 0.59,
+  "ma20": 4154.6,
+  "ma50": 4330.71,
   "above_ma20": false,
   "above_ma50": false,
-  "dxy": 101.81,
-  "dxy_chg": 0.0,
-  "vix": 19.45,
-  "vix_chg": 0.0,
-  "tip": 106.24,
-  "tnx": 4.99,
-  "corr_gold_dxy": -0.17,
+  "dxy": 102.0,
+  "dxy_chg": 0.25,
+  "vix": 18.29,
+  "vix_chg": -5.96,
+  "tip": 106.33,
+  "tnx": 4.98,
+  "corr_gold_dxy": -0.18,
   "corr_gold_tip": -0.24,
-  "corr_gold_vix": -0.4,
-  "basis": 34.39,
-  "vol20": 17.2,
-  "gold_silver_ratio": 74.31,
-  "usdcny": 6.6697,
-  "shfe_au": 864.36,
-  "shfe_au_date": "2026-10-23",
+  "corr_gold_vix": -0.42,
+  "basis": 35.07,
+  "vol20": 17.4,
+  "gold_silver_ratio": 74.43,
+  "usdcny": 6.6583,
+  "shfe_au": 862.58,
+  "shfe_au_date": "2026-10-26",
   "cftc_gold_net": -235582,
   "cftc_gold_date": "2026-10-20",
   "mode": "M",
   "mode_name": "M · 混合驱动",
   "confidence": "低",
   "evidence": [
-    "黄金与 TIP 相关性 -0.24，与 DXY 相关性 -0.17",
-    "VIX 19.5，与 VIX 相关性 -0.40",
+    "黄金与 TIP 相关性 -0.24，与 DXY 相关性 -0.18",
+    "VIX 18.3，与 VIX 相关性 -0.42",
     "多因子混合驱动，无单一主导逻辑"
   ],
   "signals": [
     {
       "name": "美元信号",
-      "text": "DXY 101.8 > 101，压制金价",
+      "text": "DXY 102.0 > 101，压制金价",
       "dir": "bear"
     },
     {
       "name": "利率信号",
-      "text": "TIP 5日 +0.93%，实际利率平稳",
-      "dir": "neutral"
+      "text": "TIP 5日 +1.02%，实际利率下行 → 利好",
+      "dir": "bull"
     },
     {
       "name": "避险信号",
-      "text": "VIX 19.5，中性",
+      "text": "VIX 18.3，中性",
       "dir": "neutral"
     },
     {
       "name": "情绪信号",
-      "text": "VIX 5日 +5%，情绪平稳",
+      "text": "VIX 5日 -1%，情绪平稳",
       "dir": "neutral"
     },
     {
       "name": "实物信号",
-      "text": "GLD 与期货同步（5日 -3.44% vs -3.61%）",
+      "text": "GLD 与期货同步（5日 -3.00% vs -3.05%）",
       "dir": "neutral"
     }
   ],
-  "score": -1,
-  "score_summary": "-1（中性）",
+  "score": 0,
+  "score_summary": "+0（中性）",
   "recent10": [
     {
       "date": "2026-10-13",
       "gold": 4184.2,
       "gold_chg": -0.28,
-      "dxy": 102.18,
+      "dxy": 102.2,
       "vix": 15.27,
       "tip": 104.56
     },
@@ -74,7 +74,7 @@
       "date": "2026-10-14",
       "gold": 4127.3,
       "gold_chg": -1.36,
-      "dxy": 102.55,
+      "dxy": 102.53,
       "vix": 16.87,
       "tip": 104.82
     },
@@ -82,7 +82,7 @@
       "date": "2026-10-15",
       "gold": 4192.5,
       "gold_chg": 1.58,
-      "dxy": 102.0,
+      "dxy": 101.97,
       "vix": 16.46,
       "tip": 105.29
     },
@@ -90,7 +90,7 @@
       "date": "2026-10-16",
       "gold": 4186.7,
       "gold_chg": -0.14,
-      "dxy": 101.84,
+      "dxy": 101.78,
       "vix": 19.99,
       "tip": 105.54
     },
@@ -98,7 +98,7 @@
       "date": "2026-10-19",
       "gold": 4160.3,
       "gold_chg": -0.63,
-      "dxy": 101.98,
+      "dxy": 101.99,
       "vix": 18.44,
       "tip": 105.26
     },
@@ -106,7 +106,7 @@
       "date": "2026-10-20",
       "gold": 4142.5,
       "gold_chg": -0.43,
-      "dxy": 101.73,
+      "dxy": 101.7,
       "vix": 17.31,
       "tip": 105.48
     },
@@ -114,7 +114,7 @@
       "date": "2026-10-21",
       "gold": 4159.5,
       "gold_chg": 0.41,
-      "dxy": 101.78,
+      "dxy": 101.7,
       "vix": 16.68,
       "tip": 105.55
     },
@@ -122,7 +122,7 @@
       "date": "2026-10-22",
       "gold": 4039.8,
       "gold_chg": -2.88,
-      "dxy": 101.61,
+      "dxy": 101.62,
       "vix": 19.03,
       "tip": 106.33
     },
@@ -130,17 +130,17 @@
       "date": "2026-10-23",
       "gold": 4010.0,
       "gold_chg": -0.74,
-      "dxy": 101.81,
+      "dxy": 101.75,
       "vix": 19.45,
       "tip": 106.24
     },
     {
-      "date": "2026-10-25",
-      "gold": 4010.0,
-      "gold_chg": 0.0,
-      "dxy": 101.81,
-      "vix": 19.45,
-      "tip": 106.24
+      "date": "2026-10-26",
+      "gold": 4033.6,
+      "gold_chg": 0.59,
+      "dxy": 102.0,
+      "vix": 18.29,
+      "tip": 106.33
     }
   ],
   "macro": {
@@ -148,7 +148,7 @@
     "last_change": "2026-09-16 加息 25bp",
     "next_label": "10/27–28 议息会议",
     "next_date": "2026-10-28",
-    "days_to_next": 3,
+    "days_to_next": 2,
     "upcoming": [
       {
         "date": "2026-10-28",
@@ -187,10 +187,10 @@
         "src": "Iran International"
       },
       {
-        "date": "2026-10-19",
-        "text": "‘The world will be amazed:’ Iran’s commanders prepare for further war",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB0eUE3NlZIYURIaERvcmpRV3o0NWZRakxqY0QyYWVZU055SUJJazMybTNUVzlSSEN1TjhOc241WU9ld0NjTS10TWFCV1BNVnVnNDFQaHdPRWVXbS03RTlnOGNBdEtpR2J2OWJGTXpUMFZUNE5pSjVnbWhpSQ?oc=5",
-        "src": "CNN"
+        "date": "2026-10-25",
+        "text": "Tehran warns of nuclear options and infrastructure strikes if US attacks Iran",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9CeVBKZWd6VHJ4QjdOdFdSTzNVT2NDQUlsaUpfLXdvbjB6RndMSG4wUFZEbUk2R0M1MVRfOXBNTTU0NU1XRnNpVWxCaUlqUWVEd3B6ZTktX1VENnI2Q2E2cTN5RkxiN1BWVlE?oc=5",
+        "src": "The Jerusalem Post"
       },
       {
         "date": "2026-10-21",
@@ -199,24 +199,24 @@
         "src": "Al Jazeera"
       },
       {
-        "date": "2026-10-18",
-        "text": "Iran says Strait of Hormuz reopening, seven-day ceasefire conditions still on the table",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOM3NTZE9fMEQ3MjZJZW1kbXZ0OE9RUlZTRkpUaTVQYmgtRE9GU3pKdVJmVFhZSUZBM3FrNjF0Q1VPdlU0MGFfZVBsQzhtTWszTWpvOThSNkpnaUJpaDZtUFNmYURteUJGZHdtNlpyVzNmRmJ6WHliZ19vWW1kYTNENE1BX3lUWTFrSHlZZW1uSGVvNWRETURlYXdBcXVyVUdj?oc=5",
-        "src": "CBS News"
+        "date": "2026-10-20",
+        "text": "With War In Limbo, Influential Iranian Officials Openly Call For A Nuclear Bomb",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0xdXQwd2hJbVgtVjZ3Y3l0dDcwQkhvdm9Ya1plWVRWendBekQ1LWwySzBvY2Jvem1IU0xOTXF6c3o4b1ZQdkZOa3NMZWk0d090UXJSa3V1Mk5qd2luX01NRUpYT0VfNlpBdUxCd2VTV1NXUXdzUnhqTdIBe0FVX3lxTE91MGotS2Z0Qm1WTTBJVXl1cC0yWXgxeGkxZGU0NDlpelZrRWpTMV81UmpZRUtCUjdvZG90azViLXZST0tSbTlLTldtN2p2bURRaEZoSEJVMl90QnpSU29QMTVfbkdES0MydmRIdWRtZG4wNnNsSUpaMElnMA?oc=5",
+        "src": "Radio Free Europe/Radio Liberty"
       },
       {
-        "date": "2026-10-25",
-        "text": "Tehran warns of nuclear options and infrastructure strikes if US attacks Iran",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9CeVBKZWd6VHJ4QjdOdFdSTzNVT2NDQUlsaUpfLXdvbjB6RndMSG4wUFZEbUk2R0M1MVRfOXBNTTU0NU1XRnNpVWxCaUlqUWVEd3B6ZTktX1VENnI2Q2E2cTN5RkxiN1BWVlE?oc=5",
-        "src": "The Jerusalem Post"
+        "date": "2026-10-20",
+        "text": "Iran prolongs talks in stalemate to influence US midterms, officials say",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUEYwdEFGeHhKUmdIMXF2VEppVElubGVKYlNlbk5xRGlnY1pVMEFsc0pma1ZGOGdOXzFBWUVCWHVab2MxQ2t5ZlNGRG1oZkdCMENnOFktSm1OakZNUUZJX0w2ZHJmM1ZLV2JyS245RjFoUVNPTmZ3dVNfNDNWemZ2V3dZdTFZdmFwdTJhRVdjODhObHZIbXp5c181UFdKOVJTX2o0LWFDN3E3dm1TOGpj?oc=5",
+        "src": "Reuters"
       }
     ],
     "gold_impact": "双重作用：局势升级→避险买盘利多黄金；但同时油价飙升→通胀预期→美联储更难降息→利空黄金。当前谈判窗口期，油价波动会直接传导到金价。",
-    "wti_price": 103.27,
-    "wti_chg": 0.0,
+    "wti_price": 102.94,
+    "wti_chg": -0.48,
     "news_auto": true
   },
   "ai_analysis": "",
   "ai_error": "未自动生成，点击按钮手动生成",
-  "ai_date": "2026-10-25"
+  "ai_date": "2026-10-26"
 }
