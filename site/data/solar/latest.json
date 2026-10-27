@@ -1,89 +1,89 @@
 {
-  "date": "2026-10-26",
-  "hs300": 4103.54,
-  "hs300_chg": -0.04,
-  "solar_etf": 0.713,
-  "solar_etf_chg": -0.56,
-  "newenergy_etf": 2.004,
-  "newenergy_etf_chg": 0.1,
-  "storage_etf": 1.463,
-  "storage_etf_chg": -0.81,
-  "tnx": 4.98,
-  "usdcny": 6.6583,
-  "excess": -0.52,
-  "dd_from_high": 0.3973,
+  "date": "2026-10-27",
+  "hs300": 4049.55,
+  "hs300_chg": -1.32,
+  "solar_etf": 0.699,
+  "solar_etf_chg": -1.96,
+  "newenergy_etf": 1.957,
+  "newenergy_etf_chg": -2.35,
+  "storage_etf": 1.419,
+  "storage_etf_chg": -3.01,
+  "tnx": 4.99,
+  "usdcny": 6.6555,
+  "excess": -0.64,
+  "dd_from_high": 0.4091,
   "pb_ratio": 0.0333,
-  "turnover_ratio": 0.754,
+  "turnover_ratio": 0.848,
   "stocks": {
     "tongwei": {
-      "close": 11.58,
-      "chg": 1.14
+      "close": 11.47,
+      "chg": -0.95
     },
     "zhonghuan": {
-      "close": 8.89,
-      "chg": 3.37
+      "close": 9.12,
+      "chg": 2.59
     },
     "junda": {
-      "close": 33.61,
-      "chg": -2.07
+      "close": 34.12,
+      "chg": 1.52
     },
     "longi": {
-      "close": 11.53,
-      "chg": 2.04
+      "close": 11.45,
+      "chg": -0.69
     },
     "flat": {
-      "close": 9.34,
-      "chg": 1.85
+      "close": 9.19,
+      "chg": -1.61
     },
     "jiejia": {
-      "close": 51.59,
-      "chg": 0.08
+      "close": 50.31,
+      "chg": -2.48
     },
     "sungrow": {
-      "close": 70.23,
-      "chg": -2.73
+      "close": 68.24,
+      "chg": -2.83
     }
   },
   "news": [
     {
-      "date": "2026-10-26",
-      "text": "中山泰悦新能源600千瓦分布式光伏项目复核通过 总投资204.0万元 - 观点网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBKS1dMUXdOSlBhUkg5c0IyUTVpTDUyeTRwc3lXWENUQjl4OEhxR002RFplQlg3a2dVTkhBZ3BTZUdSeXR1WERJTWYyVlJvdVh5c2ZVZkpVOU90ZmVZVnREUEln?oc=5"
+      "date": "2026-10-27",
+      "text": "全国最大海上光伏项目并网发电突破百万千瓦 - 中国科技网",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE04YkczMURUM01CLUExZzNZVnBSSEdSNDJ0RU53ZWtERUNyOG1pUld6cUdFSmQ1LUhJQW1LRjRIdkY3Y1VyUEh2OERKVFZGdXZkekNTRTdXUEFWZ0J0WGFJbE5Qc3Zjd0RFRFFkUS1kVkc?oc=5"
     },
     {
-      "date": "2026-10-26",
-      "text": "国家能源集团河南电力焦作公司厂区二期光伏项目取得河南公司投资决策批复 - 国际太阳能光伏网",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBiNnlWZ19Dd2E4cTZuZXdYREdmWWhUR0Q5LUh0cEx2UTRUQl9yZjM1aFJnNVJNLVJjM29QNkV0Y0pFbnY4TWZ0UTU1a2tfSWttRXo5dWg1Wkxndl90?oc=5"
+      "date": "2026-10-27",
+      "text": "全国规模最大海上光伏项目并网 - 国际新能源网",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9fLUlzUzJFN1dpbTFfbW5CMHFNSmNvSTAzejJLdjNOa0xBT0hYUVJNMmxiQWJtWl9GWUt3dnplUWN5LTBnWEVSTEtDU1F5UE5JOWNKSF9kcDhHMGEwSldoWl9xOXBXcWc?oc=5"
     },
     {
-      "date": "2026-10-26",
-      "text": "机场光伏技术破题 如何从能源消耗者转变为清洁能源生产者 - 中国新闻网",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5jcTk2WkVvTTFMMGVCNTBBUGF0bXlPQ3hHNjJ2VXVaYTJwdndDUDhBcnhKY29kX2FqQTJ3dmtDTUVncDZ4bWZtWHdWdk0weW1Zb3loS0pObGlOUG9WY3dmUUNEVDRLMFNj?oc=5"
+      "date": "2026-10-27",
+      "text": "港煜新能源番禺化龙5个分布式光伏项目备案复核通过 - 观点网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBVY0wycDVPTmlKa3RkQnpsS19YY1h0Ylp0alhCenBiV3JCZXFEaExXRmhPejRDMzlON1dIWnhZQ3RZX19YMm05RHlFVjYtcHZEVXRHRHJKQlV0MHhoTkUyQjFB?oc=5"
     },
     {
-      "date": "2026-10-26",
-      "text": "第九届半导体大硅片论坛2026圆满召开！ - 电子工程专辑",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9vUzlYNTk3MVp1QUpyaUxEMHNxNUFtV0VaNDBCa2pqT0M0ZDZyZ3N4ekI1UEF4QjZMZFNrbUM4SmpxenlZTUtkR3EyWHUzUUtOMGh3?oc=5"
+      "date": "2026-10-27",
+      "text": "国网泰顺供电：特巡光伏电站 守护绿电输出 - 中国能源新闻网",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1Vc2xvMDd5NUxrS2xLclhrOGlWNDJOS1RjN19IYUFmb2RyN3dZV00wUjdObGFsM0JnV25MVXh5M2FfcnZ4ZGI2NU9GR1pfb2RJeFhBcTBSSWItc0JOUUlKb0hrMnJoVGVJVDJ1NzIzY3R2dw?oc=5"
     },
     {
-      "date": "2026-10-26",
-      "text": "超9亿！国能两大光伏项目公示！ - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5QWkNuVDk1YWZuS2NyWkpqN0ZXY3ZkcGZ0U0tOOTdTSHVtYWk1YlBoYU9IVHpvUlNzVFFCRWx3WEltWUw0ZkhvczlvcXZOQk5qcGZnb1dPZXcwTUJJNUg4c2d5MTc0M05LQi1pOTVTOFlTRS1RMUdJUQ?oc=5"
+      "date": "2026-10-27",
+      "text": "英发睿能TOPCon 3.0多分片、 XBC 2.0电池片产品首次亮相印度REI - 经济参考报",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWWt2WEZnMkI2Y29qZkwxSGRrZUdjQlJuUTg3OUpidzFJbGRDeWdjX2hkdG1RWXBTLUhxTWJIYm0xOXduOHdrRXItNElrU2lvRU56ejh6N09fTXpVTXdwOWlLZzRveVNxSGVfTW9qbi1WZ25KbGFMaTNiUjJMSUtrZw?oc=5"
     },
     {
-      "date": "2026-10-26",
-      "text": "张掖绿色能源再添“百万千瓦级”新动力 辉通山丹东乐滩十万千瓦光伏发电项目全容量并网发电 - 中国甘肃网",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0tU2k4OGJuWWdHQnNiYjVNRnY0a3YzZUFXNjBvaG5aY0ZQUFp5TjJXYnIzNU1TNlZ3bVZRbnVOaUg3a1RuWF8wc1dwYTk0Y3dBX3NCRXVxVUFmeWpFMnJsMldRYzdZT29YYWc?oc=5"
+      "date": "2026-10-27",
+      "text": "从光伏到储能：组串式架构的崛起之路 - 世纪新能源网",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5GQ2hCb1I4ekxqMGxER19YbXFvTjFaeTFaLU43UV92OGhUUGxQV25YRzlkZ2NmTWhFZDNHZXVUZFA3YUFNeGpXWkJkRDJTVFBsbDBacw?oc=5"
     },
     {
-      "date": "2026-10-26",
-      "text": "金刚光伏签订4.8亿元GPU卡及服务器采购合同_公司新闻_财经 - 证券之星",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5JU0pFYXA1VFJTSkI0bEtBN0MwMDZ1WndHSER3bWJRVzBMelctY3NvZ2NqYW5oMW9TcWg3TXYwVE1ld1pwZXYxQk81ZVFLZDFTVDJ4Qkh2TFJkUWEzbThPeQ?oc=5"
+      "date": "2026-10-27",
+      "text": "中国管制设备出口，马斯克的超大光伏工厂会黄吗？ - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9EcnRSSmN3TTFBVWFJR1MyeVdHSHdGaG1INzRkNmFZLU5CX2x6TFV2b0hfRndGUnhpT01GbTBpUzdqbFRORDdEeHhGajdmMjZMZnJTZWlwYWgzQ0pSdXpJTzA3MkxnMG5uYmVwZ193?oc=5"
     },
     {
-      "date": "2026-10-26",
-      "text": "梅州汉晟新能源三个分布式光伏项目备案获通过 合计投资101.21万元 - 观点网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9TWjlsVVdFd0owVkViYTRDME14Y3dIVGNPWTl3SjRKaXh5Qk1mVy03LWR3VXdjMGxNTm5wbk1jVzVqSGJPU29ONVNTSm1qMVRKdDRtREc3a3hZNElaZ1JlVUlR?oc=5"
+      "date": "2026-10-27",
+      "text": "中来、英利、正泰！中国电建4GW TOPCon组件集采中标人公示 - 上海有色金属",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBMckxoUmVvVHJ0QTJOdzZqSmhqNE5pUnZuZFRuS2dtaVI2X0htdVNHQUpucUVVZWRTc3d5TUVRUzlyQ3hNMHBlOWp3?oc=5"
     }
   ],
   "ai_analysis": "",
