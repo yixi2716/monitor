@@ -1,89 +1,89 @@
 {
-  "date": "2026-10-27",
-  "hs300": 4049.55,
-  "hs300_chg": -1.32,
-  "solar_etf": 0.699,
-  "solar_etf_chg": -1.96,
-  "newenergy_etf": 1.957,
-  "newenergy_etf_chg": -2.35,
-  "storage_etf": 1.419,
-  "storage_etf_chg": -3.01,
-  "tnx": 4.99,
-  "usdcny": 6.6555,
-  "excess": -0.64,
-  "dd_from_high": 0.4091,
+  "date": "2026-10-28",
+  "hs300": 4083.87,
+  "hs300_chg": 0.85,
+  "solar_etf": 0.703,
+  "solar_etf_chg": 0.57,
+  "newenergy_etf": 1.972,
+  "newenergy_etf_chg": 0.77,
+  "storage_etf": 1.443,
+  "storage_etf_chg": 1.69,
+  "tnx": 5.04,
+  "usdcny": 6.6544,
+  "excess": -0.28,
+  "dd_from_high": 0.4057,
   "pb_ratio": 0.0333,
-  "turnover_ratio": 0.848,
+  "turnover_ratio": 0.782,
   "stocks": {
     "tongwei": {
-      "close": 11.47,
-      "chg": -0.95
+      "close": 11.35,
+      "chg": -1.05
     },
     "zhonghuan": {
-      "close": 9.12,
-      "chg": 2.59
+      "close": 9.65,
+      "chg": 5.81
     },
     "junda": {
-      "close": 34.12,
-      "chg": 1.52
+      "close": 35.11,
+      "chg": 2.9
     },
     "longi": {
-      "close": 11.45,
-      "chg": -0.69
+      "close": 11.27,
+      "chg": -1.57
     },
     "flat": {
-      "close": 9.19,
-      "chg": -1.61
+      "close": 9.07,
+      "chg": -1.31
     },
     "jiejia": {
-      "close": 50.31,
-      "chg": -2.48
+      "close": 52.03,
+      "chg": 3.42
     },
     "sungrow": {
-      "close": 68.24,
-      "chg": -2.83
+      "close": 68.23,
+      "chg": -0.01
     }
   },
   "news": [
     {
-      "date": "2026-10-27",
-      "text": "全国最大海上光伏项目并网发电突破百万千瓦 - 中国科技网",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE04YkczMURUM01CLUExZzNZVnBSSEdSNDJ0RU53ZWtERUNyOG1pUld6cUdFSmQ1LUhJQW1LRjRIdkY3Y1VyUEh2OERKVFZGdXZkekNTRTdXUEFWZ0J0WGFJbE5Qc3Zjd0RFRFFkUS1kVkc?oc=5"
+      "date": "2026-10-28",
+      "text": "光核并济！全国规模最大海上光伏项目并网 - 国际新能源网",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE94eDVxU2dHM2ZnSkZ5OWFqVTZIcndMemFEc01qTEd6dVgxUUhEUk5IbS11enliTlV1TTdXa1g2Y2tFVHJrU0hDSHhTdnZqT3UtUGlVYm5hdkk0NWdud1BkbWtmMUtqTFU?oc=5"
     },
     {
-      "date": "2026-10-27",
-      "text": "全国规模最大海上光伏项目并网 - 国际新能源网",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9fLUlzUzJFN1dpbTFfbW5CMHFNSmNvSTAzejJLdjNOa0xBT0hYUVJNMmxiQWJtWl9GWUt3dnplUWN5LTBnWEVSTEtDU1F5UE5JOWNKSF9kcDhHMGEwSldoWl9xOXBXcWc?oc=5"
+      "date": "2026-10-28",
+      "text": "光伏设备企业破局进行时：奥特维如何跳出光伏谋发展？ - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9GTkpiZXFxN0J2QTJtZy1yX2doZVVoVlU3Rjk0empSTFRVVWJvZnZEN3l4MEM4ZzIwczJsd20tREF3T3U3clBRemJpNjFsY2FCY1d6OS14YUJQZVZwNlAxSDNTNUNTWktrTHhHUVYwTzF5MGJZeENnVA?oc=5"
     },
     {
-      "date": "2026-10-27",
-      "text": "港煜新能源番禺化龙5个分布式光伏项目备案复核通过 - 观点网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBVY0wycDVPTmlKa3RkQnpsS19YY1h0Ylp0alhCenBiV3JCZXFEaExXRmhPejRDMzlON1dIWnhZQ3RZX19YMm05RHlFVjYtcHZEVXRHRHJKQlV0MHhoTkUyQjFB?oc=5"
+      "date": "2026-10-28",
+      "text": "光伏发电可制氢！国内最大光氢储项目迎新进展 - 紫牛新闻",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBqc3NLdmk4bTJXejVhWFhURXVFZkdWNVY4cXFsblphYVMwYnB6MjZiQzg2TzhmbFJVT0g4UXRnRUQ3RUxTbHlGZ1M3dnUxSjRFaGRNZ090ZlFDeHl4eVRPRkoxZVNvWElM?oc=5"
     },
     {
-      "date": "2026-10-27",
-      "text": "国网泰顺供电：特巡光伏电站 守护绿电输出 - 中国能源新闻网",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1Vc2xvMDd5NUxrS2xLclhrOGlWNDJOS1RjN19IYUFmb2RyN3dZV00wUjdObGFsM0JnV25MVXh5M2FfcnZ4ZGI2NU9GR1pfb2RJeFhBcTBSSWItc0JOUUlKb0hrMnJoVGVJVDJ1NzIzY3R2dw?oc=5"
+      "date": "2026-10-28",
+      "text": "我国风电光伏累计装机容量突破20亿千瓦 - 华商网",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1GYjJFNlBmQ3JwNncwZUxvWEVJOGQwRW5qcWpxaE1oVmZ4MjBWU2MxX2psUjBxRTFYVHR3S0RBT05oOVY3MXc4UXpMYmEteUF0MnFibnpKNkU4djFnMUJz?oc=5"
     },
     {
-      "date": "2026-10-27",
-      "text": "英发睿能TOPCon 3.0多分片、 XBC 2.0电池片产品首次亮相印度REI - 经济参考报",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWWt2WEZnMkI2Y29qZkwxSGRrZUdjQlJuUTg3OUpidzFJbGRDeWdjX2hkdG1RWXBTLUhxTWJIYm0xOXduOHdrRXItNElrU2lvRU56ejh6N09fTXpVTXdwOWlLZzRveVNxSGVfTW9qbi1WZ25KbGFMaTNiUjJMSUtrZw?oc=5"
+      "date": "2026-10-28",
+      "text": "银价疯涨，亏损500亿的光伏行业要拆“定时炸弹” - 风闻",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE01SndYazAyWTF0V3ZXRGxGd3pzOFRNMXJVRzVhbmhRX0FrYmtJdm5VcmpadHlJWmo4R00xT3E0ejRhNEhSemduNUJsdkFzdzVOZjdBSHlBMzdLeUk?oc=5"
     },
     {
-      "date": "2026-10-27",
-      "text": "从光伏到储能：组串式架构的崛起之路 - 世纪新能源网",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5GQ2hCb1I4ekxqMGxER19YbXFvTjFaeTFaLU43UV92OGhUUGxQV25YRzlkZ2NmTWhFZDNHZXVUZFA3YUFNeGpXWkJkRDJTVFBsbDBacw?oc=5"
+      "date": "2026-10-28",
+      "text": "大全能源：预计第四季度多晶硅产量为3.5万至4.5万吨 - 21财经",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORkZGZ1d6bUZLQTZxNWJSYnBZMi0zMXNIdHdtU2hzQ2ZIVENGVkxLX25PQjVEeThyZ3NjYkxHejNjVVd6QTVYd1Q2MW5OU29DT3B3QlRPZjlLLTlsaWl1OHl3aGJEdzF1WVlrdjJ2cVRhT09Dd2tPWDFUSTFTcS0tSy1XTjJCQTNzNkg2Tmtabw?oc=5"
     },
     {
-      "date": "2026-10-27",
-      "text": "中国管制设备出口，马斯克的超大光伏工厂会黄吗？ - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9EcnRSSmN3TTFBVWFJR1MyeVdHSHdGaG1INzRkNmFZLU5CX2x6TFV2b0hfRndGUnhpT01GbTBpUzdqbFRORDdEeHhGajdmMjZMZnJTZWlwYWgzQ0pSdXpJTzA3MkxnMG5uYmVwZ193?oc=5"
+      "date": "2026-10-28",
+      "text": "常州构建新能源生态链 以绿色动能铸就“双万亿之城” - 新华网江苏频道",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5QYmxNbWZEN3dvRVNkM3JWdzFlN3p5MjZ1SlI3TWZ5NFg3aGM1TnJiOEJ6d3FyR0xIeEMtbGFiUnludDBoUlgtemVRcGZuUXg1TnpvNlZKSEhKNHFYbXFKZENFZlI3aVVXeHg5dkw0ZkhxUDFx?oc=5"
     },
     {
-      "date": "2026-10-27",
-      "text": "中来、英利、正泰！中国电建4GW TOPCon组件集采中标人公示 - 上海有色金属",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBMckxoUmVvVHJ0QTJOdzZqSmhqNE5pUnZuZFRuS2dtaVI2X0htdVNHQUpucUVVZWRTc3d5TUVRUzlyQ3hNMHBlOWp3?oc=5"
+      "date": "2026-10-28",
+      "text": "英杰电气：2026年光伏订单大幅增长 收入将在后续周期确认 - 观点网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE54SVhXZlZvS2lBVm0xMk1QYTBYQUh1UXBVMzh4WVVBS1pNaWFObUNuME1XSzhlT1ZrV2hJeEtVZW5wLW1fTE5ESktTYTlBSXRYcTgyR1hPZjB5ejVZaGhoZkZR?oc=5"
     }
   ],
   "ai_analysis": "",

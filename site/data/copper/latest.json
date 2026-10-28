@@ -1,60 +1,60 @@
 {
-  "date": "2026-10-27",
-  "copper": 6.645500183105469,
-  "copper_chg": 2.1127886951198604,
-  "ma20": 6.557050013542176,
-  "ma50": 6.571000013351441,
-  "dxy": 102.24700164794922,
-  "vix": 17.59000015258789,
-  "tnx": 4.986000061035156,
-  "wti": 100.06999969482422,
-  "cu_oil_ratio": 146.40554270368145,
-  "shfe_cu": 108390.0,
-  "shfe_cu_date": "2026-10-27",
-  "shfe_lme_ratio": 1.028,
+  "date": "2026-10-28",
+  "copper": 6.656000137329102,
+  "copper_chg": 0.5134388217298058,
+  "ma20": 6.5607250213623045,
+  "ma50": 6.573900012969971,
+  "dxy": 102.28600311279297,
+  "vix": 17.309999465942383,
+  "tnx": 5.038000106811523,
+  "wti": 103.44999694824219,
+  "cu_oil_ratio": 141.84583330727514,
+  "shfe_cu": 109200.0,
+  "shfe_cu_date": "2026-10-28",
+  "shfe_lme_ratio": 1.034,
   "lme_stock": 296625,
   "lme_stock_date": "2026-07-17",
-  "shfe_stock": 14593,
-  "shfe_stock_chg": -1626,
-  "shfe_stock_date": "2026-10-27",
+  "shfe_stock": 12620,
+  "shfe_stock_chg": -1973,
+  "shfe_stock_date": "2026-10-28",
   "lymy": 14.06,
-  "lymy_chg": 2.11,
-  "tl": 4.95,
-  "tl_chg": -0.8,
-  "jxt": 35.9,
-  "jxt_chg": -0.08,
-  "cper": 39.97,
-  "cper_chg": 1.47,
-  "copx": 76.27,
-  "copx_chg": 3.33,
+  "lymy_chg": 0.0,
+  "tl": 5.01,
+  "tl_chg": 1.21,
+  "jxt": 36.56,
+  "jxt_chg": 1.84,
+  "cper": 39.99,
+  "cper_chg": -0.15,
+  "copx": 76.09,
+  "copx_chg": -0.77,
   "signals": [
     {
       "name": "铜价站上MA20",
       "dir": "bull",
-      "text": "$6.65 > MA20 $6.56"
+      "text": "$6.66 > MA20 $6.56"
     },
     {
       "name": "美元中性",
       "dir": "neutral",
-      "text": "DXY 102.25"
+      "text": "DXY 102.29"
     },
     {
       "name": "风险偏好正常",
       "dir": "neutral",
-      "text": "VIX 17.6"
+      "text": "VIX 17.3"
     },
     {
       "name": "铜油比偏高",
       "dir": "bull",
-      "text": "铜油比 146.4，工业景气预期强"
+      "text": "铜油比 141.8，工业景气预期强"
     },
     {
-      "name": "利率环境友好",
-      "dir": "bull",
-      "text": "10Y 4.99%"
+      "name": "实际利率高企",
+      "dir": "bear",
+      "text": "10Y 5.04%，压制金属估值"
     }
   ],
-  "score": 3,
+  "score": 1,
   "news": [
     {
       "date": "2026-10-22",
@@ -70,21 +70,15 @@
     },
     {
       "date": "2026-10-22",
-      "text": "Adamera Expands Glix Gold Skarn Work at South Hedley Near Historic Mines & Hudbay's Copper Mountain",
+      "text": "Copper Co. Could Fill Demand as Ray Dalio Suggests Diversifying from AI Stocks",
       "src": "Streetwise Reports",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOU1F5ODBSUHJMbGd6TTA5LWJKUGkwQjJtU0xiLTh5ODlrYU8zdXE4akhwbkNTZzlVRFFxbWpJMmt6VUhWMlE1NkdyRlp3YV9Dczl1dEw4ODU3OUVGWU8yUTNsRnd4dVpHN3VEbmpVZDZ5a01nTzYwYnI1LUttNV9oU2NPNjJwRENpRnRJUnRQR3UyUVhwaXlxWmlGbDNLbkhpRkx3Sjk3NE42U2hPUkpMc2c3d2h6TGxhZmxQOE1wUVFfTk1iNzlPYUtYMllTRnpuWVRoZmRrTE5tZjAtU1BwcFZaUHVZc2FXQkEzVklOQQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZ242cjBsejNjSkxlYWpEa0ZUUTEyT0VCRnhWYVZwZzBrWVdWeXF1OTItLS1CbGJWUzJEUVRrcjRkcWRPZUVaQzNQVnNCcGxvaHE1NF9HSGlUZHhhWWNTZXY3MTM5WWRsYTBaNHVzeXNteEdPUDduY1VFN3FTdE5KazJjOFFSV1VrZS1OOV95OXhxZUZQaUxRTDJvbnNXNUVVaGh4UDMtUzhHM3VsbzFLUHJuQmRjZkQwdWJmUWxqMmFBOExZS0ozNWYyU0tqaVBS?oc=5"
     },
     {
       "date": "2026-10-23",
       "text": "US aluminium industry highlights importance of domestic smelting capacity for national security",
       "src": "AL Circle",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQalQ1MC01OHJmR0hUVG4tZUU4cEJIZ0tIZkZvWmZDSmwxZmVkOHhVdWdMN0tTb2xCWjZnSW45NEU3MjA3U2dnZ2JlcVRrNk9qTTVTNlJTQUN1SzJqcGdSYU5fb1p0dExIcjdnNS1GclZlQnM3SVdocGIzRjZoME9sM09uaHhoR3pMcGdmT0FpcmhjNnJKNkFoTTAyVWFvS2QzWTFqc3hoaUE3ZFdzUTBHVlpXSHM0TUNsdkNxMm0zY0h2emlac3JFbE1EZEQ?oc=5"
-    },
-    {
-      "date": "2026-10-21",
-      "text": "VR Resources Advances New Boston Drill Planning",
-      "src": "Streetwise Reports",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcHBCQnUtckcyOTVKM1pwN3IyOW1jNVFNU09adXNncVlUSFVfLW1saTN6RkdwdDRrNW9qR3AyaFFNVEhMODljN0hMYWVUdnlrWHJfR2NUSzNZcXlkTTJtblVVdVg3VkIzZkpBR1dUZjl1T2hZNzVxOHZXODFmMWtHTkpPQVNoMGRDdGo4Z1VTbDE2M2RnWm1BSXRaWjNWNlpsWkNqSlJjMDc?oc=5"
     },
     {
       "date": "2026-10-22",
@@ -95,5 +89,5 @@
   ],
   "ai_analysis": "",
   "ai_error": "未自动生成，点击按钮手动生成",
-  "ai_date": "2026-10-27"
+  "ai_date": "2026-10-28"
 }

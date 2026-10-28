@@ -1,68 +1,68 @@
 {
-  "date": "2026-10-27",
-  "hs300": 4049.55,
-  "hs300_chg": -1.32,
+  "date": "2026-10-28",
+  "hs300": 4083.87,
+  "hs300_chg": 0.85,
   "med_etf": 0.371,
-  "med_etf_chg": -2.88,
+  "med_etf_chg": 0.81,
   "inn_etf": 0.781,
-  "inn_etf_chg": -3.94,
+  "inn_etf_chg": 1.15,
   "cxo_etf": 0.329,
-  "cxo_etf_chg": -2.95,
+  "cxo_etf_chg": 0.91,
   "tcm_etf": 0.878,
-  "tcm_etf_chg": -1.9,
+  "tcm_etf_chg": -0.11,
   "meddev_etf": 0.436,
-  "meddev_etf_chg": -3.54,
+  "meddev_etf_chg": 0.92,
   "vaccine_etf": 1.957,
-  "vaccine_etf_chg": -2.35,
+  "vaccine_etf_chg": 0.77,
   "hsi_health": 23041.32,
   "hsi_health_chg": 0.0,
   "hs_inn_etf": 1.155,
-  "hs_inn_etf_chg": -3.43,
-  "tnx": 4.99,
-  "usdcny": 6.6555,
-  "excess": 0.0,
-  "north_money": 225322.59,
-  "north_date": "20261027",
+  "hs_inn_etf_chg": 2.86,
+  "tnx": 5.04,
+  "usdcny": 6.6544,
+  "excess": -0.04,
+  "north_money": 251393.34,
+  "north_date": "20261028",
   "news": [
     {
-      "date": "2026-10-27",
-      "text": "恒瑞医药Q3净利润同比大增88.9%，称或无法完成全年创新药收入增速目标 | 财报见闻 - 华尔街见闻",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFByWTlQUC1aQkFLOERNdTN6RW9aVDlmaVFLZlZONlczMmhZYkJ4QkRSN2drb3BOSFVNR2gzQk9yMmZSZ1J4SkdtTXM3T3N4ai1WTDk4?oc=5"
+      "date": "2026-10-28",
+      "text": "新华健康｜复星医药第三季度扣非净利润同比下滑8.32% - 经济参考报",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQTmVCV3dRLU43WmFtUzMzOEZQYmFpZ3dRN3ZvNTkzNlBkc2tUMnpDZ3FZODJFUVVFcTUzSEcwNENlNVNxUFE3Tkt2aFlFeDdleVNCN3R5RXB1VEdzUGhxLVpsQzNNSjhrVEluY0djZlFLSUUtU19Obnd6d1NYbk9KZw?oc=5"
     },
     {
-      "date": "2026-10-27",
-      "text": "闵行区领导调研区内生物医药企业2026-10-27 - 上海市人民政府",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQmJjRk5rTXV2dXF5UWtfcjZlRlhHalJvakVyNHEwbVpXSXhRZzR1LWdrcUs5ZVhsX3hfYXV4bFM1ZWhmaWFOX196b3FVaV9VYklTZ1J4Rk9oOHl3bC14NXdZNWEtTTRUSHplWHd5MUZCam9LQlVxXzZRU2hfNkpYM1k3QXVESUNWcEE?oc=5"
+      "date": "2026-10-28",
+      "text": "上海中医药大学牵手名校名所，共同启动中医药拔尖创新人才培养计划 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBFWTNKUUtkeGdqaVBGQWlTV21FWU52VElZZk5IcHdEc3FwUTNiN2NZc042bWZBQkhTZGFyQVdzWmxWU3V6WVNyT19IMG4zSkpyOWdIeHhaUFE5MW1GWC1sakQ2RVpXVXAweWd4MDhIN2N0UW41VGhVaA?oc=5"
     },
     {
-      "date": "2026-10-27",
-      "text": "江门市生物医药产业链合作对接会成功举办_工作动态_江门市科学技术局 - 江门市人民政府",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPOHl5NjFJS2xkYUtTUnBYYkRQcVRFTVZMVEJJMHBiLUJPNEM4djl5dG82LTNaTFlOcUlJd05pc3BoR0RWVzVkZ2pTX083cGxTbmpoSzFhdDFqWjBsWnRNUjlIMnk5UjF1MXVaVTg1V2Jwd3d4VEV0ZXByT0xNVk8zNjdR?oc=5"
+      "date": "2026-10-28",
+      "text": "岐黄薪传七十载！中医药惠民活动落地普陀， 把好医生送到家门口2026-10-28 - 上海市人民政府",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQSmNLVHRuaFo1WEE5a2dlRElmckZfcGVVRWxZcWIzSHlVM01qYlJteElaV3hDdXlGeEhOV1Zrd2lTZ0JEUkFYbVQwUGk0MXF3Q2cxLVJTQUNEOVRVNzFGNG5Db01DN0RpRGhmVmRYOFZGemkzWFczTE9PZnB2R0NzRmg5UFk1TVhpeEE?oc=5"
     },
     {
-      "date": "2026-10-27",
-      "text": "方舟健客以AI技术激活产业效能，入选2026医药流通高质量发展优秀实践案例 - 新华网",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1IZDM0bW9QY3NVRmFKUEtaTkJtWWppQ19jbkJYblFkd1hnYjBZZURkS05td0R5eE1Yak8wZ0J3M3RrcEZNaTRnbjVUUjJ1RVNqUTdqN1NmclJTamN5VDBFVG9rd3VzbEx5V0Q2eDRsbGZCeTRHRlVSaEQySmRYV2c?oc=5"
+      "date": "2026-10-28",
+      "text": "徐汇 | 回顾：清华生医药未来科技论坛——聚力上海前沿健康产业新引擎圆满举办 - 上海国际人才网",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBlbm1rY2tfdmVIRjNPNl82RDE4ZllGUW44M2xwMExFVGtfclBaQlVKcnhtZGlDN25fVGU4QVJVck5XUVIxZE1pNlJqMjhpTm9Xc3FwMmdPdXZJOHA3Q1o2cHkzbENEUjUwSWYybg?oc=5"
     },
     {
-      "date": "2026-10-27",
-      "text": "创新药“算力”告急？“猴哥”单价冲至20万 谁在推高这股风 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9VVEgxdGZ5dWo4S3NkN0JGQzNyZVNHSDBHd1d6b0JtSkNuemdKVnZNbjBNSHlNcnhhd2RtNFlLc09jR21RZkJxTw?oc=5"
+      "date": "2026-10-28",
+      "text": "这所双一流高校的国际学生已超3000人，中医药领域“上海共识”发布 - 上观新闻",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5BRTFsZ2pxMG9vTkppQ1ZDRFNudHZtYjNQN3dobDVCUmlTSnA4OHBjeHZWaVFzQVFqYWxBZUk2MEFOdzRPS0hlMFh5dFR4R0FZWVk1SFduX2p1UQ?oc=5"
     },
     {
-      "date": "2026-10-27",
-      "text": "抗肿瘤创新药研发路在何方 - 科学网—新闻",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1Ub3VhUC1sQkF0aERUcFJ4b002REZucnQwRU84VUJWdUNKNlR4UkNXSW14SEFLRHVHQllJZnRaeWlxTnN6UWFmdXVVQXA4TEc3Qm5rbnl6QnVPbzg5T19YcE9JMnlKdw?oc=5"
+      "date": "2026-10-28",
+      "text": "冀衡医药：2026年第三季度报告 - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB5am9UYzJ5NGNzTnlHamRTeVh6bEtGTF9xN241MHpvYVZVaUE1OG1UYlRzQS1vMnZGU2NFU2M4VGQwdHB4X0pfN0RVNjhJYS1VUlRxaUhULXVjNEMwZ2JKMmZwR3pwQQ?oc=5"
     },
     {
-      "date": "2026-10-27",
-      "text": "创新药对外授权收入到账，恒瑞医药业绩回到两位数增长 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4tRXR0VnlGalkxVTJRN1ZKQUdtQVpTSF9NZWJ3REN2dW9CT1U5dmR5WDZRUGt4VmQ1NUpBQWF0QmNSYUl0V1M4blRYMVdaY0djRklTTnp0dkt1YTBRamZfY2VHUmphbC1MM1cta19aekFqVDFCQkE?oc=5"
+      "date": "2026-10-28",
+      "text": "BD链接全球，知识产权赋能生物医药产业高质量发展 - ByDrug",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE56Y2VBcWtzZ2pqWjhKemJHVEVZZmQ0X1M4SkxvU0JSNVAzSmdNNGhMT0JoZmpKTk5NR2IyQ2VCVG5UR3JXWlFCTV9oV2dzTU15ZXI0M3g4UU0xSmRVT3hKajUwYXl5X3huR0c3MS1wb2ZsTkFBUW8wVzBVNDFnZw?oc=5"
     },
     {
-      "date": "2026-10-27",
-      "text": "聚势·启新·领航|第十一届医药创新与投资大会盛大召开 - 中国日报网",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBFdnY1Q3RHeS1ES0xuYk5tWnhkdEM2eWxRa2JFcVpxX1QycTZXb2IwNHdiMFl5SFlPOEw4dWFYNDUzUU41M2lPd1l0eGZJbGZzdWx3UHBvb3hrakMwcElZekV1UUtrTVRiRUpzMHh0dHZOeFpNdVVsMGlhVi0?oc=5"
+      "date": "2026-10-28",
+      "text": "研发投入同比大增50%！复星医药阿尔茨海默病创新药三期结果即将揭晓 - 第一财经",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB4N2YwUjl0eTRRaHRRUHJWdTk3T2JldUU0N1Itbm9BT2hscDJPN2VFc2VYT0NDQUdpdkFBRnR3ZlYzMmRIRXJVOW1lbVgwSm9kb18w?oc=5"
     }
   ],
   "ai_analysis": "",
