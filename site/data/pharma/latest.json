@@ -1,68 +1,68 @@
 {
-  "date": "2026-10-28",
-  "hs300": 4083.87,
-  "hs300_chg": 0.85,
-  "med_etf": 0.371,
-  "med_etf_chg": 0.81,
-  "inn_etf": 0.781,
-  "inn_etf_chg": 1.15,
-  "cxo_etf": 0.329,
-  "cxo_etf_chg": 0.91,
-  "tcm_etf": 0.878,
-  "tcm_etf_chg": -0.11,
-  "meddev_etf": 0.436,
-  "meddev_etf_chg": 0.92,
-  "vaccine_etf": 1.957,
-  "vaccine_etf_chg": 0.77,
-  "hsi_health": 23041.32,
+  "date": "2026-10-29",
+  "hs300": 4041.84,
+  "hs300_chg": -1.03,
+  "med_etf": 0.374,
+  "med_etf_chg": 0.27,
+  "inn_etf": 0.79,
+  "inn_etf_chg": -0.63,
+  "cxo_etf": 0.332,
+  "cxo_etf_chg": -0.3,
+  "tcm_etf": 0.877,
+  "tcm_etf_chg": -1.03,
+  "meddev_etf": 0.44,
+  "meddev_etf_chg": -0.45,
+  "vaccine_etf": 1.972,
+  "vaccine_etf_chg": -1.72,
+  "hsi_health": 23094.83,
   "hsi_health_chg": 0.0,
-  "hs_inn_etf": 1.155,
-  "hs_inn_etf_chg": 2.86,
-  "tnx": 5.04,
-  "usdcny": 6.6544,
-  "excess": -0.04,
-  "north_money": 251393.34,
-  "north_date": "20261028",
+  "hs_inn_etf": 1.188,
+  "hs_inn_etf_chg": -0.08,
+  "tnx": 5.0,
+  "usdcny": 6.6504,
+  "excess": 1.3,
+  "north_money": 248450.44,
+  "north_date": "20261029",
   "news": [
     {
-      "date": "2026-10-28",
-      "text": "新华健康｜复星医药第三季度扣非净利润同比下滑8.32% - 经济参考报",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQTmVCV3dRLU43WmFtUzMzOEZQYmFpZ3dRN3ZvNTkzNlBkc2tUMnpDZ3FZODJFUVVFcTUzSEcwNENlNVNxUFE3Tkt2aFlFeDdleVNCN3R5RXB1VEdzUGhxLVpsQzNNSjhrVEluY0djZlFLSUUtU19Obnd6d1NYbk9KZw?oc=5"
+      "date": "2026-10-29",
+      "text": "沪市创新药产业进入“质变”窗口期 - 21财经",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUGtKU1k4bDlWSm9yUDMwcGh6eDE2MEpsbmxxenpZamJjejFPWGY4dE1JZVRCNUhpaHo2WURuanp5emFwM1FjX2JjdHUxTkgyWlJsMGxwRWlwNzNHWTloV3g3QzdlUndJZE81SUlWWnVLZTJfODA0dGNLUTh3aTBWel9KTEQ4Y3ppNmVhaHc2SXJkeWw5?oc=5"
     },
     {
-      "date": "2026-10-28",
-      "text": "上海中医药大学牵手名校名所，共同启动中医药拔尖创新人才培养计划 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBFWTNKUUtkeGdqaVBGQWlTV21FWU52VElZZk5IcHdEc3FwUTNiN2NZc042bWZBQkhTZGFyQVdzWmxWU3V6WVNyT19IMG4zSkpyOWdIeHhaUFE5MW1GWC1sakQ2RVpXVXAweWd4MDhIN2N0UW41VGhVaA?oc=5"
+      "date": "2026-10-29",
+      "text": "中国原研双抗ADC亮相ESMO，创新药“新兴支柱产业”加速成形 - 上观新闻",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE50WDdCRlN4OTVPOEV1LXlFd0ZVU3hWNXZnX1pWLWlPeWFzN2RPVmRTdFJEQ3hkOGU1TnB4c2pwWndQV1RjYjYtS1RFOWVTNWExWVBTcFBLOFQtZw?oc=5"
     },
     {
-      "date": "2026-10-28",
-      "text": "岐黄薪传七十载！中医药惠民活动落地普陀， 把好医生送到家门口2026-10-28 - 上海市人民政府",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQSmNLVHRuaFo1WEE5a2dlRElmckZfcGVVRWxZcWIzSHlVM01qYlJteElaV3hDdXlGeEhOV1Zrd2lTZ0JEUkFYbVQwUGk0MXF3Q2cxLVJTQUNEOVRVNzFGNG5Db01DN0RpRGhmVmRYOFZGemkzWFczTE9PZnB2R0NzRmg5UFk1TVhpeEE?oc=5"
+      "date": "2026-10-29",
+      "text": "全国首个华为生态校企共建中医药信创算力中心在成都中医药大学完成签约 - 中国科技网",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBzTjg0aURQdV9STnJrc2dtRDRraC1mYkVoYkpPQjBrU18xMm1iM3kyODhnSk5COTV0TkRLQ2xlMEYxajhSZGNwcEZzLVhVaDYwdkptbnV5LXdzeGZsWGJBdE9vYTBBeERGOHNxZEJQNHU?oc=5"
     },
     {
-      "date": "2026-10-28",
-      "text": "徐汇 | 回顾：清华生医药未来科技论坛——聚力上海前沿健康产业新引擎圆满举办 - 上海国际人才网",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBlbm1rY2tfdmVIRjNPNl82RDE4ZllGUW44M2xwMExFVGtfclBaQlVKcnhtZGlDN25fVGU4QVJVck5XUVIxZE1pNlJqMjhpTm9Xc3FwMmdPdXZJOHA3Q1o2cHkzbENEUjUwSWYybg?oc=5"
+      "date": "2026-10-29",
+      "text": "2026上海国际生物技术与医药研讨会暨浦江生物医药源头创新大会近日举行 - 上海市人民政府",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOd0VTaFFQZ1R0ckpVZDhhQzRrN3lPV0JRSmt0Y1d0VTFOZldoamx1ZFRPQ2c0SUh6Q0RHRkdKR2o0Q2t5SkpoZjNaMFAxTC1PcGNhemtVQ3dEbURlZHo0cEswdFVUd2dOSlIxM0JuNDJPTUdIOHVUa0FjOE85ejdFU1VselN4Nnk2Z2c?oc=5"
     },
     {
-      "date": "2026-10-28",
-      "text": "这所双一流高校的国际学生已超3000人，中医药领域“上海共识”发布 - 上观新闻",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5BRTFsZ2pxMG9vTkppQ1ZDRFNudHZtYjNQN3dobDVCUmlTSnA4OHBjeHZWaVFzQVFqYWxBZUk2MEFOdzRPS0hlMFh5dFR4R0FZWVk1SFduX2p1UQ?oc=5"
+      "date": "2026-10-29",
+      "text": "“十五五”时期，湖南中医药这么干！ - 湖南省人民政府",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8walVpQmZkWHZjRVFOUGhSTHhjRE9ocjVja0dPUjB1ZFlkZHZPU0RhS1ZfclJsdTEyWWRKaVdtcDh5bThDd3FDYzNXSzRmZ1FfZ3gzdEM4LWFiaWJHWVcwX19LV3lkNklOQ1ZKMW16VHREZzBGNHZoM2xDMkVrSm8?oc=5"
     },
     {
-      "date": "2026-10-28",
-      "text": "冀衡医药：2026年第三季度报告 - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB5am9UYzJ5NGNzTnlHamRTeVh6bEtGTF9xN241MHpvYVZVaUE1OG1UYlRzQS1vMnZGU2NFU2M4VGQwdHB4X0pfN0RVNjhJYS1VUlRxaUhULXVjNEMwZ2JKMmZwR3pwQQ?oc=5"
+      "date": "2026-10-29",
+      "text": "物资集采中心扎实开展供应商合规管理与调研对接工作 - 手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5iYzl3YVVrZzBaT0ZBbk8tcUZ1Tk5vQ05MLXcxVmZYb2VmczV1MjVnZTNOc1M3V09yTm5NcVZ5bGw1U19GdUV0Wl9GVVp5eTJON0hsbDE5ZnZnamZyMGtvOXVWaEJaRjRlbDRpcEg2Z3JfaF85dXFKZFVtXzB5Y1E?oc=5"
     },
     {
-      "date": "2026-10-28",
-      "text": "BD链接全球，知识产权赋能生物医药产业高质量发展 - ByDrug",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE56Y2VBcWtzZ2pqWjhKemJHVEVZZmQ0X1M4SkxvU0JSNVAzSmdNNGhMT0JoZmpKTk5NR2IyQ2VCVG5UR3JXWlFCTV9oV2dzTU15ZXI0M3g4UU0xSmRVT3hKajUwYXl5X3huR0c3MS1wb2ZsTkFBUW8wVzBVNDFnZw?oc=5"
+      "date": "2026-10-29",
+      "text": "湖南生物医药与人工智能产业到瑞士“找伙伴” - 新湖南",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5sdUZPWWlad0tVbHNENFNTdW1IX0w0T1NINno0bzVxYnR3WVNqNGpwdjhlTjMyMjBCRFl2dEttSWQxel9ma1VCd1hUN1NPVllOUnM3d3hYSG56bWIxb0ow?oc=5"
     },
     {
-      "date": "2026-10-28",
-      "text": "研发投入同比大增50%！复星医药阿尔茨海默病创新药三期结果即将揭晓 - 第一财经",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB4N2YwUjl0eTRRaHRRUHJWdTk3T2JldUU0N1Itbm9BT2hscDJPN2VFc2VYT0NDQUdpdkFBRnR3ZlYzMmRIRXJVOW1lbVgwSm9kb18w?oc=5"
+      "date": "2026-10-29",
+      "text": "恒瑞医药：走过创新药转型，踏上高成长验证 - 同花顺财经",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE03bU9aa3dpdmg2XzBjMG9WWjhmRHFvN0ZxV19sV2xrVlNMYXpjMjI3MzFPTkFnUzVoU1BWNk9BSHVTeHlaSzhzQTcyNm1GVE5TNGQwU0NQb1Zkd3JyelVsdmpB?oc=5"
     }
   ],
   "ai_analysis": "",

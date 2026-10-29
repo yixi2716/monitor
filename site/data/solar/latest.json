@@ -1,89 +1,89 @@
 {
-  "date": "2026-10-28",
-  "hs300": 4083.87,
-  "hs300_chg": 0.85,
-  "solar_etf": 0.703,
-  "solar_etf_chg": 0.57,
-  "newenergy_etf": 1.972,
-  "newenergy_etf_chg": 0.77,
-  "storage_etf": 1.443,
-  "storage_etf_chg": 1.69,
-  "tnx": 5.04,
-  "usdcny": 6.6544,
-  "excess": -0.28,
-  "dd_from_high": 0.4057,
-  "pb_ratio": 0.0333,
-  "turnover_ratio": 0.782,
+  "date": "2026-10-29",
+  "hs300": 4041.84,
+  "hs300_chg": -1.03,
+  "solar_etf": 0.691,
+  "solar_etf_chg": -1.71,
+  "newenergy_etf": 1.938,
+  "newenergy_etf_chg": -1.72,
+  "storage_etf": 1.395,
+  "storage_etf_chg": -3.33,
+  "tnx": 5.0,
+  "usdcny": 6.6504,
+  "excess": -0.68,
+  "dd_from_high": 0.4159,
+  "pb_ratio": 0.0667,
+  "turnover_ratio": 0.764,
   "stocks": {
     "tongwei": {
-      "close": 11.35,
-      "chg": -1.05
+      "close": 11.4,
+      "chg": 0.44
     },
     "zhonghuan": {
-      "close": 9.65,
-      "chg": 5.81
+      "close": 9.2,
+      "chg": -4.66
     },
     "junda": {
-      "close": 35.11,
-      "chg": 2.9
+      "close": 38.62,
+      "chg": 10.0
     },
     "longi": {
-      "close": 11.27,
-      "chg": -1.57
+      "close": 11.15,
+      "chg": -1.06
     },
     "flat": {
-      "close": 9.07,
-      "chg": -1.31
+      "close": 8.88,
+      "chg": -2.09
     },
     "jiejia": {
-      "close": 52.03,
-      "chg": 3.42
+      "close": 51.43,
+      "chg": -1.15
     },
     "sungrow": {
-      "close": 68.23,
-      "chg": -0.01
+      "close": 67.21,
+      "chg": -1.49
     }
   },
   "news": [
     {
-      "date": "2026-10-28",
-      "text": "光核并济！全国规模最大海上光伏项目并网 - 国际新能源网",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE94eDVxU2dHM2ZnSkZ5OWFqVTZIcndMemFEc01qTEd6dVgxUUhEUk5IbS11enliTlV1TTdXa1g2Y2tFVHJrU0hDSHhTdnZqT3UtUGlVYm5hdkk0NWdud1BkbWtmMUtqTFU?oc=5"
+      "date": "2026-10-29",
+      "text": "宁夏中卫市废止100MW光伏项目 - 国际新能源网",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB3bnd5cHRIR3Q5NGIteEMxZnlSNnJLMEFYY0tLNERkSWFaNHRJdVEya2pEV0ZfWDJhQWlhWURCejliMzZ1MFBNZG40azBFTHZKTEh0bzh5RS1VTjRKRVRTWWZlQ1pROU0?oc=5"
     },
     {
-      "date": "2026-10-28",
-      "text": "光伏设备企业破局进行时：奥特维如何跳出光伏谋发展？ - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9GTkpiZXFxN0J2QTJtZy1yX2doZVVoVlU3Rjk0empSTFRVVWJvZnZEN3l4MEM4ZzIwczJsd20tREF3T3U3clBRemJpNjFsY2FCY1d6OS14YUJQZVZwNlAxSDNTNUNTWktrTHhHUVYwTzF5MGJZeENnVA?oc=5"
+      "date": "2026-10-29",
+      "text": "应对美国关税影响 巴淡光伏企业寻求欧洲及沙特市场 - Shangbao Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1td1hvR1k3Xzh2Smc1Qkt3RW9IQlFkRVZzQlp6UWRmMG1JQlJZZldFTGJleU9zTkhtOXFjaG5Md2RKV3ViZ3R3Q2o1ZFZsRjNDUWZZLVNORHBoV2FEUGdnYWlLQ0g2Vmd6YXc3OExKTXlPclRVSUQ0?oc=5"
     },
     {
-      "date": "2026-10-28",
-      "text": "光伏发电可制氢！国内最大光氢储项目迎新进展 - 紫牛新闻",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBqc3NLdmk4bTJXejVhWFhURXVFZkdWNVY4cXFsblphYVMwYnB6MjZiQzg2TzhmbFJVT0g4UXRnRUQ3RUxTbHlGZ1M3dnUxSjRFaGRNZ090ZlFDeHl4eVRPRkoxZVNvWElM?oc=5"
+      "date": "2026-10-29",
+      "text": "新加坡设定2035年4吉瓦光伏目标 - pv magazine China",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNQXRHaWdJem5tVm5zNFZCSy1kSGJLZ2NCSVZ3T24tSVZFUEZZbEFwWXJjMW45cXNlUjVXVnBzbFMwd1FaS3RyeTViMHZzWXhjVDNtVDltUlJ5dHZkcXN2SjFFM2dXMGdRWmplV3I2Y3BJQnVMRXBjZnE2YXlkdWVydWNfVFNxQjhsblh1M1FVc1NuaGxha2NaT3pHeWZYelV5OUh3LUU3czd2YnpnWHZWeTZXTUhVb3dTYXFqeDZlMWt3LW9kZk1qS3dOLVEzWGhwRGJwYnZwUVhDcWtfZ1VkY3ZMeDI5WFRSZzFtZ19zOV8?oc=5"
     },
     {
-      "date": "2026-10-28",
-      "text": "我国风电光伏累计装机容量突破20亿千瓦 - 华商网",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1GYjJFNlBmQ3JwNncwZUxvWEVJOGQwRW5qcWpxaE1oVmZ4MjBWU2MxX2psUjBxRTFYVHR3S0RBT05oOVY3MXc4UXpMYmEteUF0MnFibnpKNkU4djFnMUJz?oc=5"
+      "date": "2026-10-29",
+      "text": "浙江遂昌：茶田涌绿电，共富谱新篇 - 中国能源新闻网",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9ra2UzTGZoc1RuZl9EamFEZnhtakJqRWdHT3IwLTBvSHRYY242c2dJYnJvVnZ4SDBIYUx1eGpFeDFzRU93eXRpejg0UjJTUmdhaUlqWjlJSVpSanRUQm5NOG9VLS1VVW1PTVNZX3ctZDZ3dk11RlVsOHoxQQ?oc=5"
     },
     {
-      "date": "2026-10-28",
-      "text": "银价疯涨，亏损500亿的光伏行业要拆“定时炸弹” - 风闻",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE01SndYazAyWTF0V3ZXRGxGd3pzOFRNMXJVRzVhbmhRX0FrYmtJdm5VcmpadHlJWmo4R00xT3E0ejRhNEhSemduNUJsdkFzdzVOZjdBSHlBMzdLeUk?oc=5"
+      "date": "2026-10-29",
+      "text": "光伏“登顶”，绿电成势——看山东能源绿色转型成绩单 - 齐鲁网",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5uVmtlNW1UTGlCbVRYQS1CVWE4cEc1R1NtdF9vV09ERmxnVmRJOEhxQ25HTkVyZUxMei1PbFMzb29QY1I3NVpjNmZ3Y2JKazNwc2FhbU02NG1XRlNnRE0ya0xZd2VBRUxDUEVTeGtiWGtEVmJD?oc=5"
     },
     {
-      "date": "2026-10-28",
-      "text": "大全能源：预计第四季度多晶硅产量为3.5万至4.5万吨 - 21财经",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORkZGZ1d6bUZLQTZxNWJSYnBZMi0zMXNIdHdtU2hzQ2ZIVENGVkxLX25PQjVEeThyZ3NjYkxHejNjVVd6QTVYd1Q2MW5OU29DT3B3QlRPZjlLLTlsaWl1OHl3aGJEdzF1WVlrdjJ2cVRhT09Dd2tPWDFUSTFTcS0tSy1XTjJCQTNzNkg2Tmtabw?oc=5"
+      "date": "2026-10-29",
+      "text": "我国风电光伏累计装机容量突破20亿千瓦 - 中青在线",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9hTkJzc245Q2NmSExSaFBwdFRnWEpKeU15YVp3X05uVWVwSEgzdW9KdlZBaENqSllyYUVvUkZ4TTdPeDJVa09iUDVjWkZCdjN4R21vRGRLV0sxNWlFYmg5RnY1WW9UNi14Z1V6akM4OWJKcXZ1STZnSg?oc=5"
     },
     {
-      "date": "2026-10-28",
-      "text": "常州构建新能源生态链 以绿色动能铸就“双万亿之城” - 新华网江苏频道",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5QYmxNbWZEN3dvRVNkM3JWdzFlN3p5MjZ1SlI3TWZ5NFg3aGM1TnJiOEJ6d3FyR0xIeEMtbGFiUnludDBoUlgtemVRcGZuUXg1TnpvNlZKSEhKNHFYbXFKZENFZlI3aVVXeHg5dkw0ZkhxUDFx?oc=5"
+      "date": "2026-10-29",
+      "text": "最低0.77元/W！申能1GW光伏组件框采：隆基、晶科、通威入围 - 手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTGlTcUVCbzk0TjAwVGg0dGVUNHNEV0pmM3JJNXlsa2YwNU04Z29SVFczb1hHSXhKSU9fY2kwNnB6RU51Y2dKZFhEUVQwLVdOMGtKOXkwVmtRa2drVnNabWRrQnJvZ3hpR2V5MF9uSzJsel83NVozcGUyQ21vZGxaSGhBZw?oc=5"
     },
     {
-      "date": "2026-10-28",
-      "text": "英杰电气：2026年光伏订单大幅增长 收入将在后续周期确认 - 观点网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE54SVhXZlZvS2lBVm0xMk1QYTBYQUh1UXBVMzh4WVVBS1pNaWFObUNuME1XSzhlT1ZrV2hJeEtVZW5wLW1fTE5ESktTYTlBSXRYcTgyR1hPZjB5ejVZaGhoZkZR?oc=5"
+      "date": "2026-10-29",
+      "text": "英杰电气：前三季度业绩同比下滑主要受光伏业务收入确认节奏的高基数影响 - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE51TU5kR0hHQmpndlBxM01Sb0JXcjUweHFmelE1Y3V4cFB4c2VaZ2MtNi1sME55MUN4SWp1MEM4MzVCY01rWW5lYjk5dmlubVdFTmNpZ1ZDbW9VNXZ5SGJSSHJaTFpvdw?oc=5"
     }
   ],
   "ai_analysis": "",
