@@ -1,60 +1,60 @@
 {
-  "date": "2026-10-29",
-  "copper": 6.60099983215332,
-  "copper_chg": -0.6098044727131602,
-  "ma20": 6.565950012207031,
-  "ma50": 6.576430006027222,
-  "dxy": 102.02,
-  "vix": 16.420000076293945,
-  "tnx": 4.997000217437744,
-  "wti": 100.96,
-  "cu_oil_ratio": 144.14318789581867,
-  "shfe_cu": 108660.0,
-  "shfe_cu_date": "2026-10-29",
-  "shfe_lme_ratio": 1.037,
+  "date": "2026-10-30",
+  "copper": 6.484000205993652,
+  "copper_chg": -1.4739347732255603,
+  "ma20": 6.5645500183105465,
+  "ma50": 6.574120006561279,
+  "dxy": 101.83899688720703,
+  "vix": 20.149999618530273,
+  "tnx": 4.945000171661377,
+  "wti": 104.16000366210938,
+  "cu_oil_ratio": 137.23844116316766,
+  "shfe_cu": 108050.0,
+  "shfe_cu_date": "2026-10-30",
+  "shfe_lme_ratio": 1.05,
   "lme_stock": 296625,
   "lme_stock_date": "2026-07-17",
-  "shfe_stock": 11347,
-  "shfe_stock_chg": -1273,
-  "shfe_stock_date": "2026-10-29",
-  "lymy": 13.98,
-  "lymy_chg": -0.57,
-  "tl": 4.9,
-  "tl_chg": -2.2,
-  "jxt": 33.56,
-  "jxt_chg": -8.21,
-  "cper": 39.72,
-  "cper_chg": -1.51,
-  "copx": 75.71,
-  "copx_chg": -1.45,
+  "shfe_stock": 10999,
+  "shfe_stock_chg": -348,
+  "shfe_stock_date": "2026-10-30",
+  "lymy": 13.65,
+  "lymy_chg": -2.36,
+  "tl": 4.83,
+  "tl_chg": -1.43,
+  "jxt": 32.21,
+  "jxt_chg": -4.02,
+  "cper": 39.01,
+  "cper_chg": -1.82,
+  "copx": 72.3,
+  "copx_chg": -4.74,
   "signals": [
     {
-      "name": "铜价站上MA20",
-      "dir": "bull",
-      "text": "$6.60 > MA20 $6.57"
+      "name": "铜价低于MA20",
+      "dir": "bear",
+      "text": "$6.48 < MA20 $6.56"
     },
     {
       "name": "美元中性",
       "dir": "neutral",
-      "text": "DXY 102.02"
+      "text": "DXY 101.84"
     },
     {
       "name": "风险偏好正常",
       "dir": "neutral",
-      "text": "VIX 16.4"
+      "text": "VIX 20.1"
     },
     {
       "name": "铜油比偏高",
       "dir": "bull",
-      "text": "铜油比 144.1，工业景气预期强"
+      "text": "铜油比 137.2，工业景气预期强"
     },
     {
       "name": "利率环境友好",
       "dir": "bull",
-      "text": "10Y 5.00%"
+      "text": "10Y 4.95%"
     }
   ],
-  "score": 3,
+  "score": 1,
   "news": [
     {
       "date": "2026-10-29",
@@ -63,16 +63,16 @@
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaHV3LThGSVpqMmM1NDBRbmV2OEdFZEFLaGxmaTdTSWl6Qy1TUHE5S1NvMzJzVmZidnJJdEQyNm1iSjRMdjNPam84N1hYY29jUE9rUkJjT19JREZKdlRIbUdEMlFHRVhRclJHNnR0WUNHejdGRDIwVnpwNXNPdEUwTW80d3lLRUlQ?oc=5"
     },
     {
+      "date": "2026-10-30",
+      "text": "US copper stockpiles and hidden tightness: supply risk lens for mine planners",
+      "src": "Geomechanics.io",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMURyX2RyMzJfU0VTYVZLLVpTX29sMGpmMjdkbUNBVEJTdWtNdXVqclVBNF9hQXctWXNBb3RYVjgwcVpJWlZaZjJiU1VySU5fbVVBVUo1eGNrbXdqVDVEb0ZFQ3Q5LTlubTVSR0RwU2pYZG5VWEZTMThhZGtwU3B3U1g2SEZNX2cyaUU4VUVOZld5eXRrRnVZTUt6emtLNzhES3dRTlNSRjZqdTU5S29LeHZudFU1emhN?oc=5"
+    },
+    {
       "date": "2026-10-27",
       "text": "Copper quietly hits record highs while gold barely moves in 2026",
       "src": "Startup Fortune",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTnJVYTdKLS0taVE2UkVnUVdvUEx2c0NPb2YxOW1WdmlWTUVmbWFPeEprSjNmN3lFa2JjdXBIUjNuOXlUSW5rUWIyUVZ2WnVnWFBsT3lCRE9wZ2c2S001X0U1ODdpUlc1VDEtUjhZUEgtcDEtWkJ3RzlVMWNMZW0yZl9pcThmeUcyZUwxRGMzYVExamUzSW0w?oc=5"
-    },
-    {
-      "date": "2026-10-22",
-      "text": "Adamera Expands Glix Gold Skarn Work at South Hedley Near Historic Mines & Hudbay's Copper Mountain",
-      "src": "Streetwise Reports",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOU1F5ODBSUHJMbGd6TTA5LWJKUGkwQjJtU0xiLTh5ODlrYU8zdXE4akhwbkNTZzlVRFFxbWpJMmt6VUhWMlE1NkdyRlp3YV9Dczl1dEw4ODU3OUVGWU8yUTNsRnd4dVpHN3VEbmpVZDZ5a01nTzYwYnI1LUttNV9oU2NPNjJwRENpRnRJUnRQR3UyUVhwaXlxWmlGbDNLbkhpRkx3Sjk3NE42U2hPUkpMc2c3d2h6TGxhZmxQOE1wUVFfTk1iNzlPYUtYMllTRnpuWVRoZmRrTE5tZjAtU1BwcFZaUHVZc2FXQkEzVklOQQ?oc=5"
     },
     {
       "date": "2026-10-23",
@@ -83,5 +83,5 @@
   ],
   "ai_analysis": "",
   "ai_error": "未自动生成，点击按钮手动生成",
-  "ai_date": "2026-10-29"
+  "ai_date": "2026-10-30"
 }

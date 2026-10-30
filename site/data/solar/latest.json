@@ -1,89 +1,89 @@
 {
-  "date": "2026-10-29",
-  "hs300": 4041.84,
-  "hs300_chg": -1.03,
-  "solar_etf": 0.691,
-  "solar_etf_chg": -1.71,
-  "newenergy_etf": 1.938,
-  "newenergy_etf_chg": -1.72,
-  "storage_etf": 1.395,
-  "storage_etf_chg": -3.33,
-  "tnx": 5.0,
-  "usdcny": 6.6504,
-  "excess": -0.68,
-  "dd_from_high": 0.4159,
+  "date": "2026-10-30",
+  "hs300": 3985.5,
+  "hs300_chg": -1.39,
+  "solar_etf": 0.669,
+  "solar_etf_chg": -3.18,
+  "newenergy_etf": 1.905,
+  "newenergy_etf_chg": -1.7,
+  "storage_etf": 1.367,
+  "storage_etf_chg": -2.01,
+  "tnx": 4.95,
+  "usdcny": 6.6439,
+  "excess": -1.79,
+  "dd_from_high": 0.4345,
   "pb_ratio": 0.0667,
-  "turnover_ratio": 0.764,
+  "turnover_ratio": 0.893,
   "stocks": {
     "tongwei": {
-      "close": 11.4,
-      "chg": 0.44
+      "close": 11.06,
+      "chg": -2.98
     },
     "zhonghuan": {
-      "close": 9.2,
-      "chg": -4.66
+      "close": 9.38,
+      "chg": 1.96
     },
     "junda": {
-      "close": 38.62,
-      "chg": 10.0
+      "close": 39.74,
+      "chg": 2.9
     },
     "longi": {
-      "close": 11.15,
-      "chg": -1.06
+      "close": 11.0,
+      "chg": -1.35
     },
     "flat": {
-      "close": 8.88,
-      "chg": -2.09
+      "close": 8.76,
+      "chg": -1.35
     },
     "jiejia": {
-      "close": 51.43,
-      "chg": -1.15
+      "close": 51.5,
+      "chg": 0.14
     },
     "sungrow": {
-      "close": 67.21,
-      "chg": -1.49
+      "close": 65.29,
+      "chg": -2.86
     }
   },
   "news": [
     {
-      "date": "2026-10-29",
-      "text": "宁夏中卫市废止100MW光伏项目 - 国际新能源网",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB3bnd5cHRIR3Q5NGIteEMxZnlSNnJLMEFYY0tLNERkSWFaNHRJdVEya2pEV0ZfWDJhQWlhWURCejliMzZ1MFBNZG40azBFTHZKTEh0bzh5RS1VTjRKRVRTWWZlQ1pROU0?oc=5"
+      "date": "2026-10-30",
+      "text": "太坦三盈500kW分布式光伏项目备案通过 总投资650万元 - 观点网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5JSVFPRWJRdkZFRzVYMnRZblFNUHRqeVRlOExTTm5fQTU0a0JRRnBoN1lQcjFjWFdCV3c5UXZiTWlST1N4bmRqY2laUXVjbGlrdWxnVUlkUFMtT3FXWjVwRm9B?oc=5"
     },
     {
-      "date": "2026-10-29",
-      "text": "应对美国关税影响 巴淡光伏企业寻求欧洲及沙特市场 - Shangbao Indonesia",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1td1hvR1k3Xzh2Smc1Qkt3RW9IQlFkRVZzQlp6UWRmMG1JQlJZZldFTGJleU9zTkhtOXFjaG5Md2RKV3ViZ3R3Q2o1ZFZsRjNDUWZZLVNORHBoV2FEUGdnYWlLQ0g2Vmd6YXc3OExKTXlPclRVSUQ0?oc=5"
+      "date": "2026-10-30",
+      "text": "人才强校 | 信电学院付学谦副教授课题光伏发电代表性场景提取论文在“IEEE Trans”发表 - 中国农业大学新闻网",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9rWFVJbnlwOU9UYlQ3NzFvME50b2lBZkdtNXhTdFZCaExCeTY5Q1RWM19uWHY4ZWQ3THR5RnBRZTNjTmQ3akxLLUJWZkNVQ1JkTmdDTUg4WGxFaEl5aldhcnRZb2hfRVFhUVZNSVhFX01KZXc?oc=5"
     },
     {
-      "date": "2026-10-29",
-      "text": "新加坡设定2035年4吉瓦光伏目标 - pv magazine China",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNQXRHaWdJem5tVm5zNFZCSy1kSGJLZ2NCSVZ3T24tSVZFUEZZbEFwWXJjMW45cXNlUjVXVnBzbFMwd1FaS3RyeTViMHZzWXhjVDNtVDltUlJ5dHZkcXN2SjFFM2dXMGdRWmplV3I2Y3BJQnVMRXBjZnE2YXlkdWVydWNfVFNxQjhsblh1M1FVc1NuaGxha2NaT3pHeWZYelV5OUh3LUU3czd2YnpnWHZWeTZXTUhVb3dTYXFqeDZlMWt3LW9kZk1qS3dOLVEzWGhwRGJwYnZwUVhDcWtfZ1VkY3ZMeDI5WFRSZzFtZ19zOV8?oc=5"
+      "date": "2026-10-30",
+      "text": "国家能源局：“沙戈荒”大型风电光伏基地合计建成规模超1.57亿千瓦 - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNdmd2dG41c0NaazZRSFZwUWZZb1JucFVpTWtlWUEtMFVxVUN3NGRIN0Y4c3c1SXFEZ0pFRlZNYXdkajlFQXJESGhid193bmM1dTIzTTR3SEg3R0ozNC1CT3AycklocnZKenhRejJmSDNNQ0lHMWM5Q2NvX1hOSjVWSg?oc=5"
     },
     {
-      "date": "2026-10-29",
-      "text": "浙江遂昌：茶田涌绿电，共富谱新篇 - 中国能源新闻网",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9ra2UzTGZoc1RuZl9EamFEZnhtakJqRWdHT3IwLTBvSHRYY242c2dJYnJvVnZ4SDBIYUx1eGpFeDFzRU93eXRpejg0UjJTUmdhaUlqWjlJSVpSanRUQm5NOG9VLS1VVW1PTVNZX3ctZDZ3dk11RlVsOHoxQQ?oc=5"
+      "date": "2026-10-30",
+      "text": "2026年10月28日光伏组件现货价格行情 - 国际太阳能光伏网",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1SRXlYb3ZiZDF2YXdKaGlrUU94R3JmU2NZMFRLMHZmOW42Rk5XdkNnWnk5NTE2ai1EU2NzUUk2dGoyQ1N5YU5rSEpRd0Z3eWJ1aXJFM193a0pzUWZl?oc=5"
     },
     {
-      "date": "2026-10-29",
-      "text": "光伏“登顶”，绿电成势——看山东能源绿色转型成绩单 - 齐鲁网",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5uVmtlNW1UTGlCbVRYQS1CVWE4cEc1R1NtdF9vV09ERmxnVmRJOEhxQ25HTkVyZUxMei1PbFMzb29QY1I3NVpjNmZ3Y2JKazNwc2FhbU02NG1XRlNnRE0ya0xZd2VBRUxDUEVTeGtiWGtEVmJD?oc=5"
+      "date": "2026-10-30",
+      "text": "深夜潜入工地“搬”光伏板，3人被判刑！ - 新湖南",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1CQXM2SzJkWlFVRUJUdFlPYXVyVWRjb0hieDZOMjUtNWhHb0pCYk9sSEVxUTRkOFpNdklwbGdaUW5qMERzNmk5aGd0WkszWkF1MGZDTzlpckVHWFM5R2s0?oc=5"
     },
     {
-      "date": "2026-10-29",
-      "text": "我国风电光伏累计装机容量突破20亿千瓦 - 中青在线",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9hTkJzc245Q2NmSExSaFBwdFRnWEpKeU15YVp3X05uVWVwSEgzdW9KdlZBaENqSllyYUVvUkZ4TTdPeDJVa09iUDVjWkZCdjN4R21vRGRLV0sxNWlFYmg5RnY1WW9UNi14Z1V6akM4OWJKcXZ1STZnSg?oc=5"
+      "date": "2026-10-30",
+      "text": "国网长泰区供电公司：召开分布式光伏大客户服务交流会 - 东南网",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9qbHRxOWVZZDdrMi0wdHF2VUxTMEd1d1lWVk1mWXNaSjlIZUtWcmpXaUkxcEtvRGVKbUdoWmFQWUhwdlZpUkFEX2gxY0hZNFZCYWF5Y3FaUzFzOVl2bTZQczVveXA?oc=5"
     },
     {
-      "date": "2026-10-29",
-      "text": "最低0.77元/W！申能1GW光伏组件框采：隆基、晶科、通威入围 - 手机新浪网",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTGlTcUVCbzk0TjAwVGg0dGVUNHNEV0pmM3JJNXlsa2YwNU04Z29SVFczb1hHSXhKSU9fY2kwNnB6RU51Y2dKZFhEUVQwLVdOMGtKOXkwVmtRa2drVnNabWRrQnJvZ3hpR2V5MF9uSzJsel83NVozcGUyQ21vZGxaSGhBZw?oc=5"
+      "date": "2026-10-30",
+      "text": "热点 | 贵金属与有色金属期货同步走弱 多晶硅主力合约周线八连阴 - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1iRlZ0V1lyRlZhb0ZTeXJoa1J1VTNTT2F2M3B6T05DLUZZMjhMcmFfVTJLdkF0bGhJR3o4MUJzTUkyVWNVaExKSVprUlNNUFg2WkE2QUhQRE9IQ29JdjR5aA?oc=5"
     },
     {
-      "date": "2026-10-29",
-      "text": "英杰电气：前三季度业绩同比下滑主要受光伏业务收入确认节奏的高基数影响 - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE51TU5kR0hHQmpndlBxM01Sb0JXcjUweHFmelE1Y3V4cFB4c2VaZ2MtNi1sME55MUN4SWp1MEM4MzVCY01rWW5lYjk5dmlubVdFTmNpZ1ZDbW9VNXZ5SGJSSHJaTFpvdw?oc=5"
+      "date": "2026-10-30",
+      "text": "周期底部边际修复，通威沉淀长期配置价值 - 新京报",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE84NWo1alMycTlFTjVjMml3WDVrYWxackV6ZXEzZ0ItNzRMeU0xUUFETFRpV21EZzAwbGpqVk5HQjhaRXQtbi0zTjA3ZTI5NnNCcmxibTNhSUJqV1c1cVZWTWNGaXI?oc=5"
     }
   ],
   "ai_analysis": "",

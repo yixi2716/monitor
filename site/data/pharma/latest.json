@@ -1,68 +1,68 @@
 {
-  "date": "2026-10-29",
-  "hs300": 4041.84,
-  "hs300_chg": -1.03,
-  "med_etf": 0.374,
-  "med_etf_chg": 0.27,
-  "inn_etf": 0.79,
-  "inn_etf_chg": -0.63,
-  "cxo_etf": 0.332,
-  "cxo_etf_chg": -0.3,
-  "tcm_etf": 0.877,
-  "tcm_etf_chg": -1.03,
-  "meddev_etf": 0.44,
-  "meddev_etf_chg": -0.45,
-  "vaccine_etf": 1.972,
-  "vaccine_etf_chg": -1.72,
-  "hsi_health": 23094.83,
+  "date": "2026-10-30",
+  "hs300": 3985.5,
+  "hs300_chg": -1.39,
+  "med_etf": 0.375,
+  "med_etf_chg": 0.53,
+  "inn_etf": 0.785,
+  "inn_etf_chg": 0.0,
+  "cxo_etf": 0.331,
+  "cxo_etf_chg": 1.21,
+  "tcm_etf": 0.868,
+  "tcm_etf_chg": 1.15,
+  "meddev_etf": 0.438,
+  "meddev_etf_chg": -0.91,
+  "vaccine_etf": 1.938,
+  "vaccine_etf_chg": -1.7,
+  "hsi_health": 22958.65,
   "hsi_health_chg": 0.0,
-  "hs_inn_etf": 1.188,
-  "hs_inn_etf_chg": -0.08,
-  "tnx": 5.0,
-  "usdcny": 6.6504,
-  "excess": 1.3,
-  "north_money": 248450.44,
-  "north_date": "20261029",
+  "hs_inn_etf": 1.187,
+  "hs_inn_etf_chg": -2.7,
+  "tnx": 4.95,
+  "usdcny": 6.6439,
+  "excess": 1.92,
+  "north_money": 274086.03,
+  "north_date": "20261030",
   "news": [
     {
-      "date": "2026-10-29",
-      "text": "沪市创新药产业进入“质变”窗口期 - 21财经",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUGtKU1k4bDlWSm9yUDMwcGh6eDE2MEpsbmxxenpZamJjejFPWGY4dE1JZVRCNUhpaHo2WURuanp5emFwM1FjX2JjdHUxTkgyWlJsMGxwRWlwNzNHWTloV3g3QzdlUndJZE81SUlWWnVLZTJfODA0dGNLUTh3aTBWel9KTEQ4Y3ppNmVhaHc2SXJkeWw5?oc=5"
+      "date": "2026-10-30",
+      "text": "三季度医药获公募加仓最多，加仓为何集中在上游？ - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE8zb2x4Q0tBNVVSS3k1TndoTFk2RGIyRzFlNThGQkR6bEhWV0paa3NxdVV0Q3NKTUZFR2g2bE5DNy1GdmpUWFAzUg?oc=5"
     },
     {
-      "date": "2026-10-29",
-      "text": "中国原研双抗ADC亮相ESMO，创新药“新兴支柱产业”加速成形 - 上观新闻",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE50WDdCRlN4OTVPOEV1LXlFd0ZVU3hWNXZnX1pWLWlPeWFzN2RPVmRTdFJEQ3hkOGU1TnB4c2pwWndQV1RjYjYtS1RFOWVTNWExWVBTcFBLOFQtZw?oc=5"
+      "date": "2026-10-30",
+      "text": "License-out狂飙：中国创新药进入“交作业”阶段 - 21财经",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQ1ZtR3V4cnhZSlZXd0xVMzRzSnB2WUZxLWJQbHVycEN6bFJVblI3Ykk1WHo3d2FRRHM1bjlUZFRVQ2pfcWNBV2RwUHNFdHlBTmdkUEJPNktoRXNTZWNRRDRSVW9YeFFucVVGazV3MnA1RVM4SE5jMk16SHY2SFdoWGtBRGtIdmsybTRKdEI4eW5nMzU1?oc=5"
     },
     {
-      "date": "2026-10-29",
-      "text": "全国首个华为生态校企共建中医药信创算力中心在成都中医药大学完成签约 - 中国科技网",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBzTjg0aURQdV9STnJrc2dtRDRraC1mYkVoYkpPQjBrU18xMm1iM3kyODhnSk5COTV0TkRLQ2xlMEYxajhSZGNwcEZzLVhVaDYwdkptbnV5LXdzeGZsWGJBdE9vYTBBeERGOHNxZEJQNHU?oc=5"
+      "date": "2026-10-30",
+      "text": "黑龙江零售药店开会了！推动“家门口”买药更方便 - 新浪新闻_手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9GVmlVNjhsWnhGWF9yd2hfYnFrcWV4Qlo5d0d3QW5YVUsyZnJiLTBRNFpTVnhaNEpKOUpya1FqVm51azlSemYxVVdnRHM0d2dxRTFmbGZQc2p2ck1RX2lqWjUzX0tfRDdvRUk4cm1uME1zbjNEOXc?oc=5"
     },
     {
-      "date": "2026-10-29",
-      "text": "2026上海国际生物技术与医药研讨会暨浦江生物医药源头创新大会近日举行 - 上海市人民政府",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOd0VTaFFQZ1R0ckpVZDhhQzRrN3lPV0JRSmt0Y1d0VTFOZldoamx1ZFRPQ2c0SUh6Q0RHRkdKR2o0Q2t5SkpoZjNaMFAxTC1PcGNhemtVQ3dEbURlZHo0cEswdFVUd2dOSlIxM0JuNDJPTUdIOHVUa0FjOE85ejdFU1VselN4Nnk2Z2c?oc=5"
+      "date": "2026-10-30",
+      "text": "泰州市医药高新区（高港区）长期护理保险重度失能评估结论公示 - 泰州市人民政府",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQanJ5aXNuYVk1TmxXQnpMRzVjVDlJX0QtbkZsS2pMUHp5MVF6dDROSndkeGVIZGJ1clpqOThCUkp5cXZaM2c1VldUVmplVUZod2N0X3ctTFFSZTQ5azdHdVFyc3lmMVBnQ3I2TjNmaDdveVNITnEzR0ZhSlNwVlFsRTZscEpmSVpnN1Q3TDhB?oc=5"
     },
     {
-      "date": "2026-10-29",
-      "text": "“十五五”时期，湖南中医药这么干！ - 湖南省人民政府",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8walVpQmZkWHZjRVFOUGhSTHhjRE9ocjVja0dPUjB1ZFlkZHZPU0RhS1ZfclJsdTEyWWRKaVdtcDh5bThDd3FDYzNXSzRmZ1FfZ3gzdEM4LWFiaWJHWVcwX19LV3lkNklOQ1ZKMW16VHREZzBGNHZoM2xDMkVrSm8?oc=5"
+      "date": "2026-10-30",
+      "text": "国家药监局副局长杨胜在广东调研大湾区药物创新研发工作 - 证券之星",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5MVHAzSkFaQnFtb0VzQU1GZV83R3BxU0V2YzQxNVpnUUpLZ1NmUF9UM2lrMXpEOHB0NjdNNDh1Qk9QaGl3MVBCc3ktQjNZZTBTQkpuNDF6Z1N0SXJUb1U5SlVB?oc=5"
     },
     {
-      "date": "2026-10-29",
-      "text": "物资集采中心扎实开展供应商合规管理与调研对接工作 - 手机新浪网",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5iYzl3YVVrZzBaT0ZBbk8tcUZ1Tk5vQ05MLXcxVmZYb2VmczV1MjVnZTNOc1M3V09yTm5NcVZ5bGw1U19GdUV0Wl9GVVp5eTJON0hsbDE5ZnZnamZyMGtvOXVWaEJaRjRlbDRpcEg2Z3JfaF85dXFKZFVtXzB5Y1E?oc=5"
+      "date": "2026-10-30",
+      "text": "31省联盟集采，开始勾量！ - finance.sina.com.cn",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQSWVEclVjemtPNWgxOFo5OTY3empWUFY4bzVoRG9FRk03R2Mya0t2dDFkXzdWeFNZTzZsMjcta3h2Y05UYmJVdkZSZ2NhenNrdWhrTTY3ZGpEU1NaNWs1cXJRcUtfZk1lNDdxVHY3ZHR5S0t4N1N1cUpuRUUxSkREaWtLMmRjUEstdFI1VXh3amhKSWhrLVFyOFkxUzQ4SVp6eDFhZHJXbGQzTURubi1jU3VySDVfMUVDeS1tQlM2ckp2QTh0amN1Y3huVThoME16TGlPS3h5dU4?oc=5"
     },
     {
-      "date": "2026-10-29",
-      "text": "湖南生物医药与人工智能产业到瑞士“找伙伴” - 新湖南",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5sdUZPWWlad0tVbHNENFNTdW1IX0w0T1NINno0bzVxYnR3WVNqNGpwdjhlTjMyMjBCRFl2dEttSWQxel9ma1VCd1hUN1NPVllOUnM3d3hYSG56bWIxb0ow?oc=5"
+      "date": "2026-10-30",
+      "text": "海思科上榜“中国医药创新TOP 10” - 同花顺",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBHdm5wMmVKdEFHV2dDUW8zRWkzVVVTcGVNUkRCaXdpQUEwWnNXdGpfNG5RRTVGNXhUMlNjSkg2ZThSSlFRdmVETHljU1BiUUl1eERGQ2RUd1N4Unp4cXFRNG9n?oc=5"
     },
     {
-      "date": "2026-10-29",
-      "text": "恒瑞医药：走过创新药转型，踏上高成长验证 - 同花顺财经",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE03bU9aa3dpdmg2XzBjMG9WWjhmRHFvN0ZxV19sV2xrVlNMYXpjMjI3MzFPTkFnUzVoU1BWNk9BSHVTeHlaSzhzQTcyNm1GVE5TNGQwU0NQb1Zkd3JyelVsdmpB?oc=5"
+      "date": "2026-10-30",
+      "text": "“周五潮东看”首秀！北京东城挂牌三家AI医药国际产业园 - 北京市人民政府门户网站",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4zZ1NrT1Q5SnYwampYd2RQamV0TThwUy13SUxxb0hKSE1kNUpjVF94TjN2cFVYWl9OY2NFZEJhT0w0c1B5RDljbTdiWGM3ZlJFTGxFTk5zRGtCbU5vVVJETEpOdTI3MHB1b2JONHZiSXhGaDRX?oc=5"
     }
   ],
   "ai_analysis": "",
