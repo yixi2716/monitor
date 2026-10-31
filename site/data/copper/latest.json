@@ -1,17 +1,17 @@
 {
-  "date": "2026-10-30",
-  "copper": 6.484000205993652,
-  "copper_chg": -1.4739347732255603,
-  "ma20": 6.5645500183105465,
-  "ma50": 6.574120006561279,
-  "dxy": 101.83899688720703,
-  "vix": 20.149999618530273,
-  "tnx": 4.945000171661377,
-  "wti": 104.16000366210938,
-  "cu_oil_ratio": 137.23844116316766,
+  "date": "2026-10-31",
+  "copper": 6.458499908447266,
+  "copper_chg": -1.8614184097983988,
+  "ma20": 6.563275003433228,
+  "ma50": 6.573610000610351,
+  "dxy": 101.87999725341797,
+  "vix": 19.420000076293945,
+  "tnx": 4.928999900817871,
+  "wti": 102.95,
+  "cu_oil_ratio": 138.3053722016611,
   "shfe_cu": 108050.0,
   "shfe_cu_date": "2026-10-30",
-  "shfe_lme_ratio": 1.05,
+  "shfe_lme_ratio": 1.054,
   "lme_stock": 296625,
   "lme_stock_date": "2026-07-17",
   "shfe_stock": 10999,
@@ -23,35 +23,35 @@
   "tl_chg": -1.43,
   "jxt": 32.21,
   "jxt_chg": -4.02,
-  "cper": 39.01,
-  "cper_chg": -1.82,
-  "copx": 72.3,
-  "copx_chg": -4.74,
+  "cper": 38.99,
+  "cper_chg": -1.86,
+  "copx": 71.96,
+  "copx_chg": -5.19,
   "signals": [
     {
       "name": "铜价低于MA20",
       "dir": "bear",
-      "text": "$6.48 < MA20 $6.56"
+      "text": "$6.46 < MA20 $6.56"
     },
     {
       "name": "美元中性",
       "dir": "neutral",
-      "text": "DXY 101.84"
+      "text": "DXY 101.88"
     },
     {
       "name": "风险偏好正常",
       "dir": "neutral",
-      "text": "VIX 20.1"
+      "text": "VIX 19.4"
     },
     {
       "name": "铜油比偏高",
       "dir": "bull",
-      "text": "铜油比 137.2，工业景气预期强"
+      "text": "铜油比 138.3，工业景气预期强"
     },
     {
       "name": "利率环境友好",
       "dir": "bull",
-      "text": "10Y 4.95%"
+      "text": "10Y 4.93%"
     }
   ],
   "score": 1,
@@ -69,19 +69,25 @@
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMURyX2RyMzJfU0VTYVZLLVpTX29sMGpmMjdkbUNBVEJTdWtNdXVqclVBNF9hQXctWXNBb3RYVjgwcVpJWlZaZjJiU1VySU5fbVVBVUo1eGNrbXdqVDVEb0ZFQ3Q5LTlubTVSR0RwU2pYZG5VWEZTMThhZGtwU3B3U1g2SEZNX2cyaUU4VUVOZld5eXRrRnVZTUt6emtLNzhES3dRTlNSRjZqdTU5S29LeHZudFU1emhN?oc=5"
     },
     {
-      "date": "2026-10-27",
-      "text": "Copper quietly hits record highs while gold barely moves in 2026",
-      "src": "Startup Fortune",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTnJVYTdKLS0taVE2UkVnUVdvUEx2c0NPb2YxOW1WdmlWTUVmbWFPeEprSjNmN3lFa2JjdXBIUjNuOXlUSW5rUWIyUVZ2WnVnWFBsT3lCRE9wZ2c2S001X0U1ODdpUlc1VDEtUjhZUEgtcDEtWkJ3RzlVMWNMZW0yZl9pcThmeUcyZUwxRGMzYVExamUzSW0w?oc=5"
+      "date": "2026-10-31",
+      "text": "With abundant supply, why is copper still experiencing a price surge?",
+      "src": "Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1OdVRNYXRVTVpBSS1lQnV4WmUtWVk5aVFDR3VkOHhTcEV0cU91VURmUEFpUmsteHozS1dZZU84MWdJWjFpTGhvYzZpTEFxZUI5a1AzZ1hhZi1OMlVMMVF1UHptcTJXYWxJOHpTSFFIaGMwRTdxVjY0?oc=5"
     },
     {
-      "date": "2026-10-23",
-      "text": "US aluminium industry highlights importance of domestic smelting capacity for national security",
-      "src": "AL Circle",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQalQ1MC01OHJmR0hUVG4tZUU4cEJIZ0tIZkZvWmZDSmwxZmVkOHhVdWdMN0tTb2xCWjZnSW45NEU3MjA3U2dnZ2JlcVRrNk9qTTVTNlJTQUN1SzJqcGdSYU5fb1p0dExIcjdnNS1GclZlQnM3SVdocGIzRjZoME9sM09uaHhoR3pMcGdmT0FpcmhjNnJKNkFoTTAyVWFvS2QzWTFqc3hoaUE3ZFdzUTBHVlpXSHM0TUNsdkNxMm0zY0h2emlac3JFbE1EZEQ?oc=5"
+      "date": "2026-10-30",
+      "text": "Copper trades down after large copper inventory build on US COMEX",
+      "src": "Traders Union",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMmhTLUxISmtDM2JqVUp0UEZnOUpLSGN5TVZNeXIwd2ZBN1dSdnl5dXN0WjlFdmJoY1dOVG9iWVc2ZHVndFFseG5rOXFJUzRacENHa0FCcFhIcEs1YXRoSTVuVXNXeWk3dGJBLS1rQmstaWNfTGFCUm1Nc0pQYXFhM2xEa25lUFVOelVGVjhJQjNTbkxYc3g0?oc=5"
+    },
+    {
+      "date": "2026-10-31",
+      "text": "Nexa Resources Earnings Call Highlights Strong Mining Rebound",
+      "src": "TipRanks",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZmZ3SEE4SzRub0FGa2JNT2pkMHpfT3hONXA3T1djbnV6Z3ZPcXZRcmFrNTdMRlV6aXkyTXJtbWwweXBpOHQxSjV0YjlIeUtsWDZBdGtRQ21QNDk5czRIUkxjbnJwVDRUcmNndWVxOHo2amtFWGJaQ25uTHU0SjFoSVNEZENWZG5YZ25ZZXNlV3ZKcmhYTTJPX2cwb0pDcDlhdm0zc18ydEFuTmFGR2E5dzlMcw?oc=5"
     }
   ],
   "ai_analysis": "",
   "ai_error": "未自动生成，点击按钮手动生成",
-  "ai_date": "2026-10-30"
+  "ai_date": "2026-10-31"
 }

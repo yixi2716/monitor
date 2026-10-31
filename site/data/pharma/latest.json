@@ -1,68 +1,68 @@
 {
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "hs300": 3985.5,
   "hs300_chg": -1.39,
-  "med_etf": 0.375,
+  "med_etf": 0.377,
   "med_etf_chg": 0.53,
   "inn_etf": 0.785,
   "inn_etf_chg": 0.0,
-  "cxo_etf": 0.331,
+  "cxo_etf": 0.335,
   "cxo_etf_chg": 1.21,
-  "tcm_etf": 0.868,
+  "tcm_etf": 0.878,
   "tcm_etf_chg": 1.15,
-  "meddev_etf": 0.438,
+  "meddev_etf": 0.434,
   "meddev_etf_chg": -0.91,
-  "vaccine_etf": 1.938,
+  "vaccine_etf": 1.905,
   "vaccine_etf_chg": -1.7,
-  "hsi_health": 22958.65,
+  "hsi_health": 23294.42,
   "hsi_health_chg": 0.0,
-  "hs_inn_etf": 1.187,
+  "hs_inn_etf": 1.155,
   "hs_inn_etf_chg": -2.7,
-  "tnx": 4.95,
-  "usdcny": 6.6439,
-  "excess": 1.92,
+  "tnx": 4.93,
+  "usdcny": 6.661,
+  "excess": 0.0,
   "north_money": 274086.03,
   "north_date": "20261030",
   "news": [
     {
-      "date": "2026-10-30",
-      "text": "三季度医药获公募加仓最多，加仓为何集中在上游？ - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE8zb2x4Q0tBNVVSS3k1TndoTFk2RGIyRzFlNThGQkR6bEhWV0paa3NxdVV0Q3NKTUZFR2g2bE5DNy1GdmpUWFAzUg?oc=5"
+      "date": "2026-10-31",
+      "text": "陕西国际商贸学院举行2027届毕业生医药产业链人才供需会 - 中国教育新闻网",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0talI3MzhCdV9JdGhENUtGRWFETF9MNzVTRUpFdkpsa3NSeXNtaUpyeWxYY3JIaG9ORFZxTjUxVnIxOXJvbU8xMUg4OXVGTFpfdWNPWXNZOVFYdVJQQ0dyMzU0dHY0REM0c0VQQUVFYVdEbEJBREhMRw?oc=5"
     },
     {
-      "date": "2026-10-30",
-      "text": "License-out狂飙：中国创新药进入“交作业”阶段 - 21财经",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQ1ZtR3V4cnhZSlZXd0xVMzRzSnB2WUZxLWJQbHVycEN6bFJVblI3Ykk1WHo3d2FRRHM1bjlUZFRVQ2pfcWNBV2RwUHNFdHlBTmdkUEJPNktoRXNTZWNRRDRSVW9YeFFucVVGazV3MnA1RVM4SE5jMk16SHY2SFdoWGtBRGtIdmsybTRKdEI4eW5nMzU1?oc=5"
-    },
-    {
-      "date": "2026-10-30",
+      "date": "2026-10-31",
       "text": "黑龙江零售药店开会了！推动“家门口”买药更方便 - 新浪新闻_手机新浪网",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9GVmlVNjhsWnhGWF9yd2hfYnFrcWV4Qlo5d0d3QW5YVUsyZnJiLTBRNFpTVnhaNEpKOUpya1FqVm51azlSemYxVVdnRHM0d2dxRTFmbGZQc2p2ck1RX2lqWjUzX0tfRDdvRUk4cm1uME1zbjNEOXc?oc=5"
     },
     {
-      "date": "2026-10-30",
-      "text": "泰州市医药高新区（高港区）长期护理保险重度失能评估结论公示 - 泰州市人民政府",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQanJ5aXNuYVk1TmxXQnpMRzVjVDlJX0QtbkZsS2pMUHp5MVF6dDROSndkeGVIZGJ1clpqOThCUkp5cXZaM2c1VldUVmplVUZod2N0X3ctTFFSZTQ5azdHdVFyc3lmMVBnQ3I2TjNmaDdveVNITnEzR0ZhSlNwVlFsRTZscEpmSVpnN1Q3TDhB?oc=5"
+      "date": "2026-10-31",
+      "text": "第十四届中国医药生物技术大会珠海生物医药产业招商大会举行 - 珠海网",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9LZ2hXV29RRzBkcFFSRkZpQzktWDV3VXNwMHQ1aHVaaHBwZGpQX1F5R1pZejdtZ1hvZmJvNndvSV82R1NoZUJDN2JvZFpEa2owbXBTRExUWldDWW4xVkVITnJPQW1xdUhpdzgyT0lLNFRrUm9RYWI0?oc=5"
     },
     {
-      "date": "2026-10-30",
-      "text": "国家药监局副局长杨胜在广东调研大湾区药物创新研发工作 - 证券之星",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5MVHAzSkFaQnFtb0VzQU1GZV83R3BxU0V2YzQxNVpnUUpLZ1NmUF9UM2lrMXpEOHB0NjdNNDh1Qk9QaGl3MVBCc3ktQjNZZTBTQkpuNDF6Z1N0SXJUb1U5SlVB?oc=5"
+      "date": "2026-10-31",
+      "text": "中国创新药进入商业化与国际化双轮驱动新阶段 - zqrb.cn",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8zQlNYTXZseVhESHdRWXJNdFVocjZhUjUzN1JlMkszWWU3eWo3bjJwVkxnNHZvMXpDQTFYWkkyMkl5TEQxR2tsSl9EZGtCNDQ5ZndKZm9oQUNpb054VnRIT2kyOGoySmFIaEs2aWM1Zw?oc=5"
     },
     {
-      "date": "2026-10-30",
-      "text": "31省联盟集采，开始勾量！ - finance.sina.com.cn",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQSWVEclVjemtPNWgxOFo5OTY3empWUFY4bzVoRG9FRk03R2Mya0t2dDFkXzdWeFNZTzZsMjcta3h2Y05UYmJVdkZSZ2NhenNrdWhrTTY3ZGpEU1NaNWs1cXJRcUtfZk1lNDdxVHY3ZHR5S0t4N1N1cUpuRUUxSkREaWtLMmRjUEstdFI1VXh3amhKSWhrLVFyOFkxUzQ4SVp6eDFhZHJXbGQzTURubi1jU3VySDVfMUVDeS1tQlM2ckp2QTh0amN1Y3huVThoME16TGlPS3h5dU4?oc=5"
+      "date": "2026-10-31",
+      "text": "东西问丨吴淳：中国创新药何以在全球“出圈”？ - 搜狐网",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNWFRhMF85bXRqb0tjNVVzdXpTLXFMZHhOdERGTzZIN0xmcnVYLTRKYUdQVENSSTJ3eFZnaUREUk1ZbUZrbHcxeWFFMU5VVTVOV0pKU2NjM3hqRWNhNS02NFhHNkY2cmYxMlhvXzRfT0Q2QkNQSlk3cmM3RVFmSjVzbk1JSFUtMFJqVUlv?oc=5"
     },
     {
-      "date": "2026-10-30",
-      "text": "海思科上榜“中国医药创新TOP 10” - 同花顺",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBHdm5wMmVKdEFHV2dDUW8zRWkzVVVTcGVNUkRCaXdpQUEwWnNXdGpfNG5RRTVGNXhUMlNjSkg2ZThSSlFRdmVETHljU1BiUUl1eERGQ2RUd1N4Unp4cXFRNG9n?oc=5"
+      "date": "2026-10-31",
+      "text": "1344万元！龙芯首次杀入中石化年度框架集采：2400台终端入围 - 驱动之家",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9sMUVmWVpFNXo5QzZRRFhJWXByYldwb0FabHJoMUlySjk5YlZYNjR1MVF0VW9ydWtrYWU3VndQMjN1Sm81SzZLU2hqclVENDdOUjNwbW9uZTc?oc=5"
     },
     {
-      "date": "2026-10-30",
-      "text": "“周五潮东看”首秀！北京东城挂牌三家AI医药国际产业园 - 北京市人民政府门户网站",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4zZ1NrT1Q5SnYwampYd2RQamV0TThwUy13SUxxb0hKSE1kNUpjVF94TjN2cFVYWl9OY2NFZEJhT0w0c1B5RDljbTdiWGM3ZlJFTGxFTk5zRGtCbU5vVVJETEpOdTI3MHB1b2JONHZiSXhGaDRX?oc=5"
+      "date": "2026-10-31",
+      "text": "津药达仁堂与华润医药商业签署战略合作协议 聚焦两款独家基药基层推广 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9WdjFlbjd1UHBhbE1Vd0poWUtNREgzRDVWREpMM1hWSzVJd3h1cjlCbTRuZjE5eHlZWDhubWlUT2diUGtOckI5WUhrazBPSGNqWFpIZ0xqY01LYXJSVDNKYnVJbzJwbnFucXl0RHpEUV8wYmtZZ2hFRA?oc=5"
+    },
+    {
+      "date": "2026-10-31",
+      "text": "推进内联外通澳门药监局拓展药监合作交流– 澳门特别行政区政府入口网站 - 澳門特別行政區政府入口網站",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE54YkI2bkZGT2RaelZqLVJ1UmtpOHhYejREUUNmZ0dBam55NVVENTdlRWY3R1FlalNOaHR4bzNUTjNlbmVSbENuNWV1TkhSQUJC?oc=5"
     }
   ],
   "ai_analysis": "",
