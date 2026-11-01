@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-31",
-  "fetched_at": "2026-10-31 23:32",
+  "date": "2026-11-01",
+  "fetched_at": "2026-11-02 00:30",
   "gold": 3884.9,
   "gold_chg": 0.0,
   "ma20": 4104.76,
@@ -19,7 +19,7 @@
   "basis": 32.71,
   "vol20": 20.9,
   "gold_silver_ratio": 79.07,
-  "usdcny": 6.654,
+  "usdcny": 6.6449,
   "shfe_au": 855.18,
   "shfe_au_date": "2026-10-30",
   "cftc_gold_net": -215624,
@@ -135,7 +135,7 @@
       "tip": 106.69
     },
     {
-      "date": "2026-10-31",
+      "date": "2026-11-01",
       "gold": 3884.9,
       "gold_chg": 0.0,
       "dxy": 101.97,
@@ -148,7 +148,7 @@
     "last_change": "2026-09-16 加息 25bp",
     "next_label": "10/27–28 议息会议",
     "next_date": "2026-10-28",
-    "days_to_next": -3,
+    "days_to_next": -4,
     "upcoming": [
       {
         "date": "2026-10-28",
@@ -199,16 +199,16 @@
         "src": "AP News"
       },
       {
-        "date": "2026-10-25",
-        "text": "Iran sends conflicting signals on US deal as Trump raises prospect of strikes",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9reFd6eFdFdzZFLUg1dS1pd3BGYmtJMjBzZktXY1NSaXc5QkJwZE5xQ0FMMDVwQzl0OG1kcWtReEtlZjE0dFdzUUJ2LXgxTU1Pc1E?oc=5",
-        "src": "Iran International"
+        "date": "2026-10-29",
+        "text": "America's Least Bad Option in Iran",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRGVOb2RLS1Y2b2steENheVYtUlpiOWd0OXpjYzhmaTByaEN0M2RsOVlMSmpVYmRrUV8zUnZXWkNVTmFUdVFJdENMMV9ZMWNBcDdjVUJibmdWVGRUM1V1WnBrczA3WUxXX002Z21VTlMtM2p5aWg1Zl9lYkE2czM4cHNoUzd2UTNGLWtF?oc=5",
+        "src": "RAND"
       },
       {
-        "date": "2026-10-31",
-        "text": "Qataris hold marathon talks in Tehran in bid for U.S.-Iran deal before midterms",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPMTg1UTZmdFFiVndiNS1OTnU2cUhBSk1lTVJDMWFOTEdKNmhtLV9wc0hJSlBqaEk0d2Z3UTdqQTRpbE1UMjV3WG1kaUE5TEFrOWp2clJGTTBFc2JkN0tXNXR5dnd3RGdjWlNhTkFRRFRwSmo5YW1Val83VWZuN3VYQnUteDFtdw?oc=5",
-        "src": "Axios"
+        "date": "2026-10-30",
+        "text": "Donald Trump says US in no rush for Iran deal, defends actions in Iran, Venezuela",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5nMkRWQl93RHVKdUstWnFhSGR0U3lNVFV3TzJfd1F5TWVocmxIX3Q5Rno1WHN6d3pfbjYxejVZWmZHZmhJZ1I5WVNrZ1FBby1SVW9XUm9CbklOR1ZJbTZVTUprQXZzRjU0Ymc?oc=5",
+        "src": "The Jerusalem Post"
       }
     ],
     "gold_impact": "双重作用：局势升级→避险买盘利多黄金；但同时油价飙升→通胀预期→美联储更难降息→利空黄金。当前谈判窗口期，油价波动会直接传导到金价。",
@@ -218,5 +218,5 @@
   },
   "ai_analysis": "",
   "ai_error": "未自动生成，点击按钮手动生成",
-  "ai_date": "2026-10-31"
+  "ai_date": "2026-11-01"
 }
