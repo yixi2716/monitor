@@ -1,66 +1,66 @@
 {
-  "date": "2026-11-01",
-  "fetched_at": "2026-11-02 00:30",
-  "gold": 3884.9,
-  "gold_chg": 0.0,
-  "ma20": 4104.76,
-  "ma50": 4271.46,
+  "date": "2026-11-02",
+  "fetched_at": "2026-11-03 03:52",
+  "gold": 3955.1,
+  "gold_chg": 1.81,
+  "ma20": 4108.27,
+  "ma50": 4272.87,
   "above_ma20": false,
   "above_ma50": false,
-  "dxy": 101.97,
-  "dxy_chg": 0.0,
-  "vix": 19.42,
-  "vix_chg": 0.0,
-  "tip": 106.69,
-  "tnx": 4.93,
-  "corr_gold_dxy": -0.22,
-  "corr_gold_tip": -0.33,
-  "corr_gold_vix": -0.59,
-  "basis": 32.71,
-  "vol20": 20.9,
-  "gold_silver_ratio": 79.07,
-  "usdcny": 6.6449,
-  "shfe_au": 855.18,
-  "shfe_au_date": "2026-10-30",
+  "dxy": 101.76,
+  "dxy_chg": -0.21,
+  "vix": 21.34,
+  "vix_chg": 9.89,
+  "tip": 106.45,
+  "tnx": 4.89,
+  "corr_gold_dxy": -0.26,
+  "corr_gold_tip": -0.41,
+  "corr_gold_vix": -0.46,
+  "basis": 34.21,
+  "vol20": 22.2,
+  "gold_silver_ratio": 78.18,
+  "usdcny": 6.648,
+  "shfe_au": 836.76,
+  "shfe_au_date": "2026-11-02",
   "cftc_gold_net": -215624,
   "cftc_gold_date": "2026-10-27",
   "mode": "M",
   "mode_name": "M · 混合驱动",
   "confidence": "低",
   "evidence": [
-    "黄金与 TIP 相关性 -0.33，与 DXY 相关性 -0.22",
-    "VIX 19.4，与 VIX 相关性 -0.59",
+    "黄金与 TIP 相关性 -0.41，与 DXY 相关性 -0.26",
+    "VIX 21.3，与 VIX 相关性 -0.46",
     "多因子混合驱动，无单一主导逻辑"
   ],
   "signals": [
     {
       "name": "美元信号",
-      "text": "DXY 102.0 > 101，压制金价",
+      "text": "DXY 101.8 > 101，压制金价",
       "dir": "bear"
     },
     {
       "name": "利率信号",
-      "text": "TIP 5日 +0.36%，实际利率平稳",
+      "text": "TIP 5日 +0.13%，实际利率平稳",
       "dir": "neutral"
     },
     {
       "name": "避险信号",
-      "text": "VIX 19.4，中性",
-      "dir": "neutral"
+      "text": "VIX 21.3 > 20，避险买盘 → 利好",
+      "dir": "bull"
     },
     {
       "name": "情绪信号",
-      "text": "VIX 5日 +6%，情绪平稳",
+      "text": "VIX 5日 +16%，情绪平稳",
       "dir": "neutral"
     },
     {
       "name": "实物信号",
-      "text": "GLD 与期货同步（5日 -3.27% vs -3.62%）",
+      "text": "GLD 与期货同步（5日 -1.77% vs -1.88%）",
       "dir": "neutral"
     }
   ],
-  "score": -1,
-  "score_summary": "-1（中性）",
+  "score": 0,
+  "score_summary": "+0（中性）",
   "recent10": [
     {
       "date": "2026-10-20",
@@ -135,12 +135,12 @@
       "tip": 106.69
     },
     {
-      "date": "2026-11-01",
-      "gold": 3884.9,
-      "gold_chg": 0.0,
-      "dxy": 101.97,
-      "vix": 19.42,
-      "tip": 106.69
+      "date": "2026-11-02",
+      "gold": 3955.1,
+      "gold_chg": 1.81,
+      "dxy": 101.76,
+      "vix": 21.34,
+      "tip": 106.45
     }
   ],
   "macro": {
@@ -148,7 +148,7 @@
     "last_change": "2026-09-16 加息 25bp",
     "next_label": "10/27–28 议息会议",
     "next_date": "2026-10-28",
-    "days_to_next": -4,
+    "days_to_next": -5,
     "upcoming": [
       {
         "date": "2026-10-28",
@@ -161,10 +161,10 @@
         "dot_plot": true
       }
     ],
-    "zq_price": 96.12,
-    "zq_implied_rate": 3.88,
-    "market_bp_vs_current": -12.0,
-    "market_expectation": "市场预期降息 12bp",
+    "zq_price": 95.93,
+    "zq_implied_rate": 4.07,
+    "market_bp_vs_current": 7.0,
+    "market_expectation": "市场预期下次会议维持不变",
     "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
   },
   "geopolitics": {
@@ -175,16 +175,22 @@
     "updated": "2026-09-28",
     "events": [
       {
+        "date": "2026-11-02",
+        "text": "U.S., Iran Threaten Escalation as Diplomacy Stalls",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQmlmT3lPQzFLQllCZ1hQZ3Z5Wkl3ek1XeHdDVkJlcWJZZXI1eUNBdm1zMERMN3VCOGZoUTdNSXpBUVEyZWhJY00wc1liT3ZJNTJ6bTlwY183M0tJMzU0WHNiT2QxNTJLaXpBZ0hhUjkzMWtzM1hNUEtRZ3ZHQVZDeEY2dHlZV0dELTI4UWFIcUpERXM?oc=5",
+        "src": "Arms Control Association"
+      },
+      {
+        "date": "2026-10-28",
+        "text": "U.S. Warns Gulf of Possible Short, Intense Renewal of Iran War After Midterms",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOYXd0OHZEUnBrMFNkRjJ5dHFUakFsTDU0NUxhdzhQUnpPQ0JxMllJanhoeVFQWm1GMmk2RkRUdDFWLVR2N0VwczZOQmZmbG9BanpUSTE2VEhnSS1xd29mUzFzbEdRTVBDWGRSOW1hRW41WU04eE9OSUo4QmFoSG9DUUhUNi13bzNkbEZaWlFUaVUzUzZPWGtMc2JDeEZyODg2Q09JdFZBekl1WnNJdDVBYnZQMzhieGt4bjFuOFZnMA?oc=5",
+        "src": "WSJ"
+      },
+      {
         "date": "2026-10-29",
         "text": "Dismantle, weaponize, or rebuild: Why the Iran nuclear threat isn’t going away",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOY3pVd1d0UWVoTHhmREF4amFRYWpCbk5tNXFzOEstbEtJZXludHRxWDF3OXNJdTItT2RWMUVEMDJYbmEwRVBDLTQzY3NKX3hkRUdXcU9vMXRkZlRpQUZud1BUNFZ2T0xUendnc2VFRnNhYnNiWThDU3VpQUNpRFBZUmpqSDBTVmJVSzhZd1JwSnM2TUZkd0MyN2NOc1dKVnN1OXdHbkltMUdYYkU?oc=5",
         "src": "Bulletin of the Atomic Scientists"
-      },
-      {
-        "date": "2026-10-28",
-        "text": "Report to Congress on U.S. Military Operations Against Iran’s Missile, Nuclear Programs",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRVFSNEwwVjZuY18yNV96bDdpYkpwVWxhNVFkWVh1QjJ6WWR3dnpIVUZIVjZHTjFJRkdOeWhORVM4TkVOT0ZiUmM2MU96UlR2V2xwOVJzay1VVjNCYnZwNVg2eDk5YWt3NVlpRnBIS05yTi1BMUwxTFJqOTFBSDFWbWlTVU5Vblgxa1lFbVJwWlhidFBXVGtDMm8zWS1QcmtvZDdmbVBmcjEtaWMzRnd3MU9teUZpRHMtVEVV?oc=5",
-        "src": "USNI News"
       },
       {
         "date": "2026-10-31",
@@ -193,30 +199,24 @@
         "src": "Al Jazeera"
       },
       {
+        "date": "2026-11-02",
+        "text": "Iran's delegation has left negotiations in Qatar after a tense weekend. Here's where things stand",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZDhDMmNsQ2tpZmxyZnVvc0tXTmstOUlXRWxWSHh4ZG8wTV95VlVDc29MemRtbVNGSXQzRHU5SFAtOTBMOW9hRXVQa0VPanRCWmloOUFFVF9jU1RiNmpEU2xIdHNqZHpKeFRvN0R3UC1JWE1OU2NkS1hxLXk3c3hpTndoOHJXTVZXZHpjV1JWTDUxZE5pd3hveGFQeWhmMHI3VGhjZkpUNl9RSE53MzQ4bk1DbjFaeHJfdlE2YmFOVGY0TFYtR00tV9IBzgFBVV95cUxOdXRFVVVob2hRQUlFWUZOVW9TTktGdWFPLUUxRkEyVjdSRnN4dlozbmdqaG1YTTRzVENmcmtnSXY2ellxU21YeV9NUHNEUUdqd3pYYjBSMjVWUlcwcnMyQkhlU09HbnJrMkFtVk96MzktdzNsdDlSUW1lUDJBRTk5UTJCVTlsa2MxaWY1bWdpd2puWmdsXzNHSnI4VDJoY1dUZkEwekVNZFp0Vnl2TVdpRWJBZ1oxWkJGUm1XMEJUZFRpWi1lbDl0Q1Rnb2ZpUQ?oc=5",
+        "src": "PBS"
+      },
+      {
         "date": "2026-10-28",
-        "text": "Iran hasn’t tried to repair nuclear facilities damaged in US strikes, UN nuclear chief says",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPT05MNG55Umh0cXBoZVlpeTVHTWdjZjhMb0hCS21LMmRiOU9ZWEhITjVYZEJBNXF6ejRwbDBBbThpMlNORGxacUV3T2s0VHp0YTV5UVdqRmpid09VNFg3RE1yT19SMmxhZk5ZNUtRcmdHQ3pFLUp5V01pdmVmcE9mdkhReFB0bmFoNGxqUEhCOVQxNlFITXByR2NUaGdsd0k?oc=5",
-        "src": "AP News"
-      },
-      {
-        "date": "2026-10-29",
-        "text": "America's Least Bad Option in Iran",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRGVOb2RLS1Y2b2steENheVYtUlpiOWd0OXpjYzhmaTByaEN0M2RsOVlMSmpVYmRrUV8zUnZXWkNVTmFUdVFJdENMMV9ZMWNBcDdjVUJibmdWVGRUM1V1WnBrczA3WUxXX002Z21VTlMtM2p5aWg1Zl9lYkE2czM4cHNoUzd2UTNGLWtF?oc=5",
-        "src": "RAND"
-      },
-      {
-        "date": "2026-10-30",
-        "text": "Donald Trump says US in no rush for Iran deal, defends actions in Iran, Venezuela",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5nMkRWQl93RHVKdUstWnFhSGR0U3lNVFV3TzJfd1F5TWVocmxIX3Q5Rno1WHN6d3pfbjYxejVZWmZHZmhJZ1I5WVNrZ1FBby1SVW9XUm9CbklOR1ZJbTZVTUprQXZzRjU0Ymc?oc=5",
-        "src": "The Jerusalem Post"
+        "text": "Report to Congress on U.S. Military Operations Against Iran’s Missile, Nuclear Programs",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRVFSNEwwVjZuY18yNV96bDdpYkpwVWxhNVFkWVh1QjJ6WWR3dnpIVUZIVjZHTjFJRkdOeWhORVM4TkVOT0ZiUmM2MU96UlR2V2xwOVJzay1VVjNCYnZwNVg2eDk5YWt3NVlpRnBIS05yTi1BMUwxTFJqOTFBSDFWbWlTVU5Vblgxa1lFbVJwWlhidFBXVGtDMm8zWS1QcmtvZDdmbVBmcjEtaWMzRnd3MU9teUZpRHMtVEVV?oc=5",
+        "src": "USNI News"
       }
     ],
     "gold_impact": "双重作用：局势升级→避险买盘利多黄金；但同时油价飙升→通胀预期→美联储更难降息→利空黄金。当前谈判窗口期，油价波动会直接传导到金价。",
-    "wti_price": 102.95,
-    "wti_chg": 0.0,
+    "wti_price": 96.77,
+    "wti_chg": -6.0,
     "news_auto": true
   },
   "ai_analysis": "",
   "ai_error": "未自动生成，点击按钮手动生成",
-  "ai_date": "2026-11-01"
+  "ai_date": "2026-11-02"
 }

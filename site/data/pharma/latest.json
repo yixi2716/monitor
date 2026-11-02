@@ -1,68 +1,68 @@
 {
-  "date": "2026-11-01",
-  "hs300": 3985.5,
-  "hs300_chg": -1.39,
-  "med_etf": 0.377,
-  "med_etf_chg": 0.53,
-  "inn_etf": 0.785,
-  "inn_etf_chg": 0.0,
+  "date": "2026-11-02",
+  "hs300": 4016.92,
+  "hs300_chg": 0.79,
+  "med_etf": 0.375,
+  "med_etf_chg": -0.64,
+  "inn_etf": 0.796,
+  "inn_etf_chg": 1.43,
   "cxo_etf": 0.335,
-  "cxo_etf_chg": 1.21,
+  "cxo_etf_chg": 0.3,
   "tcm_etf": 0.878,
-  "tcm_etf_chg": 1.15,
+  "tcm_etf_chg": 1.48,
   "meddev_etf": 0.434,
-  "meddev_etf_chg": -0.91,
-  "vaccine_etf": 1.905,
-  "vaccine_etf_chg": -1.7,
+  "meddev_etf_chg": 1.38,
+  "vaccine_etf": 1.95,
+  "vaccine_etf_chg": 2.38,
   "hsi_health": 23294.42,
   "hsi_health_chg": 0.0,
   "hs_inn_etf": 1.155,
-  "hs_inn_etf_chg": -2.7,
-  "tnx": 4.93,
-  "usdcny": 6.661,
-  "excess": 0.0,
-  "north_money": 274086.03,
-  "north_date": "20261030",
+  "hs_inn_etf_chg": 0.0,
+  "tnx": 4.89,
+  "usdcny": 6.648,
+  "excess": -1.43,
+  "north_money": 297761.34,
+  "north_date": "20261102",
   "news": [
     {
-      "date": "2026-11-01",
-      "text": "【小店民生】区医保局：四维发力破“药”题 集采红利惠万家 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBmaWVVQmVUbVdZX044aFg4ZURGeW9VUTJPZnlzZkxWUXE5d0g3TWJQeWEtZXF0NlcwUDVmeUJXSXBDRi1DcTNKN3g2dVp0eURmT3VBXzJLX2NCY1Nkek51ZXZPSHo4V3Q1LUd3NFl0bEFmZEFPMHc?oc=5"
+      "date": "2026-11-02",
+      "text": "从空间到服务 构建优质产业“生态圈” 国际医药创新公园“集聚效应”加速释放 - 北京市人民政府门户网站",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBveWRMUE45bjNzTjhXZjB1eG8yV0d4WW5YWVdBalJrQzZ4Z0JHZkFSR052SlhxUU9HaXJHRHFJcG10MkhVdURObjRUWEZ6ZnNFMENNd2JuVGZpNEhkMUw2V19JdEVqTzBhTjloYWdaSEpNdnpK?oc=5"
     },
     {
-      "date": "2026-11-01",
-      "text": "中国生物医药产业园区竞争力排行榜出炉：前50强中江苏占14席，苏州工业园区稳居全国第二 - 新华报业网",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBYZkgtWlkzY2J4UHNFMTE5bS01WjIzX0g4RGlxeTZrVXRDa2ZkVjYwdUx0N0RGaS0tTGdzS2tfLXc5VmE1SHNPOFFKMExEMFhXLXpYNmZfQkhGWkg3TUhUbmJNQUR6TjNnU2lv?oc=5"
+      "date": "2026-11-02",
+      "text": "打通集采药品惠民 \"最后一公里\"，成都又有新动作！ - 人民网－四川频道",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBGd2ttbEhic2NHdGlCQnRMZTNNTTNnZHlqbnF0MnVtVW9ESWZYWVI0aTNOVjRtZUpxMXY4cHc0VDZHNWpSbzEwQUdySkMyVHZoam9oQjdSSHU3ZDJ2Zmx3SkhXZmpsMk1rV2c?oc=5"
     },
     {
-      "date": "2026-11-01",
-      "text": "AI带着真金白银来了！CXO分化复苏潮下，谁在狂揽“湿实验”订单？ - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9MWEtycUlvd2k4YUN5UHVEX3lIbFZoeVgwUkRuc19jWnoyV25Tbk5nNmZZcWZOY0N2QUZDdTlHUGFVcmVlMHFOVg?oc=5"
+      "date": "2026-11-02",
+      "text": "方盛制药：关于中药创新药研发项目获得药物临床试验批准通知书的公告 - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA2X1dqSThnb2pQUmZoQ1BJWVRXaXA3UEFhcHRsbDhZYWY4RHR4Wmota3dNcWRtMmZ0SG1mdHdVX0lobk9zeTYyTV8tTHAxY1h3T2VpZDlMS2Zkal9McWRQNG9CaGpMZw?oc=5"
     },
     {
-      "date": "2026-11-01",
-      "text": "两个单项全国第一！园区生物医药产业综合竞争力稳居全国前列！ - 苏州工业园区管理委员会",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZVctdVZjNjFNaUJ5anlMc0hwNHk4SkpyLVlBeFV1Yk14UnlVOVljS3NNMXBUWEQ1WFlNNGpybS1yRDZINklpWkVFUmdaSC1aVVRwUk9jZUV2UWZfeEFkLUZGNmIxRzdaV3E4ck1TZG5ZQ2VNdUpFM1Z4eER1T24wc3ppejVvWHpJVEE?oc=5"
+      "date": "2026-11-02",
+      "text": "AI赋能医药创新生态论坛| 聚焦AI融合发展的路径、经验与探索 - 中国医药创新促进会",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5CM0FBcTFVZ0J6VWNIeHJjcWJwYVJHR1VJWnppVUdScU1WTTQzZlc3MFFxbU81andwTmJwMVZHQ1dxMERZVkZZdFFxNXktZmI4cXVuRFo3TkE3M0ZtaVdHQ3FLYUk1Z205bUlDNlRHcFNOeldiOXZjYVpR?oc=5"
     },
     {
-      "date": "2026-11-01",
-      "text": "国邦医药首次回购约137.88万股，耗资约2045.88万元 - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5zRmVyemdIXzRnZjZUYXlCNDdPdGhvT0VyMGZnR0F6Yi15c0tsOXZCOHlVbUJ1SkZBcm9VaHdPUVBsaXFaZXJWenBpYklGR3FzODNsc0pZenRIQ3luX2tsMg?oc=5"
+      "date": "2026-11-02",
+      "text": "北京亦庄创新药迎来集中收获期 - 国际科技创新中心",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORkpfQ0RWdjFJR0Q5R0Fpd2gzOTdHbUdqSG01Ny1OQ2E5N0p3UXlKd1lKT2lXRmN1b3diY0RCQ0VtNEoweEF5TDJHLVNCRUxydXMteVNOeWdvc2JVU1VCbTFVOXRjRW9wOU9GTXp5SUpfWWtROW8zSU81SUtQc054LXhHblc?oc=5"
     },
     {
-      "date": "2026-11-01",
-      "text": "2026中国生物医药产业园区竞争力“榜单”发布 - 中国新闻网",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9CUl96QW1hcEh2bkc3TUhUSVIwZmt4QzYwZk5xbGJxNlFTaS00eXJDa1BJR2dNaTdiV1BJdHJjZVNZQjhKY05mdFdGRlIzOXZRUi1hMkdYVS1sWm9EeWptRDVmN3U5eW40?oc=5"
+      "date": "2026-11-02",
+      "text": "数智赋能医药 创新引领健康 - 苏州新闻",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5Xc2tlZU5fYjdXVlpuVkJYc0dQWWN5Rm9kRFNfVE1wazZ3dTlSLWFoZFQzQlJhRFhiUU40SHF0WENGWUU0bThDN1RqbUxjUXBvbVRKNjlfSUhqdnRDV2djeWZB?oc=5"
     },
     {
-      "date": "2026-11-01",
-      "text": "亚盛医药(06855)股票股价_股价行情_讨论_资讯_财报_数据报告 - 雪球",
-      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE41ejBDMGt3UjVOSnpFdGJvY3JBU19HQ2E5NE04QVZhSGcxdGFSbXJoR19XTzhGSzNJZ0ZXV182Yw?oc=5"
+      "date": "2026-11-02",
+      "text": "两个单项全国第一！苏州工业园区生物医药产业综合竞争力稳居全国前列 - 紫牛新闻",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5WTFY5UkNRa0hiVmFDcXo5NzIzNmUzVWpSQzI5eFRXOWZIX0x3b2ViSDRCODB3ZnE1VmMtZUJaZEswNWNjbVkyTF9QX1ZpYkM3UEktVF9oVDk1dWZHeW9sX1pINEJ0NmxqUFRoT3dIQjJncGk0NmM1Wg?oc=5"
     },
     {
-      "date": "2026-11-01",
-      "text": "疫苗行业周报：国家医保局首提疫苗个账支付，支付端有望政策破冰_行业研究_研报 - 证券之星",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9Sb3ZxLXl3dEF0LW9wQmhvMWRXYzNKdjVrWDVRYUR6Mkk3cUFjdmJrcGRNV1BEMk9jcUxTbVZpeDhZeEtFRHlUbDdPa2MzdEFxSHpST3JCRm1kaXBCWlZKX19B?oc=5"
+      "date": "2026-11-02",
+      "text": "生物医药创新与合作交流研讨会在金鸡湖畔举行 - 苏州工业园区管理委员会",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTFlxWGNLT0NURXBsamhObEd5ak1rczMyQk5zR2d3Q0x0YUMweW8tV0ZwbEo4X19IUWN0R3NNVkh1N2dmYlJZLVFtRzEzR1M2SG1uRzdKUnU0N2tYazBDNF9JU0ozOXVRdTlYbHpONGx6eHQ0SWw4cF83T2RISE9JSEREOGRjSG5RQ3c?oc=5"
     }
   ],
   "ai_analysis": "",

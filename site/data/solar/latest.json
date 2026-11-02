@@ -1,89 +1,89 @@
 {
-  "date": "2026-10-30",
-  "hs300": 3985.5,
-  "hs300_chg": -1.39,
-  "solar_etf": 0.669,
-  "solar_etf_chg": -3.18,
-  "newenergy_etf": 1.905,
-  "newenergy_etf_chg": -1.7,
-  "storage_etf": 1.367,
-  "storage_etf_chg": -2.01,
-  "tnx": 4.93,
-  "usdcny": 6.661,
-  "excess": -1.79,
-  "dd_from_high": 0.4345,
-  "pb_ratio": 0.0667,
-  "turnover_ratio": 0.893,
+  "date": "2026-11-02",
+  "hs300": 4016.92,
+  "hs300_chg": 0.79,
+  "solar_etf": 0.688,
+  "solar_etf_chg": 2.84,
+  "newenergy_etf": 1.952,
+  "newenergy_etf_chg": 2.47,
+  "storage_etf": 1.422,
+  "storage_etf_chg": 4.02,
+  "tnx": 4.89,
+  "usdcny": 6.648,
+  "excess": 2.05,
+  "dd_from_high": 0.4184,
+  "pb_ratio": 0.069,
+  "turnover_ratio": 1.096,
   "stocks": {
     "tongwei": {
-      "close": 11.06,
-      "chg": -2.98
+      "close": 11.38,
+      "chg": 2.89
     },
     "zhonghuan": {
       "close": 9.38,
-      "chg": 1.96
+      "chg": 0.0
     },
     "junda": {
-      "close": 39.74,
-      "chg": 2.9
+      "close": 39.56,
+      "chg": -0.45
     },
     "longi": {
-      "close": 11.0,
-      "chg": -1.35
+      "close": 11.5,
+      "chg": 4.55
     },
     "flat": {
-      "close": 8.76,
-      "chg": -1.35
+      "close": 8.6,
+      "chg": -1.83
     },
     "jiejia": {
-      "close": 51.5,
-      "chg": 0.14
+      "close": 53.34,
+      "chg": 3.57
     },
     "sungrow": {
-      "close": 65.29,
-      "chg": -2.86
+      "close": 71.54,
+      "chg": 9.57
     }
   },
   "news": [
     {
-      "date": "2026-11-01",
-      "text": "部分光伏龙头三季度减亏 但行业供需失衡仍延续 - 财新",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5hVzRpNjZMXzltVll5NjNYamwtMG5OeXpqdGgyR3UyTF9qNVdxQTJ0UGpkbnpPMG5rSlJqTWZnWkdydGVLRVhZVlktRUFobWVoQ1VFT2tCc0lTLVF0WVE1QVpCMTU?oc=5"
+      "date": "2026-11-02",
+      "text": "秋巡光伏 聚力绿电 - 中国科技网",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5yRkpfZUQ1NjZheWlWYWFxMXc4OVVZZXdWbUtfMW84dF9pOGJCYUNyWmhqTl9LVWEyeURfYXcwWE5UV0R5MERjZFl2QTRBLVIzYUtmYVl1V1VmVFNNLXRGZ3lJSVpWT0tHeXZoaUxjU28?oc=5"
     },
     {
-      "date": "2026-11-01",
-      "text": "武威市凉州区九墩滩光伏治沙示范园区连片光伏板在腾格里沙漠南缘铺展_图片新闻 - 甘肃省人民政府",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE52clNKc01ZUHY3alJFYWcwSzRIVFVObXBvVHVyWHN4SjJwRDlxV2lDWVNPTHBRY3pTWnlubHZQczJoYUtXS3R6ODlBTXUtRFVaUjFnc3FBeUliVHNza2REVEVWUUc2TGR1b3lWaUZTRXZqQQ?oc=5"
+      "date": "2026-11-02",
+      "text": "印尼卡朗卡德斯光伏项目全面完成光伏组件安装 - 国际太阳能光伏网",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1QYjNqaGZNRElNYzk1RDBVRm56dzRKcWRoZjI5N2hNVEpLM3FUUzN2dU9IMlRPVTBzUlNPTVdndEFhdHF2RmJzbDhSa29WU0c2ZEFDOWF6M1Y3blVj?oc=5"
     },
     {
-      "date": "2026-11-01",
-      "text": "光伏ETF国泰: 国泰基金管理有限公司关于旗下部分交易型开放式基金新增财通证券股份有限公司为一级交易商的公告 - 证券之星",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE93UDhTWXFKZUdaMUlkMUpSUVBlM1dOVnNiZVBFU1NDbW1rd3dXdW1NWVBPQzZmeE5FRkdveDhUSmZJMmpGbUpBMEFtTXpCUUxQcVAyamczdlZiRFZOeGhzMQ?oc=5"
+      "date": "2026-11-02",
+      "text": "河源维河新能源两30kW屋顶光伏项目备案通过 - 观点网",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1NcVBaRU5zemxqazRnajlTWEVrd1NCX1JkQ1I5ZW04REJpRzVvcHY5UGRXMDdLQmhnbjhqWndKSVRfTkwwRkNmOW9zVFBRUQ?oc=5"
     },
     {
-      "date": "2026-10-31",
-      "text": "【早报】特朗普：对多晶硅及其衍生产品加征关税；美存储股再遭重挫；原油走强、黄金微跌；宇树科技发行价定了 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBKOGZ6ejN0YWR3YkZWVXU3YndmcUwyUGF0WFFRc2xGRkhSUm5lTjNSbm9LZlo2Mmx0WklVdWxSOFMxYnRHZnVsYw?oc=5"
+      "date": "2026-11-02",
+      "text": "前三季度29家光伏企业13家盈利！行业基本面回暖+出口限制，光伏产业迎收益率重估？ - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE40YnNOLWJrdGo1NEQ2V0RoaXhienpDdHhNOHIwMHFUZjd1dGlHaFZJTFI2cFdwUDNSa29NRlRNNUFnRmdZUXY0QWFCWllPcElHRExHRnVDV2RpMHZpLWg3Vg?oc=5"
     },
     {
-      "date": "2026-11-01",
-      "text": "某光伏项目起火，风险谁来兜底？ - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPY0gwYjB1d3lhdWtvYUxLeVNSQ3dlVlNmU2pnTjdsTTV2aVFtUHVheDdENnhZVkRWSzNrNzFOMk1tTFRaaW5jd2FadGE4UGNhbUNEdDJoNklWVVFOaVg5QUN1OWpVcVRlQUNHbl83ZkVyNHhTazNzazRickE3U3dBckVMZTZRMlg5WU9rMlRLRmFsRXpYTWhpSg?oc=5"
+      "date": "2026-11-02",
+      "text": "晶科/隆基/天合等5家光伏企业发布三季度业绩 - 集邦新能源网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0xNU1HcTdkb1VaQVBWQkxES0duS3lYbV9ReC1HVFl0bTY1T1JyZ1lPNXk4RjFpUDlXVHE2NVlHU1o5WnFfMXJDS1d3UWxqZWh0TnpXWDhIa2owaE85ZE9iY3h3?oc=5"
     },
     {
-      "date": "2026-11-01",
-      "text": "华润新能源：转让9.5MW光伏电站 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1SNDhDMXFHUGNGRG55Z1B1NnRCTFJOSGV3eHQ0S1dKSzhuMEFfNjZTZHRZV01Bb0JKQ2JOemQ3QlVSNlFIVFVkemxNVG9vV3dpRmViWDlTZ3JEV3JJNU9XU3JPMnN1TWg0ejlvd0FvVlRmM3c3OHlkSg?oc=5"
+      "date": "2026-11-02",
+      "text": "西班牙光伏购电协议价格跌至30.93欧元 - pv magazine China",
+      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQRDhReE5VYVVjWXd1dC1keF9YMHowQjZTNnRMcXc3RmN6bVV6cEVJejFrcVhpaEtOWmpsTlMyN1M1Ql82dG1LVGdTNFptcERMY0t4NDJld3dUN1NtalFjLVlYMklPalhJUnZ3NmVMYWJOYlZfajI3SFZfTThzYlBmQlpNb2JpYTR1V1RCSmlDb1NkZVFWU0ZsbGwyTG4tUS15Y3hnN1lxVlEzdk45Qm5YOG5GZ19iNkxqWEZXR0gzeDZTc3FsYVVwRVhqOTNUUXBQcVRwcmYycmlSTlRxOTJNYjhpcDZqWHJGeC1LTUU5RU83OUNxS19iOVRQT1ZpcllyT1BwV3dQaVkxTmFsUU9XdkgwM08?oc=5"
     },
     {
-      "date": "2026-11-01",
-      "text": "环保专家徐华清：中国光伏、电车、锂电产品绝非过剩产能，2023年能源转型投资6760亿美元居全球首位 - 凤凰网",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1KSTlpaUpxZjhJNmRQVWNMTDZrSVRnQmJ4TlFMR0pPWXJoRlgtRWJ2c3FlenhieXdwTUkyaFp2VGZzLUJvMmhsXzRCVnBKUVY2d1E?oc=5"
+      "date": "2026-11-02",
+      "text": "光伏老兵，将被摘牌…… - 搜狐网",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcHJmWE13MnNTT2VEVWdwdDFMWXJwX1BhX2RFd1BFY1NEMHFZaWxZaS1nVHdVWDRERmFiTGN1TlJmZmFhbm5RY1lwdlBRME5ObnBEdmwtQjlmSEZFVnNfQUxmd1ZwYWptZDd0RTFscU5wZ25XQ05EbWc1VnhYbDJ2MEYydFdNRkhl?oc=5"
     },
     {
-      "date": "2026-11-01",
-      "text": "【图片新闻】武威：沙海生光伏 草障锁黄沙 - 每日甘肃网",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBMXzBkR200OVl2b0ZtRjBQT3BQc3plekVjRktVQjBoZnR5X1ZldDEwNWxLRzhtN0FWTTNOZGFrc1NEVnNyQWFteFdpMUs1RWtNc2hNMzRSX25qa2FFdU40dGgxYlB6ZExicVBWZVBmdGRscHc?oc=5"
+      "date": "2026-11-02",
+      "text": "北京公示拟获市政府固定资产投资支持光伏项目清单 - https://www.gdshe.org/",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1pd2pSbndWblBEbkRReGg2ZFJXRnh2ck5DcFhzVmZpcDBQUnV5cnpqeGx0bE91SURxelpycEpYTmFPSElBYjc0bU1jM0VGOVJuWnc?oc=5"
     }
   ],
   "ai_analysis": "",

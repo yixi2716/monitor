@@ -1,57 +1,57 @@
 {
-  "date": "2026-11-01",
-  "copper": 6.5095,
-  "copper_chg": -1.214052659534104,
-  "ma20": 6.6042749999999995,
-  "ma50": 6.63293,
-  "dxy": 101.97,
-  "vix": 19.420000076293945,
-  "tnx": 4.928999900817871,
-  "wti": 102.95,
-  "cu_oil_ratio": 139.3975122875182,
-  "shfe_cu": 108050.0,
-  "shfe_cu_date": "2026-10-30",
-  "shfe_lme_ratio": 1.046,
+  "date": "2026-11-02",
+  "copper": 6.5405,
+  "copper_chg": 0.4762270527690182,
+  "ma20": 6.599675,
+  "ma50": 6.631630000000001,
+  "dxy": 101.76,
+  "vix": 21.31999969482422,
+  "tnx": 4.894000053405762,
+  "wti": 96.76,
+  "cu_oil_ratio": 149.02146661843733,
+  "shfe_cu": 107810.0,
+  "shfe_cu_date": "2026-11-02",
+  "shfe_lme_ratio": 1.038,
   "lme_stock": 296625,
   "lme_stock_date": "2026-07-17",
-  "shfe_stock": 10999,
-  "shfe_stock_chg": -348,
-  "shfe_stock_date": "2026-10-30",
-  "lymy": 13.65,
-  "lymy_chg": -2.36,
-  "tl": 4.83,
-  "tl_chg": -1.43,
-  "jxt": 32.21,
-  "jxt_chg": -4.02,
-  "cper": 38.99,
-  "cper_chg": -1.86,
-  "copx": 71.96,
-  "copx_chg": -5.19,
+  "shfe_stock": 10600,
+  "shfe_stock_chg": -399,
+  "shfe_stock_date": "2026-11-02",
+  "lymy": 13.32,
+  "lymy_chg": -2.42,
+  "tl": 4.78,
+  "tl_chg": -1.04,
+  "jxt": 31.94,
+  "jxt_chg": -0.84,
+  "cper": 39.37,
+  "cper_chg": 0.96,
+  "copx": 72.94,
+  "copx_chg": 1.36,
   "signals": [
     {
       "name": "铜价低于MA20",
       "dir": "bear",
-      "text": "$6.51 < MA20 $6.60"
+      "text": "$6.54 < MA20 $6.60"
     },
     {
       "name": "美元中性",
       "dir": "neutral",
-      "text": "DXY 101.97"
+      "text": "DXY 101.76"
     },
     {
       "name": "风险偏好正常",
       "dir": "neutral",
-      "text": "VIX 19.4"
+      "text": "VIX 21.3"
     },
     {
       "name": "铜油比偏高",
       "dir": "bull",
-      "text": "铜油比 139.4，工业景气预期强"
+      "text": "铜油比 149.0，工业景气预期强"
     },
     {
       "name": "利率环境友好",
       "dir": "bull",
-      "text": "10Y 4.93%"
+      "text": "10Y 4.89%"
     }
   ],
   "score": 1,
@@ -75,19 +75,25 @@
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1OdVRNYXRVTVpBSS1lQnV4WmUtWVk5aVFDR3VkOHhTcEV0cU91VURmUEFpUmsteHozS1dZZU84MWdJWjFpTGhvYzZpTEFxZUI5a1AzZ1hhZi1OMlVMMVF1UHptcTJXYWxJOHpTSFFIaGMwRTdxVjY0?oc=5"
     },
     {
+      "date": "2026-11-01",
+      "text": "Silver’s Critical Mineral Label Created No Stockpile or Price Floor",
+      "src": "Discovery Alert",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQUUVuNERJa2tZdTZSUmw4UElwSDlVY3gxM0dUMEJMemU1VWVkc3pVN1JucHdSUWFDRkRGVnpURDY3dUY0WnYwbHEwMkFFLWF0YkMyQmdySlJiLXJ3WDhZVm5OSWN0T2RUX3lJb2lGQzd5Q0tkY0VxR0ZFY1NiRU5QbU9aYm5PS2ZBaHp2ekdsa2pXNFBsaU1RYXhTWWE?oc=5"
+    },
+    {
+      "date": "2026-11-02",
+      "text": "Higher Metal Prices Are Showing Up in Third-Quarter Results at Mines, Mills and Alloy Makers",
+      "src": "PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOOHYyR1NqVXZZQkhsa01ybnhMWUh6ajV5VTB4Skk3cUJ1R3VXREtPdVY0WGVTY1BtVEdWWXo2c25DanlfcVR1ZVh3N2xpaTdQdC1wTHR0S0ZBUDFxekJQTGtRMHhtaVFZb19MVzdTSENjR0xocEVfZFNTYlVmTFdGMndNZzNNLVc1U0FBb3RCRDQ2OHVQdGR3bmVERV9tQjJoWVh6d1RLbW96N1N0X1o5QzYtNHhjYnB4NTU4aDkzWVdEU292bGhJUmhxUlRpaTRicWxHMm1HUG9SNjR5dzhGbw?oc=5"
+    },
+    {
       "date": "2026-10-30",
       "text": "Copper trades down after large copper inventory build on US COMEX",
       "src": "Traders Union",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMmhTLUxISmtDM2JqVUp0UEZnOUpLSGN5TVZNeXIwd2ZBN1dSdnl5dXN0WjlFdmJoY1dOVG9iWVc2ZHVndFFseG5rOXFJUzRacENHa0FCcFhIcEs1YXRoSTVuVXNXeWk3dGJBLS1rQmstaWNfTGFCUm1Nc0pQYXFhM2xEa25lUFVOelVGVjhJQjNTbkxYc3g0?oc=5"
-    },
-    {
-      "date": "2026-10-31",
-      "text": "Nexa Resources Earnings Call Highlights Strong Mining Rebound",
-      "src": "TipRanks",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZmZ3SEE4SzRub0FGa2JNT2pkMHpfT3hONXA3T1djbnV6Z3ZPcXZRcmFrNTdMRlV6aXkyTXJtbWwweXBpOHQxSjV0YjlIeUtsWDZBdGtRQ21QNDk5czRIUkxjbnJwVDRUcmNndWVxOHo2amtFWGJaQ25uTHU0SjFoSVNEZENWZG5YZ25ZZXNlV3ZKcmhYTTJPX2cwb0pDcDlhdm0zc18ydEFuTmFGR2E5dzlMcw?oc=5"
     }
   ],
   "ai_analysis": "",
   "ai_error": "未自动生成，点击按钮手动生成",
-  "ai_date": "2026-11-01"
+  "ai_date": "2026-11-02"
 }
