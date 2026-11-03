@@ -1,89 +1,89 @@
 {
-  "date": "2026-11-02",
-  "hs300": 4016.92,
-  "hs300_chg": 0.79,
-  "solar_etf": 0.688,
-  "solar_etf_chg": 2.84,
-  "newenergy_etf": 1.952,
-  "newenergy_etf_chg": 2.47,
-  "storage_etf": 1.422,
-  "storage_etf_chg": 4.02,
-  "tnx": 4.89,
-  "usdcny": 6.648,
-  "excess": 2.05,
-  "dd_from_high": 0.4184,
-  "pb_ratio": 0.069,
-  "turnover_ratio": 1.096,
+  "date": "2026-11-03",
+  "hs300": 4008.87,
+  "hs300_chg": -0.2,
+  "solar_etf": 0.695,
+  "solar_etf_chg": 1.02,
+  "newenergy_etf": 1.981,
+  "newenergy_etf_chg": 1.49,
+  "storage_etf": 1.427,
+  "storage_etf_chg": 0.35,
+  "tnx": 4.95,
+  "usdcny": 6.6593,
+  "excess": 1.22,
+  "dd_from_high": 0.4125,
+  "pb_ratio": 0.0714,
+  "turnover_ratio": 1.212,
   "stocks": {
     "tongwei": {
-      "close": 11.38,
-      "chg": 2.89
+      "close": 11.48,
+      "chg": 0.88
     },
     "zhonghuan": {
       "close": 9.38,
       "chg": 0.0
     },
     "junda": {
-      "close": 39.56,
-      "chg": -0.45
+      "close": 38.8,
+      "chg": -1.92
     },
     "longi": {
-      "close": 11.5,
-      "chg": 4.55
+      "close": 11.76,
+      "chg": 2.26
     },
     "flat": {
-      "close": 8.6,
-      "chg": -1.83
+      "close": 8.73,
+      "chg": 1.51
     },
     "jiejia": {
-      "close": 53.34,
-      "chg": 3.57
+      "close": 54.04,
+      "chg": 1.31
     },
     "sungrow": {
-      "close": 71.54,
-      "chg": 9.57
+      "close": 75.72,
+      "chg": 5.84
     }
   },
   "news": [
     {
-      "date": "2026-11-02",
-      "text": "秋巡光伏 聚力绿电 - 中国科技网",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5yRkpfZUQ1NjZheWlWYWFxMXc4OVVZZXdWbUtfMW84dF9pOGJCYUNyWmhqTl9LVWEyeURfYXcwWE5UV0R5MERjZFl2QTRBLVIzYUtmYVl1V1VmVFNNLXRGZ3lJSVpWT0tHeXZoaUxjU28?oc=5"
+      "date": "2026-11-03",
+      "text": "隆基绿能Q3亏损环比收窄 BC组件出货占比已超过六成| 财报解读 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5nMXNNcV91c3Y1dEl3blgxWXhvaWM0WlFJQmo4Yk1QVmhaVDJFQlBwY3UwZzJ0dURkV3o0Unh4OEpUVUY3QmwwTg?oc=5"
+    },
+    {
+      "date": "2026-11-03",
+      "text": "实力见真章！爱旭ABC率先通过两项光伏国家强制性标准认证 - 国际太阳能光伏网",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1JZkVBWXdyM2xNb0JwX1pNQ1kxdTk5dFpCRFpsS0F5R2VaODA2MERxTVlhTzA5R1NtakQyUV96R3MxV3lWSUJkMHlDVXdCNDB4c1NKX2l1N3ptUUVu?oc=5"
+    },
+    {
+      "date": "2026-11-03",
+      "text": "光伏板块，连续两日拉升 - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1DdmFvZW9UdHVzVV9TaVRaSFR6RDNkSk1SdEwzNzkyQjRrN3B4eURMZ09leWI5eDdDT291MzgwV1E3WHJXV2RHOEFMSFU0Wm9sX1N6bHR5dzg1SE82cHlQUQ?oc=5"
+    },
+    {
+      "date": "2026-11-03",
+      "text": "国晟科技三家光伏子公司临时停产 前三季度归母净亏损1.57亿元 - 观点网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9wLUhac1VkN0pTcVdzeE1aNTR2QlluQ3oxeFRaQzdsNklsOFQxRXNEcVNaS1p5c3Q1M1FyVTB5UXZUd1BLRFdRQWVhSURBMzY2UW5SWUttWGVvVlRKWmRTOXB3?oc=5"
+    },
+    {
+      "date": "2026-11-03",
+      "text": "错峰蓄电+光伏自用！麦田能源T-MAX Plus落地法国这座农场 - 碳索储能网",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5tYm9KdHZmdmpOejZ0dFBsbzliN2ptc3JKSkU0bngwZUdTY3lnSFdTNHpJWXhtel9Qb3FtZ3dhN1BPZzlJeEE3bEVnXzRFMzA0VWE2MlYwNlpid1Qza3djag?oc=5"
+    },
+    {
+      "date": "2026-11-03",
+      "text": "湖北光伏电站监控软件定制 蓝人电力EMS能量管理平台 具备与告警推送功能 - 凤凰网",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4teHNjUmMzbzMwOVBhMW9QaDFqcVlZclhLUS0yTUhHSEt2TkVkN2JLdlpoM29NSlB6UmFDRVpzNjRaUUpEQ19fTVZHd2lnMWM?oc=5"
+    },
+    {
+      "date": "2026-11-03",
+      "text": "600537，连续涨停！光伏板块突现异动，情况正在起变化？ - 21财经",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPd1Y5Q1NZNnZhQVhTOEJNR1dqRXBGWUg1UFNKVWNLZFk3bjc2aWdWSUlvSjNEZ204enotNHpNU0thVzhocW9EcGZ4OXYwd2htMWxHcmJqbHRoVmFCbGljQUVhaFhnaXFoc3ZSNU94UWluT3dwbzFKSEJpT0wwVF9uM1BMaHV4Zkk4MVBseFJJYw?oc=5"
     },
     {
       "date": "2026-11-02",
-      "text": "印尼卡朗卡德斯光伏项目全面完成光伏组件安装 - 国际太阳能光伏网",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1QYjNqaGZNRElNYzk1RDBVRm56dzRKcWRoZjI5N2hNVEpLM3FUUzN2dU9IMlRPVTBzUlNPTVdndEFhdHF2RmJzbDhSa29WU0c2ZEFDOWF6M1Y3blVj?oc=5"
-    },
-    {
-      "date": "2026-11-02",
-      "text": "河源维河新能源两30kW屋顶光伏项目备案通过 - 观点网",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1NcVBaRU5zemxqazRnajlTWEVrd1NCX1JkQ1I5ZW04REJpRzVvcHY5UGRXMDdLQmhnbjhqWndKSVRfTkwwRkNmOW9zVFBRUQ?oc=5"
-    },
-    {
-      "date": "2026-11-02",
-      "text": "前三季度29家光伏企业13家盈利！行业基本面回暖+出口限制，光伏产业迎收益率重估？ - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE40YnNOLWJrdGo1NEQ2V0RoaXhienpDdHhNOHIwMHFUZjd1dGlHaFZJTFI2cFdwUDNSa29NRlRNNUFnRmdZUXY0QWFCWllPcElHRExHRnVDV2RpMHZpLWg3Vg?oc=5"
-    },
-    {
-      "date": "2026-11-02",
-      "text": "晶科/隆基/天合等5家光伏企业发布三季度业绩 - 集邦新能源网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0xNU1HcTdkb1VaQVBWQkxES0duS3lYbV9ReC1HVFl0bTY1T1JyZ1lPNXk4RjFpUDlXVHE2NVlHU1o5WnFfMXJDS1d3UWxqZWh0TnpXWDhIa2owaE85ZE9iY3h3?oc=5"
-    },
-    {
-      "date": "2026-11-02",
-      "text": "西班牙光伏购电协议价格跌至30.93欧元 - pv magazine China",
-      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQRDhReE5VYVVjWXd1dC1keF9YMHowQjZTNnRMcXc3RmN6bVV6cEVJejFrcVhpaEtOWmpsTlMyN1M1Ql82dG1LVGdTNFptcERMY0t4NDJld3dUN1NtalFjLVlYMklPalhJUnZ3NmVMYWJOYlZfajI3SFZfTThzYlBmQlpNb2JpYTR1V1RCSmlDb1NkZVFWU0ZsbGwyTG4tUS15Y3hnN1lxVlEzdk45Qm5YOG5GZ19iNkxqWEZXR0gzeDZTc3FsYVVwRVhqOTNUUXBQcVRwcmYycmlSTlRxOTJNYjhpcDZqWHJGeC1LTUU5RU83OUNxS19iOVRQT1ZpcllyT1BwV3dQaVkxTmFsUU9XdkgwM08?oc=5"
-    },
-    {
-      "date": "2026-11-02",
-      "text": "光伏老兵，将被摘牌…… - 搜狐网",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcHJmWE13MnNTT2VEVWdwdDFMWXJwX1BhX2RFd1BFY1NEMHFZaWxZaS1nVHdVWDRERmFiTGN1TlJmZmFhbm5RY1lwdlBRME5ObnBEdmwtQjlmSEZFVnNfQUxmd1ZwYWptZDd0RTFscU5wZ25XQ05EbWc1VnhYbDJ2MEYydFdNRkhl?oc=5"
-    },
-    {
-      "date": "2026-11-02",
-      "text": "北京公示拟获市政府固定资产投资支持光伏项目清单 - https://www.gdshe.org/",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1pd2pSbndWblBEbkRReGg2ZFJXRnh2ck5DcFhzVmZpcDBQUnV5cnpqeGx0bE91SURxelpycEpYTmFPSElBYjc0bU1jM0VGOVJuWnc?oc=5"
+      "text": "青海油田凯驰光伏电站累计发电量突破15亿千瓦时-政务公开 - 青海省人民政府",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE8yQ19tTzlfemtFNG5ZYWpPakE3VVlKMGVITl95S2NIMWRHSHRLMkR0d3FaeC0yNGl5TVdncjFJeTNJc0Z0ZGF6RG4zbkw0WjFaeUFBa1pVM3N2RjhVMWhPVVlNclBYbVNVRXdkMHZVWmhkUQ?oc=5"
     }
   ],
   "ai_analysis": "",

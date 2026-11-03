@@ -1,68 +1,68 @@
 {
-  "date": "2026-11-02",
-  "hs300": 4016.92,
-  "hs300_chg": 0.79,
-  "med_etf": 0.375,
-  "med_etf_chg": -0.64,
-  "inn_etf": 0.796,
-  "inn_etf_chg": 1.43,
-  "cxo_etf": 0.335,
-  "cxo_etf_chg": 0.3,
-  "tcm_etf": 0.878,
-  "tcm_etf_chg": 1.48,
-  "meddev_etf": 0.434,
-  "meddev_etf_chg": 1.38,
-  "vaccine_etf": 1.95,
-  "vaccine_etf_chg": 2.38,
-  "hsi_health": 23294.42,
+  "date": "2026-11-03",
+  "hs300": 4008.87,
+  "hs300_chg": -0.2,
+  "med_etf": 0.374,
+  "med_etf_chg": 1.34,
+  "inn_etf": 0.794,
+  "inn_etf_chg": -0.63,
+  "cxo_etf": 0.336,
+  "cxo_etf_chg": -0.3,
+  "tcm_etf": 0.891,
+  "tcm_etf_chg": 2.02,
+  "meddev_etf": 0.44,
+  "meddev_etf_chg": 0.45,
+  "vaccine_etf": 1.952,
+  "vaccine_etf_chg": 1.49,
+  "hsi_health": 23393.32,
   "hsi_health_chg": 0.0,
   "hs_inn_etf": 1.155,
-  "hs_inn_etf_chg": 0.0,
-  "tnx": 4.89,
-  "usdcny": 6.648,
-  "excess": -1.43,
-  "north_money": 297761.34,
-  "north_date": "20261102",
+  "hs_inn_etf_chg": -3.64,
+  "tnx": 4.95,
+  "usdcny": 6.6593,
+  "excess": 1.54,
+  "north_money": 275724.25,
+  "north_date": "20261103",
   "news": [
     {
-      "date": "2026-11-02",
-      "text": "从空间到服务 构建优质产业“生态圈” 国际医药创新公园“集聚效应”加速释放 - 北京市人民政府门户网站",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBveWRMUE45bjNzTjhXZjB1eG8yV0d4WW5YWVdBalJrQzZ4Z0JHZkFSR052SlhxUU9HaXJHRHFJcG10MkhVdURObjRUWEZ6ZnNFMENNd2JuVGZpNEhkMUw2V19JdEVqTzBhTjloYWdaSEpNdnpK?oc=5"
+      "date": "2026-11-03",
+      "text": "解析新周期医药投融资机遇，全球资本市场论坛圆满落幕 - 中国医药创新促进会",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBBSzY1Sm1IOFp1WkVldXUtaXY2cTF0aVFFd1o5aENoV20xaHZ6RG4zSERJdlNOanR2RGhGRTFuOERhQzlwRHJLUXFBeTNOeVNpa1dsMjdTUnR6RVdaRGFrZ1BlczZWU25uN2RaWGlMMWZCZlFGMWJXZk9n?oc=5"
     },
     {
-      "date": "2026-11-02",
-      "text": "打通集采药品惠民 \"最后一公里\"，成都又有新动作！ - 人民网－四川频道",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBGd2ttbEhic2NHdGlCQnRMZTNNTTNnZHlqbnF0MnVtVW9ESWZYWVI0aTNOVjRtZUpxMXY4cHc0VDZHNWpSbzEwQUdySkMyVHZoam9oQjdSSHU3ZDJ2Zmx3SkhXZmpsMk1rV2c?oc=5"
+      "date": "2026-11-03",
+      "text": "5家企业被中成药集采“拉黑” - 21财经",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNcmJFOWZsMm1FOERVX3dPLU1FYk1fQ0lhSEY5NkRESzBSWGwwdXk2ZGY4NVU0NXRYVExEZ0NfNlR4V2JqSEpkVFVRU0FPVDFhOWZMbi1aWXF1UDBCRDRTamttRXQzUGJZb05Vd2pDMk42d282c2FRaGRLVlM1dVNZVk9rQWtLd3I4UXJCTUEyWQ?oc=5"
     },
     {
-      "date": "2026-11-02",
-      "text": "方盛制药：关于中药创新药研发项目获得药物临床试验批准通知书的公告 - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA2X1dqSThnb2pQUmZoQ1BJWVRXaXA3UEFhcHRsbDhZYWY4RHR4Wmota3dNcWRtMmZ0SG1mdHdVX0lobk9zeTYyTV8tTHAxY1h3T2VpZDlMS2Zkal9McWRQNG9CaGpMZw?oc=5"
+      "date": "2026-11-03",
+      "text": "华东医药卡维列隆氨丁三醇片体重控制上市申请获受理 研发投入5.07亿元 - 观点网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE43T1BYdkM3bzFXLTY3OWpZMjItQ29oU2JMT0JiZkFUSmVnb2NvTjA3STM2aTFWWmpSbWlXZWRJb2xGQ3RnNUdqTEVVanU4LW5ic2lOYXktcDlNTVNrTkZLV3V3?oc=5"
     },
     {
-      "date": "2026-11-02",
-      "text": "AI赋能医药创新生态论坛| 聚焦AI融合发展的路径、经验与探索 - 中国医药创新促进会",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5CM0FBcTFVZ0J6VWNIeHJjcWJwYVJHR1VJWnppVUdScU1WTTQzZlc3MFFxbU81andwTmJwMVZHQ1dxMERZVkZZdFFxNXktZmI4cXVuRFo3TkE3M0ZtaVdHQ3FLYUk1Z205bUlDNlRHcFNOeldiOXZjYVpR?oc=5"
+      "date": "2026-11-03",
+      "text": "北京同仁堂亮相2026世界传统医药大会 展示百年中医药老字号传承创新成果 - 京报网",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5hcFE2NmxyOEtESTRqUW8xQWRZSGtKNTc0QVU2aFNyajd1M29vVWZDZTBvYVFzYXBrLU0xQWxwQ2tMcnFEWnR4Wlc2WmJhVWNVTHlWVVg1MUY3TGFLVmc?oc=5"
     },
     {
-      "date": "2026-11-02",
-      "text": "北京亦庄创新药迎来集中收获期 - 国际科技创新中心",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORkpfQ0RWdjFJR0Q5R0Fpd2gzOTdHbUdqSG01Ny1OQ2E5N0p3UXlKd1lKT2lXRmN1b3diY0RCQ0VtNEoweEF5TDJHLVNCRUxydXMteVNOeWdvc2JVU1VCbTFVOXRjRW9wOU9GTXp5SUpfWWtROW8zSU81SUtQc054LXhHblc?oc=5"
+      "date": "2026-11-03",
+      "text": "华东医药：子公司卡维列隆氨丁三醇片药品注册上市许可申请获受理 - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0yTE5ST3JSaHJ5MlY5WkJJWE9zanJHaHpYQnVpQjJvQUJob21hbEt5eFlKalBtMGh1YTlJRFNEODg2ZlJoM0ZoamF1eWNXTUVJaEx5TXJQbWVyTXJmU01neQ?oc=5"
     },
     {
-      "date": "2026-11-02",
-      "text": "数智赋能医药 创新引领健康 - 苏州新闻",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5Xc2tlZU5fYjdXVlpuVkJYc0dQWWN5Rm9kRFNfVE1wazZ3dTlSLWFoZFQzQlJhRFhiUU40SHF0WENGWUU0bThDN1RqbUxjUXBvbVRKNjlfSUhqdnRDV2djeWZB?oc=5"
+      "date": "2026-11-03",
+      "text": "湖南省生物医药及医疗器械产业链调研组调研药食同源产业发展 - 新湖南",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBGcEx4eU1MSUpNZFZhLXZnUXRUZWx6cW1kS2F6dE03bFhTNlk5R0RnY2lUQl92aFZNLUtaWHpvYjlGQVRlN2FNUDZmRWtiOURMTi0tTHc3cmNpUWp2akJV?oc=5"
     },
     {
-      "date": "2026-11-02",
-      "text": "两个单项全国第一！苏州工业园区生物医药产业综合竞争力稳居全国前列 - 紫牛新闻",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5WTFY5UkNRa0hiVmFDcXo5NzIzNmUzVWpSQzI5eFRXOWZIX0x3b2ViSDRCODB3ZnE1VmMtZUJaZEswNWNjbVkyTF9QX1ZpYkM3UEktVF9oVDk1dWZHeW9sX1pINEJ0NmxqUFRoT3dIQjJncGk0NmM1Wg?oc=5"
+      "date": "2026-11-03",
+      "text": "开源证券：给予星昊医药买入评级_券商研报_数据解析 - 证券之星",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9QRUlETGZJREpralU3cmJxX0ZyYzBwa1JLeGRLZTYxOWxEd0lUeGx3MUpTZ2pnRU9LdXdsUy02QU1DeU4xR0daSlgyRldPc1JXZ2VLNGFaZGdTREx6TjN2ZGZn?oc=5"
     },
     {
-      "date": "2026-11-02",
-      "text": "生物医药创新与合作交流研讨会在金鸡湖畔举行 - 苏州工业园区管理委员会",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTFlxWGNLT0NURXBsamhObEd5ak1rczMyQk5zR2d3Q0x0YUMweW8tV0ZwbEo4X19IUWN0R3NNVkh1N2dmYlJZLVFtRzEzR1M2SG1uRzdKUnU0N2tYazBDNF9JU0ozOXVRdTlYbHpONGx6eHQ0SWw4cF83T2RISE9JSEREOGRjSG5RQ3c?oc=5"
+      "date": "2026-11-03",
+      "text": "聚焦医药产业赋能，深耕应用型科研育人——安庆医药高等专科学校重点实验室第一期学术论坛顺利举办 - 中国日报网",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1mRGx2WFR2VF9Qc2N3QTVCMF9BOWZudGtaYnF1dExJMzI5bjNzdTAzWi1TZ3NmLVVxTWRRS0FVYmo2QkZWck5wZ3psY1R2NFZ1eF9kNkxJUkhndFV4dVR0aTJZS2JFaEs3Vi1xNzYtSElSYmRhd0t2OWgzSlg?oc=5"
     }
   ],
   "ai_analysis": "",
