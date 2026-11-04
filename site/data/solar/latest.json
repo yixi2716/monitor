@@ -1,89 +1,89 @@
 {
-  "date": "2026-11-03",
-  "hs300": 4008.87,
-  "hs300_chg": -0.2,
-  "solar_etf": 0.695,
-  "solar_etf_chg": 1.02,
-  "newenergy_etf": 1.981,
-  "newenergy_etf_chg": 1.49,
-  "storage_etf": 1.427,
-  "storage_etf_chg": 0.35,
-  "tnx": 4.95,
-  "usdcny": 6.6593,
-  "excess": 1.22,
-  "dd_from_high": 0.4125,
-  "pb_ratio": 0.0714,
-  "turnover_ratio": 1.212,
+  "date": "2026-11-04",
+  "hs300": 4101.34,
+  "hs300_chg": 2.31,
+  "solar_etf": 0.726,
+  "solar_etf_chg": 4.46,
+  "newenergy_etf": 2.053,
+  "newenergy_etf_chg": 3.63,
+  "storage_etf": 1.498,
+  "storage_etf_chg": 4.98,
+  "tnx": 4.9,
+  "usdcny": 6.6633,
+  "excess": 2.15,
+  "dd_from_high": 0.3863,
+  "pb_ratio": 0.0,
+  "turnover_ratio": 1.26,
   "stocks": {
     "tongwei": {
-      "close": 11.48,
-      "chg": 0.88
+      "close": 11.8,
+      "chg": 2.79
     },
     "zhonghuan": {
       "close": 9.38,
       "chg": 0.0
     },
     "junda": {
-      "close": 38.8,
-      "chg": -1.92
+      "close": 39.7,
+      "chg": 2.32
     },
     "longi": {
-      "close": 11.76,
-      "chg": 2.26
+      "close": 12.0,
+      "chg": 2.04
     },
     "flat": {
-      "close": 8.73,
-      "chg": 1.51
+      "close": 8.99,
+      "chg": 2.98
     },
     "jiejia": {
-      "close": 54.04,
-      "chg": 1.31
+      "close": 56.86,
+      "chg": 5.22
     },
     "sungrow": {
-      "close": 75.72,
-      "chg": 5.84
+      "close": 81.17,
+      "chg": 7.2
     }
   },
   "news": [
     {
-      "date": "2026-11-03",
-      "text": "隆基绿能Q3亏损环比收窄 BC组件出货占比已超过六成| 财报解读 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5nMXNNcV91c3Y1dEl3blgxWXhvaWM0WlFJQmo4Yk1QVmhaVDJFQlBwY3UwZzJ0dURkV3o0Unh4OEpUVUY3QmwwTg?oc=5"
+      "date": "2026-11-04",
+      "text": "云南临沧镇康县河边寨光伏项目进入电气安装新阶段 - 国际太阳能光伏网",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE50aUo5bzJ6NjgxRXBkUXIzM29IclNLYXctNFFHNjFPdmdEeVp5RFVwQlgxUzEyMC1ZOWgxRVRNajlfZDBpUXJmQ0FlcTc5SUMwQUtHZmU3Y1RDbTU2?oc=5"
     },
     {
-      "date": "2026-11-03",
-      "text": "实力见真章！爱旭ABC率先通过两项光伏国家强制性标准认证 - 国际太阳能光伏网",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1JZkVBWXdyM2xNb0JwX1pNQ1kxdTk5dFpCRFpsS0F5R2VaODA2MERxTVlhTzA5R1NtakQyUV96R3MxV3lWSUJkMHlDVXdCNDB4c1NKX2l1N3ptUUVu?oc=5"
+      "date": "2026-11-04",
+      "text": "广西这一光伏发电项目累计发电量突破1亿千瓦时 - 广西新闻网",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1tUmNidjJHZU5fV2FXeTUxTHJKT0VJRXF2RGlnQmpic2d1ZVdUdUZIQ1dScUhManhWTWl2Y0MxNHJMN1pxcmUxbGhkYXl6NE9vdlI0ak9xaVFTU1ZXZnZHOEFVc3ZlZ0VnV0J4VkctRmFYLWR0UWZMa1ZZZlNfMWM?oc=5"
     },
     {
-      "date": "2026-11-03",
-      "text": "光伏板块，连续两日拉升 - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1DdmFvZW9UdHVzVV9TaVRaSFR6RDNkSk1SdEwzNzkyQjRrN3B4eURMZ09leWI5eDdDT291MzgwV1E3WHJXV2RHOEFMSFU0Wm9sX1N6bHR5dzg1SE82cHlQUQ?oc=5"
+      "date": "2026-11-04",
+      "text": "美股光伏拉升！IRA补贴预期升温 A股光伏迎多重催化(名单) - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9kam5LMjdaQzNFaVVXRWxwc29kRnFpZEh1cEgzcmo4c2xVcGhaLW9mZFRhMERiRUw4RnFDU0ozYkNFamx1LUxld25TSkVmajIwVFJ4bzFSVFZFSDlrb2dVcQ?oc=5"
     },
     {
-      "date": "2026-11-03",
-      "text": "国晟科技三家光伏子公司临时停产 前三季度归母净亏损1.57亿元 - 观点网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9wLUhac1VkN0pTcVdzeE1aNTR2QlluQ3oxeFRaQzdsNklsOFQxRXNEcVNaS1p5c3Q1M1FyVTB5UXZUd1BLRFdRQWVhSURBMzY2UW5SWUttWGVvVlRKWmRTOXB3?oc=5"
+      "date": "2026-11-04",
+      "text": "法国2026年前三季度部署4.18吉瓦光伏，户用市场萎缩 - pv magazine China",
+      "url": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxNbGVEcnBEMFFJMG9EanZsbmpFaW9tNlByUjJxSEkzR25oc1NtRHFMeTVQbWxVcVo5UFEzZkhUUnZyZkM5dk1UanZ6NHh5OGM1WVk5bkJsY0NkWXpfLW9td3UtYVJlVlR6VUlOaDVPRXE2cWpKV3h5NERHaHFEUWs0SkIxRXQyNUZfY1YwWGhxaTAyVXFRWVhEVU9QbFQ2VkNlSkdxLTJVd3hOQlBqVVBBUGV3RHFCa1d3VVlxX21qMzBFOXdFTW15WnZhRXozcWRPMXdGelB1ejB6QjZpNnZLOHZfUW5OUlBFMVkwT2Z1eEFEdVktWVhMTFJpZFdUU2dHRng2bXdQc2R5aVJxUTdoLVhLcXE1TGtaQ2JtbWpBUnRFcTBxR2RremFITFdXV3VqaU8zcUU1YnVmaXVsU3hJN2EyanI1NE4wTUdqNDNKazVTOFls?oc=5"
     },
     {
-      "date": "2026-11-03",
-      "text": "错峰蓄电+光伏自用！麦田能源T-MAX Plus落地法国这座农场 - 碳索储能网",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5tYm9KdHZmdmpOejZ0dFBsbzliN2ptc3JKSkU0bngwZUdTY3lnSFdTNHpJWXhtel9Qb3FtZ3dhN1BPZzlJeEE3bEVnXzRFMzA0VWE2MlYwNlpid1Qza3djag?oc=5"
+      "date": "2026-11-04",
+      "text": "贝特利(301697.SZ)：公司认为光伏行业目前仍处于产能出清阶段_公司新闻_财经 - 证券之星",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9KZjg3aWlnQ1hLWkZodUE0S09KWGhsOXFtSmdxcV80X3JCQm1jbXBlMEtMcFc2QzdENnh3LThIZk9HQ2oxSk16cV84bTZLMndrOVRjZmpSVjZMcFhNVXlEYg?oc=5"
     },
     {
-      "date": "2026-11-03",
-      "text": "湖北光伏电站监控软件定制 蓝人电力EMS能量管理平台 具备与告警推送功能 - 凤凰网",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4teHNjUmMzbzMwOVBhMW9QaDFqcVlZclhLUS0yTUhHSEt2TkVkN2JLdlpoM29NSlB6UmFDRVpzNjRaUUpEQ19fTVZHd2lnMWM?oc=5"
+      "date": "2026-11-04",
+      "text": "行业首次！61座户用光伏“抱团入市”，创维光伏虚拟电厂激活绿色新动能 - 新华报业网",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9uSUFyc20yb2VSelRUUzVPMDRYc3Z4MG5ONVk2cHRoTTIyU1ZRNzF0X3d5dkotb1lCT3dtTVRRSGtfcUR4cUk3MjNRdlJNbXhtdnJzUmR1ckcxQlZicVVyT0dZd1hWMDBrRzIw?oc=5"
     },
     {
-      "date": "2026-11-03",
-      "text": "600537，连续涨停！光伏板块突现异动，情况正在起变化？ - 21财经",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPd1Y5Q1NZNnZhQVhTOEJNR1dqRXBGWUg1UFNKVWNLZFk3bjc2aWdWSUlvSjNEZ204enotNHpNU0thVzhocW9EcGZ4OXYwd2htMWxHcmJqbHRoVmFCbGljQUVhaFhnaXFoc3ZSNU94UWluT3dwbzFKSEJpT0wwVF9uM1BMaHV4Zkk4MVBseFJJYw?oc=5"
+      "date": "2026-11-04",
+      "text": "广州地铁6处维修基地将建光伏电站，每年可发2383万度绿电 - 广州日报新花城",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNcGVoN0RZWU1ldWY0R2ozWkg3MHk5WjlQbDI2ek1fU2ZsWFJHM1dtZlVoNFVFVDlEaFoxQUNvTzd2emtsS0V5Q3ZBSUxPbFRsbU9wV0F2anFhUzNNTEYxQmg3MmVneDJtaWszZHRqNXYzdzFVZmRjRFdoX2Q0cDllRWZGUVprWUVOUWc?oc=5"
     },
     {
-      "date": "2026-11-02",
-      "text": "青海油田凯驰光伏电站累计发电量突破15亿千瓦时-政务公开 - 青海省人民政府",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE8yQ19tTzlfemtFNG5ZYWpPakE3VVlKMGVITl95S2NIMWRHSHRLMkR0d3FaeC0yNGl5TVdncjFJeTNJc0Z0ZGF6RG4zbkw0WjFaeUFBa1pVM3N2RjhVMWhPVVlNclBYbVNVRXdkMHZVWmhkUQ?oc=5"
+      "date": "2026-11-04",
+      "text": "光伏设备板块异动走高 首航新能涨停 - 观点网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAwZWhSbDFZZ1AyRmpDZEM5ZzV1bF9feU9Qdk9VTExpZERCaXBtTmdwV1U5aXcyZGhmYXY2YkNfeUdjVkUySkRKYjhQZ21sSFhQUmd6NXNFTlh6azViN0plWUxR?oc=5"
     }
   ],
   "ai_analysis": "",

@@ -1,68 +1,68 @@
 {
-  "date": "2026-11-03",
-  "hs300": 4008.87,
-  "hs300_chg": -0.2,
-  "med_etf": 0.374,
-  "med_etf_chg": 1.34,
-  "inn_etf": 0.794,
-  "inn_etf_chg": -0.63,
-  "cxo_etf": 0.336,
-  "cxo_etf_chg": -0.3,
-  "tcm_etf": 0.891,
-  "tcm_etf_chg": 2.02,
-  "meddev_etf": 0.44,
-  "meddev_etf_chg": 0.45,
-  "vaccine_etf": 1.952,
-  "vaccine_etf_chg": 1.49,
-  "hsi_health": 23393.32,
+  "date": "2026-11-04",
+  "hs300": 4101.33,
+  "hs300_chg": 2.31,
+  "med_etf": 0.379,
+  "med_etf_chg": 2.64,
+  "inn_etf": 0.789,
+  "inn_etf_chg": 5.32,
+  "cxo_etf": 0.335,
+  "cxo_etf_chg": 3.58,
+  "tcm_etf": 0.909,
+  "tcm_etf_chg": 0.0,
+  "meddev_etf": 0.442,
+  "meddev_etf_chg": 0.68,
+  "vaccine_etf": 1.981,
+  "vaccine_etf_chg": 3.63,
+  "hsi_health": 23525.97,
   "hsi_health_chg": 0.0,
-  "hs_inn_etf": 1.155,
-  "hs_inn_etf_chg": -3.64,
-  "tnx": 4.95,
-  "usdcny": 6.6593,
-  "excess": 1.54,
-  "north_money": 275724.25,
-  "north_date": "20261103",
+  "hs_inn_etf": 1.113,
+  "hs_inn_etf_chg": 9.25,
+  "tnx": 4.9,
+  "usdcny": 6.6633,
+  "excess": 0.33,
+  "north_money": 339181.36,
+  "north_date": "20261104",
   "news": [
     {
-      "date": "2026-11-03",
-      "text": "解析新周期医药投融资机遇，全球资本市场论坛圆满落幕 - 中国医药创新促进会",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBBSzY1Sm1IOFp1WkVldXUtaXY2cTF0aVFFd1o5aENoV20xaHZ6RG4zSERJdlNOanR2RGhGRTFuOERhQzlwRHJLUXFBeTNOeVNpa1dsMjdTUnR6RVdaRGFrZ1BlczZWU25uN2RaWGlMMWZCZlFGMWJXZk9n?oc=5"
+      "date": "2026-11-04",
+      "text": "中国创新药全球化下一站，为何是欧洲？|科创观察员 - 上观新闻",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBYU0MyN0x0dE9ObS1KLWlNOGkzQ3N6THYxVE0xM0tGdDlSOFRSLUhYajQ0aGdCMURMbFhkd0RnQm1Hbi1GTXFTdFd6Y0tDR2tWLXJnLWZycTMyQQ?oc=5"
     },
     {
-      "date": "2026-11-03",
-      "text": "5家企业被中成药集采“拉黑” - 21财经",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNcmJFOWZsMm1FOERVX3dPLU1FYk1fQ0lhSEY5NkRESzBSWGwwdXk2ZGY4NVU0NXRYVExEZ0NfNlR4V2JqSEpkVFVRU0FPVDFhOWZMbi1aWXF1UDBCRDRTamttRXQzUGJZb05Vd2pDMk42d282c2FRaGRLVlM1dVNZVk9rQWtLd3I4UXJCTUEyWQ?oc=5"
+      "date": "2026-11-04",
+      "text": "专家共论络病理论创新价值 探索中医药高质量发展路径 - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE02aDM2WDY5SjkzbjFxVjZRX2tzb0hQMjFCbnJlc2lQM041d09FMmwzSlpDRmhqR3lVSFMzTVJ5aTRrSVhQcTUwY2Y4TnR6Z3c0ZHRucmVaNTljYVV2UHRRLUo4UHRjb0diOUJFZFByQW1GNjI0bDdCY1RySHRlek0?oc=5"
     },
     {
-      "date": "2026-11-03",
-      "text": "华东医药卡维列隆氨丁三醇片体重控制上市申请获受理 研发投入5.07亿元 - 观点网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE43T1BYdkM3bzFXLTY3OWpZMjItQ29oU2JMT0JiZkFUSmVnb2NvTjA3STM2aTFWWmpSbWlXZWRJb2xGQ3RnNUdqTEVVanU4LW5ic2lOYXktcDlNTVNrTkZLV3V3?oc=5"
+      "date": "2026-11-04",
+      "text": "第十一届驻华使节中医药健康日·三里屯国际周在京举办 - 中国科技网",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE02dEFQOWk3T0U2UUY1Q1VCM2tMMjEwcS1lQkZPWVExMm5KcFI3VWVDWXlGWVVCU1Q4aE1YejFVVnJPcU5RNE5aOE1KMmdHaWpyX240ZXItUWZhb2JKLVhFZmdTRWM4YVVOS2EzSE00WUk?oc=5"
     },
     {
-      "date": "2026-11-03",
-      "text": "北京同仁堂亮相2026世界传统医药大会 展示百年中医药老字号传承创新成果 - 京报网",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5hcFE2NmxyOEtESTRqUW8xQWRZSGtKNTc0QVU2aFNyajd1M29vVWZDZTBvYVFzYXBrLU0xQWxwQ2tMcnFEWnR4Wlc2WmJhVWNVTHlWVVg1MUY3TGFLVmc?oc=5"
+      "date": "2026-11-04",
+      "text": "与上海共成长 为创新筑通途 镁信健康助力生物医药创新成果加速落地 - 新华网客户端",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMzZQOG1uQjhfOUx4SzY3Y1p4c1RXX0x4X21qeWplaThOQmhhN0M4ODhydk5IbmpBUWhsWElNV09QSG9OUmVKRmlEYnNISVNJQ08tVG1Ob3REUWt3djU1X0JfSUVPcm5DZHRWdzhtVGFob1JWZldiU0ZOUl9sOVU5akZvTXctcU80Y3lkNFZFS0JoT2xpVXdudVJn?oc=5"
     },
     {
-      "date": "2026-11-03",
-      "text": "华东医药：子公司卡维列隆氨丁三醇片药品注册上市许可申请获受理 - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0yTE5ST3JSaHJ5MlY5WkJJWE9zanJHaHpYQnVpQjJvQUJob21hbEt5eFlKalBtMGh1YTlJRFNEODg2ZlJoM0ZoamF1eWNXTUVJaEx5TXJQbWVyTXJmU01neQ?oc=5"
+      "date": "2026-11-04",
+      "text": "创新药盈利修复叠加CXO订单充足，医药板块高景气趋势明确，港股通创新药ETF易方达（159316）标的指数涨近7% - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBQSE4zRm1Zczd2UTBRNk41QkxKZGVudlpHbjVDQm9sWEU3VUI2ODZHM3UzaF9pbi10aWJaUUVyQlZpeHRlYnlnOA?oc=5"
     },
     {
-      "date": "2026-11-03",
-      "text": "湖南省生物医药及医疗器械产业链调研组调研药食同源产业发展 - 新湖南",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBGcEx4eU1MSUpNZFZhLXZnUXRUZWx6cW1kS2F6dE03bFhTNlk5R0RnY2lUQl92aFZNLUtaWHpvYjlGQVRlN2FNUDZmRWtiOURMTi0tTHc3cmNpUWp2akJV?oc=5"
+      "date": "2026-11-04",
+      "text": "逛街顺便把个脉 “中医药养生局”开进东城商圈 - 北京市人民政府门户网站",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE90d0NxdEkteVVBNmxlVk16SS1HS0NaYTd6VDUwUDdXdG1pYi1oLU9UV1dJSDA4NVBtNG44dHpPdm5QcEVhTDJCM1VaMGVNUEE2bnRZMXViZEkyUldfR25SalA4aXdkY0FKTGpoRkcwcnd4YnBT?oc=5"
     },
     {
-      "date": "2026-11-03",
-      "text": "开源证券：给予星昊医药买入评级_券商研报_数据解析 - 证券之星",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9QRUlETGZJREpralU3cmJxX0ZyYzBwa1JLeGRLZTYxOWxEd0lUeGx3MUpTZ2pnRU9LdXdsUy02QU1DeU4xR0daSlgyRldPc1JXZ2VLNGFaZGdTREx6TjN2ZGZn?oc=5"
+      "date": "2026-11-04",
+      "text": "中国—东盟区域医药交易（集采）平台搭供需桥梁 为中外药企拓海外合作通道 - 中国新闻网",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1JVm56OEZCTW9qc0tHTzlmX2RhYnNITW1sVXRfLUZtRlhFNHRMcXlZMjhLeG0zWnc1a29lU01YQW90eGtobDN6OGdVU3c3VzN3R3plV3hodXdkaFlTNl9MV1p2RDNtem5FQzdINGtaN0paREx6emRDZ2U0b1Zidw?oc=5"
     },
     {
-      "date": "2026-11-03",
-      "text": "聚焦医药产业赋能，深耕应用型科研育人——安庆医药高等专科学校重点实验室第一期学术论坛顺利举办 - 中国日报网",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1mRGx2WFR2VF9Qc2N3QTVCMF9BOWZudGtaYnF1dExJMzI5bjNzdTAzWi1TZ3NmLVVxTWRRS0FVYmo2QkZWck5wZ3psY1R2NFZ1eF9kNkxJUkhndFV4dVR0aTJZS2JFaEs3Vi1xNzYtSElSYmRhd0t2OWgzSlg?oc=5"
+      "date": "2026-11-04",
+      "text": "中国在研创新药占全球33.7%，超过美国| 《财经》客户端 - www.mycaijing.com",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5OWWNaQjBnMVJPV20zMGN5akFjMUdqUDVUODN4MmNMWVNDWmRGTS1FaUNaTU93dDhtOU4wbGRLZjhUY1N4T0ZUa3djTEdSYWRzRTdoazBDMGxrRDRhd1hreHdmMnFtNXJYV1ZIeA?oc=5"
     }
   ],
   "ai_analysis": "",

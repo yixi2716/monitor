@@ -1,57 +1,57 @@
 {
-  "date": "2026-11-03",
-  "copper": 6.398,
-  "copper_chg": -2.208635842567841,
-  "ma20": 6.5867,
-  "ma50": 6.625410000000001,
-  "dxy": 101.82,
-  "vix": 20.770000457763672,
-  "tnx": 4.953999996185303,
-  "wti": 95.71,
-  "cu_oil_ratio": 147.3739291610072,
-  "shfe_cu": 106090.0,
-  "shfe_cu_date": "2026-11-03",
-  "shfe_lme_ratio": 1.045,
+  "date": "2026-11-04",
+  "copper": 6.445,
+  "copper_chg": 0.49898643380632546,
+  "ma20": 6.577625,
+  "ma50": 6.622660000000001,
+  "dxy": 101.44,
+  "vix": 17.139999389648438,
+  "tnx": 4.900000095367432,
+  "wti": 87.85,
+  "cu_oil_ratio": 161.73905406943655,
+  "shfe_cu": 106170.0,
+  "shfe_cu_date": "2026-11-04",
+  "shfe_lme_ratio": 1.038,
   "lme_stock": 296625,
   "lme_stock_date": "2026-07-17",
-  "shfe_stock": 9450,
-  "shfe_stock_chg": -1150,
-  "shfe_stock_date": "2026-11-03",
-  "lymy": 13.41,
-  "lymy_chg": 0.68,
-  "tl": 4.79,
-  "tl_chg": 0.21,
-  "jxt": 31.35,
-  "jxt_chg": -1.85,
-  "cper": 38.49,
-  "cper_chg": -2.24,
-  "copx": 71.86,
-  "copx_chg": -1.35,
+  "shfe_stock": 7845,
+  "shfe_stock_chg": -1605,
+  "shfe_stock_date": "2026-11-04",
+  "lymy": 13.9,
+  "lymy_chg": 3.65,
+  "tl": 4.97,
+  "tl_chg": 3.76,
+  "jxt": 33.4,
+  "jxt_chg": 6.54,
+  "cper": 38.79,
+  "cper_chg": 0.73,
+  "copx": 74.7,
+  "copx_chg": 4.17,
   "signals": [
     {
       "name": "铜价低于MA20",
       "dir": "bear",
-      "text": "$6.40 < MA20 $6.59"
+      "text": "$6.45 < MA20 $6.58"
     },
     {
       "name": "美元中性",
       "dir": "neutral",
-      "text": "DXY 101.82"
+      "text": "DXY 101.44"
     },
     {
       "name": "风险偏好正常",
       "dir": "neutral",
-      "text": "VIX 20.8"
+      "text": "VIX 17.1"
     },
     {
       "name": "铜油比偏高",
       "dir": "bull",
-      "text": "铜油比 147.4，工业景气预期强"
+      "text": "铜油比 161.7，工业景气预期强"
     },
     {
       "name": "利率环境友好",
       "dir": "bull",
-      "text": "10Y 4.95%"
+      "text": "10Y 4.90%"
     }
   ],
   "score": 1,
@@ -63,28 +63,28 @@
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaHV3LThGSVpqMmM1NDBRbmV2OEdFZEFLaGxmaTdTSWl6Qy1TUHE5S1NvMzJzVmZidnJJdEQyNm1iSjRMdjNPam84N1hYY29jUE9rUkJjT19JREZKdlRIbUdEMlFHRVhRclJHNnR0WUNHejdGRDIwVnpwNXNPdEUwTW80d3lLRUlQ?oc=5"
     },
     {
+      "date": "2026-10-29",
+      "text": "US copper cathode imports hit record as arbitrage closes",
+      "src": "Kpler",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOM01iVVU4ang3ZW1ZaW9kVkUwUW5IbnZ6c2pUV05yLXNFYV9vQTl5OFdrd0NvZGJKZklRcTBqaFdJTTgtdWJySnViMUItbS1nNDg4eWdzaVAxR2VFMnY1bzRhMlRFcFRDTzhlN1c4ekhuVkZhUkhjVHRVNXJKbDJHcW5faGNuVjNpVVJQWjdoeGstREE4dHJWckEzV3FKdjJRNE01WGdDcXl1Zw?oc=5"
+    },
+    {
       "date": "2026-10-30",
       "text": "US copper stockpiles and hidden tightness: supply risk lens for mine planners",
       "src": "Geomechanics.io",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMURyX2RyMzJfU0VTYVZLLVpTX29sMGpmMjdkbUNBVEJTdWtNdXVqclVBNF9hQXctWXNBb3RYVjgwcVpJWlZaZjJiU1VySU5fbVVBVUo1eGNrbXdqVDVEb0ZFQ3Q5LTlubTVSR0RwU2pYZG5VWEZTMThhZGtwU3B3U1g2SEZNX2cyaUU4VUVOZld5eXRrRnVZTUt6emtLNzhES3dRTlNSRjZqdTU5S29LeHZudFU1emhN?oc=5"
     },
     {
-      "date": "2026-11-03",
-      "text": "Five Metals Producers Trade Higher as Gold, Silver and Copper Futures Pull Back",
-      "src": "TradingView",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPUkJVWWg1WUdXdkxxUjRRam41T1NFSFpwRXh2bk9KNmRtTk1zZVhnZ1luOTJlbGhwdy0yTERfc3pSWW02VEdkZnZZYUtRbTJ5WjBRVkFVZ09VNmNiOVU3NzU5eTU0NTJsZlY5UmJSTzc0M244eWVNZlA2d3h5SjBIMWQza3JFS3lRd3d3SUNSUDlvTGFNanJXZmh3UUV4ZHVLSDZLY1ExX0tRT1BITTBjMElrQUtQRENRenU0MDVQWHcxTkh4aEVhanhyT3ktR3BRUm5JWkd3?oc=5"
+      "date": "2026-10-30",
+      "text": "Critical Minerals Co.'s Survey Outlines 3-4 km Chargeability Anomaly at Max Copper-Gold Target",
+      "src": "Streetwise Reports",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNU1AweC0wU3pvaXE3MHdqczV0NTEtenUxb04zSmZXVVBLSXZMdmJDRHljSzM3b0pqRzI4R1o4cThJMVRWaXJTVXpqejJOMml2bVFFblJHUGt0SjVIQmpWX0dpRW5pZ2VnTG83c2V1UjlFeUE1Skx6VjhDWk00OGpORUhTQllSZTNRbmVQaDkxQ0dhMWhITXF1YTZLcFp1Q3UzR0hUR25uZzZHOG9tdFpIX2VrU1lkUmFobmVpOUVjZkFqU2VvTFV5NGp5a3lJRHp3VHVPQndQcWc5c3BTUTV5WUkzOXJJZw?oc=5"
     },
     {
       "date": "2026-10-31",
       "text": "With abundant supply, why is copper still experiencing a price surge?",
       "src": "Vietnam.vn",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1OdVRNYXRVTVpBSS1lQnV4WmUtWVk5aVFDR3VkOHhTcEV0cU91VURmUEFpUmsteHozS1dZZU84MWdJWjFpTGhvYzZpTEFxZUI5a1AzZ1hhZi1OMlVMMVF1UHptcTJXYWxJOHpTSFFIaGMwRTdxVjY0?oc=5"
-    },
-    {
-      "date": "2026-11-01",
-      "text": "Silver’s Critical Mineral Label Created No Stockpile or Price Floor",
-      "src": "Discovery Alert",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQUUVuNERJa2tZdTZSUmw4UElwSDlVY3gxM0dUMEJMemU1VWVkc3pVN1JucHdSUWFDRkRGVnpURDY3dUY0WnYwbHEwMkFFLWF0YkMyQmdySlJiLXJ3WDhZVm5OSWN0T2RUX3lJb2lGQzd5Q0tkY0VxR0ZFY1NiRU5QbU9aYm5PS2ZBaHp2ekdsa2pXNFBsaU1RYXhTWWE?oc=5"
     },
     {
       "date": "2026-11-02",
@@ -95,5 +95,5 @@
   ],
   "ai_analysis": "",
   "ai_error": "未自动生成，点击按钮手动生成",
-  "ai_date": "2026-11-03"
+  "ai_date": "2026-11-04"
 }
