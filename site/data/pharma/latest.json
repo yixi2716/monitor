@@ -1,68 +1,68 @@
 {
-  "date": "2026-11-04",
-  "hs300": 4101.33,
-  "hs300_chg": 2.31,
-  "med_etf": 0.379,
-  "med_etf_chg": 2.64,
-  "inn_etf": 0.789,
-  "inn_etf_chg": 5.32,
-  "cxo_etf": 0.335,
-  "cxo_etf_chg": 3.58,
+  "date": "2026-11-05",
+  "hs300": 4113.41,
+  "hs300_chg": 0.29,
+  "med_etf": 0.389,
+  "med_etf_chg": 2.31,
+  "inn_etf": 0.831,
+  "inn_etf_chg": 2.41,
+  "cxo_etf": 0.347,
+  "cxo_etf_chg": 2.88,
   "tcm_etf": 0.909,
-  "tcm_etf_chg": 0.0,
-  "meddev_etf": 0.442,
-  "meddev_etf_chg": 0.68,
-  "vaccine_etf": 1.981,
-  "vaccine_etf_chg": 3.63,
-  "hsi_health": 23525.97,
+  "tcm_etf_chg": 0.77,
+  "meddev_etf": 0.445,
+  "meddev_etf_chg": 2.47,
+  "vaccine_etf": 2.053,
+  "vaccine_etf_chg": 4.29,
+  "hsi_health": 23919.5,
   "hsi_health_chg": 0.0,
-  "hs_inn_etf": 1.113,
-  "hs_inn_etf_chg": 9.25,
-  "tnx": 4.9,
-  "usdcny": 6.6633,
-  "excess": 0.33,
-  "north_money": 339181.36,
-  "north_date": "20261104",
+  "hs_inn_etf": 1.216,
+  "hs_inn_etf_chg": 3.87,
+  "tnx": 4.84,
+  "usdcny": 6.6574,
+  "excess": 2.02,
+  "north_money": 320163.82,
+  "north_date": "20261105",
   "news": [
     {
-      "date": "2026-11-04",
-      "text": "中国创新药全球化下一站，为何是欧洲？|科创观察员 - 上观新闻",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBYU0MyN0x0dE9ObS1KLWlNOGkzQ3N6THYxVE0xM0tGdDlSOFRSLUhYajQ0aGdCMURMbFhkd0RnQm1Hbi1GTXFTdFd6Y0tDR2tWLXJnLWZycTMyQQ?oc=5"
+      "date": "2026-11-05",
+      "text": "国际医药企业联盟协会到访最高人民法院知识产权法庭 - 最高人民法院知识产权法庭",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE01UXM1ZHAxU3lpOUNOendRM240ZnJxN3JCV2dkRDF1V05oby1BcUloMTZ1M05weENQV0pNQm1mRjA0enNXZ29UZVBEc2c5OTFLR042M0J6amRGcDF1Zmw0?oc=5"
+    },
+    {
+      "date": "2026-11-05",
+      "text": "上海生物医药企业国际化发展协会首届会员大会在闵行华漕镇召开2026-11-05 - 上海市人民政府",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPUkdrT0twZUJfSmpybVA0X0pPM1NOSWNQNjRUTk1lSFFjcmlIT1ZfYlVmQ0o1TnBlQWI5TGIzSVp0R1NmR0ZzT0tVY0dsZDZZTkNhZS1fVUxJejhTOVNEWTBUUzh3eEExTDBnc0lpUHYzbDVBbDhaOEJpakJWTFllZEUza01lOHRucHc?oc=5"
+    },
+    {
+      "date": "2026-11-05",
+      "text": "居民医保参保人数连续七年下降？国家医保局权威回应 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1jNWpqbnJYckFKR0ZYZFZ4Xzk1aWxmeEIxVWhfTDVHeHVoUXZwcTFudmUwMHFtc293a1JmQ25jZTBQZUx4WVdSRmxiVnl4RFFKbUc0WXVDMXpJLWo2UHRkU1FfY2NiMHJGeHBFbGZXV3VQdw?oc=5"
+    },
+    {
+      "date": "2026-11-05",
+      "text": "摩熵医药年终大促限时开启｜新客5折、买1年用14个月、套餐立省3万 - 摩熵医药",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9OdzlTU0Nrbm9ETGZpVi1VTHpsYXJzSDUzX2pKMVRMaVM5eVBWQmI4T3M5VWI2NVBsVDduNzR5UldQMm9jRTJyWmUxM240ZjM4WnFRalRRbw?oc=5"
+    },
+    {
+      "date": "2026-11-05",
+      "text": "聚力医产深度协同 激活医药健康新质生产力｜通州区医产协同创新培训交流会成功举办 - 国际科技创新中心",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5hcHlKWXI2Zlk0X056QVdmbzJnbjBtSGhxXzZlbXVOcS12dm1BcVZTMzN6dnBtOHR1aVpqWUtPeEtYOTJ1WFMyUTJMTURuVzZXU0VBczZNUUxveHdfNE5jNy1Pa3p0dUp3ZFNxRmVWQWc0TlhxNUhB?oc=5"
+    },
+    {
+      "date": "2026-11-05",
+      "text": "政策边界清晰，创新药产业成长空间如何看？ - 手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5IRlZzd1Rjb1lqY1ZocVBmei1MN29TbEg1cWtMT1BnTnlJaV9fVXp1WW9MajJkTFZGbmhkT3hOS2VkempIejNRLWhQa1RPUWEyYndVdDR4YW1MNzk2dFhNNE5KYWthS1VwalRCSERWdUFhdw?oc=5"
+    },
+    {
+      "date": "2026-11-05",
+      "text": "校企携手促转化！首都医科大学与百洋医药集团举行座谈交流会-首医要闻 - 首都医科大学",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9wWF9JVkxfWWkwTXJuNzNxS21hdGkwSVIyN0pueGh0ZHM0U090Z3ZxeVh2ak5LNGY1VFo0NEI3cmdRbzduV0N4b2llS3puRGlDYXZqbHZBSEtjZVFzaHpxNUtLbmVpY1dfX2dtRkdEZkRvUG5kb09GQld0emo?oc=5"
     },
     {
       "date": "2026-11-04",
-      "text": "专家共论络病理论创新价值 探索中医药高质量发展路径 - 新华网",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE02aDM2WDY5SjkzbjFxVjZRX2tzb0hQMjFCbnJlc2lQM041d09FMmwzSlpDRmhqR3lVSFMzTVJ5aTRrSVhQcTUwY2Y4TnR6Z3c0ZHRucmVaNTljYVV2UHRRLUo4UHRjb0diOUJFZFByQW1GNjI0bDdCY1RySHRlek0?oc=5"
-    },
-    {
-      "date": "2026-11-04",
-      "text": "第十一届驻华使节中医药健康日·三里屯国际周在京举办 - 中国科技网",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE02dEFQOWk3T0U2UUY1Q1VCM2tMMjEwcS1lQkZPWVExMm5KcFI3VWVDWXlGWVVCU1Q4aE1YejFVVnJPcU5RNE5aOE1KMmdHaWpyX240ZXItUWZhb2JKLVhFZmdTRWM4YVVOS2EzSE00WUk?oc=5"
-    },
-    {
-      "date": "2026-11-04",
-      "text": "与上海共成长 为创新筑通途 镁信健康助力生物医药创新成果加速落地 - 新华网客户端",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMzZQOG1uQjhfOUx4SzY3Y1p4c1RXX0x4X21qeWplaThOQmhhN0M4ODhydk5IbmpBUWhsWElNV09QSG9OUmVKRmlEYnNISVNJQ08tVG1Ob3REUWt3djU1X0JfSUVPcm5DZHRWdzhtVGFob1JWZldiU0ZOUl9sOVU5akZvTXctcU80Y3lkNFZFS0JoT2xpVXdudVJn?oc=5"
-    },
-    {
-      "date": "2026-11-04",
-      "text": "创新药盈利修复叠加CXO订单充足，医药板块高景气趋势明确，港股通创新药ETF易方达（159316）标的指数涨近7% - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBQSE4zRm1Zczd2UTBRNk41QkxKZGVudlpHbjVDQm9sWEU3VUI2ODZHM3UzaF9pbi10aWJaUUVyQlZpeHRlYnlnOA?oc=5"
-    },
-    {
-      "date": "2026-11-04",
-      "text": "逛街顺便把个脉 “中医药养生局”开进东城商圈 - 北京市人民政府门户网站",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE90d0NxdEkteVVBNmxlVk16SS1HS0NaYTd6VDUwUDdXdG1pYi1oLU9UV1dJSDA4NVBtNG44dHpPdm5QcEVhTDJCM1VaMGVNUEE2bnRZMXViZEkyUldfR25SalA4aXdkY0FKTGpoRkcwcnd4YnBT?oc=5"
-    },
-    {
-      "date": "2026-11-04",
-      "text": "中国—东盟区域医药交易（集采）平台搭供需桥梁 为中外药企拓海外合作通道 - 中国新闻网",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1JVm56OEZCTW9qc0tHTzlmX2RhYnNITW1sVXRfLUZtRlhFNHRMcXlZMjhLeG0zWnc1a29lU01YQW90eGtobDN6OGdVU3c3VzN3R3plV3hodXdkaFlTNl9MV1p2RDNtem5FQzdINGtaN0paREx6emRDZ2U0b1Zidw?oc=5"
-    },
-    {
-      "date": "2026-11-04",
-      "text": "中国在研创新药占全球33.7%，超过美国| 《财经》客户端 - www.mycaijing.com",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5OWWNaQjBnMVJPV20zMGN5akFjMUdqUDVUODN4MmNMWVNDWmRGTS1FaUNaTU93dDhtOU4wbGRLZjhUY1N4T0ZUa3djTEdSYWRzRTdoazBDMGxrRDRhd1hreHdmMnFtNXJYV1ZIeA?oc=5"
+      "text": "深瞳丨AI主导设计的创新药何时上市 - 中国科技网",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE05UndzQlZJcjdwa3g2ck5SQW05QlJydFZScUNPZl8zeGpBUko2d3V4R0RBQldHemQ1c3NHaXlmZGZWNnRKeUlvUXRtUXNYdDhUZXFOTHJXbGNGNzlfUGJnbzVId2p4b0ZseHFLanVDOFo?oc=5"
     }
   ],
   "ai_analysis": "",

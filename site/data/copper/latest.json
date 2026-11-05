@@ -1,72 +1,66 @@
 {
-  "date": "2026-11-04",
-  "copper": 6.445,
-  "copper_chg": 0.49898643380632546,
-  "ma20": 6.577625,
-  "ma50": 6.622660000000001,
-  "dxy": 101.44,
-  "vix": 17.139999389648438,
-  "tnx": 4.900000095367432,
-  "wti": 87.85,
-  "cu_oil_ratio": 161.73905406943655,
-  "shfe_cu": 106170.0,
-  "shfe_cu_date": "2026-11-04",
-  "shfe_lme_ratio": 1.038,
+  "date": "2026-11-05",
+  "copper": 6.285,
+  "copper_chg": -1.9653720168460342,
+  "ma20": 6.5626500000000005,
+  "ma50": 6.6138400000000015,
+  "dxy": 101.43,
+  "vix": 24.8799991607666,
+  "tnx": 4.833000183105469,
+  "wti": 90.49,
+  "cu_oil_ratio": 153.12229749143552,
+  "shfe_cu": 106410.0,
+  "shfe_cu_date": "2026-11-05",
+  "shfe_lme_ratio": 1.067,
   "lme_stock": 296625,
   "lme_stock_date": "2026-07-17",
-  "shfe_stock": 7845,
-  "shfe_stock_chg": -1605,
-  "shfe_stock_date": "2026-11-04",
+  "shfe_stock": 6574,
+  "shfe_stock_chg": -1271,
+  "shfe_stock_date": "2026-11-05",
   "lymy": 13.9,
-  "lymy_chg": 3.65,
+  "lymy_chg": 0.0,
   "tl": 4.97,
-  "tl_chg": 3.76,
+  "tl_chg": 0.0,
   "jxt": 33.4,
-  "jxt_chg": 6.54,
-  "cper": 38.79,
-  "cper_chg": 0.73,
-  "copx": 74.7,
-  "copx_chg": 4.17,
+  "jxt_chg": 0.0,
+  "cper": 37.76,
+  "cper_chg": -2.14,
+  "copx": 70.65,
+  "copx_chg": -5.24,
   "signals": [
     {
       "name": "铜价低于MA20",
       "dir": "bear",
-      "text": "$6.45 < MA20 $6.58"
+      "text": "$6.29 < MA20 $6.56"
     },
     {
       "name": "美元中性",
       "dir": "neutral",
-      "text": "DXY 101.44"
+      "text": "DXY 101.43"
     },
     {
       "name": "风险偏好正常",
       "dir": "neutral",
-      "text": "VIX 17.1"
+      "text": "VIX 24.9"
     },
     {
       "name": "铜油比偏高",
       "dir": "bull",
-      "text": "铜油比 161.7，工业景气预期强"
+      "text": "铜油比 153.1，工业景气预期强"
     },
     {
       "name": "利率环境友好",
       "dir": "bull",
-      "text": "10Y 4.90%"
+      "text": "10Y 4.83%"
     }
   ],
   "score": 1,
   "news": [
     {
-      "date": "2026-10-29",
-      "text": "US copper stockpiles conceal growing global supply crunch",
-      "src": "Mining.com",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaHV3LThGSVpqMmM1NDBRbmV2OEdFZEFLaGxmaTdTSWl6Qy1TUHE5S1NvMzJzVmZidnJJdEQyNm1iSjRMdjNPam84N1hYY29jUE9rUkJjT19JREZKdlRIbUdEMlFHRVhRclJHNnR0WUNHejdGRDIwVnpwNXNPdEUwTW80d3lLRUlQ?oc=5"
-    },
-    {
-      "date": "2026-10-29",
-      "text": "US copper cathode imports hit record as arbitrage closes",
-      "src": "Kpler",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOM01iVVU4ang3ZW1ZaW9kVkUwUW5IbnZ6c2pUV05yLXNFYV9vQTl5OFdrd0NvZGJKZklRcTBqaFdJTTgtdWJySnViMUItbS1nNDg4eWdzaVAxR2VFMnY1bzRhMlRFcFRDTzhlN1c4ekhuVkZhUkhjVHRVNXJKbDJHcW5faGNuVjNpVVJQWjdoeGstREE4dHJWckEzV3FKdjJRNE01WGdDcXl1Zw?oc=5"
+      "date": "2026-10-30",
+      "text": "Critical Minerals Co.'s Survey Outlines 3-4 km Chargeability Anomaly at Max Copper-Gold Target",
+      "src": "Streetwise Reports",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNU1AweC0wU3pvaXE3MHdqczV0NTEtenUxb04zSmZXVVBLSXZMdmJDRHljSzM3b0pqRzI4R1o4cThJMVRWaXJTVXpqejJOMml2bVFFblJHUGt0SjVIQmpWX0dpRW5pZ2VnTG83c2V1UjlFeUE1Skx6VjhDWk00OGpORUhTQllSZTNRbmVQaDkxQ0dhMWhITXF1YTZLcFp1Q3UzR0hUR25uZzZHOG9tdFpIX2VrU1lkUmFobmVpOUVjZkFqU2VvTFV5NGp5a3lJRHp3VHVPQndQcWc5c3BTUTV5WUkzOXJJZw?oc=5"
     },
     {
       "date": "2026-10-30",
@@ -75,25 +69,31 @@
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMURyX2RyMzJfU0VTYVZLLVpTX29sMGpmMjdkbUNBVEJTdWtNdXVqclVBNF9hQXctWXNBb3RYVjgwcVpJWlZaZjJiU1VySU5fbVVBVUo1eGNrbXdqVDVEb0ZFQ3Q5LTlubTVSR0RwU2pYZG5VWEZTMThhZGtwU3B3U1g2SEZNX2cyaUU4VUVOZld5eXRrRnVZTUt6emtLNzhES3dRTlNSRjZqdTU5S29LeHZudFU1emhN?oc=5"
     },
     {
-      "date": "2026-10-30",
-      "text": "Critical Minerals Co.'s Survey Outlines 3-4 km Chargeability Anomaly at Max Copper-Gold Target",
-      "src": "Streetwise Reports",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNU1AweC0wU3pvaXE3MHdqczV0NTEtenUxb04zSmZXVVBLSXZMdmJDRHljSzM3b0pqRzI4R1o4cThJMVRWaXJTVXpqejJOMml2bVFFblJHUGt0SjVIQmpWX0dpRW5pZ2VnTG83c2V1UjlFeUE1Skx6VjhDWk00OGpORUhTQllSZTNRbmVQaDkxQ0dhMWhITXF1YTZLcFp1Q3UzR0hUR25uZzZHOG9tdFpIX2VrU1lkUmFobmVpOUVjZkFqU2VvTFV5NGp5a3lJRHp3VHVPQndQcWc5c3BTUTV5WUkzOXJJZw?oc=5"
+      "date": "2026-11-05",
+      "text": "The Durability of Trump’s Mining Agenda Faces a Test",
+      "src": "NAI500",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQQmJtZ005Wmd1Vmx6ZGdYVy03RkhjbkUySVRFV0E3WVUwQ3dDSU9OMDlRTFpCQU9sOW5MZHpXWTRxSnJPalJaZnFiZ2t1UTJ5SmtCUmtyakdFR3FJVEFaOHlNcWlBQ1dpOHBjNDVwQWc5TFVNXzZBVDh5RkZJSFJubG1pcHJDdU5HYnVaRg?oc=5"
     },
     {
-      "date": "2026-10-31",
-      "text": "With abundant supply, why is copper still experiencing a price surge?",
-      "src": "Vietnam.vn",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1OdVRNYXRVTVpBSS1lQnV4WmUtWVk5aVFDR3VkOHhTcEV0cU91VURmUEFpUmsteHozS1dZZU84MWdJWjFpTGhvYzZpTEFxZUI5a1AzZ1hhZi1OMlVMMVF1UHptcTJXYWxJOHpTSFFIaGMwRTdxVjY0?oc=5"
+      "date": "2026-11-05",
+      "text": "Democrats’ win: US mining agenda and permitting timelines explained for engineers",
+      "src": "Geomechanics.io",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPc0d0YkMtUFJTN2dmU2lGMFNDUkdFQ3R3c01xbzItdFVlaERsTmF1cF9KUVFrOEc1QUpJU014YUp1WndXLUFjaDYtZXlzZXFXa2NNNW9DVFNsV0hMMkpwYnN4bnI3X1o0M2dncUFYRlI5YnBnUUNGTlZnZC1hTlhaNkliQ05aVXp3SndrT0Vjb2FZY2FIQXdTX2RSdW1sMlNiTzBZbkpQQ25pcDkwc2E0UG5jUnRWd1k4Tmk1Ng?oc=5"
     },
     {
       "date": "2026-11-02",
       "text": "Higher Metal Prices Are Showing Up in Third-Quarter Results at Mines, Mills and Alloy Makers",
       "src": "PR Newswire",
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOOHYyR1NqVXZZQkhsa01ybnhMWUh6ajV5VTB4Skk3cUJ1R3VXREtPdVY0WGVTY1BtVEdWWXo2c25DanlfcVR1ZVh3N2xpaTdQdC1wTHR0S0ZBUDFxekJQTGtRMHhtaVFZb19MVzdTSENjR0xocEVfZFNTYlVmTFdGMndNZzNNLVc1U0FBb3RCRDQ2OHVQdGR3bmVERV9tQjJoWVh6d1RLbW96N1N0X1o5QzYtNHhjYnB4NTU4aDkzWVdEU292bGhJUmhxUlRpaTRicWxHMm1HUG9SNjR5dzhGbw?oc=5"
+    },
+    {
+      "date": "2026-11-04",
+      "text": "ETMarkets Smart Talk| Gold, silver or copper? Tata MF fund manager suggests a 50:30:20 commodity allocatio",
+      "src": "The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxNNjJTblNGbTV3LWtFcDZxLWtUTkZwaVM1cmtHQ3FEQnVZNktad0l6RUd2VUNya0t6bHpsSzlVWVBUQ25FYUlNX2p5TFl6dGk0c1BVQTF1aE9LVEZFTWxnOWlRaXVLNl9xemdBX21ValJPOGt6QjhoYURpVE1zZXZ5VXpZWnRCYnl1bFpHTkxwTVlNQThSa09ISFV0THpfejA0QlIxM3NZVnQ1RDJyaHd3SDdWRzdhTWRvbVk0dkdmZHBqSTBPLWFsdlB5cmlpZHNMZ2VKYnI1ckZpZ1c4cGJ2LVZvM2paeWVOUTVvMS1HYmRCMjVoY3hZeG5lR0U3N3dJYlR1UDRSc25fbE1ZXzRVaFNaNjY5dmZXOTEwZWJrd9IBpAJBVV95cUxNZ2hCc005dUlZZHJSekEyRnRERkNpbFZLRU1EcUJIV2xWOWxmYWg4QjlRd2gtVTdUbGRYcUQ5MVFuN2lNejEtVVlDaDA0UFBCVmxsRHFwbldZRzJXM1RrZTBYRWJYcmY0OFhYMl9NS3RxOHhaalFzdmdLMFhlWlpPQ0tPbWwya2g4VWtWRWw5clpnUXp3SmtfRHpiREVGSE9QbmJtTnM3OExSUHVNNzZYRFZVRzdIZW0tWHVIMVlxTWJiMnZoVU1oczdFY3pGa3huMElrX09UTUdvNWthTjd0Rm1SQVRkcjYwUVlTdUM1cENtM2VwVi1OU1A4RDdoaGhxZG13X3c3VG5Md0xBTFpjZ0xPOTBUYlpXaDh0ZUZ6bVZxZ3A3?oc=5"
     }
   ],
   "ai_analysis": "",
   "ai_error": "未自动生成，点击按钮手动生成",
-  "ai_date": "2026-11-04"
+  "ai_date": "2026-11-05"
 }
