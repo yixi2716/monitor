@@ -1,72 +1,72 @@
 {
-  "date": "2026-11-05",
-  "copper": 6.285,
-  "copper_chg": -1.9653720168460342,
-  "ma20": 6.5626500000000005,
-  "ma50": 6.6138400000000015,
-  "dxy": 101.43,
-  "vix": 24.8799991607666,
-  "tnx": 4.833000183105469,
-  "wti": 90.49,
-  "cu_oil_ratio": 153.12229749143552,
-  "shfe_cu": 106410.0,
-  "shfe_cu_date": "2026-11-05",
-  "shfe_lme_ratio": 1.067,
+  "date": "2026-11-06",
+  "copper": 6.28,
+  "copper_chg": 1.078384033478197,
+  "ma20": 6.537499999999999,
+  "ma50": 6.6052,
+  "dxy": 102.16,
+  "vix": 24.0,
+  "tnx": 4.855000019073486,
+  "wti": 90.18,
+  "cu_oil_ratio": 153.52643158128188,
+  "shfe_cu": 104260.0,
+  "shfe_cu_date": "2026-11-06",
+  "shfe_lme_ratio": 1.046,
   "lme_stock": 296625,
   "lme_stock_date": "2026-07-17",
-  "shfe_stock": 6574,
-  "shfe_stock_chg": -1271,
-  "shfe_stock_date": "2026-11-05",
-  "lymy": 13.9,
+  "shfe_stock": 4327,
+  "shfe_stock_chg": -2247,
+  "shfe_stock_date": "2026-11-06",
+  "lymy": 14.01,
   "lymy_chg": 0.0,
-  "tl": 4.97,
+  "tl": 5.04,
   "tl_chg": 0.0,
-  "jxt": 33.4,
+  "jxt": 33.8,
   "jxt_chg": 0.0,
-  "cper": 37.76,
-  "cper_chg": -2.14,
-  "copx": 70.65,
-  "copx_chg": -5.24,
+  "cper": 37.83,
+  "cper_chg": 1.27,
+  "copx": 71.69,
+  "copx_chg": 2.08,
   "signals": [
     {
       "name": "铜价低于MA20",
       "dir": "bear",
-      "text": "$6.29 < MA20 $6.56"
+      "text": "$6.28 < MA20 $6.54"
     },
     {
       "name": "美元中性",
       "dir": "neutral",
-      "text": "DXY 101.43"
+      "text": "DXY 102.16"
     },
     {
       "name": "风险偏好正常",
       "dir": "neutral",
-      "text": "VIX 24.9"
+      "text": "VIX 24.0"
     },
     {
       "name": "铜油比偏高",
       "dir": "bull",
-      "text": "铜油比 153.1，工业景气预期强"
+      "text": "铜油比 153.5，工业景气预期强"
     },
     {
       "name": "利率环境友好",
       "dir": "bull",
-      "text": "10Y 4.83%"
+      "text": "10Y 4.86%"
     }
   ],
   "score": 1,
   "news": [
     {
-      "date": "2026-10-30",
-      "text": "Critical Minerals Co.'s Survey Outlines 3-4 km Chargeability Anomaly at Max Copper-Gold Target",
-      "src": "Streetwise Reports",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNU1AweC0wU3pvaXE3MHdqczV0NTEtenUxb04zSmZXVVBLSXZMdmJDRHljSzM3b0pqRzI4R1o4cThJMVRWaXJTVXpqejJOMml2bVFFblJHUGt0SjVIQmpWX0dpRW5pZ2VnTG83c2V1UjlFeUE1Skx6VjhDWk00OGpORUhTQllSZTNRbmVQaDkxQ0dhMWhITXF1YTZLcFp1Q3UzR0hUR25uZzZHOG9tdFpIX2VrU1lkUmFobmVpOUVjZkFqU2VvTFV5NGp5a3lJRHp3VHVPQndQcWc5c3BTUTV5WUkzOXJJZw?oc=5"
+      "date": "2026-11-04",
+      "text": "Democrats’ win puts US mining agenda under scrutiny",
+      "src": "Mining.com",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBBdllRNjlKOTJGTWFacEZtYjQ4YmticmYtbmt6Sy1lUk1JZDBIN3ItMzZuZVYybU5fV0prRWZxdzZFSU9GdEFENl9YbXRod2xMdXN4VTFkc0s1YzcyUXRmREg0VXhfYkxKbTlYSmNtWDI4UlZZaXJ6WGdFWVlWR2c?oc=5"
     },
     {
-      "date": "2026-10-30",
-      "text": "US copper stockpiles and hidden tightness: supply risk lens for mine planners",
+      "date": "2026-11-05",
+      "text": "Democrats’ win: US mining agenda and permitting timelines explained for engineers",
       "src": "Geomechanics.io",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMURyX2RyMzJfU0VTYVZLLVpTX29sMGpmMjdkbUNBVEJTdWtNdXVqclVBNF9hQXctWXNBb3RYVjgwcVpJWlZaZjJiU1VySU5fbVVBVUo1eGNrbXdqVDVEb0ZFQ3Q5LTlubTVSR0RwU2pYZG5VWEZTMThhZGtwU3B3U1g2SEZNX2cyaUU4VUVOZld5eXRrRnVZTUt6emtLNzhES3dRTlNSRjZqdTU5S29LeHZudFU1emhN?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPc0d0YkMtUFJTN2dmU2lGMFNDUkdFQ3R3c01xbzItdFVlaERsTmF1cF9KUVFrOEc1QUpJU014YUp1WndXLUFjaDYtZXlzZXFXa2NNNW9DVFNsV0hMMkpwYnN4bnI3X1o0M2dncUFYRlI5YnBnUUNGTlZnZC1hTlhaNkliQ05aVXp3SndrT0Vjb2FZY2FIQXdTX2RSdW1sMlNiTzBZbkpQQ25pcDkwc2E0UG5jUnRWd1k4Tmk1Ng?oc=5"
     },
     {
       "date": "2026-11-05",
@@ -75,10 +75,10 @@
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQQmJtZ005Wmd1Vmx6ZGdYVy03RkhjbkUySVRFV0E3WVUwQ3dDSU9OMDlRTFpCQU9sOW5MZHpXWTRxSnJPalJaZnFiZ2t1UTJ5SmtCUmtyakdFR3FJVEFaOHlNcWlBQ1dpOHBjNDVwQWc5TFVNXzZBVDh5RkZJSFJubG1pcHJDdU5HYnVaRg?oc=5"
     },
     {
-      "date": "2026-11-05",
-      "text": "Democrats’ win: US mining agenda and permitting timelines explained for engineers",
-      "src": "Geomechanics.io",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPc0d0YkMtUFJTN2dmU2lGMFNDUkdFQ3R3c01xbzItdFVlaERsTmF1cF9KUVFrOEc1QUpJU014YUp1WndXLUFjaDYtZXlzZXFXa2NNNW9DVFNsV0hMMkpwYnN4bnI3X1o0M2dncUFYRlI5YnBnUUNGTlZnZC1hTlhaNkliQ05aVXp3SndrT0Vjb2FZY2FIQXdTX2RSdW1sMlNiTzBZbkpQQ25pcDkwc2E0UG5jUnRWd1k4Tmk1Ng?oc=5"
+      "date": "2026-11-06",
+      "text": "SP Angel – Today’s Market View, Friday 6th November 2026",
+      "src": "Share Talk",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZ2lHSU14N1hFeDNYVHdMTG5OaHF6TlpyNnAxUHRpOV9oVk5Yd25YYWxLZXRZWmpVdnVsMjZfVHZ4MUNrV3Zyb2NtbjROX0JlNkk4QWRfMXdSLXgyYkF1czgzVTNYVUoxVEpWV0l0aFBzbXFvMUh0ZDB0b21QSXk1UTB3RS1DUDg?oc=5"
     },
     {
       "date": "2026-11-02",
@@ -95,5 +95,5 @@
   ],
   "ai_analysis": "",
   "ai_error": "未自动生成，点击按钮手动生成",
-  "ai_date": "2026-11-05"
+  "ai_date": "2026-11-06"
 }

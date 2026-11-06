@@ -1,19 +1,19 @@
 {
-  "date": "2026-11-05",
-  "hs300": 4113.41,
-  "hs300_chg": 0.29,
-  "solar_etf": 0.757,
-  "solar_etf_chg": 4.27,
-  "newenergy_etf": 2.141,
-  "newenergy_etf_chg": 4.29,
-  "storage_etf": 1.563,
-  "storage_etf_chg": 4.34,
-  "tnx": 4.84,
-  "usdcny": 6.6574,
-  "excess": 3.98,
-  "dd_from_high": 0.3601,
+  "date": "2026-11-06",
+  "hs300": 4054.28,
+  "hs300_chg": -1.44,
+  "solar_etf": 0.748,
+  "solar_etf_chg": -1.19,
+  "newenergy_etf": 2.092,
+  "newenergy_etf_chg": -2.29,
+  "storage_etf": 1.517,
+  "storage_etf_chg": -2.94,
+  "tnx": 4.85,
+  "usdcny": 6.6639,
+  "excess": 0.25,
+  "dd_from_high": 0.3677,
   "pb_ratio": 0.0,
-  "turnover_ratio": 1.932,
+  "turnover_ratio": 2.07,
   "stocks": {
     "tongwei": {
       "close": null,
@@ -46,44 +46,44 @@
   },
   "news": [
     {
-      "date": "2026-11-05",
+      "date": "2026-11-06",
+      "text": "广东河源嘉钰新能源3个屋顶分布式光伏发电项目备案通过 - 观点网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9Gbkd0anJTT0NldE1Ma2xVUUNkNnNxUkdWcXRDR24wbTRlXzhzVVBDNGZHalFtZC1id0FtRUU0QTM0eDltWmw2ZW02ZzdVX0c0bW51d09hZnJGb0U3N2xUQXZ3?oc=5"
+    },
+    {
+      "date": "2026-11-06",
       "text": "机构调研丨光伏概念+新材料这家公司20cm两连板铜浆产品已在多个光伏电池客户端完成可靠性验证 - 东方财富",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5HYXJ1QzRpakdHSmJmYmtzbE4xeC1DdW1FbElvdzhqR2tnZHAwMVBVeHFWSU9DQVhLSzVKY0JOdjhhcFFsdmZTeXBDWVJpLW9NTnpQT1dkRGVCaEkwdUZnUQ?oc=5"
     },
     {
-      "date": "2026-11-05",
-      "text": "指数午后大涨3.40%！光伏ETF招商（516230）冲击三连升，阳光电源指引+逆变器集体涨价，反转来了？ - 21财经",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPMGM0dGUyZVNiSjgxZTJfT0kzZHJIWUhSWWRORkhTRmxneTk5cXd6b25lajdNdWtWTkRrS29Ub1R5NUZLY29kZDlMblJKVlgyXzQ3M3BhSnpjYTdtM3gya0s3Y0VwUUlsQ1luQm54Z1UwN0hvNmJsak5lTFQ0T05ESnNmUTU4YzFpNWpkdEFwLXZma19N?oc=5"
+      "date": "2026-11-06",
+      "text": "AI交易降温后，资本为何突然“杀回”光伏？ - 金融界",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9ZVEk1V0NKS1g3eV8xSzZ3NExtb25URjExNVpyMXNmUjJSX0FrM2ZMT2l1NG9WVktyVmtwT2ZzeW0zeVl6SmRMSVVzeGE0Z2ZadXhnQjZqdWg5VjRIRnpKVHNUSjlucUlka2JOYTBrNXJ2UQ?oc=5"
     },
     {
-      "date": "2026-11-05",
-      "text": "9月全国新增建档立卡新能源发电（不含户用光伏）项目3552个 - 中国能源新闻网",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9mcmtkajRQeEJuWVVPWVpnU09TUGwwVnljMlRtOGlVbEREOHNwVFhUMWh2bjJFeHNtOHJWLWljWkgzVDFCUTVyeXM5RExrZ2MzM1VsT0ttYUxDZ0pOSzdmRXlDMTc2cWY4RkVVUENQMzc?oc=5"
+      "date": "2026-11-06",
+      "text": "第二届全国光伏专用计量器具计量技术委员会在福州成立 - 福建省工业和信息化厅",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5kS1phOWYwYUdFVmN0OW03akVjVTVRdTh3RmhPdGhPZ3dNSUlBd2dCQlcyT05BWmpuMnprZjF0cG16SFhPZUR0eDQwSC1sbTAxc2tWRnNYa2NlRlVJMU5hNVRHQkdTbHVELXZFZ3NEQVZsVmtQTHBCVGh2MDVnaUE?oc=5"
     },
     {
-      "date": "2026-11-05",
-      "text": "从拼出货到拼利润！光伏业环比减亏，行业拐点真的到了吗？ - 新京报",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9rZTVFbHJTdGl6VXZfMnFHakNhUnlOQW0wRmo3VXY1WGtCZ2toaVJ3N0NxOEJTbVhYLUIyb05jQkdfZEFlUmhHZGRMSFhEN0E5TVBnVUpIV2kyZG54TEtNQWNIRHc?oc=5"
+      "date": "2026-11-06",
+      "text": "通威股份签署欧洲超大型光伏项目组件供货协议 - 证券之星",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE40R0Zwam03TFZkMFFXWEx2cm02ZFRyUXFIOU5BWTRpRVk4MVNweEtnXzZ0elV3dTh2emVnakpBcWR2UDZHei10NFJQa0dvRUg0dWFXX1B2dHdleWFjLXo0Mw?oc=5"
     },
     {
-      "date": "2026-11-05",
-      "text": "【VIP日报】光伏、储能概念走强， 栏目以机构视角解读行业前景 提及相关公司大涨 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1vaVc5UnpISXBBaEdNd3RJR1plTGhaR1VVWm1jWk1qTW1xcjJGSFlTdl84S3hqU1Y4aG5sRzRZaDBFUHVzYU05LQ?oc=5"
+      "date": "2026-11-06",
+      "text": "潮玩品牌也能跨界光伏！？96年出生的他，准备收购亚玛顿！ - 风闻",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1SRlJtVlI3RWpCc3NwRGZRb2FMOEh5WEdTbTYyTEk5UWpxcXZvRzFVYjM0dkdhSnNqY3hzbWVLMU5BbFNiZzNiUzh3ZWVhYTJQaVZOWmxva1Q3dktfSFg0NWk2b21TR0FPSGc?oc=5"
     },
     {
-      "date": "2026-11-05",
-      "text": "很有排面，这只票两天涨了49.96%，光伏会是反弹新“战场”吗？丨川观解盘 - 四川新闻",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9yVkdiV1hUOU45eUlGcVozdXM0ZVBmVDVQNkwzajRqOXJRZ1lzQnpxdkJmZUhBZVJOOFhxRUlkMVV1YXpSMlJwM2EyVVppb0EzejNzYmRuSkNGX2c1ZEhyX0xnOA?oc=5"
+      "date": "2026-11-06",
+      "text": "芯报丨金刚光伏：子公司签署不超15.36亿元算力云服务合同 - 电子工程专辑EE Times China",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4zYVFNQl91Y3pFNWJBUm9lb0dkU292U21tTXFrajk2dDBBWmU4U0M4YVVIc015OW80WUE1REUwQUhnbFRkSHFYTU94MWpLSDFaUF84?oc=5"
     },
     {
-      "date": "2026-11-05",
-      "text": "金刚光伏尾盘20%涨停登上龙虎榜，盘后公告控股子公司签下算力云服务大单 - 中国基金报",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5rN2s5WFJseGFkSVU5dHlTM3lvUzlOYVJiaHRHQzE0aEpOVXVoaWZyMFNXLUJQRkN2TDh1WWZvTm5BUDNueEgtMEx2d2oxYmN0d2M2Tl93WmRrYWNMQzlmc1RZT2RLOTFlUjE3TnFreVdzcWZaTmQzUFVB?oc=5"
-    },
-    {
-      "date": "2026-11-05",
-      "text": "广东森特新能源光伏配件生产线项目备案通过 总投资300万元 - 观点网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5ORzk3d01vSDRTdGU5WXF4eUFlMmNZeUlIVUd1SERyczZqMF9JTWtzblVKZWxRMkdLdFpkcXNyQ2JKMWFmMHFIeU54M29Yc1BEU0Q3YVNMVUZTc2s3dU1fUUl3?oc=5"
+      "date": "2026-11-06",
+      "text": "年初至今，光伏失血超400亿 - 搜狐网",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZ0ExNjRETzM5UTlQZmlLYUgzeHNBc0c3c1NMSHV0RWNrY2hZaU91SnhOZ3BweFp6Y2lhZXdfbVA0bGh2UGQzVDdlcktsU1Z6ZUt6SjNIaDVmY0JIcWdvMDVJcXZPN3h5STZtb2JYVkJNMmV6TTFJTjdQQWEwcW9TYnYzZVhLTGpP?oc=5"
     }
   ],
   "ai_analysis": "",
