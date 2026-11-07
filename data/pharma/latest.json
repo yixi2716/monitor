@@ -1,68 +1,68 @@
 {
-  "date": "2026-11-06",
+  "date": "2026-11-07",
   "hs300": 4054.28,
   "hs300_chg": -1.44,
-  "med_etf": 0.398,
+  "med_etf": 0.393,
   "med_etf_chg": -1.26,
-  "inn_etf": 0.851,
+  "inn_etf": 0.837,
   "inn_etf_chg": -1.65,
-  "cxo_etf": 0.357,
+  "cxo_etf": 0.349,
   "cxo_etf_chg": -2.24,
-  "tcm_etf": 0.916,
+  "tcm_etf": 0.912,
   "tcm_etf_chg": -0.44,
-  "meddev_etf": 0.456,
+  "meddev_etf": 0.45,
   "meddev_etf_chg": -1.32,
-  "vaccine_etf": 2.141,
+  "vaccine_etf": 2.092,
   "vaccine_etf_chg": -2.29,
-  "hsi_health": 24796.98,
+  "hsi_health": 24481.86,
   "hsi_health_chg": 0.0,
-  "hs_inn_etf": 1.263,
+  "hs_inn_etf": 1.239,
   "hs_inn_etf_chg": -1.9,
-  "tnx": 4.85,
-  "usdcny": 6.6639,
-  "excess": 0.18,
+  "tnx": 4.86,
+  "usdcny": 6.688,
+  "excess": 0.0,
   "north_money": 262593.3,
   "north_date": "20261106",
   "news": [
     {
-      "date": "2026-11-06",
-      "text": "泰州市医药高新区（高港区）长期护理保险重度失能评估结论公示 - 泰州市人民政府",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPU3FCbC1idzFZLURYa0ZoQUp6NGFwY2Y5NGUtVnBoTXpURUFCYmxXaW5NY19NeHd1WFlMQm9FVk9GMmlUdi1qS2ZTN2Z6aFhUYlV4MWJ4LU9CcjRpWk5NVXZSWVZjX1ExaExsWUttb25GSmxnV0Zud0xsRmVBem1ialRnZGlBXzNLRHhodXlB?oc=5"
+      "date": "2026-11-07",
+      "text": "创新药步入爆发期！“医药一哥”恒瑞首次明确喊出明年创新药销售收入增长超30% - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE8tQWZKYlA2SmxPX0I0bTdWOU9TdmNTalpFczM2ZThVaHNqeno5dkxZQnRvMmVGdkxYRVgyTGR3T0hUbGVMMmF0ZQ?oc=5"
     },
     {
-      "date": "2026-11-06",
-      "text": "跟着药香游杭州：中医药文旅市集启幕，AI课堂揭牌 - 上观新闻",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0wc3hDT0I2U0xwNnEwTjh2Z0o3cG12QVMtM2tILTBYNFJMU1oxTWowQ2o2aUMwX1daUWlkQUx5YjJqeGV6aUFLb3c5WTREWmJOekdPRmZlWTl6LXpI?oc=5"
+      "date": "2026-11-07",
+      "text": "第九届进博会丨复星医药九赴进博：全球创新引进来 中国创新走出去 - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5QeXVUTDdFb1ZUTDB6Yk9MaGl0anlDT3J0MS1XOG5UMTZ1eWw5SFhQaW0xQXBHWHQ5SzlUYW1LTC1KZnh0akZYbFhLaG5Zekp1TTFjWmNxMHpSRjByR0dvSWJGdnRoVDZwYzVGdldKZDlMX3Zia3Qw?oc=5"
     },
     {
-      "date": "2026-11-06",
-      "text": "普华永道徐佳：创新药产业竞争的底层逻辑正在转变 - 21财经",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQRnRJVF9Mb0hxOExGbjJnLU9Bbjg0cVlfUzNQdU4tYUM1MXdQbVRDWFhWYXQtYTI4eEFfX1Y4ck1zOVZRcjdmQXVGMVJCQXh2TUtXYjdBQnc3M3M4SklmYUVlN0JucFVhNDg2eUhjNGNUREpaelgtZ2NkUjdUdlRIbnpVNDlnWWg1bzNHVHVsYkxJTlRD?oc=5"
+      "date": "2026-11-07",
+      "text": "借势进博 链接全球——河北省生物医药产业专题对接会在上海举办 - 河北广播电视台",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAxRTFSRURzcTVMVWx2Q0ZpS20xN0dUVlFaMnhaV3dxcGY1d1pJQ3VkZ3FaTWs0ajdiRmlxbnBGWHI0SFJqMklZUFU0UWJhMDFNamxKU3UwSG9SaUV1djFfbDlfdmM0UVFXUi0wWQ?oc=5"
     },
     {
-      "date": "2026-11-06",
-      "text": "礼邦医药-B：11月6日斥资3604港元回购200股 - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5BME9MYWRoMkVyV1FjTTRrMF9tWFg1T21IM1EwVWR1Sm55ZThUa2NGZXpMdmdpZHhOZHFFbGhKMk5oVko2dWxKY2ZKWkVxblFjYnl1bFhlZUF6MnpiNGNvLQ?oc=5"
+      "date": "2026-11-07",
+      "text": "首届“文山三七”国际中医药产业发展大会在云南文山举行 - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQX2xLRFVmRVYxNlk3enliRDBDcGRxaTdIRUY2NVFIWlFaQm1ZY3pyUzFhQ2RiMkluaGstWE1IX19uNnJoRDljRFFvWndlRzd3dWJyaEd4eXdfMnJTQWxxY0JEX1lNaU5NcDI3TTFmY3J4TC1FU0NZTHlOQ1ZIVUdGd2Fn?oc=5"
     },
     {
-      "date": "2026-11-06",
-      "text": "从创新药可及到长期健康管理，京东健康与勃林格殷格翰进博会签约 - 第一财经",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0xVUtTQ1Uxbi0wekRCZjBCUXJLNFVJVExqLU1QOG02SWx1Z25vU0hOOWtuTjdHTk1ac1ZnUEFaNU5VaGlIblUyc25xeVhMYk1lajBR?oc=5"
+      "date": "2026-11-07",
+      "text": "中国医疗队在柬埔寨撒下中医药的种子 - 中国新闻网",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB3ZUJNSTZoVDQ5dF9ybHVlaG9MVDNrbGZ2RG1LcnpXZXlVMEJRcE8tOEJYOFNMUjJPU2lLWXFKQ1owYktxTUwwT0hNMzlWYWFUYS05UHZUVURmaHZCOEE5NmZ0bGlfM0dN?oc=5"
     },
     {
-      "date": "2026-11-06",
-      "text": "艾力斯注射用AST1001获国家药监局临床试验批准 - 观点网",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5oMTlRajJWeldCVWVrTWJjblZNNXF5dEVVaG95VUF1U2t2cFhLRVJJa01PbFV1aWx5Z3BMS1kyVERXalpoVXR1Sk5tajd1b2x2QjZkQmQ1LVJ3OFJOSmlpeQ?oc=5"
+      "date": "2026-11-07",
+      "text": "上海国资进博会签下28.62亿美元意向采购 17个项目现场集中签约 - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA1SFBOdFNRc1l1QndRUm5FNWtEZHlXeHlkSmxZX054eXFGeVlHYnlsYy10MnZPajZybW9ySkdxZ3NPOVhzMVBpYUIwWmpESzFpaXJwY0NNdGZodVJnbFhJVm1KT3V1dw?oc=5"
     },
     {
-      "date": "2026-11-06",
-      "text": "贵州省深化医药卫生体制改革及公立医院经济管理人员培训班在上海交通大学成功举办 - 上海交通大学 新闻网",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB4dlNfXzRjcS1VRWFUMHVMdG1DNGtkYUVKY1hDV0hBUUVuQ0I3WER4MDFneUFwQWFORmJWNU1waldRSDVfTlV2cV9hQk03cjlnajVZdXVudml4WEZqcUtZ?oc=5"
+      "date": "2026-11-07",
+      "text": "在全球生物医药版图中，展现更强大的“长三角力量”| 进博会上海会议活动 - 上观新闻",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9oNGxldFp4TjkxbUFNLWNNODFQUHMxbmI1akN3SWdKYnNleVdUMVhjSTVBakhKR3BMbUV6aHk4algzT1ZLMzBsQ3ZCbDUzY3J2Vl8wdGI5Vi1OWFJuOVE?oc=5"
     },
     {
-      "date": "2026-11-06",
-      "text": "创新药械丨国家药监局批准泊基奥仑赛注射液上市 - ByDrug",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE12ZHZZU2FjZWMzQWJwVWl3Y3owRHUxRHhmM2RVVVkwRGc4ajRfRzFuOWRGd0lnc2EzUElicHU1V044d3ZDY1lHUjBzZXRvUzJQMmRjemxTeW5EbG1CMHhzQ3BwNkdSaVUxQTdjRWhidFNPa3pqRU0tQkRrZ1B6QQ?oc=5"
+      "date": "2026-11-07",
+      "text": "诺和携手三大医药商业伙伴升级合作，共筑基层慢病管理新生态_行业新闻 - 证券之星",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5tY2E0THhpQXBMVDVXV3VUMEJ3dGl0NU5qZDdWQXFJVlBMSlE0Yi1IN3hrb0o1SndxdHFzYmt3SDUwUEJaQkJTWXFFVGphZ1JpcllPaUdmOE5yczVVN01XQUZ1UEY?oc=5"
     }
   ],
   "ai_analysis": "",

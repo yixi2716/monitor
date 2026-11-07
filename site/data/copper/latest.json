@@ -1,52 +1,52 @@
 {
-  "date": "2026-11-06",
-  "copper": 6.28,
-  "copper_chg": 1.078384033478197,
-  "ma20": 6.537499999999999,
-  "ma50": 6.6052,
-  "dxy": 102.16,
-  "vix": 24.0,
-  "tnx": 4.855000019073486,
-  "wti": 90.18,
-  "cu_oil_ratio": 153.52643158128188,
+  "date": "2026-11-07",
+  "copper": 6.26,
+  "copper_chg": 0.7564783518429152,
+  "ma20": 6.536499999999999,
+  "ma50": 6.6048,
+  "dxy": 102.3,
+  "vix": 25.639999389648438,
+  "tnx": 4.859000205993652,
+  "wti": 90.34,
+  "cu_oil_ratio": 152.76645118441442,
   "shfe_cu": 104260.0,
   "shfe_cu_date": "2026-11-06",
-  "shfe_lme_ratio": 1.046,
+  "shfe_lme_ratio": 1.049,
   "lme_stock": 296625,
   "lme_stock_date": "2026-07-17",
   "shfe_stock": 4327,
   "shfe_stock_chg": -2247,
   "shfe_stock_date": "2026-11-06",
-  "lymy": 14.01,
-  "lymy_chg": 0.0,
-  "tl": 5.04,
-  "tl_chg": 0.0,
-  "jxt": 33.8,
-  "jxt_chg": 0.0,
-  "cper": 37.83,
-  "cper_chg": 1.27,
-  "copx": 71.69,
-  "copx_chg": 2.08,
+  "lymy": 13.29,
+  "lymy_chg": -5.14,
+  "tl": 4.89,
+  "tl_chg": -2.98,
+  "jxt": 32.23,
+  "jxt_chg": -4.64,
+  "cper": 37.67,
+  "cper_chg": 0.83,
+  "copx": 71.25,
+  "copx_chg": 1.45,
   "signals": [
     {
       "name": "铜价低于MA20",
       "dir": "bear",
-      "text": "$6.28 < MA20 $6.54"
+      "text": "$6.26 < MA20 $6.54"
     },
     {
       "name": "美元中性",
       "dir": "neutral",
-      "text": "DXY 102.16"
+      "text": "DXY 102.30"
     },
     {
-      "name": "风险偏好正常",
-      "dir": "neutral",
-      "text": "VIX 24.0"
+      "name": "避险升温",
+      "dir": "bear",
+      "text": "VIX 25.6 > 25，风险偏好下降"
     },
     {
       "name": "铜油比偏高",
       "dir": "bull",
-      "text": "铜油比 153.5，工业景气预期强"
+      "text": "铜油比 152.8，工业景气预期强"
     },
     {
       "name": "利率环境友好",
@@ -54,8 +54,20 @@
       "text": "10Y 4.86%"
     }
   ],
-  "score": 1,
+  "score": 0,
   "news": [
+    {
+      "date": "2026-11-03",
+      "text": "Five Metals Producers Trade Higher as Gold, Silver and Copper Futures Pull Back",
+      "src": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPUkJVWWg1WUdXdkxxUjRRam41T1NFSFpwRXh2bk9KNmRtTk1zZVhnZ1luOTJlbGhwdy0yTERfc3pSWW02VEdkZnZZYUtRbTJ5WjBRVkFVZ09VNmNiOVU3NzU5eTU0NTJsZlY5UmJSTzc0M244eWVNZlA2d3h5SjBIMWQza3JFS3lRd3d3SUNSUDlvTGFNanJXZmh3UUV4ZHVLSDZLY1ExX0tRT1BITTBjMElrQUtQRENRenU0MDVQWHcxTkh4aEVhanhyT3ktR3BRUm5JWkd3?oc=5"
+    },
+    {
+      "date": "2026-11-07",
+      "text": "Critical Minerals Co. Completes IP Survey Near Hudbay's Copper Mountain Project in British Columbia",
+      "src": "Streetwise Reports",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOVmZGOC1CLWJUNlV3V0lpcC1STTA1VDdJYkstUnVUY004UktIYzZNQmdXUnRmRGpCLWVTSjZ1bVlKdmZ4ZUZjeUx6TkJPYkMwWVlWNkl0NFY5VEt2VkVxOGttNXJHUl9ZLWxrRzJBTVVSWS0yS05Ud1AydDdFN3FXVURXemVIeC1VdW1SVk5PUEgxM0tBTnB0ektLLXlPS3d3d1J2aGVzaUlQYTFUd1ctclNfMmJXSXl1QWc5NUNEdTFkVVM5djA1dzV3VlIzd0o3Z3dJUWJ4RlJTYkNoc1hPSUN2d1JfZVdJYi1N?oc=5"
+    },
     {
       "date": "2026-11-04",
       "text": "Democrats’ win puts US mining agenda under scrutiny",
@@ -79,21 +91,9 @@
       "text": "SP Angel – Today’s Market View, Friday 6th November 2026",
       "src": "Share Talk",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZ2lHSU14N1hFeDNYVHdMTG5OaHF6TlpyNnAxUHRpOV9oVk5Yd25YYWxLZXRZWmpVdnVsMjZfVHZ4MUNrV3Zyb2NtbjROX0JlNkk4QWRfMXdSLXgyYkF1czgzVTNYVUoxVEpWV0l0aFBzbXFvMUh0ZDB0b21QSXk1UTB3RS1DUDg?oc=5"
-    },
-    {
-      "date": "2026-11-02",
-      "text": "Higher Metal Prices Are Showing Up in Third-Quarter Results at Mines, Mills and Alloy Makers",
-      "src": "PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOOHYyR1NqVXZZQkhsa01ybnhMWUh6ajV5VTB4Skk3cUJ1R3VXREtPdVY0WGVTY1BtVEdWWXo2c25DanlfcVR1ZVh3N2xpaTdQdC1wTHR0S0ZBUDFxekJQTGtRMHhtaVFZb19MVzdTSENjR0xocEVfZFNTYlVmTFdGMndNZzNNLVc1U0FBb3RCRDQ2OHVQdGR3bmVERV9tQjJoWVh6d1RLbW96N1N0X1o5QzYtNHhjYnB4NTU4aDkzWVdEU292bGhJUmhxUlRpaTRicWxHMm1HUG9SNjR5dzhGbw?oc=5"
-    },
-    {
-      "date": "2026-11-04",
-      "text": "ETMarkets Smart Talk| Gold, silver or copper? Tata MF fund manager suggests a 50:30:20 commodity allocatio",
-      "src": "The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxNNjJTblNGbTV3LWtFcDZxLWtUTkZwaVM1cmtHQ3FEQnVZNktad0l6RUd2VUNya0t6bHpsSzlVWVBUQ25FYUlNX2p5TFl6dGk0c1BVQTF1aE9LVEZFTWxnOWlRaXVLNl9xemdBX21ValJPOGt6QjhoYURpVE1zZXZ5VXpZWnRCYnl1bFpHTkxwTVlNQThSa09ISFV0THpfejA0QlIxM3NZVnQ1RDJyaHd3SDdWRzdhTWRvbVk0dkdmZHBqSTBPLWFsdlB5cmlpZHNMZ2VKYnI1ckZpZ1c4cGJ2LVZvM2paeWVOUTVvMS1HYmRCMjVoY3hZeG5lR0U3N3dJYlR1UDRSc25fbE1ZXzRVaFNaNjY5dmZXOTEwZWJrd9IBpAJBVV95cUxNZ2hCc005dUlZZHJSekEyRnRERkNpbFZLRU1EcUJIV2xWOWxmYWg4QjlRd2gtVTdUbGRYcUQ5MVFuN2lNejEtVVlDaDA0UFBCVmxsRHFwbldZRzJXM1RrZTBYRWJYcmY0OFhYMl9NS3RxOHhaalFzdmdLMFhlWlpPQ0tPbWwya2g4VWtWRWw5clpnUXp3SmtfRHpiREVGSE9QbmJtTnM3OExSUHVNNzZYRFZVRzdIZW0tWHVIMVlxTWJiMnZoVU1oczdFY3pGa3huMElrX09UTUdvNWthTjd0Rm1SQVRkcjYwUVlTdUM1cENtM2VwVi1OU1A4RDdoaGhxZG13X3c3VG5Md0xBTFpjZ0xPOTBUYlpXaDh0ZUZ6bVZxZ3A3?oc=5"
     }
   ],
   "ai_analysis": "",
   "ai_error": "未自动生成，点击按钮手动生成",
-  "ai_date": "2026-11-06"
+  "ai_date": "2026-11-07"
 }
