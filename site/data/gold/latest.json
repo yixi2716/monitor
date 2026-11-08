@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-07",
-  "fetched_at": "2026-11-07 23:58",
+  "date": "2026-11-08",
+  "fetched_at": "2026-11-09 00:26",
   "gold": 4079.5,
   "gold_chg": 0.0,
   "ma20": 4076.61,
@@ -19,7 +19,7 @@
   "basis": 35.43,
   "vol20": 24.5,
   "gold_silver_ratio": 78.5,
-  "usdcny": 6.671,
+  "usdcny": 6.6648,
   "shfe_au": 869.86,
   "shfe_au_date": "2026-11-06",
   "cftc_gold_net": -204902,
@@ -135,7 +135,7 @@
       "tip": 106.27
     },
     {
-      "date": "2026-11-07",
+      "date": "2026-11-08",
       "gold": 4079.5,
       "gold_chg": 0.0,
       "dxy": 102.3,
@@ -148,7 +148,7 @@
     "last_change": "2026-09-16 加息 25bp",
     "next_label": "10/27–28 议息会议",
     "next_date": "2026-10-28",
-    "days_to_next": -10,
+    "days_to_next": -11,
     "upcoming": [
       {
         "date": "2026-10-28",
@@ -161,10 +161,10 @@
         "dot_plot": true
       }
     ],
-    "zq_price": 96.12,
-    "zq_implied_rate": 3.88,
-    "market_bp_vs_current": -12.0,
-    "market_expectation": "市场预期降息 12bp",
+    "zq_price": 95.93,
+    "zq_implied_rate": 4.07,
+    "market_bp_vs_current": 7.0,
+    "market_expectation": "市场预期下次会议维持不变",
     "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
   },
   "geopolitics": {
@@ -193,22 +193,22 @@
         "src": "Al Jazeera"
       },
       {
+        "date": "2026-11-07",
+        "text": "US offers millions for information on Iran’s nuclear program despite Trump’s claims of obliteration",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTGdGeHgya1Y5SDZ3ejIxcmRQVmVyeGpqSmNTRlJ6ZGVvZjBxZUZJR2UyR3drbHNvM0NHVjdPV3dEejVYSTl5RnFxTERVUWZlcFBNYW1RUU9aLVhfd3VRSF9ZX1NOcmNvRzN5UUhvbTFkcm9zYUFTSWxnV0M1dGktUVU2S0ZqVV9qXzloa2JDX3JmalpJQ0RqZg?oc=5",
+        "src": "CNN"
+      },
+      {
         "date": "2026-11-06",
         "text": "US and Iran Edge Closer to Deal With Nuclear Issue Back in Play",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcTdReHN4a0FQUGZtRlE0NzM5bFR5R0RoRENITFlBN2VGdlFOY2psYzUtTjhZTGtMLUd2TF9WOGZNaDMtVWgzcHdaVnJzZ21HQVBUYnNfanBIVVJzMnhzVkdUd3ZqLUduSTdwWlFZaXR5dGlUbUtPWnhhM1pmQ1lWWUM4V2hnTk9iTGpWdFh2QWdzVWJaZTNOeURPMUlQR2xSaXlIcTc2aUtPeldNbFU3Mm5PeGo?oc=5",
-        "src": "Bloomberg.com"
+        "src": "Bloomberg"
       },
       {
-        "date": "2026-11-02",
-        "text": "Iran has 2-day plan to reopen Strait, resume nuclear talks with US",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQbnprNkl3WEZ1VUFrZkdCeWVJX2prbUFDOHdLcVVJckpCRHYzWVFhb3BWNTZFOWNqUnk1QmhYVjREdnFRekZ0Q1VYLXBWZkFrc0l4VFEtRWdGaXdiM0dSUk4yOTNraXhmWU85VlVvdXVQeWczWU5wLXNHdV9kaHlOX0hnczVMV3FhU3c?oc=5",
-        "src": "KCRA"
-      },
-      {
-        "date": "2026-11-02",
-        "text": "Trump could launch nuclear strike on Iran within days, commentator claims",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOV0V4T0FyUlBPR0YwbUVUbUU4OTVsQ0pzU0dVSjdxNXNsaVF2V3hYUHAzdUR6dEVNVHZWWDZLcm5fSlBURUgweTJRV202c1VGM3cwR3VfcW54dDFwTEdhZTY3bG5KQVdJSHZKX2dnWVlpeEw4cjljdjAwd084dmlObjA3Sk5YY3lVTVFhUnZKRVNudEs2TU5wMk5reURacnVNTnJKYXhlLUpxWXJsRFRqOUZKSVE?oc=5",
-        "src": "Anadolu Ajansı"
+        "date": "2026-11-06",
+        "text": "Energy Secretary says 'there may not be' a nuclear agreement with Iran - ABC News",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOW01dm5famRRLUZPLWw2VXBJTnMzbW5lTHMtQlVxNjRiTmtnQThoWGdaVS1oQ1lSdFByTlpXZGswQUM3cGRFMW1Rd2EwWXdyTDFHMXV6azFqUzFpUEMzTU8yeUdFX21RcnUzZjFpZFVwUXBEeGg3R0p2NVR5VEJwU1hwOGVvd250RjNhQ1NNbTnSAZYBQVVfeXFMUE0tRkZjRVdKQi00YnVkUHZ3NV9nTjJnLXgxdEw1Q3h4V1NqbHlTQV9kOVFNU3djQmI3OVhld29oOWtEUDlUU0dzd0wteW4xX0hGOFh5WEJYUXMzWFJVZTk5MWhsNG1aRDZFVjFCVGlGUko1M0g4VS1FTFlUZjZFOThiNElTY0l2THQxT3NheW5UekNZOVRR?oc=5",
+        "src": "Breaking News, Latest News and Videos"
       }
     ],
     "gold_impact": "双重作用：局势升级→避险买盘利多黄金；但同时油价飙升→通胀预期→美联储更难降息→利空黄金。当前谈判窗口期，油价波动会直接传导到金价。",
@@ -218,5 +218,5 @@
   },
   "ai_analysis": "",
   "ai_error": "未自动生成，点击按钮手动生成",
-  "ai_date": "2026-11-07"
+  "ai_date": "2026-11-08"
 }
