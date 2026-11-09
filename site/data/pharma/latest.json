@@ -1,68 +1,68 @@
 {
-  "date": "2026-11-08",
-  "hs300": 4054.28,
-  "hs300_chg": -1.44,
-  "med_etf": 0.393,
-  "med_etf_chg": -1.26,
+  "date": "2026-11-09",
+  "hs300": 4056.11,
+  "hs300_chg": 0.05,
+  "med_etf": 0.391,
+  "med_etf_chg": -0.61,
   "inn_etf": 0.837,
-  "inn_etf_chg": -1.65,
+  "inn_etf_chg": -0.6,
   "cxo_etf": 0.349,
-  "cxo_etf_chg": -2.24,
+  "cxo_etf_chg": -0.57,
   "tcm_etf": 0.912,
-  "tcm_etf_chg": -0.44,
+  "tcm_etf_chg": -0.11,
   "meddev_etf": 0.45,
-  "meddev_etf_chg": -1.32,
-  "vaccine_etf": 2.092,
-  "vaccine_etf_chg": -2.29,
+  "meddev_etf_chg": -0.89,
+  "vaccine_etf": 2.052,
+  "vaccine_etf_chg": -1.93,
   "hsi_health": 24481.86,
   "hsi_health_chg": 0.0,
   "hs_inn_etf": 1.239,
-  "hs_inn_etf_chg": -1.9,
+  "hs_inn_etf_chg": 1.69,
   "tnx": 4.86,
-  "usdcny": 6.688,
-  "excess": 0.0,
-  "north_money": 262593.3,
-  "north_date": "20261106",
+  "usdcny": 6.6727,
+  "excess": -0.66,
+  "north_money": 216236.4,
+  "north_date": "20261109",
   "news": [
     {
-      "date": "2026-11-08",
-      "text": "第八届连云港医药技术大会开幕 - 新华网江苏频道",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1WOE9WNUt6akRCUGV6SXBhQS10Q1FtRVdwTXdnUDItdm9qbFBBeDM2bmxSaXRXdE13QXQwY0d5UVJDdmJ6MXI1dVVrLVhlNVp5Q0NsUlhRd1FNU2lVcmtpaTFMcGJrTmlYQ2h5aTFOVVhJbUVW?oc=5"
+      "date": "2026-11-09",
+      "text": "四川发布医药健康产业供需对接清单，一批项目正式签约 - 四川新闻",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5kQVh5QVVjTHcxV3RIT05lbVdGdjlvZEpSdkYzU3pBckswRDg0SzQ0b0lCdVBmZURsZmJiQkgtV1Fmc1hxUDM2M3ZUZnRLVHl4UUN5OUlDR3p5emk0MjduZmc2Zw?oc=5"
     },
     {
-      "date": "2026-11-08",
-      "text": "进博现场，《浦东新区罕见病医药资源地图2026》发布 - 上观新闻",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nbzJZT3dNX0NLVVpoSEdhMmN5MnUtLWZSTDJCMjEteXJlUXBLUWVHOG5MT1ZjdE9vNjNFc0E1ZmpGQTNBQ3hpRzhMbHFIcl9HM0pVWUg2djV0QQ?oc=5"
+      "date": "2026-11-09",
+      "text": "创新药行业：ADC与CGT驶入“快车道”出海扩容与多元支付协同并进 - 凤凰网财经",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9KS2hlZzNLb1pDLTdXQkgyY3VXRm9fWVZOOE1rZzdZWHlpZUxjWGU0ZVFvNm5sdUtidzhGd1J1MVg2UnpHZnZOVUxfbWtsTVBv?oc=5"
     },
     {
-      "date": "2026-11-08",
-      "text": "直击进博会：25家药企借力AI布局商保准入，创新药被“精算”重新标价 - 每日经济新闻",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1Ydk1KWmZRR05Kd1h2bDJKTF8zWmFDQlN0VWFzdVBsWWNXeUdPQ1FPQU1RRjIybjF2a0tkRy1sWHBDdU5fNUxyUk8xT25kVTJBN1NhRkR2R2ljVHZ3YkoyQjVXRFlTdw?oc=5"
+      "date": "2026-11-09",
+      "text": "门头沟区第四届永定河中医药文化宣传活动举办 - 北京市人民政府门户网站",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE92TUdSdGgyb0dwQS1CZ1pkeFJubjlacWhlcG9tZ0swTlFOUVNnUUJDRzB6bE55dnVXWk12bGNoTWFXRGRRLWVrZ0lNTUJUSjJ3eXdyNmVuNEJjSHNHTmxKU01fMHJ5RVdoLThkM04yZ0JBNWZq?oc=5"
     },
     {
-      "date": "2026-11-08",
-      "text": "广西举办2027届医药健康产业类高校毕业生就业双向选择洽谈会 - 新华社广西分社",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVjRwbTRaMlZ5d0UtY1B5M09VZFFudUNfSVZhUExwVy1faXplejlIbW8zQ2x2MlVWV19lM2xxcVhIMkQzTFg3RE5OSkZkZ3hUdWQ3Z2pXdmFnc1M2NUlUZzdNaU1fZG1fRGdscklNempEb1Z5eFNyOTBqaVF0aEJod1dB?oc=5"
+      "date": "2026-11-09",
+      "text": "新华社消息丨《中医药传统知识保护条例》公布 - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOdGs5SE5udm80b21iMjhhR05VUmxQbWFXTWE1NGxkM0QyQXBnYmlfM1p6NzhxZXVINHpUX2Jfc0pZQjdvY3lwSHNyOW5hYzI2U3drMDhTZUIzNDZod1JYVFRHYlRnLVQ1MFpJaE5PWFJ4RkFRM0dDYUNieG91b0pDS3Z2cmYxRTlkbS0w?oc=5"
     },
     {
-      "date": "2026-11-08",
-      "text": "首届“文山三七”国际中医药产业大会举行省部共建三七产地市场在文山启幕- 中国日报网 - China Daily",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5DQmcyRi1FY1RkMEZPR2dzNGVzd0tPQ1Q4c0ZJSWp2c3dERUdzenNNU0xORUx1Rm5mV0xoSXVGcS1GM0hUM0hueGJlbUVBdmhCNXBEd21yZzhvMkhyd2hCbGIyb1dsWlVyVnVwYnBXNWYzbUxTSktRVExHMnE?oc=5"
+      "date": "2026-11-09",
+      "text": "创新药凭什么跑出加速度（人民时评） - 人民日报",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE82d2w5OEVKV3ZjdGF5VXZMMmlCVllHeHNtTFhPT1k1RU1SeGZFYm45anBWcElUWjJvYm4wdzVJd3JURGtKY2phdUV2SHF2cnhqSVVmSUNfQUJHZUhwTzc1Q0I5QmdaLWhET2llZHN2Y1BWcVVZeHZvRWMyX3Y4b0k?oc=5"
     },
     {
-      "date": "2026-11-08",
-      "text": "进博直击｜首发首展汇聚，医药展区展现本土研发力量 - ThePaper.cn",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5xd2xtaUdraXg1NlBGSEM0bkJJdUhVRUp4ZGJDaXIzeEZKWDdkb2tmcXZ6VDhEN3lpUWVVLTQ4MVRxYWxQWDhTR0ozS01FTGZVYTFNT1VDaUVHRS1DNU5iaQ?oc=5"
+      "date": "2026-11-09",
+      "text": "破壁、融合与出海：探寻中医药协同发展的“湾区样本” - 香港中联办",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE00MDBjNGtIT1hCVm9fUmp3RlBENTc4dURDRzdqQUV5NUJjQjQyZlhTLVJJR0QyR0lyeFhnZzRZUXRaQ0FaS0tVQl9EcnZ1NTI1b2NEdFhOeVMyV2hZaF96clE0NWtYYU1Na0MzQW5SM1BRa0F5UDlUeE45Nk9xdw?oc=5"
     },
     {
-      "date": "2026-11-08",
-      "text": "医药生物行业周报：减重代谢市场继续扩容，口服药物贡献新增量_行业研究_研报 - 证券之星",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBFZFFSclZZbWQtZUVIX3FGbFdRTnJPUGFZWGJyUHNrQmtvNjVHSVRfQjVTbG96QjFxMGhzcWJIQldOYWd6c2s0a2k1UUdIR0RjRXo4VUd4XzA0SWZ4MmZ4alVn?oc=5"
+      "date": "2026-11-09",
+      "text": "广州医药募资上限拟“翻倍”升至60亿 白云山持股或降至53.23% - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9fZlJQU2tpSDRSTnV5M3FWa19YVFZIdlZ6SGdPQW1pZ2xiMmlGeThrMDZLUk1wOVQyYlNIUi12b2ZJY1NYUGhGdG5pNkxuRHpWN0dERklSM0hkRjUxUE9iWS0yRQ?oc=5"
     },
     {
-      "date": "2026-11-08",
-      "text": "进博传真 | 为生物医药新基建提供支撑，我国原创制冷技术突破 - 广州日报新花城",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNRHBEUUdVb3ZJcXV1aUtYNDdTQm4walhoYmoyVjl6NzZpTXRuQ1ptLVJ3aXdaMEhWNzRiOFRYa2hsRWJqZkN3UnM1YVdrWWxsMFFibW1vSGZ0OXdKZVZJTU5iWHg5UkxGVV9qZ3Rsb3BvVlY0SHFRLXI3MmQ0dkktMEZEQVB0VUdiZnc?oc=5"
+      "date": "2026-11-09",
+      "text": "《中医药传统知识保护条例》公布 - 中国新闻网",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAxN2hrYmVKVkJJajUtbkpGQXllaXJYVWxzWHNpS0wtM1pVNkl3akN1T2pXM080YlRzNkd0Y3VuQmkxS2M5RlJsR3Z4LTBKc2Q0eEJYNkF4X011c3pXZ0x1TmVYcnE3RWR0?oc=5"
     }
   ],
   "ai_analysis": "",

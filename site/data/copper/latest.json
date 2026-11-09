@@ -1,52 +1,52 @@
 {
-  "date": "2026-11-08",
-  "copper": 6.26,
-  "copper_chg": 0.7564783518429152,
-  "ma20": 6.536499999999999,
-  "ma50": 6.6048,
-  "dxy": 102.3,
-  "vix": 25.639999389648438,
-  "tnx": 4.859000205993652,
-  "wti": 90.34,
-  "cu_oil_ratio": 152.76645118441442,
-  "shfe_cu": 104260.0,
-  "shfe_cu_date": "2026-11-06",
-  "shfe_lme_ratio": 1.049,
+  "date": "2026-11-09",
+  "copper": 6.374,
+  "copper_chg": 1.821086261980831,
+  "ma20": 6.516975,
+  "ma50": 6.598500000000001,
+  "dxy": 101.66,
+  "vix": 19.920000076293945,
+  "tnx": 4.863999843597412,
+  "wti": 85.96,
+  "cu_oil_ratio": 163.47426570497905,
+  "shfe_cu": 105500.0,
+  "shfe_cu_date": "2026-11-09",
+  "shfe_lme_ratio": 1.043,
   "lme_stock": 296625,
   "lme_stock_date": "2026-07-17",
-  "shfe_stock": 4327,
-  "shfe_stock_chg": -2247,
-  "shfe_stock_date": "2026-11-06",
+  "shfe_stock": 2844,
+  "shfe_stock_chg": -1483,
+  "shfe_stock_date": "2026-11-09",
   "lymy": 13.29,
-  "lymy_chg": -5.14,
+  "lymy_chg": 0.0,
   "tl": 4.89,
-  "tl_chg": -2.98,
+  "tl_chg": 0.0,
   "jxt": 32.23,
-  "jxt_chg": -4.64,
-  "cper": 37.67,
-  "cper_chg": 0.83,
-  "copx": 71.25,
-  "copx_chg": 1.45,
+  "jxt_chg": 0.0,
+  "cper": 38.4,
+  "cper_chg": 1.95,
+  "copx": 75.68,
+  "copx_chg": 6.22,
   "signals": [
     {
       "name": "铜价低于MA20",
       "dir": "bear",
-      "text": "$6.26 < MA20 $6.54"
+      "text": "$6.37 < MA20 $6.52"
     },
     {
       "name": "美元中性",
       "dir": "neutral",
-      "text": "DXY 102.30"
+      "text": "DXY 101.66"
     },
     {
-      "name": "避险升温",
-      "dir": "bear",
-      "text": "VIX 25.6 > 25，风险偏好下降"
+      "name": "风险偏好正常",
+      "dir": "neutral",
+      "text": "VIX 19.9"
     },
     {
       "name": "铜油比偏高",
       "dir": "bull",
-      "text": "铜油比 152.8，工业景气预期强"
+      "text": "铜油比 163.5，工业景气预期强"
     },
     {
       "name": "利率环境友好",
@@ -54,8 +54,14 @@
       "text": "10Y 4.86%"
     }
   ],
-  "score": 0,
+  "score": 1,
   "news": [
+    {
+      "date": "2026-11-03",
+      "text": "Five Metals Producers Trade Higher as Gold, Silver and Copper Futures Pull Back",
+      "src": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPUkJVWWg1WUdXdkxxUjRRam41T1NFSFpwRXh2bk9KNmRtTk1zZVhnZ1luOTJlbGhwdy0yTERfc3pSWW02VEdkZnZZYUtRbTJ5WjBRVkFVZ09VNmNiOVU3NzU5eTU0NTJsZlY5UmJSTzc0M244eWVNZlA2d3h5SjBIMWQza3JFS3lRd3d3SUNSUDlvTGFNanJXZmh3UUV4ZHVLSDZLY1ExX0tRT1BITTBjMElrQUtQRENRenU0MDVQWHcxTkh4aEVhanhyT3ktR3BRUm5JWkd3?oc=5"
+    },
     {
       "date": "2026-11-08",
       "text": "Copper Price Falls To Lowest Level In Months, Outlook Shifts",
@@ -64,9 +70,15 @@
     },
     {
       "date": "2026-11-07",
-      "text": "Gold Co. Extends Cabot Trend to 850m+ Amid Expanded District Activity",
+      "text": "Critical Minerals Co. Completes IP Survey Near Hudbay's Copper Mountain Project in British Columbia",
       "src": "Streetwise Reports",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPRjdiS01NeTY3aGxRZ3hsMmptbWEydVZHMjFFeWNtRmJ3bFNKaFg2NnZyYnFDeHlTQ3lGOFhuSzhfQ0lSYXNOX2xyeWl2RXA4OVcyRzJ5VUlpTWtZRzlqRDFFQ28tUmVKRUV4RndSN3RYVWdvbWdpZU1TamM2eHFWeDBrNEU4Y1BZZ2FCQ0R2bVl4WU5YZnFFS041NkNUV1FOZS0xYndQV0FKbmY1NkhKY1lFYTVrUzhHV1hFV003NnV2d28?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOVmZGOC1CLWJUNlV3V0lpcC1STTA1VDdJYkstUnVUY004UktIYzZNQmdXUnRmRGpCLWVTSjZ1bVlKdmZ4ZUZjeUx6TkJPYkMwWVlWNkl0NFY5VEt2VkVxOGttNXJHUl9ZLWxrRzJBTVVSWS0yS05Ud1AydDdFN3FXVURXemVIeC1VdW1SVk5PUEgxM0tBTnB0ektLLXlPS3d3d1J2aGVzaUlQYTFUd1ctclNfMmJXSXl1QWc5NUNEdTFkVVM5djA1dzV3VlIzd0o3Z3dJUWJ4RlJTYkNoc1hPSUN2d1JfZVdJYi1N?oc=5"
+    },
+    {
+      "date": "2026-11-05",
+      "text": "Democrats’ win: US mining agenda and permitting timelines explained for engineers",
+      "src": "Geomechanics.io",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPc0d0YkMtUFJTN2dmU2lGMFNDUkdFQ3R3c01xbzItdFVlaERsTmF1cF9KUVFrOEc1QUpJU014YUp1WndXLUFjaDYtZXlzZXFXa2NNNW9DVFNsV0hMMkpwYnN4bnI3X1o0M2dncUFYRlI5YnBnUUNGTlZnZC1hTlhaNkliQ05aVXp3SndrT0Vjb2FZY2FIQXdTX2RSdW1sMlNiTzBZbkpQQ25pcDkwc2E0UG5jUnRWd1k4Tmk1Ng?oc=5"
     },
     {
       "date": "2026-11-04",
@@ -76,24 +88,12 @@
     },
     {
       "date": "2026-11-05",
-      "text": "Democrats’ win: US mining agenda and permitting timelines explained for engineers",
-      "src": "Geomechanics.io",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPc0d0YkMtUFJTN2dmU2lGMFNDUkdFQ3R3c01xbzItdFVlaERsTmF1cF9KUVFrOEc1QUpJU014YUp1WndXLUFjaDYtZXlzZXFXa2NNNW9DVFNsV0hMMkpwYnN4bnI3X1o0M2dncUFYRlI5YnBnUUNGTlZnZC1hTlhaNkliQ05aVXp3SndrT0Vjb2FZY2FIQXdTX2RSdW1sMlNiTzBZbkpQQ25pcDkwc2E0UG5jUnRWd1k4Tmk1Ng?oc=5"
-    },
-    {
-      "date": "2026-11-05",
       "text": "The Durability of Trump’s Mining Agenda Faces a Test",
       "src": "NAI500",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQQmJtZ005Wmd1Vmx6ZGdYVy03RkhjbkUySVRFV0E3WVUwQ3dDSU9OMDlRTFpCQU9sOW5MZHpXWTRxSnJPalJaZnFiZ2t1UTJ5SmtCUmtyakdFR3FJVEFaOHlNcWlBQ1dpOHBjNDVwQWc5TFVNXzZBVDh5RkZJSFJubG1pcHJDdU5HYnVaRg?oc=5"
-    },
-    {
-      "date": "2026-11-07",
-      "text": "Critical Minerals Co. Completes IP Survey Near Hudbay's Copper Mountain Project in British Columbia",
-      "src": "Streetwise Reports",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOVmZGOC1CLWJUNlV3V0lpcC1STTA1VDdJYkstUnVUY004UktIYzZNQmdXUnRmRGpCLWVTSjZ1bVlKdmZ4ZUZjeUx6TkJPYkMwWVlWNkl0NFY5VEt2VkVxOGttNXJHUl9ZLWxrRzJBTVVSWS0yS05Ud1AydDdFN3FXVURXemVIeC1VdW1SVk5PUEgxM0tBTnB0ektLLXlPS3d3d1J2aGVzaUlQYTFUd1ctclNfMmJXSXl1QWc5NUNEdTFkVVM5djA1dzV3VlIzd0o3Z3dJUWJ4RlJTYkNoc1hPSUN2d1JfZVdJYi1N?oc=5"
     }
   ],
   "ai_analysis": "",
   "ai_error": "未自动生成，点击按钮手动生成",
-  "ai_date": "2026-11-08"
+  "ai_date": "2026-11-09"
 }

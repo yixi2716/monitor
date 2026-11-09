@@ -1,19 +1,19 @@
 {
-  "date": "2026-11-06",
-  "hs300": 4054.28,
-  "hs300_chg": -1.44,
-  "solar_etf": 0.748,
-  "solar_etf_chg": -1.19,
-  "newenergy_etf": 2.092,
-  "newenergy_etf_chg": -2.29,
-  "storage_etf": 1.517,
-  "storage_etf_chg": -2.94,
+  "date": "2026-11-09",
+  "hs300": 4056.11,
+  "hs300_chg": 0.05,
+  "solar_etf": 0.734,
+  "solar_etf_chg": -1.87,
+  "newenergy_etf": 2.052,
+  "newenergy_etf_chg": -1.91,
+  "storage_etf": 1.486,
+  "storage_etf_chg": -2.04,
   "tnx": 4.86,
-  "usdcny": 6.688,
-  "excess": 0.25,
-  "dd_from_high": 0.3677,
+  "usdcny": 6.6727,
+  "excess": -1.92,
+  "dd_from_high": 0.3795,
   "pb_ratio": 0.0,
-  "turnover_ratio": 2.07,
+  "turnover_ratio": 1.857,
   "stocks": {
     "tongwei": {
       "close": null,
@@ -46,44 +46,44 @@
   },
   "news": [
     {
-      "date": "2026-11-08",
-      "text": "电报解读 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBKQWdPNGJYdkcxUk5aeUJ6dG9XQnNYNjBNekQzZ0tsWm5JZE1lZERuT0RRc0hrSk1obnBWU1BScnZYcDc0YkxfQw?oc=5"
+      "date": "2026-11-09",
+      "text": "最新财新周刊｜光伏触底 - 财新周刊",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5yWjdIUUhPSlNWRUVsZDYwUFZVNkJhSHlpLUN0ZE5hMW40aG9VN003MFhHalNxMGdEa0owVDFCQzgtUzdXTmtONFVmUk5NcUlIenNkUnI5aVR3QUpFNVBBUg?oc=5"
     },
     {
-      "date": "2026-11-08",
-      "text": "光伏概念引爆贝特利周涨80%；奥精医疗涉嫌财务造假被立案周跌逾52%丨透视一周牛熊股 - 证券之星",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ScEY2Z2NEWmJBOFhrNk9oeTN1WkNFcGdlcHN2QXhKVlMwaUhtS3hFZU1ybWg1NUk4clprbUpiQXdscUZQdUkyeU9CTmFLYVJJNDRkQ0xfSm4yYTdEQlltWTd3?oc=5"
+      "date": "2026-11-09",
+      "text": "印度光伏装机容量有望在2030年前突破350吉瓦，IEA称 - pv magazine China",
+      "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxQQllXVmhOSllBbUNYR1JOV3dPMTUwXzRlaWtCZHpILWtvQXowUzNUc2QzT0c0c0M2YXYwR09pcnM3M1Ztc1lqQkUyZjR2QUhyd1RXVHQ0VFN6dXd4ZWVaV3dsdG5PbGxURXZNT3QzUi1nNTdRWVllV2VyMTBmOHQ1eTJvbE45LTRRemVrcEs5N2RwSHRwVndlZE5zaVlDaDItQ0k3bVA3bFBybjU1T1BMVUpRanZneThzMTZQZGU2VkZCdDRhd2xQN3lhbHB4U2NVYm1fSFJ1VUFJS1hGeXd2TXV6UGFtWHBMVFFOaFVMeGhtWnA5NW1tbnFGeG10MWhKMWMwOFk1Rkl2eUJGcmk4di1xS3pEaGtjNHcxcU5JbU4tbDJNcmxVUnN4MHI1OERSUFgwZzFUTkdsV3N4b0lzQnJxaFMzVGd6ZmxV?oc=5"
     },
     {
-      "date": "2026-11-08",
-      "text": "2030年大湾区将大规模接入清洁能源 1亿千瓦光伏入粤 - 中国新闻网",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5pVkZsOUE5V1ljbFdlamZmMkltOE9GcWk0UWQxYWJRaGszYmY3WUJuLW5faDdyeG16MDc1SkV3RWQ4OFg3TVlObDRtbjFhV3BPN3NxZWNSOEoxbkNaYThKUnVZSlhKcGdhSkE?oc=5"
+      "date": "2026-11-09",
+      "text": "牛股产业链丨贝特利“三连板”后回落 光伏板块反弹成色几何？ - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE84ODhnaVEwMG9fT3FObmtpbFJUMWQ1b1lGaHhPZGRzc1FianhDdEZtUnZPdVhEY0FoaFA4QTlaWkNZY2MxcEMyNFlSSUp1WVJkd2VDN1kyTWl0aEs1U3hJbjRNNA?oc=5"
     },
     {
-      "date": "2026-11-08",
-      "text": "多投1.4亿元，只为不惊扰候鸟栖息 - 上观新闻",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9RbE1lMUN2b1J3T3l1SlJtbFF1Uy10WHZ5c3hkOV9lMTVFb0RQRnNBZjd5dGhQSUtEVjFxU2FwSWIwalg3ZUwxR3JiaFhUSTRsR1BRVklwLURZQQ?oc=5"
+      "date": "2026-11-09",
+      "text": "华能广东能源销售5.8MW光伏长廊项目备案获批 总投资1740万元 - 观点网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBLRXFyMk5DazNMN1lIOWNNMFhyNUZITWt6dzhBM0hyRS1ET3AwMVFSNkh2aklEUnJwalZ2Smg5eV81RlY4ZEtWX2hjckEzTURWMzdrd1ZZOVMtWG9jRy1MWUNB?oc=5"
     },
     {
-      "date": "2026-11-08",
-      "text": "卖卡牌的“95后”，要当37亿光伏上市公司老板了？ - 搜狐网",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNZmk5U2I3N2pMVkRwWGRXVnJZSHdfZ0ZfVFpPUFhCQVhjcVRzSUFadXBEZUFDazNPelR5TVg0bUZyd20wUHBzQl9oOGs4YXhMbHU1RTRGSk9YNnRYTWl6VHYtMVU4NFBpck4zdmVGa3RLZGtHbkczUWlzTk5BLXFGRWpHb21JMjZoLVM5dA?oc=5"
+      "date": "2026-11-09",
+      "text": "头部光伏密集减亏 - 国际金融报",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBmNkZiUFFYdy1OcTlBNWptc3Q1WF9rRk03OVRJUjA4Z21uTDZaUGxwWXQzT2xQVVR6eU9xWGFXbU4wVGY4MjlmeERSalJ4VTdFVFNlMmh3VS13QWhVNzU4?oc=5"
     },
     {
-      "date": "2026-11-08",
-      "text": "微软要改Win11核心组件了：淘汰Win95祖传风格、注册表全面WinUI3化 - 驱动之家",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1tamZ1TUJ3UEFrdG1aLWdqOV9tZVc5dXlua1FoOUdEbVhla2JjS3JuMjdseU1CcHJmSVFDdXFBVFNRQXRGX1BDdUNMaWJwSjZuUTFkd1FKXzg?oc=5"
+      "date": "2026-11-09",
+      "text": "昱能科技(688348.SH)：目前美国插电式光伏市场尚处于政策落地、标准体系完善和产品导入的早期阶段 - 证券之星",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8wdUc5XzlkdS1jY2paMnN5eW5DdVVYNXl0TUpXRmJvR2ZDdzduNnlfbG1reVRKNzZHcWlOSzVLazFUdElkR0laaUhtWnF6UEtwMXRxMk8zckJjX2ZCQUEzLQ?oc=5"
     },
     {
-      "date": "2026-11-08",
-      "text": "基于FMEA的太阳能光伏系统可靠性与维护调度分析：乌干达兰戈地区案例研究 - 生物通",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9YQkNxakllU2tjNWNhTXZsX2tHOTRFVllCV1plNFFXVkhKbnNtcTFmY09ta3BkY2dLVXpVcWdTLWdSZnRCOFJlODdGZEpOMWtLXzNIVEs1Tm9BQkRYU3RtaFJ3Nm9BQjJmWTE3Z01R?oc=5"
+      "date": "2026-11-09",
+      "text": "“极高渗透率分布式光伏发电自适应并网与主动支撑系统” 入选国家能源局首台（套）重大技术装备名单 - 搜狐网",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOQmphemNZdDgteHNzZnh2OHBlenFBaHJjVE9ZM3JkVHQ4MTRha0RsMENVSVlTN0pMMFB6VUplT0RlQjJvWWxHODJySUhhcUdCdlVwdXpnR2FNemlKQzRkWUU5SUZVaDhQbV8tLWlzM3ZJNzhUbTJ3cWc2SWVuRVJmTkVLODU4SWJQREljeg?oc=5"
     },
     {
-      "date": "2026-11-08",
-      "text": "零碳中国｜“碳关税”扩容，出海企业的碳账单怎么算？ - 中国财富网",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBmZUh2aXVrM00zVlk0RkQwck9lc01DSFFuTE5HQ09BdHpJUWNsUDFfUVNrMXZfSzNmMFE2aVBPNWFkTkZmdkN1ZmdDcHg5VllNYXVpaEV4RXU5Ynl4bG1KWkZTV2RfV3hEUHJV?oc=5"
+      "date": "2026-11-09",
+      "text": "贵州望谟县蔗香光伏电站EPC项目首批光伏方阵顺利实现并网发电 - 国际太阳能光伏网",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9UcGJ2OXkwanNjTGRua0M2M2tXM1EzV21RMVBEdGZkM0FhZ0kzZ0R0RDlvTTMyNlRUaDh0eU9aanRGci0tWDYzTDUzakg4MDlpeWNtaGtTYmh2ZnRW?oc=5"
     }
   ],
   "ai_analysis": "",
