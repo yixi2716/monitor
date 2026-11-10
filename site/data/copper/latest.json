@@ -1,67 +1,61 @@
 {
-  "date": "2026-11-09",
-  "copper": 6.374,
-  "copper_chg": 1.821086261980831,
-  "ma20": 6.516975,
-  "ma50": 6.598500000000001,
-  "dxy": 101.66,
-  "vix": 19.920000076293945,
-  "tnx": 4.863999843597412,
-  "wti": 85.96,
-  "cu_oil_ratio": 163.47426570497905,
-  "shfe_cu": 105500.0,
-  "shfe_cu_date": "2026-11-09",
-  "shfe_lme_ratio": 1.043,
+  "date": "2026-11-10",
+  "copper": 6.2275,
+  "copper_chg": -2.428515471993742,
+  "ma20": 6.492425,
+  "ma50": 6.592540000000001,
+  "dxy": 102.36,
+  "vix": 20.739999771118164,
+  "tnx": 5.013000011444092,
+  "wti": 86.5,
+  "cu_oil_ratio": 158.7198965317919,
+  "shfe_cu": 105460.0,
+  "shfe_cu_date": "2026-11-10",
+  "shfe_lme_ratio": 1.067,
   "lme_stock": 296625,
   "lme_stock_date": "2026-07-17",
-  "shfe_stock": 2844,
-  "shfe_stock_chg": -1483,
-  "shfe_stock_date": "2026-11-09",
-  "lymy": 13.29,
+  "shfe_stock": 2520,
+  "shfe_stock_chg": -324,
+  "shfe_stock_date": "2026-11-10",
+  "lymy": 13.56,
   "lymy_chg": 0.0,
   "tl": 4.89,
   "tl_chg": 0.0,
-  "jxt": 32.23,
+  "jxt": 32.38,
   "jxt_chg": 0.0,
-  "cper": 38.4,
-  "cper_chg": 1.95,
-  "copx": 75.68,
-  "copx_chg": 6.22,
+  "cper": 37.5,
+  "cper_chg": -2.42,
+  "copx": 72.34,
+  "copx_chg": -3.87,
   "signals": [
     {
       "name": "铜价低于MA20",
       "dir": "bear",
-      "text": "$6.37 < MA20 $6.52"
+      "text": "$6.23 < MA20 $6.49"
     },
     {
       "name": "美元中性",
       "dir": "neutral",
-      "text": "DXY 101.66"
+      "text": "DXY 102.36"
     },
     {
       "name": "风险偏好正常",
       "dir": "neutral",
-      "text": "VIX 19.9"
+      "text": "VIX 20.7"
     },
     {
       "name": "铜油比偏高",
       "dir": "bull",
-      "text": "铜油比 163.5，工业景气预期强"
+      "text": "铜油比 158.7，工业景气预期强"
     },
     {
-      "name": "利率环境友好",
-      "dir": "bull",
-      "text": "10Y 4.86%"
+      "name": "实际利率高企",
+      "dir": "bear",
+      "text": "10Y 5.01%，压制金属估值"
     }
   ],
-  "score": 1,
+  "score": -1,
   "news": [
-    {
-      "date": "2026-11-03",
-      "text": "Five Metals Producers Trade Higher as Gold, Silver and Copper Futures Pull Back",
-      "src": "TradingView",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPUkJVWWg1WUdXdkxxUjRRam41T1NFSFpwRXh2bk9KNmRtTk1zZVhnZ1luOTJlbGhwdy0yTERfc3pSWW02VEdkZnZZYUtRbTJ5WjBRVkFVZ09VNmNiOVU3NzU5eTU0NTJsZlY5UmJSTzc0M244eWVNZlA2d3h5SjBIMWQza3JFS3lRd3d3SUNSUDlvTGFNanJXZmh3UUV4ZHVLSDZLY1ExX0tRT1BITTBjMElrQUtQRENRenU0MDVQWHcxTkh4aEVhanhyT3ktR3BRUm5JWkd3?oc=5"
-    },
     {
       "date": "2026-11-08",
       "text": "Copper Price Falls To Lowest Level In Months, Outlook Shifts",
@@ -75,12 +69,6 @@
       "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOVmZGOC1CLWJUNlV3V0lpcC1STTA1VDdJYkstUnVUY004UktIYzZNQmdXUnRmRGpCLWVTSjZ1bVlKdmZ4ZUZjeUx6TkJPYkMwWVlWNkl0NFY5VEt2VkVxOGttNXJHUl9ZLWxrRzJBTVVSWS0yS05Ud1AydDdFN3FXVURXemVIeC1VdW1SVk5PUEgxM0tBTnB0ektLLXlPS3d3d1J2aGVzaUlQYTFUd1ctclNfMmJXSXl1QWc5NUNEdTFkVVM5djA1dzV3VlIzd0o3Z3dJUWJ4RlJTYkNoc1hPSUN2d1JfZVdJYi1N?oc=5"
     },
     {
-      "date": "2026-11-05",
-      "text": "Democrats’ win: US mining agenda and permitting timelines explained for engineers",
-      "src": "Geomechanics.io",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPc0d0YkMtUFJTN2dmU2lGMFNDUkdFQ3R3c01xbzItdFVlaERsTmF1cF9KUVFrOEc1QUpJU014YUp1WndXLUFjaDYtZXlzZXFXa2NNNW9DVFNsV0hMMkpwYnN4bnI3X1o0M2dncUFYRlI5YnBnUUNGTlZnZC1hTlhaNkliQ05aVXp3SndrT0Vjb2FZY2FIQXdTX2RSdW1sMlNiTzBZbkpQQ25pcDkwc2E0UG5jUnRWd1k4Tmk1Ng?oc=5"
-    },
-    {
       "date": "2026-11-04",
       "text": "Democrats’ win puts US mining agenda under scrutiny",
       "src": "Mining.com",
@@ -91,9 +79,21 @@
       "text": "The Durability of Trump’s Mining Agenda Faces a Test",
       "src": "NAI500",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQQmJtZ005Wmd1Vmx6ZGdYVy03RkhjbkUySVRFV0E3WVUwQ3dDSU9OMDlRTFpCQU9sOW5MZHpXWTRxSnJPalJaZnFiZ2t1UTJ5SmtCUmtyakdFR3FJVEFaOHlNcWlBQ1dpOHBjNDVwQWc5TFVNXzZBVDh5RkZJSFJubG1pcHJDdU5HYnVaRg?oc=5"
+    },
+    {
+      "date": "2026-11-05",
+      "text": "Democrats’ win: US mining agenda and permitting timelines explained for engineers",
+      "src": "Geomechanics.io",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPc0d0YkMtUFJTN2dmU2lGMFNDUkdFQ3R3c01xbzItdFVlaERsTmF1cF9KUVFrOEc1QUpJU014YUp1WndXLUFjaDYtZXlzZXFXa2NNNW9DVFNsV0hMMkpwYnN4bnI3X1o0M2dncUFYRlI5YnBnUUNGTlZnZC1hTlhaNkliQ05aVXp3SndrT0Vjb2FZY2FIQXdTX2RSdW1sMlNiTzBZbkpQQ25pcDkwc2E0UG5jUnRWd1k4Tmk1Ng?oc=5"
+    },
+    {
+      "date": "2026-11-08",
+      "text": "Critical Minerals Report: Two Elections and Two Deadlines Changed the Arithmetic for Western Supply",
+      "src": "InvestorNews",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOWW9Rc29kMmRHVW9Uc2J5ZUUyWjVLNGR4ZWdTTktFOEt5Wk5senUyQ0s2ZXRxbGJrTEozTE53WUxtd1NOY1UyTmdDUkl1S0Q2YVRTYWF2d2V1Y0xfVEozSmNtX3VmWEtrN0NHdEhLWmdZT2NySjJITVFHSGc0U0E5eGViZWZweWUyU3lGZDlCV0RtQVJGcnhXeTNuMW0tNkdVdnVaTUNvNWl3RTIzOVVHZWZ3UTNmcFZjRmJMeWJNSV9KVS1nbHpVVkkybURLRlFhc19DbGg5bGpRdWlpOUdPQmN0X0hUY0tZT3c?oc=5"
     }
   ],
   "ai_analysis": "",
   "ai_error": "未自动生成，点击按钮手动生成",
-  "ai_date": "2026-11-09"
+  "ai_date": "2026-11-10"
 }
