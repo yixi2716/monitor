@@ -1,60 +1,60 @@
 {
-  "date": "2026-11-10",
-  "copper": 6.2275,
-  "copper_chg": -2.428515471993742,
-  "ma20": 6.492425,
-  "ma50": 6.592540000000001,
-  "dxy": 102.36,
-  "vix": 20.739999771118164,
-  "tnx": 5.013000011444092,
-  "wti": 86.5,
-  "cu_oil_ratio": 158.7198965317919,
-  "shfe_cu": 105460.0,
-  "shfe_cu_date": "2026-11-10",
-  "shfe_lme_ratio": 1.067,
+  "date": "2026-11-11",
+  "copper": 6.30049991607666,
+  "copper_chg": 1.3023530891909774,
+  "ma20": 6.449000000953674,
+  "ma50": 6.533360004425049,
+  "dxy": 102.94400024414062,
+  "vix": 17.709999084472656,
+  "tnx": 4.998000144958496,
+  "wti": 87.02999877929688,
+  "cu_oil_ratio": 159.60253153864454,
+  "shfe_cu": 105820.0,
+  "shfe_cu_date": "2026-11-11",
+  "shfe_lme_ratio": 1.058,
   "lme_stock": 296625,
   "lme_stock_date": "2026-07-17",
   "shfe_stock": 2520,
-  "shfe_stock_chg": -324,
-  "shfe_stock_date": "2026-11-10",
-  "lymy": 13.56,
+  "shfe_stock_chg": 0,
+  "shfe_stock_date": "2026-11-11",
+  "lymy": 13.71,
   "lymy_chg": 0.0,
-  "tl": 4.89,
+  "tl": 4.95,
   "tl_chg": 0.0,
-  "jxt": 32.38,
+  "jxt": 32.8,
   "jxt_chg": 0.0,
-  "cper": 37.5,
-  "cper_chg": -2.42,
-  "copx": 72.34,
-  "copx_chg": -3.87,
+  "cper": 37.94,
+  "cper_chg": 0.53,
+  "copx": 73.77,
+  "copx_chg": 1.24,
   "signals": [
     {
       "name": "铜价低于MA20",
       "dir": "bear",
-      "text": "$6.23 < MA20 $6.49"
+      "text": "$6.30 < MA20 $6.45"
     },
     {
       "name": "美元中性",
       "dir": "neutral",
-      "text": "DXY 102.36"
+      "text": "DXY 102.94"
     },
     {
       "name": "风险偏好正常",
       "dir": "neutral",
-      "text": "VIX 20.7"
+      "text": "VIX 17.7"
     },
     {
       "name": "铜油比偏高",
       "dir": "bull",
-      "text": "铜油比 158.7，工业景气预期强"
+      "text": "铜油比 159.6，工业景气预期强"
     },
     {
-      "name": "实际利率高企",
-      "dir": "bear",
-      "text": "10Y 5.01%，压制金属估值"
+      "name": "利率环境友好",
+      "dir": "bull",
+      "text": "10Y 5.00%"
     }
   ],
-  "score": -1,
+  "score": 1,
   "news": [
     {
       "date": "2026-11-08",
@@ -87,13 +87,13 @@
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPc0d0YkMtUFJTN2dmU2lGMFNDUkdFQ3R3c01xbzItdFVlaERsTmF1cF9KUVFrOEc1QUpJU014YUp1WndXLUFjaDYtZXlzZXFXa2NNNW9DVFNsV0hMMkpwYnN4bnI3X1o0M2dncUFYRlI5YnBnUUNGTlZnZC1hTlhaNkliQ05aVXp3SndrT0Vjb2FZY2FIQXdTX2RSdW1sMlNiTzBZbkpQQ25pcDkwc2E0UG5jUnRWd1k4Tmk1Ng?oc=5"
     },
     {
-      "date": "2026-11-08",
-      "text": "Critical Minerals Report: Two Elections and Two Deadlines Changed the Arithmetic for Western Supply",
-      "src": "InvestorNews",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOWW9Rc29kMmRHVW9Uc2J5ZUUyWjVLNGR4ZWdTTktFOEt5Wk5senUyQ0s2ZXRxbGJrTEozTE53WUxtd1NOY1UyTmdDUkl1S0Q2YVRTYWF2d2V1Y0xfVEozSmNtX3VmWEtrN0NHdEhLWmdZT2NySjJITVFHSGc0U0E5eGViZWZweWUyU3lGZDlCV0RtQVJGcnhXeTNuMW0tNkdVdnVaTUNvNWl3RTIzOVVHZWZ3UTNmcFZjRmJMeWJNSV9KVS1nbHpVVkkybURLRlFhc19DbGg5bGpRdWlpOUdPQmN0X0hUY0tZT3c?oc=5"
+      "date": "2026-11-05",
+      "text": "Global Commodities Roundup: Market Talk",
+      "src": "Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNendXOFJlVGZvYjRVVGdZSlp2ZXJmcndxLUIyZ2FpVm4wR3ptZ0RhSmtCYVBSVmdRMl9hWFFsVVVNV0pzN3J6ZlY5dUZDYjkzYTZjX3R2VWlMXzdVRjl5UEE2RnZtOTdEYmZuX1dTZXFtVlQ5WTNoTUY1R0JOb2VseU44ejBSXzhRaHQ1OEV3?oc=5"
     }
   ],
   "ai_analysis": "",
   "ai_error": "未自动生成，点击按钮手动生成",
-  "ai_date": "2026-11-10"
+  "ai_date": "2026-11-11"
 }

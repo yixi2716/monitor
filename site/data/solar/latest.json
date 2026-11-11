@@ -1,19 +1,19 @@
 {
-  "date": "2026-11-10",
-  "hs300": 4059.11,
-  "hs300_chg": 0.07,
-  "solar_etf": 0.74,
-  "solar_etf_chg": 0.82,
-  "newenergy_etf": 2.058,
-  "newenergy_etf_chg": 0.29,
-  "storage_etf": 1.499,
-  "storage_etf_chg": 0.87,
-  "tnx": 5.01,
-  "usdcny": 6.6677,
-  "excess": 0.75,
-  "dd_from_high": 0.3745,
-  "pb_ratio": 0.0,
-  "turnover_ratio": 1.385,
+  "date": "2026-11-11",
+  "hs300": 4075.71,
+  "hs300_chg": 0.41,
+  "solar_etf": 0.73,
+  "solar_etf_chg": -1.35,
+  "newenergy_etf": 2.049,
+  "newenergy_etf_chg": -0.44,
+  "storage_etf": 1.514,
+  "storage_etf_chg": 1.0,
+  "tnx": 5.0,
+  "usdcny": 6.6622,
+  "excess": -1.76,
+  "dd_from_high": 0.3829,
+  "pb_ratio": 0.0345,
+  "turnover_ratio": 1.422,
   "stocks": {
     "tongwei": {
       "close": null,
@@ -46,44 +46,44 @@
   },
   "news": [
     {
-      "date": "2026-11-10",
-      "text": "“卡牌新贵”骑形网络拟6.8亿入主“光伏老兵”亚玛顿 - 新京报",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0tdTJ5TjJzTDhQaTNTLWhCV2JqajdNVXV2TUFHYld1U1A4cmgzSGhHcGM5U0FUbzBMR0k0UUpHSlE0SGl2Zlh3Z2gwVDFJOFBkYUpjeDlsMTRXN1U2ekN4Z1FpMjc?oc=5"
+      "date": "2026-11-11",
+      "text": "潮玩卡牌公司6.8亿入主亏损光伏企业，两连板的亚玛顿回应 - 新京报",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1reDFJUVFlOE5Rd3pfMmZRV0xTYkZHTERQN0xlT3RGYzFFQzhhZXpiVU93aVZRdnlaV1dBTDBNU243RnRLcDNGQnY0M3hzTWFVbks5STVDMGtvNW9WOTZBdnNodk8?oc=5"
     },
     {
-      "date": "2026-11-10",
-      "text": "六家光伏龙头海外签约规模突破7GW 9月国内装机13.64GW - 观点网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1BdWQydXRTNE1sUkJ2VURnaF9WaUR0QXhpYlF5em94ci15Q2EwQ0NRZ0xIX1kzRlRCSXZmRC1KUS1BblBnS0g5WXJyNXdJdUEyamZQdGc2TXZYNFdCdVBtNVFR?oc=5"
+      "date": "2026-11-11",
+      "text": "云南100MW光伏项目竞配启动 - 国际太阳能光伏网",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9icElKQUFkcm1tYXo3Um1UelpYUF9MS2RZVGJ3X3VWTDFsSG1jV2hzUmJmZEJsM000UXpJUUlVNElMdkVyN2tESHA1LUpHLTBOUzNhY0MtbnZGVEJXWHc?oc=5"
     },
     {
-      "date": "2026-11-10",
-      "text": "光伏概念股批量涨停，大牛股6天5板 - 同花顺财经",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9EdkhodUplbGM1RkE5VXhYeWpvQ3FEMG1NTWpqRkdPTFF4bU14NGZJNlFBQWhxQ3A1dnMyc0Nfa3dZRVVvWGxBVXpfSm04RmV5VDVGRVo3SnI3ZjNxVl9GTA?oc=5"
+      "date": "2026-11-11",
+      "text": "华电封开两光伏廊道项目备案通过 合计投资3870万元 - 观点网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE80QkJkRk4yUUltZVo4U1RaX1FFOTlYWVlqNEsxZzBoR2VWZDlaSW83ejhDUkZYYXY2ZzVyaVgyZ012cWhhWV9vZ055elVVak1uMmF5QnVqUGQwMVdfUHJqcG1n?oc=5"
     },
     {
-      "date": "2026-11-10",
-      "text": "BC峰会聚势全球，共探光伏技术新未来 - 新华报业网",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9JN2ZoalY2ZUR1b094R1pEcUw0LXBOU3BzZ2JvY0J5bkt3WHo1eTh2NUZwRTBRdlh5RzhVYzNMUWNYNjI3RzllUk1PVUpBWmhvN0s5cTduVk80aF8tbEVlYk9VY3AxZ0pPRF80?oc=5"
+      "date": "2026-11-11",
+      "text": "高测股份(688556.SH)：Q3硅片价格有所回升，公司硅片及切割加工服务业务盈利改善较为明显 - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE50Y3NIWl9mZWJZdU5qNDVPNElCbG9GbDI3RXh2UmIxYkppMnJWN2xNWWdYRHkyaVdCcEZvY25PSVp0eWtJX0lLbjRtWm1MMDJlb2dCdXpobkJhMXROcjdKd0JtX0RxbVoyYWc?oc=5"
     },
     {
-      "date": "2026-11-10",
-      "text": "四川这场多能互补场景试验，在验证什么？丨省情研究所·进“场”——探访首批国家标志性重大应用场景 - 四川新闻",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5uWmtYenRvSDRodkVQTTh1Z2ZGQ0R1azRrbWFkbGI4T3VGdXlvWGxDM1BzQS03ZC1maEF2X3NsOHhnREc4N1Vfa2VDaTc1SUZKclRHc01FXzg4cDEtUVRLTXpfUQ?oc=5"
+      "date": "2026-11-11",
+      "text": "一揽子解题方案促进县域光伏多方共赢 - 中国金融信息网",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE00Szlacm5ZRnhDU183Vk5VTFBwZE5XNFpWbFVzb1ZjZFlBVmg5ZjU4SHRIa2szbGNoSm94Y1YzQU9BU0xkdFNiTjVBTEhONlVhTFYwbWFYVEh2aFEwa1BWQ19tY1FpSFlQVHRmNjRITU9VUQ?oc=5"
     },
     {
-      "date": "2026-11-10",
-      "text": "又一家光伏上市公司迎来易主 - 凤凰网",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1WbHpFTkUzWFFhZUxJVFJyLU9LNnp0bjNSdGR3Y0liRjgxTDJUSnVjNFdURnFTVFJwN25IdWh5TVVSZTNGRno1aHRaSUkyVDJ2?oc=5"
+      "date": "2026-11-11",
+      "text": "马斯克光伏布局加速：特斯拉百亿美元新厂正式动工 SpaceX新签设备订单 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1WaS1vcUVKaXU0ZVViX2tBaDhOUEtFTm9RMFpOTlVpeG52QzFfamdpeU10ZERQa0owOUg4NHRaR3gtUE5NM2xMRQ?oc=5"
     },
     {
-      "date": "2026-11-09",
-      "text": "光伏企业海外订单排产饱满 分析师预计产业链有望实现年度扭亏 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE8zSzhsVjZnQ2VMRUllOFdBTVE3cEpNWkh6azYwMWJZejJuZVQ4RHl4VUhBSUNoZUh6Rm43UTc1LWc1VURWb29NNw?oc=5"
+      "date": "2026-11-11",
+      "text": "首批组件顺利交付 | 弘元绿能助力内蒙古准格尔旗600MW光伏项目建设 - Sohu",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaDItcVRmbGRPTDk1UmNiLVpDdEdYajgzb2Z4dDNYRTRlWFE3TWdzaHR1OXRHSXhkT2NyUzBJM2kxbEYwTnpVWFFfeEFfZU5qQkdEVnBMWVhBMTVDQ0JwMW1EV2JHblY2RnpoLXYySFo2Z2hqUWVTNF9adnhQaEdfN1E1anpMa291?oc=5"
     },
     {
-      "date": "2026-11-10",
-      "text": "辽宁2027年机制电价结果公示：光伏0.2元/度 风电0.3元/度！ - https://www.gdshe.org/",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1qWXBWdUNZdkk4UVlGOEhGNWdCMjc4S2J4WGtESllCaVFMVjN4LVY1QmJVQWplS1hwOXF1ZWE3UGNFTjRMb2RRYjNYOGw1bkZJdFE?oc=5"
+      "date": "2026-11-11",
+      "text": "第二座，投用！兰巨村民再享“阳光”红利 - 潮新闻客户端",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE45X0tJdXIxUlYzeDdrZTBYZTdOM2hNem13ZGpmNk5GRHo5X0JPQWk2M05BdldIcjJsRHNuSE50SEpueGZZdjdzcndZTk00V2tLY3VrYzZfblZ0Y1dlVWIxSk5SMDJRNGxjSGhGdEV6S0E5LXc?oc=5"
     }
   ],
   "ai_analysis": "",

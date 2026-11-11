@@ -1,68 +1,68 @@
 {
-  "date": "2026-11-10",
-  "hs300": 4059.11,
-  "hs300_chg": 0.07,
-  "med_etf": 0.39,
-  "med_etf_chg": -0.51,
-  "inn_etf": 0.832,
-  "inn_etf_chg": -0.12,
-  "cxo_etf": 0.347,
-  "cxo_etf_chg": 0.29,
-  "tcm_etf": 0.911,
-  "tcm_etf_chg": -0.44,
-  "meddev_etf": 0.446,
-  "meddev_etf_chg": 0.45,
-  "vaccine_etf": 2.052,
-  "vaccine_etf_chg": 0.29,
-  "hsi_health": 24448.95,
+  "date": "2026-11-11",
+  "hs300": 4075.71,
+  "hs300_chg": 0.41,
+  "med_etf": 0.388,
+  "med_etf_chg": -1.03,
+  "inn_etf": 0.831,
+  "inn_etf_chg": -0.96,
+  "cxo_etf": 0.348,
+  "cxo_etf_chg": -1.15,
+  "tcm_etf": 0.907,
+  "tcm_etf_chg": -1.54,
+  "meddev_etf": 0.448,
+  "meddev_etf_chg": -0.45,
+  "vaccine_etf": 2.058,
+  "vaccine_etf_chg": -0.44,
+  "hsi_health": 24557.04,
   "hsi_health_chg": 0.0,
-  "hs_inn_etf": 1.26,
-  "hs_inn_etf_chg": 1.03,
-  "tnx": 5.01,
-  "usdcny": 6.6677,
-  "excess": -0.58,
-  "north_money": 198329.21,
-  "north_date": "20261110",
+  "hs_inn_etf": 1.273,
+  "hs_inn_etf_chg": -1.34,
+  "tnx": 5.0,
+  "usdcny": 6.6622,
+  "excess": -1.44,
+  "north_money": 224181.09,
+  "north_date": "20261111",
   "news": [
     {
-      "date": "2026-11-10",
-      "text": "第十二届澳大利亚中医药国际论坛在悉尼举行 - 中国新闻网",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9fSElpLWpWa1JFLXVib0VORWxBYV9IZGowTjI1TmhyZUZEbkVfMWROT25vNG5Za1NsRWxrOC1yX3pqaWQ0SG9rQUY4bEJCVXJheG1xVTRtZzlBTG9YcW14NklseHdJci10?oc=5"
+      "date": "2026-11-11",
+      "text": "进博故事丨阿斯利康关冬梅：从创新药物到全病程管理，让更多肿瘤患者获益 - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBlOVZTdDJKYVltdThPM3F2clJRbXNqWlQ2X0d3MHBlMTJqRTl1ZG5sOXVUYl9kbEd3WE5yQ0xKM2ZvQ1RkY3lhX1dOLW16c2Zqb3B5MTd2ckNfY1FuaDFmemZpd3FpeW93bk5jNzZELVNIaDhWSTRxSWxyWE5sdTA?oc=5"
     },
     {
-      "date": "2026-11-10",
-      "text": "北京中医药大学动画短片：《杏林廉语》 - 新华网客户端",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNR3l2aklSMTBmMDlnRkZGSkp1clZrRjVBQkNmcTZzYWNtTU1KSXpTWWIyY0lnRXNjeUt4M2pVa2lpaTlxazdqTjFPd0hyMFN1NldPUG9ETWUxRXhpdl9LN0JjSUtBY2E0VUdvSHZYaEVnYnVzZDhXSlZxNkd5YkxpRWxyQWNyaHJuNEVOck9XOFRYZWVhaXBwR0Jn?oc=5"
+      "date": "2026-11-11",
+      "text": "四部门出台新规，创新药抵达患者手中还有多远？ - 新京报",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9mTVo4d2VLRmJVdVZiSmNOVWRxSnd1dnQ3M0ZGSGhKczRCbXV0SU5zWnZUNktuSkxuLU0xR3NSZzBwRW5CR0NUZnNwMTlzdUlvdFZydGtuY2VjbzM0VV9EN1M1YXA?oc=5"
     },
     {
-      "date": "2026-11-10",
-      "text": "药学院学子在第十届全国医药院校药学/中药学专业大学生实验技能展示活动中斩获特等奖 - 上海交通大学 新闻网",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE04c3ByTnlnbW42a25yZktENWxVZDRhSktEa0laVEcyZnh0QzFSUGc1dC1mVGhxUVAtT1BzVlVnTUM1UWxUYTNMa0lINXVjZk0wMFIxODItTDBPdVVRdFlz?oc=5"
+      "date": "2026-11-11",
+      "text": "澳投率团赴巴西拓展国际合作 推动中医药高质量“走出去” - 国务院港澳事务办公室",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE56Z3I5WVAzUUpPNEpTYzlIY0RNY2VBSG95eHJES181eFRCMlYzSXJUWXI3ZEVHZTY2OUdHVUFOYXhVeVdqem5palp2dWNRaWFSSzJVN2NXRmpfemN5dFBPUnk5VmhOYmRfbTl3cnZ6OFltcVBLRXpidldR?oc=5"
     },
     {
-      "date": "2026-11-10",
-      "text": "成都政府采购集采竞争试点常态化 - 四川新闻",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBuWU9yZnozUU85NGh1MHNJYTBnLXFVejlwbzR2R19KTXYtRG9ISXlRT09GQVZXUFRHYzc1SjJOeUFCUGU1UUZvbzZqckdsblh3d1FkYWxUQ1NILWlvenpueHRpSQ?oc=5"
+      "date": "2026-11-11",
+      "text": "巧用数据、支持创新——“零容忍”+“负面清单”遏制医保基金违规使用 - 中国科技网",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9JMTV1cnpxNjFIWGFqUlJ1R1VLRkhiZ2FIUm9OZm1KOVhoNGEteU82SFBTaThWNE5id21SRk9xUjlZOWM3bGRFeXI2NFBxbWVSUkFwdEFaQ1JGd2x6OTVQcXE5eTUtTEhwVkN1b0t1SU0?oc=5"
     },
     {
-      "date": "2026-11-10",
-      "text": "华东医药子公司DR10624脂肪肝Ⅱ期临床数据首次披露 - 观点网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5xbWlxZXVmQWd2QTBZVTctOWQ2TTR3bG52Yk90a0JIMllxbWF2d0prbTJrVzA3N3BOb2E1VnFISEJHVDBMak14Sm1aZVJYSzZiTEdzLW5WUm03MVFaRVJWNU9R?oc=5"
+      "date": "2026-11-11",
+      "text": "四部门发文：加强创新药安全合理配备使用 - 手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5JNW9QN0dsdVhtZ29rcmtJbGhFbGdhY0k5NHp2Ym10MGY4NjFoeDdabF95NTduRkNlYmg5S1QxYlpqZlZmbnBBUURzZFBENXNITkEtS25RX3A4R2pybTFOVjJWQ1JLVnFsQklURFFKU1E2VnJtR1E2U0hDWTllQmc?oc=5"
     },
     {
-      "date": "2026-11-10",
-      "text": "Cancer Discovery | 沈琳教授团队系统梳理中国肿瘤创新药研发十年变革 - 肿瘤界",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBYb21SWnNPY0dvLXI1djVick92TDFicmtIUHlLcm0zeFdsMndzaUx3MUIyc0hFWExxRFcxVWpEaUZ1bEFkSkZ1UkRMbGpLSWl5Nk02WjY0WWtCdEI2NG5HNjhZbHpVcGU5amJ4WGZn?oc=5"
+      "date": "2026-11-11",
+      "text": "云南“十五五”中医药发展规划：提升少数民族医药服务能力 - 中国新闻网",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBDa1VFaWc1Q0hveGdCUUFXY3h4Y0hOaFNzd0hJcW9Ick1MYm1EaGphVDJUdWVTX1h3QUtVTnlGbE9SNHY3bEVSeWF3VlhYY2w4ZDZBVDhqQWVycC1mb1lTZHU0THV2Tl9vTGc?oc=5"
     },
     {
-      "date": "2026-11-10",
-      "text": "医疗器械及医药保健展区：浦东跨国企业首发首秀频现进博会_今日要闻 - 上海浦东",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA4RDh0clY4blk3RC12XzNnVmFDc1VyUG9HZHpHR0ViMVl3RWlIaXZkMlo4NHg4MWJZVUxwYkEzRXZiR3hkLU1idkJUa1U3TjBvd3d2akZwbldITnhTSWx5d0xVWnU?oc=5"
+      "date": "2026-11-11",
+      "text": "一周园区要闻盘点〔155〕丨中国生物医药产业园区竞争力排行发布，中关村示范区综合竞争力蝉联第一；WIPO GREEN北航专场活动在沙河高教园区举办 - 国际科技创新中心",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1NZDlsWWZpUEJFS3BCelgzMlk3b2ItWTEwaWc0SzZoY3Bwd0dHQnl6VG4yQjlXLUxhM0c5WF9vVHh6aXRBa3k3MnpHQ1BWQjVQakU1cUlxM3NXS0NycERpbWVkdGN2QXNSYTYzYlBrMzh5anNSVzdj?oc=5"
     },
     {
-      "date": "2026-11-10",
-      "text": "中国四部门发文推动创新药进医院 优化配备使用和医保支付支持措施 - Shangbao Indonesia",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOTExqU0lwdzhWaXh1OEM3bEFlaGdReWRwMGhaTmo0SHJFNkZiN3hndkYwSWVoQ01tMldZaGtBemgtVjFsa1lDdXNDVE9wSDZDNG9vNmE3Z3NRWk1hN3lSakwtT3NsM1lkY3JMN2lxcnhCLXNqWXVDck9DblkwRmhnSHgyRkdGUQ?oc=5"
+      "date": "2026-11-11",
+      "text": "博瑞医药：BGM0504降糖Ⅲ期临床达预期 单药HbA1c降2.6% - 观点网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ldnpWNmVObW1fMklMMndZUnByaHFPX2NhbUhhLXVlTU1QemUtMWNfVG1VS2EzY0UzNFNOc21UbTE2TkF2d245bl8yZEg3VkpiRnJkT0ZRVHpWeTljalEtald3?oc=5"
     }
   ],
   "ai_analysis": "",

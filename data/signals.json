@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "score": "3/6",
   "verdict": "磨底观察中",
   "signals": [
@@ -40,7 +40,7 @@
       "name": "价格站稳成本线",
       "desc": "现货猪价 ≥ 14 元/公斤",
       "status": "yellow",
-      "value": 8.88,
+      "value": 8.85,
       "threshold": 14.0,
       "source": [
         {
@@ -54,7 +54,7 @@
       "name": "脱离深亏区",
       "desc": "猪粮比 ≥ 6",
       "status": "yellow",
-      "value": 4.05,
+      "value": 4.04,
       "threshold": 6.0,
       "source": [
         {
