@@ -4253,6 +4253,22 @@
     "sungrow": null,
     "hs300": 4075.7093,
     "tnx": 4.998,
-    "usdcny": 6.6622
+    "usdcny": 6.6703
+  },
+  {
+    "date": "2026-11-12",
+    "solar_etf": 0.72,
+    "newenergy_etf": 2.014,
+    "storage_etf": 1.472,
+    "tongwei": null,
+    "zhonghuan": null,
+    "junda": null,
+    "longi": null,
+    "flat": null,
+    "jiejia": null,
+    "sungrow": null,
+    "hs300": 4043.9254,
+    "tnx": 5.103,
+    "usdcny": 6.6616
   }
 ]

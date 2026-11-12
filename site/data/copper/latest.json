@@ -1,60 +1,60 @@
 {
-  "date": "2026-11-11",
-  "copper": 6.30049991607666,
-  "copper_chg": 1.3023530891909774,
-  "ma20": 6.449000000953674,
-  "ma50": 6.533360004425049,
-  "dxy": 102.94400024414062,
-  "vix": 17.709999084472656,
-  "tnx": 4.998000144958496,
-  "wti": 87.02999877929688,
-  "cu_oil_ratio": 159.60253153864454,
-  "shfe_cu": 105820.0,
-  "shfe_cu_date": "2026-11-11",
-  "shfe_lme_ratio": 1.058,
+  "date": "2026-11-12",
+  "copper": 6.195000171661377,
+  "copper_chg": -1.2670288131394147,
+  "ma20": 6.431875014305115,
+  "ma50": 6.525200004577637,
+  "dxy": 103.18900299072266,
+  "vix": 17.610000610351562,
+  "tnx": 5.102999687194824,
+  "wti": 87.62000274658203,
+  "cu_oil_ratio": 155.87332629912382,
+  "shfe_cu": 104950.0,
+  "shfe_cu_date": "2026-11-12",
+  "shfe_lme_ratio": 1.067,
   "lme_stock": 296625,
   "lme_stock_date": "2026-07-17",
-  "shfe_stock": 2520,
-  "shfe_stock_chg": 0,
-  "shfe_stock_date": "2026-11-11",
-  "lymy": 13.71,
+  "shfe_stock": 2444,
+  "shfe_stock_chg": -76,
+  "shfe_stock_date": "2026-11-12",
+  "lymy": 13.75,
   "lymy_chg": 0.0,
   "tl": 4.95,
   "tl_chg": 0.0,
-  "jxt": 32.8,
+  "jxt": 32.95,
   "jxt_chg": 0.0,
-  "cper": 37.94,
-  "cper_chg": 0.53,
-  "copx": 73.77,
-  "copx_chg": 1.24,
+  "cper": 37.3,
+  "cper_chg": -1.14,
+  "copx": 71.57,
+  "copx_chg": -2.52,
   "signals": [
     {
       "name": "铜价低于MA20",
       "dir": "bear",
-      "text": "$6.30 < MA20 $6.45"
+      "text": "$6.20 < MA20 $6.43"
     },
     {
-      "name": "美元中性",
-      "dir": "neutral",
-      "text": "DXY 102.94"
+      "name": "美元偏强",
+      "dir": "bear",
+      "text": "DXY 103.19 > 103，压制铜价"
     },
     {
       "name": "风险偏好正常",
       "dir": "neutral",
-      "text": "VIX 17.7"
+      "text": "VIX 17.6"
     },
     {
       "name": "铜油比偏高",
       "dir": "bull",
-      "text": "铜油比 159.6，工业景气预期强"
+      "text": "铜油比 155.9，工业景气预期强"
     },
     {
-      "name": "利率环境友好",
-      "dir": "bull",
-      "text": "10Y 5.00%"
+      "name": "实际利率高企",
+      "dir": "bear",
+      "text": "10Y 5.10%，压制金属估值"
     }
   ],
-  "score": 1,
+  "score": -2,
   "news": [
     {
       "date": "2026-11-08",
@@ -64,36 +64,36 @@
     },
     {
       "date": "2026-11-07",
-      "text": "Critical Minerals Co. Completes IP Survey Near Hudbay's Copper Mountain Project in British Columbia",
+      "text": "Gold Co. Extends Cabot Trend to 850m+ Amid Expanded District Activity",
       "src": "Streetwise Reports",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOVmZGOC1CLWJUNlV3V0lpcC1STTA1VDdJYkstUnVUY004UktIYzZNQmdXUnRmRGpCLWVTSjZ1bVlKdmZ4ZUZjeUx6TkJPYkMwWVlWNkl0NFY5VEt2VkVxOGttNXJHUl9ZLWxrRzJBTVVSWS0yS05Ud1AydDdFN3FXVURXemVIeC1VdW1SVk5PUEgxM0tBTnB0ektLLXlPS3d3d1J2aGVzaUlQYTFUd1ctclNfMmJXSXl1QWc5NUNEdTFkVVM5djA1dzV3VlIzd0o3Z3dJUWJ4RlJTYkNoc1hPSUN2d1JfZVdJYi1N?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPRjdiS01NeTY3aGxRZ3hsMmptbWEydVZHMjFFeWNtRmJ3bFNKaFg2NnZyYnFDeHlTQ3lGOFhuSzhfQ0lSYXNOX2xyeWl2RXA4OVcyRzJ5VUlpTWtZRzlqRDFFQ28tUmVKRUV4RndSN3RYVWdvbWdpZU1TamM2eHFWeDBrNEU4Y1BZZ2FCQ0R2bVl4WU5YZnFFS041NkNUV1FOZS0xYndQV0FKbmY1NkhKY1lFYTVrUzhHV1hFV003NnV2d28?oc=5"
     },
     {
-      "date": "2026-11-04",
-      "text": "Democrats’ win puts US mining agenda under scrutiny",
+      "date": "2026-11-11",
+      "text": "Mexico says crackdown on Asian steel shipments is paying off as US tariff talks advance",
       "src": "Mining.com",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBBdllRNjlKOTJGTWFacEZtYjQ4YmticmYtbmt6Sy1lUk1JZDBIN3ItMzZuZVYybU5fV0prRWZxdzZFSU9GdEFENl9YbXRod2xMdXN4VTFkc0s1YzcyUXRmREg0VXhfYkxKbTlYSmNtWDI4UlZZaXJ6WGdFWVlWR2c?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQXZJUzB5LTNJOXI3T1VnQ21ONV95TTdnanNKd09laGFicy1TQ3V3M3REOFB2Y0lvalYxTmdsX1I5WlctM2ZLT0Z4X0NCWGtFQTZ3bWJFZGFDZ1duaE1IUWlvQkFsZ1hSZ2tYUTM3dzFXbzd1RThfZFRMZWZSOWtDcWVFS1NlOXdkaU5UY1UzamZtTWh5alhZaF9sVHdxRWw0MzdoZzNBeUtkSHdIU0hYeDJfX014QQ?oc=5"
     },
     {
-      "date": "2026-11-05",
-      "text": "The Durability of Trump’s Mining Agenda Faces a Test",
-      "src": "NAI500",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQQmJtZ005Wmd1Vmx6ZGdYVy03RkhjbkUySVRFV0E3WVUwQ3dDSU9OMDlRTFpCQU9sOW5MZHpXWTRxSnJPalJaZnFiZ2t1UTJ5SmtCUmtyakdFR3FJVEFaOHlNcWlBQ1dpOHBjNDVwQWc5TFVNXzZBVDh5RkZJSFJubG1pcHJDdU5HYnVaRg?oc=5"
+      "date": "2026-11-08",
+      "text": "Critical Minerals Report: Two Elections and Two Deadlines Changed the Arithmetic for Western Supply",
+      "src": "InvestorNews",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOWW9Rc29kMmRHVW9Uc2J5ZUUyWjVLNGR4ZWdTTktFOEt5Wk5senUyQ0s2ZXRxbGJrTEozTE53WUxtd1NOY1UyTmdDUkl1S0Q2YVRTYWF2d2V1Y0xfVEozSmNtX3VmWEtrN0NHdEhLWmdZT2NySjJITVFHSGc0U0E5eGViZWZweWUyU3lGZDlCV0RtQVJGcnhXeTNuMW0tNkdVdnVaTUNvNWl3RTIzOVVHZWZ3UTNmcFZjRmJMeWJNSV9KVS1nbHpVVkkybURLRlFhc19DbGg5bGpRdWlpOUdPQmN0X0hUY0tZT3c?oc=5"
     },
     {
-      "date": "2026-11-05",
-      "text": "Democrats’ win: US mining agenda and permitting timelines explained for engineers",
-      "src": "Geomechanics.io",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPc0d0YkMtUFJTN2dmU2lGMFNDUkdFQ3R3c01xbzItdFVlaERsTmF1cF9KUVFrOEc1QUpJU014YUp1WndXLUFjaDYtZXlzZXFXa2NNNW9DVFNsV0hMMkpwYnN4bnI3X1o0M2dncUFYRlI5YnBnUUNGTlZnZC1hTlhaNkliQ05aVXp3SndrT0Vjb2FZY2FIQXdTX2RSdW1sMlNiTzBZbkpQQ25pcDkwc2E0UG5jUnRWd1k4Tmk1Ng?oc=5"
+      "date": "2026-11-12",
+      "text": "Adani's Kutch Copper and Codelco sign MoU to explore Kaburkaala copper project in Chile",
+      "src": "MLQ.ai",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQX1V6U1ZIN3Y4eTB4cnA0X1c5SzJOdHh1WWgxMHFBbFdvUTNJbnRGYlUwV3ZGbkJvQ05SNGlSbHR4NWY1azZ5eklPSldmU2RXZVdVWjFKTmdJcWplUEJUS3lqT1BoTmdiX25WSlFlc2hNZWczWEhIMHN5dndNbFBSNVRVbW5uOTE0cjVCaGJ1LVNXTW5rSGl3cFc5SkhYcFc4bHI0cnB2NlJPQ00?oc=5"
     },
     {
-      "date": "2026-11-05",
-      "text": "Global Commodities Roundup: Market Talk",
-      "src": "Moomoo",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNendXOFJlVGZvYjRVVGdZSlp2ZXJmcndxLUIyZ2FpVm4wR3ptZ0RhSmtCYVBSVmdRMl9hWFFsVVVNV0pzN3J6ZlY5dUZDYjkzYTZjX3R2VWlMXzdVRjl5UEE2RnZtOTdEYmZuX1dTZXFtVlQ5WTNoTUY1R0JOb2VseU44ejBSXzhRaHQ1OEV3?oc=5"
+      "date": "2026-11-06",
+      "text": "SP Angel – Today’s Market View, Friday 6th November 2026",
+      "src": "Share Talk",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZ2lHSU14N1hFeDNYVHdMTG5OaHF6TlpyNnAxUHRpOV9oVk5Yd25YYWxLZXRZWmpVdnVsMjZfVHZ4MUNrV3Zyb2NtbjROX0JlNkk4QWRfMXdSLXgyYkF1czgzVTNYVUoxVEpWV0l0aFBzbXFvMUh0ZDB0b21QSXk1UTB3RS1DUDg?oc=5"
     }
   ],
   "ai_analysis": "",
   "ai_error": "未自动生成，点击按钮手动生成",
-  "ai_date": "2026-11-11"
+  "ai_date": "2026-11-12"
 }

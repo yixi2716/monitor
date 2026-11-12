@@ -118,5 +118,10 @@
     "date": "2026-11-11",
     "pb_ratio": 0.0345,
     "turnover_ratio": 1.422
+  },
+  {
+    "date": "2026-11-12",
+    "pb_ratio": 0.069,
+    "turnover_ratio": 1.011
   }
 ]
