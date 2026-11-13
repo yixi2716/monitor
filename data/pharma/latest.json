@@ -1,68 +1,68 @@
 {
-  "date": "2026-11-12",
-  "hs300": 4043.93,
-  "hs300_chg": -0.78,
-  "med_etf": 0.384,
-  "med_etf_chg": -0.26,
+  "date": "2026-11-13",
+  "hs300": 4016.29,
+  "hs300_chg": -0.68,
+  "med_etf": 0.383,
+  "med_etf_chg": -0.52,
   "inn_etf": 0.823,
-  "inn_etf_chg": 0.0,
-  "cxo_etf": 0.344,
-  "cxo_etf_chg": -0.58,
+  "inn_etf_chg": -1.82,
+  "cxo_etf": 0.342,
+  "cxo_etf_chg": -0.88,
   "tcm_etf": 0.893,
-  "tcm_etf_chg": 0.0,
-  "meddev_etf": 0.446,
-  "meddev_etf_chg": -1.12,
-  "vaccine_etf": 2.049,
-  "vaccine_etf_chg": -1.71,
-  "hsi_health": 24315.92,
+  "tcm_etf_chg": -0.34,
+  "meddev_etf": 0.441,
+  "meddev_etf_chg": -0.68,
+  "vaccine_etf": 2.014,
+  "vaccine_etf_chg": -2.48,
+  "hsi_health": 24008.55,
   "hsi_health_chg": 0.0,
-  "hs_inn_etf": 1.256,
-  "hs_inn_etf_chg": -0.32,
-  "tnx": 5.1,
-  "usdcny": 6.6616,
-  "excess": 0.52,
-  "north_money": 249755.65,
-  "north_date": "20261112",
+  "hs_inn_etf": 1.252,
+  "hs_inn_etf_chg": -2.88,
+  "tnx": 5.14,
+  "usdcny": 6.6611,
+  "excess": 0.16,
+  "north_money": 230056.66,
+  "north_date": "20261113",
   "news": [
     {
-      "date": "2026-11-12",
-      "text": "市科委领导调研浦东新区生物医药企业 - 上海市科学技术委员会",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOOUJJT1BnTnU0eU1XZVNGTV80YWRvYkhGb2twaC1hcTBMRXpxdzJvWnhiLTlfYlVSOG5QTkx4T19GSzRfeExpdk44V2tORXNSQWZneU8yS2w5ZTd0SWFlaXVacmxERjJvUkhzYTJWaWRlZ0dzVnEza3NrYjBEUnJDd3RKWHlmdU0?oc=5"
+      "date": "2026-11-13",
+      "text": "产业园联动逾20家企业赴巴西 深化中医药国际合作 拓展葡语国家市场新机遇 - 国务院港澳事务办公室",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1lcWFja2RaSDMzLTRSTGZMSUZyTXBQMkhvYkhBSUJvWTlCS21xM1QzRWp3RHl5QzhLSnZsc19SaG1IVHVUcDZwQ3BRQnAwSEtiSXlZWWo0OFBTTERua1YzOG9IckFwOTUtb2hqY2dFQm5ZbnMwNGpTclZn?oc=5"
     },
     {
-      "date": "2026-11-12",
-      "text": "华润医药集团总裁、东阿阿胶董事长程杰一行来校调研并签署战略合作协议 - 中国海洋大学",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9LWkphWFpuZmdKS3k2Q0dNdlgyUG9iLUloWU5iRWdXa3F2Z0dIUFRvaC1DYTRjTThnb2d0MTJCVHloQ1NuOG1ZU2JkZkk1WGVJSHp5WlU2UGNtbGJmNzdwdjJB?oc=5"
+      "date": "2026-11-13",
+      "text": "跨省域协作助中医药振兴 “秦巴山·万达开”产教融合共同体成立 - 四川新闻",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5BdmpTdU9YRS1LLU9WTmxRanNONnhWTEhCT2hpWHVGeWlmWDhjWExfS29VaGUta2F4amFrYXlGbDlSV1dWcDA0aFNsZUhxWlBPcklqRDVRSWlkdGpYVWwySWFQbw?oc=5"
     },
     {
-      "date": "2026-11-12",
-      "text": "星昊医药：拟向中国药科大学捐赠1000万元 - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9mZmlxT3dZb2ZwVjBoTGtwMUNib0lZNV9PLVB3bVBJSDhiSktldnZEdFF6M0FRdzR2NjhsaDFIOFliM0g5cEZ1UF9aQy1Lb3ZEb3l4Z3VEYXMyX0hUVWRLclRQNmRKQQ?oc=5"
+      "date": "2026-11-13",
+      "text": "全球首个！园区企业创新药注射用亚胺西福获批上市 - 苏州工业园区管理委员会",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPNU5DNzZ5dnhCRzVnOTZwT0FycDNudUYxRjZ0N0xnQm1GNmZXRU9zSVJIV1NpNTZSX2FfdmhCZUtWTmd3bFZ1RzlqVDk0VTFrbVYyQTdHNnczbnF0ZVpVcU5EaENRSHdWMlFZa3BIS1FSay1DN1h4MFJiRjFaQ1FFTDdjZEpsejZ4Ymc?oc=5"
     },
     {
-      "date": "2026-11-12",
-      "text": "老字号中医药文化产业创新与转化论坛举行 - 新华网",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBwdF9ncjMzeGd6bjNKZ0NNV2hiVGs4dGRjdWE5NVpMd2k4SnlobVNHbVpkeTRqbW1iUUxkM2RCWGEydThfZlVxZUJ2Z1FIQ0NkWl9SRXBzUTNXRFRMbENUSW85MVUtTEktNUlvSWtKOE4yeHRmejRQS1FFZ0pFTnc?oc=5"
+      "date": "2026-11-13",
+      "text": "吴阶平医学奖、吴阶平医药创新奖获奖者名单公示 - 科学网—新闻",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB0ZFB2dm1UOWZiVjZFUDkxTHJsdWN4ekV1ZUlFQ0phT0ZONzAzZDktbmR0Z0d4YW5Sckd1bzNhM1daS21pc3JNMGFMUXFmMXN0Tjd1VkNra0Z0U1J3NXdydlh0dmhpZw?oc=5"
     },
     {
-      "date": "2026-11-12",
-      "text": "立足源头创新，做实 CMC 产业化｜CIS-Asia2027 聚焦创新药从研发到商业化 - 美通社",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA1SzFOOVhBYmlFUmFXRzZ1SGhjdGZJaFlQckhVelhzTVpXdlpRUW4tLW5Cb3d2eVI0YS1qSUZKcW90NVEtNjFoRjRHMVgyTUJJSW5qdG5YTjBDY2NOOFZIUU1US3k2a0JvZDR0Z1JB?oc=5"
+      "date": "2026-11-13",
+      "text": "深化科技赋能云南省科技厅与省药监局协同助力生物医药产业高质量发展 - 中华人民共和国科学技术部",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBpYUQxNmxPaHIwSFFKQ0dYVXdBQW1maGwyME9DYUFfYWdiUk53XzJMbkQ3YTBjNjRpbUU4WXlTVnVhaDVoRjZFbkd4dlhXUkVFSVRvd2J2YzI0RGstT3BtSDRwVXc4TEx5Z0F1YmJWVl9IcGs?oc=5"
     },
     {
-      "date": "2026-11-12",
-      "text": "国家药监局批准中药1.1类创新药芪秦通痹片上市 - 观点网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBKU3FHT216VExhSGlGY1B3SVBFNnByQVJvNU4tTXpmNmVGVWdzbTZReXc0Tlg2Sk9lb0gxcThwZHFCeXhlUEJPdlliMjV1TGFEUmdNeTlXTFNrVVk4dzFOYXZ3?oc=5"
+      "date": "2026-11-13",
+      "text": "泰州市医药高新区（高港区）长期护理保险重度失能评估结论公示 - 泰州市人民政府",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPc29OUVFFWExyNHBWV2pkNG9sVkNNR2s2TXR5ZWtHOVBaZ2t5SjFKdlBaN2c3V0ZPVjBQR2V3UElSN3h3MmZUbW84X0RocVlnc3pDSmVYQ1hKckdpcFNsMFl2ZXZ3b2JRSFNaX0ZDS1pyQVJnb191YW9iR2QyRmc3aFB1SGhJNEloYzc0cTlB?oc=5"
     },
     {
-      "date": "2026-11-12",
-      "text": "国家药监局批准芮弗西拜单抗注射液（皮下注射）上市 - 中国新闻网",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE84YW82a1ZEUDh6MVBRaUJGMW9sVG9JY2NOSnhIeWhGWllBcVFfeDBvZE1NbDA1bzRBX3ZJX2pBdElfclg0dlduYXNYMURZWlEtMUxmQ01wOTAyMnR6RXlwSkp0aWhEMG9Z?oc=5"
+      "date": "2026-11-13",
+      "text": "全球首个！信诺维首款创新药获批上市 - ByDrug",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1hblVlYTFZWWNVQV94Y2hVQmZBMUtRUENha3FZN2l1a28zU1ByQUctMEN1YUZLSXZhTzZWOElDc09rSFlYUTBkaXlOa2RNTWx0dExmbjRJMm1vVDNBU2JkV25mZ0FISVBNbm1TNHFBTTNRcDdHdEhGVE9yOTU0UQ?oc=5"
     },
     {
-      "date": "2026-11-12",
-      "text": "誉衡药业(002437.SZ)：目前集采政策对公司整体业绩的影响已相对有限 - 新浪财经_金融信息服务商",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9CX2wxN3pVaFZobjNBZXRWZTlZeU4tWFFRMHZQRXR5M1F4b1d1Rl8ySmdmeGZMam13WFVtLTI0WFFoMFU3aHZOM0FJa1hPZnpma1lBek1qX2NYV0o0dE5NUGtIckNTalFETm02b2szQm5YdGFNOVgwNQ?oc=5"
+      "date": "2026-11-13",
+      "text": "南宁百货：拟以4169.12万元公开挂牌转让南宁医药46.26%股权 - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1obkZIZW41S1dQa1J3T21EejBhVmd3S1FIeWpBelpmV1I5T3BvdlJBVXNKOXhidzNVRDFOWkRPd1VGZ2hQQ2E5SDE1eElZU01sVU1rYUdIbW1FckNaTW1XSA?oc=5"
     }
   ],
   "ai_analysis": "",

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12",
+ "updated": "2026-11-13",
  "monthly_upfront": [
   {
    "month": "2026-09",
@@ -17,15 +17,15 @@
    },
    {
     "month": "2026-10",
-    "count": 6,
+    "count": 5,
     "manual": false,
-    "auto_clues": 6
+    "auto_clues": 5
    },
    {
     "month": "2026-11",
-    "count": 16,
+    "count": 23,
     "manual": false,
-    "auto_clues": 16
+    "auto_clues": 23
    }
   ],
   "note": "count 为手工维护的官方计数(config/bd_manual.json)；无手工值时为近60天获批新闻线索数(高估情绪、非官方口径)"

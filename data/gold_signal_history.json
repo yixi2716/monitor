@@ -502,5 +502,17 @@
       "bear",
       "neutral"
     ]
+  },
+  {
+    "date": "2026-11-13",
+    "score": -3,
+    "mode": "M",
+    "dirs": [
+      "bear",
+      "bear",
+      "neutral",
+      "bear",
+      "neutral"
+    ]
   }
 ]

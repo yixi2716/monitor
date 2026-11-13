@@ -1,19 +1,19 @@
 {
-  "date": "2026-11-12",
-  "hs300": 4043.93,
-  "hs300_chg": -0.78,
-  "solar_etf": 0.72,
-  "solar_etf_chg": -1.37,
-  "newenergy_etf": 2.014,
-  "newenergy_etf_chg": -1.71,
-  "storage_etf": 1.472,
-  "storage_etf_chg": -2.77,
-  "tnx": 5.1,
-  "usdcny": 6.6616,
-  "excess": -0.59,
-  "dd_from_high": 0.3914,
+  "date": "2026-11-13",
+  "hs300": 4016.29,
+  "hs300_chg": -0.68,
+  "solar_etf": 0.698,
+  "solar_etf_chg": -3.06,
+  "newenergy_etf": 1.964,
+  "newenergy_etf_chg": -2.48,
+  "storage_etf": 1.427,
+  "storage_etf_chg": -3.06,
+  "tnx": 5.13,
+  "usdcny": 6.6611,
+  "excess": -2.38,
+  "dd_from_high": 0.41,
   "pb_ratio": 0.069,
-  "turnover_ratio": 1.011,
+  "turnover_ratio": 1.038,
   "stocks": {
     "tongwei": {
       "close": null,
@@ -46,44 +46,44 @@
   },
   "news": [
     {
-      "date": "2026-11-12",
-      "text": "中国电力中电大别山：光伏板下长出“绿色黄金” - 新华网",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQeUlPMU1oRlJIaVpvU1VjWDdYbmxzNmNWTS0xSDBsN20wOUNOMkc3cGZRLTJaZ2NLT2dJWVFYblZ6ZVlGTEdxNnU5cEZ6Wk1pZ0puTDFGN0hETzlRWDJaTUlxZmFuVXN2NXZwWFlvYW8tdDl2MTl4dzJKZmFtR0lTSA?oc=5"
+      "date": "2026-11-13",
+      "text": "通威入围中国能建15GW组件集采 - 国际太阳能光伏网",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CNzhhdkJpdzZGd0hvVnBwb1VzOTFweFhWcGhUNWg0dmZSNks5UjAxbUY4QVlKbTExOHhIbDZPQnZpWVo0cjM3Mk00UnVpY25WeDlucS16ZHNtVXZD?oc=5"
     },
     {
-      "date": "2026-11-12",
-      "text": "惠州市碳暄瑞新能源8个分布式光伏发电项目备案复核通过 - 观点网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE95VUg4cWVPT0pCLVFfZi1tLVJoNWdSZHNpUFZPeXE0SlZqZV9GdFhwWWZzdkhnUWpyRXB0dTJZY0FhQUpEazJUMHJfZHIwZU9pVFJJWUwzR2ZTVWNhLXpCN2hB?oc=5"
+      "date": "2026-11-13",
+      "text": "*ST泉为宣布终止总金额11.25亿元光伏电站EPC总承包合同 - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1zdWdsZ3BnWHpPcWE0YVpGRl92ZURKMFZPUW1FZUJxZ1NxelVqY0pYNTkwTGxPbUQ5M2RpVXg3VHdDMUd2cWkyVGNNQjl5aGFocl9pYW1ncFRScjAzSVRwUg?oc=5"
     },
     {
-      "date": "2026-11-12",
-      "text": "越南上调2026年光伏电价，维持储能溢价 - pv magazine China",
-      "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxPaVRDV1I0dXNhS3RIa01sMHFkeDcwNjFIZTJSaDJPd2RDRlM3cDRuR2E2Zm9uTGswZWFhSERWN0JnV3VBSVNwQXVFb3JHeHNQN0o2aVp5UXNYaHA2b2VGa05jWmg2U2NyTi1lOWIybkQySTFMa0hEcVFOMEZPbWREN2NVY2R1ZC1ldWtUN0JTYTNmWTYyNnF5dl9rYzJHeTJnSkF4M29meTBmZnc2RnlOV0J3M2FmZnBKREtWU253Nk1QYXZpMjh4akVDYmdwN0JQQnlWcEJlM0VLeHZTeGNuZVZBRVpPTEF3dWxDM21CMDNKV21wSU9MLWpIeVdpWmNySW5DRlZsdlVPYnZvY0VpN21GeFQtNktNMGtCUW9rWQ?oc=5"
+      "date": "2026-11-13",
+      "text": "华电海晶光伏绿色名片入选中国能源传媒宣传策划案例Top50 - 中国科技网",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9JdzVYbGFLc0ZabUlHVjhaVHNzV1ozRlhodUozeEhTdXIxcXU0WU0wdEtZNVRpZUo2QzZDOGxTMHh0cUs3UzNhZjQtUk1rMl9YSWw5UXROa1c2RFEtUUctNFVmNFNBN01CYmdBQXpIb00?oc=5"
     },
     {
-      "date": "2026-11-12",
-      "text": "首批获证！汉伏能源全系列组件通过泰国 TISI 强制认证 - 世纪新能源网",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE55Y2Y2Wl9uenZ4RHRER2VBQ2VnekhtYzRfd24tNEg4OUtoRGZOVHh2S0pSUUNycDUtOHMzN3M5enZ3SmtfM29ZNmF3dGVhRklnZ2lTYw?oc=5"
+      "date": "2026-11-13",
+      "text": "SpaceX接盘，中企清仓：6000万欧元光伏订单，给了德国设备商 - 观察者网",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBzbnF1TjFGcWwxQ0NNRzJYbFJxQlhHRVg0V3k2aTc2TUd5REVhcklhc2U0dldsUGI0OVB3a3lYakRGRmNfamR4aTBuVHREVHJabEk4OUZKSzd4MWtGTW1oXzV4SWM4aHo1bG9jMA?oc=5"
     },
     {
-      "date": "2026-11-12",
-      "text": "新单跟进不足，光伏产业链价格下行压力渐显 - 集邦新能源网",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1FbFdkTFphV2VNYVZUa2gyMXMyN3gxcGRaVF8tWnFKVHRFbmhGem9Wd3doWUJsWmZrSGVNMGdmSVZBYVFuank4R3U4cF9wYURfWWdtWGhsWk96b2UybnJPSHhUQ19DMFVEZ3ZJ?oc=5"
+      "date": "2026-11-13",
+      "text": "广东合固五金2500kW分布式光伏项目备案通过 总投资502万元 - 观点网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5vbzNYYVlZd3RtWnRDMVFoMG1PeDlmd1k5REE5ZWNvTkhyNWxJeTdxNGZ2ZDZkblB0X080M1o0d1RhT2JQLVhuTlI0YW96S1FFRzRPYWI0d0o1bGJrZS1xMWJB?oc=5"
     },
     {
-      "date": "2026-11-12",
-      "text": "浙江嘉善县：2024-2025年度分布式光伏按0.20元/千瓦时给予补助，连续3年！ - 国际太阳能光伏网",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBUamM1VUxqc0RmaDZtOGRUcVR6U3JaZGJoR0haTHVaNm16a0pZZllkZG4yQTdqT0JTVEdvdUpqWW1HWFVLdDVxelNwOFoxTHhFckdUUHVuenlzLWRxeFE?oc=5"
+      "date": "2026-11-13",
+      "text": "价值引领！上能电气解读分布式光伏发展新逻辑 - 碳索储能网",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1DOWxvVEJldjVVdmJwRkJnNy02WVJrUE53c0Y2blJsb1RYNkZQZUVvUmdob2NOZFBablQ4RWdCRWpSaklXUVVrcWdreGMwemFkajZsSHk2T0VpZ2MyekM3Qw?oc=5"
     },
     {
-      "date": "2026-11-12",
-      "text": "华能110MW光伏项目开工 - Sohu",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUDd2bmZpT2lKU0ZRb2F3QnBnOU9PWVpRSm8wa29qajJ1cGRBNzloYkJESWRTdWtiUjVseGt6aVVyN2p1TnJzVEg2R09FbUx6WC1fZlVPd29uMFFXSXk3dFVIQVVOeVBmdEJDcXFETmtOMXRLQzl1b0lmSDAwc1lMRk81cHFEZVpH?oc=5"
+      "date": "2026-11-13",
+      "text": "一笔“暖冬账”里的清洁取暖转型 - 新华网客户端",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUHpIVUI1REJmV0RKODZVVS1sNXJNeWZaNVEwcmstTUtWRFc4SmtxY25fN1BoUnhvd0w3a0h2WWVOMk1VQnN4OVMxNmEzZDhpTXE2SF9IZVZWVERvNlpzTGVyNGRUbDZJQk5DeGNVaFNVSUtqX1lwWFZfRWpzUkpYeEg2M01ySU5ZbXZ0SVpFSHhCM0h1enBrdjlR?oc=5"
     },
     {
-      "date": "2026-11-12",
-      "text": "党建护航牧光互补 碌曲光伏项目加速落地 - 中国新闻网",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1FUXhTTDczdXVGa3Myc0FZMkVuNExhU2ZadG4tSkxiZG9xUmUtcHVNSFY1a1pUVUNMb21UTjd3bnViRTNJbHZXRElYNzJJeXF4bHJTakVGNUVNVDViUDhaempRdGZvWTBzWGww?oc=5"
+      "date": "2026-11-13",
+      "text": "光伏产业链价格传导不畅 下游环节预期仍将走弱 - Sohu",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZ1BZQlAzcl9LcWxEOHlEUVJqUUtnVmJFSl94RTMwaHg4djJqOEJ4bm1pVmNDakVKaXY4N0FrbnFwT21RUmpXaXMyMi10U0kwNjZaQWNCSFppMXJaVHEzYTVtcmNlRU14TlVjdnpIQ2k5RWQxTjBOWkJZUDFYS2lfZ29fQWp4eHVLZEpBRw?oc=5"
     }
   ],
   "ai_analysis": "",
