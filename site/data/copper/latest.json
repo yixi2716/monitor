@@ -1,57 +1,57 @@
 {
-  "date": "2026-11-13",
-  "copper": 6.097499847412109,
-  "copper_chg": -1.374849004777401,
-  "ma20": 6.40957498550415,
-  "ma50": 6.514959993362427,
-  "dxy": 103.38,
-  "vix": 19.670000076293945,
-  "tnx": 5.134999752044678,
-  "wti": 88.5,
-  "cu_oil_ratio": 151.8945775548213,
+  "date": "2026-11-14",
+  "copper": 6.0635,
+  "copper_chg": -2.0910705635394655,
+  "ma20": 6.4337,
+  "ma50": 6.564939999999999,
+  "dxy": 103.42,
+  "vix": 19.299999237060547,
+  "tnx": 5.1539998054504395,
+  "wti": 88.55999755859375,
+  "cu_oil_ratio": 150.94527708354497,
   "shfe_cu": 105150.0,
   "shfe_cu_date": "2026-11-13",
-  "shfe_lme_ratio": 1.086,
+  "shfe_lme_ratio": 1.092,
   "lme_stock": null,
   "lme_stock_date": null,
   "shfe_stock": 2270,
   "shfe_stock_chg": -174,
   "shfe_stock_date": "2026-11-13",
-  "lymy": 13.34,
-  "lymy_chg": 0.0,
-  "tl": 4.83,
-  "tl_chg": 0.0,
-  "jxt": 32.29,
-  "jxt_chg": 0.0,
-  "cper": 36.65,
-  "cper_chg": -1.57,
-  "copx": 69.22,
-  "copx_chg": -2.52,
+  "lymy": 12.88,
+  "lymy_chg": -3.45,
+  "tl": 4.69,
+  "tl_chg": -2.9,
+  "jxt": 31.33,
+  "jxt_chg": -2.97,
+  "cper": 36.53,
+  "cper_chg": -1.91,
+  "copx": 69.23,
+  "copx_chg": -2.51,
   "signals": [
     {
       "name": "铜价低于MA20",
       "dir": "bear",
-      "text": "$6.10 < MA20 $6.41"
+      "text": "$6.06 < MA20 $6.43"
     },
     {
       "name": "美元偏强",
       "dir": "bear",
-      "text": "DXY 103.38 > 103，压制铜价"
+      "text": "DXY 103.42 > 103，压制铜价"
     },
     {
       "name": "风险偏好正常",
       "dir": "neutral",
-      "text": "VIX 19.7"
+      "text": "VIX 19.3"
     },
     {
       "name": "铜油比偏高",
       "dir": "bull",
-      "text": "铜油比 151.9，工业景气预期强"
+      "text": "铜油比 150.9，工业景气预期强"
     },
     {
       "name": "实际利率高企",
       "dir": "bear",
-      "text": "10Y 5.13%，压制金属估值"
+      "text": "10Y 5.15%，压制金属估值"
     }
   ],
   "score": -2,
@@ -67,12 +67,6 @@
       "text": "Copper Price Falls To Lowest Level In Months, Outlook Shifts",
       "src": "TheBull.com.au",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPSkV0Qko0aTVlWk9PTXNPUnRpZHBmV3paSTZ6dklHOG1LNnNMUUZhVUlRMzNSdHB3OHA5NmxrTml0ZmFFdEQ2T19WUXVVcmtLT1c2QTZmZVJ1d21uZ0JISFFUUV9WMFdxZU9MdDhuNk1ZNHQwN01JNGNjRDAxRkpqanlHQ2FOaHJqZ3RvOUZfanByUQ?oc=5"
-    },
-    {
-      "date": "2026-11-07",
-      "text": "Critical Minerals Co. Completes IP Survey Near Hudbay's Copper Mountain Project in British Columbia",
-      "src": "Streetwise Reports",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOVmZGOC1CLWJUNlV3V0lpcC1STTA1VDdJYkstUnVUY004UktIYzZNQmdXUnRmRGpCLWVTSjZ1bVlKdmZ4ZUZjeUx6TkJPYkMwWVlWNkl0NFY5VEt2VkVxOGttNXJHUl9ZLWxrRzJBTVVSWS0yS05Ud1AydDdFN3FXVURXemVIeC1VdW1SVk5PUEgxM0tBTnB0ektLLXlPS3d3d1J2aGVzaUlQYTFUd1ctclNfMmJXSXl1QWc5NUNEdTFkVVM5djA1dzV3VlIzd0o3Z3dJUWJ4RlJTYkNoc1hPSUN2d1JfZVdJYi1N?oc=5"
     },
     {
       "date": "2026-11-11",
@@ -95,5 +89,5 @@
   ],
   "ai_analysis": "",
   "ai_error": "未自动生成，点击按钮手动生成",
-  "ai_date": "2026-11-13"
+  "ai_date": "2026-11-14"
 }

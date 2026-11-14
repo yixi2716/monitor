@@ -1,68 +1,68 @@
 {
-  "date": "2026-11-13",
+  "date": "2026-11-14",
   "hs300": 4016.29,
   "hs300_chg": -0.68,
-  "med_etf": 0.383,
+  "med_etf": 0.381,
   "med_etf_chg": -0.52,
-  "inn_etf": 0.823,
+  "inn_etf": 0.808,
   "inn_etf_chg": -1.82,
-  "cxo_etf": 0.342,
+  "cxo_etf": 0.339,
   "cxo_etf_chg": -0.88,
-  "tcm_etf": 0.893,
+  "tcm_etf": 0.89,
   "tcm_etf_chg": -0.34,
-  "meddev_etf": 0.441,
+  "meddev_etf": 0.438,
   "meddev_etf_chg": -0.68,
-  "vaccine_etf": 2.014,
+  "vaccine_etf": 1.964,
   "vaccine_etf_chg": -2.48,
-  "hsi_health": 24008.55,
+  "hsi_health": 23637.6,
   "hsi_health_chg": 0.0,
-  "hs_inn_etf": 1.252,
+  "hs_inn_etf": 1.216,
   "hs_inn_etf_chg": -2.88,
-  "tnx": 5.14,
-  "usdcny": 6.6611,
-  "excess": 0.16,
+  "tnx": 5.15,
+  "usdcny": 6.6704,
+  "excess": 0.0,
   "north_money": 230056.66,
   "north_date": "20261113",
   "news": [
     {
-      "date": "2026-11-13",
-      "text": "产业园联动逾20家企业赴巴西 深化中医药国际合作 拓展葡语国家市场新机遇 - 国务院港澳事务办公室",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1lcWFja2RaSDMzLTRSTGZMSUZyTXBQMkhvYkhBSUJvWTlCS21xM1QzRWp3RHl5QzhLSnZsc19SaG1IVHVUcDZwQ3BRQnAwSEtiSXlZWWo0OFBTTERua1YzOG9IckFwOTUtb2hqY2dFQm5ZbnMwNGpTclZn?oc=5"
+      "date": "2026-11-14",
+      "text": "新华鲜报｜51个一类新药进医保 创新药惠民“再提速” - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNaW5Sa1RlWWNrSEtLY3lxU2g5dFpyOTBjektRdHFHN2JGVXNNNXpNZGhZTk9uMHlqTlNSRmpvMXp1UExDSnNUVFVtYUdlU3VVd0pIcmVpNERBZDJwcXRoQnN5dEU4bml4NmxLcm1yM3ZEY1VPbjNWcmV0LTF4cFRuQjRpMA?oc=5"
     },
     {
-      "date": "2026-11-13",
-      "text": "跨省域协作助中医药振兴 “秦巴山·万达开”产教融合共同体成立 - 四川新闻",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5BdmpTdU9YRS1LLU9WTmxRanNONnhWTEhCT2hpWHVGeWlmWDhjWExfS29VaGUta2F4amFrYXlGbDlSV1dWcDA0aFNsZUhxWlBPcklqRDVRSWlkdGpYVWwySWFQbw?oc=5"
+      "date": "2026-11-14",
+      "text": "政银企协同赋能生物医药全产业链开放创新发展 - 苏州工业园区管理委员会",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNekx2TEtnSE50MTR0aXA0N3pLMU1mWE9YOXlDYW93bzkyNlE4LVVGVjBLWDJKRXUtWTBUNEhVZ0x2ZnktcnhJUnZlSWFLbUEtR0xPY0d5dUw4Xy1iNlp6TUhYbGxiR2hQV3haSDlPbGhkWVljLUxuemZWN2swYlFwZnZxMTNxeEJn?oc=5"
     },
     {
-      "date": "2026-11-13",
-      "text": "全球首个！园区企业创新药注射用亚胺西福获批上市 - 苏州工业园区管理委员会",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPNU5DNzZ5dnhCRzVnOTZwT0FycDNudUYxRjZ0N0xnQm1GNmZXRU9zSVJIV1NpNTZSX2FfdmhCZUtWTmd3bFZ1RzlqVDk0VTFrbVYyQTdHNnczbnF0ZVpVcU5EaENRSHdWMlFZa3BIS1FSay1DN1h4MFJiRjFaQ1FFTDdjZEpsejZ4Ymc?oc=5"
+      "date": "2026-11-14",
+      "text": "3个新进医保药就有1个江苏造，制药大省如何让国谈药加速进医院 - 第一财经",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE51V2otSlBIMDRNRUd3RlpCWFNWdkRHZV9KWXBteEN4LVRBS3dMVUwzQ19pMUxvV1lIMzhpVUVtcUFaMXpSOTBnV0tuNWFTTmItZTVF?oc=5"
     },
     {
-      "date": "2026-11-13",
-      "text": "吴阶平医学奖、吴阶平医药创新奖获奖者名单公示 - 科学网—新闻",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB0ZFB2dm1UOWZiVjZFUDkxTHJsdWN4ekV1ZUlFQ0phT0ZONzAzZDktbmR0Z0d4YW5Sckd1bzNhM1daS21pc3JNMGFMUXFmMXN0Tjd1VkNra0Z0U1J3NXdydlh0dmhpZw?oc=5"
+      "date": "2026-11-14",
+      "text": "2026医保目录落地：入院松绑在路上，好药如何算清可持续账？ - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNTWlONENxREpZYktnYzhOSlBqVTBuZnc4NldZdU1LbW8ycXFEMEljeUJoWXhpczJVd1V5d0J5bkE3eTJiUXhuQ01fMlRuV3M2NW9VeGZfcjViTExVSnBhSGR0TkJUcHdKSjY0NXJfZF9qb0puaEluTnJaWUdFaWZIY1FMV0VXNjJ2YzRlcF9kY0RsMjJLTW1DcGdNT0RQd0RsWlN0S2FpcC1jQThtTlVld1lGcFJ4V1ZReTViQVJMeHJwS3RFSy0zT296Y1ZCUkF0WHV3RUR1ZXl1SEs3b0FpV2cwYlhSejMySFJjVzhTaEJxenVxMUJGWlVKUXRVQTEzcDdYTTFXMEZ6dVZp?oc=5"
     },
     {
-      "date": "2026-11-13",
-      "text": "深化科技赋能云南省科技厅与省药监局协同助力生物医药产业高质量发展 - 中华人民共和国科学技术部",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBpYUQxNmxPaHIwSFFKQ0dYVXdBQW1maGwyME9DYUFfYWdiUk53XzJMbkQ3YTBjNjRpbUU4WXlTVnVhaDVoRjZFbkd4dlhXUkVFSVRvd2J2YzI0RGstT3BtSDRwVXc4TEx5Z0F1YmJWVl9IcGs?oc=5"
+      "date": "2026-11-14",
+      "text": "新版国家医保药品目录发布 科伦博泰两款创新药入围 - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE02b2dWVlBBYkFabUxtd3NVOXpxbmU4TmFqMmN4Si0xby1JTGVZNTRENnlFbmVvbUlkTDhSR1dqSEFrYkx0cUMxTkdJdElfNkpPWmhNSkF3UnRjUE5aTU11aG42U19tdw?oc=5"
     },
     {
-      "date": "2026-11-13",
-      "text": "泰州市医药高新区（高港区）长期护理保险重度失能评估结论公示 - 泰州市人民政府",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPc29OUVFFWExyNHBWV2pkNG9sVkNNR2s2TXR5ZWtHOVBaZ2t5SjFKdlBaN2c3V0ZPVjBQR2V3UElSN3h3MmZUbW84X0RocVlnc3pDSmVYQ1hKckdpcFNsMFl2ZXZ3b2JRSFNaX0ZDS1pyQVJnb191YW9iR2QyRmc3aFB1SGhJNEloYzc0cTlB?oc=5"
+      "date": "2026-11-14",
+      "text": "12+107！百万级CAR-T首次进入医保 新版国家医保商保“双目录”公布 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFA4enF2a2s5Q0RhN1A4TW1PNUJfX190aGNiQ1k0TUJkSWx6YVZwZVdzOS1hTzhGUkhvRE5tN192dXhTUTFfVDJERQ?oc=5"
     },
     {
-      "date": "2026-11-13",
-      "text": "全球首个！信诺维首款创新药获批上市 - ByDrug",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1hblVlYTFZWWNVQV94Y2hVQmZBMUtRUENha3FZN2l1a28zU1ByQUctMEN1YUZLSXZhTzZWOElDc09rSFlYUTBkaXlOa2RNTWx0dExmbjRJMm1vVDNBU2JkV25mZ0FISVBNbm1TNHFBTTNRcDdHdEhGVE9yOTU0UQ?oc=5"
+      "date": "2026-11-14",
+      "text": "苏州中行举办生物医药全产业链对接活动 - 江苏新闻",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5KU1U0NG5id3VTNXRIWHh1dUNOZVkwTHZXOEZfTEJ4YTFyRFF2Ml9fZGI5R0tTQ283UEt3UHAzMjRFc2EwVEQwNmVZOUlIUzVDWHN6R0pWaktNX1d0eXZ4QllKVzE?oc=5"
     },
     {
-      "date": "2026-11-13",
-      "text": "南宁百货：拟以4169.12万元公开挂牌转让南宁医药46.26%股权 - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1obkZIZW41S1dQa1J3T21EejBhVmd3S1FIeWpBelpmV1I5T3BvdlJBVXNKOXhidzNVRDFOWkRPd1VGZ2hQQ2E5SDE1eElZU01sVU1rYUdIbW1FckNaTW1XSA?oc=5"
+      "date": "2026-11-14",
+      "text": "开启中国创新药的“苏州时刻”：JHC金鸡湖生命健康投资大会顺利举行 - 央视网",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1EdXRUczZic1hOcmF6c3o3cmFkVDV5NVliNEYzbjdNWnNfVHdjRkhNWTlCU3hqMXpwVzFKQkNjRWs4VktmUnRPU1ZJU2JUYjlwZlk5YWRIZ3ViX2NOZzA3anhXdDFuaW5GZ0EwZ2xWUXFsOUcta3lnMXh3?oc=5"
     }
   ],
   "ai_analysis": "",
