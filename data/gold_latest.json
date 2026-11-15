@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-14",
-  "fetched_at": "2026-11-15 00:12",
+  "date": "2026-11-15",
+  "fetched_at": "2026-11-16 00:40",
   "gold": 3887.6,
   "gold_chg": 0.0,
   "ma20": 4022.14,
@@ -135,7 +135,7 @@
       "tip": 104.61
     },
     {
-      "date": "2026-11-14",
+      "date": "2026-11-15",
       "gold": 3887.6,
       "gold_chg": 0.0,
       "dxy": 103.42,
@@ -148,7 +148,7 @@
     "last_change": "2026-09-16 加息 25bp",
     "next_label": "10/27–28 议息会议",
     "next_date": "2026-10-28",
-    "days_to_next": -17,
+    "days_to_next": -18,
     "upcoming": [
       {
         "date": "2026-10-28",
@@ -175,12 +175,6 @@
     "updated": "2026-09-28",
     "events": [
       {
-        "date": "2026-11-14",
-        "text": "U.S., Iran Threaten Escalation as Diplomacy Stalls",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQmlmT3lPQzFLQllCZ1hQZ3Z5Wkl3ek1XeHdDVkJlcWJZZXI1eUNBdm1zMERMN3VCOGZoUTdNSXpBUVEyZWhJY00wc1liT3ZJNTJ6bTlwY183M0tJMzU0WHNiT2QxNTJLaXpBZ0hhUjkzMWtzM1hNUEtRZ3ZHQVZDeEY2dHlZV0dELTI4UWFIcUpERXM?oc=5",
-        "src": "Arms Control Association"
-      },
-      {
         "date": "2026-11-13",
         "text": "Trump says \"we don't need a deal with Iran,\" as Tehran sticks to its demands",
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5JdnI2N05uOHdtZFhtb0U3MGN6bEhNN05QbE85RV81UGRMenBqY04tWXhLU1MxRzR6NWxZOUx5cnNzYmRwRFEwRWJnbi1Cc0JpMUt2aW53VEpWOFA0cEptN2xLLVB6S1RxNDlydWs5MGsySnprakktTlkwUmxqODQ?oc=5",
@@ -199,16 +193,22 @@
         "src": "Radio Free Europe/Radio Liberty"
       },
       {
+        "date": "2026-11-14",
+        "text": "What is Pickaxe Mountain? Trump says US will hit Iranian nuclear site 'pretty soon' - ABC News",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUDBUM2pSVUtoLUJURTA4cTljdXU4czh6eVVsdHhIOTZOTC0zUS1ZVnkzbmo5bGtSc0V1XzZnUHFOal9IN2d6VFdqRV9Pb0pIUlBNdDVwMHR4enplWmxqRkpkMnNZMnh3VmdLTmRUWXo3RHNDT3R1OEM0MlJFZVpyQTVWdjBTLXJzdzI4TXVEVzM1aVdwY2pVV1YyM0EwX2vSAaQBQVVfeXFMUFVpcFM1Y2RpSUNoNTNFaU9QVjVIUFNKOTYwd25fM3pmOGNkeWpUbzViNENEVE5sM1RPazJQOTl5OHp5SC1seXZwbWNiNXhUUThLUFJzRHpZdkZNemZkMEFxUDlRejl0Vk84Qm9NeXJwREJrOXZxaXk3SEZrZ281enlDbGJmRXBBOV9fRlAtX2EyRVNRdVNYREY4bTZQZXNJT0ZQNG8?oc=5",
+        "src": "Breaking News, Latest News and Videos"
+      },
+      {
         "date": "2026-11-09",
         "text": "US-Iran war news: Donald Trump says renewed Iran attacks 'unlikely' if nuclear program, Strait of Hormuz talks show progress",
         "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMDI3RlFKanRPTHFyNk9iNEI0OHRCNDNJVGIzRkw1UWVxUXFNdkR0RTZyeGpTcGhWYXFkd2Mya2tYM0NxcHI4TGVsVm1kQ3NGMnZjRC11empBVnlDbHNHU2MxT054ekwzM29peEk2RUpGU21DWUNmNGJMbXZOLWtXeVpMcWdFc3BZQjUxaXZwbXlIdktKUkZIdnAya0luRklNZk5NSHhjU3RkOHdXdm9Hd1lta2hMbThCYjZuNWl1bWlvd2NCSU5aRWtrTnM0RkXSAdQBQVVfeXFMTWtrOGxQS1Z1N182NnVTcE5qTVpLRHZpV0liY2JFU3A0VmM3Y2NmdUZxRkVHdHh1Z1RoVUZjc3pPbTVNRndOZVo4S1g3dFlfWWtqS2F6SERBZkR3VFF3bUptVUhwWm1HOVNjRXRXcW1qT1hzaDJKY3p4S0lVX095blM0VXpVZ3FQdG42VHFqZkFDaWdYTlNGbmxIanhvQW5icmNjRmJfTnRta3RfUHg1T2IyNkQ1bHAxckQ0YjZBd2pDWks4ellqcmw1aGljeXRrNWhFRlo?oc=5",
         "src": "ABC7 New York"
       },
       {
-        "date": "2026-11-13",
-        "text": "Trump Signals New Strategy on Iran: A Waiting Game",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE51bnYyZ0xDaHVCc05TYXYxdDlPME5fNmNfbklWSm9GMk53TTJHdnhGMm1JQWZyR0VHZ0VZQlhFdzZyVmFnRm9QdmNocUJ2OXJLUGgwenNPb2dsbTFqRU5RYVJISVFlLWducVRCTzhRaXN5dXZMalU4MnJFWQ?oc=5",
-        "src": "The New York Times"
+        "date": "2026-11-09",
+        "text": "U.S. offers $20 million reward for information on Iran nuclear program",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOV0hSMUpfLW92UkRFbG04WDZQSTZ1ZE1VU3JIcWVQUmduUWg4STFBdFJ3UlJLR19pNDE0cHJqZTBOenV0dnQyOVoyUFJyNHZ5VGQ1WWpYbEkzQnM2aWphWmx4aHo2TkhEWVlnUUtzWkd2TjF0T1E5Uk4tMEs4U2kyR3NGYUxwNVJBLV8tamlnZjJDYkdid2plSVVkOXFGZTNaajB1Y2ZSWWFsOU1pNHExa2FjWUZNc3JaaVJDR0JR?oc=5",
+        "src": "The Washington Post"
       }
     ],
     "gold_impact": "双重作用：局势升级→避险买盘利多黄金；但同时油价飙升→通胀预期→美联储更难降息→利空黄金。当前谈判窗口期，油价波动会直接传导到金价。",
@@ -218,5 +218,5 @@
   },
   "ai_analysis": "",
   "ai_error": "未自动生成，点击按钮手动生成",
-  "ai_date": "2026-11-14"
+  "ai_date": "2026-11-15"
 }
