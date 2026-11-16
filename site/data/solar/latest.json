@@ -1,19 +1,19 @@
 {
-  "date": "2026-11-13",
-  "hs300": 4016.29,
-  "hs300_chg": -0.68,
-  "solar_etf": 0.698,
-  "solar_etf_chg": -3.06,
-  "newenergy_etf": 1.964,
-  "newenergy_etf_chg": -2.48,
-  "storage_etf": 1.427,
-  "storage_etf_chg": -3.06,
-  "tnx": 5.15,
-  "usdcny": 6.6704,
-  "excess": -2.38,
-  "dd_from_high": 0.41,
-  "pb_ratio": 0.069,
-  "turnover_ratio": 1.038,
+  "date": "2026-11-16",
+  "hs300": 3979.8,
+  "hs300_chg": -0.91,
+  "solar_etf": 0.677,
+  "solar_etf_chg": -3.01,
+  "newenergy_etf": 1.935,
+  "newenergy_etf_chg": -1.48,
+  "storage_etf": 1.395,
+  "storage_etf_chg": -2.24,
+  "tnx": 5.11,
+  "usdcny": 6.6637,
+  "excess": -2.1,
+  "dd_from_high": 0.4277,
+  "pb_ratio": 0.0667,
+  "turnover_ratio": 1.125,
   "stocks": {
     "tongwei": {
       "close": null,
@@ -46,44 +46,44 @@
   },
   "news": [
     {
-      "date": "2026-11-15",
-      "text": "3连板金辰股份：SINGULUS SOLAR GmbH主要从事光伏装备的销售2026年1-10月尚未产生营业收入 - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9ac3I3emgwMWVWY19DelVXWTNRVU1QSjZ6M0J6c0Rtc0lfdHFSTU9rZXRVV3lsTmxaa3F6Wl9rS3FqYkxlR3VzQWx1bmQwZFVEdEZlalFsalh0Yk1CTTF6OA?oc=5"
+      "date": "2026-11-16",
+      "text": "2026年前三季度光伏发电建设情况 - 国家能源局",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4yZVFoY2xURTlSRTFCOFdFay1SRFJkdm1rOEZRbDNSUWowS184TUVHek41cm5qMmpmMzV6alA1MGNkenYtZ3FuV05HT056M3dNOXhGeE9tMDNHTVQxZERMMzJBdUd3RkZVREJuYjVGY21GeUhMd0RzYnBDTQ?oc=5"
     },
     {
-      "date": "2026-11-15",
-      "text": "本周硅料继续持稳 - Sohu",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBSOGQ1b19IY1NkUHpOQkFITURXQ0lmS1JkWkhYYk9FeEJZdmlVUV9tNWFaU1M0RUtranhvY2I4cWR6SlJIUGk3dlRQTy1saFZPWXc?oc=5"
+      "date": "2026-11-16",
+      "text": "2026年10月份全国规上工业太阳能电池（光伏电池）产量同比下降1.3% - 国际太阳能光伏网",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1TS1ZBMDBVMEFMaTNPaldndEVmdV8zNWtibkdRVFJ5Z0F0ejhMdno0X1VWRlRPWHhtRFI4WWR0N3lSQ0dxODhEb0FtTGpxRU5kU0NNejBBbUxpejgw?oc=5"
     },
     {
-      "date": "2026-11-15",
-      "text": "光伏起落，人性不变_产业观察_财经 - 证券之星",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9oQkV2Vm90d2JsdzhfY1ZYTUtQanlNa053a0RxclZZZWhJSFhfdDdqckRPMEVDN1J3X0h1TTY4VW9ZZk5LeG5uTUx3eUtMS0tweFpyOTVtNlo5RzBVRW9XZw?oc=5"
+      "date": "2026-11-16",
+      "text": "国家能源局公布前三季度光伏并网数据 - 中国能源新闻网",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE04cWlTMjlMb1RuQ1F2OExMMkpCdG1JR3hONU5LTUtkNTVYbmZiZEkxZVRSQWVqeGFSNVR6WmlOamVKZTJVNTlZNW54dG9CcEJSNHM3YnU3emNCNzBIUy1Ldmo0YTFpZjg5aEFtMUEtV08?oc=5"
     },
     {
-      "date": "2026-11-13",
-      "text": "通威入围中国能建15GW组件集采 - 国际太阳能光伏网",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CNzhhdkJpdzZGd0hvVnBwb1VzOTFweFhWcGhUNWg0dmZSNks5UjAxbUY4QVlKbTExOHhIbDZPQnZpWVo0cjM3Mk00UnVpY25WeDlucS16ZHNtVXZD?oc=5"
+      "date": "2026-11-16",
+      "text": "中国高速公路每年或可产生182太瓦时光伏发电量 - pv magazine China",
+      "url": "https://news.google.com/rss/articles/CBMizgJBVV95cUxOMV96dmlpajVWTXJuX3JWa2VzNUV3c0JtaDhlWTZoSW5UeGlWS0hRWkx5VlFNM3lLcUoxRnM3QVFQakg4SUw1X3dheXNsODQ2SmFXRGVOMnhNYnVGX1FjeEd4NmFWR3pSZjk4R002alg5VkVhVzR1ZEU0R203ZjBoZlRYSTdkU2FFTlEwb0l3d0ZlZzlDLVJrS0laTFFuX0VhNVBHUGtPeThIeG5lRGh1OTAtQ1djZ1I4clBXcmFFMVNxQlQzZURMMmlZdzZ4T0EwcmpqTmNNbkJrQV9DcHlIaTdVWWdrdGlnTXQ5VnVDbDc1SVJrUUk2QXR3ODhGUGpoUDBmck4ybDNLZUtMV0llNXRVaHphQTZBem1kbHBBOE8zUmV6NnNXbGJaZnlDQi1PRnNYV25YZ2tEODVoM3Roc0lZWVN4YW1ZNFIwZXdB?oc=5"
     },
     {
-      "date": "2026-11-15",
-      "text": "保供用能进入“备战模式” 风电、光伏、地热变身守护寒冬暖意“绿色基石” - 央视网",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9SOHViempNLXItUlRmc1piNkF0SFRHS1gzVk14V01KUl93UGVwMm1pZS1XSTdiXzZoYldGc2RXSU9IQlhGWU5YYzdVVi1pSXIyeE54VHZqMUNXNkNNLTF1YTM4NUpKMzBBME9vYUx3VjFEczYwTEFCVw?oc=5"
+      "date": "2026-11-16",
+      "text": "从“散装光伏”到“云端电厂”，微电网何以成势 - 中国科技网",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1DMFNTeGQtTGRuSnRURkJMUkhiWkhMWEdJdm9HdmpPOWc3RGxjUDhNYlNXWjVGOFNOUGFBN0JsdWFQVVJBemV0UERJelpFX3JYMGZscGMzUzc1RE04S1lqMUMxQ20tUjdQZVkwUFF3YnU?oc=5"
     },
     {
-      "date": "2026-11-15",
-      "text": "华能长发六万千瓦光伏项目获批全面开工建设 - 见道网",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE92M0ZVZl84WXNEMGV0Sm9UaWhFV25SZmE4djhIUk9LVzhGanNFcldQLW1WWHplcXlXVFg3OVpQSm5iUmNNQXJDN2tZdGFYNHBHdG9Xcg?oc=5"
+      "date": "2026-11-16",
+      "text": "梅州市汉晟新能源4个屋顶分布式光伏项目备案通过 总投资63.58万元 - 观点网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9DRHJacHJfaGJpQjNPdW1ad2FtQkktSExHNzRxenR4RHl3d3ZxcG5qWkpFWXU3YXI1VEhCV2hXMG5nV1ZtMzJSMTNzUWlxWEhabDdQcFRrWFE5LVhTM3Y3ZlJB?oc=5"
     },
     {
-      "date": "2026-11-15",
-      "text": "云南3.03GW光伏项目优选启动 估算总投资133.32亿元 - www.gessey.com",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE04Ym1tMEwxOF81ZTVFd3NXRHoyUjlXZGtkSXdUOVFzSmtTU2RveXRCSy1BRXNwTzdVbHVFLTBTczkyLUJnckYxT2NQYjdCVkE?oc=5"
+      "date": "2026-11-16",
+      "text": "国家能源局发布2026年前三季度光伏发电建设情况 - 21财经",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOYnJxWHc0alBVME52Nml0cVVjaFg3UGpHZ0VRempOZjk5ZzB4d1hFaXdhU2F0MG1Cc2NxSjh2RmdUZDZaX0d5azgxVHNMclpTRUFaSzVkNFF0MnRrNVY5Z2JxcTA2enMxT19qVHlPRzM1Sk9ubGJfS2FEWHhueThtOTFwMm5oOFl2RkRHQ1dERQ?oc=5"
     },
     {
-      "date": "2026-11-13",
-      "text": "华电海晶光伏绿色名片入选中国能源传媒宣传策划案例Top50 - 中国科技网",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9JdzVYbGFLc0ZabUlHVjhaVHNzV1ozRlhodUozeEhTdXIxcXU0WU0wdEtZNVRpZUo2QzZDOGxTMHh0cUs3UzNhZjQtUk1rMl9YSWw5UXROa1c2RFEtUUctNFVmNFNBN01CYmdBQXpIb00?oc=5"
+      "date": "2026-11-16",
+      "text": "SemiAnalysis大幅下修AI算力预测：2028年资本开支预测下调近三成五年硅片出货面积下调17% - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB1aWQweU9HM2pxWUhWOE5KRWlPWk00WkNELXZaTjVDZEdGS0JjSEVpYzdlbDdSZTE1TzRCa01WUjBucFhCMHF3WnlKaC1QaWpNQXlMd01mSFJTTzdQZC1aMw?oc=5"
     }
   ],
   "ai_analysis": "",

@@ -1,57 +1,57 @@
 {
-  "date": "2026-11-15",
-  "copper": 6.0635,
-  "copper_chg": -2.0910705635394655,
-  "ma20": 6.4337,
-  "ma50": 6.564939999999999,
-  "dxy": 103.42,
-  "vix": 19.299999237060547,
-  "tnx": 5.1539998054504395,
-  "wti": 88.55999755859375,
-  "cu_oil_ratio": 150.94527708354497,
-  "shfe_cu": 105150.0,
-  "shfe_cu_date": "2026-11-13",
-  "shfe_lme_ratio": 1.092,
+  "date": "2026-11-16",
+  "copper": 5.999,
+  "copper_chg": -1.063742063164852,
+  "ma20": 6.40445,
+  "ma50": 6.550840000000001,
+  "dxy": 103.53,
+  "vix": 23.940000534057617,
+  "tnx": 5.11299991607666,
+  "wti": 85.58,
+  "cu_oil_ratio": 154.53979177377892,
+  "shfe_cu": 104090.0,
+  "shfe_cu_date": "2026-11-16",
+  "shfe_lme_ratio": 1.093,
   "lme_stock": null,
   "lme_stock_date": null,
-  "shfe_stock": 2270,
-  "shfe_stock_chg": -174,
-  "shfe_stock_date": "2026-11-13",
+  "shfe_stock": 5335,
+  "shfe_stock_chg": 3065,
+  "shfe_stock_date": "2026-11-16",
   "lymy": 12.88,
-  "lymy_chg": -3.45,
+  "lymy_chg": 0.0,
   "tl": 4.69,
-  "tl_chg": -2.9,
+  "tl_chg": 0.0,
   "jxt": 31.33,
-  "jxt_chg": -2.97,
-  "cper": 36.53,
-  "cper_chg": -1.91,
-  "copx": 69.23,
-  "copx_chg": -2.51,
+  "jxt_chg": 0.0,
+  "cper": 36.13,
+  "cper_chg": -1.08,
+  "copx": 66.07,
+  "copx_chg": -4.57,
   "signals": [
     {
       "name": "铜价低于MA20",
       "dir": "bear",
-      "text": "$6.06 < MA20 $6.43"
+      "text": "$6.00 < MA20 $6.40"
     },
     {
       "name": "美元偏强",
       "dir": "bear",
-      "text": "DXY 103.42 > 103，压制铜价"
+      "text": "DXY 103.53 > 103，压制铜价"
     },
     {
       "name": "风险偏好正常",
       "dir": "neutral",
-      "text": "VIX 19.3"
+      "text": "VIX 23.9"
     },
     {
       "name": "铜油比偏高",
       "dir": "bull",
-      "text": "铜油比 150.9，工业景气预期强"
+      "text": "铜油比 154.5，工业景气预期强"
     },
     {
       "name": "实际利率高企",
       "dir": "bear",
-      "text": "10Y 5.15%，压制金属估值"
+      "text": "10Y 5.11%，压制金属估值"
     }
   ],
   "score": -2,
@@ -63,10 +63,16 @@
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5BVEZSUnlReDd6VUdzNGEwU0FnVWhUa0pyQ0VQZ19jX1UyR0RuMGJzdXN2S3gtZkx3dzFlbDVKcVJPVko0Z3M2bDJ5WGtPTDh4LWRHQUZ1M2VienZ1bG1RU1M0TkJxZXBOOUJ5SlEyY1MwQQ?oc=5"
     },
     {
-      "date": "2026-11-14",
-      "text": "Goldman’s $15,400/t Copper Forecast for 2027 Faces Downside Risks",
-      "src": "Discovery Alert",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNWDMzMnJXVE1wU0c0LUZ3SWtSekwwamIxRFNhemplUTdqM3ZoV05OcXZid01ieTNoVW9ieXNFSnlGaDUwWGc3R0NMa0I2ZXJycnNkYUJkOEcyS1hLR0UtRlZVck1oU0hxV1JTR3UwWVRRbGEwbmR3aHpDNFkydHk3SUV1U3UxUjhEMktmQWxB?oc=5"
+      "date": "2026-11-16",
+      "text": "Are Critical Industrial Metals in for a Decade-Long Price Rise?",
+      "src": "SupplyChainBrain",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTFdEV2J2bW5rNW5QbGlMUnZDd2VlNndYSVpzUl9EdGhhUThsTEtUWDh2VElqaXU3QmlKYmhUUjJrLUV4XzJ0clR0ejZUcjdkRkthNW5RLWh6bWZoa25UNFpXXzlJc3RoNTNJT1h4OGdhNFhvVmkteEpBSmRNM0ZlOV8za0VjYXpjZ0MxRWh3NTBCc1pUVU9yZEtSTXlQNE80NUUyWk1HSGM4d0RVVGFSaDRPZXU1QW5NY294QUVtZ0Y4UQ?oc=5"
+    },
+    {
+      "date": "2026-11-15",
+      "text": "Weekly Market Kickoff",
+      "src": "Topstep",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE14anRoTmc3aHpaSHc5ekRmRjJXV1Z6WHlGRVh6UldpU01xRmZmOXFxakw0OEUxcGhZNFlEU1V1OS1pWlFXbkpmZXVXV2xscWIySEZxOFk1V2dQaEZfVlE4?oc=5"
     },
     {
       "date": "2026-11-11",
@@ -75,13 +81,19 @@
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQXZJUzB5LTNJOXI3T1VnQ21ONV95TTdnanNKd09laGFicy1TQ3V3M3REOFB2Y0lvalYxTmdsX1I5WlctM2ZLT0Z4X0NCWGtFQTZ3bWJFZGFDZ1duaE1IUWlvQkFsZ1hSZ2tYUTM3dzFXbzd1RThfZFRMZWZSOWtDcWVFS1NlOXdkaU5UY1UzamZtTWh5alhZaF9sVHdxRWw0MzdoZzNBeUtkSHdIU0hYeDJfX014QQ?oc=5"
     },
     {
-      "date": "2026-11-08",
-      "text": "Critical Minerals Report: Two Elections and Two Deadlines Changed the Arithmetic for Western Supply",
-      "src": "InvestorNews",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOWW9Rc29kMmRHVW9Uc2J5ZUUyWjVLNGR4ZWdTTktFOEt5Wk5senUyQ0s2ZXRxbGJrTEozTE53WUxtd1NOY1UyTmdDUkl1S0Q2YVRTYWF2d2V1Y0xfVEozSmNtX3VmWEtrN0NHdEhLWmdZT2NySjJITVFHSGc0U0E5eGViZWZweWUyU3lGZDlCV0RtQVJGcnhXeTNuMW0tNkdVdnVaTUNvNWl3RTIzOVVHZWZ3UTNmcFZjRmJMeWJNSV9KVS1nbHpVVkkybURLRlFhc19DbGg5bGpRdWlpOUdPQmN0X0hUY0tZT3c?oc=5"
+      "date": "2026-11-12",
+      "text": "Adani's Kutch Copper and Codelco sign MoU to explore Kaburkaala copper project in Chile",
+      "src": "MLQ.ai",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQX1V6U1ZIN3Y4eTB4cnA0X1c5SzJOdHh1WWgxMHFBbFdvUTNJbnRGYlUwV3ZGbkJvQ05SNGlSbHR4NWY1azZ5eklPSldmU2RXZVdVWjFKTmdJcWplUEJUS3lqT1BoTmdiX25WSlFlc2hNZWczWEhIMHN5dndNbFBSNVRVbW5uOTE0cjVCaGJ1LVNXTW5rSGl3cFc5SkhYcFc4bHI0cnB2NlJPQ00?oc=5"
+    },
+    {
+      "date": "2026-11-16",
+      "text": "It Was Never Just About the Affair",
+      "src": "Fat Tail Daily",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9oLTM5U2ZtZG5CbTh3bUNZNXI3T1R4eENmMEpKR2x1bHMxRERaYU80WFpRbFVETkdPRUhSeENWYjB2NFJFUmQ4bjdYdHFvNkR6M2R3a3ZsNGdjcUVZTEFqUw?oc=5"
     }
   ],
   "ai_analysis": "",
   "ai_error": "未自动生成，点击按钮手动生成",
-  "ai_date": "2026-11-15"
+  "ai_date": "2026-11-16"
 }

@@ -1,27 +1,27 @@
 {
-  "date": "2026-11-15",
-  "fetched_at": "2026-11-16 00:40",
-  "gold": 3887.6,
-  "gold_chg": 0.0,
-  "ma20": 4022.14,
-  "ma50": 4167.93,
+  "date": "2026-11-16",
+  "fetched_at": "2026-11-17 03:55",
+  "gold": 3864.7,
+  "gold_chg": -0.59,
+  "ma20": 4021.0,
+  "ma50": 4167.47,
   "above_ma20": false,
   "above_ma50": false,
-  "dxy": 103.42,
-  "dxy_chg": 0.0,
-  "vix": 19.3,
-  "vix_chg": 0.0,
-  "tip": 104.61,
-  "tnx": 5.15,
+  "dxy": 103.53,
+  "dxy_chg": 0.11,
+  "vix": 23.94,
+  "vix_chg": 24.04,
+  "tip": 104.6,
+  "tnx": 5.11,
   "corr_gold_dxy": -0.4,
   "corr_gold_tip": -0.09,
   "corr_gold_vix": -0.21,
-  "basis": 33.31,
+  "basis": 32.3,
   "vol20": 27.7,
-  "gold_silver_ratio": 79.91,
-  "usdcny": 6.6621,
-  "shfe_au": 839.0,
-  "shfe_au_date": "2026-11-13",
+  "gold_silver_ratio": 82.26,
+  "usdcny": 6.6637,
+  "shfe_au": 830.56,
+  "shfe_au_date": "2026-11-16",
   "cftc_gold_net": null,
   "cftc_gold_date": null,
   "mode": "M",
@@ -29,38 +29,38 @@
   "confidence": "低",
   "evidence": [
     "黄金与 TIP 相关性 -0.09，与 DXY 相关性 -0.40",
-    "VIX 19.3，与 VIX 相关性 -0.21",
+    "VIX 23.9，与 VIX 相关性 -0.21",
     "多因子混合驱动，无单一主导逻辑"
   ],
   "signals": [
     {
       "name": "美元信号",
-      "text": "DXY 103.4 > 101，压制金价",
+      "text": "DXY 103.5 > 101，压制金价",
       "dir": "bear"
     },
     {
       "name": "利率信号",
-      "text": "TIP 5日 -1.34%，实际利率上行 → 利空",
+      "text": "TIP 5日 -1.35%，实际利率上行 → 利空",
       "dir": "bear"
     },
     {
       "name": "避险信号",
-      "text": "VIX 19.3，中性",
-      "dir": "neutral"
+      "text": "VIX 23.9 > 20，避险买盘 → 利好",
+      "dir": "bull"
     },
     {
       "name": "情绪信号",
-      "text": "VIX 5日 -3%，情绪平稳",
+      "text": "VIX 5日 +20%，情绪平稳",
       "dir": "neutral"
     },
     {
       "name": "实物信号",
-      "text": "GLD 与期货同步（5日 -6.34% vs -6.31%）",
+      "text": "GLD 与期货同步（5日 -6.68% vs -6.86%）",
       "dir": "neutral"
     }
   ],
-  "score": -2,
-  "score_summary": "-2（偏空）",
+  "score": -1,
+  "score_summary": "-1（中性）",
   "recent10": [
     {
       "date": "2026-11-03",
@@ -135,12 +135,12 @@
       "tip": 104.61
     },
     {
-      "date": "2026-11-15",
-      "gold": 3887.6,
-      "gold_chg": 0.0,
-      "dxy": 103.42,
-      "vix": 19.3,
-      "tip": 104.61
+      "date": "2026-11-16",
+      "gold": 3864.7,
+      "gold_chg": -0.59,
+      "dxy": 103.53,
+      "vix": 23.94,
+      "tip": 104.6
     }
   ],
   "macro": {
@@ -148,7 +148,7 @@
     "last_change": "2026-09-16 加息 25bp",
     "next_label": "10/27–28 议息会议",
     "next_date": "2026-10-28",
-    "days_to_next": -18,
+    "days_to_next": -19,
     "upcoming": [
       {
         "date": "2026-10-28",
@@ -161,10 +161,10 @@
         "dot_plot": true
       }
     ],
-    "zq_price": 96.12,
-    "zq_implied_rate": 3.88,
-    "market_bp_vs_current": -12.0,
-    "market_expectation": "市场预期降息 12bp",
+    "zq_price": 95.84,
+    "zq_implied_rate": 4.16,
+    "market_bp_vs_current": 16.0,
+    "market_expectation": "市场预期加息 16bp",
     "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
   },
   "geopolitics": {
@@ -187,36 +187,36 @@
         "src": "Al Jazeera"
       },
       {
-        "date": "2026-11-09",
-        "text": "Trump Says 'Very Unlikely' To Launch Fresh Iran Strikes If Talks Progress",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OeTc1VE5lcEx0QzNhVlh6TnBVZUhfdi1MR0xZQnJOLWo2U3dHb09ucVhPNXctSTFXNTF6R3EwZEJXSl96SF9zS2FPUWFwcHpHeFVMaGtUckZiaGIydHc1SFMwT3U1R1h5WnMtY2RGUkdtYm1jV2VUMWFB?oc=5",
-        "src": "Radio Free Europe/Radio Liberty"
+        "date": "2026-11-11",
+        "text": "Iran Asks UN to Condemn $20 Million US Bounty for Nuclear Info",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONDFTNzAwQWpUTG1pSVAwZ1Q2eU9URXNEQmlVTFpwdVhaVE5FenZTcUI0QlJhdzRLbk9GeW5fbWotZ1haWHR3ajZVQmI1dVNXV1BvN3k0LW5xWTFCTlhZSDUtUUl1Wlh1OUpKVDd6VXdDalpTTk9jbzhCOEZVSWpaTGtPRklVVWRCdmRqTHpjUXp0alVEcXdhODk1U3ZYcnIteUZFN3Z1bko2SVV0REJUb0p3?oc=5",
+        "src": "Bloomberg"
       },
       {
         "date": "2026-11-14",
-        "text": "What is Pickaxe Mountain? Trump says US will hit Iranian nuclear site 'pretty soon' - ABC News",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUDBUM2pSVUtoLUJURTA4cTljdXU4czh6eVVsdHhIOTZOTC0zUS1ZVnkzbmo5bGtSc0V1XzZnUHFOal9IN2d6VFdqRV9Pb0pIUlBNdDVwMHR4enplWmxqRkpkMnNZMnh3VmdLTmRUWXo3RHNDT3R1OEM0MlJFZVpyQTVWdjBTLXJzdzI4TXVEVzM1aVdwY2pVV1YyM0EwX2vSAaQBQVVfeXFMUFVpcFM1Y2RpSUNoNTNFaU9QVjVIUFNKOTYwd25fM3pmOGNkeWpUbzViNENEVE5sM1RPazJQOTl5OHp5SC1seXZwbWNiNXhUUThLUFJzRHpZdkZNemZkMEFxUDlRejl0Vk84Qm9NeXJwREJrOXZxaXk3SEZrZ281enlDbGJmRXBBOV9fRlAtX2EyRVNRdVNYREY4bTZQZXNJT0ZQNG8?oc=5",
-        "src": "Breaking News, Latest News and Videos"
+        "text": "Trump To Discuss Iran, Nuclear Arms With Putin, Xi At Landmark Summit",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbnJHSWM2eFlYcVBrdHhsQUpqVUxkZ05KTUh2aGZybFNyQnlJZkFKVWYtX2NvcFNIdU9KT1M3QVNPRkhNdmZQU0lGdVZLQjd3MGpYcGx3dzVmU2hTUjFQbUlnQWVTTGNvcXA3eWYwTFNCWURoY01tdUJUWGM5LWRDeHZTRm82bFlPWXlCRVVROUtpSmRrZHIydkV0dTJoSmU2OHZnR01lX3fSAasBQVVfeXFMTnF5T0c0dWdySndHMzJ3NXVRMGxGWVJsaTRGcEQ0bEtyXzdIcmpNUnhQQU42RkVlaWVJSENEakFUUnJGenpqY25jNXdzMzZwTXU2Q3BTeDN6aDMyRU14UWQxb1JSaDJkT1dSeFZuUFA5UHNhM2FVdzFFbWVPODNUVXNsX2lfcVJJZk1ZbEZ4WFlpMHc0OEUwaWtGZVNBTldiVlZncmVINmJsemRR?oc=5",
+        "src": "Radio Free Europe/Radio Liberty"
       },
       {
-        "date": "2026-11-09",
-        "text": "US-Iran war news: Donald Trump says renewed Iran attacks 'unlikely' if nuclear program, Strait of Hormuz talks show progress",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMDI3RlFKanRPTHFyNk9iNEI0OHRCNDNJVGIzRkw1UWVxUXFNdkR0RTZyeGpTcGhWYXFkd2Mya2tYM0NxcHI4TGVsVm1kQ3NGMnZjRC11empBVnlDbHNHU2MxT054ekwzM29peEk2RUpGU21DWUNmNGJMbXZOLWtXeVpMcWdFc3BZQjUxaXZwbXlIdktKUkZIdnAya0luRklNZk5NSHhjU3RkOHdXdm9Hd1lta2hMbThCYjZuNWl1bWlvd2NCSU5aRWtrTnM0RkXSAdQBQVVfeXFMTWtrOGxQS1Z1N182NnVTcE5qTVpLRHZpV0liY2JFU3A0VmM3Y2NmdUZxRkVHdHh1Z1RoVUZjc3pPbTVNRndOZVo4S1g3dFlfWWtqS2F6SERBZkR3VFF3bUptVUhwWm1HOVNjRXRXcW1qT1hzaDJKY3p4S0lVX095blM0VXpVZ3FQdG42VHFqZkFDaWdYTlNGbmxIanhvQW5icmNjRmJfTnRta3RfUHg1T2IyNkQ1bHAxckQ0YjZBd2pDWks4ellqcmw1aGljeXRrNWhFRlo?oc=5",
-        "src": "ABC7 New York"
+        "date": "2026-11-13",
+        "text": "Iran tells UN nuclear agency that monitoring cannot proceed while it is under threat",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSUhIeGdPMTNhOEtBdjc2VlJIaHpPZDh2NTdEb283VFY0Uzg0TVEyYzk4OW8zWXRJY2taTWFmVGJaY1YwYnMzTHBLVENmX2JUX1BxN0Vxa2hScmFMR3BLSjBuSUZIZEN2V0NBYmc2TVItTnYzSzRXWFBnUmxfUnhUVDJxQk5Ra0FhTUs4dXZpaER5ZDlpZTlRb045bkZXblJobGxJbWVKZHI4ZGVuQnlubXBjSzNwQQ?oc=5",
+        "src": "AP News"
       },
       {
-        "date": "2026-11-09",
-        "text": "U.S. offers $20 million reward for information on Iran nuclear program",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOV0hSMUpfLW92UkRFbG04WDZQSTZ1ZE1VU3JIcWVQUmduUWg4STFBdFJ3UlJLR19pNDE0cHJqZTBOenV0dnQyOVoyUFJyNHZ5VGQ1WWpYbEkzQnM2aWphWmx4aHo2TkhEWVlnUUtzWkd2TjF0T1E5Uk4tMEs4U2kyR3NGYUxwNVJBLV8tamlnZjJDYkdid2plSVVkOXFGZTNaajB1Y2ZSWWFsOU1pNHExa2FjWUZNc3JaaVJDR0JR?oc=5",
-        "src": "The Washington Post"
+        "date": "2026-11-13",
+        "text": "Trump Signals New Strategy on Iran: A Waiting Game",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE51bnYyZ0xDaHVCc05TYXYxdDlPME5fNmNfbklWSm9GMk53TTJHdnhGMm1JQWZyR0VHZ0VZQlhFdzZyVmFnRm9QdmNocUJ2OXJLUGgwenNPb2dsbTFqRU5RYVJISVFlLWducVRCTzhRaXN5dXZMalU4MnJFWQ?oc=5",
+        "src": "The New York Times"
       }
     ],
     "gold_impact": "双重作用：局势升级→避险买盘利多黄金；但同时油价飙升→通胀预期→美联储更难降息→利空黄金。当前谈判窗口期，油价波动会直接传导到金价。",
-    "wti_price": 88.92,
-    "wti_chg": 0.0,
+    "wti_price": 85.58,
+    "wti_chg": -3.76,
     "news_auto": true
   },
   "ai_analysis": "",
   "ai_error": "未自动生成，点击按钮手动生成",
-  "ai_date": "2026-11-15"
+  "ai_date": "2026-11-16"
 }
