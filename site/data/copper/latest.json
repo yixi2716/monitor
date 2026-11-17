@@ -1,61 +1,67 @@
 {
-  "date": "2026-11-16",
-  "copper": 5.999,
-  "copper_chg": -1.063742063164852,
-  "ma20": 6.40445,
-  "ma50": 6.550840000000001,
-  "dxy": 103.53,
-  "vix": 23.940000534057617,
-  "tnx": 5.11299991607666,
-  "wti": 85.58,
-  "cu_oil_ratio": 154.53979177377892,
-  "shfe_cu": 104090.0,
-  "shfe_cu_date": "2026-11-16",
-  "shfe_lme_ratio": 1.093,
+  "date": "2026-11-17",
+  "copper": 5.9925,
+  "copper_chg": 0.11694929412746635,
+  "ma20": 6.3726,
+  "ma50": 6.534879999999999,
+  "dxy": 103.43,
+  "vix": 25.5,
+  "tnx": 5.10099983215332,
+  "wti": 86.47,
+  "cu_oil_ratio": 152.78345495547586,
+  "shfe_cu": 103510.0,
+  "shfe_cu_date": "2026-11-17",
+  "shfe_lme_ratio": 1.088,
   "lme_stock": null,
   "lme_stock_date": null,
-  "shfe_stock": 5335,
-  "shfe_stock_chg": 3065,
-  "shfe_stock_date": "2026-11-16",
-  "lymy": 12.88,
+  "shfe_stock": 6830,
+  "shfe_stock_chg": 1495,
+  "shfe_stock_date": "2026-11-17",
+  "lymy": 12.5,
   "lymy_chg": 0.0,
-  "tl": 4.69,
+  "tl": 4.54,
   "tl_chg": 0.0,
-  "jxt": 31.33,
+  "jxt": 30.22,
   "jxt_chg": 0.0,
-  "cper": 36.13,
-  "cper_chg": -1.08,
-  "copx": 66.07,
-  "copx_chg": -4.57,
+  "cper": 36.06,
+  "cper_chg": 0.1,
+  "copx": 65.51,
+  "copx_chg": 0.0,
   "signals": [
     {
       "name": "铜价低于MA20",
       "dir": "bear",
-      "text": "$6.00 < MA20 $6.40"
+      "text": "$5.99 < MA20 $6.37"
     },
     {
       "name": "美元偏强",
       "dir": "bear",
-      "text": "DXY 103.53 > 103，压制铜价"
+      "text": "DXY 103.43 > 103，压制铜价"
     },
     {
-      "name": "风险偏好正常",
-      "dir": "neutral",
-      "text": "VIX 23.9"
+      "name": "避险升温",
+      "dir": "bear",
+      "text": "VIX 25.5 > 25，风险偏好下降"
     },
     {
       "name": "铜油比偏高",
       "dir": "bull",
-      "text": "铜油比 154.5，工业景气预期强"
+      "text": "铜油比 152.8，工业景气预期强"
     },
     {
       "name": "实际利率高企",
       "dir": "bear",
-      "text": "10Y 5.11%，压制金属估值"
+      "text": "10Y 5.10%，压制金属估值"
     }
   ],
-  "score": -2,
+  "score": -3,
   "news": [
+    {
+      "date": "2026-11-16",
+      "text": "Are Critical Industrial Metals in for a Decade-Long Price Rise?",
+      "src": "SupplyChainBrain",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSHZGT1NUbXdxNEFGX3U4VnhHT2ZzWmwtTXRKT25vZ1F2NW5NUWZyRFZRRDFsWVZQR0xEaVVXckxWTkpnVkdZT2xCN2J3SWdJWXFxYjZMUklUQ0tUREJoVFh3UkxNMFpCNk5aelhYNnJLNXFZYURuMWdPWksyOWZZZ3NkLUd4bXJOa0hoLUcxZV9ya0xsZmx4UkJhazhUaGhnYkhmN255SXlFZFk3cW9UM1FSWGYwdk8xclVDeGlNWUo?oc=5"
+    },
     {
       "date": "2026-11-12",
       "text": "Border States Commodity Update — November 2026",
@@ -64,9 +70,9 @@
     },
     {
       "date": "2026-11-16",
-      "text": "Are Critical Industrial Metals in for a Decade-Long Price Rise?",
-      "src": "SupplyChainBrain",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTFdEV2J2bW5rNW5QbGlMUnZDd2VlNndYSVpzUl9EdGhhUThsTEtUWDh2VElqaXU3QmlKYmhUUjJrLUV4XzJ0clR0ejZUcjdkRkthNW5RLWh6bWZoa25UNFpXXzlJc3RoNTNJT1h4OGdhNFhvVmkteEpBSmRNM0ZlOV8za0VjYXpjZ0MxRWh3NTBCc1pUVU9yZEtSTXlQNE80NUUyWk1HSGM4d0RVVGFSaDRPZXU1QW5NY294QUVtZ0Y4UQ?oc=5"
+      "text": "VR Resources Completes Sale of Ontario Copper-Nickel-PGM Projects to Athos Metals",
+      "src": "Streetwise Reports",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPeDZDNkJOVjFLNVZEa2ZOYkR1MTlXOVpQS2dKRUFvT0xXYkp5ZUJkc3VhQjdlOFMxWVNjdnlPbXhYTUc0a0dIcW9MR1FOdDFQNENQS0ZyQmlQdUdySFVTb1lYZ1ZObTM4YTRxdVJjRWZiaWI3Q2lBdW9CZHlKOVAwZUxGYmVkNm5FR082b01UcjNwa0hvd1poQzd6SE1EUXFqOEptVi1wMk5FNThuTXJwdzNFazNpaTZqM0N0WHRtdXNQWjZHdFcyQ3NRZHFEb0duSk1zYUJ3?oc=5"
     },
     {
       "date": "2026-11-15",
@@ -85,15 +91,9 @@
       "text": "Adani's Kutch Copper and Codelco sign MoU to explore Kaburkaala copper project in Chile",
       "src": "MLQ.ai",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQX1V6U1ZIN3Y4eTB4cnA0X1c5SzJOdHh1WWgxMHFBbFdvUTNJbnRGYlUwV3ZGbkJvQ05SNGlSbHR4NWY1azZ5eklPSldmU2RXZVdVWjFKTmdJcWplUEJUS3lqT1BoTmdiX25WSlFlc2hNZWczWEhIMHN5dndNbFBSNVRVbW5uOTE0cjVCaGJ1LVNXTW5rSGl3cFc5SkhYcFc4bHI0cnB2NlJPQ00?oc=5"
-    },
-    {
-      "date": "2026-11-16",
-      "text": "It Was Never Just About the Affair",
-      "src": "Fat Tail Daily",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9oLTM5U2ZtZG5CbTh3bUNZNXI3T1R4eENmMEpKR2x1bHMxRERaYU80WFpRbFVETkdPRUhSeENWYjB2NFJFUmQ4bjdYdHFvNkR6M2R3a3ZsNGdjcUVZTEFqUw?oc=5"
     }
   ],
   "ai_analysis": "",
   "ai_error": "未自动生成，点击按钮手动生成",
-  "ai_date": "2026-11-16"
+  "ai_date": "2026-11-17"
 }

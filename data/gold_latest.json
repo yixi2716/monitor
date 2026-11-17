@@ -1,75 +1,67 @@
 {
-  "date": "2026-11-16",
-  "fetched_at": "2026-11-17 03:55",
-  "gold": 3864.7,
-  "gold_chg": -0.59,
-  "ma20": 4021.0,
-  "ma50": 4167.47,
+  "date": "2026-11-17",
+  "fetched_at": "2026-11-18 02:51",
+  "gold": 3860.5,
+  "gold_chg": 0.04,
+  "ma20": 4006.61,
+  "ma50": 4156.57,
   "above_ma20": false,
   "above_ma50": false,
-  "dxy": 103.53,
-  "dxy_chg": 0.11,
-  "vix": 23.94,
-  "vix_chg": 24.04,
-  "tip": 104.6,
-  "tnx": 5.11,
-  "corr_gold_dxy": -0.4,
-  "corr_gold_tip": -0.09,
+  "dxy": 103.43,
+  "dxy_chg": -0.14,
+  "vix": 25.5,
+  "vix_chg": 11.31,
+  "tip": 104.88,
+  "tnx": 5.1,
+  "corr_gold_dxy": -0.42,
+  "corr_gold_tip": -0.08,
   "corr_gold_vix": -0.21,
-  "basis": 32.3,
-  "vol20": 27.7,
-  "gold_silver_ratio": 82.26,
-  "usdcny": 6.6637,
-  "shfe_au": 830.56,
-  "shfe_au_date": "2026-11-16",
+  "basis": 32.79,
+  "vol20": 27.8,
+  "gold_silver_ratio": 81.57,
+  "usdcny": 6.6545,
+  "shfe_au": 834.66,
+  "shfe_au_date": "2026-11-17",
   "cftc_gold_net": null,
   "cftc_gold_date": null,
   "mode": "M",
   "mode_name": "M · 混合驱动",
   "confidence": "低",
   "evidence": [
-    "黄金与 TIP 相关性 -0.09，与 DXY 相关性 -0.40",
-    "VIX 23.9，与 VIX 相关性 -0.21",
+    "黄金与 TIP 相关性 -0.08，与 DXY 相关性 -0.42",
+    "VIX 25.5，与 VIX 相关性 -0.21",
     "多因子混合驱动，无单一主导逻辑"
   ],
   "signals": [
     {
       "name": "美元信号",
-      "text": "DXY 103.5 > 101，压制金价",
+      "text": "DXY 103.4 > 101，压制金价",
       "dir": "bear"
     },
     {
       "name": "利率信号",
-      "text": "TIP 5日 -1.35%，实际利率上行 → 利空",
-      "dir": "bear"
+      "text": "TIP 5日 -0.39%，实际利率平稳",
+      "dir": "neutral"
     },
     {
       "name": "避险信号",
-      "text": "VIX 23.9 > 20，避险买盘 → 利好",
+      "text": "VIX 25.5 > 20，避险买盘 → 利好",
       "dir": "bull"
     },
     {
       "name": "情绪信号",
-      "text": "VIX 5日 +20%，情绪平稳",
-      "dir": "neutral"
+      "text": "VIX 5日 +31%，恐慌急升 → 避险利好",
+      "dir": "bull"
     },
     {
       "name": "实物信号",
-      "text": "GLD 与期货同步（5日 -6.68% vs -6.86%）",
+      "text": "GLD 与期货同步（5日 -4.36% vs -4.45%）",
       "dir": "neutral"
     }
   ],
-  "score": -1,
-  "score_summary": "-1（中性）",
+  "score": 1,
+  "score_summary": "+1（中性）",
   "recent10": [
-    {
-      "date": "2026-11-03",
-      "gold": 3940.2,
-      "gold_chg": -0.41,
-      "dxy": 101.86,
-      "vix": 20.83,
-      "tip": 106.1
-    },
     {
       "date": "2026-11-04",
       "gold": 4072.2,
@@ -136,11 +128,19 @@
     },
     {
       "date": "2026-11-16",
-      "gold": 3864.7,
-      "gold_chg": -0.59,
-      "dxy": 103.53,
-      "vix": 23.94,
-      "tip": 104.6
+      "gold": 3859.0,
+      "gold_chg": -0.74,
+      "dxy": 103.58,
+      "vix": 22.91,
+      "tip": 104.57
+    },
+    {
+      "date": "2026-11-17",
+      "gold": 3860.5,
+      "gold_chg": 0.04,
+      "dxy": 103.43,
+      "vix": 25.5,
+      "tip": 104.88
     }
   ],
   "macro": {
@@ -148,7 +148,7 @@
     "last_change": "2026-09-16 加息 25bp",
     "next_label": "10/27–28 议息会议",
     "next_date": "2026-10-28",
-    "days_to_next": -19,
+    "days_to_next": -20,
     "upcoming": [
       {
         "date": "2026-10-28",
@@ -175,22 +175,28 @@
     "updated": "2026-09-28",
     "events": [
       {
+        "date": "2026-11-16",
+        "text": "Exclusive: US intel indicates Iran developing plans to potentially detonate a dirty bomb in Washington, sources say",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE03SEs1dzdtOVl4RVo4TjcxOHpLMmpKZlZ4cGFCQjQtMnV3OWhMSnhvemduUWxJSnlYYWstUk5PYURBSmxLQ2VDY3NyUG9fNXhDTlRwSDFEVFNCN29vWWtOaWRhTDlPYk04TThPOTREX2FVSzhZdEExSVVyQQ?oc=5",
+        "src": "CNN"
+      },
+      {
         "date": "2026-11-13",
         "text": "Trump says \"we don't need a deal with Iran,\" as Tehran sticks to its demands",
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5JdnI2N05uOHdtZFhtb0U3MGN6bEhNN05QbE85RV81UGRMenBqY04tWXhLU1MxRzR6NWxZOUx5cnNzYmRwRFEwRWJnbi1Cc0JpMUt2aW53VEpWOFA0cEptN2xLLVB6S1RxNDlydWs5MGsySnprakktTlkwUmxqODQ?oc=5",
         "src": "CBS News"
       },
       {
-        "date": "2026-11-10",
-        "text": "Iran backs nuclear treaty even as hardliners raise prospect of bomb",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZkRvWkJ1UFNFY1MxclBlakcyVDN1WDVaTmRyVzg5WlE3UDVDUklnRHM4elVqOHRiZ0lsNjNqRWhENFh6UF9yUkJmLU5VeDgzbzhpSlh2cmZjNUR5RUFvQUJ5eFVWWnQ4QnZWeENrQncxazJsNEU4d0RnSU96QlFrU1NSQjRhc2N4VUpjd090N2k4ems0ODlqMUJzU3JZQkxsb3o3ak1JelVUSzRieVHSAbMBQVVfeXFMUGdoYXJqdU0tX2t4UHYyR2tpY1dvMTM2OFBZQXJBNnR5My1aNW1rRzNfMXlBNUwwTWlma0FxbnI1VGlXNFl3eG1JVkMyWXI5MDhOWkNIQTRJMkpLTmg2TEZYVEdFd1Z3VjMtNEx2WWJzN0NDcUhVbkpXWkxTMFZveS02TnN3YWlTSzk3REJDWE1QNGtkRGFSTkxQSy1MTVJFb3Fhejd6Zkg3TmdOSVpreGxmd1E?oc=5",
-        "src": "Al Jazeera"
-      },
-      {
         "date": "2026-11-11",
         "text": "Iran Asks UN to Condemn $20 Million US Bounty for Nuclear Info",
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONDFTNzAwQWpUTG1pSVAwZ1Q2eU9URXNEQmlVTFpwdVhaVE5FenZTcUI0QlJhdzRLbk9GeW5fbWotZ1haWHR3ajZVQmI1dVNXV1BvN3k0LW5xWTFCTlhZSDUtUUl1Wlh1OUpKVDd6VXdDalpTTk9jbzhCOEZVSWpaTGtPRklVVWRCdmRqTHpjUXp0alVEcXdhODk1U3ZYcnIteUZFN3Z1bko2SVV0REJUb0p3?oc=5",
-        "src": "Bloomberg"
+        "src": "Bloomberg.com"
+      },
+      {
+        "date": "2026-11-13",
+        "text": "Trump Signals New Strategy on Iran: A Waiting Game",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE51bnYyZ0xDaHVCc05TYXYxdDlPME5fNmNfbklWSm9GMk53TTJHdnhGMm1JQWZyR0VHZ0VZQlhFdzZyVmFnRm9QdmNocUJ2OXJLUGgwenNPb2dsbTFqRU5RYVJISVFlLWducVRCTzhRaXN5dXZMalU4MnJFWQ?oc=5",
+        "src": "The New York Times"
       },
       {
         "date": "2026-11-14",
@@ -199,24 +205,18 @@
         "src": "Radio Free Europe/Radio Liberty"
       },
       {
-        "date": "2026-11-13",
-        "text": "Iran tells UN nuclear agency that monitoring cannot proceed while it is under threat",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSUhIeGdPMTNhOEtBdjc2VlJIaHpPZDh2NTdEb283VFY0Uzg0TVEyYzk4OW8zWXRJY2taTWFmVGJaY1YwYnMzTHBLVENmX2JUX1BxN0Vxa2hScmFMR3BLSjBuSUZIZEN2V0NBYmc2TVItTnYzSzRXWFBnUmxfUnhUVDJxQk5Ra0FhTUs4dXZpaER5ZDlpZTlRb045bkZXblJobGxJbWVKZHI4ZGVuQnlubXBjSzNwQQ?oc=5",
-        "src": "AP News"
-      },
-      {
-        "date": "2026-11-13",
-        "text": "Trump Signals New Strategy on Iran: A Waiting Game",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE51bnYyZ0xDaHVCc05TYXYxdDlPME5fNmNfbklWSm9GMk53TTJHdnhGMm1JQWZyR0VHZ0VZQlhFdzZyVmFnRm9QdmNocUJ2OXJLUGgwenNPb2dsbTFqRU5RYVJISVFlLWducVRCTzhRaXN5dXZMalU4MnJFWQ?oc=5",
-        "src": "The New York Times"
+        "date": "2026-11-17",
+        "text": "Is Iran plotting a ‘dirty bomb’ attack in the US? What we know",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSFp4SnYzOXRsMUp6V1hFd2VxdkhrbXQ3MEJKdF9QYVVaMUVsZENOS0t1cjFzMnNROVR6WHdVX3UwOHNmMEVzNnhvLW9TXzBpZ3RtUS1FR3o0R19ueEZfYUw2eTd4Y0ZxZ2tIbVV3eUZiRWFncmYxdWZFWkdHYm9oN29PdTVvREtZUkxzX0dJOHJkNzkwVVp6N3g5VURCRC1vSFdR0gGoAUFVX3lxTE5FU3NQVk5OaDlLVkpUZEVyYUhrengybi1XR2tCanVTbW00OXR4NnVWelBJZERXV1d4YjBsdXVmaXNFekdZWDNpckY4dXFYc3F4ZW5OS1dWaGpEdmZOUnY5RmFqVzl6VUhyN3FfbjEtaVBMYWU4di1KZGJUSXJoVS0zTVZzOEtLSFhuWC1wT3ZMVmdEdUpvWUgtNHVDc2hzU1pheEotSW5NVg?oc=5",
+        "src": "Al Jazeera"
       }
     ],
     "gold_impact": "双重作用：局势升级→避险买盘利多黄金；但同时油价飙升→通胀预期→美联储更难降息→利空黄金。当前谈判窗口期，油价波动会直接传导到金价。",
-    "wti_price": 85.58,
-    "wti_chg": -3.76,
+    "wti_price": 86.5,
+    "wti_chg": 1.69,
     "news_auto": true
   },
   "ai_analysis": "",
   "ai_error": "未自动生成，点击按钮手动生成",
-  "ai_date": "2026-11-16"
+  "ai_date": "2026-11-17"
 }

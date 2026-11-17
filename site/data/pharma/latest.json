@@ -1,68 +1,68 @@
 {
-  "date": "2026-11-16",
-  "hs300": 3979.8,
-  "hs300_chg": -0.91,
-  "med_etf": 0.381,
-  "med_etf_chg": 0.26,
-  "inn_etf": 0.796,
-  "inn_etf_chg": -1.53,
-  "cxo_etf": 0.339,
-  "cxo_etf_chg": -0.59,
-  "tcm_etf": 0.89,
-  "tcm_etf_chg": 0.9,
-  "meddev_etf": 0.438,
-  "meddev_etf_chg": -0.23,
-  "vaccine_etf": 1.931,
-  "vaccine_etf_chg": -1.66,
-  "hsi_health": 23637.6,
+  "date": "2026-11-17",
+  "hs300": 3976.46,
+  "hs300_chg": -0.08,
+  "med_etf": 0.382,
+  "med_etf_chg": -0.52,
+  "inn_etf": 0.794,
+  "inn_etf_chg": -1.01,
+  "cxo_etf": 0.337,
+  "cxo_etf_chg": 0.3,
+  "tcm_etf": 0.898,
+  "tcm_etf_chg": 0.45,
+  "meddev_etf": 0.437,
+  "meddev_etf_chg": 0.23,
+  "vaccine_etf": 1.935,
+  "vaccine_etf_chg": -1.19,
+  "hsi_health": 23753.84,
   "hsi_health_chg": 0.0,
-  "hs_inn_etf": 1.216,
-  "hs_inn_etf_chg": -2.71,
-  "tnx": 5.11,
-  "usdcny": 6.6637,
-  "excess": 1.17,
-  "north_money": 220239.63,
-  "north_date": "20261116",
+  "hs_inn_etf": 1.183,
+  "hs_inn_etf_chg": -0.34,
+  "tnx": 5.1,
+  "usdcny": 6.6545,
+  "excess": -0.44,
+  "north_money": 226570.7,
+  "north_date": "20261117",
   "news": [
     {
-      "date": "2026-11-15",
-      "text": "世界中医药教育大会首次在阿拉伯地区举办 - 新华网",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPOEFZWEFjZElZNmZJQ3d3cEZtb2V6Njl6blRqeE1BdnZGUUE5MllMM3k3YnE5VlJ0ejUxQTU3XzRKMGFaRVNrbzlWSWY0dnhLd29XYlphNlFRaEFtd1pjdWctcUEyRGw4cHJxalBEaVBXU3dTR2hiRVQ4Q1RwbWUwTDhRM21yZw?oc=5"
+      "date": "2026-11-17",
+      "text": "医药行业：CAR-T破冰，支付分层成型_行业研究_研报 - 证券之星",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBkeVlsMzZmWjRKTDJjVk5QaUJHYV96TnAwYzBrUVBIVjJFZjJPdXM3UkM3Sm5pOEdMUXFIZTlwODd6OUR3Q3U0ZU5rQy1aTWwxdWROMHRGUEo5SVJRb2FJeFRB?oc=5"
     },
     {
-      "date": "2026-11-15",
-      "text": "华东医药多款创新药分获国家医保目录与商保药品推荐清单准入 创新成果进入集中兑现期 - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5aSHc3UGlvdVBQT0ZLOVljd2JNSXVTaHZya2JFMWdzamlzY0owUGNhZDlKUmRmX3N6QnZsX3kwMlJxRFBIM0NiSWJFUGxfNlFvVzBkdWNEY2NEaHNDVFNpTll2Mnk?oc=5"
+      "date": "2026-11-17",
+      "text": "第八届粤港澳大湾区生物医药创新大会在穗举行 - zqrb.cn",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBlY3ZTUl9Md25la3NOMkVBTkx5X010bWR2ZnlCYzlJS0ZnT2RYU1RJdi1FTnlnNl9ob1o0aXpWMEpEeGZacVJGbnZhRFlkTTQ5U01vaVQ0MDZsX2FXdkk3LVBDX0cwNE5PM3hlNQ?oc=5"
     },
     {
-      "date": "2026-11-15",
-      "text": "医保目录扩容背后：创新药准入的闸门正在换一种开法 - 同花顺财经",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE45X2ZKMEZmMi1YbTVDNzgySGEtdXpERWZzbDBSbVNJWmRNcVpCcEd6SjN5Y3RoSE5pNkdXS2JmWUQtZkZQSDdRM1UzeHM5QkdTZTNwMHA0VXNwY3FiczdqSg?oc=5"
+      "date": "2026-11-17",
+      "text": "新华时评丨创新药既要跑得快更要落得好 - 京报网",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE54MDhTNDZaZG9aNDBlVjdpa2ZBSlNXY0xueFVJczYwS0IyeU10VXFSaGltYi1FX2dtRUR6c0FQdk4yUTB1WXRsX2gydWg4SUktS2xJdlVNanh2amg2MkE?oc=5"
     },
     {
-      "date": "2026-11-15",
-      "text": "全球半数重磅license-in项目来自中国 创新药“黄金时代”的创新与投资逻辑是什么？ - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9ENE5mdU5HQlBuQnNtTHRMZUhqQ1U5blBpbktxMm00SjZLU2c0dy16NE9XZXFTeG9uWGRHX1pzQjU1cHNOX2Y2dQ?oc=5"
+      "date": "2026-11-17",
+      "text": "创新药鲁兹诺雷钠成功纳入新版国家医保目录 - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSDQwczAyRGVYaDdaSFlPZlJpX3dhd2JXY25mRUdNS1dPbGQ5S0JxREdlZy1taEJjY19tVjRGOTY4NGlrYktRYmxRLTlhVHVXenpOZ2NNN1FsYlZ3ZjZiYTdGeDlJMzFlRzV5THYtOWtmZU5kamtEQnhGOHVXUm5zX0M4cFF6dw?oc=5"
     },
     {
-      "date": "2026-11-15",
-      "text": "创新药、CXO全线调整，核心标的520880、159137双双重挫，标的指数估值回落至阶段低位 - 新浪财经_金融信息服务商",
-      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQb2RqeS02aHR4YzhOQnRjUEYzYnAySlNCSjdmTUprY2hxbzdwNm11MFJEaFBWcmZsMVdrMmZ3dVgzS2dJcWZUY3Zwb01TZi16R3ptZUNIZ1lrMFpsSjNaczNlRnJBTzRINGl2VG00THp0Nlg4djZhOEZvUTJpV2pMZE56LUxNQTZ5Rm5GTVlRZlRtT3RMRTFrRk9STFNtSVM0Um4wRTZyVEtlVUZ1LTBkcEJPbVh1WWNLTEZNbmt5bEgxWk5UX1BkM05kZVJYZUxjWHlheTB3aFBTX2hobkVTZDd2c21sLTdUaURZeVU3VnRtWWZSek05cHBqc2hNekVOQ0w2bnBfTWpaM1hDbzU0ckxpQWRTdGVu?oc=5"
+      "date": "2026-11-17",
+      "text": "聚焦“教育、科技、人才三位一体” 西浦举办生物医药前沿突破与产教协同发展论坛- Xi'an Jiaotong-Liverpool University - 西交利物浦大学",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBPYU4xVDUzenVYRWhQOWdNTDZqS2tlTWl1eWljTEo1ZnZvLU9MR2pCek00dl9IeDdGYkowbUZGWmFONGoxUVNVaWhZcU0yWXNHYlJVYVdMcUpDZFNIY1RkQWRlelBaUlROQmNB?oc=5"
     },
     {
-      "date": "2026-11-15",
-      "text": "远大医药：6款产品纳入2026年医保目录、商保创新药目录及行业配套清单 - 证券之星",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5BQnAwcXVCazNQZWN6em5SSkhFOV9SZGlkX21pelF0UTFLVTJQY3pKSk9QZ2JuX3AyeG02bVduZUhoM1RRRXFFUmlES0l1ZnNjN05PNm9MRmhGX21HMzVKNQ?oc=5"
+      "date": "2026-11-17",
+      "text": "国家医保局：医疗服务价格“有升有降”，群众就医负担总体稳定 - ThePaper.cn",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9yZ1dzaVBvUkJYd20wOGgwWDBKM1dWYjBRODVSOXAzWklSSGZBSTV3OTRSbXkwM0MzbjVDR294N3p2Y2puVW80TWVjdUhKeDkxZW1sbzd1ZmQyZWtLYWdoZw?oc=5"
     },
     {
-      "date": "2026-11-15",
-      "text": "进了医保的创新药如何尽快用上？多部门联动破解“入院难” - Sohu",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPdmNhTzVhWEVTQ1Y1LXBXOFlESF9oNjkwZ18zcktweW1oZE1PY203MnMtOFZaMWRheDgwVzJnWjRfb1BwWm5vaFFQZzl6N3lIODVWT3NmdjhwM0V2NUlTQzNpYVJKeGU4aXZURG1LTDJ0V3ZXdjg4TG9XSWgtcUE3TlVDcUhVcjJpcXNqQw?oc=5"
+      "date": "2026-11-17",
+      "text": "美股医药健康板块上周五集体上涨，礼来涨1.26%创收盘历史新高丨美股复盘 - 21财经",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZG90djRSUU1HbTV0ZHhlckRSVldFT2dlLTllWjU0N2ZGblpIeVk3SlN0b1hueE4xMUIzeTlaeEtCLVZ6QllVY2JDR2gwS2JiRkdVT0cyMWtCVEVrNEVZWnViRndYeDluNUVuOE1TeGZTVk5KVDFzSVhzSXhyWUtOWkdZWThMenh0d3pQNHNVelduTWo0?oc=5"
     },
     {
-      "date": "2026-11-15",
-      "text": "远大医药6款产品纳入医保及商保目录 易甘泰为唯一SIRT产品 - 观点网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5waWxGQ1ZvMno5a3NERVBvVHNMMll0cHdxdHVWWFhCQmVlOUxqVm0zRUdPSWNnM0N0Y3JjOGxtYklDRFF0VFMzRGVwbUZOaVdlM1A4UEZCSUVVM3d0Q1JwVnJ3?oc=5"
+      "date": "2026-11-16",
+      "text": "创新药惠民“再提速” - 人民日报",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMzIxVHpEWG0xMFdmQmFvSFk2ZWlGMVN5bzMzdXBmWDMtdndLSzBxRUVSQkgtOEFtUk1IcW9HbTd1UE5pX1ZBVEYxbWNqNzh6Skg1YTFkVk1RQUpGX0Zpelo3ekdSV3NRdXlyNkxOUnZwUl9VRFFYdjVLeDJjTFFvWV8wMA?oc=5"
     }
   ],
   "ai_analysis": "",
