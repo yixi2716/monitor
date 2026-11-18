@@ -1,68 +1,68 @@
 {
-  "date": "2026-11-17",
-  "hs300": 3976.46,
-  "hs300_chg": -0.08,
-  "med_etf": 0.382,
-  "med_etf_chg": -0.52,
-  "inn_etf": 0.794,
-  "inn_etf_chg": -1.01,
-  "cxo_etf": 0.337,
-  "cxo_etf_chg": 0.3,
-  "tcm_etf": 0.898,
-  "tcm_etf_chg": 0.45,
-  "meddev_etf": 0.437,
-  "meddev_etf_chg": 0.23,
-  "vaccine_etf": 1.935,
-  "vaccine_etf_chg": -1.19,
-  "hsi_health": 23753.84,
+  "date": "2026-11-18",
+  "hs300": 3983.77,
+  "hs300_chg": 0.18,
+  "med_etf": 0.38,
+  "med_etf_chg": -0.26,
+  "inn_etf": 0.786,
+  "inn_etf_chg": -1.15,
+  "cxo_etf": 0.338,
+  "cxo_etf_chg": -1.48,
+  "tcm_etf": 0.902,
+  "tcm_etf_chg": -0.89,
+  "meddev_etf": 0.438,
+  "meddev_etf_chg": -1.83,
+  "vaccine_etf": 1.912,
+  "vaccine_etf_chg": -0.1,
+  "hsi_health": 23508.17,
   "hsi_health_chg": 0.0,
-  "hs_inn_etf": 1.183,
-  "hs_inn_etf_chg": -0.34,
-  "tnx": 5.1,
-  "usdcny": 6.6545,
+  "hs_inn_etf": 1.179,
+  "hs_inn_etf_chg": -2.54,
+  "tnx": 5.05,
+  "usdcny": 6.6566,
   "excess": -0.44,
-  "north_money": 226570.7,
-  "north_date": "20261117",
+  "north_money": 219997.3,
+  "north_date": "20261118",
   "news": [
     {
-      "date": "2026-11-17",
-      "text": "医药行业：CAR-T破冰，支付分层成型_行业研究_研报 - 证券之星",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBkeVlsMzZmWjRKTDJjVk5QaUJHYV96TnAwYzBrUVBIVjJFZjJPdXM3UkM3Sm5pOEdMUXFIZTlwODd6OUR3Q3U0ZU5rQy1aTWwxdWROMHRGUEo5SVJRb2FJeFRB?oc=5"
+      "date": "2026-11-18",
+      "text": "生产力中心续推医药产业升级发展鼓励计划 支持药企提升竞争力促进中医药产业发展 - 国务院港澳事务办公室",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBHLXhhVXprNlN5QUVLSkk1VjJkQ3JvTFQ3VzlEdXpTNnFNUHNaY2dUalg4ME9SbE1VTmJMb2xhRUp0b3V0M05pZmZXaGxYaHZtdDdJVnFULUlUdkRNT0RteExCaFlHS1JfcEdFRUVLejdTSzN1UDdqYXdR?oc=5"
     },
     {
-      "date": "2026-11-17",
-      "text": "第八届粤港澳大湾区生物医药创新大会在穗举行 - zqrb.cn",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBlY3ZTUl9Md25la3NOMkVBTkx5X010bWR2ZnlCYzlJS0ZnT2RYU1RJdi1FTnlnNl9ob1o0aXpWMEpEeGZacVJGbnZhRFlkTTQ5U01vaVQ0MDZsX2FXdkk3LVBDX0cwNE5PM3hlNQ?oc=5"
+      "date": "2026-11-18",
+      "text": "临空企业多款创新药纳入2026年国家医保目录 - 北京市投资促进服务中心",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA2WkgxdUxadXZiUjFJOGk3MjBNekxWX05xQmUtNXZKVVFyNkJPT1lXVDUxWm9oYThiRWU3WEpMVGVJSnJhZEtyRUZHcUoyeVhRMDI1SEo0RDVYVXhiaGJVZWN6eUxUTExlWnAzdEVxS2FDb1NhU2lYVUlFOA?oc=5"
     },
     {
-      "date": "2026-11-17",
-      "text": "新华时评丨创新药既要跑得快更要落得好 - 京报网",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE54MDhTNDZaZG9aNDBlVjdpa2ZBSlNXY0xueFVJczYwS0IyeU10VXFSaGltYi1FX2dtRUR6c0FQdk4yUTB1WXRsX2gydWg4SUktS2xJdlVNanh2amg2MkE?oc=5"
+      "date": "2026-11-18",
+      "text": "宝山区定点医药机构信息来啦2026-11-18 - 上海市人民政府",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTndxWlRFVVdyNDh5R1ZVYWdQNE1PWFBDUjNzZWc5eldseGt6UkRiTDVjVm9HeGhFbGFKdnJILTZzaGVyS2l5WWFnYVlicmt0STRIRXdPUUxjV0VWaUlhazdWM0ZLYTFKUWVaajdMcmltN0Rya0o1YkpHNjdDTkl2TDNVQ1BrVWJvSlE?oc=5"
     },
     {
-      "date": "2026-11-17",
-      "text": "创新药鲁兹诺雷钠成功纳入新版国家医保目录 - 新华网",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSDQwczAyRGVYaDdaSFlPZlJpX3dhd2JXY25mRUdNS1dPbGQ5S0JxREdlZy1taEJjY19tVjRGOTY4NGlrYktRYmxRLTlhVHVXenpOZ2NNN1FsYlZ3ZjZiYTdGeDlJMzFlRzV5THYtOWtmZU5kamtEQnhGOHVXUm5zX0M4cFF6dw?oc=5"
+      "date": "2026-11-18",
+      "text": "刘非调研中医药高质量发展工作并主持召开座谈会 - 证券之星",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB6cVJobnZCcEVBeC11U19qMFA4dG1UN05kUEVua3hVdUhDLUpaZDdYTU0zWXNFMXgta1pZcTZmRWhFNFVTY0lYWFdOU2h0bnIxaUFXWjhMdHRwYUxKY3gyREFB?oc=5"
     },
     {
-      "date": "2026-11-17",
-      "text": "聚焦“教育、科技、人才三位一体” 西浦举办生物医药前沿突破与产教协同发展论坛- Xi'an Jiaotong-Liverpool University - 西交利物浦大学",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBPYU4xVDUzenVYRWhQOWdNTDZqS2tlTWl1eWljTEo1ZnZvLU9MR2pCek00dl9IeDdGYkowbUZGWmFONGoxUVNVaWhZcU0yWXNHYlJVYVdMcUpDZFNIY1RkQWRlelBaUlROQmNB?oc=5"
+      "date": "2026-11-18",
+      "text": "涉嫌串通投标 星昊医药子公司及实控人之一被公诉 - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBQRjJkZF9yeUQ5Rkt3VzY5eDU0NE1ucW9xajNjUDBYWkxBU1lYeUExZGFNdy1ZWm4zaVNfVXAtWFdiSEVHSTFLdHQ3SzQtQ2lmMlhlemtTeDdfWUhzQTNQeWJ6dw?oc=5"
     },
     {
-      "date": "2026-11-17",
-      "text": "国家医保局：医疗服务价格“有升有降”，群众就医负担总体稳定 - ThePaper.cn",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9yZ1dzaVBvUkJYd20wOGgwWDBKM1dWYjBRODVSOXAzWklSSGZBSTV3OTRSbXkwM0MzbjVDR294N3p2Y2puVW80TWVjdUhKeDkxZW1sbzd1ZmQyZWtLYWdoZw?oc=5"
+      "date": "2026-11-18",
+      "text": "2500亿之后，苏州创新药如何领跑下一程？ - ByDrug",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9SQW5WYzlwZVp0bmp1OHBlekRjQWl3TF8xdVlERnREOUdBaFRxVHoxZnVkU25abDJZMFphQ1JkcjJPYV9ubmotNUMyNTVhN2NiRmh3VXNPN1J0WVVfbktaRlBRUXVwZENhd1FmeE1NNDJncjBVeWlsWllzRkVaZw?oc=5"
     },
     {
-      "date": "2026-11-17",
-      "text": "美股医药健康板块上周五集体上涨，礼来涨1.26%创收盘历史新高丨美股复盘 - 21财经",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZG90djRSUU1HbTV0ZHhlckRSVldFT2dlLTllWjU0N2ZGblpIeVk3SlN0b1hueE4xMUIzeTlaeEtCLVZ6QllVY2JDR2gwS2JiRkdVT0cyMWtCVEVrNEVZWnViRndYeDluNUVuOE1TeGZTVk5KVDFzSVhzSXhyWUtOWkdZWThMenh0d3pQNHNVelduTWo0?oc=5"
+      "date": "2026-11-18",
+      "text": "思路迪医药恩维达由附条件批准转常规批准获国家药监局批准 - 观点网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9hUWhXQ1ZJYkQ0bko5cnI5VUFWSGs2czgtcGNCV1ZJSjlrcE9jN3JJRkt4RnRGZXBPS3FLaDU4MGRPVmIwLXQ0RWRENmpFUUlMY1RkLThZY1BFQjlCMEdwWVNn?oc=5"
     },
     {
-      "date": "2026-11-16",
-      "text": "创新药惠民“再提速” - 人民日报",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMzIxVHpEWG0xMFdmQmFvSFk2ZWlGMVN5bzMzdXBmWDMtdndLSzBxRUVSQkgtOEFtUk1IcW9HbTd1UE5pX1ZBVEYxbWNqNzh6Skg1YTFkVk1RQUpGX0Zpelo3ekdSV3NRdXlyNkxOUnZwUl9VRFFYdjVLeDJjTFFvWV8wMA?oc=5"
+      "date": "2026-11-18",
+      "text": "15:10:32【南方基金旗下港股通创新药ETF南方（159297）：跟踪支付改革与产业兑现】 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE0tM1hlOWtMQXROcGt5V3NSNDFKX0VVSGE2MFZXUHducXV5Vk5rbzV0Z0hJUmdOc0N2eDZfbW9kUEpWRjZfbXBDeg?oc=5"
     }
   ],
   "ai_analysis": "",

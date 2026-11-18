@@ -1,60 +1,60 @@
 {
-  "date": "2026-11-17",
-  "copper": 5.9925,
-  "copper_chg": 0.11694929412746635,
-  "ma20": 6.3726,
-  "ma50": 6.534879999999999,
-  "dxy": 103.43,
-  "vix": 25.5,
-  "tnx": 5.10099983215332,
-  "wti": 86.47,
-  "cu_oil_ratio": 152.78345495547586,
-  "shfe_cu": 103510.0,
-  "shfe_cu_date": "2026-11-17",
-  "shfe_lme_ratio": 1.088,
+  "date": "2026-11-18",
+  "copper": 5.6825,
+  "copper_chg": -5.212677231025853,
+  "ma20": 6.328025000000001,
+  "ma50": 6.5115300000000005,
+  "dxy": 103.77100372314453,
+  "vix": 24.6200008392334,
+  "tnx": 5.052000045776367,
+  "wti": 82.24,
+  "cu_oil_ratio": 152.33162876945528,
+  "shfe_cu": 97920.0,
+  "shfe_cu_date": "2026-11-18",
+  "shfe_lme_ratio": 1.086,
   "lme_stock": null,
   "lme_stock_date": null,
-  "shfe_stock": 6830,
-  "shfe_stock_chg": 1495,
-  "shfe_stock_date": "2026-11-17",
-  "lymy": 12.5,
+  "shfe_stock": 7406,
+  "shfe_stock_chg": 576,
+  "shfe_stock_date": "2026-11-18",
+  "lymy": 12.57,
   "lymy_chg": 0.0,
-  "tl": 4.54,
+  "tl": 4.59,
   "tl_chg": 0.0,
-  "jxt": 30.22,
+  "jxt": 30.33,
   "jxt_chg": 0.0,
-  "cper": 36.06,
-  "cper_chg": 0.1,
-  "copx": 65.51,
-  "copx_chg": 0.0,
+  "cper": 34.19,
+  "cper_chg": -4.99,
+  "copx": 61.31,
+  "copx_chg": -6.12,
   "signals": [
     {
       "name": "铜价低于MA20",
       "dir": "bear",
-      "text": "$5.99 < MA20 $6.37"
+      "text": "$5.68 < MA20 $6.33"
     },
     {
       "name": "美元偏强",
       "dir": "bear",
-      "text": "DXY 103.43 > 103，压制铜价"
+      "text": "DXY 103.77 > 103，压制铜价"
     },
     {
-      "name": "避险升温",
-      "dir": "bear",
-      "text": "VIX 25.5 > 25，风险偏好下降"
+      "name": "风险偏好正常",
+      "dir": "neutral",
+      "text": "VIX 24.6"
     },
     {
       "name": "铜油比偏高",
       "dir": "bull",
-      "text": "铜油比 152.8，工业景气预期强"
+      "text": "铜油比 152.3，工业景气预期强"
     },
     {
       "name": "实际利率高企",
       "dir": "bear",
-      "text": "10Y 5.10%，压制金属估值"
+      "text": "10Y 5.05%，压制金属估值"
     }
   ],
-  "score": -3,
+  "score": -2,
   "news": [
     {
       "date": "2026-11-16",
@@ -75,25 +75,25 @@
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPeDZDNkJOVjFLNVZEa2ZOYkR1MTlXOVpQS2dKRUFvT0xXYkp5ZUJkc3VhQjdlOFMxWVNjdnlPbXhYTUc0a0dIcW9MR1FOdDFQNENQS0ZyQmlQdUdySFVTb1lYZ1ZObTM4YTRxdVJjRWZiaWI3Q2lBdW9CZHlKOVAwZUxGYmVkNm5FR082b01UcjNwa0hvd1poQzd6SE1EUXFqOEptVi1wMk5FNThuTXJwdzNFazNpaTZqM0N0WHRtdXNQWjZHdFcyQ3NRZHFEb0duSk1zYUJ3?oc=5"
     },
     {
-      "date": "2026-11-15",
-      "text": "Weekly Market Kickoff",
-      "src": "Topstep",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE14anRoTmc3aHpaSHc5ekRmRjJXV1Z6WHlGRVh6UldpU01xRmZmOXFxakw0OEUxcGhZNFlEU1V1OS1pWlFXbkpmZXVXV2xscWIySEZxOFk1V2dQaEZfVlE4?oc=5"
-    },
-    {
       "date": "2026-11-11",
       "text": "Mexico says crackdown on Asian steel shipments is paying off as US tariff talks advance",
       "src": "Mining.com",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQXZJUzB5LTNJOXI3T1VnQ21ONV95TTdnanNKd09laGFicy1TQ3V3M3REOFB2Y0lvalYxTmdsX1I5WlctM2ZLT0Z4X0NCWGtFQTZ3bWJFZGFDZ1duaE1IUWlvQkFsZ1hSZ2tYUTM3dzFXbzd1RThfZFRMZWZSOWtDcWVFS1NlOXdkaU5UY1UzamZtTWh5alhZaF9sVHdxRWw0MzdoZzNBeUtkSHdIU0hYeDJfX014QQ?oc=5"
     },
     {
-      "date": "2026-11-12",
-      "text": "Adani's Kutch Copper and Codelco sign MoU to explore Kaburkaala copper project in Chile",
-      "src": "MLQ.ai",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQX1V6U1ZIN3Y4eTB4cnA0X1c5SzJOdHh1WWgxMHFBbFdvUTNJbnRGYlUwV3ZGbkJvQ05SNGlSbHR4NWY1azZ5eklPSldmU2RXZVdVWjFKTmdJcWplUEJUS3lqT1BoTmdiX25WSlFlc2hNZWczWEhIMHN5dndNbFBSNVRVbW5uOTE0cjVCaGJ1LVNXTW5rSGl3cFc5SkhYcFc4bHI0cnB2NlJPQ00?oc=5"
+      "date": "2026-11-15",
+      "text": "Weekly Market Kickoff",
+      "src": "Topstep",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE14anRoTmc3aHpaSHc5ekRmRjJXV1Z6WHlGRVh6UldpU01xRmZmOXFxakw0OEUxcGhZNFlEU1V1OS1pWlFXbkpmZXVXV2xscWIySEZxOFk1V2dQaEZfVlE4?oc=5"
+    },
+    {
+      "date": "2026-11-18",
+      "text": "Red Canyon Drilling Intercepts Copper-Gold Mineralization at its 100% Owned Camp Target",
+      "src": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOdjNjcTZ2Q3RFemNDakdKakE4NzQzY3kzQ0Zoakg2Nm5MUE85dVU3R0NYVUVsUVc2UGx3ZzU0NzV6T3o4RWFBcWRNbXNRX1ZHeW53NFlEX2pmekVaQi12a1JOa0NxUTJDWlQyRk56SFpEMEx4cHZRVmRxR1Y5TnZLRzZYRkFzc2VqdkQ4SWhmalZPVGpqYW02eGVoWk91a1dsWW02ZW9DcGRTQ015YjBXek1WeXRVemhubVIxcmIwVFFCdHR5dmxSWHdkZ2pmeWQzSUtFeU9IaFhkWmR0d3pRVHBuQWh2OEdOQ05vLUF1SHJfODZj?oc=5"
     }
   ],
   "ai_analysis": "",
   "ai_error": "未自动生成，点击按钮手动生成",
-  "ai_date": "2026-11-17"
+  "ai_date": "2026-11-18"
 }

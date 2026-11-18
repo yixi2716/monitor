@@ -1,19 +1,19 @@
 {
-  "date": "2026-11-17",
-  "hs300": 3976.46,
-  "hs300_chg": -0.08,
-  "solar_etf": 0.666,
-  "solar_etf_chg": -1.62,
-  "newenergy_etf": 1.912,
-  "newenergy_etf_chg": -1.19,
-  "storage_etf": 1.38,
-  "storage_etf_chg": -1.08,
-  "tnx": 5.1,
-  "usdcny": 6.6654,
-  "excess": -1.54,
-  "dd_from_high": 0.437,
+  "date": "2026-11-18",
+  "hs300": 3983.77,
+  "hs300_chg": 0.18,
+  "solar_etf": 0.66,
+  "solar_etf_chg": -0.9,
+  "newenergy_etf": 1.91,
+  "newenergy_etf_chg": -0.1,
+  "storage_etf": 1.384,
+  "storage_etf_chg": 0.29,
+  "tnx": 5.05,
+  "usdcny": 6.6566,
+  "excess": -1.08,
+  "dd_from_high": 0.4421,
   "pb_ratio": 0.0667,
-  "turnover_ratio": 1.073,
+  "turnover_ratio": 0.984,
   "stocks": {
     "tongwei": {
       "close": null,
@@ -46,44 +46,44 @@
   },
   "news": [
     {
-      "date": "2026-11-17",
-      "text": "铁路站房屋面“长”出光伏电站 - 中国科技网",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4wVFFsVjgtVUxLVXRTclZfc2lHdFFLSFp3T2FNaS05dmFEU3gzNHBYY1MtVGtCS1VsV2hCb24yQ01VMmhncHhwcTh3MnZGQzV0VG5EQmJPWWViQ3dGWmhfZkZxMlc1Sy1jZUJodngxZmU?oc=5"
+      "date": "2026-11-18",
+      "text": "太空光伏等新技术集中亮相 这场大会为光伏破局“找答案” - 四川新闻",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1xOUN4QmVib3dieVJQMTg5c2oxc0ZLX2RpSTQ5WmMxclU2VERic0htTUpEQmhvR0taR2tfeE9LUVY1YzlyclF0d3djYkpzYzZHV0NBWjgtdEx6b083a2szbnBTQQ?oc=5"
     },
     {
-      "date": "2026-11-17",
-      "text": "盈利逻辑逆转下的光伏变局，行业拐点何时到来 - Sohu",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTkFEa3J4dTFpR3VzVHNBdElPTld6dG9QWXlOZXFZMV9XLVI5VC11MWZXUnNrbGFhNnAwTkg3OXlCUUF4b1dYcDZvYTZ2RWNNRS1YZUduRUhKdkcxQ0JoVG8yT01DVFVXV3p6QTM0LUJsUUg1VnEteFItRDRFLV9tcXVWbERHMDVy?oc=5"
+      "date": "2026-11-18",
+      "text": "《中资环新源劲吾在退役光伏组件循环利用的创新实践》入选中国企业改革与发展研究会2026年能源转型创新案例名单 - 国际科技创新中心",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBQSWxlbWdEYWI1ZFZmeFFrckg1ZXhTVm5GZW5TWV9hNFBGRmtIUVhyLTB4TVNfYUJMQXpmaTNSaWJxX0dpVHBISjhOT19CVnBKa0VPZHVDLUEwVVJsbWdmSnh3Q2I1VGowcHpzTEFaQmY4TUVPY3A4?oc=5"
     },
     {
-      "date": "2026-11-17",
-      "text": "一边光伏出清、一边硅片回暖，TCL中环双赛道怎么打？ - 新京报",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBkaExrbGVVTnAwRXVsZEJfNzBSU29uVmluelBLOXVoZWFrMWVOMEI2eENDT3NqaDM1TXo5WUcwejA1UkpaeWtzUG1hYlVjSWxQczVtVGZmM2xtcFNuRVg2MEFob2k?oc=5"
+      "date": "2026-11-18",
+      "text": "刘汉元：多晶硅行业最有条件“反内卷”成功 - Sohu",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNY1p3M0c0TUg4aWxnVTBUeW1WVXRSUHE1Q0VULUdSQm9BRy1aZGlEcDVUUDQ2NXFWSm5vQkJld0poR3dfVFYtcTNWaExLcFJZRFRDdlJDbFoxXzVsZ0FVWlJCUXh5MzQwY0ZUOHNDWFR2NG5VbkVRWTYxX3B0bThRc1VRYkFxc2Ni?oc=5"
     },
     {
-      "date": "2026-11-17",
-      "text": "中环新能源入围中国能建15GWp光伏组件集采项目 - 国际太阳能光伏网",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1DS19jM0xDUTFCMHVFd3VVbVpOcWN6Nk1HTjdSYWdERFdRdk11eTNJV2VLY0pMS18zOFBQQzlKQXpXakp4cDVBcXhaX2JyUVY1ckdXaG45b2wzV3FO?oc=5"
+      "date": "2026-11-18",
+      "text": "共拓海上光伏，深化交流合作：天合光能与华能江苏公司举行座谈交流 - 国际太阳能光伏网",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1uQ2tqdGtnYUMyX2J5XzhQRHAtM2c2TXd4N1ZZSmF4SkQ4WmVXMzZudjVHX3d5cS1QMUdOVFloWTgtTzlQQ0RMcWFyZ3FyVWhZYVA4NVpha1VtVkNf?oc=5"
     },
     {
-      "date": "2026-11-17",
-      "text": "【早报】特朗普：对多晶硅及其衍生产品加征关税；美存储股再遭重挫；原油走强、黄金微跌；宇树科技发行价定了 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBKOGZ6ejN0YWR3YkZWVXU3YndmcUwyUGF0WFFRc2xGRkhSUm5lTjNSbm9LZlo2Mmx0WklVdWxSOFMxYnRHZnVsYw?oc=5"
+      "date": "2026-11-18",
+      "text": "高效光伏发电组件新品在青岛西海岸新区发布 - 山东新闻",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5UMFdPMkd1bno0ZFVtTk9uQkp2TmJibkRIY1YzbGljeXBYc3QyeG5wNWVPaXBxdmtRTmN4S09zbUhmbmMwcGhWTVBvN25fM1FzUlluZGszZXVTWHdibTc3T3hTeVI?oc=5"
     },
     {
-      "date": "2026-11-17",
-      "text": "长庆油田采油二厂分布式光伏发电量今年突破6000 万千瓦时 - 中国石油新闻中心",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1lRFBjSURzWDVfd2UtaV8wQ1MzNWFMS3dOUGNEbnVSTEh3ZTM3S19nUDlHbENHdmNzaXhUNkJLRWtwZHA1V3pOaFM5X2JKcXhhb2FmRGlsRUJUM3N6THQya3NqNjNYU3U2?oc=5"
+      "date": "2026-11-18",
+      "text": "通威刘汉元谈光伏破局：先控住硅料，不要简单出清 - Jiemian.com",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9rTVlmZm4tNFlnN0NGcHpLUVU4NDZTU05BblFjcllTYkFhUlZUYlh5LVYteVNEWi04LWE4SFVEY2lFdll1R0xzY0JnT2NQNDRtalB1TVlVdS0?oc=5"
     },
     {
-      "date": "2026-11-17",
-      "text": "肇庆端能电力两分布式光伏项目备案通过 星湖校区项目总投资107.81万元 - 观点网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4tVlRnZXEwTWd0ZmJPTHdEODFDeDc3b1NyeEduRXZrbzFqOW1nblBsUHdmSzdNamF0Nm5wSzJYakFVT1JINnd0X3FhZUJGMEZGT3MxdmF2OU9WNXFZTlJMLUZB?oc=5"
+      "date": "2026-11-18",
+      "text": "潮州维伏新能源饶平分布式光伏项目备案通过 总投资4880万元 - 观点网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9xVUpDUXpGNjBqTmhtRmVKZUlXVXpFcFM0VC0td1pyZ0Y3RlpCdldQLVBJb0M2UlFQNUtvWVVFYVhqSEFOWkR2MWluMkFxNURiY0JBeklFV0s4Y1M5bUFkMXdn?oc=5"
     },
     {
-      "date": "2026-11-17",
-      "text": "商务部等9部门：抓好动力电池、光伏组件、风机叶片“新三样”固废回收拆解 - 21财经",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNUjE5b3Q2cXZtUmpxWk53UGhzbzB2dTFUSlJRSzBkbXdTRVFmMWV3WDhRN001QVhjcFppdUJFaVhHZkExWEtxTlZwLUtXVFFFc1otRkxNLVpUc29ib1c0RWRqRTh4NWJ0NlAzUGdlaW5PWkYtMWlxaVZBekZNT05XaF9ZSmhHalJfTHNjUGt3WQ?oc=5"
+      "date": "2026-11-18",
+      "text": "“三连板”后又连续三个跌停！光伏设备制造企业金辰股份紧急自查：经营一切正常，高管未买卖股票 - 每日经济新闻",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBMbXlRS2RycUpfY0Vjb3NlSFZaSjJ2b19xMGRGbEFPQmZTc3kzd3FlQkhnRmIzdWFqV3BhZUVPRC1ieUEtY292V2N4YmZLLWF6V0dwTjZnOU53U1JfX3I3TU51T3hzQQ?oc=5"
     }
   ],
   "ai_analysis": "",
