@@ -1,68 +1,68 @@
 {
-  "date": "2026-11-18",
-  "hs300": 3983.77,
-  "hs300_chg": 0.18,
-  "med_etf": 0.38,
-  "med_etf_chg": -0.26,
-  "inn_etf": 0.786,
-  "inn_etf_chg": -1.15,
-  "cxo_etf": 0.338,
-  "cxo_etf_chg": -1.48,
-  "tcm_etf": 0.902,
-  "tcm_etf_chg": -0.89,
-  "meddev_etf": 0.438,
-  "meddev_etf_chg": -1.83,
-  "vaccine_etf": 1.912,
-  "vaccine_etf_chg": -0.1,
-  "hsi_health": 23508.17,
+  "date": "2026-11-19",
+  "hs300": 3984.84,
+  "hs300_chg": 0.03,
+  "med_etf": 0.379,
+  "med_etf_chg": 0.0,
+  "inn_etf": 0.777,
+  "inn_etf_chg": -0.26,
+  "cxo_etf": 0.333,
+  "cxo_etf_chg": -0.3,
+  "tcm_etf": 0.894,
+  "tcm_etf_chg": -0.45,
+  "meddev_etf": 0.43,
+  "meddev_etf_chg": -0.23,
+  "vaccine_etf": 1.91,
+  "vaccine_etf_chg": -1.47,
+  "hsi_health": 23294.75,
   "hsi_health_chg": 0.0,
-  "hs_inn_etf": 1.179,
-  "hs_inn_etf_chg": -2.54,
-  "tnx": 5.05,
-  "usdcny": 6.6566,
-  "excess": -0.44,
-  "north_money": 219997.3,
-  "north_date": "20261118",
+  "hs_inn_etf": 1.149,
+  "hs_inn_etf_chg": -0.7,
+  "tnx": 5.06,
+  "usdcny": 6.6802,
+  "excess": -0.03,
+  "north_money": 210136.09,
+  "north_date": "20261119",
   "news": [
     {
-      "date": "2026-11-18",
-      "text": "生产力中心续推医药产业升级发展鼓励计划 支持药企提升竞争力促进中医药产业发展 - 国务院港澳事务办公室",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBHLXhhVXprNlN5QUVLSkk1VjJkQ3JvTFQ3VzlEdXpTNnFNUHNaY2dUalg4ME9SbE1VTmJMb2xhRUp0b3V0M05pZmZXaGxYaHZtdDdJVnFULUlUdkRNT0RteExCaFlHS1JfcEdFRUVLejdTSzN1UDdqYXdR?oc=5"
+      "date": "2026-11-19",
+      "text": "适配基层用药更灵活！第十二批国家药品集采，11月30日起在湘落地 - 华声在线",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBKOThYZ1VVOTYwYlh5bDQzcjVRWjZxbl9wb3VHenNIbTM5RWxiOTFKQ0Z6M1VMSzh0OWFWcEZra0lUcWR0V0JpYUJKaThCTzJ5ZFE2WlZETGRPRXRMZU44?oc=5"
     },
     {
-      "date": "2026-11-18",
-      "text": "临空企业多款创新药纳入2026年国家医保目录 - 北京市投资促进服务中心",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA2WkgxdUxadXZiUjFJOGk3MjBNekxWX05xQmUtNXZKVVFyNkJPT1lXVDUxWm9oYThiRWU3WEpMVGVJSnJhZEtyRUZHcUoyeVhRMDI1SEo0RDVYVXhiaGJVZWN6eUxUTExlWnAzdEVxS2FDb1NhU2lYVUlFOA?oc=5"
+      "date": "2026-11-19",
+      "text": "国家药监局召开医疗器械上市后监管工作座谈会 - 21财经",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNR1NDT1RzdTY4eS1jZEJaRzN1d0hXaHR2eWVzWWp2ODZGdGJpcWUtcy1GQmY3dnFUa0wzR3l2a2hQRTVSdFZCOXQtWXhhYXFvaDhMNHd3dVpsUi10N0Z5Qk0tcXljVnhvYTNYb1lVODFrRnRYTk5POGdGbF9UcEY1ZUY4TDFSZXpuS3dIVGxiRQ?oc=5"
     },
     {
-      "date": "2026-11-18",
-      "text": "宝山区定点医药机构信息来啦2026-11-18 - 上海市人民政府",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTndxWlRFVVdyNDh5R1ZVYWdQNE1PWFBDUjNzZWc5eldseGt6UkRiTDVjVm9HeGhFbGFKdnJILTZzaGVyS2l5WWFnYVlicmt0STRIRXdPUUxjV0VWaUlhazdWM0ZLYTFKUWVaajdMcmltN0Rya0o1YkpHNjdDTkl2TDNVQ1BrVWJvSlE?oc=5"
+      "date": "2026-11-19",
+      "text": "从“单点突破”走向“集群成势” 浙江生物医药的“县域答案” - 新华网浙江",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdW5haXh2Q1pGNjdORFBweTNWeDNhZVUtNGpQMFh5T1UzYVFMZ0U3R2ljSXBkMk9fUlptX0ZyNDFBaXZzelh6eDNHWDlYdTlLaXVfMmc0OVZZWDlCWXdlaTB2WkFxckdMUkRBQlRKcmdZNkc2bmU5Rzl4T29ySlBjclpB?oc=5"
     },
     {
-      "date": "2026-11-18",
-      "text": "刘非调研中医药高质量发展工作并主持召开座谈会 - 证券之星",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB6cVJobnZCcEVBeC11U19qMFA4dG1UN05kUEVua3hVdUhDLUpaZDdYTU0zWXNFMXgta1pZcTZmRWhFNFVTY0lYWFdOU2h0bnIxaUFXWjhMdHRwYUxKY3gyREFB?oc=5"
+      "date": "2026-11-19",
+      "text": "恒瑞医药子公司注射用磷罗拉匹坦帕洛诺司琼新增适应症获批 - 观点网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9DS29OOXp1NEtrYm1uUHF5cU1YaUowaE4yX2Y2aEEyZmdXNDFpZUJMOWVoTDFtdzhYdUpVTDNLWjMtMHJ4YXFSaDN2SkNmZnhjMHlKTk05LUx2dVBUTFk0QnNR?oc=5"
     },
     {
-      "date": "2026-11-18",
-      "text": "涉嫌串通投标 星昊医药子公司及实控人之一被公诉 - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBQRjJkZF9yeUQ5Rkt3VzY5eDU0NE1ucW9xajNjUDBYWkxBU1lYeUExZGFNdy1ZWm4zaVNfVXAtWFdiSEVHSTFLdHQ3SzQtQ2lmMlhlemtTeDdfWUhzQTNQeWJ6dw?oc=5"
+      "date": "2026-11-19",
+      "text": "涉第七批集采串标：星昊医药子公司及实控人之一被提起公诉，涉案违法所得超2100万元 - ThePaper.cn",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5tQlVxaGZaU1JpQmJ5MEVkczktaVpiTndhaTNkdENjS3k3MmtVRy11cnlMcUVVaS14SC00TGhTSEZrVmdFMW5CUzNBbDN1VFdXMktSejluZ2JPOHktVXRHZA?oc=5"
     },
     {
-      "date": "2026-11-18",
-      "text": "2500亿之后，苏州创新药如何领跑下一程？ - ByDrug",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9SQW5WYzlwZVp0bmp1OHBlekRjQWl3TF8xdVlERnREOUdBaFRxVHoxZnVkU25abDJZMFphQ1JkcjJPYV9ubmotNUMyNTVhN2NiRmh3VXNPN1J0WVVfbktaRlBRUXVwZENhd1FmeE1NNDJncjBVeWlsWllzRkVaZw?oc=5"
+      "date": "2026-11-19",
+      "text": "和黄医药「索乐匹尼布」获批上市 - 中国医药创新促进会",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE04dWdWU0lFVXdhU2VxdWlqUGRpWHEtZEI1aXhXMW1tdkgtYlpUTENNeTRmVU85N1RPcDl3NjRZVXdnNE9SSGZzTEFES3BQMWtieUwzTnBvaWx3eGVvZFZBUGdpaC13dzloWmxLQUtxNGdxTi1lQTY2aUh3?oc=5"
     },
     {
-      "date": "2026-11-18",
-      "text": "思路迪医药恩维达由附条件批准转常规批准获国家药监局批准 - 观点网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9hUWhXQ1ZJYkQ0bko5cnI5VUFWSGs2czgtcGNCV1ZJSjlrcE9jN3JJRkt4RnRGZXBPS3FLaDU4MGRPVmIwLXQ0RWRENmpFUUlMY1RkLThZY1BFQjlCMEdwWVNn?oc=5"
+      "date": "2026-11-19",
+      "text": "毕得医药：华创证券、光证资管等多家机构于11月18日调研我司 - 证券之星",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1laW9DZ2M5a21rcjVpQ0dVemVxSUlwMExadm9fRDJjdm5wWjRYQjVGcXV5cU93YTBSMURxaUUzeDdORmF0SzBXWlp3QmxycFllVUdTWDhPSXNWa2xPd085bQ?oc=5"
     },
     {
-      "date": "2026-11-18",
-      "text": "15:10:32【南方基金旗下港股通创新药ETF南方（159297）：跟踪支付改革与产业兑现】 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE0tM1hlOWtMQXROcGt5V3NSNDFKX0VVSGE2MFZXUHducXV5Vk5rbzV0Z0hJUmdOc0N2eDZfbW9kUEpWRjZfbXBDeg?oc=5"
+      "date": "2026-11-19",
+      "text": "2026年第46周11.09-11.15全球创新药研发概览 - 摩熵医药",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5uaFlMWFhfYVc4WjlzTC16MVdienIxOERnNHNMLVhlQXBGcUQ1NllUMzgtVlZtQklISVRqaU9XekM3dmY3U3FDRzB1cUhsNVJLeUZoMzNhYw?oc=5"
     }
   ],
   "ai_analysis": "",

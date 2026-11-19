@@ -574,5 +574,17 @@
       "bull",
       "neutral"
     ]
+  },
+  {
+    "date": "2026-11-19",
+    "score": 1,
+    "mode": "M",
+    "dirs": [
+      "bear",
+      "neutral",
+      "bull",
+      "bull",
+      "neutral"
+    ]
   }
 ]

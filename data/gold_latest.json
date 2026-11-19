@@ -1,35 +1,35 @@
 {
-  "date": "2026-11-18",
-  "fetched_at": "2026-11-19 02:29",
-  "gold": 3738.0,
-  "gold_chg": -2.96,
-  "ma20": 3985.11,
-  "ma50": 4142.21,
+  "date": "2026-11-19",
+  "fetched_at": "2026-11-20 02:43",
+  "gold": 3685.5,
+  "gold_chg": -1.13,
+  "ma20": 3966.88,
+  "ma50": 4128.55,
   "above_ma20": false,
   "above_ma50": false,
-  "dxy": 103.75,
-  "dxy_chg": 0.18,
-  "vix": 24.62,
-  "vix_chg": -3.3,
-  "tip": 105.04,
+  "dxy": 103.85,
+  "dxy_chg": 0.06,
+  "vix": 27.2,
+  "vix_chg": 10.75,
+  "tip": 105.02,
   "tnx": 5.05,
-  "corr_gold_dxy": -0.41,
-  "corr_gold_tip": -0.14,
-  "corr_gold_vix": -0.17,
-  "basis": 31.32,
-  "vol20": 29.1,
-  "gold_silver_ratio": 83.24,
-  "usdcny": 6.6566,
-  "shfe_au": 814.32,
-  "shfe_au_date": "2026-11-18",
+  "corr_gold_dxy": -0.48,
+  "corr_gold_tip": 0.07,
+  "corr_gold_vix": -0.14,
+  "basis": 31.58,
+  "vol20": 28.1,
+  "gold_silver_ratio": 82.89,
+  "usdcny": 6.6802,
+  "shfe_au": 804.32,
+  "shfe_au_date": "2026-11-19",
   "cftc_gold_net": null,
   "cftc_gold_date": null,
   "mode": "M",
   "mode_name": "M · 混合驱动",
   "confidence": "低",
   "evidence": [
-    "黄金与 TIP 相关性 -0.14，与 DXY 相关性 -0.41",
-    "VIX 24.6，与 VIX 相关性 -0.17",
+    "黄金与 TIP 相关性 +0.07，与 DXY 相关性 -0.48",
+    "VIX 27.2，与 VIX 相关性 -0.14",
     "多因子混合驱动，无单一主导逻辑"
   ],
   "signals": [
@@ -40,36 +40,28 @@
     },
     {
       "name": "利率信号",
-      "text": "TIP 5日 -0.20%，实际利率平稳",
+      "text": "TIP 5日 +0.24%，实际利率平稳",
       "dir": "neutral"
     },
     {
       "name": "避险信号",
-      "text": "VIX 24.6 > 20，避险买盘 → 利好",
+      "text": "VIX 27.2 > 20，避险买盘 → 利好",
       "dir": "bull"
     },
     {
       "name": "情绪信号",
-      "text": "VIX 5日 +41%，恐慌急升 → 避险利好",
+      "text": "VIX 5日 +45%，恐慌急升 → 避险利好",
       "dir": "bull"
     },
     {
       "name": "实物信号",
-      "text": "GLD 与期货同步（5日 -6.21% vs -6.42%）",
+      "text": "GLD 与期货同步（5日 -5.05% vs -5.05%）",
       "dir": "neutral"
     }
   ],
   "score": 1,
   "score_summary": "+1（中性）",
   "recent10": [
-    {
-      "date": "2026-11-05",
-      "gold": 4097.9,
-      "gold_chg": 0.63,
-      "dxy": 101.59,
-      "vix": 28.18,
-      "tip": 106.26
-    },
     {
       "date": "2026-11-06",
       "gold": 4079.5,
@@ -136,11 +128,19 @@
     },
     {
       "date": "2026-11-18",
-      "gold": 3738.0,
-      "gold_chg": -2.96,
-      "dxy": 103.75,
-      "vix": 24.62,
-      "tip": 105.04
+      "gold": 3727.8,
+      "gold_chg": -3.22,
+      "dxy": 103.79,
+      "vix": 24.56,
+      "tip": 104.9
+    },
+    {
+      "date": "2026-11-19",
+      "gold": 3685.5,
+      "gold_chg": -1.13,
+      "dxy": 103.85,
+      "vix": 27.2,
+      "tip": 105.02
     }
   ],
   "macro": {
@@ -148,7 +148,7 @@
     "last_change": "2026-09-16 加息 25bp",
     "next_label": "10/27–28 议息会议",
     "next_date": "2026-10-28",
-    "days_to_next": -21,
+    "days_to_next": -22,
     "upcoming": [
       {
         "date": "2026-10-28",
@@ -187,36 +187,36 @@
         "src": "Breaking News, Latest News and Videos"
       },
       {
-        "date": "2026-11-17",
-        "text": "Is Iran plotting a ‘dirty bomb’ attack in the US? What we know",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSFp4SnYzOXRsMUp6V1hFd2VxdkhrbXQ3MEJKdF9QYVVaMUVsZENOS0t1cjFzMnNROVR6WHdVX3UwOHNmMEVzNnhvLW9TXzBpZ3RtUS1FR3o0R19ueEZfYUw2eTd4Y0ZxZ2tIbVV3eUZiRWFncmYxdWZFWkdHYm9oN29PdTVvREtZUkxzX0dJOHJkNzkwVVp6N3g5VURCRC1vSFdR0gGoAUFVX3lxTE5FU3NQVk5OaDlLVkpUZEVyYUhrengybi1XR2tCanVTbW00OXR4NnVWelBJZERXV1d4YjBsdXVmaXNFekdZWDNpckY4dXFYc3F4ZW5OS1dWaGpEdmZOUnY5RmFqVzl6VUhyN3FfbjEtaVBMYWU4di1KZGJUSXJoVS0zTVZzOEtLSFhuWC1wT3ZMVmdEdUpvWUgtNHVDc2hzU1pheEotSW5NVg?oc=5",
-        "src": "Al Jazeera"
-      },
-      {
         "date": "2026-11-18",
         "text": "Iran would respond 'at the same level' if hit by US nuclear attack: Lawmaker",
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdTdMWm9tTGpMTGdxTFlwYURSWVQ0dzZDc0xfMmJsZDdRWHhiYVliMGMtTFBEZEF5c2RYNGJjZzdmbFdsNTlKS0VYeERXeEVQYkxQVUpVeU1KbERYNGpSdlNFUDV1eWtNOVk2bGJHaThOU1dpeDZld1FGazB4cEJQMVYzUWxVdC10SVo1b0Z0ZlBjbmdBcWItUXE4elhwOERDaDlUdWtsUWVTRGp3WmJpbGYxejNwQ1d1U1E?oc=5",
         "src": "Anadolu Ajansı"
       },
       {
-        "date": "2026-11-16",
-        "text": "Exclusive: US intel indicates Iran developing plans to potentially detonate a dirty bomb in Washington, sources say",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE03SEs1dzdtOVl4RVo4TjcxOHpLMmpKZlZ4cGFCQjQtMnV3OWhMSnhvemduUWxJSnlYYWstUk5PYURBSmxLQ2VDY3NyUG9fNXhDTlRwSDFEVFNCN29vWWtOaWRhTDlPYk04TThPOTREX2FVSzhZdEExSVVyQQ?oc=5",
-        "src": "CNN"
+        "date": "2026-11-17",
+        "text": "Is Iran plotting a ‘dirty bomb’ attack in the US? What we know",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSFp4SnYzOXRsMUp6V1hFd2VxdkhrbXQ3MEJKdF9QYVVaMUVsZENOS0t1cjFzMnNROVR6WHdVX3UwOHNmMEVzNnhvLW9TXzBpZ3RtUS1FR3o0R19ueEZfYUw2eTd4Y0ZxZ2tIbVV3eUZiRWFncmYxdWZFWkdHYm9oN29PdTVvREtZUkxzX0dJOHJkNzkwVVp6N3g5VURCRC1vSFdR0gGoAUFVX3lxTE5FU3NQVk5OaDlLVkpUZEVyYUhrengybi1XR2tCanVTbW00OXR4NnVWelBJZERXV1d4YjBsdXVmaXNFekdZWDNpckY4dXFYc3F4ZW5OS1dWaGpEdmZOUnY5RmFqVzl6VUhyN3FfbjEtaVBMYWU4di1KZGJUSXJoVS0zTVZzOEtLSFhuWC1wT3ZMVmdEdUpvWUgtNHVDc2hzU1pheEotSW5NVg?oc=5",
+        "src": "Al Jazeera"
       },
       {
-        "date": "2026-11-17",
-        "text": "What to Know About the Threat of a ‘Dirty Bomb’ Amid Reported Iran Plot",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSlJVRVRIRG9Ja3F0THhhR2FqOGc3RExuN0dZcnB3X1YxUDFTVDRtSkc3TWt6cDh4Z09zWU5Fd0N3TEVzMHhnNzFmSV8xYkdKZHdjdVJZOEZJbXdXS013QkZVSkJvN2NiQTBNbVhDRV9jV0p0Y3drMS1EZ3RhSngyMFNYMzRLT0J0VnlNaWdLZ1BzOXZGRW05b1Q1YmwzTklEazhwMzJjNVlWSVM4QlFCWGNkWQ?oc=5",
-        "src": "Time Magazine"
+        "date": "2026-11-13",
+        "text": "Trump Signals New Strategy on Iran: A Waiting Game",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE51bnYyZ0xDaHVCc05TYXYxdDlPME5fNmNfbklWSm9GMk53TTJHdnhGMm1JQWZyR0VHZ0VZQlhFdzZyVmFnRm9QdmNocUJ2OXJLUGgwenNPb2dsbTFqRU5RYVJISVFlLWducVRCTzhRaXN5dXZMalU4MnJFWQ?oc=5",
+        "src": "The New York Times"
+      },
+      {
+        "date": "2026-11-14",
+        "text": "Trump To Discuss Iran, Nuclear Arms With Putin, Xi At Landmark Summit",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbnJHSWM2eFlYcVBrdHhsQUpqVUxkZ05KTUh2aGZybFNyQnlJZkFKVWYtX2NvcFNIdU9KT1M3QVNPRkhNdmZQU0lGdVZLQjd3MGpYcGx3dzVmU2hTUjFQbUlnQWVTTGNvcXA3eWYwTFNCWURoY01tdUJUWGM5LWRDeHZTRm82bFlPWXlCRVVROUtpSmRrZHIydkV0dTJoSmU2OHZnR01lX3fSAasBQVVfeXFMTnF5T0c0dWdySndHMzJ3NXVRMGxGWVJsaTRGcEQ0bEtyXzdIcmpNUnhQQU42RkVlaWVJSENEakFUUnJGenpqY25jNXdzMzZwTXU2Q3BTeDN6aDMyRU14UWQxb1JSaDJkT1dSeFZuUFA5UHNhM2FVdzFFbWVPODNUVXNsX2lfcVJJZk1ZbEZ4WFlpMHc0OEUwaWtGZVNBTldiVlZncmVINmJsemRR?oc=5",
+        "src": "Radio Free Europe/Radio Liberty"
       }
     ],
     "gold_impact": "双重作用：局势升级→避险买盘利多黄金；但同时油价飙升→通胀预期→美联储更难降息→利空黄金。当前谈判窗口期，油价波动会直接传导到金价。",
-    "wti_price": 82.23,
-    "wti_chg": -3.95,
+    "wti_price": 83.29,
+    "wti_chg": 0.51,
     "news_auto": true
   },
   "ai_analysis": "",
   "ai_error": "未自动生成，点击按钮手动生成",
-  "ai_date": "2026-11-18"
+  "ai_date": "2026-11-19"
 }
