@@ -1,19 +1,19 @@
 {
-  "date": "2026-11-19",
-  "hs300": 3984.84,
-  "hs300_chg": 0.03,
-  "solar_etf": 0.656,
-  "solar_etf_chg": -0.61,
-  "newenergy_etf": 1.882,
-  "newenergy_etf_chg": -1.47,
-  "storage_etf": 1.349,
-  "storage_etf_chg": -2.53,
-  "tnx": 5.06,
-  "usdcny": 6.6802,
-  "excess": -0.64,
-  "dd_from_high": 0.4455,
-  "pb_ratio": 0.0667,
-  "turnover_ratio": 0.961,
+  "date": "2026-11-20",
+  "hs300": 3954.57,
+  "hs300_chg": -0.76,
+  "solar_etf": 0.635,
+  "solar_etf_chg": -3.2,
+  "newenergy_etf": 1.825,
+  "newenergy_etf_chg": -3.03,
+  "storage_etf": 1.29,
+  "storage_etf_chg": -4.37,
+  "tnx": 4.94,
+  "usdcny": 6.6612,
+  "excess": -2.44,
+  "dd_from_high": 0.4632,
+  "pb_ratio": 0.1,
+  "turnover_ratio": 0.855,
   "stocks": {
     "tongwei": {
       "close": null,
@@ -46,44 +46,44 @@
   },
   "news": [
     {
-      "date": "2026-11-19",
-      "text": "刘汉元：让光伏发电从“看天吃饭”走向可调度 - 东方财富网",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB3RHYzZ2g2NFZyaWZKMkpuU0pRSko2VlYtUHhvbzVkb3FvS3ZmVkdmYk90QURYbnA0dmZreXd3TW1iSG1zSmgxNUdocGI5R25IRHpoLW1RTndKNGdkaklwSw?oc=5"
+      "date": "2026-11-20",
+      "text": "科学与健康丨一块硅片、一张蒙皮、一个菌株背后的“创新加法” - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE14MUwzSkI5RkZuOTFYMGVqemxDUGdqS0pLSjdjd1RlTkw1WHhZcmlyNDRWbjFGRDZOUnhLcGV5OGIxQy1JTTBMakFtQVRtbEFXLXhWc3I0NExqb19YcVowaEZTeHVUWE5QR2g0QXdqNGFGc0JvekhyMURNS0JWdw?oc=5"
     },
     {
-      "date": "2026-11-19",
-      "text": "硅业分会：本周光伏中游整体承压 硅片跌幅扩大电池分化 - 观点网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9yNkhyaVZqYm5qX2VxbWU4SUxaNzUzb3dFU0xJc19tRzhTd2gzN1RlTDM3WDlQa1RtTlhvTExadDNPbGVmdTRNX2IwYzlPMmpJTGZaOEM3NU9Rc0xvcG9qX3p3?oc=5"
+      "date": "2026-11-20",
+      "text": "通威发布置信光伏系统级解决方案 - 东方财富网",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5VUEROM2F0YlU5RVk5MV9EN0RDQzZRMmxucEloNW42Tld3WHFkSzBYbnhZTWp0SXl1c2hLMVd6Z2Q5eEU2Znl4S1ZYN0pzem9ONFJfZ1R5eVJoaVh6eld1MQ?oc=5"
     },
     {
-      "date": "2026-11-19",
-      "text": "光伏行业反内卷持续推进 光储协同与技术创新寻找新空间 - 证券之星",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1xQlVLWDFqWDZWZENIVFEzWEtLMk15YXg5Z0d0RHY3Sk5MVkhjbFBCX0gybEZvODBSdnRxRXJXbjcwT0d5a08xMFFXWUxVd2JmR2lFUFJLOV9BcGt3MDdFQw?oc=5"
+      "date": "2026-11-20",
+      "text": "国家第三批“沙戈荒”大型风电光伏基地甘肃省首个项目并网 - 中国科技网",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1IS1NCd3hhUmJDSXpPUlhCZmRfb1pranZQS1JOVFphdVlHcWdvY2gxUkdNMlZ6elVPSGtOYWZWeFlZYUlWYjViaW9RRDU4ZTRiUTZMNHMwLTI0UWw4Zi1vNTdoQkZWWEh5a2dDdlhDNDM?oc=5"
     },
     {
-      "date": "2026-11-19",
-      "text": "2026第九届国际光伏与储能产业大会暨永祥股份第五届全球客户大会隆重举行 - 同花顺财经",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1zNl85aFlKMmF2X1FXM2s5ak1Fc25LeE02SHRzbHlvLUhFREhXTGVaa1FGT0dlanZRcTlUYUVZaUVoRTQ4c3V1TmV5VTk5VklJamljRWhuU01zMVc1bWk0eG5n?oc=5"
+      "date": "2026-11-20",
+      "text": "云南红河州建水南庄光伏发电项目（二期）Ⅰ标段进入实体施工阶段 - 国际太阳能光伏网",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5fNGUzTjFYNi1sZzlxTUFQaWpEUmtQZUpRVXhLQjl0ZWk5eDlmTTR6ZWM4NUJiSGlxYWRZeEZWZnd6UEZUYTA1TlBoeHBxd2lueFdpTjZVMEFpNVJpZ0E?oc=5"
     },
     {
-      "date": "2026-11-19",
-      "text": "本周多晶硅市场成交延续清淡 供给持续收缩 - 国际太阳能光伏网",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1GOVh6YzhKaHVqTzZobmFnMUY3X2lEd0JFVWh6QWs2My10aTRyNVF3eUhzM0FDUWpUWmRTcHBISjJlQWZmNnRoXzRXWFVtazd2M2o5amZVX2thOUh5?oc=5"
+      "date": "2026-11-20",
+      "text": "光伏寒意未消，龙头分开作答：2027年装机需求能否迎来小幅反弹？ - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBCcl9KZHY3NW5Ga2lJVUZZYm1uTmQ2WEtWSE9yZGNPdHdIUklzOTFweFBURkx3VTZjbGxHLTcta1dqUlhiMERiNA?oc=5"
     },
     {
-      "date": "2026-11-19",
-      "text": "通威刘汉元：光储融合若突破瓶颈，最快半年国内光伏装机可重回300GW - ThePaper.cn",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE83ejNLZ2VpRW4yZExZZjFycWhfSTlyd2szMzdIcWZUTnkyNlhBRzdpY3A1SV85cE04eHNIUmZSNFVIT3J0VW80NDAwekI1MUJ1Q3hibGJIZmw5UEVJOU5CSw?oc=5"
+      "date": "2026-11-20",
+      "text": "沈文忠：光伏技术的下一个五年，在极限效率与无银降本间寻求破局 - 21财经",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVmpqclpDZHlYbDczLTNVdV94SmdVcEZ4U1NPZ2hyUVVPc1oyeG5aYi1tVXh4N2VsV3BaZEJEUm56XzVJeWp1R2YyRnFETlFHMDkyRHduMkZhT0QxU0JOYS1WSUlwMGZhM0JEbTVJOTA1WVd4eWxaUFdEMEFTb0hBdVJSWnFiVU1lQjB5WDFrRQ?oc=5"
     },
     {
-      "date": "2026-11-19",
-      "text": "对话中国光伏行业协会咨询专家吕锦标：硅料拐点关键看下游库存，价格回升后切忌急于提升负荷 - 每日经济新闻",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1JanY2eFp1amVBYjZpLThLMVBhYk4tZjF2Nk5uQU54ZVJ2TzR5bmJfVVlITXJIb1JFMTJQeklVQ002WjduNFNxVzZQMUFsUGQyNTItZ1hyMERJRVlVVHVYNXdNVmMydw?oc=5"
+      "date": "2026-11-20",
+      "text": "海外光伏，开始折戟 - Sohu",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTVRIWWZxVzRPRUtYMkNTeXNERGZiMTRaV3JIYnJTdkJ4R2RwNEZLM2JfRWx6Ykl4YWpzRTUtQkpRbnVZcjFCbUxkT2NqRDR5cmpIVzBKOXhaRFZsbmtla3ktTWFDSEZvMkNSVjU4dzZBcVBfNHlSMGIzd0habHE4VWdYWlZxNU9I?oc=5"
     },
     {
-      "date": "2026-11-19",
-      "text": "十年追光！扬中构建光伏全产业链，光伏渗透率超110% - 紫牛新闻",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5WNHBvN2pGZ2t5ZGZhRVpDNFk4YjZlY2ctYXN6U29SSDM2MUlWcGJDOTA0OHlwNlF1NXEyOENfZnFJYllmb2FWS21MYVE4M25UOGs1NS15WUJTdldsVzFnWGpVTEdWcGtlQnJRcDNucw?oc=5"
+      "date": "2026-11-20",
+      "text": "海天股份旗下海天光伏荣获三项行业殊荣！ - 中国水网",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE00bEdSWkNkZHlJV3RZR1hsQUJmOEg5R2lDTW5fMkkwVlZSc20yNUYtS2R4N0x5TjBDamJiQ0Z6NzNWRXFNNnZSbUI1LUkyZmN6WXJ4bw?oc=5"
     }
   ],
   "ai_analysis": "",

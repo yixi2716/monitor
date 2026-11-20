@@ -1,61 +1,67 @@
 {
-  "date": "2026-11-19",
-  "copper": 5.6375,
-  "copper_chg": -0.44150110375275053,
-  "ma20": 6.288975000000001,
-  "ma50": 6.493359999999999,
-  "dxy": 103.85,
-  "vix": 27.200000762939453,
-  "tnx": 5.052000045776367,
-  "wti": 83.29,
-  "cu_oil_ratio": 149.22013747148515,
-  "shfe_cu": 94720.0,
-  "shfe_cu_date": "2026-11-19",
-  "shfe_lme_ratio": 1.058,
+  "date": "2026-11-20",
+  "copper": 5.479,
+  "copper_chg": -2.020743919885548,
+  "ma20": 6.235774999999999,
+  "ma50": 6.47089,
+  "dxy": 103.81500244140625,
+  "vix": 32.2599983215332,
+  "tnx": 4.935999870300293,
+  "wti": 82.76000213623047,
+  "cu_oil_ratio": 145.95351218233034,
+  "shfe_cu": 92400.0,
+  "shfe_cu_date": "2026-11-20",
+  "shfe_lme_ratio": 1.062,
   "lme_stock": null,
   "lme_stock_date": null,
-  "shfe_stock": 6501,
-  "shfe_stock_chg": -905,
-  "shfe_stock_date": "2026-11-19",
-  "lymy": 12.13,
+  "shfe_stock": 6053,
+  "shfe_stock_chg": -448,
+  "shfe_stock_date": "2026-11-20",
+  "lymy": 11.89,
   "lymy_chg": 0.0,
-  "tl": 4.54,
+  "tl": 4.44,
   "tl_chg": 0.0,
-  "jxt": 29.92,
+  "jxt": 29.4,
   "jxt_chg": 0.0,
-  "cper": 33.92,
-  "cper_chg": -0.53,
-  "copx": 60.03,
-  "copx_chg": -1.89,
+  "cper": 32.98,
+  "cper_chg": -2.31,
+  "copx": 56.96,
+  "copx_chg": -3.91,
   "signals": [
     {
       "name": "铜价低于MA20",
       "dir": "bear",
-      "text": "$5.64 < MA20 $6.29"
+      "text": "$5.48 < MA20 $6.24"
     },
     {
       "name": "美元偏强",
       "dir": "bear",
-      "text": "DXY 103.85 > 103，压制铜价"
+      "text": "DXY 103.82 > 103，压制铜价"
     },
     {
       "name": "避险升温",
       "dir": "bear",
-      "text": "VIX 27.2 > 25，风险偏好下降"
+      "text": "VIX 32.3 > 25，风险偏好下降"
     },
     {
       "name": "铜油比偏高",
       "dir": "bull",
-      "text": "铜油比 149.2，工业景气预期强"
+      "text": "铜油比 146.0，工业景气预期强"
     },
     {
-      "name": "实际利率高企",
-      "dir": "bear",
-      "text": "10Y 5.05%，压制金属估值"
+      "name": "利率环境友好",
+      "dir": "bull",
+      "text": "10Y 4.94%"
     }
   ],
-  "score": -3,
+  "score": -1,
   "news": [
+    {
+      "date": "2026-11-20",
+      "text": "Copper Prices Rise 42% in a Year: What This Means for the US Economy",
+      "src": "Canyon News Beverly Hills",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOaVJwNFRCU2RWdUxvbXFnWFpMeWVHWVlsSnIwQ2xrM0dwaHc3N0NTTFgtdkdvODBCWFM2djRKSGF6QXpoa1Q5X0JFanE4NEE0U1VQX2dGU1J5UEk2blg4dlF6Vi0zd1kteFZrb0dOTnpUS2Jnc2FLWVJ1Yk5xYXhJNmtQR2pwSHVwd1BUaGV0N2tvd0dJR243blFjSQ?oc=5"
+    },
     {
       "date": "2026-11-16",
       "text": "Are Critical Industrial Metals in for a Decade-Long Price Rise?",
@@ -75,25 +81,19 @@
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPeDZDNkJOVjFLNVZEa2ZOYkR1MTlXOVpQS2dKRUFvT0xXYkp5ZUJkc3VhQjdlOFMxWVNjdnlPbXhYTUc0a0dIcW9MR1FOdDFQNENQS0ZyQmlQdUdySFVTb1lYZ1ZObTM4YTRxdVJjRWZiaWI3Q2lBdW9CZHlKOVAwZUxGYmVkNm5FR082b01UcjNwa0hvd1poQzd6SE1EUXFqOEptVi1wMk5FNThuTXJwdzNFazNpaTZqM0N0WHRtdXNQWjZHdFcyQ3NRZHFEb0duSk1zYUJ3?oc=5"
     },
     {
-      "date": "2026-11-15",
-      "text": "Weekly Market Kickoff",
-      "src": "Topstep",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE14anRoTmc3aHpaSHc5ekRmRjJXV1Z6WHlGRVh6UldpU01xRmZmOXFxakw0OEUxcGhZNFlEU1V1OS1pWlFXbkpmZXVXV2xscWIySEZxOFk1V2dQaEZfVlE4?oc=5"
+      "date": "2026-11-20",
+      "text": "China's refined copper imports set to jump in 2027",
+      "src": "Mining Weekly",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaDRxQXlMam52dXNUSFJPR0lEdnlZX1E0cDJjUzVCODNORlU5WGoyYjZycTdEYlh1M2tPQllTZ2xnZEVaNTFmd3RRdFJrVUxRVW1oTThad0xzUUNBdS1MWlVYekRZR3hiMDBDdEItRFcxb1duX0tXaTFvNy04UFdtd1JYX0hUUVpiY1JiNVhuaHZiTmhlZ0FNSGg4UDdlQQ?oc=5"
     },
     {
-      "date": "2026-11-18",
-      "text": "Red Canyon Drilling Intercepts Copper-Gold Mineralization at its 100% Owned Camp Target",
-      "src": "TradingView",
-      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOdjNjcTZ2Q3RFemNDakdKakE4NzQzY3kzQ0Zoakg2Nm5MUE85dVU3R0NYVUVsUVc2UGx3ZzU0NzV6T3o4RWFBcWRNbXNRX1ZHeW53NFlEX2pmekVaQi12a1JOa0NxUTJDWlQyRk56SFpEMEx4cHZRVmRxR1Y5TnZLRzZYRkFzc2VqdkQ4SWhmalZPVGpqYW02eGVoWk91a1dsWW02ZW9DcGRTQ015YjBXek1WeXRVemhubVIxcmIwVFFCdHR5dmxSWHdkZ2pmeWQzSUtFeU9IaFhkWmR0d3pRVHBuQWh2OEdOQ05vLUF1SHJfODZj?oc=5"
-    },
-    {
-      "date": "2026-11-16",
-      "text": "It Was Never Just About the Affair",
-      "src": "Fat Tail Daily",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9oLTM5U2ZtZG5CbTh3bUNZNXI3T1R4eENmMEpKR2x1bHMxRERaYU80WFpRbFVETkdPRUhSeENWYjB2NFJFUmQ4bjdYdHFvNkR6M2R3a3ZsNGdjcUVZTEFqUw?oc=5"
+      "date": "2026-11-20",
+      "text": "VR Resources Starts New Boston Drilling, Completes Athos Sale",
+      "src": "Streetwise Reports",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOa2Y4bU5PNmZMWFFBZC1QYjBkcFdydEk3VTJlT0VLZS1ISzlqX0RQUkJjNUp2VG9Oemp3cEtzQXdxWDI2enlHMU5YLUJzcXlUY2hmMkdiejg1dTdvVXZOVEMzVll5QkNwN0hPaEdsWlRJdXdseEdaY3VoemF4UnVpa2ZwOTNOV3E4RHN2Qk5HOXR3VVZxS2JrRURSejZ0dnJCR3RYdDhYaUo2LTdQc09EZi05dVNST0YtTkE?oc=5"
     }
   ],
   "ai_analysis": "",
   "ai_error": "未自动生成，点击按钮手动生成",
-  "ai_date": "2026-11-19"
+  "ai_date": "2026-11-20"
 }

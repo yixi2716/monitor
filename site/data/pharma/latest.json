@@ -1,68 +1,68 @@
 {
-  "date": "2026-11-19",
-  "hs300": 3984.84,
-  "hs300_chg": 0.03,
+  "date": "2026-11-20",
+  "hs300": 3954.56,
+  "hs300_chg": -0.76,
   "med_etf": 0.379,
-  "med_etf_chg": 0.0,
-  "inn_etf": 0.777,
-  "inn_etf_chg": -0.26,
-  "cxo_etf": 0.333,
-  "cxo_etf_chg": -0.3,
-  "tcm_etf": 0.894,
-  "tcm_etf_chg": -0.45,
-  "meddev_etf": 0.43,
-  "meddev_etf_chg": -0.23,
-  "vaccine_etf": 1.91,
-  "vaccine_etf_chg": -1.47,
-  "hsi_health": 23294.75,
+  "med_etf_chg": -1.32,
+  "inn_etf": 0.775,
+  "inn_etf_chg": -3.23,
+  "cxo_etf": 0.332,
+  "cxo_etf_chg": -3.01,
+  "tcm_etf": 0.89,
+  "tcm_etf_chg": -1.57,
+  "meddev_etf": 0.429,
+  "meddev_etf_chg": -3.5,
+  "vaccine_etf": 1.882,
+  "vaccine_etf_chg": -3.03,
+  "hsi_health": 22841.62,
   "hsi_health_chg": 0.0,
-  "hs_inn_etf": 1.149,
-  "hs_inn_etf_chg": -0.7,
-  "tnx": 5.06,
-  "usdcny": 6.6802,
-  "excess": -0.03,
-  "north_money": 210136.09,
-  "north_date": "20261119",
+  "hs_inn_etf": 1.141,
+  "hs_inn_etf_chg": -5.08,
+  "tnx": 4.94,
+  "usdcny": 6.6612,
+  "excess": -0.56,
+  "north_money": 238469.63,
+  "north_date": "20261120",
   "news": [
     {
-      "date": "2026-11-19",
-      "text": "适配基层用药更灵活！第十二批国家药品集采，11月30日起在湘落地 - 华声在线",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBKOThYZ1VVOTYwYlh5bDQzcjVRWjZxbl9wb3VHenNIbTM5RWxiOTFKQ0Z6M1VMSzh0OWFWcEZra0lUcWR0V0JpYUJKaThCTzJ5ZFE2WlZETGRPRXRMZU44?oc=5"
+      "date": "2026-11-20",
+      "text": "银诺医药与Arcera达成依苏帕格鲁肽α出海授权合作，加速拓展国际市场 - 中国医药创新促进会",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBJUmxlNERJTWRZNzhZdEhfR0hmd2RsYjJiSVJqS2lZaUhEVHc0bm1iSm9zeU4zZHNyMmlRSzF6R2RXODd5N3pZNWVJLUw4enp5R28waW5DRkRGNnFBN3ZSdzNxSy1fMWhXQ0ZseXJFRzY5czV3OVBoQUxR?oc=5"
     },
     {
-      "date": "2026-11-19",
-      "text": "国家药监局召开医疗器械上市后监管工作座谈会 - 21财经",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNR1NDT1RzdTY4eS1jZEJaRzN1d0hXaHR2eWVzWWp2ODZGdGJpcWUtcy1GQmY3dnFUa0wzR3l2a2hQRTVSdFZCOXQtWXhhYXFvaDhMNHd3dVpsUi10N0Z5Qk0tcXljVnhvYTNYb1lVODFrRnRYTk5POGdGbF9UcEY1ZUY4TDFSZXpuS3dIVGxiRQ?oc=5"
+      "date": "2026-11-20",
+      "text": "2026中国医药城大健康产业论坛在泰州开幕 - 央广网",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBpTmUwOGtSeTlWMDR1RE1WaFh3WEhLd1htbzZvb0pGNG5sZTNzTlM2MjFGTjRqU3NzMllzRTBGNmdHQ2thZ2FDX21vakhHT1dvOVM3ZWNGYUFvN05Hb3VPa0FuWkZhWlhK?oc=5"
     },
     {
-      "date": "2026-11-19",
-      "text": "从“单点突破”走向“集群成势” 浙江生物医药的“县域答案” - 新华网浙江",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdW5haXh2Q1pGNjdORFBweTNWeDNhZVUtNGpQMFh5T1UzYVFMZ0U3R2ljSXBkMk9fUlptX0ZyNDFBaXZzelh6eDNHWDlYdTlLaXVfMmc0OVZZWDlCWXdlaTB2WkFxckdMUkRBQlRKcmdZNkc2bmU5Rzl4T29ySlBjclpB?oc=5"
+      "date": "2026-11-20",
+      "text": "泰州市医药高新区（高港区）长期护理保险重度失能评估结论公示 - 泰州市人民政府",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOT05vdzdRNW4temNoREpYc3llNVhhN2p0b1FSTlcxcThrbTB4WVk5Ym9hWTZMSldlNWtxVGM1RHN3RGhqVXpXRUNMYndub016clA4X0Qzc2cwamd2UmhaQU4wSTdPdmNMNWsxWlRyY1oydU9uSXJZWXNhTUpLV2xCcExNUnZjZUFLMWk1T3dn?oc=5"
     },
     {
-      "date": "2026-11-19",
-      "text": "恒瑞医药子公司注射用磷罗拉匹坦帕洛诺司琼新增适应症获批 - 观点网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9DS29OOXp1NEtrYm1uUHF5cU1YaUowaE4yX2Y2aEEyZmdXNDFpZUJMOWVoTDFtdzhYdUpVTDNLWjMtMHJ4YXFSaDN2SkNmZnhjMHlKTk05LUx2dVBUTFk0QnNR?oc=5"
+      "date": "2026-11-20",
+      "text": "医药创新全链条生态再升级博鳌乐城第二届全球创新药械博览会开幕- 中国日报网 - China Daily",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBKZE5QVjg3VVNKR0d1dHoybTB2NHZDR0RRNmRELXZleDNaandFRnZRMVFlSDNkYno0cG5vakMwMjJlaks2YVg3Sk9oVnhWbUtTSFJVSG11QjNEQkxoVWhIM2dQQzAwcVhCUXNnWldyYkZVNUo3SFgyVXUxdmJhNkU?oc=5"
     },
     {
-      "date": "2026-11-19",
-      "text": "涉第七批集采串标：星昊医药子公司及实控人之一被提起公诉，涉案违法所得超2100万元 - ThePaper.cn",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5tQlVxaGZaU1JpQmJ5MEVkczktaVpiTndhaTNkdENjS3k3MmtVRy11cnlMcUVVaS14SC00TGhTSEZrVmdFMW5CUzNBbDN1VFdXMktSejluZ2JPOHktVXRHZA?oc=5"
+      "date": "2026-11-20",
+      "text": "前三季度成都规上生物医药工业企业实现出口增长33.6% - 21财经",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNkVVN3REWVc4UFowZ0pOdWZaQ3VjNFBNUHBfT2VVamV2Z2o0anltU0NDWmNQaVFlWFZCU2JQbUg1cnNRUDhvUTNrd3ltVGVjREs5QVJBT01UQ1FzeDBIa25rYno2VkpXWnMwaXlrd1RNZG13TkpFdEZibnoyeFFrdGhXWnlwajRnYU9iNkVoWQ?oc=5"
     },
     {
-      "date": "2026-11-19",
-      "text": "和黄医药「索乐匹尼布」获批上市 - 中国医药创新促进会",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE04dWdWU0lFVXdhU2VxdWlqUGRpWHEtZEI1aXhXMW1tdkgtYlpUTENNeTRmVU85N1RPcDl3NjRZVXdnNE9SSGZzTEFES3BQMWtieUwzTnBvaWx3eGVvZFZBUGdpaC13dzloWmxLQUtxNGdxTi1lQTY2aUh3?oc=5"
+      "date": "2026-11-20",
+      "text": "每周医药看点（11月9日—15日） - 中国食品药品网",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE92dHZra05MNUI3ZEF1SXRSSk5QVlJDcFhSTGZCSlF2TW9Ockw3U3dybE5mcmx0UTNXb1hxcUtNamU2dDdQQXlSYm1PWHhkX1JVbjVjWWVqYVpzWVBxX2dz?oc=5"
     },
     {
-      "date": "2026-11-19",
-      "text": "毕得医药：华创证券、光证资管等多家机构于11月18日调研我司 - 证券之星",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1laW9DZ2M5a21rcjVpQ0dVemVxSUlwMExadm9fRDJjdm5wWjRYQjVGcXV5cU93YTBSMURxaUUzeDdORmF0SzBXWlp3QmxycFllVUdTWDhPSXNWa2xPd085bQ?oc=5"
+      "date": "2026-11-20",
+      "text": "宁夏以主宾省身份亮相香港国际中医药大会 道地药材借港出海 - 中国新闻网",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBkR0R5UFhVR0NpbXptVzBVc1ZYWU9xUXRaTDM4SXdFWVNoNThXOXI2b3dRRUxXbC1RMlpRbGFLYXlwTVNnN1dYc2FnQVRWemExR214SFphVXFNNlAycjBWS25QYVVBUHVCYmc?oc=5"
     },
     {
-      "date": "2026-11-19",
-      "text": "2026年第46周11.09-11.15全球创新药研发概览 - 摩熵医药",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5uaFlMWFhfYVc4WjlzTC16MVdienIxOERnNHNMLVhlQXBGcUQ1NllUMzgtVlZtQklISVRqaU9XekM3dmY3U3FDRzB1cUhsNVJLeUZoMzNhYw?oc=5"
+      "date": "2026-11-20",
+      "text": "生物学院赴百奥赛图（北京）医药科技股份有限公司开展访企拓岗主题党日活动 - 中国农业大学新闻网",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9FQmVBQ3JEbWNzYVVrN2NIR0J5Sjl3emw4VVMzeDEwaUhOXzFPWkVnZC13eHEyRnBGeEFiWjdNOXhGaVFmXzFieEtEZVl5eVgtbDg5NTVsVmZLc0czU1RlT1RuWVJsQ3RpSmQyR2xsY3lQZjg?oc=5"
     }
   ],
   "ai_analysis": "",
