@@ -1,68 +1,68 @@
 {
-  "date": "2026-11-20",
+  "date": "2026-11-21",
   "hs300": 3954.56,
   "hs300_chg": -0.76,
-  "med_etf": 0.379,
+  "med_etf": 0.374,
   "med_etf_chg": -1.32,
-  "inn_etf": 0.775,
+  "inn_etf": 0.75,
   "inn_etf_chg": -3.23,
-  "cxo_etf": 0.332,
+  "cxo_etf": 0.322,
   "cxo_etf_chg": -3.01,
-  "tcm_etf": 0.89,
+  "tcm_etf": 0.876,
   "tcm_etf_chg": -1.57,
-  "meddev_etf": 0.429,
+  "meddev_etf": 0.414,
   "meddev_etf_chg": -3.5,
-  "vaccine_etf": 1.882,
+  "vaccine_etf": 1.825,
   "vaccine_etf_chg": -3.03,
-  "hsi_health": 22841.62,
+  "hsi_health": 22410.8,
   "hsi_health_chg": 0.0,
-  "hs_inn_etf": 1.141,
+  "hs_inn_etf": 1.083,
   "hs_inn_etf_chg": -5.08,
-  "tnx": 4.94,
-  "usdcny": 6.6612,
-  "excess": -0.56,
+  "tnx": 4.91,
+  "usdcny": 6.6665,
+  "excess": 0.0,
   "north_money": 238469.63,
   "north_date": "20261120",
   "news": [
     {
-      "date": "2026-11-20",
-      "text": "银诺医药与Arcera达成依苏帕格鲁肽α出海授权合作，加速拓展国际市场 - 中国医药创新促进会",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBJUmxlNERJTWRZNzhZdEhfR0hmd2RsYjJiSVJqS2lZaUhEVHc0bm1iSm9zeU4zZHNyMmlRSzF6R2RXODd5N3pZNWVJLUw4enp5R28waW5DRkRGNnFBN3ZSdzNxSy1fMWhXQ0ZseXJFRzY5czV3OVBoQUxR?oc=5"
+      "date": "2026-11-21",
+      "text": "“医药保学面对面”首站走进中山大学 共促医保创新药落地惠民 - 中山大学SUN YAT-SEN UNIVERSITY",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBVTzBtUTdPVHlqWkxMVUQ2UXRGU1VMLUhPUElIWTFwbGw5VkYycDRWSlI4MldraWxCc3lma1F0RWM5UjUxcldOX3RIa1RrMWRlNDgwSFpueW5WOHBNM3NV?oc=5"
     },
     {
-      "date": "2026-11-20",
-      "text": "2026中国医药城大健康产业论坛在泰州开幕 - 央广网",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBpTmUwOGtSeTlWMDR1RE1WaFh3WEhLd1htbzZvb0pGNG5sZTNzTlM2MjFGTjRqU3NzMllzRTBGNmdHQ2thZ2FDX21vakhHT1dvOVM3ZWNGYUFvN05Hb3VPa0FuWkZhWlhK?oc=5"
+      "date": "2026-11-21",
+      "text": "协商聚智 推动生物医药产业高校科技创新与地方产业创新深度融合 - 苏州工业园区管理委员会",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdmRGWkJ6NllVU2I4dVlXQ2ZMNW9BZkFlUDN0OS1iRzU4RTFiaTdCaC1pa01GZWtzU2I1Sms5U0M5ZUd3NnpEMFVBUXdHT3NBN1cxeF91aGY3Z2lfb3BFWFdWRGJtVEo2dGdUWmtJR3JKeTd5YnR2bW9hODlwcDBRMnJyenRKRU5ibFE?oc=5"
     },
     {
-      "date": "2026-11-20",
-      "text": "泰州市医药高新区（高港区）长期护理保险重度失能评估结论公示 - 泰州市人民政府",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOT05vdzdRNW4temNoREpYc3llNVhhN2p0b1FSTlcxcThrbTB4WVk5Ym9hWTZMSldlNWtxVGM1RHN3RGhqVXpXRUNMYndub016clA4X0Qzc2cwamd2UmhaQU4wSTdPdmNMNWsxWlRyY1oydU9uSXJZWXNhTUpLV2xCcExNUnZjZUFLMWk1T3dn?oc=5"
+      "date": "2026-11-21",
+      "text": "“医药保学面对面”首站在穗举办 推动创新药落地 - 中国新闻网",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5RYjUzMkZrTlVDaWdzbjZqaVBCcHRkWnV3am1VYXVpTDJzZjR0TjVtV2ZfYktBTFNpZUJNa0pBcWdiQnlPTTBwMWxsSFVOLXVXLVNuQUtUZDZaR2lXVTd6MzF3REh1SUxy?oc=5"
     },
     {
-      "date": "2026-11-20",
-      "text": "医药创新全链条生态再升级博鳌乐城第二届全球创新药械博览会开幕- 中国日报网 - China Daily",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBKZE5QVjg3VVNKR0d1dHoybTB2NHZDR0RRNmRELXZleDNaandFRnZRMVFlSDNkYno0cG5vakMwMjJlaks2YVg3Sk9oVnhWbUtTSFJVSG11QjNEQkxoVWhIM2dQQzAwcVhCUXNnWldyYkZVNUo3SFgyVXUxdmJhNkU?oc=5"
+      "date": "2026-11-21",
+      "text": "生物类似药集采迎进展：11月24号开始信息申报，涉及7个品种15个规格 - ThePaper.cn",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBHVmZlQ29scWlUX0tSQnUxVk1DVXR2dk9CTXR3X2MtcUdSV0hIZF9XbFVYZ0pYMWVlanp5OERLMW4yM19nbjdRbEZqSl9DTVVrQ3JaUGNpbHhZTkF4dHhkcg?oc=5"
     },
     {
-      "date": "2026-11-20",
-      "text": "前三季度成都规上生物医药工业企业实现出口增长33.6% - 21财经",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNkVVN3REWVc4UFowZ0pOdWZaQ3VjNFBNUHBfT2VVamV2Z2o0anltU0NDWmNQaVFlWFZCU2JQbUg1cnNRUDhvUTNrd3ltVGVjREs5QVJBT01UQ1FzeDBIa25rYno2VkpXWnMwaXlrd1RNZG13TkpFdEZibnoyeFFrdGhXWnlwajRnYU9iNkVoWQ?oc=5"
+      "date": "2026-11-21",
+      "text": "化繁为机| 创新药企出海税务架构与合规唯有共舞才能制胜| 德勤中国 - Deloitte",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZWJCdmJWM3BKQUpVS2NoX1BHSTFvNlJwNFh3N1Z3OUp3R0lROHFwZkF0dkFLb1lkb1FnY3BNa1prY3pQTXRmUk1MVjFOZWN5bUJ3SmpBbkV0QlFhWjNkWEFPTzd0THJjUjVGYjQ3ODIxSHNwQ1I1VVJFM2VUVXZZeTJHMTBQZ0l0enFrSEN1enp1N1BUMUotdFQ3bDRhSllXQWVDMzdYSQ?oc=5"
     },
     {
-      "date": "2026-11-20",
-      "text": "每周医药看点（11月9日—15日） - 中国食品药品网",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE92dHZra05MNUI3ZEF1SXRSSk5QVlJDcFhSTGZCSlF2TW9Ockw3U3dybE5mcmx0UTNXb1hxcUtNamU2dDdQQXlSYm1PWHhkX1JVbjVjWWVqYVpzWVBxX2dz?oc=5"
+      "date": "2026-11-21",
+      "text": "打通创新药械“付得起”关键一环 全国单抗类生物药集采启动申报 - 21财经",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUDdHUkdEc1Jxdk40WERYUXpiVFpYMld0N0trNTJiV2k5N0xOdXdUdExzWDF0UGVkeFNHSW43eW5FQU9zS0ZCak1zMG03ZzAwakFmRjhreFFPR3VYUEg3UWxKaTVaNVNTZFFrdG04a0tEYUd6WjJHcGRCV29kUlRYejJSQ0szX0Q5VmNoWTU5OA?oc=5"
     },
     {
-      "date": "2026-11-20",
-      "text": "宁夏以主宾省身份亮相香港国际中医药大会 道地药材借港出海 - 中国新闻网",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBkR0R5UFhVR0NpbXptVzBVc1ZYWU9xUXRaTDM4SXdFWVNoNThXOXI2b3dRRUxXbC1RMlpRbGFLYXlwTVNnN1dYc2FnQVRWemExR214SFphVXFNNlAycjBWS25QYVVBUHVCYmc?oc=5"
+      "date": "2026-11-21",
+      "text": "保健卫生部委托追债公司 追讨长期拖欠医药费 - 联合早报",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9SeGQ5YnhyTjdGTGx3SmV1SmtYdTVCR282T1F0QTZTblhTSWVEcFNXUkJLb0Q1WXlkcHg0cnF5elNySm5NVElVcXhVcWxwRmRwTHdzOHY5blY4cFZUSW15VXI1aVpXN095ZWpMbDVpQQ?oc=5"
     },
     {
-      "date": "2026-11-20",
-      "text": "生物学院赴百奥赛图（北京）医药科技股份有限公司开展访企拓岗主题党日活动 - 中国农业大学新闻网",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9FQmVBQ3JEbWNzYVVrN2NIR0J5Sjl3emw4VVMzeDEwaUhOXzFPWkVnZC13eHEyRnBGeEFiWjdNOXhGaVFmXzFieEtEZVl5eVgtbDg5NTVsVmZLc0czU1RlT1RuWVJsQ3RpSmQyR2xsY3lQZjg?oc=5"
+      "date": "2026-11-21",
+      "text": "湖湘仲景中医药文化流动夜市走进长沙银盆岭街道 - 华声在线",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBFTUFvVnhFZ2FuY3BmTHhNTERkVE5CQU1zbDVRSzh0LUxRbzMzcWlyZ0ZlQ3hucjZDYjY5eGNXbDJDa2ZocmFWMTlNUkI4d0JSRlNhQktJVFZnOWJCTW1B?oc=5"
     }
   ],
   "ai_analysis": "",
