@@ -1,17 +1,17 @@
 {
-  "date": "2026-11-21",
-  "copper": 5.4770002365112305,
-  "copper_chg": -2.631106906467018,
-  "ma20": 6.221124982833862,
-  "ma50": 6.427779998779297,
+  "date": "2026-11-22",
+  "copper": 5.485000133514404,
+  "copper_chg": -2.488886515299482,
+  "ma20": 6.221524977684021,
+  "ma50": 6.427939996719361,
   "dxy": 103.84,
   "vix": 35.88999938964844,
   "tnx": 4.9120001792907715,
   "wti": 83.62,
-  "cu_oil_ratio": 144.39971611357794,
+  "cu_oil_ratio": 144.61063136030285,
   "shfe_cu": 92400.0,
   "shfe_cu_date": "2026-11-20",
-  "shfe_lme_ratio": 1.063,
+  "shfe_lme_ratio": 1.061,
   "lme_stock": null,
   "lme_stock_date": null,
   "shfe_stock": 6053,
@@ -31,7 +31,7 @@
     {
       "name": "铜价低于MA20",
       "dir": "bear",
-      "text": "$5.48 < MA20 $6.22"
+      "text": "$5.49 < MA20 $6.22"
     },
     {
       "name": "美元偏强",
@@ -46,7 +46,7 @@
     {
       "name": "铜油比偏高",
       "dir": "bull",
-      "text": "铜油比 144.4，工业景气预期强"
+      "text": "铜油比 144.6，工业景气预期强"
     },
     {
       "name": "利率环境友好",
@@ -69,6 +69,12 @@
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSHZGT1NUbXdxNEFGX3U4VnhHT2ZzWmwtTXRKT25vZ1F2NW5NUWZyRFZRRDFsWVZQR0xEaVVXckxWTkpnVkdZT2xCN2J3SWdJWXFxYjZMUklUQ0tUREJoVFh3UkxNMFpCNk5aelhYNnJLNXFZYURuMWdPWksyOWZZZ3NkLUd4bXJOa0hoLUcxZV9ya0xsZmx4UkJhazhUaGhnYkhmN255SXlFZFk3cW9UM1FSWGYwdk8xclVDeGlNWUo?oc=5"
     },
     {
+      "date": "2026-11-20",
+      "text": "Copper's AI Rally Cracks as Prices Plunge 14% in Three Weeks, Diverging From China's Depleted Stockpiles",
+      "src": "BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5nUmVRVXdLOW5aYk9tQ2g3VnNMUUhvT3VzRDJudFRGUk5fX250MVc1WVJKSnlnMGd0MXplbWZ0N2xtQkRSUUM3ZGgtOXJaYVhFdjlEV2htNlBLQWRmQzFNSHlIVWRRQTQ1MlBnU2UzYTlZSmZPZ3c?oc=5"
+    },
+    {
       "date": "2026-11-19",
       "text": "Copper's $10.8 Billion Shakeout: Goldman Sees the Physical Buyers Standing Alone",
       "src": "The Dark Side Of The Boom",
@@ -76,24 +82,18 @@
     },
     {
       "date": "2026-11-20",
-      "text": "Copper's AI Rally Cracks as Prices Plunge 14% in Three Weeks, Diverging From China's Depleted Stockpiles",
-      "src": "BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5nUmVRVXdLOW5aYk9tQ2g3VnNMUUhvT3VzRDJudFRGUk5fX250MVc1WVJKSnlnMGd0MXplbWZ0N2xtQkRSUUM3ZGgtOXJaYVhFdjlEV2htNlBLQWRmQzFNSHlIVWRRQTQ1MlBnU2UzYTlZSmZPZ3c?oc=5"
+      "text": "VR Resources Starts New Boston Drilling, Completes Athos Sale",
+      "src": "Streetwise Reports",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOa2Y4bU5PNmZMWFFBZC1QYjBkcFdydEk3VTJlT0VLZS1ISzlqX0RQUkJjNUp2VG9Oemp3cEtzQXdxWDI2enlHMU5YLUJzcXlUY2hmMkdiejg1dTdvVXZOVEMzVll5QkNwN0hPaEdsWlRJdXdseEdaY3VoemF4UnVpa2ZwOTNOV3E4RHN2Qk5HOXR3VVZxS2JrRURSejZ0dnJCR3RYdDhYaUo2LTdQc09EZi05dVNST0YtTkE?oc=5"
     },
     {
       "date": "2026-11-20",
       "text": "China's refined copper imports set to jump in 2027",
       "src": "Mining Weekly",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaDRxQXlMam52dXNUSFJPR0lEdnlZX1E0cDJjUzVCODNORlU5WGoyYjZycTdEYlh1M2tPQllTZ2xnZEVaNTFmd3RRdFJrVUxRVW1oTThad0xzUUNBdS1MWlVYekRZR3hiMDBDdEItRFcxb1duX0tXaTFvNy04UFdtd1JYX0hUUVpiY1JiNVhuaHZiTmhlZ0FNSGg4UDdlQQ?oc=5"
-    },
-    {
-      "date": "2026-11-19",
-      "text": "Commodities Update November 2026",
-      "src": "Westpac IQ",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMVJrVzJhMHNiQUdIU3hOckNudWxyRWNzZXF6anQ3RUhQYkxMc0tqdEJyNXBDRXU3MjFCOEI4S2dqbFAxOGliZ01oR3FVd0tDSHBjYnRlVmszRXdCbFdjRE4xNW1nTmxsSlhFZkJtazZqMllRek1LeHZycElvMXY1VkY0cDgwQQ?oc=5"
     }
   ],
   "ai_analysis": "",
   "ai_error": "未自动生成，点击按钮手动生成",
-  "ai_date": "2026-11-21"
+  "ai_date": "2026-11-22"
 }
