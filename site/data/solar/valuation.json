@@ -1,18 +1,18 @@
 {
-  "date": "2026-11-20",
+  "date": "2026-11-23",
   "lights": {
     "pb": {
       "ratio": 0.1,
       "count_lt1": 3,
       "pool": 30,
-      "pct": 0.9677,
-      "date": "20261120",
+      "pct": 0.9375,
+      "date": "20261123",
       "src": "Tushare daily_basic · 光伏池30只 PB<1比例"
     },
     "turnover": {
-      "ratio": 0.855,
-      "pct": 0.4516,
-      "date": "20261120",
+      "ratio": 0.797,
+      "pct": 0.25,
+      "date": "20261123",
       "src": "Tushare daily成交额 · 光伏池Σ÷全市场Σ"
     }
   }

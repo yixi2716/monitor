@@ -1,19 +1,19 @@
 {
-  "date": "2026-11-20",
-  "hs300": 3954.57,
-  "hs300_chg": -0.76,
-  "solar_etf": 0.635,
-  "solar_etf_chg": -3.2,
-  "newenergy_etf": 1.825,
-  "newenergy_etf_chg": -3.03,
-  "storage_etf": 1.29,
-  "storage_etf_chg": -4.37,
-  "tnx": 4.91,
-  "usdcny": 6.6665,
-  "excess": -2.44,
-  "dd_from_high": 0.4632,
+  "date": "2026-11-23",
+  "hs300": 3958.29,
+  "hs300_chg": 0.09,
+  "solar_etf": 0.643,
+  "solar_etf_chg": 1.26,
+  "newenergy_etf": 1.847,
+  "newenergy_etf_chg": 1.21,
+  "storage_etf": 1.318,
+  "storage_etf_chg": 2.17,
+  "tnx": 4.92,
+  "usdcny": 6.6638,
+  "excess": 1.17,
+  "dd_from_high": 0.4565,
   "pb_ratio": 0.1,
-  "turnover_ratio": 0.855,
+  "turnover_ratio": 0.797,
   "stocks": {
     "tongwei": {
       "close": null,
@@ -46,44 +46,44 @@
   },
   "news": [
     {
-      "date": "2026-11-22",
-      "text": "“智光同行·共创未来”光伏机器人交流体验活动成功举行--国际 - 人民网",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAxbXkyZl9wemE4cDFhZ1FVdmowb0ExMXJUeWJSZlluR1ZDeDZaN2hheks1Q2tLUEJVemQ4MzN6NkM4cXJYSklfeWJGOHNQMEM1a0RxSERYekhXMzhPZTRHM3UxSDl6TlZONEk5Sg?oc=5"
+      "date": "2026-11-23",
+      "text": "云南能源集团中选！云南50MW光伏指标优化结果公示 - 国际太阳能光伏网",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5mWXVUQnpDLUJ3VnpJNnpWaXhwM0pCUEtVcy01RzM2U3lKNWdvaVp5MHlnQm9oY2VEcFR6YktubWp6ZUYwc215ZGtkNjZfMHdZVTAtZ2dzWXVEWTRX?oc=5"
     },
     {
-      "date": "2026-11-22",
-      "text": "“21世纪，是光伏的世纪” - Sohu",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQLTFZRlpGR3VVeVM1c1N3NHlVVUV0X1dNN2d6aHpfbU5OYUxYVDB4X2p6NnVBeVBqVW8wVjY3OWVySm9wSWtyaFJWNlpOVWNvX0hJVlZrTjR0T3h3bDdKQlNtck1VVnY1NUN1by00U2NBbHpKZXk2Y3dGeUhiS0ZZZThKd2M2MDZQ?oc=5"
+      "date": "2026-11-23",
+      "text": "晶澳欧洲起诉隆基，中国光伏大厂再现专利厮杀 - 观察者网",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE10SEhaYlExY1pnNTlGTGRONmE4Y21ULWlaRGFEdlV3OVozUEVMU01qWmpLY042RkJ0U2ZiVGdFc08wWXhQVVVTdng1ZW5DVHRqVWctM05lRVBvNVlUOWVtRWdpd24?oc=5"
     },
     {
-      "date": "2026-11-22",
-      "text": "稀缺！光伏+水电+风电赛道绩优潜力高股息股出炉 仅6只 - 东方财富网",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB2cldsd1pXbHhRaEwzSDdTQV8tbUVDM0ItVUhOMkItTzFNVFVoSnBxdW41YzFSUHBtM2swSlA1bnh3czhaNmFwNjM1TTl2d3NJQjFWb2ZJN21nU2NCWFJGZlhuQUEzdw?oc=5"
+      "date": "2026-11-23",
+      "text": "总投资超5亿！浙江95MW光伏项目公示 - 世纪新能源网",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1US1JsZVFkRHpGVFczQllSZHFlVXBQeHZkb1p5bHhqS0czQTc5c3Y0c3A2V3dEdUdDbm5HX2FtQ0UtcGFFRWNHWWtCdHVma0F1VDBGaQ?oc=5"
     },
     {
-      "date": "2026-11-22",
-      "text": "当AI开始“抢电”，光伏的二次成长曲线还有多远？ - 21财经",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcFVhd2xfQWptWFhLcExRNllDbU1QTlhLYjY5R2FVeXBVZ1RZSnB2cWZ2MnNxMWNvT2JtU3E0R240RzVLTWtuV3VUNlZjNkRkeVU0dU5UZzdlc19KS0FDdmJfSUhqSnAzOFI0QmlSazRhektkNkN3UzZHTmVOeHlTR0lJUncwNEFyUGhXMG1VZw?oc=5"
+      "date": "2026-11-23",
+      "text": "拉芳家化3.82mW分布式光伏项目备案通过 总投资1377.09万元 - 观点网",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1KN1F6UF9hdFVNb3ZLbTlfeVRXaUZjbVp5NXZLS0Q1Q1NRZ3RhcWRwaFdKQlpsSTNXaGhlTlJXb1E2WnB2VFpKVy1fMTJwQQ?oc=5"
     },
     {
-      "date": "2026-11-21",
-      "text": "【早报】特朗普：对多晶硅及其衍生产品加征关税；美存储股再遭重挫；原油走强、黄金微跌；宇树科技发行价定了 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBKOGZ6ejN0YWR3YkZWVXU3YndmcUwyUGF0WFFRc2xGRkhSUm5lTjNSbm9LZlo2Mmx0WklVdWxSOFMxYnRHZnVsYw?oc=5"
+      "date": "2026-11-23",
+      "text": "光伏龙头4个项目延期 - Sohu",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOelZPcFA0cGRfVVBRQUY5MjFpM00yZXFUM0FUYzNtdHhGeGJvLW1obUh6U3YtS1R6bzl3ZTZwUzlkc0NMVVY1eDhjZ2NqVE5maVFlX2hVVTNvZnhRN1NvdmhOTDRHNXRZNjg3MkJUOWU5aVBQRnA0ZC1YcTBodWszWDNRSkc0aTFJ?oc=5"
     },
     {
-      "date": "2026-11-22",
-      "text": "视频丨传统能源涨价，德国幼儿园尝试光伏发电储能 - 京报网",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE15ZDRUblJUbXdZUzBBbjRUeHhFcXpWWDlVbk9PNDY5Rnlidno3Qlh0Tm51aUpwMG8wT01IMHhfREl1MUdudVJoZlROZlJLMElSejcwYm95ZVVEWUM5SGc?oc=5"
+      "date": "2026-11-23",
+      "text": "英力特拟发行股份购买宝丰光伏100%股权 - 东方财富网",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE01M1picFJ3ZU5MZE9uMmhGOE95OVlKanRTVV9yUEo2OThGZDNDejlwZWE2ZmlwcUgtdUJ2RnhodFpQdXFZUkdjQzI2Q000OV95Uklhekl6bTFWQ0pmT0JQeHhseHFBUQ?oc=5"
     },
     {
-      "date": "2026-11-20",
-      "text": "阿联酋学生体验中国光伏机器人 - 新华网",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE54elBuRWdoaFM4cTAyUGFjQnJYS2lBXzdaUWlwN0R6ZFp2eHdjc1k5cnFVZUVsNE5WS0JTWHlEY3FpOTdieEJ5ZXRjSkdjODBEN005QVV1M1BrODJnQk1xdWpvbGtHZE4wTDFpVlJBTFJTV3h3ekdN?oc=5"
+      "date": "2026-11-23",
+      "text": "光伏赋能“中国白”绿色出海 - 中国网",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5lTFNXc0l5NnFVdUlFbUFWOS1udFRTSGZDbFh4ck5RNzZlWWJLSFR3Y0U0TlUyX3NwRGxWLVFBUFhHZ0dmTTE2cTNJWGNzbUNVOU81ZVMySElXQzRSRllaNENkTTA?oc=5"
     },
     {
-      "date": "2026-11-20",
-      "text": "年末需求偏弱，本周硅片加速下探，电池分化、组件区间维稳 - 国际太阳能光伏网",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5pYWRUZndFZ3VhSWU3MGpqSW1NWTdLSXItNjZaNk52LW1iekVWY2JnYlJ5U2NTVDBXdi1ENDJmQTNhVkNEZ01fRml2Qk1zRnVzSi1LOVRpNndoMTRV?oc=5"
+      "date": "2026-11-23",
+      "text": "南方财经全媒体集团 - 南方财经",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9pR1BRY0F5R3VUVkV1UUNqSTJ6Sm9UM2NhQ1FHdGpWRy1Mdll0MjdhMGlVY2k1WjhlU0dHekpzOFJYSktiUzRFbXZlU0NocDdzc25WYzlVeHhjS29TMWdGenZKV2UyS1k?oc=5"
     }
   ],
   "ai_analysis": "",

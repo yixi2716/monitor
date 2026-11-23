@@ -1,68 +1,68 @@
 {
-  "date": "2026-11-22",
-  "hs300": 3954.56,
-  "hs300_chg": -0.76,
-  "med_etf": 0.374,
-  "med_etf_chg": -1.32,
-  "inn_etf": 0.75,
-  "inn_etf_chg": -3.23,
+  "date": "2026-11-23",
+  "hs300": 3958.29,
+  "hs300_chg": 0.09,
+  "med_etf": 0.38,
+  "med_etf_chg": 1.47,
+  "inn_etf": 0.776,
+  "inn_etf_chg": 3.45,
   "cxo_etf": 0.322,
-  "cxo_etf_chg": -3.01,
+  "cxo_etf_chg": 2.48,
   "tcm_etf": 0.876,
-  "tcm_etf_chg": -1.57,
+  "tcm_etf_chg": 0.57,
   "meddev_etf": 0.414,
-  "meddev_etf_chg": -3.5,
+  "meddev_etf_chg": 1.21,
   "vaccine_etf": 1.825,
-  "vaccine_etf_chg": -3.03,
+  "vaccine_etf_chg": 1.21,
   "hsi_health": 22410.8,
   "hsi_health_chg": 0.0,
   "hs_inn_etf": 1.083,
-  "hs_inn_etf_chg": -5.08,
-  "tnx": 4.91,
-  "usdcny": 6.6665,
-  "excess": 0.0,
-  "north_money": 238469.63,
-  "north_date": "20261120",
+  "hs_inn_etf_chg": 3.69,
+  "tnx": 4.92,
+  "usdcny": 6.6638,
+  "excess": 1.38,
+  "north_money": 268883.96,
+  "north_date": "20261123",
   "news": [
     {
-      "date": "2026-11-22",
-      "text": "【广州日报】国家医保局“医药保学面对面”首站落地广东 - 中山大学SUN YAT-SEN UNIVERSITY",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5vMlhzQi1hNEUzUjZ4eWViWmVFQ2Q3V3NralA2NWVHTUFNdFBkcE5WNWhFbGp1LTVYZHh3cnAwMV9TdzlRN3hqSkxBN2VJcXp0eUU4UVN3ODdVSkVJT2RZ?oc=5"
+      "date": "2026-11-23",
+      "text": "政策利好为何没托住医药股？未来行情怎么看？券商拆解三条主线 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE43TkVMMTBWdlhUVTZURXJLME9CeDdGRDNoMzBxZHF2dDlQZUktWUpWZUwzZXBPVFZGcS1Mb0dhT2hpSC0taUd6eQ?oc=5"
     },
     {
-      "date": "2026-11-22",
-      "text": "吴阶平医学奖、吴阶平医药创新奖获奖者名单公布 - 科学网—新闻",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5sQkFxOENHaklZcVZIdG1faDNTcTdqcmhhYXZweUVzdk55Q1JBN0JVTEZHY1VQa2s2ZGdhZzVlaEVuZlUwd3JrSVNWUDhIOHhQekFuM1B3c05IelpsWmdWV0g5LVc4UQ?oc=5"
+      "date": "2026-11-23",
+      "text": "达州牵头组建“秦巴山·万达开”中医药行业产教融合共同体 四项任务深化川渝协同丨市州观察 - 四川新闻",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5qUy1XczdaeWZyMHRHRjZab2t3Ti1FNm5XN3ltYXd6MHNMWEthWC10Y005U1ZMb3pMR3Q0MGgtNmF5TWRoblhJOEN3cmt0ZGpadTZlcFVuZTE1Z1dUcnktWTB2aw?oc=5"
     },
     {
-      "date": "2026-11-22",
-      "text": "报告：惠民保市场由规模扩张转向结构调整，创新药保障落地仍需打通理赔堵点 - ThePaper.cn",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE50QTE5R0gtYmpRS2JrNHBieXdVMXo3Z2hHM2x6ajVIT256Q3RLNTI5M1hUX0FFRFYxd1dkeTVkVlpob3J3U0x3YTBuTjktNlhRWHhWS0RYWXRSN0JDMGZVUA?oc=5"
+      "date": "2026-11-23",
+      "text": "茂名切入医药中间体赛道：石化产业链往“药”里走 - 21财经",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPRmk0SUo4NVFyRDNXOC0xME5Pbkd1elRsX3daejd6ck9pVXpJcXNvRm5BeHh5ZDZrWF8zY2MwQm1UbHRqYUFFZEROSTdHeXBiOGZiRVJtRkp1cGF1MklvSlpoWGFoTHpsa3lHamZqY0lPeG56dU80UEdaVGltTnJnVjlrcFpQQ18yc1pVV1ZiRQ?oc=5"
     },
     {
-      "date": "2026-11-22",
-      "text": "聚焦创新药目录衔接，惠民保如何走向可持续？这份最新知识图谱在沪发布 - 上观新闻",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBOQU5TY2NwRFA2OXloYmhtR0Y2Ti0zQm1BVkI5a2dUOVBQU3ozTU1QUFFIQzAyNE14N0FnWjd0dnkzNkYwSU5pTXAwbUlHVjJoSTdoTnB6MVg0Zw?oc=5"
+      "date": "2026-11-23",
+      "text": "“聚势药都 智启成长”第20届成长型医药企业发展大会在亳州开幕 - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5BaElzLTdjZEF6MTVVTFBsbExNdjJFNFMySkxITlFQOS1VNnlOc0tuMUV2Z0E1blFQc21JelJkbFNCRlItaUxLUFM1UlNiSmRYVHVmNHZTNFY5X3FJbW84ekNRb0VfOHE0cnFZWkhMOUpHYnZVaFpiem1sV3NOVWc?oc=5"
     },
     {
-      "date": "2026-11-22",
-      "text": "商保创新药目录落地衔接现状：惠民保是主要承接方，单一版本至少纳入1款商保目录药品 - https://www.mrjjxw.com/",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFByTDJmMFpWZTE1VVhoQVhNNjFyZHVXbGpDMXhvYmduWFV3dC03TXpobFVJaUUzVFJNT1JyMGc1WlAtaDhEdm1Sa1c0Q05BTlNHUEJORlJSMVFrQWJJTTlLaXA3RVptZw?oc=5"
+      "date": "2026-11-23",
+      "text": "医药行业2026年三季报总结：业绩持续分化，关注低预期标的_行业研究_研报 - 证券之星",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9IZTNhZXNmRWk5M2Ezc2NRU3lZSXhrclhZSjJkNDViNjVWdUszRHVjUWhtdjZGX3VadGdjbExlem5oMzdLY0lhUG9PSllGcm9FcnFSd1o2TGdaMWlrSGFnOUpB?oc=5"
     },
     {
-      "date": "2026-11-22",
-      "text": "同源康医药-B：董事长兼总裁吴豫生拟进一步增持不超过200万港元股份 - 东方财富网",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9uN0VhbUY3VDk2MVdRWnRBNnNSSi11VE5FOUNwMmdlVm9aeGFlZnNZbmQwY3FzUThvOUozVUhoQTExQTkzb3RpTUd1V29pcEFNOTJzb1Bfd3hpeVkweUxlVW5qWnY3QQ?oc=5"
+      "date": "2026-11-23",
+      "text": "广东医科大学举办医药卫生管理类专场招聘会 - 科学网—新闻",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5vNm9XMmowblhxdEQxN1dTTlNlWXdkSFV4OE9HbFMxaU1vYkl6TVlsai1sU3V3ci1tOVlVMFh6VUJDb3VqQTVCVXNUQ0RDSnoxdmRnR2w0TGNXd200bllmUVhxbVBldw?oc=5"
     },
     {
-      "date": "2026-11-22",
-      "text": "同源康医药董事长吴豫生拟增持公司股份：金额不超200万港元 - 观点网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5hMGx5Zy01U0tQTHJaVVJ4VFJkMG94RERHZUVTa2dfRE1pcXNJR3g1S1JQQ1BtTXhqNE5RYkk3eGpMWVRHd0NrRk11X3VHMUZmaDM3SEJIYXFEbnJNQmtjUHpB?oc=5"
+      "date": "2026-11-23",
+      "text": "安徽中医药大学：连续十四年举办校园心理剧大赛 - 中国教育新闻网",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBfUE1pdTlOQUhaM2lZVkFMXzlWRzdOSXJaUFlpa2hLRllsX0Z1czBEWTNkR0IycldwMXNESVlnN2hvWjdIRm9XNEo4S0NpQUlqN0V5dHVIYndjQXdILU1ubXNjeXVJVXlVQ2dtd2JELXBVSjB4?oc=5"
     },
     {
-      "date": "2026-11-22",
-      "text": "南方财经全媒体集团 - 南方财经",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE13QkVmbG4tY2dlY1J4ZngwM2E5QUpaU201VGZfd1dxYzRJc3pJX00yLWVrXzRHVnY1QWVlVGRtVUVEUmcxWklYQ2s2ZmZpbXItTlBlQktYMlhSUlJuNFhIVTRyTXBxZEU?oc=5"
+      "date": "2026-11-23",
+      "text": "全球首个！张江创新药迎重大突破 - ByDrug",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5VdEg4aWJmd1hKUkRpZFpNc3VFYnB1aVVybEhhczQ5cU9HbkpDYTFLYm11czY3dnE3WDAxR0VmZW9TZHh5SXNscUdFaUUzbmtyX3hTVGx1bmt0ZUVGWDE1S2JDbDBJb004OFJkUGN2M2J5UmQydU1RYjl5QjZIdw?oc=5"
     }
   ],
   "ai_analysis": "",
