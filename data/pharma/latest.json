@@ -1,68 +1,68 @@
 {
-  "date": "2026-11-23",
-  "hs300": 3958.29,
-  "hs300_chg": 0.09,
-  "med_etf": 0.38,
-  "med_etf_chg": 1.47,
-  "inn_etf": 0.776,
-  "inn_etf_chg": 3.45,
-  "cxo_etf": 0.322,
-  "cxo_etf_chg": 2.48,
-  "tcm_etf": 0.876,
-  "tcm_etf_chg": 0.57,
-  "meddev_etf": 0.414,
-  "meddev_etf_chg": 1.21,
-  "vaccine_etf": 1.825,
-  "vaccine_etf_chg": 1.21,
-  "hsi_health": 22410.8,
+  "date": "2026-11-24",
+  "hs300": 3963.82,
+  "hs300_chg": 0.14,
+  "med_etf": 0.379,
+  "med_etf_chg": -1.32,
+  "inn_etf": 0.775,
+  "inn_etf_chg": -1.42,
+  "cxo_etf": 0.33,
+  "cxo_etf_chg": -1.52,
+  "tcm_etf": 0.881,
+  "tcm_etf_chg": -1.48,
+  "meddev_etf": 0.419,
+  "meddev_etf_chg": -0.72,
+  "vaccine_etf": 1.847,
+  "vaccine_etf_chg": 0.16,
+  "hsi_health": 22383.74,
   "hsi_health_chg": 0.0,
-  "hs_inn_etf": 1.083,
-  "hs_inn_etf_chg": 3.69,
-  "tnx": 4.92,
-  "usdcny": 6.6638,
-  "excess": 1.38,
-  "north_money": 268883.96,
-  "north_date": "20261123",
+  "hs_inn_etf": 1.123,
+  "hs_inn_etf_chg": -1.87,
+  "tnx": 4.9,
+  "usdcny": 6.664,
+  "excess": -1.46,
+  "north_money": 256569.83,
+  "north_date": "20261124",
   "news": [
     {
-      "date": "2026-11-23",
-      "text": "政策利好为何没托住医药股？未来行情怎么看？券商拆解三条主线 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE43TkVMMTBWdlhUVTZURXJLME9CeDdGRDNoMzBxZHF2dDlQZUktWUpWZUwzZXBPVFZGcS1Mb0dhT2hpSC0taUd6eQ?oc=5"
+      "date": "2026-11-24",
+      "text": "赵振宇：聚焦代谢共病，创新药物与药学服务助力患者综合管理 - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5YeUJsTV83TGxDNDU5d0VGdFhaRTdldXpTYjlBX2xwSGFTWU1aTExwRTJFUkdyZm55UXdzWHZxbUJhT3ptQUU4Mk1VeHdKME02SkVnVWxwS3ZRVmJ6b1ljdkZrU3dwMkFYMUJpSkYtU2pHbUdBZE1sRnFPQy1xOGM?oc=5"
     },
     {
-      "date": "2026-11-23",
-      "text": "达州牵头组建“秦巴山·万达开”中医药行业产教融合共同体 四项任务深化川渝协同丨市州观察 - 四川新闻",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5qUy1XczdaeWZyMHRHRjZab2t3Ti1FNm5XN3ltYXd6MHNMWEthWC10Y005U1ZMb3pMR3Q0MGgtNmF5TWRoblhJOEN3cmt0ZGpadTZlcFVuZTE1Z1dUcnktWTB2aw?oc=5"
+      "date": "2026-11-24",
+      "text": "小小说明书 满满民生情——黑龙江省药监局推进药品说明书适老化及无障碍改革试点纪实 - 中国食品药品网",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CalllS3ZWVEctWmNCcHhNOXVkTXlFcE0zUG01bk9HSDlDLWROcmNqNWhlYU1XVmF1VzFMaDFkQUl6WTZNVXRPS0pQTnh0R3E3Y0FnYUdLYWtSaHc2?oc=5"
     },
     {
-      "date": "2026-11-23",
-      "text": "茂名切入医药中间体赛道：石化产业链往“药”里走 - 21财经",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPRmk0SUo4NVFyRDNXOC0xME5Pbkd1elRsX3daejd6ck9pVXpJcXNvRm5BeHh5ZDZrWF8zY2MwQm1UbHRqYUFFZEROSTdHeXBiOGZiRVJtRkp1cGF1MklvSlpoWGFoTHpsa3lHamZqY0lPeG56dU80UEdaVGltTnJnVjlrcFpQQ18yc1pVV1ZiRQ?oc=5"
+      "date": "2026-11-24",
+      "text": "金鸡湖畔创新不息！全链服务护航园区生物医药产业向高而攀 - 苏州工业园区管理委员会",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPeW5pM0otdHJHczdOYTFqMW9kUGtBOEhIRTl6YVNQOHc2dWd0bDlvdVAwd0dKcmJ4Vlp3OTA2TEJRb2JoRG1wMElfM0E0MDZNRWt1VXpza21Md0JxSVNaeVUya2pXREYxbFVhSWdnd3FJODlqa0RRejVTdDV3bFJvR29selVFN1NmVUE?oc=5"
     },
     {
-      "date": "2026-11-23",
-      "text": "“聚势药都 智启成长”第20届成长型医药企业发展大会在亳州开幕 - 新华网",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5BaElzLTdjZEF6MTVVTFBsbExNdjJFNFMySkxITlFQOS1VNnlOc0tuMUV2Z0E1blFQc21JelJkbFNCRlItaUxLUFM1UlNiSmRYVHVmNHZTNFY5X3FJbW84ekNRb0VfOHE0cnFZWkhMOUpHYnZVaFpiem1sV3NOVWc?oc=5"
+      "date": "2026-11-24",
+      "text": "本市现有中医药非遗项目194项 成熟技术将逐步纳入医院常规服务 - 北京市人民政府门户网站",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5BV2JjaGo3TzdtMDQ4Yjg1SXowMVF4MFV0LXJvN0lacUkteHRadWZwVl9qS1ZiOWk2ei1ZT0ZwOEpueTNHaURnNFZTMFhGYmNIa3hQRkFwQUtwVnV2X19vT3pCdGhSaktIWmxXMnBmbzV2NlJX?oc=5"
     },
     {
-      "date": "2026-11-23",
-      "text": "医药行业2026年三季报总结：业绩持续分化，关注低预期标的_行业研究_研报 - 证券之星",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9IZTNhZXNmRWk5M2Ezc2NRU3lZSXhrclhZSjJkNDViNjVWdUszRHVjUWhtdjZGX3VadGdjbExlem5oMzdLY0lhUG9PSllGcm9FcnFSd1o2TGdaMWlrSGFnOUpB?oc=5"
+      "date": "2026-11-24",
+      "text": "先通医药港股首日上市破发，收盘跌幅超23% - ThePaper.cn",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1HYkltTDI0TEZLNFBLVVZEdVRWbzRtbmRjc2FZUVRPQldQYXVnVEwxc2hBTE1TY05QakpLaVZWRFlnZ3h2Yk8zQzI3b3FsZ2VTVmdha3BFZnhPamlKZDBDdg?oc=5"
     },
     {
-      "date": "2026-11-23",
-      "text": "广东医科大学举办医药卫生管理类专场招聘会 - 科学网—新闻",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5vNm9XMmowblhxdEQxN1dTTlNlWXdkSFV4OE9HbFMxaU1vYkl6TVlsai1sU3V3ci1tOVlVMFh6VUJDb3VqQTVCVXNUQ0RDSnoxdmRnR2w0TGNXd200bllmUVhxbVBldw?oc=5"
+      "date": "2026-11-24",
+      "text": "国家药监局批准赛威珂上市 和黄医药手握五款1类原创药 - 观点网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5tU2RTZGtCcWw0a1Q0M3lMWXl3bElKNE1xRkRPZDIxWEtTakU1NTA0VTNKX1k5WjBpWUNLZzdiYUdBY1NwZWpKNHBoRWRFaHBDZGViVktUSk4xbTBydUZSV2Z3?oc=5"
     },
     {
-      "date": "2026-11-23",
-      "text": "安徽中医药大学：连续十四年举办校园心理剧大赛 - 中国教育新闻网",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBfUE1pdTlOQUhaM2lZVkFMXzlWRzdOSXJaUFlpa2hLRllsX0Z1czBEWTNkR0IycldwMXNESVlnN2hvWjdIRm9XNEo4S0NpQUlqN0V5dHVIYndjQXdILU1ubXNjeXVJVXlVQ2dtd2JELXBVSjB4?oc=5"
+      "date": "2026-11-24",
+      "text": "长安聚药香 在西部国采展上看中医药新活力 - 中国青年网",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE52c01IY1ZxRmQwVjNWM3FhQ3JsMzlRS1pLc0VkVkg3Zkh4R0kxZFhFMFY0bUFmVHE5RE9QTWdxY2ZZUllKVmV5VW9kMng4eW0tVlBrb3BjNkhndnl2M0gxa2s2VXc?oc=5"
     },
     {
-      "date": "2026-11-23",
-      "text": "全球首个！张江创新药迎重大突破 - ByDrug",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5VdEg4aWJmd1hKUkRpZFpNc3VFYnB1aVVybEhhczQ5cU9HbkpDYTFLYm11czY3dnE3WDAxR0VmZW9TZHh5SXNscUdFaUUzbmtyX3hTVGx1bmt0ZUVGWDE1S2JDbDBJb004OFJkUGN2M2J5UmQydU1RYjl5QjZIdw?oc=5"
+      "date": "2026-11-24",
+      "text": "广东中医药博物馆针灸馆焕新开馆 - 中国新闻网",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9mWW1HbXAtQ2RvX3lCTW44cm5mb050Mi1ic18zNkdSMENtZk1KWkNBZEttWkszQmJYT3R1X3FiZkZ6QnA1TnVNYjRHallkUDBKWDdacW04QmVFaVNHRUNIWW5BZS1lUmdy?oc=5"
     }
   ],
   "ai_analysis": "",

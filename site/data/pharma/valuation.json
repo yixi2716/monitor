@@ -1,1 +1,1 @@
-{"date": "2026-11-23", "lights": {"price": {"pct": null, "src": "拉取失败"}, "pe": {"pct": null, "src": "拉取失败", "error": "stock_zh_index_value_csindex 已在 1.20.44 更名为 index_value_csindex，请改用 ak.index_value_csindex；参数与返回的列也可"}, "turnover": {"pct": null, "src": "拉取失败", "error": "'ratio'"}}}
+{"date": "2026-11-24", "lights": {"price": {"pct": null, "src": "拉取失败"}, "pe": {"pct": null, "src": "拉取失败", "error": "stock_zh_index_value_csindex 已在 1.20.44 更名为 index_value_csindex，请改用 ak.index_value_csindex；参数与返回的列也可"}, "turnover": {"pct": null, "src": "拉取失败", "error": "'ratio'"}}}
