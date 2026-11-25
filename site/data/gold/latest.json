@@ -1,75 +1,67 @@
 {
-  "date": "2026-11-24",
-  "fetched_at": "2026-11-25 04:25",
-  "gold": 3556.9,
-  "gold_chg": -2.13,
-  "ma20": 3894.81,
-  "ma50": 4080.73,
+  "date": "2026-11-25",
+  "fetched_at": "2026-11-26 03:39",
+  "gold": 3545.2,
+  "gold_chg": -0.28,
+  "ma20": 3867.93,
+  "ma50": 4065.55,
   "above_ma20": false,
   "above_ma50": false,
-  "dxy": 103.8,
-  "dxy_chg": -0.51,
-  "vix": 27.49,
-  "vix_chg": 3.27,
-  "tip": 105.54,
-  "tnx": 4.9,
-  "corr_gold_dxy": -0.25,
-  "corr_gold_tip": -0.15,
-  "corr_gold_vix": -0.29,
-  "basis": 30.01,
-  "vol20": 31.9,
-  "gold_silver_ratio": 87.4,
-  "usdcny": 6.664,
-  "shfe_au": 780.42,
-  "shfe_au_date": "2026-11-24",
+  "dxy": 103.62,
+  "dxy_chg": -0.2,
+  "vix": 27.89,
+  "vix_chg": 5.8,
+  "tip": 105.98,
+  "tnx": 4.84,
+  "corr_gold_dxy": -0.24,
+  "corr_gold_tip": -0.11,
+  "corr_gold_vix": -0.27,
+  "basis": 29.22,
+  "vol20": 31.8,
+  "gold_silver_ratio": 87.47,
+  "usdcny": 6.6747,
+  "shfe_au": 757.4,
+  "shfe_au_date": "2026-11-25",
   "cftc_gold_net": null,
   "cftc_gold_date": null,
   "mode": "M",
   "mode_name": "M · 混合驱动",
   "confidence": "低",
   "evidence": [
-    "黄金与 TIP 相关性 -0.15，与 DXY 相关性 -0.25",
-    "VIX 27.5，与 VIX 相关性 -0.29",
+    "黄金与 TIP 相关性 -0.11，与 DXY 相关性 -0.24",
+    "VIX 27.9，与 VIX 相关性 -0.27",
     "多因子混合驱动，无单一主导逻辑"
   ],
   "signals": [
     {
       "name": "美元信号",
-      "text": "DXY 103.8 > 101，压制金价",
+      "text": "DXY 103.6 > 101，压制金价",
       "dir": "bear"
     },
     {
       "name": "利率信号",
-      "text": "TIP 5日 +0.68%，实际利率平稳",
-      "dir": "neutral"
+      "text": "TIP 5日 +1.03%，实际利率下行 → 利好",
+      "dir": "bull"
     },
     {
       "name": "避险信号",
-      "text": "VIX 27.5 > 20，避险买盘 → 利好",
+      "text": "VIX 27.9 > 20，避险买盘 → 利好",
       "dir": "bull"
     },
     {
       "name": "情绪信号",
-      "text": "VIX 5日 +8%，情绪平稳",
+      "text": "VIX 5日 +14%，情绪平稳",
       "dir": "neutral"
     },
     {
       "name": "实物信号",
-      "text": "GLD 与期货同步（5日 -7.60% vs -7.66%）",
+      "text": "GLD 与期货同步（5日 -4.66% vs -4.90%）",
       "dir": "neutral"
     }
   ],
-  "score": 0,
-  "score_summary": "+0（中性）",
+  "score": 1,
+  "score_summary": "+1（中性）",
   "recent10": [
-    {
-      "date": "2026-11-11",
-      "gold": 3994.3,
-      "gold_chg": -1.14,
-      "dxy": 102.91,
-      "vix": 17.49,
-      "tip": 105.26
-    },
     {
       "date": "2026-11-12",
       "gold": 3881.7,
@@ -136,11 +128,19 @@
     },
     {
       "date": "2026-11-24",
-      "gold": 3556.9,
-      "gold_chg": -2.13,
-      "dxy": 103.8,
-      "vix": 27.49,
-      "tip": 105.54
+      "gold": 3555.1,
+      "gold_chg": -2.18,
+      "dxy": 103.83,
+      "vix": 26.36,
+      "tip": 105.45
+    },
+    {
+      "date": "2026-11-25",
+      "gold": 3545.2,
+      "gold_chg": -0.28,
+      "dxy": 103.62,
+      "vix": 27.89,
+      "tip": 105.98
     }
   ],
   "macro": {
@@ -148,7 +148,7 @@
     "last_change": "2026-09-16 加息 25bp",
     "next_label": "10/27–28 议息会议",
     "next_date": "2026-10-28",
-    "days_to_next": -27,
+    "days_to_next": -28,
     "upcoming": [
       {
         "date": "2026-10-28",
@@ -161,10 +161,10 @@
         "dot_plot": true
       }
     ],
-    "zq_price": 95.7,
-    "zq_implied_rate": 4.3,
-    "market_bp_vs_current": 30.0,
-    "market_expectation": "市场预期加息 30bp",
+    "zq_price": 95.86,
+    "zq_implied_rate": 4.14,
+    "market_bp_vs_current": 14.0,
+    "market_expectation": "市场预期加息 14bp",
     "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
   },
   "geopolitics": {
@@ -174,12 +174,6 @@
     "summary": "卡塔尔斡旋下双方通过间接渠道沟通，特朗普9/26拒绝伊朗最新停火提案，但预计数日内重启对话。伊朗要求先解除海上封锁再重开海峡；美方要求伊朗在核问题上让步。短期谈判破裂风险与突破缓和并存。",
     "updated": "2026-09-28",
     "events": [
-      {
-        "date": "2026-11-17",
-        "text": "U.S. launches strikes on Iran's Qeshm Island in Strait of Hormuz",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbEJURjBQYXVkNTJSWEMyUlRrbFJ3NjJETGptNjYxX1JSS3lob1NOekp3WkZYcDdWVUtEaFRHYlpzUGg5d1FlNDE0QWdhMmtoUzBJb2piaWZFZWF3OFBaNjY1dTJMMldkdTVtNE1lWFJadlhpRFdFeWZYam5zN3RwWmFiSUw?oc=5",
-        "src": "CBS News"
-      },
       {
         "date": "2026-11-22",
         "text": "Opinion | Iran Doubles Down on Its Nuclear Ambitions",
@@ -193,30 +187,36 @@
         "src": "Al Jazeera"
       },
       {
-        "date": "2026-11-18",
-        "text": "Iran would respond 'at the same level' if hit by US nuclear attack: Lawmaker",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdTdMWm9tTGpMTGdxTFlwYURSWVQ0dzZDc0xfMmJsZDdRWHhiYVliMGMtTFBEZEF5c2RYNGJjZzdmbFdsNTlKS0VYeERXeEVQYkxQVUpVeU1KbERYNGpSdlNFUDV1eWtNOVk2bGJHaThOU1dpeDZld1FGazB4cEJQMVYzUWxVdC10SVo1b0Z0ZlBjbmdBcWItUXE4elhwOERDaDlUdWtsUWVTRGp3WmJpbGYxejNwQ1d1U1E?oc=5",
-        "src": "Anadolu Ajansı"
-      },
-      {
-        "date": "2026-11-21",
-        "text": "Vance stops short of endorsing Trump’s claim that Iran was close to nuclear weapon",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUGEzcUdkaW9kYmFheHhDbzBMTG9PTnhmeGZwTzBURFA5amgtbEZRX1Z2WTVRZzRKV3Z5a09ObWVpMXFpMG83bWxvYngzZi1jOTJMWnJPVkN0V1FiTUxPTkdQYWVraW5hWVN0QXZ0SWtmSExMSmQ2cWtibmdrRFdKRTg4VFhDdw?oc=5",
-        "src": "The Guardian"
+        "date": "2026-11-20",
+        "text": "Trump says Tehran may be working on chemical or biological weapons as tension mounts",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNczRzemtDSHlJLXZIOHl1WHVMYUZkLTFMd1Z4TDJHNWhDa2E3djdWWnM4MXlwbXpnYjNyUU9TcXR6YjhsOWRVS29ub25Dd0pLVWNZRFZWR25CdnNxeTQ4VDRYX2g1dlFqZmQ1N1o1WWowQk5XRTJvSnhwWENzaXlBSF83RW5kbE5FelFKa0J2dnlhQVJJTkE?oc=5",
+        "src": "CBS News"
       },
       {
         "date": "2026-11-23",
         "text": "Three Problems with the US-Saudi Nuclear Deal",
         "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1MU3lYM0FPc2RhWHNRZmdXeUlxMHlwYm5UdkxJNDk1V1o4VzFLNWtDZWdxN1RzVnY0bVIxUlJYcGJQajBWdHl4ajg3T1VtWFVRWFhyd3FnU21JbmNEbkNUUFBfMklXR3gzQWFSZU1KYw?oc=5",
         "src": "Cato Institute"
+      },
+      {
+        "date": "2026-11-20",
+        "text": "‘We’ve Got Time’: Trump Suggests Iran War Will Continue Into 2027",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQjZGUzREbXRjRmtjM2dNZXc5eXVvVEJJOUdFdkpRNnZXVngwcDItZE9JYnJQc0diN3dRU1p3OGMzY0RQRkw4Q244ckR3UWVFWVc3ZkJHeThzU09aWnE4SHhxcVJqdld4bUtrdmdaVjA0QUdWT3dySkwzc0VVZXRDcWlHaTBZNERRWTUxbG1ZMzk?oc=5",
+        "src": "Time Magazine"
+      },
+      {
+        "date": "2026-11-19",
+        "text": "US Clashes With China and Russia Over Iran Nuclear Stalemate",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTDZQOW0xT3NiQlFvbzRsQ0U3SHd1MHZZa0JUbmZvVnRoblF4WE8zX0VqbHNnSlRHUExKNkliQnl4VkdNMWk0VlJ4WnA3RGwtcm5wc01jbTNpYW8ydXc0YXdjVkFOd2NFNzN0WFB3SGZLTFFHcmp5c19Hbm1MUFVHQmZtZXRrSmtEVGlrWW9ERVhLQWZtQ2hUOFdfMWFUTEFfeUdUQy0wbEVwQjA2Z1dQMw?oc=5",
+        "src": "Bloomberg.com"
       }
     ],
     "gold_impact": "双重作用：局势升级→避险买盘利多黄金；但同时油价飙升→通胀预期→美联储更难降息→利空黄金。当前谈判窗口期，油价波动会直接传导到金价。",
-    "wti_price": 81.58,
-    "wti_chg": 1.66,
+    "wti_price": 83.71,
+    "wti_chg": 2.47,
     "news_auto": true
   },
   "ai_analysis": "",
   "ai_error": "未自动生成，点击按钮手动生成",
-  "ai_date": "2026-11-24"
+  "ai_date": "2026-11-25"
 }

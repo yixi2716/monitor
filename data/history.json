@@ -1132,5 +1132,11 @@
     "spot_pig": 8.87,
     "lh_close": 9620.0,
     "pig_grain_ratio": 4.06
+  },
+  {
+    "date": "2026-11-25",
+    "spot_pig": 8.87,
+    "lh_close": 9440.0,
+    "pig_grain_ratio": 4.06
   }
 ]

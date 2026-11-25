@@ -1,19 +1,19 @@
 {
-  "date": "2026-11-24",
-  "hs300": 3963.82,
-  "hs300_chg": 0.14,
-  "solar_etf": 0.643,
-  "solar_etf_chg": 0.0,
-  "newenergy_etf": 1.85,
-  "newenergy_etf_chg": 0.16,
-  "storage_etf": 1.328,
-  "storage_etf_chg": 0.76,
-  "tnx": 4.9,
-  "usdcny": 6.664,
-  "excess": -0.14,
-  "dd_from_high": 0.4565,
-  "pb_ratio": 0.1333,
-  "turnover_ratio": 1.141,
+  "date": "2026-11-25",
+  "hs300": 3898.24,
+  "hs300_chg": -1.65,
+  "solar_etf": 0.624,
+  "solar_etf_chg": -2.95,
+  "newenergy_etf": 1.772,
+  "newenergy_etf_chg": -4.22,
+  "storage_etf": 1.254,
+  "storage_etf_chg": -5.57,
+  "tnx": 4.84,
+  "usdcny": 6.6747,
+  "excess": -1.3,
+  "dd_from_high": 0.4725,
+  "pb_ratio": 0.1,
+  "turnover_ratio": 0.967,
   "stocks": {
     "tongwei": {
       "close": null,
@@ -46,44 +46,44 @@
   },
   "news": [
     {
-      "date": "2026-11-24",
-      "text": "国家电投泉源光伏发电项目全容量并网发电 - 国际太阳能光伏网",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5vR0dZNnFWTVdVd1JleTNiOUo3UHo2VG40aHRFZlVOb3VwYTM3TVBfck9hbjFYa1ZwYUFhdk1JekhTV1M0Unh6NjAwRURkX2tCTEVheWx3dGpfelY2?oc=5"
+      "date": "2026-11-25",
+      "text": "别让你的屋顶光伏变成“定时炸弹”：分布式防火安全怎么破？ - 国际太阳能光伏网",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBvQzJjZllGd0JUSXdjVHUzYW5UamlSamR0VnJCelJpVUJvalpLdEpWVUY2WDg5ekIyMHBiZ2NrLXNVcTNRX2YzcDNsMnRqS0wwWEpnZjIwc25WMnI1?oc=5"
     },
     {
-      "date": "2026-11-24",
-      "text": "石永红副会长出席2026第九届国际光伏与储能产业大会 - 中国机电产品进出口商会",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdmRLc2hsVDZhUlE4OENrR3NqQ3FkbnYxdkotM09mN1k4UGdqZkVmV2ZVVU1vdTBYeXhrNFRDdThPMmZCTC1QY01CazNfbHdFaGJHMVk5TTVDamxTS1VlM0R4QXFUN2xmazVrSklvcFF3MEdhQnZqTG0wSFo0TktHWjh6dFVwMG9OcVduVmFIQmFNZlhUTzRiLWFWbzlKblhxTk1lanVnWS1PbnE4MHZtemxYVEFtN0VZS1A2ZTJkeUNJVkE?oc=5"
+      "date": "2026-11-25",
+      "text": "闹大了！“光伏板争议”烧到台北故宫 - 新浪军事",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5zSVRnTVZqYTFTOGprblhBZDJQYXVPS2pTNU9OaThoVmF6WUwzOVZxaDhPVU1xS2hNY19ENkFQX3BZWUNjai1WM2ZNUG8xcmtxTVZUVFVNVHJWb3NQTV9RYldZcW80WDhaY29aUjFpQlZaRzA?oc=5"
     },
     {
-      "date": "2026-11-24",
-      "text": "云南工商学院：屋顶光伏变身“实景育人平台” - 新华网",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPc3FGWlhsLWIwWmIwa0hjOXA0akZRUFZIei1kbEozNm9wTVV3N1F0c2R4QnQtaXJFU0dUSmpyMlFDU1ZGeE4zMWtaRjZhTmtUY0x5OUhVRVctR01WN0hNZXVGUXB5cEZFcFhHbzlrYkV3LTE1aXd3cU9aUjhwRUpGSjhn?oc=5"
+      "date": "2026-11-25",
+      "text": "射阳港区首次装运83米超长光伏栈桥 - 新华网江苏频道",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1QeUhNdFVvOV93ZTNabUVtU1BtZkhGbE1WZnplWEpFTHItY2x1TkVFZXgtWmJrVGEwbkhLSU42VG9RbUJkdnZ0VV9tMDFWc3RsbXJfbXNSUzduYVkzTG9kV0RlWEVGVzhhd0NmTzFZT3dwVmxw?oc=5"
     },
     {
-      "date": "2026-11-24",
-      "text": "6000万元参股光伏公司停产停业，*ST雅博这笔投资预计要减值，退市警报尚未解除，股价已 - 21财经",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPQjQ3YkFyS2FYcHFSNVk3RVpILXpycERSQ21UUmpTTlExbHJyc3ZCVUc2OURvSnJydk1WYkRIc0tKVS1EQzdKUnNMZHBQS1VSVXQzQXhYMWZQZG83TWdtZWpXRERMdE81NXN5cVZsVk1zQldRdDh3YjI1c1FpRnBPUFNrSWdCQnp0Z3UzckNyTQ?oc=5"
+      "date": "2026-11-25",
+      "text": "Solyco发布485 W全黑住宅光伏组件，配备不锈钢防护 - pv magazine China",
+      "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxNYk5MZW1NRjFDR3l6TFg1eENZOHFfSW9mbm8zanhsUFI5dkNoZFc1X2xEMzg5Smsxd09VZC1OZkNQNUEzNHh5aURfWVVfdmdORU1xS2NYalhhWmw1S3J6YUVBbGVRNmtpV3RRS1lhb1dHbnJydGlPcUlhcUcwNG5JTzc5RjBFbVNsSlcycWdhSVVPaE5WVHdsVGJpN3VCUl8tRTBKelRjejJyaEhCU0xWY0hNbXJNQ080V2dxcWZUOTJmd2ctc0N4UUo3WnBvaXlYWVd4MXF0Z2tNMkxwMG1GTHJITlhSQWlaUEtQY3BjazkzSXlQWTFaa3BxT3Z3amNHcGxleV80S3dOZS15SWF0V1lJMEVqdFAzOHZ5cHBGWDBWb290b3ZVcXBjc09EUTdGb01uRS1VbnN2cFVjTFlOTQ?oc=5"
     },
     {
-      "date": "2026-11-24",
-      "text": "光伏设备板块短线拉升，正泰电源涨停 - 东方财富网",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1hVEJWRWMxT0hlX3lBOWhUMDNfMGY4UTR6dXB0cEREbGc0aXRzZUxVMzZ1MFVfNnQ4TWY2bzdySXlackNOazBBOXluSHNteXR2UW81eFk5Ty1LSFRZSnMxTVU3dVdYdw?oc=5"
+      "date": "2026-11-25",
+      "text": "通威中标中国电建格尔木项目光伏组件采购订单 - 上海有色金属网",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1ENXlRZFMxNmZ5YXUtRmxaR3oxTnJ4N0ZRZVh1T2RzMEtNUzFud2F0RklFNzNKRXd4V0d4QWM5cWpCMDRtNkoteDVoMGJuVXB2Y2NkV2g2bkMzeFFsbFRkWEJOLUdJYklyZGNYZ0h6ajdwZw?oc=5"
     },
     {
-      "date": "2026-11-24",
-      "text": "刘汉元：多晶硅行业最有条件“反内卷”成功 - 第一财经",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8wYXhkT3J5b0l6WmxuQ1FjZEZOVDBVNTRSUDc2aEhBVEhDTmNkS1RLWlM3ajU3ay1tY2l3S2JkQ0U5dW9mdzdybEszV2FnVzBYUEt3?oc=5"
+      "date": "2026-11-25",
+      "text": "多空辩论更新：岱勒新材非光伏收入占比超40.00%，扭亏持续性分歧未解 - 证券之星",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBBdE5IWDdFS2ZDOWl5aDkzeC1VZEF6TENPNW5kbUl6WXlYQ2F2ajBaVGxsNlk2VUJNSEFUZ1M4a29YTmlyTVRXUXN3UVdkZlA1ckZpZU9oeHFudTNEaVFiMDhR?oc=5"
     },
     {
-      "date": "2026-11-24",
-      "text": "罗普斯金光伏边框月产能80万套 2026年收缩国内业务 - 观点网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBYSE9GZVNQMW4yb0w2dkNGdkpmWHNEODh6a25ucVJUblQtemNHaUotaUNjMVVnX2F4X2ozd3k2VDBqUi1ia3ZUSHJCTEMxc1lKbmJMaEVPeE5tLXFOZUZVc013?oc=5"
+      "date": "2026-11-25",
+      "text": "2.08~2.67元/瓦，国能投山东512MW光伏EPC中标候选公示 - Sohu",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMHAxdDcwMVM3eUdLb21pcnNUTkptN25LM3c3ZjFGUERyVlRoZDNjNXUxWkdvWWw1ejY3cU9yWnZCYmIzVHNGSUlyckw5aUNJTVFreGo4OGxWRzlFRmlJeG15LUdJb1VaaUdUem9yamhqelZ5aHBPemNMaTVsd0UtQkZ0bzR3Nld5?oc=5"
     },
     {
-      "date": "2026-11-24",
-      "text": "华能集团首个风光同场海上光伏项目开工建设 - 央视网",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB3Xzl1LV9zczczWWlCaE1XallGa3lQS2xOcmgtenpTa0RFdnd6bGltODBsWDFkMUp0ZFZkVnBUS3dVVW1oc01BUmJfaENKLS0yNG5sQ3VXN3pZUVZwTjMxRGN2OFcwYzFzMlUtYnQ0X0pKcmtkNFMxRkdR?oc=5"
+      "date": "2026-11-25",
+      "text": "旗滨集团称拥有11条光伏玻璃生产线 部分产线闷窑停产冷修 - 观点网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9HV04xdTZhZmVKUlMzMzB3MlQxaEJWcUNORFZNZ0diX0xna2FvQmhKVDl1Unc1d2V6Z05JZU5ETUtkREI4UjVxZGx5UGp6ZnlINXFOWEp3dmI5YjFmWnFEYnR3?oc=5"
     }
   ],
   "ai_analysis": "",

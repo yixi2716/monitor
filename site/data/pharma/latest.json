@@ -1,68 +1,68 @@
 {
-  "date": "2026-11-24",
-  "hs300": 3963.82,
-  "hs300_chg": 0.14,
-  "med_etf": 0.379,
-  "med_etf_chg": -1.32,
-  "inn_etf": 0.775,
-  "inn_etf_chg": -1.42,
-  "cxo_etf": 0.33,
-  "cxo_etf_chg": -1.52,
-  "tcm_etf": 0.881,
-  "tcm_etf_chg": -1.48,
-  "meddev_etf": 0.419,
-  "meddev_etf_chg": -0.72,
-  "vaccine_etf": 1.847,
-  "vaccine_etf_chg": 0.16,
-  "hsi_health": 22383.74,
+  "date": "2026-11-25",
+  "hs300": 3898.24,
+  "hs300_chg": -1.65,
+  "med_etf": 0.374,
+  "med_etf_chg": 0.27,
+  "inn_etf": 0.764,
+  "inn_etf_chg": -0.65,
+  "cxo_etf": 0.325,
+  "cxo_etf_chg": -1.23,
+  "tcm_etf": 0.868,
+  "tcm_etf_chg": 0.69,
+  "meddev_etf": 0.416,
+  "meddev_etf_chg": -1.44,
+  "vaccine_etf": 1.85,
+  "vaccine_etf_chg": -4.22,
+  "hsi_health": 22219.65,
   "hsi_health_chg": 0.0,
-  "hs_inn_etf": 1.123,
-  "hs_inn_etf_chg": -1.87,
-  "tnx": 4.9,
-  "usdcny": 6.664,
-  "excess": -1.46,
-  "north_money": 256569.83,
-  "north_date": "20261124",
+  "hs_inn_etf": 1.102,
+  "hs_inn_etf_chg": -0.64,
+  "tnx": 4.84,
+  "usdcny": 6.6747,
+  "excess": 1.92,
+  "north_money": 219558.07,
+  "north_date": "20261125",
   "news": [
     {
-      "date": "2026-11-24",
-      "text": "赵振宇：聚焦代谢共病，创新药物与药学服务助力患者综合管理 - 新华网",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5YeUJsTV83TGxDNDU5d0VGdFhaRTdldXpTYjlBX2xwSGFTWU1aTExwRTJFUkdyZm55UXdzWHZxbUJhT3ptQUU4Mk1VeHdKME02SkVnVWxwS3ZRVmJ6b1ljdkZrU3dwMkFYMUJpSkYtU2pHbUdBZE1sRnFPQy1xOGM?oc=5"
+      "date": "2026-11-25",
+      "text": "“中国创新”出海记丨守护生命的医药“新力量” - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE56c3JCaHctTTh5RE5nemkxbXQ2aEVKdXJJZG9abE9vdUhTWHl1NzhoNWNxQVVOaFBnT1BiTXg2RDlJN1FYSDhMSV9lbEQ1UGgzNHE4cklCakZQalh5ZVR6X1FoZm9VMkYzQVlxOVFQeTFRVUVLZmtDWnhLUzg4QQ?oc=5"
     },
     {
-      "date": "2026-11-24",
-      "text": "小小说明书 满满民生情——黑龙江省药监局推进药品说明书适老化及无障碍改革试点纪实 - 中国食品药品网",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CalllS3ZWVEctWmNCcHhNOXVkTXlFcE0zUG01bk9HSDlDLWROcmNqNWhlYU1XVmF1VzFMaDFkQUl6WTZNVXRPS0pQTnh0R3E3Y0FnYUdLYWtSaHc2?oc=5"
+      "date": "2026-11-25",
+      "text": "药品抽检不合格 复星医药控股子公司桂林南药被暂停集采申报资格 - 东方财富网",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1LVE9xV1VkU2I4SldzYnlDUF9XYUVRN2NuZjBReVBXSlJNTlBpbl8zUVBNU2xjLVpFdllNazVPWE93SHZGbXJmX2hWbXl1RVhKUWhhTmNRZXc1elJzUzU3aA?oc=5"
     },
     {
-      "date": "2026-11-24",
-      "text": "金鸡湖畔创新不息！全链服务护航园区生物医药产业向高而攀 - 苏州工业园区管理委员会",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPeW5pM0otdHJHczdOYTFqMW9kUGtBOEhIRTl6YVNQOHc2dWd0bDlvdVAwd0dKcmJ4Vlp3OTA2TEJRb2JoRG1wMElfM0E0MDZNRWt1VXpza21Md0JxSVNaeVUya2pXREYxbFVhSWdnd3FJODlqa0RRejVTdDV3bFJvR29selVFN1NmVUE?oc=5"
+      "date": "2026-11-25",
+      "text": "人福医药：研发周期长达19年的新药项目终止，全额计提资产减值准备约4亿元 - ThePaper.cn",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5nQmc5LXpsYzdvWUJGaFhCbnkxYmw2dVhGeVhXdHZkODQ3bEp5X3FVOFAtWVBXdjNMT1YtSlBsazl3SE41NnFqcWJzT1VKZWhHaHAwQjA2c29QTjZPVjdzSw?oc=5"
     },
     {
-      "date": "2026-11-24",
-      "text": "本市现有中医药非遗项目194项 成熟技术将逐步纳入医院常规服务 - 北京市人民政府门户网站",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5BV2JjaGo3TzdtMDQ4Yjg1SXowMVF4MFV0LXJvN0lacUkteHRadWZwVl9qS1ZiOWk2ei1ZT0ZwOEpueTNHaURnNFZTMFhGYmNIa3hQRkFwQUtwVnV2X19vT3pCdGhSaktIWmxXMnBmbzV2NlJX?oc=5"
+      "date": "2026-11-25",
+      "text": "AI重构医药流通工作流：推动行业“去专家化”，责任始终归人 - 上观新闻",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBvM0s5UVZDZUJ3ZWlZT3BrMUs0Tmw5STFkS2RxaUt1SS00cjhwVjZ2VWFwLTEwWXR5ZDlOaDBoclF5dmpWZFJSVXlfbU9hSTY1bFIySWNvQU9hYXNIX2c?oc=5"
     },
     {
-      "date": "2026-11-24",
-      "text": "先通医药港股首日上市破发，收盘跌幅超23% - ThePaper.cn",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1HYkltTDI0TEZLNFBLVVZEdVRWbzRtbmRjc2FZUVRPQldQYXVnVEwxc2hBTE1TY05QakpLaVZWRFlnZ3h2Yk8zQzI3b3FsZ2VTVmdha3BFZnhPamlKZDBDdg?oc=5"
+      "date": "2026-11-25",
+      "text": "大参林（盐城）医药连锁有限公司成立 - zqrb.cn",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9qT0ttV2ZfRUV2NWhFb3hjaXVYM09sdVUydkYyekNkaG40bmtkak1fOVhXVXY0NGJvdGFEVGVxdGpxLUpiN1IxMXpTdnBxdFhsaGUzTXpJR3BSTDZEUGNyZjV1ckxqWXRvZ3o4eEwxYw?oc=5"
     },
     {
-      "date": "2026-11-24",
-      "text": "国家药监局批准赛威珂上市 和黄医药手握五款1类原创药 - 观点网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5tU2RTZGtCcWw0a1Q0M3lMWXl3bElKNE1xRkRPZDIxWEtTakU1NTA0VTNKX1k5WjBpWUNLZzdiYUdBY1NwZWpKNHBoRWRFaHBDZGViVktUSk4xbTBydUZSV2Z3?oc=5"
+      "date": "2026-11-25",
+      "text": "多空辩论更新：迈普医学脑膜集采中选落地，海外增速放缓与整合空白待验 - 证券之星",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE03TmFKYmQ2WHVKVVpiN1NUeXU1MmJGR2o2OERNY3N1WllYYzhRZGZjS1F6aVhGeGtiZ1h1SS00bUtJVFJBU3VzOW5FUXBJS3hSRXc5ejZPM0tHTnFna3VEenhB?oc=5"
     },
     {
-      "date": "2026-11-24",
-      "text": "长安聚药香 在西部国采展上看中医药新活力 - 中国青年网",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE52c01IY1ZxRmQwVjNWM3FhQ3JsMzlRS1pLc0VkVkg3Zkh4R0kxZFhFMFY0bUFmVHE5RE9QTWdxY2ZZUllKVmV5VW9kMng4eW0tVlBrb3BjNkhndnl2M0gxa2s2VXc?oc=5"
+      "date": "2026-11-25",
+      "text": "“核药第一股”先通医药成功登陆港交所，北京经开区上市企业总数达67家 - 国际科技创新中心",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPR2REVTQ3M28ySE5qNG9rbUlkUy1VYndKaUlMYm9YRTQ0aTJkaTdYRFV5MTNzVDNRWlJOdTFwU1VYcXNKN2prRDdvbUNMbE03UXNmeDBJZDBwLWZCZ3ZPbVMyekoxTzdYY25RYW05RGxVb2pwRkJ3Q1hSRWdlU0x1QUdESGQ?oc=5"
     },
     {
-      "date": "2026-11-24",
-      "text": "广东中医药博物馆针灸馆焕新开馆 - 中国新闻网",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9mWW1HbXAtQ2RvX3lCTW44cm5mb050Mi1ic18zNkdSMENtZk1KWkNBZEttWkszQmJYT3R1X3FiZkZ6QnA1TnVNYjRHallkUDBKWDdacW04QmVFaVNHRUNIWW5BZS1lUmdy?oc=5"
+      "date": "2026-11-25",
+      "text": "2026香港国际中医药大会在港开幕 - 中国网新闻中心",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5sMWc1anlsc2dQbjl2TDJfTk9JMi1lM21jTWxmWXdZUlJFbGg1N0czMEZsMGM2ZFE4T0lTa3c5ZXBHR3hicy1qNUhCTVZscS1ucVJSLVMyR2hJWkJNMkRoQy1vaGVsVXB6RUJJ?oc=5"
     }
   ],
   "ai_analysis": "",
