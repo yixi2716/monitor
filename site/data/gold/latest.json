@@ -1,75 +1,67 @@
 {
-  "date": "2026-11-25",
-  "fetched_at": "2026-11-26 03:39",
-  "gold": 3545.2,
-  "gold_chg": -0.28,
-  "ma20": 3867.93,
-  "ma50": 4065.55,
+  "date": "2026-11-26",
+  "fetched_at": "2026-11-27 03:20",
+  "gold": 3593.8,
+  "gold_chg": 0.15,
+  "ma20": 3848.11,
+  "ma50": 4050.68,
   "above_ma20": false,
   "above_ma50": false,
-  "dxy": 103.62,
-  "dxy_chg": -0.2,
-  "vix": 27.89,
-  "vix_chg": 5.8,
-  "tip": 105.98,
-  "tnx": 4.84,
-  "corr_gold_dxy": -0.24,
-  "corr_gold_tip": -0.11,
+  "dxy": 103.78,
+  "dxy_chg": 0.08,
+  "vix": 26.8,
+  "vix_chg": -5.27,
+  "tip": 105.84,
+  "tnx": 4.85,
+  "corr_gold_dxy": -0.28,
+  "corr_gold_tip": -0.07,
   "corr_gold_vix": -0.27,
-  "basis": 29.22,
-  "vol20": 31.8,
-  "gold_silver_ratio": 87.47,
-  "usdcny": 6.6747,
-  "shfe_au": 757.4,
-  "shfe_au_date": "2026-11-25",
+  "basis": 31.93,
+  "vol20": 32.4,
+  "gold_silver_ratio": 86.08,
+  "usdcny": 6.6592,
+  "shfe_au": 767.62,
+  "shfe_au_date": "2026-11-26",
   "cftc_gold_net": null,
   "cftc_gold_date": null,
   "mode": "M",
   "mode_name": "M · 混合驱动",
   "confidence": "低",
   "evidence": [
-    "黄金与 TIP 相关性 -0.11，与 DXY 相关性 -0.24",
-    "VIX 27.9，与 VIX 相关性 -0.27",
+    "黄金与 TIP 相关性 -0.07，与 DXY 相关性 -0.28",
+    "VIX 26.8，与 VIX 相关性 -0.27",
     "多因子混合驱动，无单一主导逻辑"
   ],
   "signals": [
     {
       "name": "美元信号",
-      "text": "DXY 103.6 > 101，压制金价",
+      "text": "DXY 103.8 > 101，压制金价",
       "dir": "bear"
     },
     {
       "name": "利率信号",
-      "text": "TIP 5日 +1.03%，实际利率下行 → 利好",
-      "dir": "bull"
+      "text": "TIP 5日 +0.77%，实际利率平稳",
+      "dir": "neutral"
     },
     {
       "name": "避险信号",
-      "text": "VIX 27.9 > 20，避险买盘 → 利好",
+      "text": "VIX 26.8 > 20，避险买盘 → 利好",
       "dir": "bull"
     },
     {
       "name": "情绪信号",
-      "text": "VIX 5日 +14%，情绪平稳",
+      "text": "VIX 5日 -6%，情绪平稳",
       "dir": "neutral"
     },
     {
       "name": "实物信号",
-      "text": "GLD 与期货同步（5日 -4.66% vs -4.90%）",
-      "dir": "neutral"
+      "text": "GLD 5日 -2.31% 弱于期货 -0.94%，期货投机偏热",
+      "dir": "bear"
     }
   ],
-  "score": 1,
-  "score_summary": "+1（中性）",
+  "score": -1,
+  "score_summary": "-1（中性）",
   "recent10": [
-    {
-      "date": "2026-11-12",
-      "gold": 3881.7,
-      "gold_chg": -2.82,
-      "dxy": 103.17,
-      "vix": 18.7,
-      "tip": 104.77
-    },
     {
       "date": "2026-11-13",
       "gold": 3887.6,
@@ -136,11 +128,19 @@
     },
     {
       "date": "2026-11-25",
-      "gold": 3545.2,
-      "gold_chg": -0.28,
-      "dxy": 103.62,
-      "vix": 27.89,
-      "tip": 105.98
+      "gold": 3588.4,
+      "gold_chg": 0.94,
+      "dxy": 103.7,
+      "vix": 28.29,
+      "tip": 105.84
+    },
+    {
+      "date": "2026-11-26",
+      "gold": 3593.8,
+      "gold_chg": 0.15,
+      "dxy": 103.78,
+      "vix": 26.8,
+      "tip": 105.84
     }
   ],
   "macro": {
@@ -148,7 +148,7 @@
     "last_change": "2026-09-16 加息 25bp",
     "next_label": "10/27–28 议息会议",
     "next_date": "2026-10-28",
-    "days_to_next": -28,
+    "days_to_next": -29,
     "upcoming": [
       {
         "date": "2026-10-28",
@@ -161,10 +161,10 @@
         "dot_plot": true
       }
     ],
-    "zq_price": 95.86,
-    "zq_implied_rate": 4.14,
-    "market_bp_vs_current": 14.0,
-    "market_expectation": "市场预期加息 14bp",
+    "zq_price": 95.85,
+    "zq_implied_rate": 4.15,
+    "market_bp_vs_current": 15.0,
+    "market_expectation": "市场预期加息 15bp",
     "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
   },
   "geopolitics": {
@@ -187,6 +187,12 @@
         "src": "Al Jazeera"
       },
       {
+        "date": "2026-11-25",
+        "text": "What Trump should do next about Iran",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVW9kOUVYOU9ZUkVFaEM1OTV2WGVfeVhYNTFFOVg4QkJycEZrV0w3VmVHSUNPSW14alU0V3dKVTBUSGdCUEthdmo2MnR4b3ItdW1adUYteTRQQXl5bmZSdFJlUUlrNkxuNHhsdGtaT1hJSHNZTU1VRU9EclZjV2h2bE9GS1NlQXM?oc=5",
+        "src": "Atlantic Council"
+      },
+      {
         "date": "2026-11-20",
         "text": "Trump says Tehran may be working on chemical or biological weapons as tension mounts",
         "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNczRzemtDSHlJLXZIOHl1WHVMYUZkLTFMd1Z4TDJHNWhDa2E3djdWWnM4MXlwbXpnYjNyUU9TcXR6YjhsOWRVS29ub25Dd0pLVWNZRFZWR25CdnNxeTQ4VDRYX2g1dlFqZmQ1N1o1WWowQk5XRTJvSnhwWENzaXlBSF83RW5kbE5FelFKa0J2dnlhQVJJTkE?oc=5",
@@ -199,24 +205,18 @@
         "src": "Cato Institute"
       },
       {
-        "date": "2026-11-20",
-        "text": "‘We’ve Got Time’: Trump Suggests Iran War Will Continue Into 2027",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQjZGUzREbXRjRmtjM2dNZXc5eXVvVEJJOUdFdkpRNnZXVngwcDItZE9JYnJQc0diN3dRU1p3OGMzY0RQRkw4Q244ckR3UWVFWVc3ZkJHeThzU09aWnE4SHhxcVJqdld4bUtrdmdaVjA0QUdWT3dySkwzc0VVZXRDcWlHaTBZNERRWTUxbG1ZMzk?oc=5",
-        "src": "Time Magazine"
-      },
-      {
-        "date": "2026-11-19",
-        "text": "US Clashes With China and Russia Over Iran Nuclear Stalemate",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTDZQOW0xT3NiQlFvbzRsQ0U3SHd1MHZZa0JUbmZvVnRoblF4WE8zX0VqbHNnSlRHUExKNkliQnl4VkdNMWk0VlJ4WnA3RGwtcm5wc01jbTNpYW8ydXc0YXdjVkFOd2NFNzN0WFB3SGZLTFFHcmp5c19Hbm1MUFVHQmZtZXRrSmtEVGlrWW9ERVhLQWZtQ2hUOFdfMWFUTEFfeUdUQy0wbEVwQjA2Z1dQMw?oc=5",
-        "src": "Bloomberg.com"
+        "date": "2026-11-23",
+        "text": "West presses Iran at IAEA to let inspections resume at bombed nuclear sites",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNX1BENXJsTm9KVlRxVjk0SENfVmszM1ZXVFpjQzJZcVRneVFiR210MTNseE0yUlJqWmRObE9ndjlKQkZUVFJqd0Joc3hFLWNhcW5KQ0ZKZWdBWDZ5Q1BCNWFQcDdBN1N5MDllSGNNYjdOUG1IaG5BNjB2S3hPMHRTSGpDM2phXzkzSUF6TkJtMktQRWpodkdiRVVSM0FJZ0lDOVRLZk5Dby1SdXV1elBEaW5GM0k?oc=5",
+        "src": "Reuters"
       }
     ],
     "gold_impact": "双重作用：局势升级→避险买盘利多黄金；但同时油价飙升→通胀预期→美联储更难降息→利空黄金。当前谈判窗口期，油价波动会直接传导到金价。",
-    "wti_price": 83.71,
-    "wti_chg": 2.47,
+    "wti_price": 85.01,
+    "wti_chg": 1.02,
     "news_auto": true
   },
   "ai_analysis": "",
   "ai_error": "未自动生成，点击按钮手动生成",
-  "ai_date": "2026-11-25"
+  "ai_date": "2026-11-26"
 }

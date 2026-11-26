@@ -1,19 +1,19 @@
 {
-  "date": "2026-11-25",
-  "hs300": 3898.24,
-  "hs300_chg": -1.65,
-  "solar_etf": 0.624,
-  "solar_etf_chg": -2.95,
-  "newenergy_etf": 1.772,
-  "newenergy_etf_chg": -4.22,
-  "storage_etf": 1.254,
-  "storage_etf_chg": -5.57,
-  "tnx": 4.84,
-  "usdcny": 6.6747,
-  "excess": -1.3,
-  "dd_from_high": 0.4725,
-  "pb_ratio": 0.1,
-  "turnover_ratio": 0.967,
+  "date": "2026-11-26",
+  "hs300": 3900.55,
+  "hs300_chg": 0.06,
+  "solar_etf": 0.619,
+  "solar_etf_chg": -0.8,
+  "newenergy_etf": 1.751,
+  "newenergy_etf_chg": -1.19,
+  "storage_etf": 1.245,
+  "storage_etf_chg": -0.72,
+  "tnx": 4.85,
+  "usdcny": 6.6592,
+  "excess": -0.86,
+  "dd_from_high": 0.4768,
+  "pb_ratio": 0.1333,
+  "turnover_ratio": 0.866,
   "stocks": {
     "tongwei": {
       "close": null,
@@ -46,44 +46,44 @@
   },
   "news": [
     {
-      "date": "2026-11-25",
-      "text": "别让你的屋顶光伏变成“定时炸弹”：分布式防火安全怎么破？ - 国际太阳能光伏网",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBvQzJjZllGd0JUSXdjVHUzYW5UamlSamR0VnJCelJpVUJvalpLdEpWVUY2WDg5ekIyMHBiZ2NrLXNVcTNRX2YzcDNsMnRqS0wwWEpnZjIwc25WMnI1?oc=5"
+      "date": "2026-11-26",
+      "text": "山东招远龙王沟光伏发电项目场区通过完工验收 - 国际太阳能光伏网",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1fRU1xc05yTGVDVUhjOFcwWW1lQ1VxNWxFNm5Pekw0alhpbFZ5c2QzQTUxQ0w0TERDV3F2emQ5c3dVN0loMG5Qb0RiRk1PMS05V3Zuc1ozVmxDN1dp?oc=5"
     },
     {
-      "date": "2026-11-25",
-      "text": "闹大了！“光伏板争议”烧到台北故宫 - 新浪军事",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5zSVRnTVZqYTFTOGprblhBZDJQYXVPS2pTNU9OaThoVmF6WUwzOVZxaDhPVU1xS2hNY19ENkFQX3BZWUNjai1WM2ZNUG8xcmtxTVZUVFVNVHJWb3NQTV9RYldZcW80WDhaY29aUjFpQlZaRzA?oc=5"
+      "date": "2026-11-26",
+      "text": "隆基发布Hi-MO X10满屏三防组件，屏占比98.58% - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUTNxNEhyLUFRUEQ2VHZMd2MtN3FhY2psVjlIRGVJZTk1aTBNOUtMX19mVkZkNnctQnlaNXFHbXJwN3dkOTEta2pHTVhLYXBGLXdxZzVSU3FMYnJFU2ppMUZLeXNEZjhIZV9pbldBYk4xRHJlT202MVU5cDZwOHNFbg?oc=5"
     },
     {
-      "date": "2026-11-25",
-      "text": "射阳港区首次装运83米超长光伏栈桥 - 新华网江苏频道",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1QeUhNdFVvOV93ZTNabUVtU1BtZkhGbE1WZnplWEpFTHItY2x1TkVFZXgtWmJrVGEwbkhLSU42VG9RbUJkdnZ0VV9tMDFWc3RsbXJfbXNSUzduYVkzTG9kV0RlWEVGVzhhd0NmTzFZT3dwVmxw?oc=5"
+      "date": "2026-11-26",
+      "text": "给全国风电机组穿上光伏衣，可增3座三峡电站！院士路演有机薄膜太阳能电池 - 上观新闻",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9NZ2g1dkxuaXptdlFJcDQwcDZVMlNVbnR3UXYwZ0h2RHotZFI2aUtSUnJ2anV5Uk8tR0JhYTZIU1FlRTBPODJDSG5SUHVUV3JyZTM2NEJNQU5ZWk1q?oc=5"
     },
     {
-      "date": "2026-11-25",
-      "text": "Solyco发布485 W全黑住宅光伏组件，配备不锈钢防护 - pv magazine China",
-      "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxNYk5MZW1NRjFDR3l6TFg1eENZOHFfSW9mbm8zanhsUFI5dkNoZFc1X2xEMzg5Smsxd09VZC1OZkNQNUEzNHh5aURfWVVfdmdORU1xS2NYalhhWmw1S3J6YUVBbGVRNmtpV3RRS1lhb1dHbnJydGlPcUlhcUcwNG5JTzc5RjBFbVNsSlcycWdhSVVPaE5WVHdsVGJpN3VCUl8tRTBKelRjejJyaEhCU0xWY0hNbXJNQ080V2dxcWZUOTJmd2ctc0N4UUo3WnBvaXlYWVd4MXF0Z2tNMkxwMG1GTHJITlhSQWlaUEtQY3BjazkzSXlQWTFaa3BxT3Z3amNHcGxleV80S3dOZS15SWF0V1lJMEVqdFAzOHZ5cHBGWDBWb290b3ZVcXBjc09EUTdGb01uRS1VbnN2cFVjTFlOTQ?oc=5"
+      "date": "2026-11-26",
+      "text": "钙钛矿光伏技术有望面向空天应用 中国科研团队刷新电池效率 - 中国新闻网",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBkVHJjU29obnRyYlJrVXJQS2pMNWtyMWR0SThnRGxPU1hyOERSMmdGbmJTSG50ZHVTZVJDeExLUF9sUW8yVFRVMVZhM1NkWEdWY0dWTEdSMzZyaGxnX3JUcW42V0VkZmw3?oc=5"
     },
     {
-      "date": "2026-11-25",
-      "text": "通威中标中国电建格尔木项目光伏组件采购订单 - 上海有色金属网",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1ENXlRZFMxNmZ5YXUtRmxaR3oxTnJ4N0ZRZVh1T2RzMEtNUzFud2F0RklFNzNKRXd4V0d4QWM5cWpCMDRtNkoteDVoMGJuVXB2Y2NkV2g2bkMzeFFsbFRkWEJOLUdJYklyZGNYZ0h6ajdwZw?oc=5"
+      "date": "2026-11-26",
+      "text": "汉伏能源携手以色列Sadot Energy，加速布局中东分布式光伏市场_世纪新能源网-光伏储能风电氢能电力行业门户Century New Energy Network https://www.ne - 世纪新能源网",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1neEtmdlM3MTBYQk1sQzNIbm1CazcybVM0Nm40ZnYxMzN5WUEzNlZaZTVpajFtNU1nVXExanpRRXN3ZzAtazM0N21ReFBoZERrcmRxUg?oc=5"
     },
     {
-      "date": "2026-11-25",
-      "text": "多空辩论更新：岱勒新材非光伏收入占比超40.00%，扭亏持续性分歧未解 - 证券之星",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBBdE5IWDdFS2ZDOWl5aDkzeC1VZEF6TENPNW5kbUl6WXlYQ2F2ajBaVGxsNlk2VUJNSEFUZ1M4a29YTmlyTVRXUXN3UVdkZlA1ckZpZU9oeHFudTNEaVFiMDhR?oc=5"
+      "date": "2026-11-26",
+      "text": "南方财经全媒体集团 - 南方财经",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBnWDdoNlRucmZqLVpxZXNfUmd0Ql9WbUpBRmU4cllTN3dIekRIVERaSzJXdFdGNU1RVUkyUmU3eXplSWRhY0ZYU2VkbU16X0FTanJOYmVZcHZuQmM5bmFDSVhKeDNPdFJiZHc?oc=5"
     },
     {
-      "date": "2026-11-25",
-      "text": "2.08~2.67元/瓦，国能投山东512MW光伏EPC中标候选公示 - Sohu",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMHAxdDcwMVM3eUdLb21pcnNUTkptN25LM3c3ZjFGUERyVlRoZDNjNXUxWkdvWWw1ejY3cU9yWnZCYmIzVHNGSUlyckw5aUNJTVFreGo4OGxWRzlFRmlJeG15LUdJb1VaaUdUem9yamhqelZ5aHBPemNMaTVsd0UtQkZ0bzR3Nld5?oc=5"
+      "date": "2026-11-26",
+      "text": "巡检光伏保发电 绿色赋能促发展 - 经济参考报",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNbExrLUJrdFNjVG5mSGl1YU1nYldYWVdQalFWaFR0bGx5enpXVkVQODE0clBSMWpQSjZ4eTdQMGpNbWl2NHAyeEdSVTdxZG16V1NoaklIb29WTkQ4Tm9xOE56WndtTUlMU19nQkJ5UmRqclA2elFoUVhJVlk5ZzVKQQ?oc=5"
     },
     {
-      "date": "2026-11-25",
-      "text": "旗滨集团称拥有11条光伏玻璃生产线 部分产线闷窑停产冷修 - 观点网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9HV04xdTZhZmVKUlMzMzB3MlQxaEJWcUNORFZNZ0diX0xna2FvQmhKVDl1Unc1d2V6Z05JZU5ETUtkREI4UjVxZGx5UGp6ZnlINXFOWEp3dmI5YjFmWnFEYnR3?oc=5"
+      "date": "2026-11-26",
+      "text": "国网龙湾供电分公司：精准调试赋绿能 四可管控护电网 - 温州新闻网",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBQNWE2azZ3VHNYbzJJX2ZRSjhaSVZEdnNYLThVR2tXNTFtLUE1aWx2a1QyQ2h0Y01NT1Y1Y3NiYkVuY1U0akF1TVBYUzNRUVBJNk5RUERHYWRpWmp5V1pBcXVxNHMtcVJVazM5dQ?oc=5"
     }
   ],
   "ai_analysis": "",

@@ -1,72 +1,72 @@
 {
-  "date": "2026-11-25",
-  "copper": 5.4730000495910645,
-  "copper_chg": 2.0606033552617697,
-  "ma20": 6.055674982070923,
-  "ma50": 6.374429998397827,
-  "dxy": 103.62,
-  "vix": 27.940000534057617,
-  "tnx": 4.840000152587891,
-  "wti": 83.67,
-  "cu_oil_ratio": 144.20802401493307,
-  "shfe_cu": 87950.0,
-  "shfe_cu_date": "2026-11-25",
-  "shfe_lme_ratio": 1.012,
+  "date": "2026-11-26",
+  "copper": 5.435999870300293,
+  "copper_chg": 1.9409262024187912,
+  "ma20": 5.991399979591369,
+  "ma50": 6.348609991073609,
+  "dxy": 103.77400207519531,
+  "vix": 26.799999237060547,
+  "tnx": 4.8480000495910645,
+  "wti": 85.01000213623047,
+  "cu_oil_ratio": 140.97534093525013,
+  "shfe_cu": 89300.0,
+  "shfe_cu_date": "2026-11-26",
+  "shfe_lme_ratio": 1.035,
   "lme_stock": null,
   "lme_stock_date": null,
-  "shfe_stock": 3180,
-  "shfe_stock_chg": -772,
-  "shfe_stock_date": "2026-11-25",
-  "lymy": 11.7,
+  "shfe_stock": 1969,
+  "shfe_stock_chg": -1211,
+  "shfe_stock_date": "2026-11-26",
+  "lymy": 11.6,
   "lymy_chg": 0.0,
-  "tl": 4.25,
+  "tl": 4.12,
   "tl_chg": 0.0,
-  "jxt": 28.32,
+  "jxt": 27.68,
   "jxt_chg": 0.0,
-  "cper": 32.47,
-  "cper_chg": -0.09,
-  "copx": 58.51,
-  "copx_chg": 1.61,
+  "cper": 32.51,
+  "cper_chg": 0.0,
+  "copx": 58.66,
+  "copx_chg": 0.0,
   "signals": [
     {
       "name": "铜价低于MA20",
       "dir": "bear",
-      "text": "$5.47 < MA20 $6.06"
+      "text": "$5.44 < MA20 $5.99"
     },
     {
       "name": "美元偏强",
       "dir": "bear",
-      "text": "DXY 103.62 > 103，压制铜价"
+      "text": "DXY 103.77 > 103，压制铜价"
     },
     {
       "name": "避险升温",
       "dir": "bear",
-      "text": "VIX 27.9 > 25，风险偏好下降"
+      "text": "VIX 26.8 > 25，风险偏好下降"
     },
     {
       "name": "铜油比偏高",
       "dir": "bull",
-      "text": "铜油比 144.2，工业景气预期强"
+      "text": "铜油比 141.0，工业景气预期强"
     },
     {
       "name": "利率环境友好",
       "dir": "bull",
-      "text": "10Y 4.84%"
+      "text": "10Y 4.85%"
     }
   ],
   "score": -1,
   "news": [
     {
-      "date": "2026-11-20",
-      "text": "Copper Prices Rise 42% in a Year: What This Means for the US Economy",
-      "src": "Canyon News Beverly Hills",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOaVJwNFRCU2RWdUxvbXFnWFpMeWVHWVlsSnIwQ2xrM0dwaHc3N0NTTFgtdkdvODBCWFM2djRKSGF6QXpoa1Q5X0JFanE4NEE0U1VQX2dGU1J5UEk2blg4dlF6Vi0zd1kteFZrb0dOTnpUS2Jnc2FLWVJ1Yk5xYXhJNmtQR2pwSHVwd1BUaGV0N2tvd0dJR243blFjSQ?oc=5"
+      "date": "2026-11-26",
+      "text": "U.S. Copper Stockpiles Swell as Supply Outside the U.S. Runs Tight",
+      "src": "StoneX",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZWVPdVJJUWcyQjdfbDhKWTZqdXRRMVhHN1BVU2kwWnJkcGMzUVVkV2MzNi1IUVl0RWFGcFpwWmZSV29OekkyWW1CcnJQQm9WMlFGLWhJR2xaMjg5QnJnckpBWGpUOUo0eVltNUhCaDB6V1FseHpkdlJaZHotdnlRZl9pbDB2TWRfMUFiUzdnbEN5dWZ0aFNMYk5fZTduNGNwTEE?oc=5"
     },
     {
-      "date": "2026-11-25",
-      "text": "Copper price sinks to 2026 low as mining stocks brace for further losses",
-      "src": "Mining.com",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRlJsZTEzejNIVzVWZVdKTjVNT01LYWRmRWhpQzN4X093TDh1dWkwWm51RWkzZzZfaFdmMXVkOXVUczhiWlRlNXlFa2tZVmVLamZNN2dic0FqM3YxTmxoSUxVR0lvMjJCaFc2d3JsRU1IcUNPRFZWRG9mMUx0NC1vNUotTW5CR2tZTUhsZEFYeDhrLV9wdVFCWE5WaVQ?oc=5"
+      "date": "2026-11-20",
+      "text": "Copper Prices Rise 42 Percent This Year: What This Means For The US Economy",
+      "src": "Canyon News Beverly Hills",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOaVJwNFRCU2RWdUxvbXFnWFpMeWVHWVlsSnIwQ2xrM0dwaHc3N0NTTFgtdkdvODBCWFM2djRKSGF6QXpoa1Q5X0JFanE4NEE0U1VQX2dGU1J5UEk2blg4dlF6Vi0zd1kteFZrb0dOTnpUS2Jnc2FLWVJ1Yk5xYXhJNmtQR2pwSHVwd1BUaGV0N2tvd0dJR243blFjSQ?oc=5"
     },
     {
       "date": "2026-11-20",
@@ -81,19 +81,19 @@
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNalkteDVqQmJDY0ItTEtaMWtBaDh6ZTNaejZBbjlUMXFjRHFndzNBY1pFWU9ZMldqcnhVZTJUYkZKTWkzUjNrbUF2WE5iN2V5TmlWd29nMGtESVNPWG5YUDBpZ05fV01oaDVhVHlOdjBKRVppVlNCUzBkXzZIcGFiTjRvNjk?oc=5"
     },
     {
-      "date": "2026-11-19",
-      "text": "Commodities Update November 2026",
-      "src": "Westpac IQ",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMVJrVzJhMHNiQUdIU3hOckNudWxyRWNzZXF6anQ3RUhQYkxMc0tqdEJyNXBDRXU3MjFCOEI4S2dqbFAxOGliZ01oR3FVd0tDSHBjYnRlVmszRXdCbFdjRE4xNW1nTmxsSlhFZkJtazZqMllRek1LeHZycElvMXY1VkY0cDgwQQ?oc=5"
+      "date": "2026-11-26",
+      "text": "Copper price sinks to 2026 low: risk and project economics lens for mine planners",
+      "src": "Geomechanics.io",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxORFNvNUN2cWxuSk4tWl95MEVJbmlHcHFyQ2ZHWUF6MjJIQWxhQVV6akhZVTVhU3BDZVc0d3Z5Wm1UZzhHUmdDakxIa2ZWUExKa3JkLURneUdLRm1PanRQZWw2ZlZBbXJPbW9SX0JLYzAxSGNXU1pOQ3FpaFdPdHVyWmxrS0kzVWhBbC1DLU5rZG9TcVNLQktEUFFXQ1dhdE1rMWFReFI2V0FKa09jaWJqdWI4QTliX0NNcFhlb193?oc=5"
     },
     {
-      "date": "2026-11-25",
-      "text": "Gold price falls 3% to more than one-year low after data shows US inflation rose further",
-      "src": "Mining.com",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbjI1bXczUVJCV0J4SHlXS1pzckF2aWRnSWxwckY1V2duUzVhM1BZNkJxM2RTdjN1eWJrOGNma19INTJPYjRjcDFDTGp3LTRwYU53UjEzTkU5Z3BvTkgtS09uVVR6RHlPUnByVzVsVW83Qm1RNUI0WFZrVlZOd3lIWWR0Zm9KSVQzSHVlVUdwS0tncTM2UmR5U01PaW9ZeFlTOGxDcEo1ajF2STF3eTVma21KeDFQdw?oc=5"
+      "date": "2026-11-26",
+      "text": "World Copper Conference Asia 2026: Presentation - Financial Drivers of Copper",
+      "src": "StoneX",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSWNNY3lIdnkycnJENjBMdnBnUHRsd0IwSENQNFdqRGtBLUFxZDVlOU5xLTNZWG54UXM0dmRzbHQyQWZBS0x6emw1eEtBVi1ha1RjT3VCSXZQcVo1REpRb2xUdnAwNVRGY3FEbUM0WDhqN0w3ZmtjbERCM0R2YmxuTURtaklXSTRTdXBTdVhPZDM5X0lkUXgyb3luclpQVWtqd0ZDYmdPRjBTLU1OM3FR?oc=5"
     }
   ],
   "ai_analysis": "",
   "ai_error": "未自动生成，点击按钮手动生成",
-  "ai_date": "2026-11-25"
+  "ai_date": "2026-11-26"
 }
