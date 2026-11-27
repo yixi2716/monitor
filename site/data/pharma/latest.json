@@ -1,68 +1,68 @@
 {
-  "date": "2026-11-26",
-  "hs300": 3900.55,
-  "hs300_chg": 0.06,
+  "date": "2026-11-27",
+  "hs300": 4063.06,
+  "hs300_chg": 4.17,
   "med_etf": 0.375,
-  "med_etf_chg": 0.0,
-  "inn_etf": 0.759,
-  "inn_etf_chg": -0.53,
-  "cxo_etf": 0.321,
-  "cxo_etf_chg": -0.93,
-  "tcm_etf": 0.874,
-  "tcm_etf_chg": -1.14,
-  "meddev_etf": 0.41,
-  "meddev_etf_chg": -1.71,
-  "vaccine_etf": 1.772,
-  "vaccine_etf_chg": -1.19,
-  "hsi_health": 21966.01,
+  "med_etf_chg": 3.47,
+  "inn_etf": 0.755,
+  "inn_etf_chg": 5.43,
+  "cxo_etf": 0.318,
+  "cxo_etf_chg": 5.03,
+  "tcm_etf": 0.864,
+  "tcm_etf_chg": 1.85,
+  "meddev_etf": 0.403,
+  "meddev_etf_chg": 4.71,
+  "vaccine_etf": 1.751,
+  "vaccine_etf_chg": 7.08,
+  "hsi_health": 22226.88,
   "hsi_health_chg": 0.0,
-  "hs_inn_etf": 1.095,
-  "hs_inn_etf_chg": 1.37,
-  "tnx": 4.85,
-  "usdcny": 6.6592,
-  "excess": -0.06,
-  "north_money": 207668.64,
-  "north_date": "20261126",
+  "hs_inn_etf": 1.11,
+  "hs_inn_etf_chg": 5.95,
+  "tnx": 4.93,
+  "usdcny": 6.6449,
+  "excess": -0.7,
+  "north_money": 292528.66,
+  "north_date": "20261127",
   "news": [
     {
-      "date": "2026-11-26",
-      "text": "锚定医药健康“十五五”目标，北京2030年医药健康产业规模冲刺1.5万亿 - 东方财富网",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9oUHlWSm4teFdydWJfNDY2QnZqVnJRUHdaOXdTbVpja0FsVi12NTQ2RXJYLTJHeVY3aVYwa1Y5blpOUEJsSWxxS0V1UWVLTEU2a1ZpN0tTbVdQcHBqY3JVRw?oc=5"
+      "date": "2026-11-27",
+      "text": "关于对《关于进一步加强集采中选药品质量监管的通知（征求意见稿）》公开征集意见的结果反馈_反馈信息_首都之窗 - 北京市人民政府门户网站",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOejI4VWRmek4yMEtYc0tHc3Foc2laVnB4OWtNWHBlVWQ0UHVCZ1VTaUVHNmZvemtqa0htYmpoRDRXTFg5TTR1VVlZQjUxUlVkX3JrbDRlcXZuTzBjczFyMk1XeUFuUVVjRWROTjVSSEpCR3U0aFNCNGVSNWExQUlJcXNR?oc=5"
     },
     {
-      "date": "2026-11-26",
-      "text": "北京医药健康产业规模达1.13万亿元，“十五五”聚焦四方面发力 - 21财经",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZ2pYS2NIekUtVUZGQnNOSUpRMHp0OWkxZlFwYW9NcHU1dFlHRmRZVHZZQ0x1VmFobUIzZGdoZ0pwbDdyWkNQRllwWmZLSVkzMzVTb2licDNJOFJRRGc2TWtHbTRUOHZTdnk2OEZyRVZMUjcta3d3MzR1dGhUcGRveHRURk51QXRqVjNnTFlNcw?oc=5"
+      "date": "2026-11-27",
+      "text": "以岭药业亮相香港国际中医药大会 探索中医药出海新路径 - 北京商报",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBKT1EzbENSd2U3VzE2UFlLcFFRRl83QmNrZVo2ckZUN0doLUhiSC0zT3c5RXZEb1JkN0tCaWw0Wm9CNzdvNDl2WVRUREVjNUZBVzc4QnhjSmFJaDBWZ0E?oc=5"
     },
     {
-      "date": "2026-11-26",
-      "text": "【数读IPO】创新药概念股，今日申购 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE8xczhBU2hyd0MtbUpXR2JSQnptVG1OM0VOb0JmSHk3WGgxTGZCbGF1Wk42SWpVa1lhRkd0bklXMXU5S0lqSTJaOA?oc=5"
+      "date": "2026-11-27",
+      "text": "浙江嘉兴：推动中医药传承创新 让优质服务惠及更多群众 - 新华网浙江",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQWXZyS2t0SDE4aGw2cmJBS1NLMGI5bnFBWWRnekV1U1JfVjF3bTJteTl0cGN3SkVHam1MdHlBR3dheEVPNUY2RUVnTGZZN2NYNi1vWWtQcnNjdVlyS0tabUVCTXFoZVI4cGx3d0hRVE5wYWZiZF9iM3FmaS11dVpTY0ln?oc=5"
     },
     {
-      "date": "2026-11-26",
-      "text": "北京支持创新医药发展 医企合作持续深化 - 中国新闻网",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ORFJwZzhkT0c1QzlRMXFORmtXaFRNTlJiN3c1QXB1ZkhMQ01kWDAwVmM1T3JOV1BxZC1ndW5yYjduNmhVczc2X1gxNl9tdHZ4ZFZjZ1k2bnRFY3N1M0xkYlR5bW85dWh0?oc=5"
+      "date": "2026-11-27",
+      "text": "泰州市医药高新区（高港区）长期护理保险重度失能评估结论公示 - 泰州市人民政府",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUU50dGZLM2lKaDRRcFRIQmlaUU8wUnNwRFBzbVU2aF91UlFweTBaY0tpeTI0TmpQZVhPSFVjdEpkNUVBNVczRV9tcWY3UEcwRkpDOVB1Y0stVWZzUlU5eXVtNDdfZzktQkMtTS0yM2JlWjVKZW5tcmlITFZ3ZGlnbVg2VHZ0NTNWcXk1Y0x3?oc=5"
     },
     {
-      "date": "2026-11-26",
-      "text": "2026年第47周11.16-11.22国内创新药/改良型新药申请临床/获批临床/申请上市/获批上市数据分析 - 摩熵医药",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBEczM5ZXNJQnBsSEFfcWxXbmtlam55cUJpUEFlcmZlbElrY2xET01YUGR0cFhBY1czUmljSUsxSi1SQUhzTkNxXzBZeS1oaXAzRVZhcGhlOA?oc=5"
+      "date": "2026-11-27",
+      "text": "拜耳加码在华投资，深化医药全产业链布局 - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQbXBxdmktSHZXd0ZaWWVOdXBPS1ZDdFJabUkzU0NBdDM0d3V6YTVCUHZOQ1lDdDdmcWc3Nk54OTBqWjlRRVpuLVV0UVVLbHByZlNXMndpdFdqaGNCUm1aZG9IOFZwWEhwU2t2eHpib1Rva2NaTzB6dW5OLWU0RklpSQ?oc=5"
     },
     {
-      "date": "2026-11-26",
-      "text": "江苏省药监局调研绿叶科技集团- 中国日报网 - China Daily",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9HbjJoa0VURVdISGtBZ05YX0Vza0NEcU5BRHU1SlFHVW8weU1SeWFOV2R4SDNFLXFYbmI0aW1BajdFMVQ3SmU4YjMxeVJvalJjS2NLcWhib2ZhM1g5Sl9qRXJST0sxdXBQVjNHclVIYkJOWTVPdzI5cGViWFg?oc=5"
+      "date": "2026-11-27",
+      "text": "广西中医药大学建校70周年 - 人民日报",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4zcjV3UkNFcUZ1NlFQTDR1S0ZKNW5QRU44NmtxU3lWazR2QVZpRG5YdDhMb3J1d2RLbTBkcUVDdWtSSTg3OTJfRWlaX3VkdW10bDZvM01rVE8wNHVMMEhoaFFEQ2JjV1FHZFBjdE5ITDdxUGw0ZnpJekhFNEY4Ync?oc=5"
     },
     {
-      "date": "2026-11-26",
-      "text": "中国医药城深度链接全球医药网络 - 泰州市人民政府",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZmJnZkU4bXdfcEVIb0VDVVZYZmRvak9aUkN1U0RXQ1l2NjNuRnUyblVPRnVQSVAwaEl4Y2drZG5vSlp6blBZamJuYzQtWlFBTUxWOUdETHdRM2VWSy1jZ2VtSmI2ejhFSXl3azcxbzdmZ3VYZWVaaEFZQWQxUmtUT0pEX0hqMlM1T1pWS0ZTaw?oc=5"
+      "date": "2026-11-27",
+      "text": "正畸集采备战攻略：提前布局，从容迎接集采落地 - 同花顺财经",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1GZnBmSVVhNWxXUnRXbDVKaE9OV2xXYWtOMHNFT3ktc1VTMHZQU203OGxGbmxsbWpCQXlmSEhBeHZKei1sdHQwVXlqNHlVcW1zMDg3TDJ3SnAtZjhJMHc?oc=5"
     },
     {
-      "date": "2026-11-26",
-      "text": "外高桥把脑机接口装进生物医药大盘子，一条“入院—拿证—出海”的服务链正在成形 - 同花顺",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1XbUxoZWZyLWdzb2pMSG9kZTBuZEN3Z0Z6LW1NNGFWaTdTaXFaU2NZVnJUWFFiZWo2dGhLWV9TeDA0cDc2ckpZbzhoNW0wNjBPQ3huR2p1Q1p1emkxbkljMA?oc=5"
+      "date": "2026-11-27",
+      "text": "冠脉支架集采普惠落地：降价之下，质量底线如何守牢？ - 21财经",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSDgzdjI1N19TVkRpT2tJdG5SbEFzTVZQSERISGVlMVhZMjU1YWlpSGhrem5hVUgtMnFCb2FhbXM0SkNYSGlURWhuYVZySmNfVEdtTE9aYlJ3WnRnUlRCV1k2R3pyZHdLYUM4cGZfdXhMbVQ4OTRudG9DdE9Qbm9NVU1XSGRZUkdfSFMybkdvYw?oc=5"
     }
   ],
   "ai_analysis": "",

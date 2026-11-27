@@ -670,5 +670,17 @@
       "neutral",
       "bear"
     ]
+  },
+  {
+    "date": "2026-11-27",
+    "score": -2,
+    "mode": "M",
+    "dirs": [
+      "bear",
+      "neutral",
+      "bull",
+      "bear",
+      "bear"
+    ]
   }
 ]

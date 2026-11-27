@@ -1,78 +1,66 @@
 {
-  "date": "2026-11-26",
-  "copper": 5.435999870300293,
-  "copper_chg": 1.9409262024187912,
-  "ma20": 5.991399979591369,
-  "ma50": 6.348609991073609,
-  "dxy": 103.77400207519531,
-  "vix": 26.799999237060547,
-  "tnx": 4.8480000495910645,
-  "wti": 85.01000213623047,
-  "cu_oil_ratio": 140.97534093525013,
-  "shfe_cu": 89300.0,
-  "shfe_cu_date": "2026-11-26",
-  "shfe_lme_ratio": 1.035,
+  "date": "2026-11-27",
+  "copper": 5.600500106811523,
+  "copper_chg": 5.025787657639058,
+  "ma20": 5.943324995040894,
+  "ma50": 6.32625,
+  "dxy": 104.0479965209961,
+  "vix": 23.809999465942383,
+  "tnx": 4.934000015258789,
+  "wti": 82.88999938964844,
+  "cu_oil_ratio": 148.95614231384286,
+  "shfe_cu": 93660.0,
+  "shfe_cu_date": "2026-11-27",
+  "shfe_lme_ratio": 1.054,
   "lme_stock": null,
   "lme_stock_date": null,
-  "shfe_stock": 1969,
-  "shfe_stock_chg": -1211,
-  "shfe_stock_date": "2026-11-26",
-  "lymy": 11.6,
+  "shfe_stock": 2044,
+  "shfe_stock_chg": 75,
+  "shfe_stock_date": "2026-11-27",
+  "lymy": 11.86,
   "lymy_chg": 0.0,
-  "tl": 4.12,
+  "tl": 4.19,
   "tl_chg": 0.0,
-  "jxt": 27.68,
+  "jxt": 28.14,
   "jxt_chg": 0.0,
-  "cper": 32.51,
-  "cper_chg": 0.0,
-  "copx": 58.66,
-  "copx_chg": 0.0,
+  "cper": 33.26,
+  "cper_chg": 2.31,
+  "copx": 61.34,
+  "copx_chg": 4.57,
   "signals": [
     {
       "name": "铜价低于MA20",
       "dir": "bear",
-      "text": "$5.44 < MA20 $5.99"
+      "text": "$5.60 < MA20 $5.94"
     },
     {
       "name": "美元偏强",
       "dir": "bear",
-      "text": "DXY 103.77 > 103，压制铜价"
+      "text": "DXY 104.05 > 103，压制铜价"
     },
     {
-      "name": "避险升温",
-      "dir": "bear",
-      "text": "VIX 26.8 > 25，风险偏好下降"
+      "name": "风险偏好正常",
+      "dir": "neutral",
+      "text": "VIX 23.8"
     },
     {
       "name": "铜油比偏高",
       "dir": "bull",
-      "text": "铜油比 141.0，工业景气预期强"
+      "text": "铜油比 149.0，工业景气预期强"
     },
     {
       "name": "利率环境友好",
       "dir": "bull",
-      "text": "10Y 4.85%"
+      "text": "10Y 4.93%"
     }
   ],
-  "score": -1,
+  "score": 0,
   "news": [
     {
       "date": "2026-11-26",
       "text": "U.S. Copper Stockpiles Swell as Supply Outside the U.S. Runs Tight",
       "src": "StoneX",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZWVPdVJJUWcyQjdfbDhKWTZqdXRRMVhHN1BVU2kwWnJkcGMzUVVkV2MzNi1IUVl0RWFGcFpwWmZSV29OekkyWW1CcnJQQm9WMlFGLWhJR2xaMjg5QnJnckpBWGpUOUo0eVltNUhCaDB6V1FseHpkdlJaZHotdnlRZl9pbDB2TWRfMUFiUzdnbEN5dWZ0aFNMYk5fZTduNGNwTEE?oc=5"
-    },
-    {
-      "date": "2026-11-20",
-      "text": "Copper Prices Rise 42 Percent This Year: What This Means For The US Economy",
-      "src": "Canyon News Beverly Hills",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOaVJwNFRCU2RWdUxvbXFnWFpMeWVHWVlsSnIwQ2xrM0dwaHc3N0NTTFgtdkdvODBCWFM2djRKSGF6QXpoa1Q5X0JFanE4NEE0U1VQX2dGU1J5UEk2blg4dlF6Vi0zd1kteFZrb0dOTnpUS2Jnc2FLWVJ1Yk5xYXhJNmtQR2pwSHVwd1BUaGV0N2tvd0dJR243blFjSQ?oc=5"
-    },
-    {
-      "date": "2026-11-20",
-      "text": "Copper's AI Rally Cracks as Prices Plunge 14% in Three Weeks, Diverging From China's Depleted Stockpiles",
-      "src": "BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5nUmVRVXdLOW5aYk9tQ2g3VnNMUUhvT3VzRDJudFRGUk5fX250MVc1WVJKSnlnMGd0MXplbWZ0N2xtQkRSUUM3ZGgtOXJaYVhFdjlEV2htNlBLQWRmQzFNSHlIVWRRQTQ1MlBnU2UzYTlZSmZPZ3c?oc=5"
     },
     {
       "date": "2026-11-25",
@@ -90,10 +78,22 @@
       "date": "2026-11-26",
       "text": "World Copper Conference Asia 2026: Presentation - Financial Drivers of Copper",
       "src": "StoneX",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSWNNY3lIdnkycnJENjBMdnBnUHRsd0IwSENQNFdqRGtBLUFxZDVlOU5xLTNZWG54UXM0dmRzbHQyQWZBS0x6emw1eEtBVi1ha1RjT3VCSXZQcVo1REpRb2xUdnAwNVRGY3FEbUM0WDhqN0w3ZmtjbERCM0R2YmxuTURtaklXSTRTdXBTdVhPZDM5X0lkUXgyb3luclpQVWtqd0ZDYmdPRjBTLU1OM3FR?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZC1tYUxJMG1FampxQVg1dDNNeTBTU05yZERxSGxBQTR4QmhhSDhhSlJHSmVRVXZ6eTZBY3FCQ3EtTHN3RHBvY2Vvc0JzczBkLTM4U2RIeWFGWkhwaVJaVDBGbzg5V1dpV0FjVGg4bEZpMGNEdHRfVXIxeE5TdWFZZ1JEckFGSklFRW1heXBWVVVseTR4TFVKMHVKcEVVQzhDVWIzYVRqazZOcHhHbEtnSklaWQ?oc=5"
+    },
+    {
+      "date": "2026-11-27",
+      "text": "Chile clears Marimaca to start early copper mine works",
+      "src": "Mining.com",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZHhUYUpZdmVOWGpZSHRKRGlPZmZfUmRZWFhsVzkycjh1ejE2R2htWHh2cjJmdC0zUVg2b3RRRUtQcXhyXzRoUmdQNUgwS1RINlhYdzhDNXNLS1A2ekNoUkFabzI1b1AyR0lNdXhfQmhnMzVTWTNVSHN3eVI0Si1mdDhQVl8?oc=5"
+    },
+    {
+      "date": "2026-11-24",
+      "text": "Copper retreats after Nvidia-fuelled rally",
+      "src": "Business Recorder",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPdlR6VW5ESmpGLWNwWHVGSkRDZDFTNElLWklvaU1uU2RQS1B6NTNzSDZYN3g4NHR6d3JUc29XUllMUVk5bWh0dm84cmhZaWdzeW1pVEFoZmFGbmwwNEJZa0xrVU11dWo5ODRsaTdWcmtHQzkxVUpLRFViLWgtX2RkZDBRczhJYWpadnfSAVZBVV95cUxOTDItWTVqS21SNEtRb055eFMza2dUR3RQR01IWG5LN2hXaXVvSmY0MVhQZHZuY01CbWFWUG9rY1RxYnRuNWlEX3U4RTBMRXl1cElNWGpnUQ?oc=5"
     }
   ],
   "ai_analysis": "",
   "ai_error": "未自动生成，点击按钮手动生成",
-  "ai_date": "2026-11-26"
+  "ai_date": "2026-11-27"
 }

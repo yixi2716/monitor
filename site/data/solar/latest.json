@@ -1,19 +1,19 @@
 {
-  "date": "2026-11-26",
-  "hs300": 3900.55,
-  "hs300_chg": 0.06,
-  "solar_etf": 0.619,
-  "solar_etf_chg": -0.8,
-  "newenergy_etf": 1.751,
-  "newenergy_etf_chg": -1.19,
-  "storage_etf": 1.245,
-  "storage_etf_chg": -0.72,
-  "tnx": 4.85,
-  "usdcny": 6.6592,
-  "excess": -0.86,
-  "dd_from_high": 0.4768,
+  "date": "2026-11-27",
+  "hs300": 4063.06,
+  "hs300_chg": 4.17,
+  "solar_etf": 0.661,
+  "solar_etf_chg": 6.79,
+  "newenergy_etf": 1.875,
+  "newenergy_etf_chg": 7.08,
+  "storage_etf": 1.351,
+  "storage_etf_chg": 8.51,
+  "tnx": 4.94,
+  "usdcny": 6.6449,
+  "excess": 2.62,
+  "dd_from_high": 0.4413,
   "pb_ratio": 0.1333,
-  "turnover_ratio": 0.866,
+  "turnover_ratio": 0.943,
   "stocks": {
     "tongwei": {
       "close": null,
@@ -46,44 +46,44 @@
   },
   "news": [
     {
-      "date": "2026-11-26",
-      "text": "山东招远龙王沟光伏发电项目场区通过完工验收 - 国际太阳能光伏网",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1fRU1xc05yTGVDVUhjOFcwWW1lQ1VxNWxFNm5Pekw0alhpbFZ5c2QzQTUxQ0w0TERDV3F2emQ5c3dVN0loMG5Qb0RiRk1PMS05V3Zuc1ozVmxDN1dp?oc=5"
+      "date": "2026-11-27",
+      "text": "河北省光伏组件智能制造及多场景应用技术创新中心技术指导委员会第二次会议顺利召开 - 国际太阳能光伏网",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5sUElQX0o4LUQ1ZnR5T3drNV8xelpSRm9aZGdvYzBzWWtxdUpKbzZJWGJidHZkMkViT1plc1VhUFdGNW1NRXFPZ2d3cHU0ajIwcHRXaG80WmxPMHdQ?oc=5"
     },
     {
-      "date": "2026-11-26",
-      "text": "隆基发布Hi-MO X10满屏三防组件，屏占比98.58% - 新华网",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUTNxNEhyLUFRUEQ2VHZMd2MtN3FhY2psVjlIRGVJZTk1aTBNOUtMX19mVkZkNnctQnlaNXFHbXJwN3dkOTEta2pHTVhLYXBGLXdxZzVSU3FMYnJFU2ppMUZLeXNEZjhIZV9pbldBYk4xRHJlT202MVU5cDZwOHNFbg?oc=5"
+      "date": "2026-11-27",
+      "text": "记者手记丨给生活充上电：古巴社区光伏充电站见闻 - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE80dmRDSFZQODNNckEzX0FjN3dYT25xcjlMYllKcG85Z2R0MUhELXJvTzB4eUVyLWd4ZENBS1p1Y29lUms5WFh2OXd0Vkt3RzJ1QjNfS2NRNFFSUEcxZjJUdDF6SXdiR3VXRVJ6Q2dTaUtNcTFLM01lYnVPWFN6YkE?oc=5"
     },
     {
-      "date": "2026-11-26",
-      "text": "给全国风电机组穿上光伏衣，可增3座三峡电站！院士路演有机薄膜太阳能电池 - 上观新闻",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9NZ2g1dkxuaXptdlFJcDQwcDZVMlNVbnR3UXYwZ0h2RHotZFI2aUtSUnJ2anV5Uk8tR0JhYTZIU1FlRTBPODJDSG5SUHVUV3JyZTM2NEJNQU5ZWk1q?oc=5"
+      "date": "2026-11-27",
+      "text": "国家能源集团青海共和分公司两座光伏电站获评全国大型光伏场（站）劳动竞赛优胜场站 - 中国能源新闻网",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA2cG1TSi01NVhodWtZNW14NmROMXA4Q21odVZ2TUk0dXJlMVNPNXgwRTN5akpWV3JGSlhNNklzNTZnblIxcWlNQy1WVktWT0tZc2dFdHlUU2d6akFHelAzZUE0VVdxV2xMUkJLWWpXUXlSNmc?oc=5"
     },
     {
-      "date": "2026-11-26",
-      "text": "钙钛矿光伏技术有望面向空天应用 中国科研团队刷新电池效率 - 中国新闻网",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBkVHJjU29obnRyYlJrVXJQS2pMNWtyMWR0SThnRGxPU1hyOERSMmdGbmJTSG50ZHVTZVJDeExLUF9sUW8yVFRVMVZhM1NkWEdWY0dWTEdSMzZyaGxnX3JUcW42V0VkZmw3?oc=5"
+      "date": "2026-11-27",
+      "text": "光伏2026这一年：亏损周期里继续“反内卷”，集体押注储能、技术和AI - 钛媒体",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBwYm1CZzZCWU9rb1B1OHpCUzAzMHhOSVZVZjBBZVktNndld3NKdW9rdkM1aVY3Snd3em9wZk5ZYjJENzg2M0FlQWpIWXY?oc=5"
     },
     {
-      "date": "2026-11-26",
-      "text": "汉伏能源携手以色列Sadot Energy，加速布局中东分布式光伏市场_世纪新能源网-光伏储能风电氢能电力行业门户Century New Energy Network https://www.ne - 世纪新能源网",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1neEtmdlM3MTBYQk1sQzNIbm1CazcybVM0Nm40ZnYxMzN5WUEzNlZaZTVpajFtNU1nVXExanpRRXN3ZzAtazM0N21ReFBoZERrcmRxUg?oc=5"
+      "date": "2026-11-27",
+      "text": "高效订单放量背后，光伏竞争逻辑生变 - 新京报",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1ZalF1LVdXWHh0U05PSGt3T2UzOTZfSDRnNU84T2d1OHM5Vm9qcmIxYWpORTJaRVZFMkdyZzJLQVlPdktzZ2lqSnpRS0VvTmhpMEctME1lTXZxV2xveGl4YktiZjA?oc=5"
     },
     {
-      "date": "2026-11-26",
-      "text": "南方财经全媒体集团 - 南方财经",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBnWDdoNlRucmZqLVpxZXNfUmd0Ql9WbUpBRmU4cllTN3dIekRIVERaSzJXdFdGNU1RVUkyUmU3eXplSWRhY0ZYU2VkbU16X0FTanJOYmVZcHZuQmM5bmFDSVhKeDNPdFJiZHc?oc=5"
+      "date": "2026-11-27",
+      "text": "广期所发布关于调整多晶硅期货相关合约交易限额的通知 - 上海有色金属网",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBXZU9IZmdETExCX21aSjhjZC1XWE5ESGtHT1RpQzdZWDdaX003MVNlOF92a0xTNFNreGRRTEN1RDhUNHE2d0VHTkhQYkN2NlBRSEdJdDZtNkQyT1ZKVnlTUVloZFNtZl9lQU04NDlpN3BLQQ?oc=5"
     },
     {
-      "date": "2026-11-26",
-      "text": "巡检光伏保发电 绿色赋能促发展 - 经济参考报",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNbExrLUJrdFNjVG5mSGl1YU1nYldYWVdQalFWaFR0bGx5enpXVkVQODE0clBSMWpQSjZ4eTdQMGpNbWl2NHAyeEdSVTdxZG16V1NoaklIb29WTkQ4Tm9xOE56WndtTUlMU19nQkJ5UmRqclA2elFoUVhJVlk5ZzVKQQ?oc=5"
+      "date": "2026-11-27",
+      "text": "全国首份光伏组件数字护照（DPP）白皮书在成都发布 - 经济参考报",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWmx3OGJQMENKUWZnTnpua1FhLVUzdGp3Q195YjJQUmJCWm1qem5NcGxDd3dBOWVtZzVXWWl6RW5fVDVKRmNCYndDNWlRejhad1k1cjlTdk4tT0F5N1p6MzVCamVxWmcwOTg0ejRNMmV1Tlc0MXdVXzk1STUyLUhNSA?oc=5"
     },
     {
-      "date": "2026-11-26",
-      "text": "国网龙湾供电分公司：精准调试赋绿能 四可管控护电网 - 温州新闻网",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBQNWE2azZ3VHNYbzJJX2ZRSjhaSVZEdnNYLThVR2tXNTFtLUE1aWx2a1QyQ2h0Y01NT1Y1Y3NiYkVuY1U0akF1TVBYUzNRUVBJNk5RUERHYWRpWmp5V1pBcXVxNHMtcVJVazM5dQ?oc=5"
+      "date": "2026-11-27",
+      "text": "硅片、电池片库存小幅增加，高效组件报价有下滑迹象 - 国际电子商情",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1EMjZLQzRnUVotM2NRYjI5d29rNmVKWmd6LUs2OWtWRGZhczFjSVNIOVdJa0N4a3d0d3BjZVRISXZGa1ZVS3U3NG5yV0tVS3hRZ09KNEVtOThkUQ?oc=5"
     }
   ],
   "ai_analysis": "",
